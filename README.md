@@ -1,6 +1,6 @@
-# PATRIC Documentation Repo
+# BV-BRC Documentation Repo
 
-This repository is for manage PATRIC static contents such as Website Tutorial, CLI Tutorial, User Guides, and PATRIC eNews. 
+This repository is for manage BV-BRC static contents such as Website Tutorial, CLI Tutorial, User Guides, and BV-BRC eNews. 
 See [here](./Setup.md) for configuration.
 
 ## Nginx

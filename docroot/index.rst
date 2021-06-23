@@ -7,10 +7,10 @@ BV-BRC Documentation
    :maxdepth: 2
    :caption: Help Resources:
 
-..
-   quickstart_video
-
    user_guides/index
+
+.. 
+  quickstart_video
 ..
    tutorial/index
 ..

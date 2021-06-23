@@ -33,11 +33,9 @@ Primary access to these components is provided through the BV-BRC main menu whic
 
 -  `Services <services_tab.html>`_ - links to data processing and analysis pipelines in BV-BRC. Currently, services are available for processing user-supplied data including Genome Assembly, Genome Annotation, BLAST, Variation Analysis, RNA-Seq Analysis, Protein Family Comparison, Proteome Comparison, Pathway Comparison, and others. 
 
-
 -  `Registration <registration.html>`_ - allows creation of a BV-BRC account, enabling use of BV-BRC services and a private workspace. Alternatively, users can use the "Sign In" option if they already have a BV-BRC account. 
 
-- Other information (the three-line "hamburger" icon on the top right of the page) - links to pages containing additional information such as News, Publications, About PATRIC, Citing , Scientific Working Group, Personnel, Collaborators, Related Sites, and System
-   Architecture.
+- Other information (the three-line "hamburger" icon on the top right of the page) - links to pages containing additional information such as About BV-BRC, Contact Us, Our Team, Announcements, Outreach, Publications, Citing BV-BRC, Related Resources, and the BV-BRC GitHub code repository.
 
 -  `Views, Tables, Action Bar <views_tables_action-bar.html>`_ - Common navigation elements and tools throughout the website. 
 

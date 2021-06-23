@@ -1,7 +1,7 @@
 User Guides
 ============
 
-The BV-BRC website provides an entry point to integrated data and tools for viral and bacterial infectious disease research. The website is organized by data types and analysis tools. These **User Guides** serve as a reference for each of the components of the resource, including information on what the component iss, what it does, where it is located, and an overview of its features. 
+The BV-BRC website provides an entry point to integrated data and tools for viral and bacterial infectious disease research. The website is organized by data types and analysis tools. These **User Guides** serve as a reference for each of the components of the website, including information on what the component is, what it does, where it is located, and an overview of its features. 
 
 .. toctree::
    :maxdepth: 1
@@ -33,11 +33,6 @@ Primary access to these components is provided through the BV-BRC main menu whic
 
 -  `Services <services_tab.html>`_ - links to data processing and analysis pipelines in BV-BRC. Currently, services are available for processing user-supplied data including Genome Assembly, Genome Annotation, BLAST, Variation Analysis, RNA-Seq Analysis, Protein Family Comparison, Proteome Comparison, Pathway Comparison, and others. 
 
-..
--  Help - links to documentaion pages containing a BV-BRC Quickstart video, User Guides, Tutorials, Webinars, and information to Provide Feedback.
-
-..
--  `Global Search <global_search.html>`_ - searches BV-BRC databases to quickly locate genomes, genes, and other information via keywords.
 
 -  `Registration <registration.html>`_ - allows creation of a BV-BRC account, enabling use of BV-BRC services and a private workspace. Alternatively, users can use the "Sign In" option if they already have a BV-BRC account. 
 
@@ -49,6 +44,11 @@ Primary access to these components is provided through the BV-BRC main menu whic
 -  `System Requirements <system_requirements.html>`_ - Minimal hardware and software needs for the user's computer in order to be able to use BV-BRC's features and functionality successfully.
 
 ..
-A "BV-BRC Quickstart" video tutorial providing an overview of the BV-BRC website is also available from the Help Menu.
+  A "BV-BRC Quickstart" video tutorial providing an overview of the BV-BRC website is also available from the Help Menu.
 
+..
+  Help - links to documentaion pages containing a BV-BRC Quickstart video, User Guides, Tutorials, Webinars, and information to Provide Feedback.
+
+..
+  `Global Search <global_search.html>`_ - searches BV-BRC databases to quickly locate genomes, genes, and other information via keywords.
 

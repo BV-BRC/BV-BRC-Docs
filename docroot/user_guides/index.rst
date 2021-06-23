@@ -35,7 +35,7 @@ Primary access to these components is provided through the BV-BRC main menu whic
 
 -  `Registration <registration.html>`_ - allows creation of a BV-BRC account, enabling use of BV-BRC services and a private workspace. Alternatively, users can use the "Sign In" option if they already have a BV-BRC account. 
 
-- Other information (the three-line "hamburger" icon on the top right of the page) - links to pages containing additional information such as About BV-BRC, Contact Us, Our Team, Announcements, Outreach, Publications, Citing BV-BRC, Related Resources, and the BV-BRC GitHub code repository.
+- Other Information - Accessed by clicking the three-line "hamburger" icon on the top right of the page, provides links to pages containing additional information such as About BV-BRC, Contact Us, Our Team, Announcements, Outreach, Publications, Citing BV-BRC, Related Resources, and the BV-BRC GitHub code repository.
 
 -  `Views, Tables, Action Bar <views_tables_action-bar.html>`_ - Common navigation elements and tools throughout the website. 
 

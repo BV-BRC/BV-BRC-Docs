@@ -53,9 +53,9 @@ source_suffix = {
 master_doc = 'index'
 
 # General information about the project.
-project = 'PATRIC Documentation'
-copyright = '2020 | The PATRIC Team'
-author = 'PATRIC team'
+project = 'BV-BRC Documentation'
+copyright = '2021 | The BV-BRC Team'
+author = 'BV-BRC team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

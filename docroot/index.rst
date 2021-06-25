@@ -1,24 +1,33 @@
-:github_url: https://github.com/PATRIC3/p3_docs/blob/master/docroot/index.rst
+:github_url: https://github.com/BV-BRC/bvbrc_docs/edit/develop/docroot/index.rst
 
-PATRIC Documentation
+BV-BRC Documentation
 =====================
 
 .. toctree::
    :maxdepth: 2
-   :caption: PATRIC Resources:
+   :caption: Help Resources:
 
-   quickstart_video
    user_guides/index
+
+.. 
+  quickstart_video
+..
    tutorial/index
+..
    common_tasks/index
+..
    cli_tutorial/index
+..
    webinar/index
+..
    videos/index
+..
    workshops
 
-.. toctree::
+.. 
+   toctree::
    :maxdepth: 2
-   :caption: PATRIC Information:
+   :caption: BV-BRC Information:
 
    about
    contact

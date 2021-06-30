@@ -8,7 +8,7 @@ The Sequences Tab provides a table of all the contiguous sequences (chromosome, 
   * [Genomes Table](../organisms_taxon/genome_table.html)
   * [Genome Browser](../organisms_genome/genome_browser.html)
 
-## Accessing the Sequences Table on the PATRIC Website
+## Accessing the Sequences Table
 Clicking the Sequences Tab in a Taxon View displays the Sequences Table (shown below), listing all the contiguous sequences (chromosome, contig, plasmid) that comprise the set of genomes corresponding to the selected taxon level.
 
 ![Sequences Table](../images/sequences_tab.png)
@@ -24,7 +24,7 @@ Within this table you may do the following:
 
 ### Filter Tool
 
-As with all tables in PATRIC, the Filters tool is available to narrow the display of the items in the table, show below:
+As with all tables, the Filters tool is available to narrow the display of the items in the table, show below:
   
 ![Sequences Filter Panel](../images/sequences_filter_panel.png)
 

@@ -1,12 +1,12 @@
 Organisms
 ===========
-The top-level Organisms Menu provides direct access to genus-level data for bacteria in PATRIC corresponding to `NIAID's Priority Pathogens <https://www.niaid.nih.gov/research/emerging-infectious-diseases-pathogens>`_. It also provides direct access to summary-level data for all bacteria, archaea, phages, and eukaryotic hosts in PATRIC.
+The top-level Organisms Menu provides direct access to genus-level data for bacteria and viruses in BV-BRC corresponding to `NIAID's Priority Pathogens <https://www.niaid.nih.gov/research/emerging-infectious-diseases-pathogens>`_. It also provides direct access to summary-level data for all bacteria, viruses, archaea, phages, and eukaryotic hosts in BV-BRC.
 
-.. image:: ./images/organisms_menu.png
+.. image:: ./images/bv_organisms_menu.png
 
-Clicking on one of the menu items will display the corresponding taxon-level Overview page in PATRIC. From there, data are accessible at the taxon, genome, and feature levels, as described in the User Guides below. 
+Clicking on one of the menu items will display the corresponding taxon-level Overview page. From there, data are accessible at the taxon, genome/strain, and feature (gene, protein) levels, as described in the User Guides below. 
 
-Browsing PATRIC by Taxon
+Browsing BV-BRC by Taxon
 -------------------------
 
 .. toctree::
@@ -28,7 +28,7 @@ Browsing PATRIC by Taxon
    organisms_taxon/interactions
 
 
-Browsing PATRIC by Genome
+Browsing BV-BRC by Genome/Strain
 --------------------------
 
 .. toctree::
@@ -39,7 +39,7 @@ Browsing PATRIC by Genome
    organisms_genome/circular_genome_viewer
 
 
-Browsing PATRIC by Gene
+Browsing BV-BRC by Gene/Protein
 ------------------------
 
 .. toctree::

@@ -8,19 +8,19 @@ The Specialty Genes Tab provides a table of all the annotated "specialty genes" 
   * [Genome Annotations](../organisms_taxon/genome_annotations.html)
   * [Features Tab](../organisms_taxon/features.html)
 
-## Accessing the Specialty Genes Table on the PATRIC Website
-Clicking the Specialty Genes Tab in a Taxon View displays the Specialty  table (shown below), listing all the PATRIC features annotated as Specialty Genes corresponding to the set of genomes in the selected taxon level.
+## Accessing the Specialty Genes Table
+Clicking the Specialty Genes Tab in a Taxon View displays the Specialty  table (shown below), listing all the features annotated as Specialty Genes corresponding to the set of genomes in the selected taxon level.
 
 ![Specialty Genes Table](../images/specialty_genes_tab.png)
-PATRIC identifies features as Specialty Genes via BLASTP-based sequence similarity mapping to reference genes are collected from reputed external databases or manually curated by the PATRIC team. These features (genes) include
+BV-BRC identifies features as Specialty Genes via BLASTP-based sequence similarity mapping to reference genes are collected from reputed external databases or manually curated by the BV-BRC team. These features (genes) include
 
-* **Antibiotic Resistance:** Mapped from [CARD](https://card.mcmaster.ca/), [NDARO](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/), and PATRIC-curated AMR genes.
+* **Antibiotic Resistance:** Mapped from [CARD](https://card.mcmaster.ca/), [NDARO](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/), and curated AMR genes.
 
 * **Drug Targets:** Mapped from [DrugBank](https://www.drugbank.ca/) and [TTD](https://db.idrblab.org/ttd/).
 
 * **Human Homologs:** Mapped from [Reference Human Genome at NCBI](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26).
 
-* **Virulence Factors:** Mapped from [VFDB](http://www.mgc.ac.cn/VFs/), [Victors](http://www.phidias.us/victors/), and PATRIC-curated virulence factors.
+* **Virulence Factors:** Mapped from [VFDB](http://www.mgc.ac.cn/VFs/), [Victors](http://www.phidias.us/victors/), and curated virulence factors.
 
 * **Transporters:** Mapped from [TCDB](http://www.tcdb.org/).
 
@@ -38,7 +38,7 @@ Within this table you may do the following:
 
 ### Filter Tool
 
-As with all tables in PATRIC, the Filters tool is available to narrow the display of the items in the table, show below:
+As with all tables, the Filters tool is available to narrow the display of the items in the table, show below:
   
 ![Specialty Genes Filter Panel](../images/specialty_genes_filter_panel.png)
 
@@ -57,8 +57,8 @@ After selecting one or more of the features by clicking the checkbox beside the 
 * **Genomes:** Loads the Genomes Table, listing the genomes that correspond to the selected features. *Available only if multiple features are selected.*
 * **FASTA:** Provides the FASTA DNA or protein sequence for the selected feature(s).
 * **ID Map:** Provides the option to map the selected feature(s) to multiple other idenfiers, such as RefSeq and UniProt.
-* **MSA:** Launches the PATRIC Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
-* **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in PATRIC in which the selected features are found.
+* **MSA:** Launches the Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
+* **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in which the selected features are found.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
 More details are available in the [Selection Action Bar](../action_bar.html) user guide.

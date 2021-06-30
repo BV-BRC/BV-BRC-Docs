@@ -4,10 +4,8 @@
 The Genomes Tab provides a list of all the genomes and associated metadata in corresponding to the selected Taxon View level or for the user-defined Genome Group. From this page, genomes can be sorted, filtered, collected into groups, and downloaded. 
 
 ### See also
-<! --- 
   * [Genome Annotations](../organisms_taxon/genome_annotations.html)
   * [Genome Metadata](../organisms_taxon/genome_metadata.html)
---->
 
 ## Accessing the Genomes Tab
 Clicking the Genomes Tab in a Taxon View displays the Genome Table, listing of all of the genomes and associated metadata in corresponding to the selected Taxon View level or for the user-defined Genome Group. 

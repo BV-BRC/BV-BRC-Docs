@@ -35,4 +35,4 @@ BV-BRC provides numorous tools tp assemble, annotate, and analyze public and/or 
 - `Proteome Comparison <https://alpha.bv-brc.org/app/SeqComparison>`_
 
 
-For more services and tools available at BV-BRC, visit `Services and Tools User Guide <../services/services_tab.html>`_.
+For more services and tools available at BV-BRC, visit `Services and Tools User Guide <.../services/services_tab.html>`_.

@@ -11,12 +11,12 @@ The BV-BRC website resource provides an entry point to integrated data and tools
    data/index
    workspace_groups_upload
    services_tab
-
-..
-   global_search
    registration
    views_tables_action-bar
    system_requirements
+
+..
+   global_search
    data_submission_to_patric
    ftp
 

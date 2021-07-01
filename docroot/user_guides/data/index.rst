@@ -39,12 +39,15 @@ The Data Types submenu items link to summary information pages that provide desc
    specialty_data_collections/niaid_systems_biology
    specialty_data_collections/niaid_functional_genomics
 
-Download Data
--------------
+..
+   Download Data
+   -------------
 
-Access |ftp_link|.
+..
+   Access |ftp_link|.
 
-.. |ftp_link| raw:: html
+.. 
+   |ftp_link| raw:: html
 
-  <a href="ftp://ftp.patricbrc.org/" target="_blank">PATRIC FTP Server</a><br>
+  <a href="ftp://ftp.patricbrc.org/" target="_blank">BV-BRC FTP Server</a><br>
   (opens in a new tab)

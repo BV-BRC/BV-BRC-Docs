@@ -11,7 +11,7 @@ There are 3 types of bacterial protein families computed in BV-BRC:
 
 - **FIGFams:** FIGfams are sets of isofunctional homologs, i.e., a set of protein sequences that are similar along their full length and believed to implement the same function. FIGfams are derived from a collection of functional subsystems, as well as correspondences between genes in closely related strains.
 
-Our `Protein Family Sorter Tool <http://docs.alpha.bv-brc.org/user_guides/organisms_taxon/protein_families.html>`_ allows researchers to compare protein families across closely related or diverse groups of genomes, visualize them using an interactive Heatmap, and generate multiple sequence alignments (with phylogenetic trees) for individual families.
+Our `Protein Family Sorter Tool <https://alpha.bv-brc.org/app/ProteinFamily>`_ allows researchers to compare protein families across closely related or diverse groups of genomes, visualize them using an interactive Heatmap, and generate multiple sequence alignments (with phylogenetic trees) for individual families.
 
 **Data Processing and Clean Up**
 

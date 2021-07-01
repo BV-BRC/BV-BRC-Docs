@@ -1,7 +1,7 @@
 Genomic Features
 ================
 
-Genomic Features are defined segments of a genome. Most often features will code for proteins or RNAs, however some correspond to pseudogenes or repeat regions. We currently support over 40 `https://docs.alpha.bv-brc.org/user_guides/organisms_taxon/genome_annotations.html>`_.
+Genomic Features are defined segments of a genome. Most often features will code for proteins or RNAs, however some correspond to pseudogenes or repeat regions. We currently support over 40 `genomic feature types <https://docs.alpha.bv-brc.org/user_guides/organisms_taxon/genome_annotations.html>`_.
 
 Learn how to find and use PATRIC Feature Tables in our `Feature Tab User Guide <https://docs.alpha.bv-brc.org/user_guides/organisms_taxon/genome_annotations.html>`_.
 

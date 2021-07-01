@@ -20,4 +20,3 @@ Relevant Services and Tools
 ---------------------------
 
 - `Comparative Pathway Analysis <https://alpha.bv-brc.org/app/ComparativePathway>`_
-- `Model Reconstruction <https://alpha.bv-brc.org/app/Reconstruct>`_

@@ -6,7 +6,7 @@ The Genome Browser provides an interactive graphical representation of the align
 ### See also
   * [Genome Browser](../organisms_genome/genome_browser.html)
 
-## Accessing the Genome Browser on the PATRIC Website
+## Accessing the Genome Browser
 Clicking the Genome Browser Tab in a Feature View displays the interactive Genome Browser, zoomed in to the feature with highlighting.  shown below. 
 
 ![Genome Browser](../images/genome_browser_feature.png)

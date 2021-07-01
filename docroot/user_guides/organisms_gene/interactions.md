@@ -6,17 +6,17 @@ The Interactions Tab provides experimentally and computationally derived host-pa
 ### See also
   * [Interactions Tab, Taxon/Genome-Level](../organisms_taxon/interactions.html)
 
-## Accessing the Feature-Level Interactions Table on the PATRIC Website
-Clicking the Interactions Tab in a Feature View displays the Interactions Table, listing of all of the interactions in PATRIC associated with that feature.
+## Accessing the Feature-Level Interactions Table
+Clicking the Interactions Tab in a Feature View displays the Interactions Table, listing of all of the interactions associated with that feature.
 
 ![Interactions Table, Feature-Level](../images/interactions_table_feature.png)
 
 The tables include the following columns (fields) for each interaction, and are based on [PSI-MITAB](https://wiki.reactome.org/index.php/PSI-MITAB_interactions) format:
 
-* **Interactor A:** PATRIC ID (unique primary identifier) for one of the two interacting features (protein-coding genes).
+* **Interactor A:** ID (unique primary identifier) for one of the two interacting features (protein-coding genes).
 * **Gene A:** Gene name for the feature, if available.
 * **Desc A:** Protein product (functional annotation) associated with the feature.  
-* **Interactor B:** PATRIC ID for the other of the two interacting features.
+* **Interactor B:** ID for the other of the two interacting features.
 * **Gene B:** Gene name for the feature, if available.
 * **Desc B:** Protein product associated with the feature.  
 * **Category:** Category of interaction: 
@@ -66,7 +66,7 @@ After selecting one or more of the nodes by clicking it (ctrl-clicking to select
 * **Feature:** Loads the Feature Page for the selected feature. *Available only if a single feature is selected.*
 * **Features:** Loads the Features Table for the selected features. *Available only if multiple features are selected.*
 * **FASTA:** Provides the FASTA DNA or protein sequence for the selected feature(s).
-* **MSA:** Launches the PATRIC Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
+* **MSA:** Launches the Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
 More details are available in the [Action Buttons](../other/action_buttons.html) user guide.

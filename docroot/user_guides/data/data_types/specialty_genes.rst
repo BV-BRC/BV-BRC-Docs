@@ -1,7 +1,7 @@
 Specialty Genes
 ===============
 
-Specialty Genes refers to genes that are of particular interest to infectious disease researchers, such as virulence factors, antibiotic resistance genes, drug targets, and human homologs. For each class, reference genes are collected from reputed external databases or manually curated by the PATRIC team and then mapped to their homologs based on sequence similarity using BLASTP.
+Specialty Genes refers to bacterial genes that are of particular interest to infectious disease researchers, such as virulence factors, antibiotic resistance genes, drug targets, and human homologs. For each class, reference genes are collected from reputed external databases or manually curated by the BV-BRC team and then mapped to their homologs based on sequence similarity using BLASTP.
 
 We also provide a data summary targeted specifically to `Antimicrobial Resistance (AMR) <./antimicrobial_resistance.html>`_.
 
@@ -23,7 +23,7 @@ Drug Targets refer to the proteins being targeted by known/approved/experimental
 
 Essential Genes
 ---------------
-Essential genes refer to the genes that are critical for the organism's survival. We havve conducted a `flux-balance analysis <http://www.nature.com/nbt/journal/v28/n3/abs/nbt.1614.html>`_ for reference and representative genomes in PATRIC and mapped essential genes.
+Essential genes refer to the genes that are critical for the organism's survival. We havve conducted a `flux-balance analysis <http://www.nature.com/nbt/journal/v28/n3/abs/nbt.1614.html>`_ for reference and representative genomes and mapped essential genes.
 
 Human Homologs
 --------------
@@ -37,7 +37,7 @@ Virulence Factors
 -----------------
 Virulence factors refer to the gene products that enable bacteria to establish itself on or within a host organism and enhance its potential to cause disease. We have integrated and mapped virulence factor genes from the following sources:
 
-- `PATRIC_VF <https://patricbrc.org/view/SpecialtyGeneList/?and(eq(source,PATRIC_VF),eq(evidence,Literature))>`_
+- `PATRIC_VF <https://alpha.bv-brc.org/view/SpecialtyGeneList/?and(eq(source,PATRIC_VF),eq(evidence,Literature))>`_
 - `VFDB <http://www.mgc.ac.cn/VFs/>`_
 - `Victors <http://www.phidias.us/victors/>`_ 
 
@@ -51,4 +51,4 @@ Data Processing and Clean Up Process
 Accessing Specialty Gene Data
 -----------------------------
 
-Specialty genes are accessible from the "Specialty Genes" tab available at the genome and taxon levels on the website. For more information on how to access and use specialty gene data, please visit `Specialty Genes Tab User Guide <https://docs.patricbrc.org/user_guides/organisms_taxon/specialty_genes.html>`_.
+Specialty genes are accessible from the "Specialty Genes" tab available at the genome and taxon levels on the website. For more information on how to access and use specialty gene data, please visit `Specialty Genes Tab User Guide <https://docs.alpha.bv-brc.org/user_guides/organisms_taxon/specialty_genes.html>`_.

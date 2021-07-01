@@ -1,7 +1,7 @@
 Protein Families
 ================
 
-As part of the genome annotation process, protein are mapped to protein families, which allows users to quickly identify the homologs of a proteiun in other closely related organisms and enable comparative genomic analysis across multiple genomes of the same or different taxonomic groups. 
+As part of the bacterial genome annotation process, protein are mapped to protein families, which allows users to quickly identify the homologs of a proteiun in other closely related organisms and enable comparative genomic analysis across multiple genomes of the same or different taxonomic groups. 
 
 There are 3 types of bacterial protein families computed in BV-BRC:
 

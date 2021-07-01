@@ -1,9 +1,9 @@
 Genomic Features
 ================
 
-Genomic Features are defined segments of a genome. Most often features will code for proteins or RNAs, however some correspond to pseudogenes or repeat regions. We currently support over 40 `Genomic Feature Types <https://docs.patricbrc.org/user_guides/organisms_taxon/genome_annotations.html>`_.
+Genomic Features are defined segments of a genome. Most often features will code for proteins or RNAs, however some correspond to pseudogenes or repeat regions. We currently support over 40 `Genomic Feature Types <..organisms_taxon/genome_annotations.html>`_.
 
-Learn how to find and use PATRIC Feature Tables in our `Feature Tab User Guide <http://docs.patricbrc.org/user_guides/organisms_taxon/features.html>`_.
+Learn how to find and use PATRIC Feature Tables in our `Feature Tab User Guide <..organisms_taxon/features.html>`_.
 
 
 Genome Annotation
@@ -59,7 +59,7 @@ Data Processing and Clean up
 Relevant Services and Tools
 ---------------------------
 
-- `BLAST <https://patricbrc.org/app/BLAST>`_
-- `Protein Family Sorter <https://patricbrc.org/app/ProteinFamily>`_
-- `Proteome Comparison <https://patricbrc.org/app/SeqComparison>`_
+- `BLAST <https://alpha.bv-brc.org/app/BLAST>`_
+- `Protein Family Sorter <https://alpha.bv-brc.org/app/ProteinFamily>`_
+- `Proteome Comparison <https://alpha.bv-brc.org/app/SeqComparison>`_
 

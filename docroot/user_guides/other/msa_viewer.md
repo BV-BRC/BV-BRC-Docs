@@ -6,7 +6,7 @@ The Multiple Sequence Alignment (MSA) Viewer provides an interactive visualizati
 ### See also
   * [Features Tab](../organisms_taxon/features.html)
 
-## Accessing the MSA Viewer on the PATRIC Website
+## Accessing the MSA Viewer
 The MSA can be accessed by selecting a set of features in the Features Tab or any other table that contains features/genes (nucleotide sequences) or proteins (amino acid sequences), then clicking the MSA button in the vertical green Action Bar to the right of the table, as shown below: 
 
 ![MSA Action Button Selection](../images/msa_action_button_select.png)
@@ -48,7 +48,7 @@ After selecting one or more of the experiments by clicking the checkbox beside t
 * **ID Type:** Allows changing labels on in gene tree from genome name to genomes ID.
 * **Filter:** Allows filtering (hiding) of columns based on % conservation and % gaps
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
-* **MSA:** (Re-)launches the PATRIC Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
+* **MSA:** (Re-)launches the Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
 * **Feature:** Loads the Feature Page for the selected feature. *Available only if a single feature is selected.*
 * **Features:** Loads the Features Table for the selected features. *Available only if multiple features are selected.*
 * **Genome:** Loads the Genome View Overview page corresponding to the selected feature.  *Available only if a single feature is selected.*

@@ -6,9 +6,9 @@ alignment of genes and other genomic data.
 
 ### See also
   * [Genome Annotations](../organisms_taxon/genome_annotations.html)
-  * [Exploring a (private) genome in PATRIC Tutorial](http://docs.patricbrc.org/tutorial/private_genome/private_genome.html)
+  * Exploring a (private) genome Tutorial
 
-## Accessing the Circular Genome Viewer on the PATRIC Website
+## Accessing the Circular Genome Viewer
 Clicking the Circular Viewer tab in a Genome View displays the interactive Circular Genome Viewer, shown below. 
 
 ![Circular Genome Viewer](../images/circular_viewer.png)

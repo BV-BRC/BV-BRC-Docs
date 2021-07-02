@@ -1,11 +1,11 @@
 # Comprehensive Genome Analysis Service
 
 ## Overview
-The Comprehensive Genome Analysis Service provides a streamlined analysis **"meta-service"** that accepts raw reads and performs a comprehensive analysis including assembly, annotation, identification of nearest neighbors, a basic comparative analysis that includes a subsystem summary, phylogenetic tree, and the features that distinguish the genome from its nearest neighbors.
+The bacterial Comprehensive Genome Analysis Service provides a streamlined analysis **"meta-service"** that accepts raw reads and performs a comprehensive analysis including assembly, annotation, identification of nearest neighbors, a basic comparative analysis that includes a subsystem summary, phylogenetic tree, and the features that distinguish the genome from its nearest neighbors.
 
 ### See also
-  * [Comprehensive Genome Analysis Service](https://patricbrc.org/app/ComprehensiveGenomeAnalysis)
-  * [Comprehensive Genome Analysis Service Tutorial](https://docs.patricbrc.org//tutorial/comprehensive-genome-analysis/comprehensive-genome-analysis.html)
+  * [Comprehensive Genome Analysis Service](https://alpha.bv-brc.org/app/ComprehensiveGenomeAnalysis)
+  * Comprehensive Genome Analysis Service Tutorial
   * [Genome Assembly Service User Guide](./genome_assembly_service.html)
   * [Genome Annotation Service User Guide](./genome_annotation_service.html)
   * [Phylogenetic Tree Building Service User Guide](./phylogenetic_tree_building_service.html)
@@ -14,7 +14,7 @@ The Comprehensive Genome Analysis Service provides a streamlined analysis **"met
 ## Using the Comprehensive Genome Analysis Service
 The **Comprehensive Genome Analysis** submenu option under the **Services** main menu (Genomics category) opens the Comprehensive Genome Analysis input form (shown below). *Note: You must be logged into PATRIC to use this service.*
 
-![Comprehensive Genome Analysis Menu](../images/services_menu.png)
+![Comprehensive Genome Analysis Menu](../images/bv_services_menu.png)
 
 ## Options
 ![Comprehensive Genome Analysis Input Form](../images/genome_analysis_input_form.png)
@@ -104,7 +104,7 @@ The Comprehensive Genome Analysis Service generates several files that are depos
    * Subsystem analysis - summary
    * Phylogenetic analysis - phylogenetic tree generated using the analyzed genome and the closest Reference and Representative genomes
    * References - citations to all tools used by the service
- * **annotated.genome** - A special "Genome Typed Object (GTO)" JSON-format file that encapsulates all the data from the annotated genome. See [Extracting and Mining Genome Typed Objects](https://docs.patricbrc.org/cli_tutorial/cli_getting_started.html#extracting-and-mining-genome-typed-objects-gtos) for more information.
+ * **annotated.genome** - A special "Genome Typed Object (GTO)" JSON-format file that encapsulates all the data from the annotated genome. See Extracting and Mining Genome Typed Objects for more information.
  * **annotation** - The Annotation sub-job that was run as part of the CGA Service. Double-clicking this item will display the Annotation job results. Note that sub-jobs are indicated by the "checkered flag" icon beside the name.
  * **assembly** - The Assembly sub-job that was run as part of the CGA Service. Double-clicking this item will display the Assembly job results. Note that sub-jobs are indicated by the "checkered flag" icon beside the name.
  * **circos.svg** - SVG-format rendering of the circular genome view used in the FullGenomeReport.html file.

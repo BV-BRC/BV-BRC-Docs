@@ -1,11 +1,11 @@
 # Phylogenetic Tree Building Service
 
 ## Overview
-The Phylogenetic Tree Building Service enables construction of custom phylogenetic trees built from user-selected genomes. The **Codon Tree** method selects single-copy PATRIC PGFams and analyzes aligned proteins and coding DNA from single-copy genes using the program RAxML. The service returns a Scaled Vector Graphics (SVG) image of the final tree, as well as a Newick file which can be rendered in the interactive Phylogenetic Tree Viewer in PATRIC or downloaded and viewed in FigTree or other software.
+The bacterial Phylogenetic Tree Building Service enables construction of custom phylogenetic trees built from user-selected genomes. The **Codon Tree** method selects single-copy PATRIC PGFams and analyzes aligned proteins and coding DNA from single-copy genes using the program RAxML. The service returns a Scaled Vector Graphics (SVG) image of the final tree, as well as a Newick file which can be rendered in the interactive Phylogenetic Tree Viewer in PATRIC or downloaded and viewed in FigTree or other software.
 
 ### See also
-* [Phylogenetic Tree Building Service](https://patricbrc.org/app/PhylogeneticTree)
-* [Building Phylogenetic Trees - Codon Tutorial](https://docs.patricbrc.org/tutorial/codon_tree_building/codon_tree_building.html)
+* [Phylogenetic Tree Building Service](https://alpha.bv-brc.org/app/PhylogeneticTree)
+* [Building Phylogenetic Trees - Codon Tutorial](https://docs.alpha.bv-brc.org/tutorial/codon_tree_building/codon_tree_building.html)
 * [Phylogeny Tab User Guide](../organisms_taxon/phylogeny.html)
 
 ## Using the Phylogenetic Tree Building Service
@@ -15,7 +15,7 @@ The **Phylogenetic Tree** submenu option under the **Services** main menu (Genom
 
 ## Method: Codon Tree
 
-The **Codon Tree** method utilizes PATRIC [PGFams](../organisms_taxon/protein_families.html) as homology groups and analyzes aligned proteins and coding DNA from single-copy genes using the program [RAxML](https://academic.oup.com/bioinformatics/article/22/21/2688/251208). Up to 100 genomes can be analyzed.
+The **Codon Tree** method utilizes BV-BRC [PGFams](../organisms_taxon/protein_families.html) as homology groups and analyzes aligned proteins and coding DNA from single-copy genes using the program [RAxML](https://academic.oup.com/bioinformatics/article/22/21/2688/251208). Up to 100 genomes can be analyzed.
 
 ![Phylogenetic Tree Input Form - Codon Tree](../images/phylogenetic_tree_input_form_codon_v3.png)
 

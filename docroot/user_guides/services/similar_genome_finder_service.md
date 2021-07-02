@@ -1,16 +1,16 @@
 # Similar Genome Finder Service
 
 ## Overview
-The Similar Genome Finder Service will find similar public genomes in PATRIC or compute genome distance estimation using [Mash/MinHash](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915045/). It returns a set of genomes matching the specified similarity criteria. 
+The bacterial Similar Genome Finder Service will find similar public genomes in PATRIC or compute genome distance estimation using [Mash/MinHash](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915045/). It returns a set of genomes matching the specified similarity criteria. 
 
 ### See also
-* [Similar Genome Finder Service](https://patricbrc.org/app/GenomeDistance)
-* [Similar Genome Finder Service Tutorial](https://docs.patricbrc.org//tutorial/similar_genome_finder/similar_genome_finder.html)
+* [Similar Genome Finder Service](https://alpha.bv-brc.org/app/GenomeDistance)
+* [Similar Genome Finder Service Tutorial](https://docs.alpha.bv-brc.org//tutorial/similar_genome_finder/similar_genome_finder.html)
 
 ## Using the Similar Genome Finder Service
 The **Similar Genome Finder** submenu option under the **Services** main menu (Genomics category) opens the Similar Genome Finder input form (*shown below*).
 
-![Similar Genome Finder Menu](../images/services_menu.png)
+![Similar Genome Finder Menu](../images/bv_services_menu.png)
 
 ![Similar Genome Finder Input Form](../images/similar_genome_finder_input_form.png)
 

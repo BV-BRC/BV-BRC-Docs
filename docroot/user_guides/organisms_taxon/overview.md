@@ -1,14 +1,14 @@
 # Taxon Overview Tab
 
 ## Overview
-For the chosen taxon level, the Taxon Overview Tab provides summary information for corresponding data in PATRIC, including Taxon Info, Reference/Representative Genomes, Genomes by Antimicrobial Resistance, Genomes by Metada, and relevant Recent PubMed Articles.  
+For the chosen taxon level, the Taxon Overview Tab provides summary information for corresponding data in BV-BRC, including Taxon Info, Reference/Representative Genomes, Genomes by Antimicrobial Resistance, Genomes by Metada, and relevant Recent PubMed Articles.  
 
 ### See also
   * [Taxonomy](../organisms_taxon/taxonomy.html)
   * [Antimicrobial Resistance Phenotypes](../organisms_taxon/amr_phenotypes.html)
   * [Genome Metadata](../organisms_taxon/genome_metadata.html) 
 
-## Accessing the Taxon Overview on the PATRIC Website
+## Accessing the Taxon Overview
 Clicking the Overview Tab in a Taxon View displays the Taxon Overview Page, shown below. 
 
 ![Taxon Overview Page](../images/taxon_overview_page.png)
@@ -22,15 +22,15 @@ The top level of the displayed taxonomic structure is displayed directly under t
 
 * **Rank:** The relative level in biological classification for the selected taxon, e.g., kingdom, phylum, class, order, family, genus, species.
 
-* **Lineage:** Provides links to the higher taxonomic levels in PATRIC of which the currently displayed taxon is a descendent.
+* **Lineage:** Provides links to the higher taxonomic levels of which the currently displayed taxon is a descendent.
 
 * **Genetic Code:** The code used for translation of coding sequence (CDS), typically 11, defined in [The Bacterial, Archaeal, and Plant Plastid Code](https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG11).
 
 ## Reference/Representative Genomes
-This section provides direct links to genomes in PATRIC within the selected taxon level that have been flagged as Reference or Representative.  These are derived from the NCBI Reference and Representative lists, UniProt Reference genomes, and manual curation. The data can be portrayed in either histogram or list view by clicking the Chart or List buttons at the top right of the section.
+This section provides direct links to genomes/strains within the selected taxon level that have been flagged as Reference or Representative.  These are derived from the NCBI Reference and Representative lists, UniProt Reference genomes, and manual curation. The data can be portrayed in either histogram or list view by clicking the Chart or List buttons at the top right of the section.
 
 ## Genomes by Antimicrobial Resistance
-This section provides a summary of antibiogram (AMR panel) data in PATRIC across antibiotics for PATRIC genomes in the selected taxon level. The AMR phenotypes are classified as Resistant, Susceptible, or Intermediate. See [Antimicrobial Resistance Phenotypes](../organisms_taxon/amr_phenotypes.html) for more information.
+This section provides a summary of antibiogram (AMR panel) data across antibiotics for genomes in the selected taxon level. The AMR phenotypes are classified as Resistant, Susceptible, or Intermediate. See [Antimicrobial Resistance Phenotypes](../organisms_taxon/amr_phenotypes.html) for more information.
 
 The data can be portrayed in either histogram or list view by clicking the Chart or List buttons at the top right of the section. In the histogram view, the scale can be shown as either genome counts or percentage in each antibiotic and resistance phenotype category. Also, the histogram can be ordered alphabetically by antibiotic name or numerically by counts of AMR phenotypes. 
 

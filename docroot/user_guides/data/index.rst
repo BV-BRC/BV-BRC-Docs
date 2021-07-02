@@ -22,11 +22,13 @@ The Data Types submenu items link to summary information pages that provide desc
    data_types/specialty_genes
    data_types/transcriptomics
 
-Specialty Data Collections
---------------------------
-The Specialty Data Collections submenu items link to pages in PATRIC featuring data sets of interest that are related either by collaborations, common programs (e.g., NIAID-funded centers), or other grouping.  Summaries, experimental information, and links to data sets and corresponding publications are provided.  Where appropriate, the data sets have been integrated into PATRIC.
+..
+  Specialty Data Collections
+  --------------------------
+  The Specialty Data Collections submenu items link to pages in PATRIC featuring data sets of interest that are related either by collaborations, common programs (e.g., NIAID-funded centers), or other grouping.  Summaries, experimental information, and links to data sets and corresponding publications are provided.  Where appropriate, the data sets have been integrated into PATRIC.
 
-.. toctree::
+.. 
+   toctree::
    :maxdepth: 1
 
    specialty_data_collections/patric_collaborations
@@ -37,12 +39,15 @@ The Specialty Data Collections submenu items link to pages in PATRIC featuring d
    specialty_data_collections/niaid_systems_biology
    specialty_data_collections/niaid_functional_genomics
 
-Download Data
--------------
+..
+   Download Data
+   -------------
 
-Access |ftp_link|.
+..
+   Access |ftp_link|.
 
-.. |ftp_link| raw:: html
+.. 
+   |ftp_link| raw:: html
 
-  <a href="ftp://ftp.patricbrc.org/" target="_blank">PATRIC FTP Server</a><br>
+  <a href="ftp://ftp.patricbrc.org/" target="_blank">BV-BRC FTP Server</a><br>
   (opens in a new tab)

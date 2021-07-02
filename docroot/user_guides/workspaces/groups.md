@@ -1,15 +1,15 @@
-# PATRIC Groups
+# Data Groups
 
 ## Overview
-In PATRIC, "Groups" are custom collections of selected genomes or features. They are particularly useful for organizing and managing data sets of interest for further exploration and analysis.
+In BV-BRC, "Groups" are custom collections of selected genomes or features. They are particularly useful for organizing and managing data sets of interest for further exploration and analysis.
 
 ### See also:
   * [Workspace](../workspaces/workspace.html)
   * [Tables](../tables.html)
   * [Action Bar](../action_bar.html)
 
-## Creating and Accessing Groups on the PATRIC Website
-A group can created by selecting a set of desired items genomes or features in a table in PATRIC and clicking the Group button on the vertical green Action Bar on the right side of the table. This will open a pop-up window to enable creating a new group containing the selected items or to add the selected items to an existing group in the Workspace.
+## Creating and Accessing Groups
+A group can created by selecting a set of desired items genomes or features in a table and clicking the Group button on the vertical green Action Bar on the right side of the table. This will open a pop-up window to enable creating a new group containing the selected items or to add the selected items to an existing group in the Workspace.
 
 ![Creating a Group](../images/create_group.png)
 
@@ -17,8 +17,8 @@ Once created, the new group will appear in the home Workspace. By default, Genom
 
 ![Genome Group](../images/genome_group.png)
 
-## Using Workspace Groups in the PATRIC Website
-Many PATRIC features are available to work with data in groups, including analyzing the items in the group with PATRIC's tools. For example, after creating a Genome Group, you could use the Phylogenetic Tree Building Service to build a phylogenetic tree using the genomes in the group by selecting the group from the "select genome group" dropdown list. All the genome groups you have created will appear in this list.
+## Using Workspace Groups
+Many BV-BRC website features are available to work with data in groups, including analyzing the items in the group with BV-BRC tools and services. For example, after creating a Genome Group, you could use the Phylogenetic Tree Building Service to build a phylogenetic tree using the genomes in the group by selecting the group from the "select genome group" dropdown list. All the genome groups you have created will appear in this list.
 
 ![Phylogenetic Tree Using Genome Group](../images/phylo_tree_genome_group.png)
 
@@ -26,7 +26,7 @@ Many PATRIC features are available to work with data in groups, including analyz
 An initial set of directory folders are provided as default locations for groups based on data type, incluidng Genome Groups and Feature Groups. Double-clicking the folder displays a list of the groups in that folder. Clicking the group name selects it, and information about the group is provided in the Information Panel on the right-hand side. See [Workspace](../workspaces/workspace.html) for more information.
 
 ### Group Comparison
-The PATRIC workspace provides Venn Diagram tool for comparison of membership of items in a groups. Selecting 2 or 3 groups (using <control>, <command>, or <shift> click) enables the Venn Diagram button in the vertical green Action Bar on the right side of the table. 
+The Workspace provides Venn Diagram tool for comparison of membership of items in a groups. Selecting 2 or 3 groups (using <control>, <command>, or <shift> click) enables the Venn Diagram button in the vertical green Action Bar on the right side of the table. 
 
 ![Venn Diagram Button](../images/venn_diagram_action.png)
 

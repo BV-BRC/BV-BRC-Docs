@@ -4,10 +4,10 @@
 The Pathways Tab provides access to the Comparative Pathway Tool, which facilitates identification of sets of pathways based on taxonomy, EC number, pathway ID, pathway name and/or specific annotation type. The Comparative Pathway Tool displays a table of unique pathways that match the search criteria. From there, specific pathways of interest can be selected and viewed in a heatmap or KEGG map.
 
 ### See also
-  * [Comparing Pathways Across Genomes Tutorial](https://docs.patricbrc.org//tutorial/comparative_pathways/comparative_pathways.html)
+  * [omparing Pathways Across Genomes Tutorial
   * [Comparative Pathway Tool](../services/comparative_pathway_service.html)
 
-## Accessing the Comparative Pathway Tool on the PATRIC Website
+## Accessing the Comparative Pathway Tool
 The Comparative Pathway Tool can be accessed from either 
 
 * **Clicking the Pathways Tab in a Taxon View:** Displays a list of all of the pathways that have any genes assigned to them from the genomes in that taxon level.
@@ -18,7 +18,7 @@ The Comparative Pathway Tool can be accessed from either
 Results will be shown in a Pathway table, shown below.
 ![Pathway Table](../images/pathway_list.png)
 
-All pathways at PATRIC come from the Kyoto Encyclopedia of Genes and Genomes, commonly known as [KEGG](http://www.genome.jp/kegg/). The data in this table provides summary information regarding the pathways:
+Pathways come from the Kyoto Encyclopedia of Genes and Genomes, commonly known as [KEGG](http://www.genome.jp/kegg/). The data in this table provides summary information regarding the pathways:
 
 * **Pathway ID:** 5-digit identifier defined by KEGG
 
@@ -113,9 +113,9 @@ specific genome are assigned a particular EC number.
 
   * **Download Heatmap Data:** Shows the count of representative features from each genome assigned to each EC Number in either a text or excel file. Note: Clicking this button from an EC label will produce a file with the count for each genome assigned to that EC number, while clicking on this button from a Genome label will produce a file with the count for that particular genome in every EC number associated for this selected pathway.
         
-  * **Download Proteins:** Downloads the set of PATRIC features associated with the chosen proteins.  Download available as csv, txt, or Excel file.
+  * **Download Proteins:** Downloads the set of features associated with the chosen proteins.  Download available as csv, txt, or Excel file.
         
-  * **Show Proteins:** Open a feature list table in PATRIC containing the features associated with the chosen proteins. This view contains the same information as any feature list in PATRIC: Genome Name, Genome ID, RefSeq Locus Tab, Gene Symbol, protein family information, Product, length, start/stop, etc. This view also allows access to sequences, enables building of multiple sequence alignments, map IDs, etc.
+  * **Show Proteins:** Opens a feature list table containing the features associated with the chosen proteins. This view contains the same information as any feature list: Genome Name, Genome ID, RefSeq Locus Tab, Gene Symbol, protein family information, Product, length, start/stop, etc. This view also allows access to sequences, enables building of multiple sequence alignments, map IDs, etc.
     
   * **Add Proteins to Group:** button will save selected items to new, or existing, groups within the Workspace. 
                 

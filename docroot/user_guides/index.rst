@@ -1,7 +1,7 @@
 User Guides
 ============
 
-The BV-BRC website provides an entry point to integrated data and tools for viral and bacterial infectious disease research. The website is organized by data types and analysis tools. These **User Guides** serve as a reference for each of the components of the website, including information on what the component is, what it does, where it is located, and an overview of its features. 
+The BV-BRC website resource provides an entry point to integrated data and tools for viral and bacterial infectious disease research. The website is organized by data types and analysis tools. These **User Guides** serve as a reference for each of the components of the website, including information on what the component is, what it does, where it is located, and an overview of its features. 
 
 .. toctree::
    :maxdepth: 1
@@ -11,12 +11,12 @@ The BV-BRC website provides an entry point to integrated data and tools for vira
    data/index
    workspace_groups_upload
    services_tab
-
-..
-   global_search
    registration
    views_tables_action-bar
    system_requirements
+
+..
+   global_search
    data_submission_to_patric
    ftp
 

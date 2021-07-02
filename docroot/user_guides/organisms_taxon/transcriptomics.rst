@@ -1,6 +1,6 @@
 Transcriptomics Tab
 ===================
-Transcriptomics data in PATRIC is presented in three primary displays: the Experiments and Comparisons Tables, the Gene List Table, and the Gene List Heatmap.  Details for each are provided from the links below.
+Transcriptomics data is presented in three primary displays: the Experiments and Comparisons Tables, the Gene List Table, and the Gene List Heatmap.  Details for each are provided from the links below.
 
 .. toctree::
    :maxdepth: 1

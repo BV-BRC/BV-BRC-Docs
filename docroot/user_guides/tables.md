@@ -1,19 +1,19 @@
-# PATRIC Tables and Filters
+# PTables and Filters
 
 ## Overview
-Interactive Tables are used throughout the PATRIC website to present and provide access to collections or lists of data items such as genomes, features, protein families, experiment data, interactions, and so on. The tables provide the ability to sort, filter, page through, and search the items in the table.
+Interactive Tables are used throughout the website to present and provide access to collections or lists of data items such as genomes, features, protein families, experiment data, interactions, and so on. The tables provide the ability to sort, filter, page through, and search the items in the table.
 
 ### See also:
   * [Website Views](./website_views.html)
   * [Selection Action Bar](./action_bar.html)
 
-## Accessing Tables on the PATRIC Website
-Tables are used throughout the PATRIC website where lists of data items are presented, for example, in data tabs such as Genomes, Features, Protein Families, Pathways, Transcriptomics, Interactions, etc. The example below shows a PATRIC Table listing a set of genomes in a particular taxon.
-![PATRIC Table](./images/patric_table.png) 
+## Accessing Tables
+Tables are used throughout the website where lists of data items are presented, for example, in data tabs such as Genomes, Features, Protein Families, Pathways, Transcriptomics, Interactions, etc. The example below shows a table listing a set of genomes in a particular taxon.
+![Table](./images/patric_table.png) 
 
 ## Table Tools
-PATRIC tables include a variety of tools for accessing, filtering, sorting, and arranging the data in the table.  These are described below.
-![PATRIC Table Tools](./images/patric_table_tools.png) 
+Tables include a variety of tools for accessing, filtering, sorting, and arranging the data in the table.  These are described below.
+![Table Tools](./images/patric_table_tools.png) 
 
 1. **Breadcrumbs** at the top of the page provide summary information regarding what data the table contains including a count of the items in the table.  The breadcrumbs are interactive, so clicking on an item in the breadcrumb resets the table to contain the corresponding items for the selection. For instance, in a Taxon View, clicking a higher taxon level will update the table to contain all of the items (genomes for instance) in that higher level taxon.
 
@@ -40,7 +40,7 @@ PATRIC tables include a variety of tools for accessing, filtering, sorting, and 
 12. **Information Panel** provides details on the selected item(s).  If a single item (row) is selected, it provides a listing of the column (category) and the corresponding value for that item.  If mutiple items (rows) are selected, it provides a summary of the number of items selected.
 
 ### Filter Tool
-As with all tables in PATRIC, the Filter Tool is available to narrow the display of the items in the table, shown below:
+As with all tables in the website, the Filter Tool is available to narrow the display of the items in the table, shown below:
   
 ![Filter Button](./images/filter_button.png)
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# PATRIC documentation build configuration file, created by
+# BV-BRC documentation build configuration file, created by
 # sphinx-quickstart on Tue Oct 10 11:57:26 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -55,7 +55,8 @@ master_doc = 'index'
 # General information about the project.
 project = 'BV-BRC Documentation'
 copyright = '2021 | The BV-BRC Team'
-author = 'BV-BRC team'
+author = 'BV-BRC Team'
+
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -87,7 +88,7 @@ todo_include_todos = False
 
 # -- Options for HTML output ----------------------------------------------
 
-# Custom Theme styles to match PATRIC main styles
+# Custom Theme styles to match BV-BRC main styles
 
 def setup(app):
     app.add_stylesheet('css/custom.css')
@@ -157,7 +158,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'PATRIC.tex', 'BV-BRC Documentation',
+    (master_doc, 'BV-BRC.tex', 'BV-BRC Documentation',
      'BV-BRC team', 'manual'),
 ]
 

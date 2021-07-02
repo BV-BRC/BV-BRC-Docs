@@ -1,4 +1,4 @@
-# PTables and Filters
+# Tables and Filters
 
 ## Overview
 Interactive Tables are used throughout the website to present and provide access to collections or lists of data items such as genomes, features, protein families, experiment data, interactions, and so on. The tables provide the ability to sort, filter, page through, and search the items in the table.

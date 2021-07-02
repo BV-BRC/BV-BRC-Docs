@@ -10,7 +10,7 @@ The bacterial Genome Assembly Service allows single or multiple assemblers to be
 ## Using the Genome Assembly Service
 The **Assembly** submenu option under the **Services** main menu (Genomics category) opens the Genome Assembly input form, shown below. *Note: You must be logged into PATRIC to use this service.*
 
-![Assembly Menu](../images/services_menu.png)
+![Assembly Menu](../images/bv_services_menu.png)
 
 ## Options
 ![Assembly Input Form](../images/assembly2_input_form.png) 

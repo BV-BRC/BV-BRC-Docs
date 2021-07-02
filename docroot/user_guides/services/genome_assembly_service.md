@@ -1,11 +1,11 @@
 # Genome Assembly Service
 
 ## Overview
-The Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. Several assembly workflows or "strategies" are available that have been tuned to fit certain data types or desired analysis criteria such as throughput or rigor. Once the assembly process has started by clicking the Assemble button, the genome is queued as a "job" for the Assembly Service to process, and will increment the count in the Jobs information box on the bottom right of the page. Once the assembly job has successfully completed, the output file will appear in the workspace, available for use in the PATRIC comparative tools and downloaded if desired.
+The bacterial Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. Several assembly workflows or "strategies" are available that have been tuned to fit certain data types or desired analysis criteria such as throughput or rigor. Once the assembly process has started by clicking the Assemble button, the genome is queued as a "job" for the Assembly Service to process, and will increment the count in the Jobs information box on the bottom right of the page. Once the assembly job has successfully completed, the output file will appear in the workspace, available for use in the PATRIC comparative tools and downloaded if desired.
 
 ### See also
-* [Genome Assembly Service](https://patricbrc.org/app/Assembly2)
-* [Genome Assembly Service Tutorial](https://docs.patricbrc.org/tutorial/genome_assembly/assembly2.html)
+* [Genome Assembly Service](https://alpha.bv-brc.org/app/Assembly2)
+* Genome Assembly Service Tutorial
 
 ## Using the Genome Assembly Service
 The **Assembly** submenu option under the **Services** main menu (Genomics category) opens the Genome Assembly input form, shown below. *Note: You must be logged into PATRIC to use this service.*

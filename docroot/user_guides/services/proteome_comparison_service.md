@@ -4,14 +4,14 @@
 The Proteome Comparison Service performs protein sequence-based genome comparison using bidirectional BLASTP. This service allows users to select up to eight genomes, either public or private, and compare them to a user-selected or supplied reference genome. The proteome comparison result is displayed as an interactive circular genome view and is downloadable as a print-quality image or tabular comparison results.
 
 ### See also
-* [Proteome Comparison Service](https://patricbrc.org/app/SeqComparison)
-* [Proteome Comparison Tutorial](https://docs.patricbrc.org//tutorial/proteome_comparison/proteome_comparison.html)
+* [Proteome Comparison Service](https://alpha.bv-brc.org/app/SeqComparison)
+* [Proteome Comparison Tutorial](https://docs.alpha.bv-brc.org//tutorial/proteome_comparison/proteome_comparison.html)
 
 ## Using the Proteome Comparison Service
-The **Proteome Comparison** submenu option under the **Services** main menu (Protein Tools category) opens the Proteome Comparison input form (*shown below*). *Note: You must be logged into PATRIC to use this service.*
+The **Proteome Comparison** submenu option under the **Services** main menu (Protein Tools category) opens the Proteome Comparison input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
 
 
-![Proteome Comparison Service Menu](../images/services_menu.png)
+![Proteome Comparison Service Menu](../images/bv_services_menu.png)
 
 ## Options
 ![Proteome Comparison Service Input Form](../images/proteome_comparison_input_form.png) 
@@ -74,11 +74,11 @@ The Proteome Comparison Service generates several files that are deposited in th
   * _contig - accession number for contig in reference genome
   * _gene - order number for gene in the genome
   * _aa_length - size in amino acids
-  * _patric_id - PATRIC locus tag
+  * _patric_id - BV-BRC locus tag
   * _locus_tag - RefSeq locus tag
   * _gene_name - gene name
-  * _plfam_id - PATRIC local protein family
-  * _pgfam_id - PATRIC global protein family
+  * _plfam_id - local protein family
+  * _pgfam_id - global protein family
   * _function - functional annotation
   * _start - start location of the gene on the contig
   * _end - end location of the gene on the contig
@@ -92,7 +92,7 @@ The Proteome Comparison Service generates several files that are deposited in th
 * **ref_genome.txt** - the list of features in the reference genome.
 
 ### Action buttons
-After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table, listed below. To find out more about the different options for using these output files, see the [Variation Analysis Service Tutorial](https://docs.patricbrc.org//tutorial/variation_analysis_service/variation_analysis_service.html).
+After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table, listed below. To find out more about the different options for using these output files, see the [Variation Analysis Service Tutorial](https://docs.alpha.bv-brc.org//tutorial/variation_analysis_service/variation_analysis_service.html).
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
 * **Guide:** Link to the corresponding User Guide
@@ -102,7 +102,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Rename:** Allows renaming of the file.
 * **Copy:** Copies the selected items to the clipboard.
 * **Move:** Allows moving of the file to another folder.
-* **Edit Type:** Allows changing of the type of the file in terms of how PATRIC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+* **Edit Type:** Allows changing of the type of the file in terms of how the content is interpreted and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details are available in the [Action Buttons](../action_buttons.html) user guide.
 

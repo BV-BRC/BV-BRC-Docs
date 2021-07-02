@@ -21,7 +21,7 @@ The **Expression Import** submenu option under the **Services** main menu (Trans
 Allows upload a data file containing differential gene expression values in the form of log ratios. The file should be in one of the supported formats described below. Optionally, you may also upload metadata related to sample comparisons in the prescribed format to provide additional context for data analysis. See Optional Metadata.
 
 **File Format:**  Currently, PATRIC allows you to upload your transcriptomics datasets in
-the form of differential gene expression measured as log ratios. Data can be uploaded in multiple file formats: comma separated values (.csv), tab delimited values (.txt), or Excel (.xls or .xlsx). Click to download the [Sample Data template](https://docs.patricbrc.org/_static/Sample-Genes.xlsx) in Gene Matrix Format.
+the form of differential gene expression measured as log ratios. Data can be uploaded in multiple file formats: comma separated values (.csv), tab delimited values (.txt), or Excel (.xls or .xlsx). Click to download the [Sample Data template](https://docs.alpha.bv-brc.org/_static/Sample-Genes.xlsx) in Gene Matrix Format.
 Files should contain data in one of the following formats:
 
 *Gene Matrix:* Gene IDs are represented in the first column with extra columns for each of the comparisons in the form of log ratio, i.e., log2(test/control). Below is an example of transcriptomics data in Gene Matrix format:
@@ -39,21 +39,21 @@ Dropdown list specifying the the experiment type, either Transcriptomics, Proteo
 Option for specifying if the data set is for bacteria/archea, or alternatively, eukaryotic host. 
 
 ### Source ID Type
-Dropdown list for specifying the source ID type, e.g., PATRIC ID, NCBI Gene ID, RefSeq Locus Tag. Used to map genes to genes in PATRIC, allowing integration of other PATRIC data in PATRIC into the analysis. Due to differences in annotation that may exist, some genes may go unmapped. Unmapped genes will be excluded from subsequent analysis.
+Dropdown list for specifying the source ID type, e.g., ID, NCBI Gene ID, RefSeq Locus Tag. Used to map genes to genes in BV-BRC, allowing integration of other data in BV-BR into the analysis. Due to differences in annotation that may exist, some genes may go unmapped. Unmapped genes will be excluded from subsequent analysis.
 
 **Supported IDs:**
 1. RefSeq Locus Tag
-2. PATRIC Feature ID
+2. Feature ID
 3. NCBI GI Number
 4. NCBI Protein ID
 5. SEED ID
 6. PATRIC Legacy ID
 
 ### Target Genome
-Option for mapping the expression data to a particular genome in PATRIC.  This will facilitate inclusion of other expression data in PATRIC for that genome in subsequent analysis.
+Option for mapping the expression data to a particular genome in BV-BRC.  This will facilitate inclusion of other expression data in PATRIC for that genome in subsequent analysis.
 
 ## Experiment Information
-Metadata to specify the experiment title, description, organism, and Pubmed ID (optional) for providing contextual information for the uploaded data in PATRIC. 
+Metadata to specify the experiment title, description, organism, and Pubmed ID (optional) for providing contextual information for the uploaded data. 
 
 ### Experiment Title
 Title for the experiment (required).
@@ -86,7 +86,7 @@ The Expression Import Service generates several files that are deposited in the 
 
 * **experiment.json** - JavaScript Object Notation (JSON) format file containing experiment metadata.
 * **expression.json** - JSON format file containing log-ratio expression values by feature.
-* **mapping.json** - JSON format file containing details of the mapping of genes/proteins in the uploaded file to PATRIC Feature IDs.
+* **mapping.json** - JSON format file containing details of the mapping of genes/proteins in the uploaded file to Feature IDs.
 * **sample.json** - JSON format file containing the experiment conditions.
 
 ### View Experiment Conditions

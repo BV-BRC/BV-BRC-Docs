@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# PATRIC documentation build configuration file, created by
+# BV-BRC documentation build configuration file, created by
 # sphinx-quickstart on Tue Oct 10 11:57:26 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -53,9 +53,9 @@ source_suffix = {
 master_doc = 'index'
 
 # General information about the project.
-project = 'PATRIC Documentation'
-copyright = '2020 | The PATRIC Team'
-author = 'PATRIC team'
+project = 'BV-BRC Documentation'
+copyright = '2021 | The BV-BRC Team'
+author = 'BV-BRC Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -87,7 +87,7 @@ todo_include_todos = False
 
 # -- Options for HTML output ----------------------------------------------
 
-# Custom Theme styles to match PATRIC main styles
+# Custom Theme styles to match BV-BRC main styles
 
 def setup(app):
     app.add_stylesheet('css/custom.css')
@@ -108,7 +108,7 @@ html_theme_options = {
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_logo = ""
 html_favicon = "_static/favicon.ico"
-html_title = "PATRIC Documentation"
+html_title = "BV-BRC Documentation"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -130,7 +130,7 @@ html_extra_path = ['sitemap.xml']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PATRICdoc'
+htmlhelp_basename = 'BV-BRCdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -157,8 +157,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'PATRIC.tex', 'PATRIC Documentation',
-     'PATRIC team', 'manual'),
+    (master_doc, 'BV-BRC.tex', 'BV-BRC Documentation',
+     'BV-BRC team', 'manual'),
 ]
 
 
@@ -167,7 +167,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'patric', 'PATRIC Documentation',
+    (master_doc, 'BV-BRC', 'BV-BRC Documentation',
      [author], 1)
 ]
 
@@ -178,8 +178,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'PATRIC', 'PATRIC Documentation',
-     author, 'PATRIC', 'One line description of project.',
+    (master_doc, 'BV-BRC', 'BV-BRC Documentation',
+     author, 'BV-BRC', 'One line description of project.',
      'Miscellaneous'),
 ]
 

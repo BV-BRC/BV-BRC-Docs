@@ -5,12 +5,12 @@ The BLAST service integrates the BLAST (Basic Local Aligment Search Tool) algori
 
 ### See also
 * [BLAST Service](https://alpha.bv-brc.org/app/BLAST)
-* BLAST Service Tutorialhttps://docs.patricbrc.org/tutorial/blast/blast.html
+* BLAST Service Tutorial
 
 ## Using the BLAST Service
 The **BLAST** submenu option under the **Services** main menu (Genomics category) opens the BLAST input form (*shown below*). *Note: The BLAST Service can be used without logging in, but if you want to include your private genome in the BLAST results, you must be logged into PATRIC.*
 
-![BLAST Menu](../bimages/bv_services_menu.png)
+![BLAST Menu](../images/bv_services_menu.png)
 
 ## Options
 ![BLAST Input Form](../images/blast_input_form.png) 

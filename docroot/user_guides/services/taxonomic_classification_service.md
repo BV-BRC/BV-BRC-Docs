@@ -4,14 +4,14 @@
 The Taxonomic Classification Service accepts reads or contigs from sequencing of a metagenomic sample and uses [Kraken 2](http://genomebiology.com/2014/15/3/R46) to assign the reads to taxonomic bins, providing an initial profile of the possible constituent organisms present in the sample.
 
 ### See also
-  * [Taxonomic Classification Service](https://patricbrc.org/app/TaxonomicClassification)
+  * [Taxonomic Classification Service](https://alpha.bv-brc.org/app/TaxonomicClassification)
   * Taxonomic Classification Service Tutorial - TBD
   * [Metagenome Binning Service](./metagenome_binning_service.html)
 
 ## Using the Taxonomic Classification Service
-The **Taxonomic Classification** submenu option under the **Services** main menu (Metagenomics category) opens the Taxonomic Classification input form (shown below). *Note: You must be logged into PATRIC to use this service.*
+The **Taxonomic Classification** submenu option under the **Services** main menu (Metagenomics category) opens the Taxonomic Classification input form (shown below). *Note: You must be logged into BV-BRC to use this service.*
 
-![Taxonomic Classification Menu](../images/services_menu.png)
+![Taxonomic Classification Menu](../images/bv_services_menu.png)
 
 ## Options
 ![Taxonomic Classification Input Form](../images/taxonomic_classification_input_form_v2.png)

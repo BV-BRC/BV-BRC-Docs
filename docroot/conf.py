@@ -57,6 +57,7 @@ project = 'BV-BRC Documentation'
 copyright = '2021 | The BV-BRC Team'
 author = 'BV-BRC Team'
 
+
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -130,7 +131,7 @@ html_extra_path = ['sitemap.xml']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'BV-BRCdoc'
+htmlhelp_basename = 'BVBRCdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -167,7 +168,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'BV-BRC', 'BV-BRC Documentation',
+    (master_doc, 'bvbrc', 'BV-BRC Documentation',
      [author], 1)
 ]
 

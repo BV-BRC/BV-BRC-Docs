@@ -1,7 +1,7 @@
 # Mulitiple Sequence Alignment Viewer
 
 ## Overview
-The Multiple Sequence Alignment (MSA) Viewer provides an interactive visualization of a nucleic acid or amino acid multiple sequence alignment with a linked interactive tree viewer. Results presented in the MSA Viewer are generated using FastTree (Price 2009) and Gblocks (Castresana 2002), and Muscle (Edgar 2004).
+The Multiple Sequence Alignment (MSA) Viewer provides an interactive visualization of a nucleic acid or amino acid multiple sequence alignment with a linked interactive tree viewer. Results presented in the MSA Viewer are generated using FastTree (Price 2009), Gblocks (Castresana 2002), and Muscle (Edgar 2004).
 
 ### See also
   * [Features Tab](../organisms_taxon/features.html)

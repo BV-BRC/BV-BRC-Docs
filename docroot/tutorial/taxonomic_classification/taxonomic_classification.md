@@ -74,15 +74,138 @@ Paired read libraries are usually given as file pairs, with each file containing
 3.	This will move the file into the Selected libraries box.
 ![Figure 21](./images/Picture21.png "Figure 21")
 
-
-
-
-
-
 ## V. Submitting assembled contigs
 
+1.	To submit a taxonomic classification job that uses contigs, click on the check box in front of Assembled Contigs in the upper box. Clicking on the folder icon.
+![Figure 22](./images/Picture22.png "Figure 22")
+
+2.	This will open a pop-up window that shows data in the private workspace that can be selected. The upload icon in the upper right can also be used to upload contig files that might exist on your computer.
+![Figure 23](./images/Picture23.png "Figure 23")
+
+3.	Clicking on the down arrow next to the contigs text box will show fasta files (ending in .fa or .fasta) that have been recently accessed in the private workspace.
+![Figure 24](./images/Picture24.png "Figure 24")
 
 ## VI. Selecting parameters
+
+Parameters must be selected prior to job submission. The algorithm used for Taxonomic Classification is Kraken21, which uses exact alignment of k-mers for classification accuracy. The Kraken2 algorithm was downloaded from the following source: https://ccb.jhu.edu/software/kraken2/
+The only database selection currently is only “All genomes”.
+![Figure 25](./images/Picture25.png "Figure 25")
+
+1.	You can choose to save the classified sequences (meaning that those reads or contigs that mapped to the k-mers in the all genomes database) and/or the unclassified sequences (those that do not map to those k-mers).  If either (or both) of those options are selected, the files will be available in the output folder when the job is completed.
+![Figure 26](./images/Picture26.png "Figure 26")
+
+2.	A folder must be selected for the Taxonomic Classification job. Clicking on the down arrow at the end of the text box underneath Output Folder will show recent folders that have been used. Clicking on the folder icon at the end of the text box will open a pop-up window where all folders can be viewed, or new folders created. You can also start typing the name of a folder in the text box.  A drop-down box will appear that shows folders that match what you entered.
+![Figure 27](./images/Picture27.png "Figure 27")
+
+3.	Click on the desired folder.
+![Figure 28](./images/Picture28.png "Figure 28")
+
+4.	The name of the folder will now appear in the box.  
+![Figure 29](./images/Picture29.png "Figure 29")
+
+5.	A name for the job must be entered in the text box under Output Name. At this point, the Submit button turns blue and the job will be submitted once clicked.  
+![Figure 30](./images/Picture30.png "Figure 30")
+
+6.	After clicking the submit button, your job will be launched.  A successful submission will generate a message indicating that the job has been queued.  
+![Figure 31](./images/Picture31.png "Figure 31")
+
+The bottom of each BV-BRC page has an indicator that shows the number of jobs that are queued, running or completed. Clicking on the word Jobs will rewrite the page to show the Job status. Researchers can monitor the Jobs Status page to see the status of their job, which is indicated in the first column (Queued, Running, Complete, Failed).
+![Figure 32](./images/Picture32.png "Figure 32")
+
+## VII. Viewing the Taxonomic Classification job – Output files
+
+
+![Figure 33](./images/Picture33.png "Figure 33")
+
+
+![Figure 34](./images/Picture34.png "Figure 34")
+
+
+![Figure 35](./images/Picture35.png "Figure 35")
+
+
+![Figure 36](./images/Picture36.png "Figure 36")
+
+
+![Figure 37](./images/Picture37.png "Figure 37")
+
+
+![Figure 38](./images/Picture38.png "Figure 38")
+
+
+![Figure 39](./images/Picture39.png "Figure 39")
+
+
+![Figure 40](./images/Picture40.png "Figure 40")
+
+
+![Figure 41](./images/Picture41.png "Figure 41")
+
+
+![Figure 42](./images/Picture42.png "Figure 42")
+
+
+![Figure 43](./images/Picture43.png "Figure 43")
+
+
+![Figure 44](./images/Picture44.png "Figure 44")
+
+
+![Figure 45](./images/Picture45.png "Figure 45")
+
+
+![Figure 46](./images/Picture46.png "Figure 46")
+
+
+![Figure 47](./images/Picture47.png "Figure 47")
+
+
+![Figure 48](./images/Picture48.png "Figure 48")
+
+
+![Figure 49](./images/Picture49.png "Figure 49")
+
+
+![Figure 50](./images/Picture50.png "Figure 50")
+
+
+![Figure 51](./images/Picture51.png "Figure 51")
+
+
+![Figure 52](./images/Picture52.png "Figure 52")
+
+
+![Figure 53](./images/Picture53.png "Figure 53")
+
+
+![Figure 54](./images/Picture54.png "Figure 54")
+
+
+![Figure 55](./images/Picture55.png "Figure 55")
+
+
+![Figure 56](./images/Picture56.png "Figure 56")
+
+
+![Figure 57](./images/Picture57.png "Figure 57")
+
+
+![Figure 58](./images/Picture58.png "Figure 58")
+
+
+![Figure 59](./images/Picture59.png "Figure 59")
+
+
+![Figure 60](./images/Picture60.png "Figure 60")
+
+
+![Figure 61](./images/Picture61.png "Figure 61")
+
+
+![Figure 62](./images/Picture62.png "Figure 62")
+
+
+
 
 
 ## References

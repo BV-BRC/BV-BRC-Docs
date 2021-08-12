@@ -22,6 +22,9 @@ Metagenomics is the study of genomic sequences obtained directly from an environ
 
 
 ## References
+1. Lu, J. & Salzberg, S. L. Ultrafast and accurate 16S rRNA microbial community analysis using Kraken 2. Microbiome 8, 1-11 (2020).
+2. Ondov, B. D., Bergman, N. H. & Phillippy, A. M. Interactive metagenomic visualization in a Web browser. BMC bioinformatics 12, 385 (2011).
+
 
 
 

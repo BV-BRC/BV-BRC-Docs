@@ -114,106 +114,102 @@ The bottom of each BV-BRC page has an indicator that shows the number of jobs th
 
 ## VII. Viewing the Taxonomic Classification job – Output files
 
-
+1.	To access your job, you can click on the Jobs part of your Jobs monitor.
 ![Figure 33](./images/Picture33.png "Figure 33")
 
-
+2.	This will open your Jobs page.
 ![Figure 34](./images/Picture34.png "Figure 34")
 
-
+3.	Clicking on the row that contains the job of interest will open two icons in the vertical green bar.  To view the job, click on the View icon.
 ![Figure 35](./images/Picture35.png "Figure 35")
 
-
+4.	This will open a pop-up window where issues with particular jobs can be reported. A description of the particular problem can be provided and clicking the submission button will generate a message to BV-BRC team members, notifying them that there has been a problem. We encourage researchers to report all failed jobs, or those that have results that are confusing. In addition, researchers should report long waits that they are experiencing in the queue.
 ![Figure 36](./images/Picture36.png "Figure 36")
 
-
+5.	A job that has been successfully completed can be viewed by clicking on the row (which will turn the row blue) and then clicking on the View icon in the vertical green bar.
 ![Figure 37](./images/Picture37.png "Figure 37")
 
-
+6.	This will open a page for the selected job. The top box has the job ID number and gives pertinent information about the time it took to complete and the selected parameters. The lower table has five output file, but if the classified an/or unclassified reads are selected when the job was submitted, it will have one or two additional rows.
 ![Figure 38](./images/Picture38.png "Figure 38")
 
-
+7.	Click on the TaxonomicReport.html. This will populate the vertical green bar with a number of icons. Click on the Guide icon.
 ![Figure 39](./images/Picture39.png "Figure 39")
 
-
+8.	This will open a new tab where you can see the user guide for this particular page, describing what you are seeing on the output page.
 ![Figure 40](./images/Picture40.png "Figure 40")
 
-
+9.	Back on the output page, in the vertical green bar you will see icons for downloading the data, viewing it, deleting the file, renaming the file, copying or sharing it with another BV-BRC user, moving it to a different director, or changing the type tagged to the file. With the TaxonomicReport.html file selected, click on the View icon.
 ![Figure 41](./images/Picture41.png "Figure 41")
 
-
+10. This will rewrite the page to show Kraken2’s standard output report format. 
 ![Figure 42](./images/Picture42.png "Figure 42")
 
-
+11.	The top of the TaxonomicReport.html page includes the SRA run accession number (if that was used).  This is a hyperlink and clicking on it will open a new tab that shows the landing page for the data in the Sequence Read Archive.
 ![Figure 43](./images/Picture43.png "Figure 43")
 
-
+12.	Further down in the TaxonomicClassification.html page, there is a line that says “Results: (Click here to view Interactive Chart).  Clicking on that will open an interactive, visual description of the results using Krona(2).
 ![Figure 44](./images/Picture44.png "Figure 44")
 
-
+13.	This view has a search box at the top of the page.  Entering any text will search the graph for text that matches the entry.
 ![Figure 45](./images/Picture45.png "Figure 45")
 
-
+14.	At the top of the view, there are several controls that can be used to change the visualization or download the data.
 ![Figure 46](./images/Picture46.png "Figure 46")
 
-
+15.	The image can be downloaded by clicking on the Download icon at the top of this page.
 ![Figure 47](./images/Picture47.png "Figure 47")
 
-
+16.	The number of circles shown in the graph can be changed by increasing the number (+) or decreasing the number (-) using the Max depth function.
 ![Figure 48](./images/Picture48.png "Figure 48")
 
-
+17.	The font size in the visualization can be changed by using the buttons to decrease (-) or increase (+) it in front of the words Font size.
 ![Figure 49](./images/Picture49.png "Figure 49")
 
-
+18.	Change the chart size.
 ![Figure 50](./images/Picture50.png "Figure 50")
 
-
+19.	You can see the taxonomy spectrum by clicking on a region of interest in the Krona chart.  This will rewrite the view to show how the data mapped within the particular taxon selected.
 ![Figure 51](./images/Picture51.png "Figure 51")
 
-
+20.	Following the changes, a snapshot of the new image can be downloaded by clicking on Snapshot.
 ![Figure 52](./images/Picture52.png "Figure 52")
 
-
+21. A shareable link will also be generated if Link is clicked.
 ![Figure 53](./images/Picture53.png "Figure 53")
 
-
+22.	A link to the Krona documentation can be viewed by clicking on the question mark (?) icon.
 ![Figure 54](./images/Picture54.png "Figure 54")
 
-
+23. Going back to the TaxonomicReport.html page, and underneath the link to the Krona diagram is a table that shows Kraken 2’s standard sample report format, which is tab-delimited with one line per taxon. The fields of the output, from left-to-right, are as follows:
+   * Percentage of fragments covered by the clade rooted at this taxon
+   * Number of fragments covered by the clade rooted at this taxon
+   * Number of fragments assigned directly to this taxon
+   * A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Taxa that are not at any of these 10 ranks have a rank code that is formed by using the rank code of the closest ancestor rank with a number indicating the distance from that rank. E.g., “G2” is a rank code indicating a taxon is between genus and species and the grandparent taxon is at the genus rank.
+   * NCBI taxonomic ID number
+   * Indented scientific name
 ![Figure 55](./images/Picture55.png "Figure 55")
 
-
+24.	Clicking on any of the names in the blue text will open the landing page for the selected taxon. 
 ![Figure 56](./images/Picture56.png "Figure 56")
 
-
+25.	Returning to the job output page, click the chart.html row and then click the View icon. This will re-write the page with the Kronos image described above.
 ![Figure 57](./images/Picture57.png "Figure 57")
 
-
+26.	The full_report.txt is a downloadable text file of the results seen in the report.txt file, but also includes taxonomy entries for which there were zero hits. To view this file, select the row and then click on the View icon.
 ![Figure 58](./images/Picture58.png "Figure 58")
 
-
+27.	The full report contains any taxonomy entry which has one percent or more of the total hits, but also includes taxonomy entries for which there were zero hits.
 ![Figure 59](./images/Picture59.png "Figure 59")
 
-
+28.	The output.txt.gz contains information about each input sequence. This will be a large file that should be downloaded in order to view it.
 ![Figure 60](./images/Picture60.png "Figure 60")
 
-
+29. The report.txt report can be viewed by selecting the row and then clicking on the View icon in the vertical green bar.
 ![Figure 61](./images/Picture61.png "Figure 61")
 
-
+30.	This will rewrite the page to show the report.  It  contains any taxonomy entry which has one percent or more of the total hits.
 ![Figure 62](./images/Picture62.png "Figure 62")
-
-
-
-
 
 ## References
 1. Lu, J. & Salzberg, S. L. Ultrafast and accurate 16S rRNA microbial community analysis using Kraken 2. Microbiome 8, 1-11 (2020).
 2. Ondov, B. D., Bergman, N. H. & Phillippy, A. M. Interactive metagenomic visualization in a Web browser. BMC bioinformatics 12, 385 (2011).
-
-
-
-
-
-

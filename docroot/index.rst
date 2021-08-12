@@ -8,11 +8,10 @@ BV-BRC Documentation
    :caption: Help Resources:
 
    user_guides/index
+   tutorial/index
 
 .. 
   quickstart_video
-
-   tutorial/index
 ..
    common_tasks/index
 ..

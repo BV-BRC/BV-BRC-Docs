@@ -1,4 +1,4 @@
-# Using the Metagenomic Binning Service in BV-BRC
+# Metagenomic Binning
 
 ![Figure 1](./images/Picture1.png "Figure 1")
 

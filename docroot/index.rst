@@ -7,39 +7,11 @@ BV-BRC Documentation
    :maxdepth: 2
    :caption: Help Resources:
 
+   quickstart_video
    user_guides/index
    tutorial/index
-
-.. 
-  quickstart_video
-..
    common_tasks/index
-..
    cli_tutorial/index
-..
    webinar/index
-..
    videos/index
-..
    workshops
-
-.. 
-   toctree::
-   :maxdepth: 2
-   :caption: BV-BRC Information:
-
-   about
-   contact
-   news/index
-   presentations
-   brochure
-   publications
-   acknowledgements
-   scientific_working_group
-   system_documentation
-   usage_metrics
-   github
-   personnel
-   cite_patric
-   privacy_policy
-   related_sites

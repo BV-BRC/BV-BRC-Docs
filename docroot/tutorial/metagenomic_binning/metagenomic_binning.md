@@ -1,119 +1,167 @@
 # Using the Metagenomic Binning Service in BV-BRC
 
-
 ![Figure 1](./images/Picture1.png "Figure 1")
 
+The BV-BRC metagenomic binning service utilizes the BV-BRC database to furnish a large, diverse set of reference genomes. This is a service for supervised extraction and annotation of high-quality, near-complete genomes from reads or metagenomically-derived contigs. Reads are assembled using either MetaSPAdes1 or MEGAHIT2.  Each set of binned contigs represents a draft genome that will be annotated by RASTtk3 for bacteria, or with VIGOR44,5 or  Mat_Peptide6 for viruses. A structured-language binning report is provided containing quality measurements and taxonomic information about the contig bins. The BV-BRC metagenome binning service emphasizes extraction of high-quality genomes for downstream analysis using other BV-BRC tools and services.
 
+Metagenomic binning jobs that include assembly that, on average, take an hour to complete.  However, the BV-BRC assembly service is quite popular, and there is often a long queue resulting in jobs taking 24 hours to complete.  If the size of the read file is large (Gb) or the queue is long, results could take several days.  
+
+The code for the binning script is located at:
+https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-checkv.pl
+
+The code for the RASTtk pipeline is located at:
+https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl
+
+## Creating a folder to hold the metagenomic binning job and related data
+
+1.	It is always good practice to create a folder to keep the results from a particular experiment or project in order.  To create a new folder, go to the Workspaces tab and click on home.
 ![Figure 2](./images/Picture2.png "Figure 2")
 
-
+2.	This will open the home directory on your workspace.  To create a new folder, click on the Add Folder icon at the top right of the table.
 ![Figure 3](./images/Picture3.png "Figure 3")
 
-
+3.	This will open a pop-up window.  Note that the Create Folder button is greyed out.  Type the desired name in the text box.
 ![Figure 4](./images/Picture4.png "Figure 4")
 
-
+4.	Once the name is entered, the Create Folder icon will turn blue.  To create the folder, click on that button.
 ![Figure 5](./images/Picture5.png "Figure 5")
 
-
+5.	The pop-up window will disappear.  At the button left of the page you will see a temporal message indicating that the folder was successfully created.
 ![Figure 6](./images/Picture6.png "Figure 6")
 
+## Locating the Metagenomic Binning Service App
 
+1.	At the top of any BV-BRC page, find the Services tab
 ![Figure 7](./images/Picture7.png "Figure 7")
 
-
+2.	In the drop-down box, underneath Genomics, click on Annotation.
 ![Figure 8](./images/Picture8.png "Figure 8")
 
-
+3.	This will open up the Metagenomic Binning Service landing page.  The default page shows starting with a read file.
 ![Figure 9](./images/Picture9.png "Figure 9")
 
+## Selecting a read file for metagenomic binning
 
+### Uploading paired end reads
+
+1.	To upload a fastq file that contains paired reads, locate the box called “Paired read library.” 
 ![Figure 10](./images/Picture10.png "Figure 10")
 
-
+2.	The reads must be located in the workspace. To initiate the upload, first click on the folder icon. 
 ![Figure 11](./images/Picture11.png "Figure 11")
 
-
+3.	This opens up a window where the files for upload can be selected. If you want to upload data directly to your home directory, click on the icon with the arrow pointing up. 
 ![Figure 12](./images/Picture12.png "Figure 12")
 
-
+4.	You can also navigate to a desired folder. Use the scroll bar at the left of the pop-up window to see all the data in your directory.  When the desired folder is found, click on it. This will open that directory in the window, where you can use the upload icon to upload data directly to the selected folder.
 ![Figure 13](./images/Picture13.png "Figure 13")
 
-
+5.	This opens a new window where the file you want to upload can be selected. Note that as you entered through a specific service and file format (Metagenomic Binning, selecting read files), the upload type is set to Reads.  Not only will it look for read files in your computer interface, but it will also tag the uploaded files that way.  This is important for BV-BRC services, as any service that uses reads can “see” these files.  Click on the “Select File” in the blue bar. 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
-
+6.	This will open a window that allows you to choose files that are stored on your computer. Select the file where you stored the fastq file on your computer and click “Open”.  
 ![Figure 15](./images/Picture15.png "Figure 15")
 
-
+7.	Once selected, it will autofill the name of the file. Click on the Start Upload button. 
 ![Figure 16](./images/Picture16.png "Figure 16")
 
-
+8.	This will auto-fill the name of the document into the text box. 
 ![Figure 17](./images/Picture17.png "Figure 17")
 
-
+9.	Pay attention to the upload monitor in the lower right corner of the BV-BRC page. It will show the progress of the upload. Do not submit the job until the upload is 100% complete.
 ![Figure 18](./images/Picture18.png "Figure 18")
 
-
+10.	Repeat to upload the second pair of reads.
 ![Figure 19](./images/Picture19.png "Figure 19")
 
-
+11.	To finish the upload, click on the icon of an arrow within a circle. This will move your file into the Selected libraries box.
 ![Figure 20](./images/Picture20.png "Figure 20")
 
+### Uploading single reads
 
+1.	To upload a fastq file that contains single reads, locate the text box called “Single read library.” If the reads have previously been uploaded, click the down arrow next to the text box below Read File. 
 ![Figure 21](./images/Picture21.png "Figure 21")
 
-
+2.	This opens up a drop-down box that shows the all the reads that have been previously uploaded into the user account. Click on the name of the reads of interest.
 ![Figure 22](./images/Picture22.png "Figure 22")
 
-
+3.	This will auto-fill the name of the file into the text box.
 ![Figure 23](./images/Picture23.png "Figure 23")
 
-
+4.	To finish the upload, click on the icon of an arrow within a circle. This will move the file into the Selected libraries box.
 ![Figure 24](./images/Picture24.png "Figure 24")
 
+### Submitting reads that are present at the Sequence Read Archive (SRA)
 
+1.	BV-BRC also supports analysis of existing datasets from SRA. To submit this type of data, locate the Run Accession number that you will find at SRA and copy it.
 ![Figure 25](./images/Picture25.png "Figure 25")
 
-
+2.	Paste the copied accession number in the text box underneath SRA Run Accession, then click on the icon of an arrow within a circle.  This will move the file into the Selected libraries box.
 ![Figure 26](./images/Picture26.png "Figure 26")
 
+### Submitting contigs
 
+1.	BV-BRC also supports analysis of contigs that have been assembled in or outside of the resource.  To submit contigs, you need to click on the Assembled Contigs button.
 ![Figure 27](./images/Picture27.png "Figure 27")
 
-
+2.	This will reload the page to show contigs only as the Input file.  Uploading files are similar to what has been described for the read files above.
 ![Figure 28](./images/Picture28.png "Figure 28")
 
+## Setting Parameters when reads are the input
 
+Parameters must be selected prior to the submission of the Metagenomic Binning job in BV-BRC.  
 ![Figure 29](./images/Picture29.png "Figure 29")
 
+### Assembly Strategy
 
 ![Figure 30](./images/Picture30.png "Figure 30")
 
+1.	The assembly strategy for the reads must be selected.  Clicking on the down arrow that follows the text box under Assembly Strategy will open a drop-down box that shows all the strategies that BV-BRC offers.  A description of each strategy is listed below. 
+    * The metaSPAdes(1) software is part of the SPAdes toolkit, developed to address the various challenges of metagenomic assembly.  The latest version of the SPAdes toolkit that includes metaSPAdes is available here (http://cab.spbu.ru/software/spades/).
+
+    * MEGAHIT is a de novo assembler for assembling large and complex metagenomics data(2). The MegaHit software is available here: https://github.com/voutcn/megahit.  MEGAHIT assembles the data as a whole (i.e., no preprocessing like partitioning and normalization).
+
+### Organisms of Interest
 
 ![Figure 31](./images/Picture31.png "Figure 31")
 
+1.	Organisms of interest must be selected.  Clicking on Bacteria/Archaea will only show those results,  clicking on Viruses will only show those, and clicking on Both will show all of those results.  
+    * If **Bacteria/Archaea** are selected, the RASTtk3 annotation pipeline will be used. The code for the RASTtk pipeline is located at https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl
+
+    * Selecting **Viruses** will use one of two annotation pipelines. Other viruses are first run through the VIGOR4(4,5) pipeline.  (The software for the VIGOR pipeline is located at: https://github.com/JCVenterInstitute/VIGOR4). If that does not find a virus match, the Mat Peptide6 pipeline is used.
+
+    * When selecting **Both** the bacterial/archaeal and viral pipelines will be run.  The workflow for this strategy is available at the top of this tutorial.
+
+### Output Folder
 
 ![Figure 32](./images/Picture32.png "Figure 32")
 
-
+1.	An output folder must be selected for the metagenomic binning job.  Typing the name of the folder in the text box underneath the words Output Folder will show a drop-down box that shows close hits to the name.
 ![Figure 33](./images/Picture33.png "Figure 33")
 
-
+2.	Clicking on the arrow at the end of the box will open a drop-down box that shows the most recently created folders.  
 ![Figure 34](./images/Picture34.png "Figure 34")
 
-
+3.	To find a previously created folder, or to create a new one, click on the folder icon at the end of the text box.  This will open a pop-up window that shows all the previously created folder.
 ![Figure 35](./images/Picture35.png "Figure 35")
 
-
+4.	Click on the folder of interest, and then click the OK button in the lower right corner of the window.
 ![Figure 36](./images/Picture36.png "Figure 36")
 
+### Output Name
 
 ![Figure 37](./images/Picture37.png "Figure 37")
 
+1.	A name for the job must be included prior to submitting the job.  Enter the name in the text box underneath the words Output Name.
+
+### Genome Group Name
 
 ![Figure 38](./images/Picture38.png "Figure 38")
 
+1.	The metagenome binning service currently creates a series of single-bin annotations and a genome group which supports some rudimentary multi-genome functionality, e.g. protein family heatmaps.  A name for the genome group that will be generated must be included prior to submitting the job.  Enter the name in the text box underneath the words Genome Group Name. 
+
+## Submitting the Metagenomic binning job 
+1.	Once the input data and the parameters have been selected, the Submit button at the bottom of the page will turn blue.  The metagenomic binning job will be submitted once this button is clicked. Once submitted, the job will enter the queue.  You can check the status of your job by clicking on the Jobs monitor at the lower right.
 
 ![Figure 39](./images/Picture39.png "Figure 39")
 

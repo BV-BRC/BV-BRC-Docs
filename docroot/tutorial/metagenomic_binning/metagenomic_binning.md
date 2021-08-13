@@ -162,48 +162,68 @@ Parameters must be selected prior to the submission of the Metagenomic Binning j
 
 ## Submitting the Metagenomic binning job 
 1.	Once the input data and the parameters have been selected, the Submit button at the bottom of the page will turn blue.  The metagenomic binning job will be submitted once this button is clicked. Once submitted, the job will enter the queue.  You can check the status of your job by clicking on the Jobs monitor at the lower right.
-
 ![Figure 39](./images/Picture39.png "Figure 39")
 
+## Finding the completed Metagenomic binning job 
 
+1.	There are two places to access a completed job in BV-BRC or PATRIC.  Clicking on the Jobs icon at the bottom right of any page will open the list of jobs that have been submitted.
 ![Figure 40](./images/Picture40.png "Figure 40")
 
-
+2.	A complete list of all completed jobs will appear from most recent to first job.  Clicking on any of the column heads will resort the page to sow the results in that order.
 ![Figure 41](./images/Picture41.png "Figure 41")
 
-
+3.	Clicking on an individual job or row will show possible downstream functions, which appear as icons, in the vertical green bar to the right of the list.  Clicking on the View icon will rewrite the page to show the results of the selected job.
 ![Figure 42](./images/Picture42.png "Figure 42")
 
-
+4.	The files produced by the specific job will be shown on the Jobs results page.  As with the Jobs page, clicking on an individual row will populate the vertical green bar with possible action icons, like viewing or downloading the data.
 ![Figure 43](./images/Picture43.png "Figure 43")
 
-
+5.	Completed jobs can also be access through the workspace, which you can access by clicking on the Workspaces tab, which is at the top of any BV-BRC page.
 ![Figure 44](./images/Picture44.png "Figure 44")
 
-
+6.	This will open a drop-down box for the workspace.  To view the home workspace, click on “home”.
 ![Figure 45](./images/Picture45.png "Figure 45")
 
-
+7.	This will rewrite the page to show the home directory. Scrolling down the page will show the files and folders in the workspace
 ![Figure 46](./images/Picture46.png "Figure 46")
 
-
+8.	If the job is in a particular folder, that can be opened by double clicking on the row that has the job.
 ![Figure 47](./images/Picture47.png "Figure 47")
 
-
+9.	This rewrites the page to show the data in that particular folder.  Completed jobs are indicated by a checkered flag in the first column.   The completed job can be accessed by double clicking on that row.
 ![Figure 48](./images/Picture48.png "Figure 48")
 
-
+10.	This will rewrite the page to show the files produced by the completed job.  As with the Jobs page, clicking on an individual row will populate the vertical green bar with possible action icons, like viewing or downloading the data.
 ![Figure 49](./images/Picture49.png "Figure 49")
 
+## Metagenomic binning job results
 
+1.	Any job run in the BV-BRC contains a number of files, as well as information about the submitted job.  To view the input parameters that were selected when the job was submitted, click on the arrow that precedes the word “Parameters.”
 ![Figure 50](./images/Picture50.png "Figure 50")
 
-
+2.	This will open a drop-down box that shows the parameters.  This box can be closed by clicking on the same arrow.
 ![Figure 51](./images/Picture51.png "Figure 51")
 
-
+3.	The **BinningReport.html** is among the files produced by the Metagenomic Binning service, but only when Bacteria/Archaea was included or selected under Organisms of Interest when the job was submitted.  This is the binning report for the bacterial or archaeal organisms found in the submitted data.  To view this document, click on the row that contains it, and then click the View icon in the vertical green bar to the right.
 ![Figure 52](./images/Picture52.png "Figure 52")
 
+4.	This will show the binning report. The top part of the page shows information about the binning job. Immediately below is a brief description of the results. The binning report shows all of the bins found by the PATRIC metagenomic processor. The bins are divided into two categories– those of high quality (good) and those of questionable quality (bad).  Each of the columns contains specific information:
+
+    * **Score**: A weighted sum of the completeness and consistency scores, less the contamination score. The contamination is weighted very heavily, so a highly contaminated bin may have a negative score. The maximum score is 2090 and the minimum score is -5000. The bins are sorted from the highest score to the lowest. Clicking on this number takes you to the detail report on the bin.
+    * **Genome ID**: The ID number assigned to the genome in BV-BRC that represents the bin. Clicking on this number takes you to the genome.
+    * **Genome Name**: The name given to the bin. This is usually the species of the closest reference genome followed by the phrase clonal population.
+    * **Reference Genome**: The ID of the reference genomes used to create the bin. There is usually only one. Sometimes there are two, indicating that the bin represents multiple strains that could not be easily distinguished during the binning. 
+    * **Coarse Consistency**: The percent of predictable roles whose presence or absence matches the computations of the consistency tool. A high coarse consistency indicates the bin is either a single genome or a cluster of very close strains.
+    * **Fine Consistency**: The percent of predictable roles whose number of occurrences matches the computations of the consistency tool. This number is always lower than the coarse consistency. A high fine consistency indicates a bin that can be treated like a functioning genome. A fine consistency of 87% is the minimum required for a bin to be considered a good genome.
+    * **Completeness and Contamination**: Two internal BV-BRC tools are used– EvalG7, which computes completeness and contamination using marker roles, and EvalCon7, which determines whether the proteins found in the genome make sense together. A genome that is sufficiently complete (80%), with sufficiently low contamination (10%), and sufficiently consistent proteins (87%) is considered good and is shown in the first table.  
+    * **Hypothetical**: The percent of the annotated proteins in the genome that are named “Hypothetical.” A high percental of hypothetical proteins is an indication of a poor-quality genome.
+    * **Contig count**:  The number of contigs from the assembled sample that were placed in the bin.
+    * **DNA size (bp)**:  The number of DNA base pairs in the bin.
+    * **Contigs N50 (bp)**: A statistical measure of the relative contig sizes: a higher number indicates a better assembly. This is the size of the longest contig such that half of the base pairs are in contig this size or larger.
+    * **Mean coverage**:  The average coverage for contigs in the bin. If no coverage information was provided, this will be 50 for every bin.
+    * **Potentially Problematic Roles**:  The number of roles that failed the consistency or completeness/contamination checks. Clicking on the numbers in this column takes you to the bin’s detail report, which includes a list of the roles in question.
+    * **Good PheS**:  A Yes, or “Y” here indicates that the bin contains a single PheS protein of reasonable size, otherwise it is left blank. Because the PheS is used to identify the reference genomes of the bin, a questionable PheS protein is considered a serious problem with the bin.
+    * **A yellow cell** indicates a score that is problematic for the quality of the bin.
 
 ![Figure 53](./images/Picture53.png "Figure 53")
 

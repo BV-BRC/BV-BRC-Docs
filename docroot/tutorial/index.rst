@@ -12,3 +12,4 @@ Metagenomics
    :maxdepth: 1
 
    taxonomic_classification/taxonomic_classification.md
+   metagenomic_binning/metagenomic_binning.md

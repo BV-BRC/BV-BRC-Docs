@@ -284,97 +284,155 @@ Parameters must be selected prior to the submission of the Metagenomic Binning j
 20. A new tab will open that shows the landing page for the binned genome in BV-BRC.
 ![Figure 69](./images/Picture69.png "Figure 69")
 
+## Bacterial bin annotation job
 
+If “Bacteria/Archaea” or “Both” were selected under “Organisms of Interest” when the job was created, a bacterial binning job will be generated, even if it did not produce any bins.  Each successful bin has its own “job” that is indicated by a checkered flag.  “bin” is a bacterial bin.  
+
+1.	Double clicking on the row that contains the bin will open a new tab.
 ![Figure 70](./images/Picture70.png "Figure 70")
 
-
+2.	The new tab contains the information and files for the job that completed.
 ![Figure 71](./images/Picture71.png "Figure 71")
 
-
+3.	The **contigs.fasta** contains the assembled contigs of the genome in DNA FASTA format.
 ![Figure 72](./images/Picture72.png "Figure 72")
 
-
+4.	The file ending in **.embl** contains an EMBL dump of the annotated genome.
 ![Figure 73](./images/Picture73.png "Figure 73")
 
-
+5. The **feature_dna.fasta** contains all the feature sequences of the genome in DNA FASTA format
 ![Figure 74](./images/Picture74.png "Figure 74")
 
-
+6.	The **feature_protein.fasta** contains all the protein sequences of the genome in protein FASTA format
 ![Figure 75](./images/Picture75.png "Figure 75")
 
-
+7.	The **features.txt** is a tab-delimited text file listing all the features of the genome. For each feature, it contains the BV-BRC ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD59 checksum.
 ![Figure 76](./images/Picture76.png "Figure 76")
 
-
+8.	The **gb** file contains the annotated genome in GenBank format.
 ![Figure 77](./images/Picture77.png "Figure 77")
 
-
+9.	The **genome** file contains a special “Genome Typed Object (GTO)” JSON-format file that encapsulates all the data from the annotated genome.
 ![Figure 78](./images/Picture78.png "Figure 78")
 
-
+10.	The **gff** lists all the features of the genome in General Feature Format.
 ![Figure 79](./images/Picture79.png "Figure 79")
 
-
+11.	The **merged.gb** is a GenBank file where the individual contigs are each included as a GenBank fasta record under a single locus.
 ![Figure 80](./images/Picture80.png "Figure 80")
 
-
+12.	The **tar.gz** file is a zipped file that contains all the information about the annotation job.
 ![Figure 81](./images/Picture81.png "Figure 81")
 
-
+13.	The text, or **txt** file shows the nucleotide and protein sequence of all the annotated genes.
 ![Figure 82](./images/Picture82.png "Figure 82")
 
-
+14.	The xls is an excel file that shows the nucleotide and protein sequence of all the annotated genes.
 ![Figure 83](./images/Picture83.png "Figure 83")
 
-
+15.	The **genome_quality_details.txt** file shows some of the quality scores seen in the GenomeReport.html, and a list of the genes in both the binned and reference genomes and the number of copies in each.
 ![Figure 84](./images/Picture84.png "Figure 84")
 
-
+16.	The **Load files** folders contains all the json files related to the annotation job.
 ![Figure 85](./images/Picture85.png "Figure 85")
 
-
+17. The **quality.json** file has the same information in json format.
 ![Figure 86](./images/Picture86.png "Figure 86")
 
-
+18.	If “Viruses” or “Both” were selected under “Organisms of Interest” when the job was submitted, and if viral bins were created, a file containing the contigs for each of those bins (vBin1…vBinX) will be generated.
 ![Figure 87](./images/Picture87.png "Figure 87")
 
+## Viral Binning annotation jobs
 
+If  “Viruses” or “Both” were selected under “Organisms of Interest” when the job was submitted a viral binning job will be generated, even if it did not produce any bins.  Each successful bin has its own “job” that is indicated by a checkered flag and followed by   “vBin”.  
+
+1.	Double clicking on the row that contains the bin will open a new tab.
 ![Figure 88](./images/Picture88.png "Figure 88")
 
-
+2. The new tab contains the information and files for the viral annotation job that completed.
 ![Figure 89](./images/Picture89.png "Figure 89")
 
-
+3.	This will rewrite the page to show the results from that particular viral bin.  Note that there are hyperlink icons at the top right of the page that will take you to the Genome Landing pate (View), the feature table with the list of genes (CDS) and the genome browser (Browser).
 ![Figure 90](./images/Picture90.png "Figure 90")
 
-
+4. The viral bin will include a **quality.json** file.  To view that file, click on the row that contains it, and then the View icon.  This will rewrite the page to show the file.
 ![Figure 91](./images/Picture91.png "Figure 91")
 
-
+5.	The **contigs.fasta** contains the assembled contigs of the genome in DNA FASTA format.
 ![Figure 92](./images/Picture92.png "Figure 92")
 
-
+6.	The file ending in **.embl** contains an EMBL dump of the annotated genome.
 ![Figure 93](./images/Picture93.png "Figure 93")
 
-
+7.	The **feature_dna.fasta** contains all the feature sequences of the genome in DNA FASTA format.  If the file size is 0, that means that VIGOR4 could not annotate genes for this particular viral family.
 ![Figure 94](./images/Picture94.png "Figure 94")
 
-
+8.	The **feature_protein.fasta** contains all the protein sequences of the genome in protein FASTA format. If the file size is 0, that means that VIGOR4 could not annotate proteins for this particular viral family.
 ![Figure 95](./images/Picture95.png "Figure 95")
 
-
+9.	The **features.txt** is a tab-delimited text file listing all the features of the genome. For each feature, it contains the BV-BRC ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5(9) checksum.  If the file size is small, it is an indication that VIGOR4 could not annotate any features in this particular viral family.  Opening the file will only show the column headers.
 ![Figure 96](./images/Picture96.png "Figure 96")
 
-
+10.	The **gb** file contains the annotated genome in GenBank format.
 ![Figure 97](./images/Picture97.png "Figure 97")
 
-
+11.	The **genome** file contains a special “Genome Typed Object (GTO)” JSON-format file that encapsulates all the data from the annotated genome.
 ![Figure 98](./images/Picture98.png "Figure 98")
 
-
+12.	The **gff** lists all the features of the genome in General Feature Format.
 ![Figure 99](./images/Picture99.png "Figure 99")
 
-
+13.	The **merged.gb** is a GenBank file where the individual contigs are each included as a GenBank fasta record under a single locus.
 ![Figure 100](./images/Picture100.png "Figure 100")
+
+14.	The **tar.gz** file is a zipped file that contains all the information about the annotation job.
+![Figure 101](./images/Picture101.png "Figure 101")
+
+## Genome Report
+
+Genome quality analysis is automatically performed when Using the BV-BRC Metagenomic Binning Service or Genome Annotation. The genome quality tools look at the functional roles present in an annotated genome to determine if the genome looks correct. Two separate mechanisms are used to predict the number of times each gene should be found in the genome. A role is good if it occurs the predicted number of times; otherwise it is problematic.
+
+The first quality tool (EvalG) checks the completeness and contamination of the genome using a re-implementation of the CheckM(10) algorithm. EvalG identifies universal genes that are expected to occur exactly once in all genomes of a particular taxonomic grouping. Missing genes indicate the genome is less complete; extra genes indicate the genome may be contaminated.
+
+The second quality tool (EvalCon) checks the consistency of the genome annotation. Over 1300 genes that have a predictable relationship to other genes were identified by a machine learning process. EvalCon determines how many instances of each gene are expected given the list of other genes in the genome. If a gene in the genome is unexpected, or an expected gene is missing, this is considered coarse inconsistency. If a gene occurs a different number of times than predicted, this is fine inconsistency.
+
+The four numbers– completeness, contamination, coarse consistency, and fine consistency– express measures of the quality of the genome. EvalG and EvalCon tell us not only the numbers, but also identify the problematic genes that occur an unexpected number of times. The preceding are summarized in the Quality Report web page. The report is divided into three sections– the Summary Section that describes the genome itself, the Problematic Roles Report that lists the genes whose expected and actual occurrence numbers do not match, and the Contig Report that lists the contigs containing problematic roles.
+
+1.	To view the GenomeReport.html, click on its row and then on the View icon.
+![Figure 102](./images/Picture102.png "Figure 102")
+
+2.	This will reload the page to show the Genome Report. The top of the page is the summary section, which shows the scores achieved by the binned genome.
+![Figure 103](./images/Picture103.png "Figure 103")
+
+3.	A yellow color indicates a poor scoring value.
+![Figure 104](./images/Picture104.png "Figure 104")
+
+4.	The Problematic Roles Report lists the genes whose expected and actual occurrence numbers do not match.  It shows the gene, or role, what would be expected in a normal genome (**Predicted count**), the number of genes found in the binned genome (**Annotated count**), the link to those genes (**Feature link**), and more information about the genes (**Comment**).
+![Figure 105](./images/Picture105.png "Figure 105")
+
+5.	Click on the Feature link will open a new table that shows the problematic genes in the binned genome.
+![Figure 106](./images/Picture106.png "Figure 106")
+
+6.	To view the problematic gene, click on the gene ID in the Comment section.  This will open a new tab that takes you to the landing page of that particular gene.  This page has several tabs, but it open on the Compare Region View, which shows the neighborhood around the problematic gene (which will be colored red).
+![Figure 107](./images/Picture107.png "Figure 107")
+
+7.	The Comment section also contains a link to the contig that has the problematic gene.  Clicking on the contig ID will open a new tab that lists the genes on that contig.
+![Figure 108](./images/Picture108.png "Figure 1078")
+
+8.	The final section is the Contig Report, which lists the contigs containing problematic genes. This table has four columns, including the **Contig Name**, the **Length** of the contig, the number of **Good Features** (or genes) on that contig, and link to a table with those problematic genes (**Feature link**).
+![Figure 109](./images/Picture109.png "Figure 109")
+
+## References
+
+1. Nurk, S., Meleshko, D., Korobeynikov, A. & Pevzner, P. A. metaSPAdes: a new versatile metagenomic assembler. Genome research 27, 824-834 (2017).
+2. Li, D. et al. MEGAHIT v1. 0: a fast and scalable metagenome assembler driven by advanced methodologies and community practices. Methods 102, 3-11 (2016).
+3. Brettin, T. et al. RASTtk: a modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. Scientific reports 5, 8365 (2015).
+4. Wang, S., Sundaram, J. P. & Spiro, D. VIGOR, an annotation program for small viral genomes. BMC bioinformatics 11, 1-10 (2010).
+5. Wang, S., Sundaram, J. P. & Stockwell, T. B. VIGOR extended to annotate genomes for additional 12 different viruses. Nucleic acids research 40, W186-W192 (2012).
+6. Larsen, C. N. et al. Mat_peptide: comprehensive annotation of mature peptides from polyproteins in five virus families. Bioinformatics 36, 1627-1628 (2020).
+7. Parrello, B. et al. A machine learning-based service for estimating quality of genomes using PATRIC. BMC bioinformatics 20, 1-9 (2019).
+8. Nayfach, S. et al. CheckV assesses the quality and completeness of metagenome-assembled viral genomes. Nature biotechnology 39, 578-585 (2021).
+9. Rivest, R. & Dusse, S.     (MIT Laboratory for Computer Science Cambridge, 1992).
+10. Parks, D. H., Imelfort, M., Skennerton, C. T., Hugenholtz, P. & Tyson, G. W. CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes. Genome research 25, 1043-1055 (2015).
 
 

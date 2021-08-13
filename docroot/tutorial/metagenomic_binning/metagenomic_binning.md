@@ -224,55 +224,64 @@ Parameters must be selected prior to the submission of the Metagenomic Binning j
     * **Potentially Problematic Roles**:  The number of roles that failed the consistency or completeness/contamination checks. Clicking on the numbers in this column takes you to the bin’s detail report, which includes a list of the roles in question.
     * **Good PheS**:  A Yes, or “Y” here indicates that the bin contains a single PheS protein of reasonable size, otherwise it is left blank. Because the PheS is used to identify the reference genomes of the bin, a questionable PheS protein is considered a serious problem with the bin.
     * **A yellow cell** indicates a score that is problematic for the quality of the bin.
-
 ![Figure 53](./images/Picture53.png "Figure 53")
 
-
+5.	Each bin occupies a single row in its respective table. The first, second, and last columns are hyperlinked. The links in the first and last column  allow you to view the detail report on the bin.
 ![Figure 54](./images/Picture54.png "Figure 54")
 
-
+6.	Clicking on that link will go to the Genome Report for this bin.  Details on the Genome Report will be provided below.
 ![Figure 55](./images/Picture55.png "Figure 55")
 
-
+7.	The second column is the Genome ID, or unique identifier for the genome found in this bin.  It is also a link that allows you to view the bin as a genome in BV-BRC.
 ![Figure 56](./images/Picture56.png "Figure 56")
 
-
+8.	Clicking on the Genome ID will open a new tab that has the information for that genome.
 ![Figure 57](./images/Picture57.png "Figure 57")
 
-
+9.	Clicking on a reference genome ID takes you to its display page in BV-BRC. The reference genomes are always publicly available BV-BRC genomes.
 ![Figure 58](./images/Picture58.png "Figure 58")
 
-
+10. This will take you to the genome landing page for the reference genome used for the particular bin.
 ![Figure 59](./images/Picture59.png "Figure 59")
 
-
+11.	The pipeline also produces a json file.  A JSON file is a file that stores simple data structures and objects in JavaScript Object Notation (JSON) format, which is a standard data interchange format. It is primarily used for transmitting data between a web application and a server.  If you want to see what it looks like, you can select the row that contains the **bins.json**, and then click the View icon in the vertical green bar to the right. This will open a view of the json file.
 ![Figure 60](./images/Picture60.png "Figure 60")
 
-
+12. The pipeline also produces a file on the statistics of the bacterial bins found in the **bins.stats.txt** file.  As mentioned above, selecting the row that contains this file will highlight the vertical green bar to the right with possible downstream functions.  To view it, click on the View icon. The file will appear in the view.  It shows the data associated with the bins.
 ![Figure 61](./images/Picture61.png "Figure 61")
 
-
+13. The pipeline also produces a file on the coverage statistics of the bacterial bins.  To view that, click on the row that contains the **coverage.stats.txt** file and then on the View icon. This will open the file, which shows the assembly statistics associated with the bacterial bins.
 ![Figure 62](./images/Picture62.png "Figure 62")
 
-
+14.	The pipeline also produces data that could not be mapped to the selected organisms.  The file that contains these contigs is called **unbinned.fasta**.
 ![Figure 63](./images/Picture63.png "Figure 63")
 
-
+15.	The **unplaced.fasta** file includes the contigs actually the “Unmatched 12-mer contigs” that can be seen in the diagram at the top of this tutorial. 
 ![Figure 64](./images/Picture64.png "Figure 64")
 
-
+16.	The completed job contains contig files for each of the bins.  Note that the file type is listed at the far right.  These files are available for download, or for further analysis.
 ![Figure 65](./images/Picture65.png "Figure 65")
 
-
+17.	The **ViralBinningReport.html** is among the files produced by the Metagenomic Binning service, but only when Viruses was included or selected under Organisms of Interest when the job was submitted.  This is the binning report for the virus organisms found in the submitted data.  To view this document, click on the row that contains it, and then click the View icon in the vertical green bar to the right.
 ![Figure 66](./images/Picture66.png "Figure 66")
 
+18.	This will show the binning report. The top part of the page shows the input data, and the lower part shows information on the generated bins.  Each of the columns contains specific information:
+    * **Bins**: The number of the particular viral bin.  The table will show all the bins that were generated.
+    * **Virus ID**: This is the GenBank accession number for the reference used for this binned genome.
+    * **Taxon ID**:  This is the taxonomy ID for the reference used for this binned genome.
+    * **Genome ID**: The ID number assigned to the genome in BV-BRC that represents the bin. Clicking on this number takes you to the genome.
+    * **Genome Name**:  The name given to the bin. This is usually the species of the closest reference genome.
+    * **Length**: The number of DNA base pairs in the bin.
+    * **Completeness**: CheckV8 is used to estimates genome completeness.  It bases this score on comparison with a large database of complete viral genomes derived from NCBI GenBank and environmental samples and reports a confidence level for the estimate.
+    * **Error**: CheckV reports a confidence level for each AAI-based estimate according to the expected relative unsigned error rate: high confidence (0–5% error), medium confidence (5–10% error) or low confidence (>10% error).
+    * **Coverage**: The average coverage for contigs in the bin.
 
 ![Figure 67](./images/Picture67.png "Figure 67")
 
-
+19.	Clicking on the Genome ID for the binned genome will show more information.
 ![Figure 68](./images/Picture68.png "Figure 68")
 
-
+20. A new tab will open that shows the landing page for the binned genome in BV-BRC.
 ![Figure 69](./images/Picture69.png "Figure 69")
 
 

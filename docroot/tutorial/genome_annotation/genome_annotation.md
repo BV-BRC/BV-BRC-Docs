@@ -1,4 +1,4 @@
-# Annotating a genome in BV-BRC
+# Genome Annotation
 
 Genome annotation is the process of identifying functional elements along the sequence of a genome.  In 2008, the RAST server (Rapid Annotation using Subsystem Technology) was developed to annotate microbial genomes<sup>1</sup>. It works by projecting manually curated gene annotations from the SEED database onto newly submitted genomes<sup>2,3</sup>. The key to the consistency and accuracy of the RAST algorithm has been the carefully structured annotation data in the SEED, which are organized into subsystems (sets of logically related functional roles<sup>2</sup>). RAST has become one of the most popular sources for consistent and accurate annotations for microbial genomes. 
 

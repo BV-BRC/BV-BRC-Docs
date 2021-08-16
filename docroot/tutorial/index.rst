@@ -11,8 +11,8 @@ Genomics
 .. toctree::
    :maxdepth: 1
 
-   genome_annotation/genome_annotation.md
    genome_assembly/assembly.md
+   genome_annotation/genome_annotation.md
 
 Metagenomics
 ------------

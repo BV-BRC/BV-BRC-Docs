@@ -1,209 +1,231 @@
-# Assembling a Genome
+# Genome Assembly
 
-There are a variety of programs that can be used to assemble the reads that are produced from sequencing machines into contigs or chromosomes, but these can require an advanced programming ability that research biologists are sometimes lacking.  To meet this need PATRIC allows researchers to assemble short reads that are single or paired (typically from Illumina machines), and also long reads from PacBio or Nanopore [1] machines.   PATRIC provides several assembly tools and pipelines, the results of which are downloaded into a researcher's private workspace.  Below is the methodology showing the assembly for single reads using the default assembly method.
+A genome assembly is the sequence produced after chromosomes from the organism have been fragmented, those fragments have been sequenced, and the resulting sequences have been put back together. This is currently needed as DNA sequencing technology cannot read whole genomes in one go, but rather can read small pieces of between 20 and 30,000 bases, depending on the technology used. Typically, the short fragments, called reads, result from shotgun (random) sequencing of genomic DNA.
 
-**Keywords:** Genome assembly, Bacterial genome assembly, Genome Assembly pipeline, Assembly service, Assembly server, De novo assembly, Contig assembly
+De novo sequence assemblers are a type of program that assembles short nucleotide sequences into longer ones without the use of a reference genome. These are commonly used in bioinformatic studies to assemble genomes or transcriptomes.
 
-##  Locating the Assembly Service App
-1. At the top of any PATRIC page, find the Services tab, and click on Assembly
-![Step 1](./images/image1.png "Step 1")
+Different assemblers are designed for different type of read technologies. Second generation sequencing technologies like Illumina (called “short-read” technologies) produce short reads on the order of 50-200 base pairs and have low error rates of around 0.5-2%, with the errors chiefly being substitution errors. Third generation technologies like PacBio and fourth generation technologies like Oxford Nanopore (called “long-read” technologies) provide read lengths in the thousands or tens of thousands but have much higher error rates of around 10-20%, with errors being chiefly insertions and deletions. These differences necessitate different algorithms for assembly from short and long read technologies.
 
-2. This will open up the Assembly landing page where researchers can submit long reads, single or paired read files.
-![Step 2](./images/image2.png "Step 2")
+What follows is a tutorial showing how to submit reads of various types for assembly and selecting parameters for the assembly algorithm.  Note that reads from different sequencing platforms of the same organism can be submitted in one job. If PacBio and Illumina reads are available, both would be combined to generate the best assembly.
 
-## Uploading sequence reads for a paired-read assembly job
+## Locating the Assembly Service App
 
-Many paired read libraries are given as file pairs, with each file containing half of each read pair. Paired read files are expected to be sorted in such a way that each read in a pair occurs in the same Nth position as its mate in their respective files. These files are specified as READ FILE 1 and READ FILE 2. For a given file pair, the selection of which file is READ 1 and which is READ 2 does not matter.
-Two examples of paired read libraries can be found in [the public PATRIC workspaces](https://patricbrc.org/workspace/public/PATRIC@patricbrc.org/PATRIC%20Workshop/Assembly).
-Each pair of read files in this workspace is grouped with a job showing the results
-of the assembly.
+1. At the top of any BV-BRC page, find the Services tab and click on it
+![Figure 1](./images/Picture1.png)
 
-![Example Read Files](./images/assemblies.fw.png)
+2. In the drop-down box, underneath Genomics, click on Assembly.
+![Figure 2](./images/Picture2.png)
 
-1. To upload a fastq file that contains paired reads, locate the box called *Paired read library*.
-![Step 3](./images/image3.png "Step 3")
+3. This will open up the Assembly landing page where researchers can submit single or paired read files, a combination of the two, and/or an SRA run accession number to the service.
+![Figure 3](./images/Picture3.png)
 
-2. More information about the type of files that are permitted, click on the information icon. This will open a pop-up box that gives information on the type of reads that can be submitted, and also how to set the advanced parameters.
-![Step 4](./images/image4.png "Step 4")
+## Uploading paired end reads
+1. To upload a fastq file that contains paired reads, locate the box called “Paired read library.” 
+![Figure 4](./images/Picture4.png)
+ 
+2. The reads must be located in the workspace. To initiate the upload, first click on the folder icon.
 
-3. Clicking on Advanced extends the box, allowing researchers to adjust the parameters.
-![Step 5](./images/image5.png "Step 5")
-Specific information on the Advanced parameters are as follows.
-    - **File 1 Interleaved:** Some paired libraries are available in a single file where each read in a pair occurs in succession. To specify such a file set this parameter to 'True'.
-    - **Mean Insert Size:** This refers to the mean insert size between paired reads. If you have this information you may provide it. If not the assembly algorithm will make an attempt to determine this value.
-    - **Std. Insert Size:** This refers to the standard deviation of the insert size between paired reads. If you have this information you may provide it. If not the assembly algorithm will make an attempt to determine this value.
-    - **Mate Paired:** Defines the orientation of read pairs. Setting Mate Paired to true indicates that the sequencing direction of the two reads in each pair is outward facing.
-    - **Platform:** The sequencing platform used for each library.
-        * *infer*: Infer sequencing platform from read files;
-        * *illumina*: Illumina short reads;
-        * *pacbio*: PacBio long reads;
-        * *nanopore*: MinION long reads
+3. At the top of any BV-BRC page, find the Services tab and click on it
+![Figure 5](./images/Picture5.png)
 
-4. To submit reads, they must be located in the workspace. To initiate the upload, first click on the folder icon.
-![Step 6](./images/image6.png "Step 6")
+4. This opens up a window where the files for upload can be selected. Click on the icon with the arrow pointing up. 
+![Figure 6](./images/Picture6.png)
 
-5. This opens up a window where the files for upload can be selected. If the files have been previously uploaded, clicking on an individual file will select it. Clicking Okay at the bottom of the page will load it into the interface
-![Step 7](./images/image7.png "Step 7")
+5. This opens a new window where the file you want to upload can be selected. Click on the “Select File” in the blue bar. 
+![Figure 7](./images/Picture7.png)
 
-6. If the files have not previously been loaded into the workspace, click on upload button at the top right of the pop-up window.
-![Step 8](./images/image8.png "Step 8")
+6. This will open a window that allows you to choose files that are stored on your computer. Select the file where you stored the fastq file on your computer and click “Open”.  
+![Figure 8](./images/Picture8.png)
 
-7. This opens a new window where the file you want to upload can be selected. Click on *Select File* in the blue bar, or drag and drop a file into that space.
-![Step 9](./images/image9.png "Step 9")
+7. Once selected, it will autofill the name of the file. Click on the Start Upload button. 
+![Figure 9](./images/Picture9.png)
 
-8. This will open a window that allows you to choose files that are stored on your computer. Select the file where you stored the fastq file on your computer (red arrow) and click *Open* (blue arrow).
-![Step 10](./images/image10.png "Step 10")
+8. This will auto-fill the name of the document into the text box. 
+![Figure 10](./images/Picture10.png)
 
-9. Once selected, it will autofill the name of the file. You can see it in the screenshot below. Click on the Upload Files button (red arrow in screenshot below).
-![Step 11](./images/image11.png "Step 11")
+9. Pay attention to the upload monitor in the lower right corner of the BV-BRC page. It will show the progress of the upload. Do not submit the job until the upload is 100% complete.
+![Figure 11](./images/Picture11.png)
 
-10. This will auto-fill the name of the document into the text box as seen below.
-![Step 12](./images/image12.png "Step 12")
+10. Repeat to upload the second pair of reads.
+![Figure 12](./images/Picture12.png)
 
-11. Repeat the steps to upload the second pair of reads.
-![Step 13](./images/image13.png "Step 13")
+11. To finish the upload, click on the icon of an arrow within a circle. This will move your file into the Selected libraries box.
+![Figure 13](./images/Picture13.png)
 
-12. To finish the upload, click on the icon of an arrow within a circle (Red Arrow). This will move your file into the Selected libraries box (Blue Arrow).
-![Step 14](./images/image14.png "Step 14")
+12. The assembly protocol in BV-BRC assumes that the paired end reads are not interleaved and that the library creation was standard.  It will also infer the platform from the type of reads that it sees.  If one wishes to change these parameters, click on the down arrow following Advanced in the Paired read library box.  This will extend the box to show three additional parameters that can be selected.
+![Figure 14](./images/Picture14.png)
 
-## Uploading single reads for an assembly job
-1. To upload a fastq file that contains single reads, locate the box called *Single read library*.
+13. Interleaved files occur when the R1 and R2 reads are combined in one file, so that for each read pair, the R1 read in the file comes immediately before the R2 read, followed by the R1 read for the next read pair, and so on.  This happens rarely, but if the read files are interleaved, click on the arrow at the end of the text box underneath the words “File 1 Interleaved” and click on True.
+![Figure 15](./images/Picture15.png)
 
-    ![Step 15](./images/image15.png "Step 15")
+14. Mate-pair is a specific type of library. Mate pair allows you to have your pairs be much farther apart, which can be more informative than the standard paired-end protocol. Mate pair requires a completely different sample preparation protocol and is typically over longer distances such as 2-5kb. If you want to sequence a 5kb mate pair library, then 5kb fragments of DNA are isolated on the gel, the ends are biotinylated, the fragment is circularized and sheared. So now when you select using streptavidin, you'll get the fragment that has the ENDS of the original 5kb fragment. This fragment is then sequenced. Mate pair is more relevant in genome assembly, especially for covering repetitive sequences.  If the read files come from a mate-paired generated library, click on the down arrow next to False under the words Mate Paired and click on True in the drop-down box.
+![Figure 16](./images/Picture16.png)
 
-2. If the reads have previously been uploaded, click the down arrow next to the text box below Read File.
+15. To change the sequencing platform, click on the down arrow following the words “Infer Platform”.  Click on either Illumina or Ion Torrent, depending upon the sequencer that was used to generate the reads.
+![Figure 17](./images/Picture17.png)
 
-    ![Step 16](./images/image16.png "Step 16")
+## Uploading single reads
 
-3. This opens up a drop-down box that shows the all the reads that have been previously uploaded into the user account.  Click on the name of the reads of interest.
+1. To upload a fastq file that contains single reads, locate the text box called “Single read library.” If the reads have previously been uploaded, click the down arrow next to the text box below Read File. 
+![Figure 18](./images/Picture18.png)
 
-    ![Step 17](./images/image17.png "Step 17")
+2. This opens up a drop-down box that shows the all the reads that have been previously uploaded into the user account. Click on the name of the reads of interest.
+![Figure 19](./images/Picture19.png)
 
-4. This will auto-fill the name of the document into the text box as seen below.
+3. This will auto-fill the name of the file into the text box.
+![Figure 20](./images/Picture20.png)
 
-    ![Step 18](./images/image18.png "Step 18")
+4. To finish the upload, click on the icon of an arrow within a circle. This will move the file into the Selected libraries box.
+![Figure 21](./images/Picture21.png)
 
-5. To finish the upload, click on the icon of an arrow within a circle (red arrow in screenshot below). This will move your file into the Selected libraries box (blue arrow in screenshot below), where it is ready to be assembled
+5. The assembly algorithm will attempt to infer the platform that was used to generate the reads based on the format of the files.  If the type of sequencing is known, click on the down arrow following Advanced in the Single read library box.  This will extend the box to show three an additional box where the platform can be selected.
+![Figure 22](./images/Picture22.png)
 
-    ![Step 19](./images/image19.png "Step 19")
+6. To change the sequencing platform, click on the down arrow following the words “Infer Platform”.  Click on either Illumina, Ion Torrent, PacBio or Nanopore, depending upon the sequencer that was used to generate the reads.
+![Figure 23](./images/Picture23.png)
 
-## Uploading files from the Sequence Read Archive (SRA)
-1. PATRIC will directly load files from SRA for assembly. Enter the accession number into the text box and then click on the icon of an arrow within a circle.  This will move the file into the Selected libraries box where it is ready to be assembled.
-![Step 20](./images/image20.png "Step 20")
+## Submitting reads that are present at the Sequence Read Archive (SRA)
 
-##  Selecting the right parameters for an assembly job
-1. The last step of the assembly process is filling in the metadata parameters that define where the assembled contigs are placed in the workspace. PATRIC offers several different assembly strategies that can be viewed by clicking on the down-arrow following the text box under Assembly Strategy.
-![Step 21](./images/image21.png "Step 21")
+1. BV-BRC also supports analysis of existing datasets from SRA. To submit this type of data, locate the Run Accession number that you will find at SRA and copy it.
+![Figure 24](./images/Picture24.png)
 
-    - A description and diagram of the different assembly strategies is provided below.
-    - The auto assembly strategy runs BayesHammer [2] on short reads, followed by three assembly strategies that include Velvet [3], IDBA [4] and Spades [5], each of which is given an assembly score by ARAST, an in-house script.
-    - The fast assembly strategy runs MEGAHIT [6] and Velvet, with each assembly given a score determined by ARAST.
-    - Users can also choose the full spades strategy, which runs BayesHammer followed by Spades.
-    - Choosing kiki runs the Kiki assembler, an in-house script.
-    - Illumina MiSeq reads should be assembled using miseq, which runs Velvet with hash length 35, and then BayesHammer on reads and assembles with SPAdes with k up to 99, followed by a score using ARAST.
-    - Plasmid runs BayesHammer on reads and assembles with plasmidSPAdes [7].
-    - The smart strategy can be used for long or short reads.  The strategy for short reads when using smart involves running BayesHammer on reads, KmerGenie [8] to choose hash-length for Velvet, followed by the same assembly strategy using Velvet [3], IDBA [4] and Spades [5].  Assemblies are sorted with an ALE score [9] and the two best assemblies are merged using GAM-NGS [10].
-    - PacBio and Nanopore long reads only work with the auto and smart strategies. In either case, they are automatically assembled using Miniasm [11].
-![Step 22](./images/image22.png "Step 22")
+2. Paste the copied accession number in the text box underneath SRA Run Accession, then click on the icon of an arrow within a circle.  This will move the file into the Selected libraries box.
+![Figure 25](./images/Picture25.png)
 
-2. A folder must be selected to place the assembly results. A previously created folder can be seen by clicking on the down arrow under the Output Folder text box. Clicking on the folder of interest will select it, and the name will appear in the text box.
-![Step 23](./images/image23.png "Step 23")
+## Setting Parameters
 
-3. The folder icon next to the text box must be clicked on to create a new folder.
-![Step 24](./images/image24.png "Step 24")
+1. The assembly strategy for the reads must be selected.  Clicking on the down arrow that follows the text box under Assembly Strategy will open a drop-down box that shows all the strategies that BV-BRC offers.  A description of each strategy is listed below. Clicking on one of the strategies will autofill the text box with that selection.
 
-4. This will open a pop-up window. To create the new folder, click on the folder icon in the top right corner.
-![Step 25](./images/image25.png "Step 25")
+  * Unicycler[1] is an assembly pipeline that can assemble Illumina-only read sets where it functions as a SPAdes-optimizer. It can also assembly long-read-only sets (PacBio or Nanopore) where it runs a miniasm plus Racon pipeline. For the best possible assemblies, give it both Illumina reads and long reads, and it will conduct a hybrid assembly.  Unicycler builds an initial assembly graph from short reads using the de novo assembler and then uses a novel semi-global aligner to align long reads to it. The latest version of Unicycler is available here (https://github.com/rrwick/Unicycler).
 
-5. This will open a new pop-up window where the folder can be named and created.
-![Step 26](./images/image26.png "Step 26")
+  * SPAdes[2] is an assembler that is designed to assemble small genomes, such as those from bacteria, and uses a multi-sized De Bruijn graph to guide assembly. The latest version of the SPAdes toolkit is available here (http://cab.spbu.ru/software/spades/).
 
-6. Enter the name of the folder in the text box and click Create Folder. This will close the pop-up, showing the previous window. To select the new folder, click on the name and then click OK at the lower right.
-![Step 27](./images/image27.png "Step 27")
+  * Canu[3] is a long-read assembler which works on both third and fourth generation reads. It is a successor of the old Celera Assembler that is specifically designed for noisy single-molecule sequences. It supports nanopore sequencing, halves depth-of-coverage requirements, and improves assembly continuity. It was designed for high-noise single-molecule sequencing (such as the PacBio RS II/Sequel or Oxford Nanopore MinION).  The algorithm is available here (https://github.com/marbl/canu).
 
-7. The name of the selected folder will appear in the text box under Output Folder.
-![Step 28](./images/image28.png "Step 28")
+  * The metaSPAdes [4] software combines new algorithmic ideas with proven solutions from the SPAdes toolkit to address various challenges of metagenomic assembly.  The latest version of the SPAdes toolkit that includes metaSPAdes is available here (http://cab.spbu.ru/software/spades/).
 
-8. Enter the name of the assembly under Output Name.
-![Step 29](./images/image29.png "Step 29")
+  * Plasmids are stably maintained extra-chromosomal genetic elements that replicate independently from the host cell's chromosomes. The plasmidSPAdes[5] algorithm and software tool for assembling plasmids from whole genome sequencing data and benchmark its performance on a diverse set of bacterial genomes. The latest version of the SPAdes toolkit that includes plasmidSPAdes is available here (http://cab.spbu.ru/software/spades/).
 
-9. To compare the PATRIC assembly to a known assembly, click on the down-arrow next to the text box under Benchmark Contigs and follow the same upload instructions above.
-![Step 30](./images/image30.png "Step 30")
+  * Single-cell[2]: SPAdes, a new assembler for both single-cell and standard (multicell) assembly, and it improves on the recently released E+V−SC assembler (specialized for single-cell data). The latest version of the SPAdes toolkit that includes the assembly algorithm for reads from single cell is available here (http://cab.spbu.ru/software/spades/).
 
-10.	Adjustments can be made to the parameters. Click on the down arrow next to Advanced at the bottom of the box. The minimum contig length can be adjusted, and the short contigs can be filtered out of the final assembly. In addition, the pipeline parameter can be changed. This is an advanced way to customize the assembly workflow by mixing and matching a variety of modules. Each module works at one of the three stages of the pipeline: preprocessing, assembly, and post-processing. In general, you can compose a pipeline by concatenating one or more of the preprocessing modules, one assembler, and optionally one postprocessor. Examples can be seen by clicking the information icon that follows Assembly Pipeline Arguments.
-![Step 31](./images/image31.png "Step 31")
+Selecting Auto will use Canu if only long reads are submitted. If long and short reads, as or short reads alone are submitted, Unicycler is selected.
+![Figure 26](./images/Picture26.png)
 
-## Submitting the assembly job
-1. To submit the job, click on the Assemble button.
+2. An output folder must be selected for the assembly job.  Typing the name of the folder in the text box underneath the words Output Folder will show a drop-down box that shows close hits to the name, and clicking on the arrow at the end of the box will open a drop-down box that shows the most recently created folders.  To find a previously created folder, or to create a new one, click on the folder icon at the end of the text box.  This will open a pop-up window that shows all the previously created folder.
+![Figure 27](./images/Picture27.png)
 
-    ![Step 32](./images/image32.png "Step 32")
+3. Click on the folder of interest, and then click the OK button in the lower right corner of the window.
+![Figure 28](./images/Picture28.png)
 
-2. If the job was submitted successfully, a message will appear that indicates that the job has entered the assembly queue.
+4. A name for the job must be included prior to submitting the job.  Enter the name in the text box underneath the words Output Name.
+![Figure 29](./images/Picture29.png)
 
-    ![Step 33](./images/image33.png "Step 33")
+5. The BV-BRC assembly service also has options to trim the reads using TrimGalore[6], correct assembly errors (or “polish) using Racon[7] and/or Pilon[8], and also provides the ability to change the minimum contig length and coverage.  Adjusting these parameters can be accomplished by clicking on the down arrow next to the word “Advanced” in the Parameters box.
 
-3. To check the status of the assembly job, click on the Jobs indicator at the bottom of the PATRIC page.
+Both racon and pilon take the contigs and the reads mapped to those contigs, and look for discrepancies between the assembly and the majority of the reads.  Where there is a discrepancy, racon or pilon will correct the assembly if the majority of the reads call for that.  Racon is for long reads (PacBio or Nanopore) and pilon is for shorter reads (Illumina or Ion Torrent).  Once the assembly has been corrected with the reads, it is still possible to do another iteration to further improve the assembly, but each one takes time.
 
-    ![Step 34](./images/image34.png "Step 34")
+BV-BRC allows for 0 to 4 racon or pilon iterations.
+![Figure 30](./images/Picture30.png)
 
-4. Clicking on Jobs opens the Jobs Status page, where researchers can see the progression of the assembly job as well as the status of all the previous service jobs that have been submitted.
+## Submitting the Assembly job
 
-    ![Step 35](./images/image35.png "Step 35")
+1. Once reads are in the Selected libraries and all the parameters have been selected, the Assemble button at the bottom of the page will turn blue.  The assembly will be submitted once this button is clicked.
+![Figure 31](./images/Picture31.png)
 
-## Viewing the assembly job
-1. Researchers must monitor the Jobs Status page to see when an assembly job has completed. Jobs that were successful have a blue circle followed by the word *completed*. Those that were not successful have a red circle, followed by the word *failed*.
-![Step 36](./images/image36.png "Step 36")
+2. A message will appear at the bottom of the page, indicating that the submitted job has entered the BV-BRC queue.
+![Figure 32](./images/Picture32.png)
 
-2. To view the assembly job, the row must be selected (it will turn blue). This will open the view icon in the vertical green bar.  Double clicking on this icon will open a page with all the information about the assembly.
-![Step 37](./images/image37.png "Step 37")
+## Monitoring progress on the Jobs page
+1. Clicking on the Jobs box at the bottom right of any BV-BRC page/
+![Figure 33](./images/Picture33.png)
 
-3. PATRIC provides several different ways to assess the quality of the assembly, and provides the contigs files from each of the assembly algorithms that were run.
-![Step 38](./images/image38.png "Step 38")
+2. This will open the Jobs Landing page where the status of submitted jobs is displayed.
+![Figure 34](./images/Picture34.png)
 
-4. Clicking on the Parameters file will provide the details of the assembly job.
-![Step 39](./images/image39.png "Step 39")
+## Viewing the Assembly job results
 
-5. Contigs files have been generated for each of the assembly algorithms that ran. PATRIC also provides contigs files of the best assembly, which is identified as contigs.fa.
-![Step 40](./images/image40.png "Step 40")
+1. On the jobs page, click on the row that has the assembly of interest.
+![Figure 35](./images/Picture35.png)
 
-6. Clicking on the line that contains a contig file and then clicking on the Download icon in the vertical green bar can be used to save and view a contig file.
-![Step 41](./images/image41.png "Step 41")
+2. This will populate the vertical green bar on the right with possible downstream steps, which include viewing the results of the job, or reporting an issue that was experienced (like a job failure).  Click on the View icon.
+![Figure 36](./images/Picture36.png)
 
-7. There is no need to download the contig files. They will be provided in the drop-down box to submit contigs for the Annotation service.
-![Step 42](./images/image42.png "Step 42")
+3. This will rewrite the page to show the information about the assembly job, and all of the files that are produced when the pipeline runs.
+![Figure 37](./images/Picture37.png)
 
-8. To view an assessment of the quality of the assembly, click on the analysis.zip file and then on the download button.
-![Step 43](./images/image43.png "Step 43")
+4. The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the Parameters row.
+![Figure 38](./images/Picture38.png)
 
-9. Unzipping the analysis file will reveal a number of files. The Quast (Quality Assessment Tool for Genome Assemblies) algorithm [12] is used to compare and show the different values assigned to the different assemblies that have generated. Clicking on quast.out downloads a text file that can be examined.
-![Step 44](./images/image44.png "Step 44")
+5. This will show the information on what was selected when the job was originally submitted.
+![Figure 39](./images/Picture39.png)
 
-10. The quast.out file provides the details of how the program ran.
-![Step45 ](./images/image45.png "Step 45")
+6. The **“Graphical Fragment Assembly” (GFA)** is an emerging format for the representation of sequence assembly graphs, which can be adopted by both de Bruijn graph- and string graph-based assemblers.  This file can be viewed or downloaded, but it is not meant to be human readable.  It is used to generate the assembly plot graph (see below)
+![Figure 40](./images/Picture40.png)
 
-11.	Reports on the assembly are available in a variety of formats.
-![Step 46](./images/image46.png "Step 46")
+7. **Assembly Graph Plot**. A graph of the assembly is provided as part of the standard output.  Bandage (a Bioinformatics Application for Navigating De novo Assembly Graphs Easily)[9], a tool for visualizing assembly graphs with connections is used.  To see the Bandage plot, click on the row that has the .svg file and then click on the View icon in the vertical green bar.
+![Figure 41](./images/Picture41.png)
 
-12.	Clicking on the report.html will open a page that summarizes the statistics across the assembly algorithms.
-![Step 47](./images/image47.png "Step 47")
+8. The page that opens the Bandage plot.  By visualizing both nodes and edges, Bandage gives users easy, fast access to the connection information contained in assembly graphs. This is particularly useful when the assembly contains many short contigs, as is often the case when assembling short reads, and empowers users to examine and assess their assembly graphs in greater detail than when viewing contigs alone. 
+![Figure 42](./images/Picture42.png)
 
-13.	Clicking on the Extended report will show all the statistics.
-![Step 48](./images/image48.png "Step 48")
+9. An **Assembly report** is provided. To view the report, click on the row where the file ends in report.html, and then on the View icon in the vertical green bar.
+![Figure 43](./images/Picture43.png)
 
-14.	Quast generates several different plots that summarize the quality of the different assemblies, including a cumulative length, Nx and GC content.  These plots can be viewed with normal or logarithmic scales.
-![Step 49](./images/image49.png "Step 49")
+10.  This will open the Genome Assembly report.  It begins with the Input Reads, which is a description of the reads that were submitted.  This is followed about details on the Assembly pipeline.  
+![Figure 44](./images/Picture44.png)
+
+11. A Quast report is also included in the Genome Assembly report. Quast is a quality assessment tool for evaluating and comparing genome assemblies[10], and it produces many reports, summary tables and plots to help scientists in their research and in their publications.  
+![Figure 45](./images/Picture45.png)
+
+12.	The Post-Assembly Transformations of the Genome Assembly Report details of trimming, racon or pilon iterations, and the contigs and/or minimum coverage were selected when then job was selected. The Unicycler assembler will suggest if a contig is circular[1], which will be identified under the heading Circular Contigs. The Contig Filtering section of this report shows details on the contigs and coverage that fell above and below the thresholds that were selected.
+![Figure 46](./images/Picture46.png)
+
+13.	The end of the Genome Assembly Report also shows the Bandage Plot.
+![Figure 47](./images/Picture47.png)
+
+14.	To see the contigs generated by the assembly, click on the row that has the file ending in contigs fasta and click on the download icon.
+![Figure 48](./images/Picture48.png)
+
+15.	Opening the contigs file will show the contigs, each of which begin with a “>” and includes the length, coverage and normalized coverage statistics on the first row. Coverage means the average number of original reads that align to each position of the contig. The normalized coverage has a mean of 1.0 and helps identify contigs of unusually high or low coverage.  When both long and short reads are combined in a “hybrid assembly”, separate coverage statistics are provided for the two read categories. The sequence for the contig starts on the second row. 
+![Figure 49](./images/Picture49.png)
+
+16.	The assembly log file is also provided for viewing or downloading.  Clicking on the row that ends in assembly.log and then the view icon will open this file
+![Figure 50](./images/Picture50.png)
+
+17.	While the Quast[10] report is included in the Genome Assembly report, a separate, downloadable format is provided as an html.  
+![Figure 51](./images/Picture51.png)
+
+18.	When the quast_report.html is downloaded and opened, details on the assembly including the Cumulative length per contig is provided. The cumulative length plot shows the number of bases in the first x contigs, as x varies from zero to the number of contigs
+![Figure 52](./images/Picture52.png)
+
+19.	Clicking on Nx shows the percentage of bases on each of the contigs.
+![Figure 53](./images/Picture53.png)
+
+20.	Clicking on GC content shows the total number of G and C nucleotides in the assembly, divided by the total length of the assembly.
+![Figure 54](./images/Picture54.png)
+
+21.	This Quast report is also available as a text file.  To view this, click on the line that has the quast_report.txt and then on the View icon in the vertical green bar.
+![Figure 55](./images/Picture55.png)
+
+22.	This will open the text format of the that report.
+![Figure 56](./images/Picture56.png)
+
+23.	A JSON file is a file that stores simple data structures and objects in JavaScript Object Notation (JSON) format, which is a standard data interchange format. It is primarily used for transmitting data between a web application and a server.  While it is not recommended for viewing (it is a computer-readable file), the file is both downloadable and viewable.
+![Figure 57](./images/Picture57.png)
+
+24.	Unicycler provides a log file for each time it is run.  While it is not recommended for viewing, the file is both downloadable and viewable. Similarly, the p3x-assembly.stderr and p3x-assembly.stout are provided, but not generally examined.
+![Figure 58](./images/Picture58.png)
 
 ## References
 
-1. Branton, D., et al., The potential and challenges of nanopore sequencing. Nature biotechnology, 2008. 26(10): p. 1146-1153.
-2. Nikolenko, S.I., A.I. Korobeynikov, and M.A. Alekseyev, BayesHammer: Bayesian clustering for error correction in single-cell sequencing. BMC genomics, 2013. 14(1): p. 1.
-3. Zerbino, D.R. and E. Birney, Velvet: algorithms for de novo short read assembly using de Bruijn graphs. Genome research, 2008. 18(5): p. 821-829.
-4. Peng, Y., et al. IDBA: a practical iterative de Bruijn graph de novo assembler. in Research in Computational Molecular Biology. 2010. Springer.
-5. Bankevich, A., et al., SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. Journal of Computational Biology, 2012. 19(5): p. 455-477.
-6. Li, D., et al., MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph. Bioinformatics, 2015: p. btv033.
-7. Antipov D, Hartwick N, Shen M, Raiko M, Lapidus A, Pevzner PA. 2016. plasmidSPAdes: assembling plasmids from whole genome sequencing data. Bioinformatics32(22):3390-3397.
-8. Namiki, T., et al., MetaVelvet: an extension of Velvet assembler to de novo metagenome assembly from short sequence reads. Nucleic acids research, 2012. 40(20): p. e155-e155.
-9. Clark, S.C., et al., ALE: a generic assembly likelihood evaluation framework for assessing the accuracy of genome and metagenome assemblies. Bioinformatics, 2013: p. bts723.
-10.	Vicedomini, R., et al., GAM-NGS: genomic assemblies merger for next generation sequencing. BMC bioinformatics, 2013. 14(7): p. 1.
-11.	Li, H., Minimap and miniasm: fast mapping and de novo assembly for noisy long sequences. arXiv preprint arXiv:1512.01801, 2015.
-12.	Gurevich, A., et al., QUAST: quality assessment tool for genome assemblies. Bioinformatics, 2013. 29(8): p. 1072-1075.
+1.	Wick, R.R., et al., Unicycler: resolving bacterial genome assemblies from short and long sequencing reads. PLoS computational biology, 2017. 13(6): p. e1005595.
+2.	Bankevich, A., et al., SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. Journal of computational biology, 2012. 19(5): p. 455-477.
+3.	Koren, S., et al., Canu: scalable and accurate long-read assembly via adaptive k-mer weighting and repeat separation. Genome research, 2017. 27(5): p. 722-736.
+4.	Nurk, S., et al., metaSPAdes: a new versatile metagenomic assembler. Genome research, 2017. 27(5): p. 824-834.
+5.	Antipov, D., et al., plasmidSPAdes: assembling plasmids from whole genome sequencing data. bioRxiv, 2016: p. 048942.
+6.	Krueger, F., Trim Galore: a wrapper tool around Cutadapt and FastQC to consistently apply quality and adapter trimming to FastQ files, with some extra functionality for MspI-digested RRBS-type (Reduced Representation Bisufite-Seq) libraries. URL http://www. bioinformatics.babraham.ac.uk/projects/trim_galore/ (Date of access: 28/04/2016), 2012.
+7.	Vaser, R., et al., Fast and accurate de novo genome assembly from long uncorrected reads. Genome research, 2017. 27(5): p. 737-746.
+8.	Walker, B.J., et al., Pilon: an integrated tool for comprehensive microbial variant detection and genome assembly improvement. PloS one, 2014. 9(11): p. e112963.
+9.	Wick, R.R., et al., Bandage: interactive visualization of de novo genome assemblies. Bioinformatics, 2015. 31(20): p. 3350-3352.
+10.	Gurevich, A., et al., QUAST: quality assessment tool for genome assemblies. Bioinformatics, 2013. 29(8): p. 1072-1075.
+

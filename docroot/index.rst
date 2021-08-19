@@ -7,9 +7,11 @@ BV-BRC Documentation
    :maxdepth: 2
    :caption: Help Resources:
 
-   quickstart_video
    user_guides/index
    tutorial/index
+
+..
+   quickstart_video
    common_tasks/index
    cli_tutorial/index
    webinar/index

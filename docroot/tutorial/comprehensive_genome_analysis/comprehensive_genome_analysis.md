@@ -43,7 +43,7 @@ Please refer to the [Genome Annotation Service Tutorial](../genome_annotation/ge
 
 ## Setting Parameters for the Annotation part of the CGA
 
-[Genome Annotation Service Tutorial](../genome_annotation/genome_annotation.html)Annotation service tutorial for instructions on selecting annotation parameters.
+Please refer to the [Genome Annotation Service Tutorial](../genome_annotation/genome_annotation.html) for instructions on selecting annotation parameters.
 
 ## Submitting the CGA job
 

@@ -17,15 +17,15 @@ Please refer to the [Genome Assembly Service Tutorial](../genome_assembly/assemb
 
 ### Uploading paired end reads
 
-Please refer to the Assembly service tutorial for instructions on uploading paired-end reads in the BV-BRC or PATRIC (https://alpha.bv-brc.org/docs/tutorial/genome_assembly/assembly.html).
+Please refer to the [Genome Assembly Service Tutorial](../genome_assembly/assembly.html) for instructions on uploading paired-end reads.
 
 ### Uploading single reads
 
-Please refer to the Assembly service tutorial for instructions on uploading single-end reads in the BV-BRC or PATRIC (https://alpha.bv-brc.org/docs/tutorial/genome_assembly/assembly.html).
+Please refer to the [Genome Assembly Service Tutorial](../genome_assembly/assembly.html) for instructions on uploading single-end reads.
 
 ### Submitting reads that are present at the Sequence Read Archive (SRA)
 
-Please refer to the Assembly service tutorial for instructions on submitting reads from the SRA  (https://alpha.bv-brc.org/docs/tutorial/genome_assembly/assembly.html).
+Please refer to the [Genome Assembly Service Tutorial](../genome_assembly/assembly.html) for instructions on submitting reads from the SRA.
 
 ## Selecting a contig file interface for CGA
 
@@ -39,7 +39,7 @@ Please refer to the Assembly service tutorial for instructions on submitting rea
 
 ## Selecting a contig file interface for CGA
 
-Please refer to the Annotation service tutorial for instructions on selecting contigs for annotation (https://alpha.bv-brc.org/docs/tutorial/genome_annotation/genome_annotation.html).
+Please refer to the [Genome Annotation Service Tutorial](../genome_annotation/genome_annotation.html) for instructions on selecting contigs for annotation.
 
 ## Setting Parameters for the Annotation part of the CGA
 

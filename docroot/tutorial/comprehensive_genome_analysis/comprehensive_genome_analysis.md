@@ -1,5 +1,4 @@
-# Comprehensive Genome Analysis (CGA): 
-# Annotation and/or Assembly of a Genome
+# Comprehensive Genome Analysis (CGA): Genome Assembly/Annotation
 
 One of the most common use cases for analysis of private genomes at BV-BRC or PATRIC is for researchers to assemble and then annotate their genome sequences using two separate services. In the Spring of 2018, we launched a streamlined Comprehensive Genome Analysis ‘meta-service’ that accepts sequencing reads, computes the assembly and annotation, and provides a user-friendly description of the genome. The output includes a genome quality assessment, AMR genes and phenotype predictions, specialty genes, subsystem overview, identification of the closest genome sequences, a phylogenetic tree and a list of features that distinguish the genome from its nearest neighbors. The Comprehensive Genome Analysis Service has quickly risen to be one of the most popular services[1].
 

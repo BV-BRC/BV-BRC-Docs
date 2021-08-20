@@ -43,7 +43,7 @@ Please refer to the [Genome Annotation Service Tutorial](../genome_annotation/ge
 
 ## Setting Parameters for the Annotation part of the CGA
 
-Please refer to the Annotation service tutorial for instructions on selecting annotation parameters (https://alpha.bv-brc.org/docs/tutorial/genome_annotation/genome_annotation.html).
+[Genome Annotation Service Tutorial](../genome_annotation/genome_annotation.html)Annotation service tutorial for instructions on selecting annotation parameters.
 
 ## Submitting the CGA job
 
@@ -53,7 +53,7 @@ Please refer to the Annotation service tutorial for instructions on selecting an
 
 ## Finding the CGA job
 
-Please refer to the Annotation service tutorial for instructions on finding completed jobs (https://alpha.bv-brc.org/docs/tutorial/genome_annotation/genome_annotation.html).
+Please refer to the [Genome Annotation Service Tutorial](../genome_annotation/genome_annotation.html) for instructions on finding completed jobs.
 
 ## CGA job results-Full Genome Report
 
@@ -103,7 +103,7 @@ Please refer to the Annotation service tutorial for instructions on finding comp
 
 ## Viewing the genome 
 
-Private genomes that have been annotated in BV-BRC or PATRIC can be viewed directly from the annotation job, or through the workspace, or by using the Global Search function. Please refer to the Annotation service tutorial for instructions on viewing the genome using the View, CDS or Browser icons (https://alpha.bv-brc.org/docs/tutorial/genome_annotation/genome_annotation.html).
+Private genomes that have been annotated in BV-BRC or PATRIC can be viewed directly from the annotation job, or through the workspace, or by using the Global Search function. Please refer to the [Genome Annotation Service Tutorial](../genome_annotation/genome_annotation.html) for instructions on viewing the genome using the View, CDS or Browser icons.
 
 ## CGA job results-download files
 
@@ -163,7 +163,7 @@ The CGA service provides downloadable files and statistics for the assembly port
 
 ![Figure 29](./images/Picture29.png "Figure 29")
 
-2.	Additional details on the assembly results are available under “Viewing the Assembly job results” in the associated tutorial, which can be found here: (https://alpha.bv-brc.org/docs/tutorial/genome_assembly/assembly.html).
+2.	Additional details on the assembly results are available under “Viewing the Assembly job results” in the [Genome Assembly Service Tutorial](../genome_assembly/assembly.html).
 
 ## CGA job results-Annotation job
 
@@ -173,7 +173,7 @@ The CGA service provides downloadable files and statistics for the assembly port
 
 ![Figure 30](./images/Picture30.png "Figure 30")
 
-2.	Additional details on the annotation results are available under “Annotation job results” in the associated tutorial, which can be found here: (https://alpha.bv-brc.org/docs/tutorial/genome_annotation/genome_annotation.html).
+2.	Additional details on the annotation results are available under “Annotation job results” in the [Genome Annotation Service Tutorial](../genome_annotation/genome_annotation.html).
 
 ## References
 

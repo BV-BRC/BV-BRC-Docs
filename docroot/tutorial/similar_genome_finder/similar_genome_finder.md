@@ -1,6 +1,6 @@
 # Similar Genome Finder Service
 
-When a researcher has a new genome sequence, one of the first things they want to identify is the closest relatives of their genome. PATRIC provides a new service that allows researchers to do this using Mash/MinHash[1]. Mash reduces large sequences and sequence-sets to small, representative sketches, from which global mutation distances can be rapidly estimated. The MinHash dimensionality-reduction technique to include a pairwise mutation distance and P value significance test, enabling the efficient clustering and search of massive sequence collections.
+When a researcher has a new genome sequence, one of the first things they want to identify is the closest relatives of their genome. BV-BRC provides a new service that allows researchers to do this using Mash/MinHash[1]. Mash reduces large sequences and sequence-sets to small, representative sketches, from which global mutation distances can be rapidly estimated. The MinHash dimensionality-reduction technique to include a pairwise mutation distance and P value significance test, enabling the efficient clustering and search of massive sequence collections.
 
 1.	At the top of any BV-BRC page, find the Services tab. Click on Similar Genome Finder. 
 
@@ -12,11 +12,11 @@ When a researcher has a new genome sequence, one of the first things they want t
 
 ## Loading a BV-BRC genome 
 
-1.	To load a genome that has been privately annotated in PATRIC, click on the filter icon that is at the left side of the text box under **Search By Genome Name Or Genome ID**.
+1.	To load a genome that has been privately annotated in BV-BRC, click on the filter icon that is at the left side of the text box under **Search By Genome Name Or Genome ID**.
 
 ![Figure 3](./images/Picture3.png "Figure 3")
 
-2.	This will open a box that allows a researcher to search across all of the public genomes available in PATRIC, or across the genomes that they have annotated and that are stored in their private workspace. To select private genomes, deselect the Public Genomes box. This will leave the Private Genomes box selected. The filter can be used to narrow the search for each of the categories.
+2.	This will open a box that allows a researcher to search across all of the public genomes available in BV-BRC, or across the genomes that they have annotated and that are stored in their private workspace. To select private genomes, deselect the Public Genomes box. This will leave the Private Genomes box selected. The filter can be used to narrow the search for each of the categories.
 
 ![Figure 4](./images/Picture4.png "Figure 4")
 

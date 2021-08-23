@@ -11,7 +11,7 @@ What follows is a tutorial showing how to submit reads of various types for asse
 ## Locating the Assembly Service App
 
 1. At the top of any BV-BRC page, find the Services tab and click on it
-![Figure 1](./images/Picture1.png)
+![Figure 1](./images/Picture1a.png)
 
 2. In the drop-down box, underneath Genomics, click on Assembly.
 ![Figure 2](./images/Picture2.png)

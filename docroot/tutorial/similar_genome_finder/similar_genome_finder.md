@@ -62,36 +62,59 @@ When a researcher has a new genome sequence, one of the first things they want t
 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
+## Parameters
+
+1.	Researchers can adjust the number of hits that they want to see.  You can select 1, 10, 50, 100 or 500 hits to be returned by clicking on the down arrow next to the Max Hits box.
 
 ![Figure 15](./images/Picture15.png "Figure 15")
 
+2.	Since MinHash distances are probabilistic estimates, it is important to consider the probability of seeing a given distance by chance.  Mash provides p-values with distance estimations. Lower p-values correspond to more confident distance estimations and will often be rounded down to 0 due to floating point limits. If p-values are high (above, say, 0.01), the 𝑘-mer size is probably too small for the size of the genomes being compared.  You can select the P-Value threshold by clicking on the down arrow that follows the text box.
 
 ![Figure 16](./images/Picture16.png "Figure 16")
 
+Mash reduces large sequences and sequence-sets to small, representative sketches, from which global mutation distances can be rapidly estimated. The Mash distance approximates the mutation rate.  You can select the distance by clicking on the down arrow that follows the text box under **Distance**. Smaller numbers indicate a closer relationship. Additional information on how distance is calculated for Mash is available here: https://mash.readthedocs.io/en/latest/distances.html.
 
 ![Figure 17](./images/Picture17.png "Figure 17")
 
+4.	Searches against the NCBI reference and representative genome dataset (https://www.ncbi.nlm.nih.gov/refseq/about/prokaryotes/) or all of the public genomes available in BV-BRC.  Selection of the database is available under **Scope**.
 
 ![Figure 18](./images/Picture18.png "Figure 18")
 
+## Submitting the job
+
+1.	Once the parameters of interest have been selected, click the **Search** button at the bottom of the page.
 
 ![Figure 19](./images/Picture19.png "Figure 19")
 
+## Job Results
+
+1.	The tool will return the top hits to the selected genome.  The page will include a reference to the data that was submitted for analysis, as well as the table.  The entire table can be downloaded by clicking on the **Download** icon at the top upper right of the table.
 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
+2.	The table also includes the metadata for the genomes, which includes the country of isolation, any host that the genome was isolated from, the year the strain was collected, and the data that it was completed.  Also included are the distance and P values, and the number of K-mers, out of 1000 total, that the genome shared with the submitted genome.
 
 ![Figure 21](./images/Picture21.png "Figure 21")
 
+3.	To see information on an individual genome, click on the check box preceding it in the first column.  This will populate the box to the right of the vertical green bar with the information that BV-BRC has on that particular genome.
 
 ![Figure 22](./images/Picture22.png "Figure 22")
 
+4.	The genomes can also be grouped together, and this group can be used in other BV-BRC tools like the Phylogenetic Tree service, the Protein Family Sorter, or the Proteome Comparison service.  Click on the check boxes for the desired genomes, and then click on the **Group** icon in the vertical green bar.
 
 ![Figure 23](./images/Picture23.png "Figure 23")
 
+5.	This will open a pop-up box.  To create a new group, click on the down arrow at the end of the text box that has the words Existing Group.  Click on New Group, and then name it in the text box under Group Name.  Once this has been completed, click on the **Add** button at the bottom right of the box. This will successfully create a new group, which will be available in the workspace, and also when a tool using genome groups is launched.
 
 ![Figure 24](./images/Picture24.png "Figure 24")
 
+## Submit a new job
+
+1.	A new job can be submitted by clicking on the Edit form and resubmit button above the table.  This will reload the page, showing the previously submitted data. New data can be uploaded, and the parameters can also be adjusted.  
 
 ![Figure 25](./images/Picture25.png "Figure 25")
+
+## References
+
+1.	Ondov, B.D., et al., Mash: fast genome and metagenome distance estimation using MinHash. Genome biology, 2016. 17(1): p. 1-14.
 

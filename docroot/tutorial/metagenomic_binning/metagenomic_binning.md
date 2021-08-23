@@ -1,4 +1,4 @@
-# Metagenomic Binning
+# Metagenomic Binning Service
 
 ![Figure 1](./images/Picture1a.png "Figure 1")
 

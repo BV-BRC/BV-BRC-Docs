@@ -14,6 +14,7 @@ Genomics
    genome_assembly/assembly.md
    genome_annotation/genome_annotation.md
    comprehensive_genome_analysis/comprehensive_genome_analysis.md
+   similar_genome_finder/similar_genome_finder.md
 
 Metagenomics
 ------------

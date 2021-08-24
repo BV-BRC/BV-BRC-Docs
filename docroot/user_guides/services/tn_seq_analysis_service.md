@@ -11,8 +11,8 @@ The Tn-Seq Analysis Service facilitates determination of essential and condition
 * [Tn-Seq Analysis Service](https://alpha.bv-brc.org/app/Tnseq)
 * [Tn-Seq Analysis Service Tutorial](https://docs.alpha.bv-brc.org//tutorial/tn-seq/tn-seq.html)
 
-## Using the Genome Assembly Service
-The **Tn-Seq Analysis** submenu option under the **Services** main menu (Genomics category) opens the Tn-Seq Analysis input form (*shown below*). *Note: You must be logged into PATRIC to use this service.*
+## Using the Tn-Seq Service
+The **Tn-Seq Analysis** submenu option under the **Services** main menu (Genomics category) opens the Tn-Seq Analysis input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
 
 ![Tn-Seq Analysis Menu](../images/BV_services_menu.png)
 

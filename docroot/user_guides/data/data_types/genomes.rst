@@ -3,9 +3,9 @@ Genomes
 
 BV-BRC provides one of the largest collections of high quality viral and bacterial genomes, all consistently annotated to enable comparative genomic analysis within and across taxionomic boundries. PATRIC also maintain the original annotations from GenBank to allow users to explore and compare annotation differences. In addition, we automatically gather, parse, and curate over 60 different metadata attributes, such as isolation source , geographic location, and host, and other clinical and environmental metadata. 
 
-**Source of BV-BRC genomes **
+**Source of BV-BRC genomes**
 
-PATRIC collects new microbial genomes from GenBank/RefSeq every month using automated processes. We also collect genomes sequenced as part of published AMR studies, collect their sequences from the SRA database, assemble and annotate them, and incorporate them into PATRIC, along with curated AMR phenotype data. In addition, PATRIC also provides genomes from NIAID-funded Genomic Centers for Infectious Diseases (GCIDs), Systems Biology Centers, collaborators, and other PATRIC users. 
+BV-BRC collects new microbial genomes from GenBank/RefSeq every month using automated processes. We also collect genomes sequenced as part of published AMR studies, collect their sequences from the SRA database, assemble and annotate them, and incorporate them into BV-BRC, along with curated AMR phenotype data. In addition, BV-BRC also provides genomes from NIAID-funded Genomic Centers for Infectious Diseases (GCIDs), Systems Biology Centers, collaborators, and other BV-BRC users. 
 
 The collection of genomes includes 
 

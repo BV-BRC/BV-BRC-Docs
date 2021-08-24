@@ -1,14 +1,14 @@
 # Genome Assembly Service
 
 ## Overview
-The bacterial Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. Several assembly workflows or "strategies" are available that have been tuned to fit certain data types or desired analysis criteria such as throughput or rigor. Once the assembly process has started by clicking the Assemble button, the genome is queued as a "job" for the Assembly Service to process, and will increment the count in the Jobs information box on the bottom right of the page. Once the assembly job has successfully completed, the output file will appear in the workspace, available for use in the PATRIC comparative tools and downloaded if desired.
+The bacterial Genome Assembly Service allows single or multiple assemblers to be invoked to compare results. Several assembly workflows or "strategies" are available that have been tuned to fit certain data types or desired analysis criteria such as throughput or rigor. Once the assembly process has started by clicking the Assemble button, the genome is queued as a "job" for the Assembly Service to process, and will increment the count in the Jobs information box on the bottom right of the page. Once the assembly job has successfully completed, the output file will appear in the workspace, available for use in the BV-BRC comparative tools and downloaded if desired.
 
 ### See also
 * [Genome Assembly Service](https://alpha.bv-brc.org/app/Assembly2)
 * Genome Assembly Service Tutorial
 
 ## Using the Genome Assembly Service
-The **Assembly** submenu option under the **Services** main menu (Genomics category) opens the Genome Assembly input form, shown below. *Note: You must be logged into PATRIC to use this service.*
+The **Assembly** submenu option under the **Services** main menu (Genomics category) opens the Genome Assembly input form, shown below. *Note: You must be logged into BV-BRC to use this service.*
 
 ![Assembly Menu](../images/bv_services_menu.png)
 
@@ -47,7 +47,7 @@ The fastq file containing the reads
     * Nanopore: MinION long reads
 
 ## SRA run accession
-Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the PATRIC Assembly Service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly. 
+Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the BV-BRC Assembly Service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly. 
 
 ## Parameters
 
@@ -117,7 +117,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Rename:** Allows renaming of the file.
 * **Copy:** Copies the selected items to the clipboard.
 * **Move:** Allows moving of the file to another folder.
-* **Edit Type:** Allows changing of the type of the file in terms of how PATRIC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+* **Edit Type:** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details are available in the [Action Buttons](../action_buttons.html) user guide.
 

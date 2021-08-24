@@ -109,7 +109,7 @@ More details are available in the [Action Buttons](../action_buttons.html) user 
 ### Proteome Comparison Viewer
 ![Proteome Comparison Service View Icon](../images/proteome_comparison_view_icon.png)
 
-Clicking on the View icon at the upper right portion of the job result page will display an interactive circular viewer of of the comparison results, with color-coding for protein percent identity relative to the best hit on the reference genome. Mousing over a feature (gene) will display its PATRIC locus tag, and clicking on it will display the PATRIC feature page for that gene.  
+Clicking on the View icon at the upper right portion of the job result page will display an interactive circular viewer of of the comparison results, with color-coding for protein percent identity relative to the best hit on the reference genome. Mousing over a feature (gene) will display its BV-BRC locus tag, and clicking on it will display the feature page for that gene.  
 
 ![Proteome Comparison Interactive Viewer](../images/proteome_comparison_circular_viewer.png)
 

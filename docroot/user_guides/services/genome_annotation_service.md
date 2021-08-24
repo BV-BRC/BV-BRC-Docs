@@ -8,11 +8,11 @@ The Genome Annotation Service uses the RAST tool kit, [RASTtk](https://www.ncbi.
 * Genome Annotation Service Tutorial
 
 ## Using the Genome Annotation Service
-The **Annotation** submenu option under the **Services** main menu (Genomics category) opens the Genome Annotation input form (*shown below*). *Note: You must be logged into PATRIC to use this service.*
+The **Annotation** submenu option under the **Services** main menu (Genomics category) opens the Genome Annotation input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
 
 ![Annotation Menu](../images/BV_services_menu.png)
 
-*Note:* RASTtk also accommodates the batch submission of genomes and the ability to customize annotation protocols for batch submissions, available via the PATRIC Command Line Interface (CLI).
+*Note:* RASTtk also accommodates the batch submission of genomes and the ability to customize annotation protocols for batch submissions, available via the BV-BRC Command Line Interface (CLI).
 
 ![Annotation Input Form](../images/annotation_input_form.png)
 
@@ -46,7 +46,7 @@ protein family predictions.
 ![Job Launch Message](../images/job_launch_message.png)
 
 ## Output Results
-Clicking on the Jobs indicator at the bottom of the PATRIC page open the Jobs Status page that displays all current and previous service jobs and their status. 
+Clicking on the Jobs indicator at the bottom of the BV-BRC page open the Jobs Status page that displays all current and previous service jobs and their status. 
 
 ![Jobs Indicator Bar](../images/jobs_indicator_bar.png)
 
@@ -65,11 +65,11 @@ The Genome Annotation Service generates several files that are deposited in the 
 * **embl** - contains an EMBL dump of the annotated genome.
 * **feature_dna.fasta** - contains all the feature sequences of the genome in DNA FASTA format.
 * **feature_protein.fasta** - contains all the protein sequences of the genome in protein FASTA format.
-* **features.txt** - is a tab-delimited text file listing all the features of the genome. For each feature, it contains the PATRIC ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5 checksum.
+* **features.txt** - is a tab-delimited text file listing all the features of the genome. For each feature, it contains the BV-BRC ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5 checksum.
 * **.gb** - contains the annotated genome in GENBANK format.
 * **.genome** - contains a special "Genome Typed Object (GTO)" JSON-format file that encapsulates all the data from the annotated genome. See [Extracting and Mining Genome Typed Objects](https://docs.patricbrc.org/cli_tutorial/cli_getting_started.html#extracting-and-mining-genome-typed-objects-gtos) for more information.
 * **.gff** - lists all the features of the genome in General Feature Format.
-* **GenomeReport.html** - contains summary report of the genome qualtiy, described in [Analyzing Genome Quality](/tutorial/genome_quality_report/genome_quality_report.html). Also contains a link to the genome in the PATRIC Genome Browser.
+* **GenomeReport.html** - contains summary report of the genome qualtiy, described in [Analyzing Genome Quality](/tutorial/genome_quality_report/genome_quality_report.html). Also contains a link to the genome in the BV-BRC Genome Browser.
 * **.tar.gz** - a compressed tarfile of the SEED form of the exported genome
 * **.txt** - plain text form of the features in the genome
 * **.xls** - Excel tabular form of the features in the genome
@@ -87,7 +87,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Rename** Allows renaming of the file.
 * **Copy:** Copies the selected items to the clipboard.
 * **Move** Allows moving of the file to another folder.
-* **Edit Type** Allows changing of the type of the file in terms of how PATRIC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+* **Edit Type** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details are available in the [Action Buttons](../action_buttons.html) user guide.
 

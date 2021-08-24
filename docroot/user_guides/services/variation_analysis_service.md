@@ -8,7 +8,7 @@ The Variation Analysis Service can be used to identify and annotate sequence var
 * [Variation Analysis Service Tutorial](https://docs.alpha.bv-brc.org//tutorial/variation_analysis_service/variation_analysis_service.html)
 
 ## Using the Variation Analysis Service
-The **Variation** submenu option under the **Services** main menu (Genomics category) opens the Variation Service input form (*shown below*). *Note: You must be logged into PATRIC to use this service.*
+The **Variation** submenu option under the **Services** main menu (Genomics category) opens the Variation Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
 
 ![Variation Analysis Menu](../images/bv_services_menu.png)
 
@@ -83,7 +83,7 @@ The Variation Service generates several files that are deposited in the Private 
   * Ref_nt_pos_change - nucleotide change
   * Ref_aa_pos_change - amino acid change
   * Frameshift - frameshift variant
-  * Gene_ID - PATRIC feature (peg) id
+  * Gene_ID - BV-BRC feature (peg) id
   * Locus_tag - RefSeq locus tag
   * Gene_name - gene name
   * Function - function description
@@ -104,7 +104,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Rename:** Allows renaming of the file.
 * **Copy:** Copies the selected items to the clipboard.
 * **Move:** Allows moving of the file to another folder.
-* **Edit Type:** Allows changing of the type of the file in terms of how PATRIC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+* **Edit Type:** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details are available in the [Action Buttons](../action_buttons.html) user guide.
 

@@ -6,7 +6,7 @@ Genomic Features are defined segments of a genome. Most often features will code
 
 Genome Annotation
 -----------------
-Genome annotation refers to the systematic analysis of a genome to identify all protein and RNA coding genes and characterize their functions. PATRIC supports genome annotations from multiple sources, including:
+Genome annotation refers to the systematic analysis of a genome to identify all protein and RNA coding genes and characterize their functions. BV-BRC supports genome annotations from multiple sources, including:
 
 - Original annotations from GenBank / RefSeq
 - Consistent annotations across all bacterial genomes using RAST anotation pipeline

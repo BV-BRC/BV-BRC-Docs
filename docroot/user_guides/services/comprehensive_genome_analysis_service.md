@@ -12,7 +12,7 @@ The bacterial Comprehensive Genome Analysis Service provides a streamlined analy
 
 
 ## Using the Comprehensive Genome Analysis Service
-The **Comprehensive Genome Analysis** submenu option under the **Services** main menu (Genomics category) opens the Comprehensive Genome Analysis input form (shown below). *Note: You must be logged into PATRIC to use this service.*
+The **Comprehensive Genome Analysis** submenu option under the **Services** main menu (Genomics category) opens the Comprehensive Genome Analysis input form (shown below). *Note: You must be logged into BV-BRC to use this service.*
 
 ![Comprehensive Genome Analysis Menu](../images/bv_services_menu.png)
 
@@ -32,7 +32,7 @@ Depending on the option chosen above (Read File or Assembled Contigs), the Input
 **Read File:** The fastq file containing the reads.
 
 ### SRA run accession
-Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the PATRIC Assembly Service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly.
+Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the BV-BRC Assembly Service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly.
 
 ## Selected libraries
 Read files placed here will contribute to a single assembly.
@@ -67,7 +67,7 @@ SPAdes is an assembler for both single-cell and standard (multicell) assembly, a
 Selecting "True" opens additional options for trimming reads.
 
 #### Racon and Pilon Iterrations
-PATRIC’s assembly service also allows for the correction of assembly errors (or “polish) using Racon and/or Pilon. Both Racon and Pilon take the contigs and the reads mapped to those contigs, and look for discrepancies between the assembly and the majority of the reads. Where there is a discrepancy, Racon or Pilon will correct the assembly if the majority of the reads call for that. Racon is for long reads (PacBio or Nanopore) and Pilon is for shorter reads (Illumina or Ion Torrent). Once the assembly has been corrected with the reads, it is still possible to do another iteration to further improve the assembly, but each one takes time. PATRIC allows for 0 to 4 Racon or Pilon iterations.
+The BV-BRC Assembly Service also allows for the correction of assembly errors (or “polish) using Racon and/or Pilon. Both Racon and Pilon take the contigs and the reads mapped to those contigs, and look for discrepancies between the assembly and the majority of the reads. Where there is a discrepancy, Racon or Pilon will correct the assembly if the majority of the reads call for that. Racon is for long reads (PacBio or Nanopore) and Pilon is for shorter reads (Illumina or Ion Torrent). Once the assembly has been corrected with the reads, it is still possible to do another iteration to further improve the assembly, but each one takes time. BV-BRC allows for 0 to 4 Racon or Pilon iterations.
 
 #### Min. Contig Length and Coverage
 The assembly service also provides the ability to change the minimum contig length and coverage.

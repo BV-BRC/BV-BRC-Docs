@@ -1,6 +1,6 @@
 Services and Tools
 ===================
-The top-level Services Menu provides access to wide range of services and tools for analyzing data. The PATRIC private Workspace (available via registration) provides a means for accessing and securely using the services with your own data, and then interacting with your data in the context of the full PATRIC data and tools. .
+The top-level Services Menu provides access to wide range of services and tools for analyzing data. The BV-BRC private Workspace (available via registration) provides a means for accessing and securely using the services with your own data, and then interacting with your data in the context of the full BV-BRC data and tools.
 
 .. image:: ./images/bv_services_menu.png
 

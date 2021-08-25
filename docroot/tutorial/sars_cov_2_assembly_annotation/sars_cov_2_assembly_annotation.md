@@ -65,7 +65,7 @@ The landing page for the SARS-CoV-2 genome assembly and annotation service has t
 13.	This moves the paired reads to the Selected libraries box. Clicking on the “x” will remove the reads from this box and clicking on the “I” will show the reads that were submitted in each individual row.
 ![Figure 19](./images/Picture19.png "Figure 19")
 
-14.	_Submitting single read libraries_. To submit single read libraries, you can upload files as described above. However, if you have previously uploaded the data to your workspace, you can access your workspace by clicking on the folder icon at the end of the text box underneath the words Single Read Library.
+14.	**Submitting single read libraries**. To submit single read libraries, you can upload files as described above. However, if you have previously uploaded the data to your workspace, you can access your workspace by clicking on the folder icon at the end of the text box underneath the words Single Read Library.
 ![Figure 20](./images/Picture20.png "Figure 20")
 
 15.	This will open a pop-up window where you can see the files in your workspace. Scroll to the files of interest. If your data is in a particular folder, find the folder and double click on it.
@@ -86,7 +86,7 @@ The landing page for the SARS-CoV-2 genome assembly and annotation service has t
 20. This moves the paired reads to the Selected libraries box. Clicking on the “x” will remove the reads from this box, and clicking on the “I” will show the reads that were submitted in each individual row.
 ![Figure 26](./images/Picture26.png "Figure 26")
 
-21.	_Submitting reads from the Sequence Read Archive (SRA)_. BV-BRC also allows researchers to submit reads that are available in the SRA. Enter the SRA run accession number in the text box.
+21.	**Submitting reads from the Sequence Read Archive (SRA)**. BV-BRC also allows researchers to submit reads that are available in the SRA. Enter the SRA run accession number in the text box.
 ![Figure 27](./images/Picture27.png "Figure 27")
 
 22.	After the accession number is entered, the reads must be moved into the Selected libraries box to the right. Click on the arrow to the right of the words SRA RUN ACCESSION LIBRARY to transfer them.
@@ -94,7 +94,7 @@ The landing page for the SARS-CoV-2 genome assembly and annotation service has t
 
 ## Selecting Parameters
 
-1. _Assembly strategy_. BV-BRC provides several assembly strategies. Click on the down arrow in the text box under STRATEGY to see the possibilities.
+1. **Assembly strategy**. BV-BRC provides several assembly strategies. Click on the down arrow in the text box under STRATEGY to see the possibilities.
 
 ![Figure 29](./images/Picture29.png "Figure 29")
 
@@ -108,10 +108,10 @@ The Artic-Nanopore strategy uses Align_trim for trimming, Minimap2 for read mapp
 Clicking on Auto will allow the service to select the appropriate strategy.
 ![Figure 31](./images/Picture31.png "Figure 31")
 
-4. _Job name_. Once the appropriate strategy is selected, a unique identifier must be entered for this job. Enter the name in the text box under the words MY LABEL. Note that as you enter the text, you will see it appended to the name for the reference genome in the OUTPUT NAME box.
+4. **Job name**. Once the appropriate strategy is selected, a unique identifier must be entered for this job. Enter the name in the text box under the words MY LABEL. Note that as you enter the text, you will see it appended to the name for the reference genome in the OUTPUT NAME box.
 ![Figure 32](./images/Picture32.png "Figure 32")
 
-5. _Creating new folder_. The job will be placed in your private workspace. It is best to have a folder to hold the relevant information. To create a new folder, click on the folder icon at the end of the text box underneath the words OUTPUT FOLDER.
+5. **Creating new folder**. The job will be placed in your private workspace. It is best to have a folder to hold the relevant information. To create a new folder, click on the folder icon at the end of the text box underneath the words OUTPUT FOLDER.
 ![Figure 33](./images/Picture33.png "Figure 33")
 
 6. This will open a pop-up window to your workspace. To create a new folder, click on the Folder icon at the upper right (you could also scroll through your workspace to find an appropriate folder).
@@ -126,7 +126,7 @@ Clicking on Auto will allow the service to select the appropriate strategy.
 9. In the workspace window, scroll until you find the newly named folder and select the row. It will turn the row blue. When that row is highlighted, click on the OK button at the lower right of the window.
 ![Figure 37](./images/Picture37.png "Figure 37")
 
-10.	_Using an existing folder_. Additionally, if a folder of interest has been recently created, you can click on the down arrow at the end of the text box.
+10.	**Using an existing folder**. Additionally, if a folder of interest has been recently created, you can click on the down arrow at the end of the text box.
 ![Figure 38](./images/Picture38.png "Figure 38")
 
 11.	This will open a drop-down box that shows the folders you have created, with the most recently named one at the top of the list. Click on the row that contains the folder you want to use.
@@ -135,7 +135,7 @@ Clicking on Auto will allow the service to select the appropriate strategy.
 12.	The name of the folder will appear in the text box.
 ![Figure 40](./images/Picture40.png "Figure 40")
 
-13.	_Submitting the job_. The job is now ready to be submitted. Click on the Submit button at the bottom right.
+13.	**Submitting the job**. The job is now ready to be submitted. Click on the Submit button at the bottom right.
 ![Figure 41](./images/Picture41.png "Figure 41")
 
 14. A message will appear telling you that the job was successfully submitted.
@@ -184,7 +184,7 @@ Clicking on Auto will allow the service to select the appropriate strategy.
 1.	The SARS-CoV2 job can be located from three places on any BV-BRC page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and also from the Jobs monitor located at the lower right of any BV-BRC page.
 ![Figure 56](./images/Picture56.png "Figure 56")
 
-2. _Access the job though the workspace_. Click on the Workspace tab, and then on the “home” in the drop-down box.
+2. **Access the job though the workspace**. Click on the Workspace tab, and then on the “home” in the drop-down box.
 ![Figure 57](./images/Picture57.png "Figure 57")
 
 3. This will rewrite the page to show the home workspace. Scroll down until you find the folder where you stored the job, and then click on that.
@@ -196,7 +196,7 @@ Clicking on Auto will allow the service to select the appropriate strategy.
 5. The new page will show all the files produced by the job that was submitted.
 ![Figure 60](./images/Picture60.png "Figure 60")
 
-6. _Accessing the job though My Jobs, or Jobs monitor_. Click on the Workspaces tab and then on My Jobs or click on the Jobs monitor at the lower right of the page.
+6. **Accessing the job though My Jobs, or Jobs monitor**. Click on the Workspaces tab and then on My Jobs or click on the Jobs monitor at the lower right of the page.
 ![Figure 61](./images/Picture61.png "Figure 61")
 
 7. This will rewrite the page to show all jobs that have been submitted by the researcher. Locate the job of interest and click on that row.

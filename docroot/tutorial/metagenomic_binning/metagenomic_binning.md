@@ -1,8 +1,8 @@
 # Metagenomic Binning Service
 
-![Figure 1](./images/Picture1a.png "Figure 1")
-
 The BV-BRC metagenomic binning service utilizes the BV-BRC database to furnish a large, diverse set of reference genomes. This is a service for supervised extraction and annotation of high-quality, near-complete genomes from reads or metagenomically-derived contigs. Reads are assembled using either MetaSPAdes1 or MEGAHIT2.  Each set of binned contigs represents a draft genome that will be annotated by RASTtk3 for bacteria, or with VIGOR44,5 or  Mat_Peptide6 for viruses. A structured-language binning report is provided containing quality measurements and taxonomic information about the contig bins. The BV-BRC metagenome binning service emphasizes extraction of high-quality genomes for downstream analysis using other BV-BRC tools and services.
+
+![Figure 1](./images/Picture1.png "Figure 1")
 
 Metagenomic binning jobs that include assembly that, on average, take an hour to complete.  However, the BV-BRC assembly service is quite popular, and there is often a long queue resulting in jobs taking 24 hours to complete.  If the size of the read file is large (Gb) or the queue is long, results could take several days.  
 

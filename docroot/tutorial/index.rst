@@ -24,3 +24,11 @@ Metagenomics
 
    taxonomic_classification/taxonomic_classification.md
    metagenomic_binning/metagenomic_binning.md
+
+Viral Services
+--------------
+
+.. toctree::
+   :maxdepth: 1
+
+   sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.md

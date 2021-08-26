@@ -4,7 +4,7 @@ SNP genotyping is the measurement of genetic variations of single nucleotide pol
 
 ## Creating a folder to hold the variation job and related data
 
-Please refer to the Assembly service tutorial for instructions on creating a folder in the BV-BRC or PATRIC (https://alpha.bv-brc.org/docs/tutorial/genome_assembly/assembly.html).
+Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on creating a folder in the BV-BRC or PATRIC.
 
 ## Locating the Variation Analysis Service
 
@@ -18,17 +18,17 @@ Please refer to the Assembly service tutorial for instructions on creating a fol
 
 ### Uploading paired end reads
 
-Please refer to the Assembly service tutorial for instructions on uploading paired-end reads in the BV-BRC or PATRIC (../genome_assembly/assembly.html).
+Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on uploading paired-end reads in the BV-BRC or PATRIC.
 
 ### Uploading single reads
 
-Please refer to the Assembly service tutorial for instructions on uploading single-end reads in the BV-BRC or PATRIC (../genome_assembly/assembly.html).
+Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on uploading single-end reads in the BV-BRC or PATRIC.
 
 ### Submitting reads that are present at the Sequence Read Archive (SRA)
 
-Please refer to the Assembly service tutorial for instructions on submitting reads from the SRA (../genome_assembly/assembly.html).
+Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on submitting reads from the SRA.
 
-S## etting Parameters 
+## Setting Parameters 
 
 1. BV-BRC offers several types of **aligners** that can be used in the service. BWA-mem is set as the default aligner, but there are several options. 
     * **BWA-mem**[1] is a new alignment algorithm for aligning sequence reads or long query sequences against a large reference genome such as human. It automatically chooses between local and end-to-end alignments, supports paired end reads and performs chimeric alignment. The algorithm is robust to sequencing errors and applicable to a wide range of sequence lengths from 70bp to a few megabases. BWA-MEM is implemented as a component of BWA, which is available at https://github.com/lh3/bwa.

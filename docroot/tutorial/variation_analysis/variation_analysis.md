@@ -75,36 +75,36 @@ S## etting Parameters
 
 ## Monitoring progress on the Jobs page
 
-1.	Click on the Jobs box at the bottom right of any BV-BRC page. 
+1. Click on the Jobs box at the bottom right of any BV-BRC page. 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
-2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
+2. This will open the Jobs Landing page where the status of submitted jobs is displayed. 
 ![Figure 15](./images/Picture15.png "Figure 15")
 
 ## Viewing the Variation job results
 
-1.	To view a particular job, click on a row to select it. Once selected, the downstream processes available for the selection appear in the vertical green bar.  Clicking on the View icon will open the variant analysis job summary. 
+1. To view a particular job, click on a row to select it. Once selected, the downstream processes available for the selection appear in the vertical green bar.  Clicking on the View icon will open the variant analysis job summary. 
 ![Figure 16](./images/Picture16.png "Figure 16")
 
-2.	This will rewrite the page to show the information about the variation job, and all of the files that are produced when the pipeline runs.  
+2. This will rewrite the page to show the information about the variation job, and all of the files that are produced when the pipeline runs.  
 ![Figure 17](./images/Picture17.png "Figure 17")
 
-3.	The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the **Parameters** row. 
+3. The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the **Parameters** row. 
 ![Figure 18](./images/Picture18.png "Figure 18")
 
-4.	This will show the information on what was selected when the job was originally submitted. 
+4. This will show the information on what was selected when the job was originally submitted. 
 ![Figure 19](./images/Picture19.png "Figure 19")
 
-5.	**Bam files**. The Binary Alignment/Map (BAM) is the companion format of the Sequence Alignment/Map (SAM) format[5]. A SAM file (.sam) is a tab-delimited text file that contains sequence alignment data. The bam format is compact in size and supports fast retrieval of alignments in specified regions. It is optimal for viewing in a genome browser. The BV-BRC variant analysis service provides a .bam file for each of the read libraries that were loaded.  These can be downloaded by selecting the row that contains for file and then clicking on the **Download** icon in the vertical green bar.  BV-BRC also provides a direct view of the bam file by clicking on **Browser** icon at the top right of the job page.  Viewing the data on the browser will be discussed below. 
+5. **Bam files**. The Binary Alignment/Map (BAM) is the companion format of the Sequence Alignment/Map (SAM) format[5]. A SAM file (.sam) is a tab-delimited text file that contains sequence alignment data. The bam format is compact in size and supports fast retrieval of alignments in specified regions. It is optimal for viewing in a genome browser. The BV-BRC variant analysis service provides a .bam file for each of the read libraries that were loaded.  These can be downloaded by selecting the row that contains for file and then clicking on the **Download** icon in the vertical green bar.  BV-BRC also provides a direct view of the bam file by clicking on **Browser** icon at the top right of the job page.  Viewing the data on the browser will be discussed below. 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
-6.	**Bam.bai files**. A bai file isn't an indexed form of a bam - it's a companion to the bam that contains the index. It is a file type that is used by a genome viewer.  These can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar.  
+6. **Bam.bai files**. A bai file isn't an indexed form of a bam - it's a companion to the bam that contains the index. It is a file type that is used by a genome viewer.  These can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar.  
 ![Figure 21](./images/Picture21.png "Figure 21")
 
-7.	**Consensus fasta (consensus.fa)**. This is the sequence of the read files in the order of the reference, so it is basically a reference-based assembly.   It can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar.  Or it could be used in the annotation service. 
+7. **Consensus fasta (consensus.fa)**. This is the sequence of the read files in the order of the reference, so it is basically a reference-based assembly.   It can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar.  Or it could be used in the annotation service. 
 ![Figure 22](./images/Picture22.png "Figure 22")
 
-8.	**Tab Separated Values (tsv)**. The BV-BRC variant analysis service provides a .tsv file for each of the read libraries that were loaded. This file summaries the locations of the variants, shows the nucleotide change, and identifies if it was a synonymous or nonsynonymous substitution, or an indel. It also identifies the gene, or intergenic region, where the variation occurred.  The list below shows the title and information about each column in the tsv file, from left to right. 
+8. **Tab Separated Values (tsv)**. The BV-BRC variant analysis service provides a .tsv file for each of the read libraries that were loaded. This file summaries the locations of the variants, shows the nucleotide change, and identifies if it was a synonymous or nonsynonymous substitution, or an indel. It also identifies the gene, or intergenic region, where the variation occurred.  The list below shows the title and information about each column in the tsv file, from left to right. 
     * Samples - internal library read name. The corresponding user library read name can be found in libs.txt
     * Contig - contig name
     * Pos - position of the variation
@@ -128,7 +128,7 @@ S## etting Parameters
     * snpEff_type - snpEFF variant type
     * snpEff_impact - snpEFF variant impact
 
-9.	The tsv file can be viewed by selecting the row that contains for file and then clicking on the View icon in the vertical green bar.  
+9. The tsv file can be viewed by selecting the row that contains for file and then clicking on the View icon in the vertical green bar.  
 ![Figure 23](./images/Picture23.png "Figure 23")
 
 10.	The **var.snpEFF.vcf** files. The Variant Call Format (VCF) is a flexible and extendable line-oriented text format developed by the 1000 Genomes Project for releases of single nucleotide variants, indels, copy number variants and structural variants discovered by the project.  
@@ -148,37 +148,39 @@ SnpEff[6] rapidly categorizes the effects of variants in genome sequences. Once 
 14.	The **.html** file. The HyperText Markup Language (HTML) file will open a webpage that shows the same data available in the .tsv file.  This file can be viewed in this window by clicking on the View icon or downloaded and viewed in your browser. 
 ![Figure 28](./images/Picture28.png "Figure 28")
 
-
+15.	After clicking on the View icon, the page will reload to how the tsv table that is described above.  A description of each of the columns is provided above in the **Tab Separated Value (tsv)** section. 
 ![Figure 29](./images/Picture29.png "Figure 29")
 
-
+16. **Tab Separated Values (tsv)**. The BV-BRC variant analysis service provides a .tsv file for each of the read libraries that were loaded. It summaries the locations of the variants, shows the nucleotide change, and identifies if it was a synonymous or nonsynonymous substitution, or an indel. It also identifies the gene, or intergenic region, where the variation occurred. It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar.  
 ![Figure 30](./images/Picture30.png "Figure 30")
 
-
+17.	Clicking on the View icon will reload the page to show the **tsv** file.  A description of each of the columns is provided above in the **Tab Separated Value (tsv)** section.
 ![Figure 31](./images/Picture31.png "Figure 31")
  
-
+18.	The **libs.txt** file. This is a text file that describes the libraries used in the comparison.  It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar. 
 ![Figure 32](./images/Picture32.png "Figure 32")
 
-
+19.	The **summary.txt** files. This file provides a summary of the analysis. For each library it shows the number of reads, those that mapped to the reference, the number of bases in the reference, the median base coverage, bases with zero coverage, bases with less than (or equal to) 10 reads coverage, the raw variants that are detected by the variation calling tool, and those variants that have a high quality score. It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar. 
 ![Figure 33](./images/Picture33.png "Figure 33")
 
+## Viewing SNPs on the genome browser
 
+1.	To see the genome browser, where the results of the variation job can be summarized, click on the Browser icon that is visible in the upper right corner of the page. 
 ![Figure 34](./images/Picture34.png "Figure 34")
 
-
+2.	This will open the genome browser for the genome that was selected as the reference. There is a box on the left of the browser that shows the available tracks. 
 ![Figure 35](./images/Picture35.png "Figure 35")
 
-
+3.	You will need to zoom in and see the bam file, which contains a lot of data.  Find the magnifying glass icons immediately above the browser. Click on the one that has a plus side in it.  This will need to be clicked several times before a bam file can load. Incidentally, after several clicks of the magnifying icon, the six-frame translation and nucleotides will be visible. 
 ![Figure 36](./images/Picture36.png "Figure 36")
 
-
+4.	To see the how predictive the individual calls are, click on the track that ends in **aln.bam**. 
 ![Figure 37](./images/Picture37.png "Figure 37")
 
-
+5.	This will show the individual reads. Blue indicates reads on the forward strand, and red show the reads on the reverse strand. 
 ![Figure 38](./images/Picture38.png "Figure 38")
 
-
+6.	To see the value of individual reads, click on a single one.  This will open a pop-up window that shows the data associated with that selected read. 
 ![Figure 39](./images/Picture39.png "Figure 39")
 
 

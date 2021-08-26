@@ -30,7 +30,7 @@ Please refer to the Assembly service tutorial for instructions on submitting rea
 
 S## etting Parameters 
 
-1. BV-BRC offers several types of aligners that can be used in the service. BWA-mem is set as the default aligner, but there are several options. 
+1. BV-BRC offers several types of **aligners** that can be used in the service. BWA-mem is set as the default aligner, but there are several options. 
     * **BWA-mem**[1] is a new alignment algorithm for aligning sequence reads or long query sequences against a large reference genome such as human. It automatically chooses between local and end-to-end alignments, supports paired end reads and performs chimeric alignment. The algorithm is robust to sequencing errors and applicable to a wide range of sequence lengths from 70bp to a few megabases. BWA-MEM is implemented as a component of BWA, which is available at https://github.com/lh3/bwa.
     * **BWA-mem-strict** is BWA-mem with the default parameters plus “-B9 -O16” to increase the gap extension and clipping penalty. These strict mapping parameters are recommended for cases where contigs and references are known to be very close to each other.
     * **Bowtie2**[2] improves on the previous Bowtie method in terms of speed and fraction of reads aligned and is substantially faster than non–full-text minute index–based approaches while aligning a comparable fraction of reads. Bowtie 2 performs sensitive gapped alignment without incurring serious computational penalties. The code for Bowtie2 is available at https://github.com/BenLangmead/bowtie.
@@ -39,79 +39,113 @@ S## etting Parameters
 2. To see the other choices of aligners that can be used, click on the down arrow at the end of the Aligner text box. This will open a drop-down box that shows all the available programs. Clicking on the desired aligner will autofill the text box with that selection. 
 ![Figure 3](./images/Picture3.png "Figure 3")
 
+3. BV-BRC also offers a choice of **SNP callers**. The default selection is for FreeBayes, but SAMtools is another option.
+   * **FreeBayes**[4] is an accurate method for sequence organization that includes fragment clustering, paralogue identification and multiple alignment. It calculates the probability that a given site is polymorphic and has an automated evaluation of the full length of all sequences, without limitations on alignment depth. The code for FreeBayes is available at https://github.com/freebayes/freebayes.
+   * **The Sequence Alignment/Map (SAM)** format is a generic alignment format for storing read alignments against reference sequences. SAMtools[5] implements various utilities for post-processing alignments in the SAM format, such as indexing, variant caller and alignment viewer, and thus provides universal tools for processing read alignments. The SAMtools option invokes the BCFtools’ SNP calling algorithm on top of SAMtools’ mpileup result. The code for SAMtools is available at http://www.htslib.org/.
 
+4. To see the other available choices, click on the down arrow that follows the SNP Caller text box. This will open a drop-down box that shows all the available programs. Either SNP caller is run with the default parameters. The raw SNPs are then filtered by SNP quality (QUAL>10) and read depth (DP>5) to keep only the high-quality SNPs. Clicking on the desired aligner will autofill the text box with that selection. 
 ![Figure 4](./images/Picture4.png "Figure 4")
 
-
+5. Researchers must select a Target Genome to align the reads against. Clicking the arrow at the end of the text box will show genomes, but this will be a long list for dedicated BV-BRC users. 
 ![Figure 5](./images/Picture5.png "Figure 5")
 
-
+6. The search can be narrowed by clicking on the filter icon at the beginning of the text box.  This will show checkboxes that can narrow the search to reference, representative, all public, or private genomes (My Genomes). 
 ![Figure 6](./images/Picture6.png "Figure 6")
 
-
+7. If the name or genome ID is known, typing that in the text box will filter results in the drop-down box to show the possible genomes that match the input. 
 ![Figure 7](./images/Picture7.png "Figure 7")
 
-
+8. The variation job must be placed in an **Output Folder**.  Links to instructions on creating a new folder are available at the top of this tutorial, but if a folder has already been created, entering the name in the text box will filter the drop-down box to show the possible folders that match that input. 
 ![Figure 8](./images/Picture8.png "Figure 8")
 
-
+9. When no text is entered, a clicking on the arrow at the end of the text box will show all the possible folders.  Dedicated BV-BRC users may have a lot of folders. 
 ![Figure 9](./images/Picture9.png "Figure 9")
 
-
+10.	Clicking on the **Folder** icon at the end of the text box will open a pop-up window that shows all the files in the workspace, which can be selected. 
 ![Figure 10](./images/Picture10.png "Figure 10")
 
-
+11.	Prior to submission, the variation job needs a name, which can be entered in the text box under **Output Name**. 
 ![Figure 11](./images/Picture11.png "Figure 11")
 
-
+12.	Once the reads are placed into the selected libraries box, and the parameters are selected, the Submit button at the bottom of the page will turn blue.  This means that the job can be submitted. 
 ![Figure 12](./images/Picture12.png "Figure 12")
 
-
+13.	If the job was submitted successfully, a message will appear that indicates that the job has entered the queue. To check the status of the variation job, click on the Jobs indicator at the bottom of the BV-BRC page. 
 ![Figure 13](./images/Picture13.png "Figure 13")
 
+## Monitoring progress on the Jobs page
 
+1.	Click on the Jobs box at the bottom right of any BV-BRC page. 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
-
+2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
 ![Figure 15](./images/Picture15.png "Figure 15")
 
+## Viewing the Variation job results
 
+1.	To view a particular job, click on a row to select it. Once selected, the downstream processes available for the selection appear in the vertical green bar.  Clicking on the View icon will open the variant analysis job summary. 
 ![Figure 16](./images/Picture16.png "Figure 16")
 
-
+2.	This will rewrite the page to show the information about the variation job, and all of the files that are produced when the pipeline runs.  
 ![Figure 17](./images/Picture17.png "Figure 17")
 
-
+3.	The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the **Parameters** row. 
 ![Figure 18](./images/Picture18.png "Figure 18")
 
-
+4.	This will show the information on what was selected when the job was originally submitted. 
 ![Figure 19](./images/Picture19.png "Figure 19")
 
-
+5.	**Bam files**. The Binary Alignment/Map (BAM) is the companion format of the Sequence Alignment/Map (SAM) format[5]. A SAM file (.sam) is a tab-delimited text file that contains sequence alignment data. The bam format is compact in size and supports fast retrieval of alignments in specified regions. It is optimal for viewing in a genome browser. The BV-BRC variant analysis service provides a .bam file for each of the read libraries that were loaded.  These can be downloaded by selecting the row that contains for file and then clicking on the **Download** icon in the vertical green bar.  BV-BRC also provides a direct view of the bam file by clicking on **Browser** icon at the top right of the job page.  Viewing the data on the browser will be discussed below. 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
-
+6.	**Bam.bai files**. A bai file isn't an indexed form of a bam - it's a companion to the bam that contains the index. It is a file type that is used by a genome viewer.  These can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar.  
 ![Figure 21](./images/Picture21.png "Figure 21")
 
-
+7.	**Consensus fasta (consensus.fa)**. This is the sequence of the read files in the order of the reference, so it is basically a reference-based assembly.   It can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar.  Or it could be used in the annotation service. 
 ![Figure 22](./images/Picture22.png "Figure 22")
 
+8.	**Tab Separated Values (tsv)**. The BV-BRC variant analysis service provides a .tsv file for each of the read libraries that were loaded. This file summaries the locations of the variants, shows the nucleotide change, and identifies if it was a synonymous or nonsynonymous substitution, or an indel. It also identifies the gene, or intergenic region, where the variation occurred.  The list below shows the title and information about each column in the tsv file, from left to right. 
+    * Samples - internal library read name. The corresponding user library read name can be found in libs.txt
+    * Contig - contig name
+    * Pos - position of the variation
+    * Ref - reference nucleotide(s) at the variation position
+    * Var - variant nucleotide(s) at the variation position
+    * Score - quality score from the variant caller tool
+    * Var_cov - variant coverage (the average read depth of the variant)
+    * Var_frac - variant fraction (the fraction of the variant read depth among the all the reads that cover this region)
+    * Type - variant type
+    * Ref_nt - reference nucleotide(s)
+    * Var_nt - variant nucleotide(s)
+    * Ref_nt_pos_change - nucleotide change
+    * Ref_aa_pos_change - amino acid change
+    * Frameshift - frameshift variant
+    * Gene_ID – BV-BRC feature (peg) id
+    * Locus_tag - RefSeq locus tag
+    * Gene_name - gene name
+    * Function - function description
+    * Upstream_feature - upstream feature
+    * Downstream_feature - downstream feature
+    * snpEff_type - snpEFF variant type
+    * snpEff_impact - snpEFF variant impact
 
+9.	The tsv file can be viewed by selecting the row that contains for file and then clicking on the View icon in the vertical green bar.  
 ![Figure 23](./images/Picture23.png "Figure 23")
 
+10.	The **var.snpEFF.vcf** files. The Variant Call Format (VCF) is a flexible and extendable line-oriented text format developed by the 1000 Genomes Project for releases of single nucleotide variants, indels, copy number variants and structural variants discovered by the project.  
 
+SnpEff[6] rapidly categorizes the effects of variants in genome sequences. Once a genome is sequenced, SnpEff annotates variants based on their genomic locations and predicts coding effects. Annotated genomic locations include intronic, untranslated region, upstream, downstream, splice site, or intergenic regions. Coding effects such as synonymous or non-synonymous amino acid replacement, start codon gains or losses, stop codon gains or losses, or frame shifts can be predicted. The BV-BRC variant analysis service provides a var.snpEFF.vcf file for each of the read libraries that were loaded. It can be downloaded by selecting the row that contains for file and then clicking on the **Download** icon in the vertical green bar. 
 ![Figure 24](./images/Picture24.png "Figure 24")
 
-
+11.	The **var.vcf** files. These files show the location of the snp on the genome. The BV-BRC variant analysis service provides a var.vcf file for each of the read libraries that were loaded, an example of which is shown below. It can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar. 
 ![Figure 25](./images/Picture25.png "Figure 25")
 
-
+12.	The **var.vcf.gz** file is a zipped file of the vcf file.  It is available for download but is best viewed in the genome browser.  This functionality will be discussed below. 
 ![Figure 26](./images/Picture26.png "Figure 26")
 
-
+13.	The **var.vcf.gz.tbi** file is generated for each read set.  It is an indexed file used by a genome browser to load the vcf.gz file.  It is available for download. 
 ![Figure 27](./images/Picture27.png "Figure 27")
 
-
+14.	The **.html** file. The HyperText Markup Language (HTML) file will open a webpage that shows the same data available in the .tsv file.  This file can be viewed in this window by clicking on the View icon or downloaded and viewed in your browser. 
 ![Figure 28](./images/Picture28.png "Figure 28")
 
 

@@ -2,14 +2,41 @@
 
 SNP genotyping is the measurement of genetic variations of single nucleotide polymorphisms (SNPs) between members of a species. It is a form of genotyping, which is the measurement of more general genetic variation. SNPs are one of the most common types of genetic variation. A SNP is a single base pair mutation at a specific locus, usually consisting of two alleles. SNP calling require the reads of target isolates and a reference genome as input and execute an external mapping tool and variant caller, followed by some filtering steps to remove low-quality SNPs. The BV-BRC Variation Analysis Service can be used to identify and annotate sequence variations, including SNPs, SNVs, and indels.
 
+## Creating a folder to hold the variation job and related data
 
+Please refer to the Assembly service tutorial for instructions on creating a folder in the BV-BRC or PATRIC (https://alpha.bv-brc.org/docs/tutorial/genome_assembly/assembly.html).
 
+## Locating the Variation Analysis Service
+
+1.	Click on the Services tab at the top of the page, and then click on Variation. 
 ![Figure 1](./images/Picture1.png "Figure 1")
 
-
+2.	This will open the landing page for the service. 
 ![Figure 2](./images/Picture2.png "Figure 2")
 
+## Read files for target isolates
 
+### Uploading paired end reads
+
+Please refer to the Assembly service tutorial for instructions on uploading paired-end reads in the BV-BRC or PATRIC (../genome_assembly/assembly.html).
+
+### Uploading single reads
+
+Please refer to the Assembly service tutorial for instructions on uploading single-end reads in the BV-BRC or PATRIC (../genome_assembly/assembly.html).
+
+### Submitting reads that are present at the Sequence Read Archive (SRA)
+
+Please refer to the Assembly service tutorial for instructions on submitting reads from the SRA (../genome_assembly/assembly.html).
+
+S## etting Parameters 
+
+1. BV-BRC offers several types of aligners that can be used in the service. BWA-mem is set as the default aligner, but there are several options. 
+    * **BWA-mem**[1] is a new alignment algorithm for aligning sequence reads or long query sequences against a large reference genome such as human. It automatically chooses between local and end-to-end alignments, supports paired end reads and performs chimeric alignment. The algorithm is robust to sequencing errors and applicable to a wide range of sequence lengths from 70bp to a few megabases. BWA-MEM is implemented as a component of BWA, which is available at https://github.com/lh3/bwa.
+    * **BWA-mem-strict** is BWA-mem with the default parameters plus “-B9 -O16” to increase the gap extension and clipping penalty. These strict mapping parameters are recommended for cases where contigs and references are known to be very close to each other.
+    * **Bowtie2**[2] improves on the previous Bowtie method in terms of speed and fraction of reads aligned and is substantially faster than non–full-text minute index–based approaches while aligning a comparable fraction of reads. Bowtie 2 performs sensitive gapped alignment without incurring serious computational penalties. The code for Bowtie2 is available at https://github.com/BenLangmead/bowtie.
+    * **LAST**[3] is a long read sequence aligner. It can align billions of DNA reads to a genome and will indicate reliability of each aligned column. In addition, it can compare DNA to proteins, with frameshifts, compare PSSMs to sequences, calculates the likelihood of chance similarities between random sequences, does split and spliced alignment, and can be trained for unusual kinds of sequences (like nanopore).  The code for Last is available at https://gitlab.com/mcfrith/last.
+
+2. To see the other choices of aligners that can be used, click on the down arrow at the end of the Aligner text box. This will open a drop-down box that shows all the available programs. Clicking on the desired aligner will autofill the text box with that selection. 
 ![Figure 3](./images/Picture3.png "Figure 3")
 
 
@@ -95,7 +122,7 @@ SNP genotyping is the measurement of genetic variations of single nucleotide pol
 
 
 ![Figure 31](./images/Picture31.png "Figure 31")
-
+ 
 
 ![Figure 32](./images/Picture32.png "Figure 32")
 

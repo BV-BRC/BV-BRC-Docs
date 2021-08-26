@@ -86,79 +86,94 @@ S## etting Parameters
 1. To view a particular job, click on a row to select it. Once selected, the downstream processes available for the selection appear in the vertical green bar.  Clicking on the View icon will open the variant analysis job summary. 
 ![Figure 16](./images/Picture16.png "Figure 16")
 
+
 2. This will rewrite the page to show the information about the variation job, and all of the files that are produced when the pipeline runs.  
 ![Figure 17](./images/Picture17.png "Figure 17")
+
 
 3. The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the **Parameters** row. 
 ![Figure 18](./images/Picture18.png "Figure 18")
 
+
 4. This will show the information on what was selected when the job was originally submitted. 
 ![Figure 19](./images/Picture19.png "Figure 19")
+
 
 5. **Bam files**. The Binary Alignment/Map (BAM) is the companion format of the Sequence Alignment/Map (SAM) format[5]. A SAM file (.sam) is a tab-delimited text file that contains sequence alignment data. The bam format is compact in size and supports fast retrieval of alignments in specified regions. It is optimal for viewing in a genome browser. The BV-BRC variant analysis service provides a .bam file for each of the read libraries that were loaded.  These can be downloaded by selecting the row that contains for file and then clicking on the **Download** icon in the vertical green bar.  BV-BRC also provides a direct view of the bam file by clicking on **Browser** icon at the top right of the job page.  Viewing the data on the browser will be discussed below. 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
+
 6. **Bam.bai files**. A bai file isn't an indexed form of a bam - it's a companion to the bam that contains the index. It is a file type that is used by a genome viewer.  These can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar.  
 ![Figure 21](./images/Picture21.png "Figure 21")
+
 
 7. **Consensus fasta (consensus.fa)**. This is the sequence of the read files in the order of the reference, so it is basically a reference-based assembly.   It can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar.  Or it could be used in the annotation service. 
 ![Figure 22](./images/Picture22.png "Figure 22")
 
+
 8. **Tab Separated Values (tsv)**. The BV-BRC variant analysis service provides a .tsv file for each of the read libraries that were loaded. This file summaries the locations of the variants, shows the nucleotide change, and identifies if it was a synonymous or nonsynonymous substitution, or an indel. It also identifies the gene, or intergenic region, where the variation occurred.  The list below shows the title and information about each column in the tsv file, from left to right. 
-    * Samples - internal library read name. The corresponding user library read name can be found in libs.txt
-    * Contig - contig name
-    * Pos - position of the variation
-    * Ref - reference nucleotide(s) at the variation position
-    * Var - variant nucleotide(s) at the variation position
-    * Score - quality score from the variant caller tool
-    * Var_cov - variant coverage (the average read depth of the variant)
-    * Var_frac - variant fraction (the fraction of the variant read depth among the all the reads that cover this region)
-    * Type - variant type
-    * Ref_nt - reference nucleotide(s)
-    * Var_nt - variant nucleotide(s)
-    * Ref_nt_pos_change - nucleotide change
-    * Ref_aa_pos_change - amino acid change
-    * Frameshift - frameshift variant
-    * Gene_ID – BV-BRC feature (peg) id
-    * Locus_tag - RefSeq locus tag
-    * Gene_name - gene name
-    * Function - function description
-    * Upstream_feature - upstream feature
-    * Downstream_feature - downstream feature
-    * snpEff_type - snpEFF variant type
-    * snpEff_impact - snpEFF variant impact
+    * **Samples** - internal library read name. The corresponding user library read name can be found in libs.txt
+    * **Contig** - contig name
+    * **Pos** - position of the variation
+    * **Ref** - reference nucleotide(s) at the variation position
+    * **Var** - variant nucleotide(s) at the variation position
+    * **Score** - quality score from the variant caller tool
+    * **Var_cov** - variant coverage (the average read depth of the variant)
+    * **Var_frac** - variant fraction (the fraction of the variant read depth among the all the reads that cover this region)
+    * **Type** - variant type
+    * **Ref_nt** - reference nucleotide(s)
+    * **Var_nt** - variant nucleotide(s)
+    * **Ref_nt_pos_change** - nucleotide change
+    * **Ref_aa_pos_change** - amino acid change
+    * **Frameshift** - frameshift variant
+    * **Gene_ID** – BV-BRC feature (peg) id
+    * **Locus_tag** - RefSeq locus tag
+    * **Gene_name** - gene name
+    * **Function** - function description
+    * **Upstream_feature** - upstream feature
+    * **Downstream_feature** - downstream feature
+    * **snpEff_type** - snpEFF variant type
+    * **snpEff_impact** - snpEFF variant impact
 
 9. The tsv file can be viewed by selecting the row that contains for file and then clicking on the View icon in the vertical green bar.  
 ![Figure 23](./images/Picture23.png "Figure 23")
 
-10.	The **var.snpEFF.vcf** files. The Variant Call Format (VCF) is a flexible and extendable line-oriented text format developed by the 1000 Genomes Project for releases of single nucleotide variants, indels, copy number variants and structural variants discovered by the project.  
 
-SnpEff[6] rapidly categorizes the effects of variants in genome sequences. Once a genome is sequenced, SnpEff annotates variants based on their genomic locations and predicts coding effects. Annotated genomic locations include intronic, untranslated region, upstream, downstream, splice site, or intergenic regions. Coding effects such as synonymous or non-synonymous amino acid replacement, start codon gains or losses, stop codon gains or losses, or frame shifts can be predicted. The BV-BRC variant analysis service provides a var.snpEFF.vcf file for each of the read libraries that were loaded. It can be downloaded by selecting the row that contains for file and then clicking on the **Download** icon in the vertical green bar. 
+10.	The **var.snpEFF.vcf** files. The Variant Call Format (VCF) is a flexible and extendable line-oriented text format developed by the 1000 Genomes Project for releases of single nucleotide variants, indels, copy number variants and structural variants discovered by the project. SnpEff[6] rapidly categorizes the effects of variants in genome sequences. Once a genome is sequenced, SnpEff annotates variants based on their genomic locations and predicts coding effects. Annotated genomic locations include intronic, untranslated region, upstream, downstream, splice site, or intergenic regions. Coding effects such as synonymous or non-synonymous amino acid replacement, start codon gains or losses, stop codon gains or losses, or frame shifts can be predicted. The BV-BRC variant analysis service provides a var.snpEFF.vcf file for each of the read libraries that were loaded. It can be downloaded by selecting the row that contains for file and then clicking on the **Download** icon in the vertical green bar. 
 ![Figure 24](./images/Picture24.png "Figure 24")
+
 
 11.	The **var.vcf** files. These files show the location of the snp on the genome. The BV-BRC variant analysis service provides a var.vcf file for each of the read libraries that were loaded, an example of which is shown below. It can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar. 
 ![Figure 25](./images/Picture25.png "Figure 25")
 
+
 12.	The **var.vcf.gz** file is a zipped file of the vcf file.  It is available for download but is best viewed in the genome browser.  This functionality will be discussed below. 
 ![Figure 26](./images/Picture26.png "Figure 26")
+
 
 13.	The **var.vcf.gz.tbi** file is generated for each read set.  It is an indexed file used by a genome browser to load the vcf.gz file.  It is available for download. 
 ![Figure 27](./images/Picture27.png "Figure 27")
 
+
 14.	The **.html** file. The HyperText Markup Language (HTML) file will open a webpage that shows the same data available in the .tsv file.  This file can be viewed in this window by clicking on the View icon or downloaded and viewed in your browser. 
 ![Figure 28](./images/Picture28.png "Figure 28")
+
 
 15.	After clicking on the View icon, the page will reload to how the tsv table that is described above.  A description of each of the columns is provided above in the **Tab Separated Value (tsv)** section. 
 ![Figure 29](./images/Picture29.png "Figure 29")
 
+
 16. **Tab Separated Values (tsv)**. The BV-BRC variant analysis service provides a .tsv file for each of the read libraries that were loaded. It summaries the locations of the variants, shows the nucleotide change, and identifies if it was a synonymous or nonsynonymous substitution, or an indel. It also identifies the gene, or intergenic region, where the variation occurred. It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar.  
 ![Figure 30](./images/Picture30.png "Figure 30")
+
 
 17.	Clicking on the View icon will reload the page to show the **tsv** file.  A description of each of the columns is provided above in the **Tab Separated Value (tsv)** section.
 ![Figure 31](./images/Picture31.png "Figure 31")
  
+
 18.	The **libs.txt** file. This is a text file that describes the libraries used in the comparison.  It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar. 
 ![Figure 32](./images/Picture32.png "Figure 32")
+
 
 19.	The **summary.txt** files. This file provides a summary of the analysis. For each library it shows the number of reads, those that mapped to the reference, the number of bases in the reference, the median base coverage, bases with zero coverage, bases with less than (or equal to) 10 reads coverage, the raw variants that are detected by the variation calling tool, and those variants that have a high quality score. It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar. 
 ![Figure 33](./images/Picture33.png "Figure 33")

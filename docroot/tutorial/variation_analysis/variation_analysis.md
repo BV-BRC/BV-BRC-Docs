@@ -165,24 +165,36 @@ SnpEff[6] rapidly categorizes the effects of variants in genome sequences. Once 
 
 ## Viewing SNPs on the genome browser
 
-1.	To see the genome browser, where the results of the variation job can be summarized, click on the Browser icon that is visible in the upper right corner of the page. 
+1. To see the genome browser, where the results of the variation job can be summarized, click on the Browser icon that is visible in the upper right corner of the page. 
 ![Figure 34](./images/Picture34.png "Figure 34")
 
-2.	This will open the genome browser for the genome that was selected as the reference. There is a box on the left of the browser that shows the available tracks. 
+2. This will open the genome browser for the genome that was selected as the reference. There is a box on the left of the browser that shows the available tracks. 
 ![Figure 35](./images/Picture35.png "Figure 35")
 
-3.	You will need to zoom in and see the bam file, which contains a lot of data.  Find the magnifying glass icons immediately above the browser. Click on the one that has a plus side in it.  This will need to be clicked several times before a bam file can load. Incidentally, after several clicks of the magnifying icon, the six-frame translation and nucleotides will be visible. 
+3. You will need to zoom in and see the bam file, which contains a lot of data.  Find the magnifying glass icons immediately above the browser. Click on the one that has a plus side in it.  This will need to be clicked several times before a bam file can load. Incidentally, after several clicks of the magnifying icon, the six-frame translation and nucleotides will be visible. 
 ![Figure 36](./images/Picture36.png "Figure 36")
 
-4.	To see the how predictive the individual calls are, click on the track that ends in **aln.bam**. 
+4. To see the how predictive the individual calls are, click on the track that ends in **aln.bam**. 
+![Figure 36b](./images/Picture36b.png "Figure 36b")
+
+5. This will show the individual reads. Blue indicates reads on the forward strand, and red show the reads on the reverse strand. 
 ![Figure 37](./images/Picture37.png "Figure 37")
 
-5.	This will show the individual reads. Blue indicates reads on the forward strand, and red show the reads on the reverse strand. 
+6. To see the value of individual reads, click on a single one.  This will open a pop-up window that shows the data associated with that selected read. 
 ![Figure 38](./images/Picture38.png "Figure 38")
 
-6.	To see the value of individual reads, click on a single one.  This will open a pop-up window that shows the data associated with that selected read. 
+7. To see the location of the particular SNPs, MNPs or indels, click on the check boxes before in front of the names that end in **var.vcf.gz**.  This will add tracks below the annotation tracks that show the snps that were called, although scrolling down the length of the genome may be required to see them. 
 ![Figure 39](./images/Picture39.png "Figure 39")
 
-
+8. To see the value of individual vcf calls, click on a single one. This will open a pop-up window that shows the data associated with that selected read.
 ![Figure 40](./images/Picture40.png "Figure 40")
+
+## References
+
+1. Li, H., Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM. arXiv preprint arXiv:1303.3997, 2013.
+2. Langmead, B. and S.L. Salzberg, Fast gapped-read alignment with Bowtie 2. Nature methods, 2012. 9(4): p. 357.
+3. Frith, M.C., M. Hamada, and P. Horton, Parameters for accurate genome alignment. BMC bioinformatics, 2010. 11(1): p. 1-14.
+4. Marth, G.T., et al., A general approach to single-nucleotide polymorphism discovery. Nature genetics, 1999. 23(4): p. 452-456.
+5. Li, H., et al., The sequence alignment/map format and SAMtools. Bioinformatics, 2009. 25(16): p. 2078-2079.
+6. Cingolani, P., et al., A program for annotating and predicting the effects of single nucleotide polymorphisms, SnpEff: SNPs in the genome of Drosophila melanogaster strain w1118; iso-2; iso-3. Fly, 2012. 6(2): p. 80-92.
 

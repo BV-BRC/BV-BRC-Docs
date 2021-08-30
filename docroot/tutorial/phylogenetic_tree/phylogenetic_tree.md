@@ -18,73 +18,87 @@ Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assemb
 1.	At the top of any BV-BRC page, find the Services tab and click on Phylogenetic Tree. 
 ![Figure 1](./images/Picture1.png "Figure 1")
 
-
+2.	This will open up the Phylogenetic tree landing page where researchers can generate a phylogenetic tree. 
 ![Figure 2](./images/Picture2.png "Figure 2")
 
+## Selecting genomes 
 
+### Individual genomes
+
+1.	Public or private genomes that are in the BV-BRC database can be used to build a phylogenetic tree. Up to 100 genomes can be used in this service. To add a private genome, click on the Filter icon at the beginning of the text box underneath **Select Genome**. 
 ![Figure 3](./images/Picture3.png "Figure 3")
 
-
+2.	This will open a drop-down box with a list of the types of genomes that can be filtered on. Click off the check box in front of Reference, Representative and All Other Public Genomes to enable filtering on private genomes that are in the researcher’s workspace. 
 ![Figure 4](./images/Picture4.png "Figure 4")
 
-
+3.	Clicking on the drop-down box at the end of the text box under Select Genome will show the private genomes in the workspace that have most recently been annotated. 
 ![Figure 5](./images/Picture5.png "Figure 5")
 
-
+4.	The list can also be filtered by beginning to type a name in the text box under Select Genome. 
 ![Figure 6](./images/Picture6.png "Figure 6")
 
-
+5.	A genome of interest can be selected by clicking on it. This will auto-fill the name of the genome into the text box. 
 ![Figure 7](./images/Picture7.png "Figure 7")
 
-
+6.	The genome needs to be added into the Selected Input Genome Table. Click the **+ Add** button at the end of the text box, and the genome will appear in the table. 
 ![Figure 8](./images/Picture8.png "Figure 8")
 
+7.	To add a different type of genome (Reference, Representative, or All Other Public Genomes), click on the filter icon and click the check boxes to the desired category.  The selected genomes will be moved to the Selected Genome Input Table by clicking on the name and then the Add button.
 
+## Genome Groups
+
+1.	Genome groups can also be added to the Input Genome Table. Clicking on the down arrow that follows the text box underneath **And/Or Select Genome Group** will show the genome groups that have most recently been created by the researcher. 
 ![Figure 9](./images/Picture9.png "Figure 9")
 
-
+2.	The list can be filtered by beginning to type a name in the text box under Select Genome. 
 ![Figure 10](./images/Picture10.png "Figure 10")
 
-
+3.	A genome group of interest can be selected by clicking on it. This will auto-fill the name of the genome into the text box. 
 ![Figure 11](./images/Picture11.png "Figure 11")
 
-
+4.	The selected genomes will be moved to the Selected Genome Input Table by clicking on the name and then the **+ Add** button.  This will move the selection to the top of the **Selected Input Genome Table**. 
 ![Figure 12](./images/Picture12.png "Figure 12")
 
-
+5.	Clicking on the Information icon following the name will show the Genome IDs of the genomes within a selected group. 
 ![Figure 13](./images/Picture13.png "Figure 13")
 
-
+6.	Clicking on the **X** icon that follows the name of a genome or genome group in the Selected Input Genome Table will remove it from the selection. 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
+## Setting parameters
 
+1.	Several parameters must be addressed before the codon tree job can be submitted, and the Submit button will turn blue when the job is ready.
 ![Figure 15](./images/Picture15.png "Figure 15")
 
-
+2.	The phylogenetic tree job must be placed in an **Output Folder**.  Clicking on the down arrow that follows the text box underneath Output Folder will show the folders that have most recently been created by the researcher. 
 ![Figure 16](./images/Picture16.png "Figure 16")
 
-
+3.	Clicking on a folder name will add it to the text box.  Links to instructions on creating a new folder are available at the top of this tutorial. 
 ![Figure 17](./images/Picture17.png "Figure 17")
 
-
+ 4.	The phylogenetic tree job needs a name, which can be entered in the text box under **Output Name**.
 ![Figure 18](./images/Picture18.png "Figure 18")
 
+5.	The number of single-copy PGFams set as the default is 100. This will include 100 amino acid and nucleotide sequences for the alignment and the tree but will depend on the number of single copy genes found in all of the genomes selected. For example, if one genome has only 10 single copy genes, then the tree will be built on the protein and gene sequences for those 10 genes, even if all the other genomes have 100 single copy genes. This can be adjusted (see below for Max Allowed Deletions and Duplications). 
 
+A different number can be selected by clicking on the down arrow at the end of the text box underneath **Number of Genes**, and the range is 10 to 1000 genes. Genomes that are in widely different taxa might be resolved with as few as 10 genes, but closely related genomes (same species or even strain) might require up to 1000 genes selected to separate them on a phylogenetic tree. **The more genes selected, the longer the tree job will run**. Clicking on the desired number will fill the text box. 
 ![Figure 19](./images/Picture19.png "Figure 19")
 
-
+6.	The selection of “single-copy” genes can be made more lenient by allowing one or more instances of genomes missing a member of a particular homology group (**Max Allowed Deletions**). If the number is set at 1, 9 genomes would have a gene in a particular PGFam, and the 10th would be missing it. Likewise, if the number is set at 2, 8 genomes would have the PGFam and the last 2 would be missing it. This would only be used if there are not enough PGFams meet the single copy criterion. The number of deletions allowed can be set between 0 and 10 in the text box underneath Max Allowed Deletions (0-10). 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
-
+7.	The selection of “single-copy” genes can also be made more lenient by allowing for PGFams that might have more than one copy of a single gene within a single genome. If the number is set at 1, then. Nine genomes have one gene in a particular PGFam, and the 10th has two. If the number is set at 2, 8 genomes will have one gene in a particular PGFam and the other two have 2. When there are two copies of a gene, the algorithm will pick the gene that is the most similar to the other genes found in the other selected genomes. This would only be used if there are not enough PGFams meet the single copy criterion. This number of can be set between 0 and 10 in the text box underneath **Max Allowed Duplications** (0-10). 
 ![Figure 21](./images/Picture21.png "Figure 21")
 
-
+8.	When all the parameters are entered, the codon tree job is ready to submit. Submit the job by clicking on the blue Submit button. 
 ![Figure 22](./images/Picture22.png "Figure 22")
 
-
+9.	A message will appear above the submit button, indicating that the submission was successful. 
 ![Figure 23](./images/Picture23.png "Figure 23")
 
+## Monitoring progress on the Jobs page
 
+1.	Click on the Jobs box at the bottom right of any BV-BRC page.
 ![Figure 24](./images/Picture24.png "Figure 24")
 
 

@@ -98,82 +98,84 @@ A different number can be selected by clicking on the down arrow at the end of t
 
 ## Monitoring progress on the Jobs page
 
-1.	Click on the Jobs box at the bottom right of any BV-BRC page.
+1.	Click on the Jobs box at the bottom right of any BV-BRC page. 
 ![Figure 24](./images/Picture24.png "Figure 24")
 
-
+2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
 ![Figure 25](./images/Picture25.png "Figure 25")
 
+## Viewing the Phylogenetic tree job results
 
+1.	To view a particular job, click on a row to select it. Once selected, the downstream processes available for the selection appear in the vertical green bar.  Clicking on the View icon will open the phylogenetic tree job summary. 
 ![Figure 26](./images/Picture26.png "Figure 26")
 
-
+2.	This will rewrite the page to show the information about the phylogenetic tree job, and all of the files that are produced when the pipeline runs.  
 ![Figure 27](./images/Picture27.png "Figure 27")
 
-
+3.	The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the Parameters row. 
 ![Figure 28](./images/Picture28.png "Figure 28")
 
-
+4.	This will show the information on what was selected when the job was originally submitted. 
 ![Figure 29](./images/Picture29.png "Figure 29")
 
-
+5.	The Codon Trees pipeline generates several different formats of images of the phylogenetic tree.  The **.pdf** file contains the portable document format showing a midpoint rooted phylogenetic tree. 
 ![Figure 30](./images/Picture30.png "Figure 30")
 
-
+6.	The Codon Trees pipeline also produces a portable graphic format (**.png**).
 ![Figure 31](./images/Picture31.png "Figure 31")
 
-
+7.	A Scalable Vector Graphics (**.svg**) file, an XML-based two-dimensional graphic file format, is also produced. It is a publication quality image that is best downloaded.
 ![Figure 32](./images/Picture32.png "Figure 32")
 
-
+8.	The **proteins.phy** file shows the aligned, trimmed, and concatenated sequences suitable to submission to RaxML. 
 ![Figure 33](./images/Picture33.png "Figure 33")
 
-
+9.	The **report.html** file provides a detailed report on the phylogenetic tree.  This will be discussed below.
 ![Figure 34](./images/Picture34.png "Figure 34")
 
-
+10.	The **treeWithGenomeIds.nwk** file contains the newick file.  Newick files are the instructions for building the phylogenetic tree. These files should be downloaded, and opened in viewer that can interpret them, where they can be adjusted to create the best possible image. Two viewers that we recommend are FigTree[6] and the Interactive Tree of Life (ITOL)[7]. The Codon Trees pipeline provide two different versions of **newick (.nwk)** for download. The **codontree_treeWithGenomeIDs.nwk** shows the IDs for all the genomes in the tree, which will be visible as the leaves. 
 ![Figure 35](./images/Picture35.png "Figure 35")
 
-
+11.	The **Detail_files folder** contains additional files associated with the Codon Trees job.  Double click on the row that contains the folder.  
 ![Figure 36](./images/Picture36.png "Figure 36")
 
-
+12.	This will rewrite the page to show the contents of the folder. 
 ![Figure 37](./images/Picture37.png "Figure 37")
 
-
+13.	The **analysisStats** file gives the statistics for the Codon Tree job, including the number of genomes, protein alignments, aligned amino acids, gene (CGS) alignments, aligned nucleotides and a list of the protein families used.  This information is also available in the html file and can be downloaded. 
 ![Figure 38](./images/Picture38.png "Figure 38")
 
-
+14.	The **genesPerGenome.txt** file shows the Genome IDs, the number of genes in that genome, the number of those genes that were single copy, and the number of genes viewed.  The file can be downloaded or viewed by clicking the **View** icon. This information is also available in the html file. 
 ![Figure 39](./images/Picture39.png "Figure 39")
 
-
+15.	The **homologAlignmentStats.txt** file shows the statistics for each of the protein families used in the Codon Tree job.  The information includes the protein family ID, the number of gaps, the mean squared frequency (This calculates the frequency of each letter per column and then sum the square for each column, which would be 1.0 if all had the same letter), the number of positions in the alignment for that family, the number of sequency from all the genomes, the proportion of the alignment that consists of gap characters, the sum squared frequency (The sum of all the mean squared frequencies in the alignment, which is used to select the best alignment.) and the an indication if the protein family was used in the analysis.  The file can be downloaded or viewed in the page by clicking the **View** icon. 
 ![Figure 40](./images/Picture40.png "Figure 40")
 
-
+16.	The **homologsAndGenesIncludedInAlignment.txt** file gives a list of the protein families and the unique identifier for each protein/gene used in the alignment. The file can be downloaded or viewed in the page by clicking the **View** icon. 
 ![Figure 41](./images/Picture41.png "Figure 41")
 
-
+17.	The **nex** file is used to generate the graphics in a program like FigTree.  It contains parameters that tells the graphics file how to draw it.  It can be downloaded by clicking the **Download** icon. 
 ![Figure 42](./images/Picture42.png "Figure 42")
 
-
+18.	The **partitions** file tells RaxML which alignment columns are first, second or third codon position nucleotides, or amino acids. It can be downloaded by clicking the **Download** icon. 
 ![Figure 43](./images/Picture43.png "Figure 43")
 
-
+19. The **phy** file is the concatenated alignment in PHYLIP format.  This is a very large file and can be downloaded by clicking the Download icon. 
 ![Figure 44](./images/Picture44.png "Figure 44")
 
-
+20.	The **raxmlcommand.sh** provides the command script to run the pipeline for the tree that was generated.  It can be run on your personal computer, can be downloaded by clicking the **Download** icon. 
 ![Figure 45](./images/Picture45.png "Figure 45")
 
-
+21.	The **tipsAligned.pdf** file shows the midpoint rooted phylogenetic tree with the names of genomes aligned. It can be downloaded by clicking the **Download** icon. 
 ![Figure 46](./images/Picture46.png "Figure 46")
 
-
+22. The **tipsAligned.png** shows the same tree as above, but in a portable graphic format.  It can viewed by clicking on the **View** icon or downloaded. A scaled vector graph (**SVG**) of the same tree is also available. 
 ![Figure 47](./images/Picture47.png "Figure 47")
 
-
+23.	The **treewithGenomeNames.nwk** is a newick file that has genome names as the leaves of the tree.  It can be downloaded or viewed by clicking the appropriate icons. 
 ![Figure 48](./images/Picture48.png "Figure 48")
 
-
+24.	The **RaxML_info** file has details on the RaxML run. 
 ![Figure 49](./images/Picture49.png "Figure 49")
 
 

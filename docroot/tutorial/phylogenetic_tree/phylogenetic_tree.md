@@ -178,49 +178,61 @@ A different number can be selected by clicking on the down arrow at the end of t
 24.	The **RaxML_info** file has details on the RaxML run. 
 ![Figure 49](./images/Picture49.png "Figure 49")
 
-
+25.	The **tree.log** file has the output of the steps that the Codon Tree pipeline took when generating the tree. 
 ![Figure 50](./images/Picture50.png "Figure 50")
 
+## Phylogenetic Tree Report
 
+1.	The **report.html** file provides a detailed report on the phylogenetic tree.  The report brings together many of the files available in the details folder.  To view the report, click on the row that has the **report.html** file, and then click on the View icon in the vertical green bar. 
 ![Figure 51](./images/Picture51.png "Figure 51")
 
-
+2.	This will rewrite the page to show the report, the top of which contains the midpoint rooted phylogenetic tree. 
 ![Figure 52](./images/Picture52.png "Figure 52")
 
-
+3.	Clicking on the **Alternate View** will show the same tree with the genome names aligned. 
 ![Figure 53](./images/Picture53.png "Figure 53")
 
-
+4.	Scrolling down the report will show the will show the statistics associated with the tree. 
 ![Figure 54](./images/Picture54.png "Figure 54")
 
-
+5.	Scrolling further down the report will show the RaxML command line that was run to generate the tree. 
 ![Figure 55](./images/Picture55.png "Figure 55")
 
-
+6.	Scrolling down further will show the partitions information, and the genome statistics. 
 ![Figure 56](./images/Picture56.png "Figure 56")
 
-
+7.	This is followed by the Gene Family Statistics. 
 ![Figure 57](./images/Picture57.png "Figure 57")
 
-
+8.	If the phylogenetic tree did not contain the number of genes originally selected, the report will include a section on strategies to increase the number of genes.  It will give the list of genome IDs that could be removed from the tree, and the number of genes that would be included in the tree if they were omitted. 
 ![Figure 58](./images/Picture58.png "Figure 58")
 
+## Viewing the Phylogenetic tree
 
+1.	BV-BRC also allows researchers to view the tree in the workspace, and link to other parts of the resource from the tree.  Click on the View icon in the upper right corner. 
 ![Figure 59](./images/Picture59.png "Figure 59")
 
-
+2.	This will open an interactive viewer in BV-BRC where the names are colored based on sharing the same genus (or first name) of the genome. 
 ![Figure 60](./images/Picture60.png "Figure 60")
 
-
+3.	The leaves of the tree can be changed by clicking on the **ID Type** in the vertical green bar.  Clicking on **Genome ID** will change the view from the names of the genomes to their unique identifiers. 
 ![Figure 61](./images/Picture61.png "Figure 61")
 
-
+4.	When a particular node of a branch (shown as a circle) is clicked on, all the genomes that are on that branch are selected (indicated by a check mark). This will change the icons in the vertical green bar, and researchers will be able to go to a view that includes all the genomes (Click on **Genome** in the vertical green bar) or create a group (Click on **Group** in the vertical green bar). 
 ![Figure 62](./images/Picture62.png "Figure 62")
 
-
+5.	Clicking on the dot in front of a genome will also populate the vertical green bar with additional icons.  Click on the **Genome** icon. 
 ![Figure 63](./images/Picture63.png "Figure 63")
 
-
+6.	This will open a new tab that has the landing page for the selected genome. 
 ![Figure 64](./images/Picture64.png "Figure 64")
 
+## References
 
+1.	Davis, J.J., et al., PATtyFams: Protein families for the microbial genomes in the PATRIC database. 2016. 7: p. 118.
+2.	Edgar, R.C.J.N.a.r., MUSCLE: multiple sequence alignment with high accuracy and high throughput. 2004. 32(5): p. 1792-1797.
+3.	Cock, P.J., et al., Biopython: freely available Python tools for computational molecular biology and bioinformatics. 2009. 25(11): p. 1422-1423.
+4.	Stamatakis, A., RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics, 2014. 30(9): p. 1312-1313.
+5.	Stamatakis, A., P. Hoover, and J. Rougemont, A rapid bootstrap algorithm for the RAxML web servers. Systematic biology, 2008. 57(5): p. 758-771.
+6.	Rambaut, A., FigTree, a graphical viewer of phylogenetic trees. 2007.
+7.	Letunic, I. and P. Bork, Interactive Tree Of Life (iTOL): an online tool for phylogenetic tree display and annotation. Bioinformatics, 2006. 23(1): p. 127-128.

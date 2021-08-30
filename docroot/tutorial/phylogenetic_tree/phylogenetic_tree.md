@@ -23,7 +23,7 @@ Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assemb
 
 ## Selecting genomes 
 
-### Individual genomes
+**Individual genomes**
 
 1.	Public or private genomes that are in the BV-BRC database can be used to build a phylogenetic tree. Up to 100 genomes can be used in this service. To add a private genome, click on the Filter icon at the beginning of the text box underneath **Select Genome**. 
 ![Figure 3](./images/Picture3.png "Figure 3")
@@ -45,7 +45,7 @@ Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assemb
 
 7.	To add a different type of genome (Reference, Representative, or All Other Public Genomes), click on the filter icon and click the check boxes to the desired category.  The selected genomes will be moved to the Selected Genome Input Table by clicking on the name and then the Add button.
 
-## Genome Groups
+**Genome Groups**
 
 1.	Genome groups can also be added to the Input Genome Table. Clicking on the down arrow that follows the text box underneath **And/Or Select Genome Group** will show the genome groups that have most recently been created by the researcher. 
 ![Figure 9](./images/Picture9.png "Figure 9")

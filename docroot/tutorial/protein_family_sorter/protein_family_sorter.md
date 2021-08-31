@@ -106,7 +106,7 @@ The Protein Family Sorter tool enables researchers to examine the distribution o
 8.	BV-BRC allows researcher to cluster by either **Protein Families**, **Genomes**, or **Both**.  The default is set to Both. 
 ![Figure 30](./images/Picture30.png "Figure 30")
 
-9.	To see the **Clustering algorithm** choices, click on the down arrow that follows **Pearson correlation**, which is the default setting. 
+9.	To see the **Clustering algorithm** choices, click on the down arrow that follows **Pearson correlation**, which is the default setting.  
 ![Figure 31](./images/Picture31.png "Figure 31")
 
 10.	Four types of clustering are available.  To see the options, click on the down arrow underneath **Clustering type** that follows **Pairwise average-linkage**, which is the default setting. 

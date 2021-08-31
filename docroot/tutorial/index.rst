@@ -27,6 +27,14 @@ Metagenomics
    taxonomic_classification/taxonomic_classification.md
    metagenomic_binning/metagenomic_binning.md
 
+Protein Tools
+---------------
+
+.. toctree::
+   :maxdepth: 1
+
+   protein_family_sorter/protein_family_sorter.md
+
 Viral Services
 --------------
 

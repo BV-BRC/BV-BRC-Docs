@@ -4,13 +4,13 @@
 The Transcriptomics Gene List Heatmap visually displays expression levels of all the genes in a Gene List across all selected comparisons using a heatmap viewer where coloring is based on the log ratio value of a gene in a given comparison. It allows quick visual identification of genes with similar expression patterns across one or more comparisons, including clustering and other options.
 
 ### See also
-  * [Examining Transcriptomics Data Tutorial](https://docs.patricbrc.org//tutorial/examining_transcriptomics_data/examining_transcriptomics_data.html)
+  * Examining Transcriptomics Data Tutorial
   * [Transcriptomics Experiments and Comparisons](../organisms_taxon/experiments_comparisons_tables.html)
   * [Transcriptomics Gene Page](../organisms_gene/transcriptomics.html)
   * [Correlated Genes](../organisms_gene/correlated_genes.html)
   * [Expression Data Import Service](../services/expression_data_import_service.html)
 
-## Accessing/Creating Transcriptomics Gene List Heatmap on the PATRIC Website
+## Accessing/Creating Transcriptomics Gene List Heatmap
 The heatmap may be accessed while under the Transcriptomics Tab (available on any Taxonomy or Genome level landing page) in the following ways:
 
 * **Clicking the Genes Action Button with one or more rows selected in the Experiments Table:** Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page, loaded with the genes corresponding to the selected experiments. Clicking the **Heatmap** option switches the view to the heatmap. See [Transcriptomics Experiments and Comparisons](../organisms_taxon/experiments_comparisons_tables.html) for more information.
@@ -57,6 +57,6 @@ The following options may be accessed from a pop-up widow by clicking on any ind
 
 * **Download Genes** as a list in Excel or txt file format.
 
-* **Show Genes** in an interactive PATRIC Feature Table for sorting, downloading, and various analyses. For more details on how to use the Feature Table, see the [Features Tab](../organisms_taxon/features.html)
+* **Show Genes** in an interactive Feature Table for sorting, downloading, and various analyses. For more details on how to use the Feature Table, see the [Features Tab](../organisms_taxon/features.html)
 
 * **Add Proteins (Features) to Group** in your personal Workspace for future access.

@@ -5,10 +5,10 @@ The Genome Browser provides an interactive graphical representation of the align
 
 ### See also
   * [Genome Annotations](../organisms_taxon/genome_annotations.html)
-  * [Exploring a (private) genome in PATRIC Tutorial](http://docs.patricbrc.org/tutorial/private_genome/private_genome.html)
+  * Exploring a (private) genome tutorial
 
-## Accessing the Genome Browser on the PATRIC Website
-Clicking the Genome Browser Tab in a Genome View displays the interactive Genome Browser, shown below. You may also access the Genome Browser from PATRIC tables that contain genomes by selecting the genome row and clicking the Genome Browser button in the vertical green Action Bar on the right side of the table.
+## Accessing the Genome Browser
+Clicking the Genome Browser Tab in a Genome View displays the interactive Genome Browser, shown below. You may also access the Genome Browser from BV-BRC tables that contain genomes by selecting the genome row and clicking the Genome Browser button in the vertical green Action Bar on the right side of the table.
 
 ![Genome Browser](../images/genome_browser.png)
 
@@ -35,7 +35,7 @@ The Genome Browser provides an interactive graphical representation of the align
 * **Highlight** a region of the browser using the Highlight Button in the Zoom Bar next to the sequence range near the top of the browser. Clear highlighted sections via the View menu. Note: A highlighted notation will remain when using the Share Button.
 
 ## Browser Tracks and Downloading
-By default, the Genome Browser initially displays PATRIC and RefSeq (if available)  annotated data tracks. If available, additional tracks from other annotation sources are located in the Available Tracks column, along the left side of the Genome Browser.
+By default, the Genome Browser initially displays BV-BRC and RefSeq (if available)  annotated data tracks. If available, additional tracks from other annotation sources are located in the Available Tracks column, along the left side of the Genome Browser.
 
 * **Add or remove tracks** by either selecting or unselecting the track name in the Available Tracks box on the left side, or alternately, either clicking the "x" beside the track name or clicking and dragging the track between the Available Tracks box and the browser window.
 
@@ -46,4 +46,4 @@ By default, the Genome Browser initially displays PATRIC and RefSeq (if availabl
 
 * **Create tracks showing specific regions of the Reference Sequence** (or it’s translations) by entering the NA or AA sequence via the “Add sequence search track” option in the File menu.
 
-* **Access information about an individual feature** by hovering over the feature with the mouse cursor to display information such as Locus Tag, Location, Strand, Type, Gene Symbol, and Product. Click on the feature to open a pop-up box with feature details such as links to NCBI for the RefSeq Locus Tag, Protein ID, and Gene ID; links to PATRIC for the Genome ID and Genome Name; and displays of the NA and AA sequences.
+* **Access information about an individual feature** by hovering over the feature with the mouse cursor to display information such as Locus Tag, Location, Strand, Type, Gene Symbol, and Product. Click on the feature to open a pop-up box with feature details such as links to NCBI for the RefSeq Locus Tag, Protein ID, and Gene ID; links to the Genome ID and Genome Name; and displays of the NA and AA sequences.

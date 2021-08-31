@@ -1,15 +1,15 @@
 # Metagenomic Read Mapping Service
 
 ## Overview
-The Metagenomic Read Mapping Service uses [KMA](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2336-6) to align reads against antibiotic resistance genes, virulence factors, or other custom sets of genes.
+The bacterial Metagenomic Read Mapping Service uses [KMA](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2336-6) to align reads against antibiotic resistance genes, virulence factors, or other custom sets of genes.
 
 ### See also
-  * [Metagenomic Read Mapping Service](https://patricbrc.org/app/MetagenomicReadMapping)
+  * [Metagenomic Read Mapping Service](https://alpha.bv-brc.org/app/MetagenomicReadMapping)
 
 ## Using the Metagenomic Read Mapping Service
-The **Metagenomic Read Mapping** submenu option under the **Services** main menu (Metagenomics category) opens the Metagenomic Read Mapping Service input form (shown below). *Note: You must be logged into PATRIC to use this service.*
+The **Metagenomic Read Mapping** submenu option under the **Services** main menu (Metagenomics category) opens the Metagenomic Read Mapping Service input form (shown below). *Note: You must be logged into BV-BRC to use this service.*
 
-![Metagenomic Read Mapping Service Menu](../images/services_menu.png)
+![Metagenomic Read Mapping Service Menu](../images/bv_services_menu.png)
 
 ## Options
 ![Metagenomic Read Mapping Service Input Form](../images/metagenomic_read_mapping_input_form_v2.png)
@@ -25,7 +25,7 @@ The **Metagenomic Read Mapping** submenu option under the **Services** main menu
 **Read File:** FASTQ file containing reads.
 
 ### SRA run accession
-Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the PATRIC Assembly Service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly. 
+Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly. 
 
 ## Selected libraries
 Read files to be mapped.
@@ -59,9 +59,9 @@ The Metagenomic Read Mapping Service generates several files that are deposited 
 
 This page is a web-friendly report that summarizes the output of MKA. It provides a link to the input data, an interactive chart view (see description below), and a table of the reference genes mapped.  The columns in the table are as follows: 
 
-* Template - Identifier of the template (reference gene) sequence that match the query reads. Clicking on any of the template identifiers in the first column will open a Specialty Gene List View that shows all the genes in PATRIC that have BLAT hits to the same template gene.
+* Template - Identifier of the template (reference gene) sequence that match the query reads. Clicking on any of the template identifiers in the first column will open a Specialty Gene List View that shows all the genes in BV-BRC that have BLAT hits to the same template gene.
 * Function - Template gene function.
-* Genome: Genome that contains template gene. Clicking on the name in the Genome column will open a new tab that shows the Genome List view, which shows all the genomes in PATRIC that fall under the same taxonomy of the selected name.
+* Genome: Genome that contains template gene. Clicking on the name in the Genome column will open a new tab that shows the Genome List view, which shows all the genomes in BV-BRC that fall under the same taxonomy of the selected name.
 * Score - Global alignment score of the template.
 * Expected - Expected alignment score if all mapping reads where smeared over all templates in the database.
 * Template_length - Template gene length in nucleotides.

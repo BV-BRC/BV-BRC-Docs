@@ -1,21 +1,21 @@
 # Phylogenetic Tree Building Service
 
 ## Overview
-The Phylogenetic Tree Building Service enables construction of custom phylogenetic trees built from user-selected genomes. The **Codon Tree** method selects single-copy PATRIC PGFams and analyzes aligned proteins and coding DNA from single-copy genes using the program RAxML. The service returns a Scaled Vector Graphics (SVG) image of the final tree, as well as a Newick file which can be rendered in the interactive Phylogenetic Tree Viewer in PATRIC or downloaded and viewed in FigTree or other software.
+The bacterial Phylogenetic Tree Building Service enables construction of custom phylogenetic trees built from user-selected genomes. The **Codon Tree** method selects single-copy BV-BRC PGFams and analyzes aligned proteins and coding DNA from single-copy genes using the program RAxML. The service returns a Scaled Vector Graphics (SVG) image of the final tree, as well as a Newick file which can be rendered in the interactive Phylogenetic Tree Viewer in BV-BRC or downloaded and viewed in FigTree or other software.
 
 ### See also
-* [Phylogenetic Tree Building Service](https://patricbrc.org/app/PhylogeneticTree)
-* [Building Phylogenetic Trees - Codon Tutorial](https://docs.patricbrc.org/tutorial/codon_tree_building/codon_tree_building.html)
+* [Phylogenetic Tree Building Service](https://alpha.bv-brc.org/app/PhylogeneticTree)
+* [Building Phylogenetic Trees - Codon Tutorial](https://docs.alpha.bv-brc.org/tutorial/codon_tree_building/codon_tree_building.html)
 * [Phylogeny Tab User Guide](../organisms_taxon/phylogeny.html)
 
 ## Using the Phylogenetic Tree Building Service
-The **Phylogenetic Tree** submenu option under the **Services** main menu (Genomics category) opens the Phylogenetic Tree input form (shown below). *Note: You must be logged into PATRIC to use this service.*
+The **Phylogenetic Tree** submenu option under the **Services** main menu (Genomics category) opens the Phylogenetic Tree input form (shown below). *Note: You must be logged in to use this service.*
 
 ![Phylogenetic Tree Menu](../images/services_menu.png)
 
 ## Method: Codon Tree
 
-The **Codon Tree** method utilizes PATRIC [PGFams](../organisms_taxon/protein_families.html) as homology groups and analyzes aligned proteins and coding DNA from single-copy genes using the program [RAxML](https://academic.oup.com/bioinformatics/article/22/21/2688/251208). Up to 100 genomes can be analyzed.
+The **Codon Tree** method utilizes BV-BRC [PGFams](../organisms_taxon/protein_families.html) as homology groups and analyzes aligned proteins and coding DNA from single-copy genes using the program [RAxML](https://academic.oup.com/bioinformatics/article/22/21/2688/251208). Up to 100 genomes can be analyzed.
 
 ![Phylogenetic Tree Input Form - Codon Tree](../images/phylogenetic_tree_input_form_codon_v3.png)
 
@@ -42,7 +42,7 @@ The selection of “single-copy” genes can be made more lenient by allowing on
 
 ![Phylogenetic Tree View Icon](../images/phylogenetic_tree_view_icon.png)
 
-Clicking on the View icon at the upper right portion of the job result page will display the PATRIC Phylogenetic Tree Viewer. See the [Phylogeny Tab User Guide](../organisms_taxon/phylogeny.html) for details about this viewer.  
+Clicking on the View icon at the upper right portion of the job result page will display the Phylogenetic Tree Viewer. See the [Phylogeny Tab User Guide](../organisms_taxon/phylogeny.html) for details about this viewer.  
 
 ### Codon Tree Method
 
@@ -82,12 +82,12 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
 * **Guide:** Link to the corresponding User Guide
 * **Download:**  Downloads the selected item.
-* **View:** Displays the content of the file, typically as plain text or rendered html, depending on filetype. Nwk files are rendered in the PATRIC Phylogenetic Tree Viewer.
+* **View:** Displays the content of the file, typically as plain text or rendered html, depending on filetype. Nwk files are rendered in the Phylogenetic Tree Viewer.
 * **Delete** Deletes the file.
 * **Rename** Allows renaming of the file.
 * **Copy:** Copies the selected items to the clipboard.
 * **Move** Allows moving of the file to another folder.
-* **Edit Type** Allows changing of the type of the file in terms of how PATRIC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+* **Edit Type** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details are available in the [Action Buttons](../action_buttons.html) user guide.
 

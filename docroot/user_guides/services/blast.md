@@ -1,16 +1,16 @@
 # BLAST Service
 
 ## Overview
-The PATRIC BLAST service integrates the BLAST (Basic Local Aligment Search Tool) algorithms to perform searches against against public or private genomes in PATRIC or other reference databases using a DNA or protein sequence and find matching genomes, genes, RNAs, or proteins.  
+The BLAST service integrates the BLAST (Basic Local Aligment Search Tool) algorithms to perform searches against against public or private genomes in BV-BRC or other reference databases using a DNA or protein sequence and find matching genomes, genes, RNAs, or proteins.  
 
 ### See also
-* [BLAST Service](https://patricbrc.org/app/BLAST)
-* [BLAST Service Tutorial](https://docs.patricbrc.org/tutorial/blast/blast.html)
+* [BLAST Service](https://alpha.bv-brc.org/app/BLAST)
+* BLAST Service Tutorial
 
 ## Using the BLAST Service
-The **BLAST** submenu option under the **Services** main menu (Genomics category) opens the BLAST input form (*shown below*). *Note: The BLAST Service can be used without logging in, but if you want to include your private genome in the BLAST results, you must be logged into PATRIC.*
+The **BLAST** submenu option under the **Services** main menu (Genomics category) opens the BLAST input form (*shown below*). *Note: The BLAST Service can be used without logging in, but if you want to include your private genome in the BLAST results, you must be logged into BV-BRC.*
 
-![BLAST Menu](../images/services_menu.png)
+![BLAST Menu](../images/bv_services_menu.png)
 
 ## Options
 ![BLAST Input Form](../images/blast_input_form.png) 
@@ -28,7 +28,7 @@ The **BLAST** submenu option under the **Services** main menu (Genomics category
 
   * tblastn: searches translated nucleotide subjects using a protein query
 
-**Database:** Dropdown list of a variety of PATRIC databases or user-selected data sets for searching. Depending upon the query type, searches are available for entire genomes or limited to only features. Specifically, blastn, tblastn, or tblastx, allows searches against either genomes or features. However, blastp or blastx are limited to features (proteins) only.   
+**Database:** Dropdown list of a variety of BV-BRC databases or user-selected data sets for searching. Depending upon the query type, searches are available for entire genomes or limited to only features. Specifically, blastn, tblastn, or tblastx, allows searches against either genomes or features. However, blastp or blastx are limited to features (proteins) only.   
 
 ## Advanced Options
 **BLAST Parameters:** Allows adjustment of maximum number of hits returned and E value threshold.
@@ -49,8 +49,8 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Copy:** Copies the selected items to the clipboard.
 * **FASTA:** Provides the FASTA DNA or protein sequence for the selected feature(s).
 * **ID Map:** Provides the option to map the selected feature(s) to multiple other idenfiers, such as RefSeq and UniProt.
-* **MSA:** Launches the PATRIC Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
-* **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in PATRIC in which the selected features are found.
+* **MSA:** Launches the Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
+* **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in BV-BRC in which the selected features are found.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 * **Feature:** Loads the Feature Page for the selected feature. *Available only if a single feature is selected.*
 * **Features:** Loads the Features Table for the selected features. *Available only if multiple features are selected.*

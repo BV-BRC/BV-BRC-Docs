@@ -4,14 +4,14 @@
 The Taxonomic Classification Service accepts reads or contigs from sequencing of a metagenomic sample and uses [Kraken 2](http://genomebiology.com/2014/15/3/R46) to assign the reads to taxonomic bins, providing an initial profile of the possible constituent organisms present in the sample.
 
 ### See also
-  * [Taxonomic Classification Service](https://patricbrc.org/app/TaxonomicClassification)
+  * [Taxonomic Classification Service](https://alpha.bv-brc.org/app/TaxonomicClassification)
   * Taxonomic Classification Service Tutorial - TBD
   * [Metagenome Binning Service](./metagenome_binning_service.html)
 
 ## Using the Taxonomic Classification Service
-The **Taxonomic Classification** submenu option under the **Services** main menu (Metagenomics category) opens the Taxonomic Classification input form (shown below). *Note: You must be logged into PATRIC to use this service.*
+The **Taxonomic Classification** submenu option under the **Services** main menu (Metagenomics category) opens the Taxonomic Classification input form (shown below). *Note: You must be logged into BV-BRC to use this service.*
 
-![Taxonomic Classification Menu](../images/services_menu.png)
+![Taxonomic Classification Menu](../images/bv_services_menu.png)
 
 ## Options
 ![Taxonomic Classification Input Form](../images/taxonomic_classification_input_form_v2.png)
@@ -29,7 +29,7 @@ Depending on the option chosen above (Read File or Assembled Contigs), the Input
 **Read File:** The fastq file containing the reads.
 
 ### SRA run accession
-Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the PATRIC Assembly Service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly.
+Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the ervice. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly.
 
 ## Selected libraries
 Read files placed here will contribute to a single assembly.
@@ -78,7 +78,7 @@ This page is a web-friendly report that summarizes the output of Kraken 2. It pr
 * Frags in Taxon - Number of fragments assigned directly to this taxon
 * Rank - A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Taxa that are not at any of these 10 ranks have a rank code that is formed by using the rank code of the closest ancestor rank with a number indicating the distance from that rank.  E.g., "G2" is a rank code indicating a taxon is between genus and species and the grandparent taxon is at the genus rank.
 * NCBI Taxon ID - NCBI taxonomic ID number
-* Scientific Name - Indented scientific name. Clicking on one of these names will display the corresponding taxon page in the PATRIC website.
+* Scientific Name - Indented scientific name. Clicking on one of these names will display the corresponding taxon page in the website.
 
 ### Taxonomic Chart
 ![Krona-based interactive Taxonomic Classification Chart](../images/krona_taxonomic_pie_chart.png)

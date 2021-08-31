@@ -1,20 +1,20 @@
 # Transcriptomics Experiments and Comparisons Tables
 
 ## Overview
-The Transcriptomics Tab provides a table of all the publicly available transcriptomics experiment datasets that are incorporated into PATRIC, displayed as lists of Experiments and Comparisons. The Experiments Table shows a list of studies or datasets that contain one or more samples or experimental conditions. The Comparisons Table shows a list of curated pair-wise comparisons of two samples or experimental conditions to provide differential gene expression measurements. From these tables, the corresponding genes are available for further examination and comparative analysis.
+The Transcriptomics Tab provides a table of all the publicly available transcriptomics experiment datasets that are incorporated into BV-BRC, displayed as lists of Experiments and Comparisons. The Experiments Table shows a list of studies or datasets that contain one or more samples or experimental conditions. The Comparisons Table shows a list of curated pair-wise comparisons of two samples or experimental conditions to provide differential gene expression measurements. From these tables, the corresponding genes are available for further examination and comparative analysis.
 
-Most PATRIC transcriptomics data has been curated from published gene expression datasets related to bacterial pathogens in [NCBI's GEO database](http://www.ncbi.nlm.nih.gov/geo/). Some additional data sets have been incorporated from the NIAID-funded [Systems Biology](https://patricbrc.org/webpage/website/data_collections/niaid_systems_biology.html) and [Functional Genomics](https://patricbrc.org/webpage/website/data_collections/niaid_functional_genomics.html) Centers.
+Some transcriptomics data has been curated from published gene expression datasets related to bacterial pathogens in [NCBI's GEO database](http://www.ncbi.nlm.nih.gov/geo/). Some additional data sets have been incorporated from the NIAID-funded [Systems Biology and Functional Genomics Centers.
 
 ### See also
-  * [Examining Transcriptomics Data Tutorial](https://docs.patricbrc.org//tutorial/examining_transcriptomics_data/examining_transcriptomics_data.html)
+  * Examining Transcriptomics Data Tutorial
   * [Transcriptomics Gene List](../organisms_taxon/transcriptomics_gene_list.html)
   * [Transcriptomics Gene List Heatmap](../organisms_taxon/transcriptomics_gene_heatmap.html)
   * [Transcriptomics Gene Page](../organisms_gene/transcriptomics.html)
   * [Correlated Genes](../organisms_gene/correlated_genes.html)
   * [Expression Data Import Service](../services/expression_data_import_service.html)
 
-## Accessing the Experiments and Conditions Tables on the PATRIC Website
-Clicking the Transcriptomics Tab in a Taxon View displays the Experiments Table (shown below), listing all the studies or datasets in PATRIC that contain one or more samples or experimental conditions corresponding to the selected taxon level.
+## Accessing the Experiments and Conditions Tables
+Clicking the Transcriptomics Tab in a Taxon View displays the Experiments Table (shown below), listing all the studies or datasets that contain one or more samples or experimental conditions corresponding to the selected taxon level.
 
 ### Experiments Table
 
@@ -31,7 +31,7 @@ Within this table you may do the following:
 
 ### Filter Tool
 
-As with all tables in PATRIC, the Filters tool is available to narrow the display of the items in the table, show below:
+As with all tables, the Filters tool is available to narrow the display of the items in the table, show below:
   
 ![Experiments Filter Panel](../images/experiments_filter_panel.png)
 
@@ -53,7 +53,7 @@ More details are available in the [Action Buttons](../other/action_buttons.html)
 
 ### Comparisons Table
 
-The Comparisons Table (shown below) is accessible by clicking the Comparisons link on the Transcriptomics Tab.  It lists all the comparisons associated with the studies or datasets in PATRIC that contain one or more samples or experimental conditions corresponding to the selected taxon level.
+The Comparisons Table (shown below) is accessible by clicking the Comparisons link on the Transcriptomics Tab.  It lists all the comparisons associated with the studies or datasets that contain one or more samples or experimental conditions corresponding to the selected taxon level.
 
 ![Comparisons Table](../images/comparisons_table.png)
 

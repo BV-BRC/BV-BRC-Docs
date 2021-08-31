@@ -4,13 +4,13 @@
 The Fastq Utilities Service makes available common operations for FASTQ files from high throughput sequencing, including: generating FastQC reports of base call quality; aligning reads to genomes using Bowtie2 to generate BAM files, saving unmapped reads and generating SamStat reports of the amount and quality of alignments; and trimming of adapters and low quality sequences using TrimGalore and CutAdapt. The Fastq Utiliites app allows the user to define a pipeline of activities to be performed to designated FASTQ files. The three components (trim, fastqc and align) can be used independently, or in any combination.These actions happen in the order in which they are specified. In the case of trimming, the action will replace untrimmed read files with trimmed ones as the target for all subsequent actions. FASTQ reads (paired-or single-end, long or short, zipped or not), as well as Sequence Read Archive accession numbers are supported.  
 
 ### See also
-* [Fastq Utilities Service](https://patricbrc.org/app/FastqUtil)
-* [Fastq Utilities Service Tutorial](https://docs.patricbrc.org/tutorial/fastq-utilities/fastq-utilities.html)
+* [Fastq Utilities Service](https://alpha.bv-brc.org/app/FastqUtil)
+* [Fastq Utilities Service Tutorial](https://docs.alpha.bv-brc.org/tutorial/fastq-utilities/fastq-utilities.html)
 
 ## Using the Fastq Utilities Service
-The **Fastq Utilities** submenu option under the **Services** main menu (Genomics category) opens the Fastq Utilities input form (*shown below*). *Note: You must be logged into PATRIC to use this service.*
+The **Fastq Utilities** submenu option under the **Services** main menu (Genomics category) opens the Fastq Utilities input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
 
-![Fastq Utilities Menu](../images/services_menu.png)
+![Fastq Utilities Menu](../images/bv_services_menu.png)
 
 ## Options
 ![Fastq Utilities Input Form](../images/fastq_utilities_input_form.png) 
@@ -52,7 +52,7 @@ Read files placed here will contribute to a single assembly.
 
 ## Output Results
 
-**Note:** Extensive descriptions of the output files and options are provided in the [Fastq Utilities Service Tutorial](https://docs.patricbrc.org/tutorial/fastq-utilities/fastq-utilities.html).
+**Note:** Extensive descriptions of the output files and options are provided in the [Fastq Utilities Service Tutorial](https://docs.alpha.bv-brc.org/tutorial/fastq-utilities/fastq-utilities.html).
 
 ### Trim
 ![Fastq Utilities Trim Output Files](../images/fastq_utilities_trim_output_files.png) 
@@ -91,7 +91,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Rename** Allows renaming of the file.
 * **Copy:** Copies the selected items to the clipboard.
 * **Move** Allows moving of the file to another folder.
-* **Edit Type** Allows changing of the type of the file in terms of how PATRIC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+* **Edit Type** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details are available in the [Action Buttons](../action_buttons.html) user guide.
 

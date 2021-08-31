@@ -1,20 +1,20 @@
 # Comprehensive Genome Analysis Service
 
 ## Overview
-The Comprehensive Genome Analysis Service provides a streamlined analysis **"meta-service"** that accepts raw reads and performs a comprehensive analysis including assembly, annotation, identification of nearest neighbors, a basic comparative analysis that includes a subsystem summary, phylogenetic tree, and the features that distinguish the genome from its nearest neighbors.
+The bacterial Comprehensive Genome Analysis Service provides a streamlined analysis **"meta-service"** that accepts raw reads and performs a comprehensive analysis including assembly, annotation, identification of nearest neighbors, a basic comparative analysis that includes a subsystem summary, phylogenetic tree, and the features that distinguish the genome from its nearest neighbors.
 
 ### See also
-  * [Comprehensive Genome Analysis Service](https://patricbrc.org/app/ComprehensiveGenomeAnalysis)
-  * [Comprehensive Genome Analysis Service Tutorial](https://docs.patricbrc.org//tutorial/comprehensive-genome-analysis/comprehensive-genome-analysis.html)
+  * [Comprehensive Genome Analysis Service](https://alpha.bv-brc.org/app/ComprehensiveGenomeAnalysis)
+  * Comprehensive Genome Analysis Service Tutorial
   * [Genome Assembly Service User Guide](./genome_assembly_service.html)
   * [Genome Annotation Service User Guide](./genome_annotation_service.html)
   * [Phylogenetic Tree Building Service User Guide](./phylogenetic_tree_building_service.html)
 
 
 ## Using the Comprehensive Genome Analysis Service
-The **Comprehensive Genome Analysis** submenu option under the **Services** main menu (Genomics category) opens the Comprehensive Genome Analysis input form (shown below). *Note: You must be logged into PATRIC to use this service.*
+The **Comprehensive Genome Analysis** submenu option under the **Services** main menu (Genomics category) opens the Comprehensive Genome Analysis input form (shown below). *Note: You must be logged into BV-BRC to use this service.*
 
-![Comprehensive Genome Analysis Menu](../images/services_menu.png)
+![Comprehensive Genome Analysis Menu](../images/bv_services_menu.png)
 
 ## Options
 ![Comprehensive Genome Analysis Input Form](../images/genome_analysis_input_form.png)
@@ -32,7 +32,7 @@ Depending on the option chosen above (Read File or Assembled Contigs), the Input
 **Read File:** The fastq file containing the reads.
 
 ### SRA run accession
-Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the PATRIC Assembly Service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly.
+Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the BV-BRC Assembly Service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly.
 
 ## Selected libraries
 Read files placed here will contribute to a single assembly.
@@ -67,7 +67,7 @@ SPAdes is an assembler for both single-cell and standard (multicell) assembly, a
 Selecting "True" opens additional options for trimming reads.
 
 #### Racon and Pilon Iterrations
-PATRIC’s assembly service also allows for the correction of assembly errors (or “polish) using Racon and/or Pilon. Both Racon and Pilon take the contigs and the reads mapped to those contigs, and look for discrepancies between the assembly and the majority of the reads. Where there is a discrepancy, Racon or Pilon will correct the assembly if the majority of the reads call for that. Racon is for long reads (PacBio or Nanopore) and Pilon is for shorter reads (Illumina or Ion Torrent). Once the assembly has been corrected with the reads, it is still possible to do another iteration to further improve the assembly, but each one takes time. PATRIC allows for 0 to 4 Racon or Pilon iterations.
+The BV-BRC Assembly Service also allows for the correction of assembly errors (or “polish) using Racon and/or Pilon. Both Racon and Pilon take the contigs and the reads mapped to those contigs, and look for discrepancies between the assembly and the majority of the reads. Where there is a discrepancy, Racon or Pilon will correct the assembly if the majority of the reads call for that. Racon is for long reads (PacBio or Nanopore) and Pilon is for shorter reads (Illumina or Ion Torrent). Once the assembly has been corrected with the reads, it is still possible to do another iteration to further improve the assembly, but each one takes time. BV-BRC allows for 0 to 4 Racon or Pilon iterations.
 
 #### Min. Contig Length and Coverage
 The assembly service also provides the ability to change the minimum contig length and coverage.
@@ -104,7 +104,7 @@ The Comprehensive Genome Analysis Service generates several files that are depos
    * Subsystem analysis - summary
    * Phylogenetic analysis - phylogenetic tree generated using the analyzed genome and the closest Reference and Representative genomes
    * References - citations to all tools used by the service
- * **annotated.genome** - A special "Genome Typed Object (GTO)" JSON-format file that encapsulates all the data from the annotated genome. See [Extracting and Mining Genome Typed Objects](https://docs.patricbrc.org/cli_tutorial/cli_getting_started.html#extracting-and-mining-genome-typed-objects-gtos) for more information.
+ * **annotated.genome** - A special "Genome Typed Object (GTO)" JSON-format file that encapsulates all the data from the annotated genome. See Extracting and Mining Genome Typed Objects for more information.
  * **annotation** - The Annotation sub-job that was run as part of the CGA Service. Double-clicking this item will display the Annotation job results. Note that sub-jobs are indicated by the "checkered flag" icon beside the name.
  * **assembly** - The Assembly sub-job that was run as part of the CGA Service. Double-clicking this item will display the Assembly job results. Note that sub-jobs are indicated by the "checkered flag" icon beside the name.
  * **circos.svg** - SVG-format rendering of the circular genome view used in the FullGenomeReport.html file.

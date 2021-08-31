@@ -1,13 +1,11 @@
 # AMR Phenotypes Tab
 
 ## Overview
-The AMR Phenotypes Tab provides a tabular view of all of the AMR phenotype data in PATRIC for the selected taxon level, including the resistance phenotype (Resistant, Susceptible, Intermediate) and/or the minimum inhibitory concentration (MIC) value as measured by antibiogram (AMR panel) assay.
+The AMR Phenotypes Tab provides a tabular view of all of the bacterial AMR phenotype data for the selected taxon level, including the resistance phenotype (Resistant, Susceptible, Intermediate) and/or the minimum inhibitory concentration (MIC) value as measured by antibiogram (AMR panel) assay.
 
 ### See also
 
-  * [Antibiotic Resistance Data](https://patricbrc.org/view/DataType/AntibioticResistance)
-
-## Accessing AMR Phenotypes on the PATRIC Website
+## Accessing AMR Phenotypes
 Clicking the AMR Phenotypes Tab in a Taxon View displays a table with rows for each genome/antibiotic combination for which there is an AMR phenotype designation or MIC value in that taxonomic level, as shown below:
 
 ### AMR Phenotypes Table
@@ -16,9 +14,9 @@ The table provides a listing of Resistance Phenotype (Susceptible, Resistant, In
 
 ### Predicted AMR Phenotypes
 ![Predicted AMR Phenotypes](../images/predicted_amr_phenotypes.png)
-The PATRIC Genome Annotation Service provides predictions of AMR Phenotypes for genomes for which AMR classifiers have been built For these predicted phenotypes, the Lab Typing Method will be "Computational Prediction", the Lab Typing Platform will show the classifier type (e.g., "AdaBoost Classifier"), The Lab Typing Vendor will show the source of the classifier producer (e.g., "PATRIC"), and the Lab Typing Version will show the accuracy and other scores associated with the prediction (e.g., "Accuracy:0.995, F1 scroe:0.995, AUC:0.991"). 
+The Bacterial Genome Annotation Service provides predictions of AMR Phenotypes for genomes for which AMR classifiers have been built For these predicted phenotypes, the Lab Typing Method will be "Computational Prediction", the Lab Typing Platform will show the classifier type (e.g., "AdaBoost Classifier"), The Lab Typing Vendor will show the source of the classifier producer, and the Lab Typing Version will show the accuracy and other scores associated with the prediction (e.g., "Accuracy:0.995, F1 scroe:0.995, AUC:0.991"). 
 
-See [Davis, JJ, et al. 2016](https://www.nature.com/articles/srep27930) and [PATRIC AdaBoost Classification Software](http://tutorial.theseed.org/AdaBoost_Installation_Tutorial.htm) for more information on how AMR classifiers are constructed and used in PATRIC. 
+See [Davis, JJ, et al. 2016](https://www.nature.com/articles/srep27930) and [AdaBoost Classification Software](http://tutorial.theseed.org/AdaBoost_Installation_Tutorial.htm) for more information on how AMR classifiers are constructed and used. 
 
 ### AMR Phenotypes Table Tools
 Within this table you may do the following:
@@ -29,11 +27,11 @@ Within this table you may do the following:
 
 ### Filter Tool
 
-As with all tables in PATRIC, the Filters tool is available to narrow the display of the items in the table, show below:
+As with all tables, the Filters tool is available to narrow the display of the items in the table, show below:
   
 ![AMR Phenotypes Filter Panel](../images/amr_phenotypes_filter_panel.png)
 
-Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel.  More details are available in the [PATRIC Tables and Filters](../tables.html) user guide.
+Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel.  More details are available in the [Tables and Filters](../tables.html) user guide.
 
 ### Action buttons
 
@@ -43,7 +41,7 @@ After selecting one or more of the genomes by clicking the checkbox beside the G
 * **Download:**  Downloads the selected items (rows).
 * **Copy:** Copies the selected items to the clipboard.
 * **Genome:** Loads the Genome View Overview page for the selected genome (if only one genome selected).
-* **Antibiotic:** Loads the Antibiotic Overview for the corresponding antibiotic selected (available only if one genome/antibiotic row is selected). The Antibiotic Overview provides detailed information regarding the antibiotic.  See [Antibiotics Data](https://patricbrc.org/view/DataType/AntibioticResistance).
+* **Antibiotic:** Loads the Antibiotic Overview for the corresponding antibiotic selected (available only if one genome/antibiotic row is selected). The Antibiotic Overview provides detailed information regarding the antibiotic.
 * **Group:** Opens a pop-up window to enable adding the selected genome/antibiotic records to an existing or new group in the private workspace.
 
 More details are available in the [Selection Action Bar](../action_bar.html) user guide.

@@ -1,121 +1,136 @@
-# Comparing Protein Families Across Individual Genomes and Genome Groups
+# Protein Family Sorter Tool
 
-The Protein Family Sorter tool enables researchers to examine the distribution of specific protein families across different genomes.
+The Protein Family Sorter tool enables researchers to examine the distribution of specific protein families across different genomes.  The tool uses PATtyFams[1], the protein families that are assigned in the BV-BRC annotation process.  There are two types of PATtyFams.  The global families, known as **PGFams**, can be used for cross genus comparisons.  The local families (**PLFams**) are for intra-genus comparisons.
 
-**Keywords:** Comparative genomics, Protein family comparison, Protein family analysis, Protein families, Pan proteome, Core proteome, Accessory proteome, Conserved protein families, Presence/absence, Heatmap, Clustering.
+## Locating the Protein Family Sorter App
 
-## I.  Locating the Protein Family Sorter tool.
-1. At the top of any PATRIC page, find the Services tab. Click on *Protein Family Sorter*.
-![Step 1](./images/image1.png)
+1.	At the top of any BV-BRC page, find the Services tab and click on Protein Family Sorter. 
+![Figure 1](./images/Picture1.png "Figure 1")
 
-2. This will open the landing page for the Protein Family Sorter tool.
-![Step 2](./images/image2.png)
+2.	This will open up the Protein family Sorter landing page. 
+![Figure 2](./images/Picture2.png "Figure 2")
 
-## II. Selecting Individual Genomes
-1. To include any genome (reference, representative, other public, or private genomes), click on the filter button to narrow the selection and deselect the categories that are not of interest.
-![Step 3](./images/image3.png)
+## Selecting Genomes
 
-2. Typing in the text box will show a list of the genomes available that contain that text.  Private genomes are indicated by a Lock symbol.  Once the genome of interest is located, clicking on it will fill the box.
-![Step 4](./images/image4.png)
+1.	To include any genome (reference, representative, other public, or private genomes), click on the filter button to narrow the selection and deselect the categories that are not of interest. 
+![Figure 3](./images/Picture3.png "Figure 3")
 
-3. The genome must be added to the genomes for comparison, a box in the Selected Genomes box. Click on the arrow at the upper right of the Select Genome box (and the name of the genome will appear in the Selected Genomes box.
-![Step 5](./images/image5.png)
+2.	Typing in the text box will show a list of the genomes available that contain that text. Private genomes are indicated by a **Lock** icon. Once the genome of interest is located, clicking on it will fill the box. 
+![Figure 4](./images/Picture4.png "Figure 4")
 
-## III. Selecting Genome Groups
-1. To select a genome group, go to the Select Genome Group box and click on the down arrow that follows the text box (red arrow).  That will show a list of all the genome groups, with the most recently created appearing at the top of the list.
-![Step 6](./images/image6.png)
+3.	The genome must be added to the genomes for comparison, a box in the Selected Genomes box. Click on the arrow at the upper right of the Select Genome box (and the name of the genome will appear in the Selected Genomes box. 
+![Figure 5](./images/Picture5.png "Figure 5")
 
-2. Clicking on the genome group of interest (red arrow) will make the name appear in the text box.
-![Step 7](./images/image7.png)
+## Selecting Genome Groups
 
-3. The genome group must be added to the genomes for comparison, a box in the Selected Genomes box. Click on the arrow at the upper right of the Select Genome box (red arrow) and the name of the genome will appear in the Selected genomes box.
-![Step 8](./images/image8.png)
+1.	To select a genome group, go to the Select Genome Group box and click on the down arrow that follows the text box. That will show a list of all the genome groups, with the most recently created appearing at the top of the list. 
+![Figure 6](./images/Picture6.png "Figure 6")
 
-4. This can be repeated until all the genome groups or genomes of interest, have been added to the Selected Genomes box.
-![Step 9](./images/image9.png)
+2.	Entering a name (or part of a name) in the text box will populate the drop-down box with possible groups that match that text. 
+![Figure 7](./images/Picture7.png "Figure 7")
 
-## IV. Selecting a Protein Family for Comparison.
-1. PATRIC offers three types of protein families.  Two of the protein families (PGFams and PLFams) have been recently described[1].  The default, PGFams, are protein families that cross the genus boundary.  PLFams are protein families across a genus.  The third, FIGFams[2], are sets of isofunctional homologues.  Clicking on the down arrow a the end of the text box under Family Type will show the three type of protein families.  Clicking on one will select it for the analysis.
-![Step 10](./images/image10.png)
+3.	Clicking on the genome group of interest will make the name appear in the text box. 
+![Figure 8](./images/Picture8.png "Figure 8")
 
-## V. Submitting the Protein Family Sorter job.
-1. Once the genomes, genome groups, and type of protein families are selected, the job will be initiated by clicking the submit button.  The selected data will begin loading.
-![Step 11](./images/image11.png)
+4.	The genome group must be added to the genomes for comparison, a box in the **Select Genomes** box. Click on the arrow at the upper right of the **Select Genome** box and the name of the genome will appear in the box. This can be repeated until all the genome groups or genomes of interest, have been added to the Selected Genomes box. 
+![Figure 9](./images/Picture9.png "Figure 9")
 
-2. Once loaded, a page with a filter on the right, and a table on the left a table showing all the families.
-![Step 12](./images/image12.png)
+## Selecting Protein Family Type
 
-## VI. Protein Family Sorter – Pan, Core and Accessory Genome
-1. The Protein Family Sorter loads showing all the protein families across all the genomes.  This is the **Pan Genome**.
+1.	BV-BRC offers three types of protein families. The default, PGFams, are protein families that cross the genus boundary. PLFams are protein families across a genus. FigFams[2] are an older protein family that is not updated, where the protein families are united by function. Clicking on the down arrow at the end of the text box under Family Type will show the two types of protein families. Clicking on one will select it for the analysis.
+![Figure 10](./images/Picture10.png "Figure 10")
 
-    ![Step 13](./images/image13.png)
+## Submitting the Protein Family Sorter job
 
-2. The **Core Genome** can be seen by clicking on the box in the column head below Present in all families.  This will select all the genomes in the list, and will reload the table to show all the protein families that are in that selection.
-![Step 14](./images/image14.png)
+1.	Once the genomes, genome groups, and type of protein families are selected, the job will be initiated by clicking the submit button. The selected data will begin loading. 
+![Figure 11](./images/Picture11.png "Figure 11")
 
-3. The **Accessory Genome** for a species can be seen by first clicking on the box in the column head below Absent in all families (red arrow) and then clicking on the text box in the Either/Mixed column in front of each genome of interest (blue arrow).  This will select all the genomes in the list, and will reload the table to show all the protein families that are in that selection.
-![Step 15](./images/image15.png)
+2.	This will rewrite the page, which may take some time to load depending upon the number and size of the selected genomes. 
+![Figure 12](./images/Picture12.png "Figure 12")
 
-4. The **Accessory Genome** for a single genome can be seen by first clicking on the box in the column head below Absent in all families (red arrow) and then clicking on the text box in the Either/Mixed column in front of the genome of interest (blue arrow).  This will select all the genomes in the list, and will reload the table to show all the protein families that are in that selection.
-![Step 16](./images/image16.png)
+## Filtering the Protein Family Table
 
-## VII. Protein Family Sorter – Text filter
-1. The text filter box can be used to find protein families that contain specific names.  Enter a name of interest (red arrow) and click the filter button (blue arrow).  This will re-filter the table to show the protein families that contain that text in the functional description.
-![Step 17](./images/image17.png)
+1.	The page will reload to show the Protein Family Table view.  This contains a dynamic filter on the left, and a table on the right that shows all the families based on the selections of the filter. 
+![Figure 13](./images/Picture13.png "Figure 13")
 
-2. Other available filters allow users to filter the protein families to show the number of proteins per family, which can be a range or a single value.
-![Step 18](./images/image18.png)
+2.	The Protein Family Sorter loads showing all the protein families across all the genomes. This is the **Pan Genome**. 
+![Figure 14](./images/Picture14.png "Figure 14")
 
-3. Users can also filter on the number of genomes found in each family.
-![Step 19](./images/image19.png)
+3.	The Core Genome can be seen by clicking on the box in the column head below Present in all families. This will select all the genomes in the list and will reload the table to show all the protein families that are in that selection. 
+![Figure 15](./images/Picture15.png "Figure 15")
 
-## VIII. Protein Family Sorter – Loading the Heatmap
-1. The presence and/or absence of protein families can also be seen in a heatmap view.  To see the heatmap, click on the Heatmap icon above the filter (red arrow).  This will reload the page to show the heatmap.
-![Step 20](./images/image20.png)
+4.	The **Accessory Genome** for a species can be seen by first clicking on the box in the column head below **Absent** in all families and then clicking on the text box in the **Either/Mixed** column in front of each genome of interest. This will select all the genomes in the list and will reload the table to show all the protein families that are in that selection. 
+![Figure 16](./images/Picture16.png "Figure 16")
 
-## IX. Protein Family Sorter – Heatmap – Anchoring a genome
-1. The protein family sorter allows users to see the protein families in the order that they appear in any given genome.  This process is called anchoring a genome.  To re-order the protein families, click on the Anchor icon that can be seen at the upper right above the heatmap (red arrow).  This will open a box, where, if clicking on the down arrow, the list of all the genomes in the heatmap will appear.  Click on the genome of interest (blue arrow).
-![Step 21](./images/image21.png)
+5.	The **Accessory Genome** for a single genome can be seen by first clicking on the box in the column head below **Absent** in all families and then clicking on the text box in the **Present** column in front of the genome of interest. This will select all the genomes in the list and will reload the table to show all the protein families that are in that selection. 
+![Figure 17](./images/Picture17.png "Figure 17")
 
-2. The protein families in the heatmap will be reloaded to show the presence and absence of protein families across all the genomes, in the order that the genes occur in the genome that was selected as the anchor.
-![Step 22](./images/image22.png)
+6.	The text filter box can be used to find protein families that contain specific names. Enter a name of interest and click the filter button. This will re-filter the table to show the protein families that contain that text in the functional description. 
+![Figure 18](./images/Picture18.png "Figure 18")
 
-## X. Protein Family Sorter – Heatmap – Downloading information by Column
-1. The names of genes and genomes, locus tags, functional description and other information can be downloaded directly from the heatmap.  To select and see all the genes from an individual column, click on any column head of interest where the name of the protein family is displayed (red arrow).
+7.	The text box filter can also be used to find protein family IDs, which is an excellent way to see presence and absence across a group of genomes.  Entering the IDs in the table and then clicking on the filter icon will reload the table to show the protein families that meet that criterion. 
+![Figure 19](./images/Picture19.png "Figure 19")
 
-    ![Step 23](./images/image23.png)
+8.	There are additional filtering options below the text box.  This includes protein families meeting particular criteria.  One important filter is Perfect Families.  In BV-BRC, perfect families refer to those protein families where each of the genomes have a single protein that is part of the family.  This is an important default for the **Phylogenetic Tree Service**, which could be used to see if a group of genomes are “tree-able.” 
+![Figure 20](./images/Picture20.png "Figure 20")
 
-2. This will open a pop-up box that allows users to download the heatmap data, download the proteins, show the protein, or add the proteins to a group in the workspace.  To see the proteins in the column, click on the Show Proteins button (red arrow).
-![Step 24](./images/image24.png)
+9.	The “non-perfect” protein families can also be examined, both selecting the **Non perfect Families** button, or filtering by the **Number of Proteins per Family**. 
+![Figure 21](./images/Picture21.png "Figure 21")
 
-3. This will open a new tab that shows the list of proteins.
-![Step 25](./images/image25.png)
+10. The number of **Genomes per Family** can also be examined. 
+![Figure 22](./images/Picture22.png "Figure 22")
 
-4. All the proteins in the list can be selected by clicking the box in the column head to the left of Genome Name (red arrow).  This will select all the proteins in the table.
-![Step 26](./images/image26.png)
+## Protein Family Sorter – Heatmap
 
-5. Once any, or all features are selected, the vertical green bar will show all the tools or processes that can be used on these proteins.  These include download the group, creating a feature group, creating a genome group, getting the protein or nucleotide FASTA sequences, creating a multiple sequence alignment, finding other identifiers that map to the proteins in that selection, see if any of them are in a pathway, or group them all together.
+1.	The presence and/or absence of protein families can also be seen in a heatmap view. To see the heatmap, click on the Heatmap icon above the filter. This will reload the page to show the heatmap. 
+![Figure 23](./images/Picture23.png "Figure 23")
 
-    ![Step 27](./images/image27.png)
+2.	A filter is directly above the heatmap.  
+![Figure 24](./images/Picture24.png "Figure 24")
 
-## XI. Protein Family Sorter – Heatmap – Downloading information by Selection
-1. The names of genes and genomes, locus tags, functional description and other information can be downloaded directly from the heatmap.  To select a group of proteins from the heatmap directly, use the mouse to draw an icon over the proteins of interest.  As you mouse over a region, you will see a yellow box begin to form.
-![Step 28](./images/image28.png)
+3.	A text box filter will highlight columns that have protein families that have text that matches the text entered into the box.  This is indicated by a blue box above the column. 
+![Figure 25](./images/Picture25.png "Figure 25")
 
-2. This will open a pop-up box that allows users to download the heatmap data, download the proteins, show the protein, or add the proteins to a group in the workspace.  To see the proteins in the column, click on the Show Proteins button (red arrow).
-![Step 29](./images/image24.png)
+4.	Expanding the slider at the top of the heatmap view will allow researchers to expand the view enough to see the protein family name.  Note that the text in the name that matches the filter criterion will be highlighted blue.  In addition, a blue line remains directly above the column. 
+![Figure 26](./images/Picture26.png "Figure 26")
 
-3. This will open a new tab that shows the list of proteins.
-![Step 30](./images/image25.png)
+5.	Researchers can flip the axis of the heatmap view if desired. 
+![Figure 27](./images/Picture27.png "Figure 27")
 
-4. All the proteins in the list can be selected by clicking the box in the column head to the left of Genome Name (red arrow).  This will select all the proteins in the table.
-![Step 31](./images/image26.png)
+6.	The protein families can also be clustered.  This will rearrange the order of both the genomes and the protein families, depending on the clustering algorithm selected. 
+![Figure 28](./images/Picture28.png "Figure 28")
 
-5. Once any, or all features are selected, the vertical green bar will show all the tools or processes that can be used on these proteins.  These include download the group, creating a feature group, creating a genome group, getting the protein or nucleotide FASTA sequences, creating a multiple sequence alignment, finding other identifiers that map to the proteins in that selection, see if any of them are in a pathway, or group them all together.
+7.	Clicking on **Advanced** will show the different clustering options. 
+![Figure 29](./images/Picture29.png "Figure 29")
 
-    ![Step 32](./images/image27.png)
+8.	BV-BRC allows researcher to cluster by either **Protein Families**, **Genomes**, or **Both**.  The default is set to Both. 
+![Figure 30](./images/Picture30.png "Figure 30")
 
+9.	To see the **Clustering algorithm** choices, click on the down arrow that follows **Pearson correlation**, which is the default setting.  
+![Figure 31](./images/Picture31.png "Figure 31")
+
+10.	Four types of clustering are available.  To see the options, click on the down arrow underneath **Clustering type** that follows **Pairwise average-linkage**, which is the default setting. 
+![Figure 32](./images/Picture32.png "Figure 32")
+
+11.	 Choosing different clustering options will change the heatmap. 
+![Figure 33](./images/Picture33.png "Figure 33")
+
+12. The protein family sorter allows users to see the protein families in the order that they appear in any given genome. This process is called anchoring a genome. To re-order the protein families, click on the **Anchor** icon. This will open a pop-up window where you can select a genome.  If you click on the down arrow that follows the words, **Select a genome**. 
+![Figure 34](./images/Picture34.png "Figure 34")
+
+13. This will open a drop-down box of all the genomes available in the group.  The heatmap will rearrange in the order of the selected genome, starting with the first gene annotate in that genome to the last.  Researchers will be able to see regions of the reference genome that are absent in some of the comparison genomes. 
+![Figure 35](./images/Picture35.png "Figure 35")
+
+14.	Mousing over individual cells in a column will open a pop-up window that shows the genome, the protein family name and ID, and the number of genes that the genome has in that family. 
+![Figure 36](./images/Picture36.png "Figure 36")
+
+15. Areas within the heatmap can be examined.  To so this, use the mouse to draw a box over the area of interest in a heatmap, which is indicated by the blue box in the figure below.  This will open a pop-up window that show the number of genomes in the selection, the number of families within it, and the number of genes/proteins (called **Members**) within the selection. 
+![Figure 37](./images/Picture37.png "Figure 37")
+
+16. Clicking on Show Proteins will open a new tab showing the Features (aka genes/proteins) that were part of that selection. 
+![Figure 38](./images/Picture38.png "Figure 38")
 
 ## References
-1. Davis, J.J., et al., PATtyFams: Protein Families for the Microbial Genomes in the PATRIC Database. Front Microbiol, 2016. 7: p. 118.
-2. Meyer, F., R. Overbeek, and A. Rodriguez, FIGfams: yet another set of protein families. Nucleic acids research, 2009. 37(20): p. 6643-6654.
+
+1.	Davis, J.J., et al., PATtyFams: Protein families for the microbial genomes in the PATRIC database. 2016. 7: p. 118.
+2.	Meyer, F., R. Overbeek, and A. Rodriguez, FIGfams: yet another set of protein families. Nucleic acids research, 2009. 37(20): p. 6643-6654.

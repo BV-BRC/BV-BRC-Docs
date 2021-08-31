@@ -6,7 +6,7 @@ The Subsystems Tab provides access to a graphical display (pie chart) of subsyst
 ### See also
   * [Subsystems](../organisms_taxon/subsystems.html)
 
-## Accessing Subsystems on the PATRIC Website
+## Accessing Subsystems
 The Subsystems Overview can be accessed by
 
 * **Clicking the Subsystems Tab in a Taxon View:** Displays an overview pie chart of the subsystems that comprise the taxon, with additional options to view subsystems or genes in a tabular view, as shown below.
@@ -44,7 +44,7 @@ Within this table you may do the following:
 
 ### Filter Tool
 
-As with all tables in PATRIC, the Filters tool is available to narrow the display of the items in the table, show below:
+As with all tables, the Filters tool is available to narrow the display of the items in the table, show below:
   
 ![Subsystems Filter Panel](../images/subsystems_filter_panel.png)
 
@@ -83,8 +83,8 @@ Each cell is colored according to how many genes are annotated to perform the sp
 * Each individual column or row within the Heatmap may be clicked and dragged to any specified position.
 * The following options may be accessed from a pop-up widow by clicking on any individual colored cell, any EC label, or any Genome label within the Heatmap. The same information can be collected for a whole region of interest within the Heatmap by clicking and dragging to select a group of cells.
    * Download Heatmap Data: Shows the count of representative features from each genome assigned to each EC Number in either a text or excel file. Note: Clicking this button from an EC label will produce a file with the count for each genome assigned to that EC number, while clicking on this button from a Genome label will produce a file with the count for that particular genome in every EC number associated for this selected pathway.
-   * Download Proteins: Downloads the set of PATRIC features associated with the chosen proteins. Download available as csv, txt, or Excel file.
-   * Show Proteins: Open a feature list table in PATRIC containing the features associated with the chosen proteins. This view contains the same information as any feature list in PATRIC: Genome Name, Genome ID, RefSeq Locus Tab, Gene Symbol, protein family information, Product, length, start/stop, etc. This view also allows access to sequences, enables building of multiple sequence alignments, map IDs, etc.
+   * Download Proteins: Downloads the set of features associated with the chosen proteins. Download available as csv, txt, or Excel file.
+   * Show Proteins: Open a feature list table containing the features associated with the chosen proteins. This view contains the same information as any feature list: Genome Name, Genome ID, RefSeq Locus Tab, Gene Symbol, protein family information, Product, length, start/stop, etc. This view also allows access to sequences, enables building of multiple sequence alignments, map IDs, etc.
    * Add Proteins to Group: button will save selected items to new, or existing, groups within the Workspace.
    * Cancel: Closes the pop-up window.
 

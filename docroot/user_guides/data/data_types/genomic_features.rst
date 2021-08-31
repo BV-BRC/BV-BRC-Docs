@@ -1,14 +1,12 @@
 Genomic Features
 ================
 
-Genomic Features are defined segments of a genome. Most often features will code for proteins or RNAs, however some correspond to pseudogenes or repeat regions. We currently support over 40 `Genomic Feature Types <https://docs.patricbrc.org/user_guides/organisms_taxon/genome_annotations.html>`_.
-
-Learn how to find and use PATRIC Feature Tables in our `Feature Tab User Guide <http://docs.patricbrc.org/user_guides/organisms_taxon/features.html>`_.
+Genomic Features are defined segments of a genome. Most often features will code for proteins or RNAs, however some correspond to pseudogenes or repeat regions. We currently support over 40 `genomic feature types <https://docs.alpha.bv-brc.org/user_guides/organisms_taxon/genome_annotations.html>`_.
 
 
 Genome Annotation
 -----------------
-Genome annotation refers to the systematic analysis of a genome to identify all protein and RNA coding genes and characterize their functions. PATRIC supports genome annotations from multiple sources, including:
+Genome annotation refers to the systematic analysis of a genome to identify all protein and RNA coding genes and characterize their functions. BV-BRC supports genome annotations from multiple sources, including:
 
 - Original annotations from GenBank / RefSeq
 - Consistent annotations across all bacterial genomes using RAST anotation pipeline
@@ -59,7 +57,7 @@ Data Processing and Clean up
 Relevant Services and Tools
 ---------------------------
 
-- `BLAST <https://patricbrc.org/app/BLAST>`_
-- `Protein Family Sorter <https://patricbrc.org/app/ProteinFamily>`_
-- `Proteome Comparison <https://patricbrc.org/app/SeqComparison>`_
+- `BLAST <https://alpha.bv-brc.org/app/BLAST>`_
+- `Protein Family Sorter <https://alpha.bv-brc.org/app/ProteinFamily>`_
+- `Proteome Comparison <https://alpha.bv-brc.org/app/SeqComparison>`_
 

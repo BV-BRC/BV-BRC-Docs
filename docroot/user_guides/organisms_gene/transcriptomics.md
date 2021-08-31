@@ -1,18 +1,18 @@
 # Transcriptomics Tab, Gene-Level
 
 ## Overview
-The Transcriptomics Tab in the Feature View provides expression data for the selected gene from all of the transcriptomics datasets in PATRIC in which the gene appears, including levels of expression based on Log ratio or Z score and the strains, gene modification, or experimental conditions. 
+The Transcriptomics Tab in the Feature View provides expression data for the selected gene from all of the transcriptomics datasets in which the gene appears, including levels of expression based on Log ratio or Z score and the strains, gene modification, or experimental conditions. 
 
 ### See also
-  * [Examining Transcriptomics Data Tutorial](https://docs.patricbrc.org//tutorial/examining_transcriptomics_data/examining_transcriptomics_data.html)
+  * [xamining Transcriptomics Data Tutorial
   * [Transcriptomics Gene List](../organisms_taxon/transcriptomics_gene_list.html)
   * [Transcriptomics Gene List Heatmap](../organisms_taxon/transcriptomics_gene_heatmap.html)
   * [Correlated Genes](../organisms_gene/correlated_genes.html)
   * [Expression Data Import Service](../services/expression_data_import_service.html)
 
-Most of the PATRIC transcriptomics data have been curated from published gene expression datasets related to bacterial pathogens in [NCBI's GEO database](http://www.ncbi.nlm.nih.gov/geo/). Some additional data sets have been incorporated from the NIAID-funded [Systems Biology](https://patricbrc.org/webpage/website/data_collections/niaid_systems_biology.html) and [Functional Genomics](https://patricbrc.org/webpage/website/data_collections/niaid_functional_genomics.html) Centers and other sources.
+Most of the transcriptomics data have been curated from published gene expression datasets related to bacterial pathogens in [NCBI's GEO database](http://www.ncbi.nlm.nih.gov/geo/). Some additional data sets have been incorporated from the NIAID-funded Systems Biology and Functional Genomics Centers and other sources.
 
-## Accessing the Gene-Level Transcriptomics Data on the  PATRIC Website
+## Accessing the Gene-Level Transcriptomics Data
 Clicking the Transcriptomics Tab in the Feature View displays a histogram of the expression levels of the gene by log ratio or Z score based on all the available data. A pie chart showing the strains, gene modification, or experimental conditions is also presented.
 
 ![Gene-Level Transcriptomics Charts](../images/transcriptomics_tab_gene_chart.png)
@@ -36,7 +36,7 @@ In the pie chart on the right of the page, the view can be switched between Stra
 
 ![Gene-Level Transcriptomics Table](../images/transcriptomics_gene_table.png)
 
-Within the Table view (displayed by clicking the Table sub-menu option) the expression values of the gene across all experiments/conditions in PATRIC are listed. The same download and filtering functionality are available as is for the Chart view. The columns in the table include the following: 
+Within the Table view (displayed by clicking the Table sub-menu option) the expression values of the gene across all experiments/conditions are listed. The same download and filtering functionality are available as is for the Chart view. The columns in the table include the following: 
 
 * **Title:** The title of the transcriptomics experiment
 * **PubMed:** The PubMed ID of the experiment

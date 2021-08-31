@@ -1,13 +1,13 @@
 # Protein Families Tab
 
 ## Overview
-The Protein Families Tab provides access to the Protein Family Sorter, which enables examination of the distribution of PATRIC protein families across sets of genomes. Filters for present, absent, or mixed can be used to refine the selection and an interactive heatmap provides a visual overview of the distribution.
+The Protein Families Tab provides access to the Protein Family Sorter, which enables examination of the distribution of computed protein families across sets of genomes. Filters for present, absent, or mixed can be used to refine the selection and an interactive heatmap provides a visual overview of the distribution.
 
 ### See also
-  * [Comparing Protein Families Across Genomes Tutorial](https://docs.patricbrc.org//tutorial/protein_family_sorter/protein_family_sorter.html)
+  * Comparing Protein Families Across Genomes Tutorial
   * [Protein Family Sorter Service](../services/protein_family_service.html)
 
-## Accessing the Protein Family Sorter on the PATRIC Website
+## Accessing the Protein Family Sorter
 The Protein Family Sorter can be accessed by either of the following:
 
 * **Clicking the Protein Families Tab in a Taxon View:** Displays a list of all of the protein families that have any proteins assigned to them from the genomes in that taxon level.
@@ -23,7 +23,7 @@ The Filter Tool on the left side (also used for the Protein Family Sorter, descr
 
 **Protein Family Types**
 
-There are 3 types of protein families computed in PATRIC:
+There are 3 types of protein families computed in BV-BRC:
 
 * **Genus-specific families(PLfams):** The genus-specific protein families are computed using only proteins within a genus and more stringent criteria (MCL inflation = 3.0). This provides higher sequence similarity and better specificity while performing within-genus/species or close strain comparisons.
 * **Cross-genus families(PGfams):**  The cross-genera protein families are computed by clustering representative proteins from the genus-specific families with slightly relaxed criteria (MCL inflation = 1.1). This allows cross-genera or distant homologs to cluster together, which is necessary to support cross-genera comparative analysis across all microbial genomes.
@@ -111,9 +111,9 @@ In addition to the display options described above, each individual column or ro
 The following options may be accessed from a pop-up widow by clicking on any individual colored cell, any Protein Family label, or any Genome label within the Heatmap. The same information can be collected for a whole region of interest within the Heatmap by clicking and dragging to select a group of cells.
 
 * **Download Heatmap Data:** Shows the count of proteins from each Genome assigned to each Protein Family in either a text or excel file. Note: Clicking this button from a Protein Family label will produce a file with the count for each genome assigned to that Protein Family, while clicking on this button from a Genome label will produce a file with the count for that particular genome in every Protein Family.
-* **Download Proteins:** Downloads the set of PATRIC features associated with the chosen proteins.  Download available as csv, txt, or Excel file.
-* **Show Proteins:** Open a feature list table in PATRIC containing the features associated with the chosen proteins. This view contains the same information as any feature list in PATRIC: Genome Name, Genome ID, RefSeq Locus Tab, Gene Symbol, protein family information, Product, length, start/stop, etc. This view also allows access to sequences, enables building of multiple sequence alignments, map IDs, etc.
+* **Download Proteins:** Downloads the set of features associated with the chosen proteins.  Download available as csv, txt, or Excel file.
+* **Show Proteins:** Open a feature list table containing the features associated with the chosen proteins. This view contains the same information as any feature list: Genome Name, Genome ID, RefSeq Locus Tab, Gene Symbol, protein family information, Product, length, start/stop, etc. This view also allows access to sequences, enables building of multiple sequence alignments, map IDs, etc.
 * **Add Proteins to Group:** button will save selected items to new, or existing, groups within the Workspace. 
 * **Cancel:** Closes the pop-up window.
 
-The [Comparing Protein Families Across Genomes Tutorial](https://docs.patricbrc.org//tutorial/protein_family_sorter/protein_family_sorter.html) provides additional information and guidance in using the Protein Family Sorter.
+The Comparing Protein Families Across Genomes Tutorial provides additional information and guidance in using the Protein Family Sorter.

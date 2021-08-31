@@ -1,7 +1,7 @@
-# PATRIC Private Workspace
+# Private Workspace
 
 ## Overview
-The PATRIC Workspace provides a private area in the website for uploading data, running analysis services on the data, storing the analysis results, and managing groups of data created within the PATRIC website.
+The private Workspace provides a private area in the website for uploading data, running analysis services on the data, storing the analysis results, and managing groups of data created within the website.
 
 ### See also:
   * [Groups](../workspaces/groups.html)
@@ -9,8 +9,8 @@ The PATRIC Workspace provides a private area in the website for uploading data, 
   * [Registration](../registration.html)
   * [Services and Tools](../services_tab.html)
 
-## Accessing the Private Workspace on the PATRIC Website
-Registration is required to use the PATRIC private Workspace. The registration link is at the top right corner of the PATRIC website. If you have already registered, clicking the Login button beside the registration link will display the Login page. 
+## Accessing the Workspace
+Registration is required to use the Workspace. The registration link is at the top right corner of the website. If you have already registered, clicking the Login button beside the registration link will display the Login page. 
 
 ![Register and Login Buttons](../images/register_login_buttons.png)
 
@@ -33,7 +33,7 @@ Generally, within the Workspace, you can Upload files, Add Folders, and Show Hid
 See [Data Upload](../workspaces/data_upload.html) for details.
 
 ### Add Folder
-Initially, the home Workspace is pre-populated with several folders that correspond to common PATRIC data types and are the default locations for data of those type, listed below. Additional custom folders can be created using the Add Folder button at the top right of the workspace table.
+Initially, the home Workspace is pre-populated with several folders that correspond to common data types and are the default locations for data of those type, listed below. Additional custom folders can be created using the Add Folder button at the top right of the workspace table.
 
 * Experiment Groups
 * Experiments
@@ -41,7 +41,7 @@ Initially, the home Workspace is pre-populated with several folders that corresp
 * Genome Groups
 
 ### Show Hidden
-When running jobs in PATRIC, some ancillary files are stored in hidden folders to simplify the display. In most cases, access to these files is not needed. However, in some cases, such as annotating contig files from an assembly job, access to the hidden contig files is needed. The Show Hidden button at the top left of the Workspace table will show the hidden files. Clicking the button again (now labeled "Hide Hidden") will hide the files again.
+When running analysis service jobs (e.g., Genome Annotation), some ancillary files are stored in hidden folders to simplify the display. In most cases, access to these files is not needed. However, in some cases, such as annotating contig files from an assembly job, access to the hidden contig files is needed. The Show Hidden button at the top left of the Workspace table will show the hidden files. Clicking the button again (now labeled "Hide Hidden") will hide the files again.
 
 ### Action buttons
 
@@ -64,7 +64,7 @@ After selecting one or more of files or folders in the Workspace, a set of optio
 ## Creating and Sharing Workspaces
 
 ### Create New Workspace
-Registered PATRIC users can create new workspaces and share them with other registered users, if desired. Upon logging in, the default workspace shown is "home." Clicking "Parent folder" at the top of the table in the home directory will display the root directory, which corresponds to the user name. 
+Registered users can create new workspaces and share them with other registered users, if desired. Upon logging in, the default workspace shown is "home." Clicking "Parent folder" at the top of the table in the home directory will display the root directory, which corresponds to the user name. 
 
 ![Parent Folder](../images/parent_folder.png)
 

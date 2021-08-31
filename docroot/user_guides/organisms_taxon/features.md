@@ -8,12 +8,12 @@ The Features Tab provides a table of all the annotated genomic features (gene, C
   * [Genome Page Overview](../organisms_genome/overview.html)
   * [Multiple Sequence Alignment Viewer](../other/msa_viewer.html)
 
-## Accessing the Features Table on the PATRIC Website
+## Accessing the Features Table
 Clicking the Features Tab in a Taxon View displays the Features Table (shown below), listing all the annotated genomic features corresponding to the set of genomes in the selected taxon level.
 
 ![Features Table](../images/features_tab.png)
 
-The genomic features include those called by the PATRIC [(RASTtk)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4322359/) annotation service as well as the original annotations (typically from RefSeq), if availalble. 
+The genomic features include those called by the BV-BRC annotation service as well as the original annotations (typically from RefSeq), if availalble. 
 
 ### Features Table Tools
 Within this table you may do the following:
@@ -24,7 +24,7 @@ Within this table you may do the following:
 
 ### Filter Tool
 
-As with all tables in PATRIC, the Filters tool is available to narrow the display of the items in the table, show below:
+As with all tables, the Filters tool is available to narrow the display of the items in the table, show below:
   
 ![Features Filter Panel](../images/features_filter_panel.png)
 
@@ -43,8 +43,8 @@ After selecting one or more of the features by clicking the checkbox beside the 
 * **Genomes:** Loads the Genomes Table, listing the genomes that correspond to the selected features. *Available only if multiple features are selected.*
 * **FASTA:** Provides the FASTA DNA or protein sequence for the selected feature(s).
 * **ID Map:** Provides the option to map the selected feature(s) to multiple other idenfiers, such as RefSeq and UniProt.
-* **MSA:** Launches the PATRIC Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
-* **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in PATRIC in which the selected features are found.
+* **MSA:** Launches the Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
+* **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in which the selected features are found.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
 More details are available in the [Action Buttons](../action_buttons.html) user guide.

@@ -16,6 +16,7 @@ Genomics
    comprehensive_genome_analysis/comprehensive_genome_analysis.md
    similar_genome_finder/similar_genome_finder.md
    variation_analysis/variation_analysis.md
+   phylogenetic_tree/phylogenetic_tree.md
 
 Metagenomics
 ------------

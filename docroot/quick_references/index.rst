@@ -1,7 +1,7 @@
-User Guides
-============
+Quick References
+================
 
-The BV-BRC website resource provides an entry point to integrated data and tools for viral and bacterial infectious disease research. The website is organized by data types and analysis tools. These **User Guides** serve as a reference for each of the components of the website, including information on what the component is, what it does, where it is located, and an overview of its features. 
+The BV-BRC website resource provides an entry point to integrated data and tools for viral and bacterial infectious disease research. The website is organized by data types and analysis tools. These **Quick References** provide summary information for each of the components of the website, including information on what the component is, what it does, where it is located, and an overview of its features. 
 
 .. toctree::
    :maxdepth: 1
@@ -45,7 +45,7 @@ Primary access to these components is provided through the BV-BRC main menu whic
   A "BV-BRC Quickstart" video tutorial providing an overview of the BV-BRC website is also available from the Help Menu.
 
 ..
-  Help - links to documentaion pages containing a BV-BRC Quickstart video, User Guides, Tutorials, Webinars, and information to Provide Feedback.
+  Help - links to documentaion pages containing a BV-BRC Quickstart video, Quick References, Tutorials, Webinars, and information to Provide Feedback.
 
 ..
   `Global Search <global_search.html>`_ - searches BV-BRC databases to quickly locate genomes, genes, and other information via keywords.

@@ -7,9 +7,12 @@ The BV-BRC website resource provides an entry point to integrated data and tools
    :maxdepth: 1
    :caption: Contents:
 
-   organisms_tab
+   organisms_menu
+   searches_menu
+   services_menu
    workspace_groups_upload
-   services_tab
+   help_menu
+   about_menu
    registration
    views_tables_action-bar
    system_requirements

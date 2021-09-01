@@ -34,6 +34,7 @@ Protein Tools
    :maxdepth: 1
 
    protein_family_sorter/protein_family_sorter.md
+   proteome_comparison/proteome_comparison.md
 
 Viral Services
 --------------

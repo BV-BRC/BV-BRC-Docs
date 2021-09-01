@@ -7,7 +7,7 @@ BV-BRC Documentation
    :maxdepth: 2
    :caption: Help Resources:
 
-   user_guides/index
+   quick_references/index
    tutorial/index
 
 ..

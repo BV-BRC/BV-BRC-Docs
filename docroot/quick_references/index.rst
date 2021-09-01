@@ -8,7 +8,6 @@ The BV-BRC website resource provides an entry point to integrated data and tools
    :caption: Contents:
 
    organisms_tab
-   data/index
    workspace_groups_upload
    services_tab
    registration

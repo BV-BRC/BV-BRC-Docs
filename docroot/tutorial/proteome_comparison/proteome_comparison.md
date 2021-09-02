@@ -1,150 +1,176 @@
-# Proteome Comparison: Comparing Annotated Proteins Across Genomes.
-PATRIC’s Proteome Comparison tool can be used to readily identify insertions and deletions in up to nine target genomes that are compared with one reference, which can be a researcher’s private genome in PATRIC, a genome that has been annotated outside PATRIC, any of the publicly available genomes in PATRIC, or a set of proteins that you have saved in PATRIC as a feature group.
+# Proteome Comparison Service
 
-The Proteome Comparison tool is based on the original Sequence-based Comparison tool that was part of RAST[1].  This tool colors each gene based on protein similarity using BLASTP and marks each gene as either unique, a unidirectional best hit or a bidirectional best hit when compared to the reference genome. The output includes a whole-genome schematic that is colored based on BLAST. A table that details all the results can be downloaded for further analysis, as can a scalable vector graphic (svg) diagram of the results that is publication quality.
+The BV-BRC’s Proteome Comparison service can be used to readily identify insertions and deletions in up to nine target genomes that are compared with one reference, which can be a researcher’s private genome in BV-BRC, a genome that has been annotated outside, any of the publicly available genomes in BV-BRC, or a set of proteins that have been saved as a Feature Group in BV-BRC.
 
-An example from a comparison of two genomes can be found [here](https://patricbrc.org/workspace/PATRIC@patricbrc.org/PATRIC%20Workshop/Proteome%20comparison).
-The input set is the genome group **MRSA_MSSA** (red arrow).  Immediately below it is
-the output folder (blue arrow).  The file **circos.svg** inside the output folder contains the graphical
-display.  Clicking on this file will display the diagram.
+The Proteome Comparison service is based on the original Sequence-based Comparison tool that was part of RAST[1]. This tool colors each gene based on protein similarity using BLASTP[2] and marks each gene as either unique, a unidirectional best hit or a bidirectional best hit when compared to the reference genome. The output includes a whole-genome schematic that is colored based on BLAST. A table that details all the results can be downloaded for further analysis, as can a scalable vector graphic (svg) diagram of the results that is publication quality.
 
-![Proteome Example](./images/example.png)
+## Creating a folder to hold the Proteome Comparison job and related data
 
-## I. Finding the tool.
-1. At the top of any PATRIC page, find the Services tab and click on it.  Click on Proteome Comparison.
-![Step 1](./images/image1.png)
+Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on creating a folder in the workspace.
 
-2. This will open up the landing page for where you can submit a Proteome Comparison job.  This tool is a best bidirectional BLAST comparison of the annotated proteins from up to nine different genomes.
-![Step 2](./images/image2.png)
+## Locating the Proteome Comparison App
 
-## II. Setting parameters and selecting an output folder
-1. To see what the advanced parameters are in the proteome comparison, click on the information icon (Blue I as indicated by the Red Arrow).  This opens a pop-up window that describes what can be adjusted.
-![Step 3](./images/image3.png)
+1.	At the top of any BV-BRC page, find the Services tab and click on Proteome Comparison. 
+![Figure 1](./images/Picture1.png "Figure 1")
 
-2. The box to adjust the advanced parameters can be opened by clicking on the down arrow that follows Advanced Parameters (optional) as indicated by the Red Arrow.  Researchers can adjust the minimum percent coverage, the minimum percent identity and the BLAST E-value.
+2.	This will open up the Proteome Comparison landing page. 
+![Figure 2](./images/Picture2.png "Figure 2")
 
-    ![Step 4](./images/image4.png)
+## Setting Parameters
 
-3. Next the researcher must select an output folder where the proteome comparison job will be placed.  To do this, click on the folder icon that follows the text box under the words Output Folder (Red Arrow) and click on preferred folder.
-![Step 5](./images/image5.png)
+1.	The default parameters for BLASTP in the Proteome Comparison tool are a minimum coverage of 30%, a minimum identity of 10% and a BLAST E-value of 1e-5.  To see the parameters that can be adjusted, click on the down arrow that follows **Advanced Parameters (Optional)**.  This will open a pop-up window where the coverage, identity and E-value can be adjusted. 
+![Figure 3](./images/Picture3.png "Figure 3")
 
-4. Provide a distinctive name for the proteome comparison in the text box underneath the words Output Name.
-![Step 6](./images/image6.png)
+2.	A folder must be selected for the job. To see recently created folders, click on the arrow at the end of the text box underneath **Output Folder**. This will open a drop-down box that shows the folders that you have created, starting with the most recent and continuing in that order. 
+![Figure 4](./images/Picture4.png "Figure 4")
 
+3.	Links to instructions on creating a new folder are available at the top of this tutorial, but if a folder has already been created, entering the name in the text box will filter the drop-down box to show the possible folders that match that input. 
+![Figure 5](./images/Picture5.png "Figure 5")
 
-## III. Selecting the Reference Genome.
-1. The proteome comparison tools allows researchers to select genomes or a specific feature group that contains a set of proteins to serve as a reference that other genomes will be BLASTed against.  To see and understand the available options, click on information icon (Blue I as indicated by the Red Arrow).  This opens a pop-up window that describes the types of selections that can be made.
-![Step 7](./images/image7.png)
+4.	Clicking on the **Folder** icon at the end of the text box will open a pop-up window that shows all the files in the workspace, which can be selected. 
+![Figure 6](./images/Picture6.png "Figure 6")
 
-2.  Clicking on the filter in the text box directly below Select A Genome will open a box where the categories of genomes are available, allowing researchers to filter on reference, representative, public or private genomes. All categories are selected, and to de-select a category, click on the check box.
-![Step 8](./images/image8.png)
+5.	Provide a distinctive name for the proteome comparison in the text box underneath the words **Output Name**. 
+![Figure 7](./images/Picture7.png "Figure 7")
 
-3. In the text box below Reference Genome, start typing some words that will identify the reference. A list will appear below the box, showing the possible choices that match the text.  Clicking on a name will auto-fill the name in the text box under Reference Genome.
-![Step 9](./images/image9.png)
+## Selecting a Reference
 
-## IV. Selecting the Comparison Genomes.
-1. Locate the panel for selecting a comparison genomes, or a set of proteins, that will be BLASTed against the selected reference.
-![Step 10](./images/image10.png)
+1.	The Proteome Comparison tools allows researchers to select genomes or a specific feature group that contains a set of proteins to serve as a reference that other genomes will be BLASTed against.  The search can be narrowed by clicking on the filter icon at the beginning of the text box.  This will show checkboxes that can narrow the search to reference, representative, all public, or private genomes (My Genomes). 
+![Figure 8](./images/Picture8.png "Figure 8")
 
-2. Comparison genomes can be public or private.  To select genomes that are publicly available, deselect the check box in front of Private Genomes.
-![Step 11](./images/image11.png)
+2.	If the name or genome ID is known, typing that in the text box will filter results in the drop-down box to show the possible genomes that match the input. Clicking on the row that contains the correct genome will fill the box underneath **Select A Genome**. 
+![Figure 9](./images/Picture9.png "Figure 9")
 
-3. Start typing a name into the text box.  A list will appear below the box, showing the possible choices that match the text.  Clicking on a name will auto-fill the name in the text box under Comparison Genome.
-![Step 12](./images/image12.png)
+3.	The reference data can be a fasta file with protein sequences.  If that file has not been uploaded into the BV-BRC workspace, they will need to be uploaded.  Click on the folder icon that follows the text box underneath **Or A FASTA File** will open a pop-up window that shows the workspace.  Navigate to the destination folder for the file, and when located, click on the row that contains it. 
+![Figure 10](./images/Picture10.png "Figure 10")
 
-4. To finally selecting the genome, click on the + icon at the end of the text box that has the name of the selected genome.  Clicking on the icon will move the genome to the Selected Genome table.
-![Step 13](./images/image13.png)
+4.	This will show the contents of the selected folder.  To upload a fasta file to this location, click on the upload icon in the upper right corner.  This will open yet another pop-up window that handles the upload of files.  Note that the type of file is **Feature Protein FASTA**. Click on the blue **Select File** bar in the middle of the page.  This will open a dialog box with your computer.  Fasta documents will be in bold text and available for upload. 
+![Figure 11](./images/Picture11.png "Figure 11")
 
-5.  Repeat step 3 to add as many genomes (up to 9) to compare to the reference genome.
-![Step 14](./images/image14.png)
+5.	Click on the row with the desired file and then click on the **Open** button at the lower right. This will initiate the upload process into the workspace location, and the dialog box with your computer will close.  The name of the desired file will appear in the pop-up window. Click on the **Start Upload** button in the lower right.  When the upload has completed, the name of the file will appear in the text box below **Or A FASTA File**. 
+![Figure 12](./images/Picture12.png "Figure 12")
 
-6. Genomes that have been annotated by a different service, or a specific group of proteins, can also be used in the comparison.  Those can be included as indicated by the red arrows as seen below.
-![Step 15](./images/image15.png)
+6.	Feature groups can also be used as reference data.  To see recently created groups, click on the down arrow at the end of the text box underneath **Or A Feature Group**. This will open a drop-down box that shows the most recently created groups.  Clicking on that group will autofill the text box with the name of the group.  
+![Figure 13](./images/Picture13.png "Figure 13")
 
-7.  Once the genomes (or feature groups) are included, the Comparison Genome box will show all the members that have been selected.
-![Step 16](./images/image16.png)
+## Selecting Comparison Data
 
+1.	Up to nine files can be compared to a reference genome in the bidirectional BLAST analysis.  Genomes can be added individually.  Finding a genome of interest is the same as discussed earlier for reference genomes (enter name or genome ID, use drop-down, go to workspace).  Entering the name of a particular genome in the text box underneath **Select Genome** will open the drop-down box below where the name can be clicked.  This will fill the text box with the name of the selected genome.  Click on the + icon at the end of the text box. This will move the genome into the **Selected Genome Table**. 
+![Figure 14](./images/Picture14.png "Figure 14")
 
-## V. Submitting the proteome comparison job.
-1. Click the Submit button at the bottom of the page (Red Arrow)
-![Step 17](./images/image17.png)
+2.	The comparison data can be a fasta file with protein sequences.  If the file is in the BV-BRC workspace, click on the folder icon at the end of the text box underneath **And/Or Select Protein FASTA File**.  This will open a dialog box where the file can be uploaded or located in the workspace. Once selected, the name will appear in the text box. Click on the + icon at the end of the text box. This will move the genome into the **Selected Genome Table**. 
+![Figure 15](./images/Picture15.png "Figure 15")
 
-2. A message will appear that confirms that the job has been submitted.  This message is temporal and will disappear after several seconds.
-![Step 18](./images/image18.png)
+3.	Feature groups can also be used as comparison data.  To see recently created groups, click on the down arrow at the end of the text box underneath **And/Or Select Feature Group**. This will open a drop-down box that shows the most recently created groups.  Clicking on that group will autofill the text box with the name of the group.  Click on the + icon at the end of the text box. This will move the genome into the **Selected Genome Table**. 
+![Figure 16](./images/Picture16.png "Figure 16")
 
-3. Check the status of the annotation job by clicking on the Jobs indicator at the bottom right of the PATRIC page.
-![Step 19](./images/image19.png)
+4.	Genome groups can also be used as comparison data.  To see recently created groups, click on the down arrow at the end of the text box underneath **And/Or Select Genome Group**. This will open a drop-down box that shows the most recently created groups.  Clicking on that group will autofill the text box with the name of the group.  Click on the + icon at the end of the text box. This will move the genome into the **Selected Genome Table**. 
+![Figure 17](./images/Picture17.png "Figure 17")
 
-4. Clicking on Jobs opens the Jobs Status page, which shows the status of the proteome comparison job.  The statuses of all the previous service jobs that have submitted to PATRIC are also available.
-![Step 20](./images/image20.png)
+## Submitting Proteome Comparison job
 
-5.  You will be able to see when your job is complete.
-![Step 21](./images/image21.png)
+1.	Once the parameters, the reference and comparison data have been selected, the **Submit** button at the bottom of the page will turn blue.  Clicking on it will submit the job. 
+![Figure 18](./images/Picture18.png "Figure 18")
 
+2.	A message will appear that confirms that the job has been submitted. 
+![Figure 19](./images/Picture19.png "Figure 19")
 
-## VI. Accessing the Proteome Comparison job.
-1. Click on the Jobs indicator at the bottom right of the PATRIC page.
-![Step 22](./images/image22.png)
+## Monitoring progress on the Jobs page
 
-2. This will open the Jobs status page.
-![Step 23](./images/image23.png)
+1.	Click on the Jobs box at the bottom right of any BV-BRC page. 
+![Figure 20](./images/Picture20.png "Figure 20")
 
-3. Select a job of interest, and then click on the view button in the vertical green bar.
-![Step 24](./images/image24.png)
+2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
+![Figure 21](./images/Picture21.png "Figure 21")
 
-4. This will open up the Jobs landing page.  The easiest way to see the direct results of the Proteome Comparison job is to click on the View icon in the upper right corner.
-![Step 25](./images/image25.png)
+## Viewing the Proteome Comparison job results
 
-5. This leads to a visualization of the results.  The entire image can be viewed by scrolling down, but to download either the image or the underlying data, click on the Download icon at the upper right.
-![Step 26](./images/image26.png)
+1.	To view a particular job, click on a row to select it. Once selected, the downstream processes available for the selection appear in the vertical green bar.  Clicking on the **View** icon will open the Proteome Comparison job summary.
+![Figure 22](./images/Picture22.png "Figure 22")
 
-6. An SVG image is available, as is a text file that shows the results of the BLAST comparison.
-![Step 27](./images/image27.png)
+2.	This will rewrite the page to show the information about the Proteome Comparison job, and all of the files that are produced when the pipeline runs.  
+![Figure 23](./images/Picture23.png "Figure 23")
 
-The text file can be opened with excel.  The document contains a lot of information that includes all the genes in the comparison genomes that have the best BLAST hits to the reference genome.  The first row will show the genome names in specific columns, and the column heading in the second row show the additional information.  Data begins with the genome that was used as a reference (Row 2, Columns A-J) and includes the following:
-* Column A - Accession number for the contig in the reference genome
-* Column B - The order number of this gene in the genome
-* Column C - Size in amino acids
-* Column D - PATRIC locus tag
-* Column E - RefSeq locus tag
-* Column F - Gene name
-* Column G - Functional annotation
-* Column H - Start location for the gene on the contig
-* Column I - End of the gene on the contig
-* Column J - Strand that the gene is located on
+3.	The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the **Parameters** row.  
+![Figure 24](./images/Picture24.png "Figure 24")
 
-This is followed by information on the comparison genomes.  This data in columns K-T for row 2 (for the first comparison genome) include:
-* Column K - Data on the type of BLAST hit (bi- or uni-directional, or missing)
-* Column L - Contig that the gene is located on
-* Column M - The order number of this gene in the genome
-* Column N - Size in amino acids
-* Column O - PATRIC locus tag
-* Column P - RefSeq locus tag
-* Column Q - Gene name
-* Column R - Functional description
-* Column S - Percent identity of the BLAST hit
-* Column T - Sequence coverage compared to the reference
-This pattern is repeated for all comparison genomes.
-![Step 28](./images/image28.png)
+4.	This will show the information on what was selected when the job was originally submitted. 
+![Figure 25](./images/Picture25.png "Figure 25")
 
-7. Other data is available from the Jobs landing page.
-![Step 29](./images/image29.png)
+5.	One of the best ways to view the Proteome Comparison job is to click on the **View** icon at the upper right of the job landing page. 
+![Figure 26](./images/Picture26.png "Figure 26")
 
-8.  Selecting the circus.svg and then clicking on the View icon will rewrite the page to show the scaled vector graph.
-![Step 30](./images/image30.png)
+6.	This will rewrite the page to show the plot of the bi-directional BLAST hits, the order of the data in the image, and a legend that shows the strength of the BLAST hits (blue is strongest, red is weakest). The entire image can be viewed by scrolling down.  The circular diagram is generated by Circos[3], 
+![Figure 27](./images/Picture27.png "Figure 27")
 
-9. Selecting the circus.final.html and then clicking on the View icon will rewrite the page to show the scaled vector graph, the percent similarity, and the list of the genomes included in the analysis.
-![Step 31](./images/image31.png)
+7.	To download either the image or the underlying data, click on the **Download** icon at the upper right. 
+![Figure 28](./images/Picture28.png "Figure 28")
 
-10. The Jobs landing page also has a number of text files, each of with can be selected by highlighting the row and then clicking on the View icon.  The data from the resulting page can be downloaded by clicking on the Download icon immediately above the table.
-![Step 32](./images/image32.png)
+8.	A Scalable Vector Graphics (**.svg**) file, an XML based two-dimensional graphic file format, is also produced by the Proteome Comparison pipeline. It is a publication quality image that can be downloaded by clicking on **SVG Image**. 
+![Figure 29](./images/Picture29.png "Figure 29")
 
-11. A JSON (JavaScript Object Notation) file is also provided.  This is a lightweight data-interchange format that is easy for humans to read and write. It is also easy for machines to parse and generate.
-![Step 33](./images/image33.png)
+9.	A text file that shows the results of the BLAST comparison is also available for download. To download the file, click on **Genome Comparison Table (txt)**. 
+![Figure 30](./images/Picture30.png "Figure 30")
 
-12. Selecting the legend.html and then clicking on the View icon will rewrite the page to show the percent similarity legend.
-![Step 34](./images/image34.png)
+10. The Excel version of the **Genome Comparison Table (xls)** is perhaps the best way to view this data, as it even matches the color showing the strength of the BLASTP hits. 
+![Figure 31](./images/Picture31.png "Figure 31")
 
+11.	The document contains information that includes all the genes in the reference data (genomes or fasta file) and the genes in the comparison data that have the best BLASTP hits to that reference. The first row will show the names of the data files in specific columns, and the column heading in the second row show the additional information. Data begins with the data that was used as a reference (Row 2, Columns A-J) and includes the following:
+    * Column A – Accession number for the contig in the reference genome 
+    * Column B – The order number of this gene in the genome
+    * Column C – Size in amino acids
+    * Column D – BV-BRC locus tag
+    * Column E – RefSeq locus tag (if available)
+    * Column F – Gene name
+    * Column G – Functional annotation
+    * Column H – Start location for the gene on the contig
+    * Column I – End of the gene on the contig
+    * Column J – Strand that the gene is located on
+
+12. This is followed by information on the comparison data (genomes or fasta file). This data in columns K-T for row 2 (for the first comparison genome) include:
+    * Column K – Data on the type of BLAST hit (bi- or uni-directional or missing).  Cells in this column will be colored to match the strength of the BLAST hit as seen in the circular diagram.
+    * Column L - Contig that contains the gene.
+    * Column M - The order number of this gene in the genome or data file.
+    * Column N - Size of the protein in amino acids
+    * Column O – BV-BRC locus tag
+    * Column P - RefSeq locus tag (if available)
+    * Column Q - Gene name
+    * Column R - Functional description
+    * Column S - Percent identity of the BLAST hit
+    * Column T - Sequence coverage compared to the reference This pattern is repeated for all comparison genomes. 
+
+13. Clicking on the **View** icon will reload the job landing page. 
+![Figure 32](./images/Picture32.png "Figure 32")
+
+14. The **SVG** image can be viewed or downloaded from the job landing page. 
+![Figure 33](./images/Picture33.png "Figure 33")
+
+15. An **html** version of the completed job is also available for view or download. 
+![Figure 34](./images/Picture34.png "Figure 34")
+
+16.	The **comp_genome.txt** files show the contig that the reference gene is on, the start and stop positions of that gene, the percent identity to the gene in the comparison genome, and the gene ID of that gene in the comparison genome. These files are available for view or download. 
+![Figure 35](./images/Picture35.png "Figure 35")
+
+17. A **JSON** file is a file that stores simple data structures and objects in JavaScript Object Notation (JSON) format, which is a standard data interchange format. It is primarily used for transmitting data between a web application and a server.  While it is not recommended for viewing (it is a computer-readable file), the file is both downloadable and viewable. 
+![Figure 36](./images/Picture36.png "Figure 36")
+
+18.	The **genome_comparison.txt** file is also available for download from the job landing page. 
+![Figure 37](./images/Picture37.png "Figure 37")
+
+19.	The Excel version of the **Genome Comparison Table (xls)** is also available from the job landing page. 
+![Figure 38](./images/Picture38.png "Figure 38")
+
+20.	The **karyotype.txt** file is an intermediate file used by the Circos drawing program. 
+![Figure 39](./images/Picture39.png "Figure 39")
+
+21.	The **legend.txt** file is an intermediate file used by the Circos drawing program. 
+![Figure 40](./images/Picture40.png "Figure 40")
+
+21.	The **ref_genome.txt** file shows the contig ID, start, stop, and gene ID for each of the genes/proteins in the reference data set.  
+![Figure 41](./images/Picture41.png "Figure 41")
 
 ## References
-1. Overbeek, R., et al., The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST). Nucleic acids research, 2014. 42(D1): p. D206-D214.
+
+1.	Overbeek, R., et al., The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST). 2013. 42(D1): p. D206-D214.
+2.	Boratyn, G.M., et al., BLAST: a more efficient report with usability improvements. Nucleic acids research, 2013. 41(W1): p. W29-W33.
+3.	Krzywinski, M., et al., Circos: an information aesthetic for comparative genomics. Genome research, 2009. 19(9): p. 1639-1645.

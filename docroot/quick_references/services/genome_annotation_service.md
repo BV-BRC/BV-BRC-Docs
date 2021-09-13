@@ -5,7 +5,7 @@ The Genome Annotation Service uses the RAST tool kit, [RASTtk](https://www.ncbi.
 
 ### See also
 * [Genome Annotation Service](https://alpha.bv-brc.org/app/Annotation)
-* [Genome Annotation Service Tutorial](.../tutorial/genome_annotation/genome_annotation.html)
+* [Genome Annotation Service Tutorial](../tutorial/genome_annotation/genome_annotation.html)
 
 ## Using the Genome Annotation Service
 The **Annotation** submenu option under the **Services** main menu (Genomics category) opens the Genome Annotation input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*

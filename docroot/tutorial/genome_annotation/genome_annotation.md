@@ -2,8 +2,6 @@
 
 Genome annotation is the process of identifying functional elements along the sequence of a genome.  The Genome Annotation Service in BV-BRC uses the RAST tool kit (RASTtk) [1] to provide annotation of genomic features in bacteria, and the Viral Genome ORF Reader (VIGOR4) to provide annotation for viruses. All genomes in the BV-BRC have been annotated with this service, and researchers can submit their own private genome to the annotation service, where it will be deposited into their private workspace for their perusal.
 
-**Keywords:** Bacterial genome annotation, Genome annotation, Automated annotation, Annotation service, Annotation pipeline, Annotation server, Bacteria, Archaea, Plasmid, Phage.
-
 ## RAST
 In 2008, the RAST server (Rapid Annotation using Subsystem Technology) was developed to annotate microbial genomes<sup>1</sup>. It works by projecting manually curated gene annotations from the SEED database onto newly submitted genomes<sup>2,3</sup>. The key to the consistency and accuracy of the RAST algorithm has been the carefully structured annotation data in the SEED, which are organized into subsystems (sets of logically related functional roles<sup>2</sup>). RAST has become one of the most popular sources for consistent and accurate annotations for microbial genomes. 
 
@@ -54,7 +52,7 @@ For other viruses, the original GenBank annotations are propagated.
 ![Figure 8](./images/Picture8.png "Figure 8")
 
 3.	This will open up the Annotation Service landing page.
-![Figure 9](./images/Picture9.png "Figure 9")
+![Figure 9](./images/Picture9a.png "Figure 9")
 
 ## Selecting a contig file for annotation
 
@@ -63,13 +61,13 @@ The starting point for any annotation is an assembly, which produces contigs.  A
 
 Contigs  must be submitted to the annotation service. Submitting a read file will not work.  Researchers can upload a contig file that was generated in BV-BRC, or one that they have assembled independently.  
 
-1. If an assembly was generated in BV-BRC or PATRIC, the contigs can be selected by clicking on the down arrow at the end of the text box.  This will show the contig files that are available.
+1. If an assembly was generated in BV-BRC (or PATRIC), the contigs can be selected by clicking on the down arrow at the end of the text box.  This will show the contig files that are available.
 ![Figure 11](./images/Picture11.png "Figure 11")
 
 2. If the name is not easily seen, begin typing the name in the text box.  The search function will start looking for names that match the text that is entered.
 ![Figure 12](./images/Picture12.png "Figure 12")
 
-3.Clicking on the appropriate name will fill the text box.  
+3. Clicking on the appropriate name will fill the text box.  
 ![Figure 13](./images/Picture13.png "Figure 13")
 
 4. If an assembly has been generated outside of the BV-BRC or PATRIC, click on the folder at the end of the text box. If you want to upload data directly to your home directory, click on the icon with the arrow pointing up. This opens up a pop-up window where the files for upload can be selected. Click on the icon with the arrow pointing up. 

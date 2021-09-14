@@ -11,7 +11,7 @@ Every bacterial or archaeal genome annotated in BV-BRC, either public or private
 ## Creating a folder to hold the annotation job and related data
 
 1. It is always good practice to create a folder to keep the results from a particular experiment or project in order.  To create a new folder, go to the Workspaces tab and click on home.
-![Figure 2](./images/Picture2.png "Figure 2")
+![Figure 2](./images/Picture2b.png "Figure 2")
 
 2. This will open the home directory on your workspace.  To create a new folder, click on the Add Folder icon at the top right of the table.
 ![Figure 3](./images/Picture3.png "Figure 3")

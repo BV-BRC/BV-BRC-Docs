@@ -7,7 +7,7 @@ In 2008, the RAST server (Rapid Annotation using Subsystem Technology) was devel
 
 ![Figure 1](./images/Picture1.png "Figure 1")
 
-The bacterial/archael annotation service available in BV-BRC uses a modular, updated version of RAST that is called the RAST toolkit (RASTtk)<sup>5</sup>, which is depicted above. It includes algorithms that were developed by the RAST team<sup>5</sup> and some that were developed by others and incorporated into the overall pipeline (seen in red in the figure above). tRNAscan-SE<sup>6</sup> is used to call the tRNA genes.  BLASTN<sup>7</sup> is used to identify repeat regions within the genome, and tools by Croucher<sup>8</sup> are used to identify *Streptococcus* repeat regions.  After repeat regions are identified, Prodigal<sup>9</sup>, followed by Glimmer<sup>10</sup>, are used to call coding sequences (CDS). Antimicrobial resistance is projected for a select group of genera based on a Adaboost machine learning<sup>11</sup>, followed by an initial protein annotation event that involves taking every protein called in a genome and using BLAT<sup>12</sup> and BLASTP<sup>13</sup> to identify CDSs that have homology to proteins in specialty databases.  Possible virulence factors are identified by blasting against a database containing proteins collected from the Virulence Factor Database<sup>14</sup>, Violins<sup>15</sup>, and a special curation effort by the PATRIC team<sup>6</sup>. Genes with homology to those identified as being involved in antimicrobial resistance are BLATed against proteins from the Comprehensive Antibiotic Resistance Database<sup>16</sup>, the National Database of Antibiotic Resistant Organisms (NDARO - https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/), the Antibiotic Resistance Database (ARDB)<sup>17</sup> and a special curation of relevant proteins by PATRIC curators<sup>18</sup>.  Genes with homology to transporters are identified by searching against proteins from the Transporter Classification Database (TCDB)<sup>19</sup>, and those similar to genes that have been identified as potential drug targets by comparison to proteins from DrugBank<sup>20</sup> and the Therapeutic Target Database (TTD)<sup>21</sup>.  Protein families22 are assigned, and then hypotheticals being identified.  All proteins are then mapped to subsystems<sup>2,3</sup>.  PubMLST (www.pubmlst.org) is used to assign sequence types, and then PhiSpy<sup>23</sup> is used to find prophages in bacterial genomes.
+The bacterial/archael annotation service available in BV-BRC uses a modular, updated version of RAST that is called the RAST toolkit (RASTtk)<sup>5</sup>, which is depicted above. It includes algorithms that were developed by the RAST team<sup>5</sup> and some that were developed by others and incorporated into the overall pipeline (seen in red in the figure above). tRNAscan-SE<sup>6</sup> is used to call the tRNA genes.  BLASTN<sup>7</sup> is used to identify repeat regions within the genome, and tools by Croucher<sup>8</sup> are used to identify *Streptococcus* repeat regions.  After repeat regions are identified, Prodigal<sup>9</sup>, followed by Glimmer<sup>10</sup>, are used to call coding sequences (CDS). Antimicrobial resistance is projected for a select group of genera based on a Adaboost machine learning<sup>11</sup>, followed by an initial protein annotation event that involves taking every protein called in a genome and using BLAT<sup>12</sup> and BLASTP<sup>13</sup> to identify CDSs that have homology to proteins in specialty databases.  Possible virulence factors are identified by blasting against a database containing proteins collected from the Virulence Factor Database<sup>14</sup>, Violins<sup>15</sup>, and a special curation effort by the BV-BRC team<sup>6</sup>. Genes with homology to those identified as being involved in antimicrobial resistance are BLATed against proteins from the Comprehensive Antibiotic Resistance Database<sup>16</sup>, the National Database of Antibiotic Resistant Organisms (NDARO - https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/), the Antibiotic Resistance Database (ARDB)<sup>17</sup> and a special curation of relevant proteins by BV-BRC curators<sup>18</sup>.  Genes with homology to transporters are identified by searching against proteins from the Transporter Classification Database (TCDB)<sup>19</sup>, and those similar to genes that have been identified as potential drug targets by comparison to proteins from DrugBank<sup>20</sup> and the Therapeutic Target Database (TTD)<sup>21</sup>.  Protein families22 are assigned, and then hypotheticals being identified.  All proteins are then mapped to subsystems<sup>2,3</sup>.  PubMLST (www.pubmlst.org) is used to assign sequence types, and then PhiSpy<sup>23</sup> is used to find prophages in bacterial genomes.
 
 Every bacterial or archaeal genome annotated in BV-BRC, either public or private, are annotated with this pipeline, and many of the other services (ex. Phylogenetic tree, Genome Alignment, Protein Family Sorter, Comparative Pathway Viewer, Similar Genome Finder) rely of these annotations. A recent update is the inclusion of bacteriophage genome annotation pipeline(PHANOTATE)<sup>24,25</sup>, which opens up the same tools to bacteriophage researchers.  The source code for RASTtk is available on Github (https://github.com/SEEDtk/RASTtk), as is the source code for PHANOTATE (https://github.com/deprekate/PHANOTATE). 
 
@@ -54,6 +54,8 @@ For other viruses, the original GenBank annotations are propagated.
 3.	This will open up the Annotation Service landing page.
 ![Figure 9](./images/Picture9a.png "Figure 9")
 
+*Note:* Both RASTtk and VIGOR4 also accommodate the batch submission of genomes and the ability to customize annotation protocols for batch submissions, available via the BV-BRC Command Line Interface (CLI).
+
 ## Selecting a contig file for annotation
 
 The starting point for any annotation is an assembly, which produces contigs.  A contig (from the word "contiguous") is a series of overlapping DNA sequences used to make a physical map that reconstructs the original DNA sequence of a chromosome or a region of a chromosome. It is a stretch of DNA sequence encoded as A, G, C, T or N, typically ending in fasta of fa.  The first line of a contig file beings with “ >", followed by information on the contig.  The second and subsequent lines contain the sequences.
@@ -61,7 +63,7 @@ The starting point for any annotation is an assembly, which produces contigs.  A
 
 Contigs  must be submitted to the annotation service. Submitting a read file will not work.  Researchers can upload a contig file that was generated in BV-BRC, or one that they have assembled independently.  
 
-1. If an assembly was generated in BV-BRC (or PATRIC), the contigs can be selected by clicking on the down arrow at the end of the text box.  This will show the contig files that are available.
+1. If an assembly was generated in BV-BRC (or previously in PATRIC), the contigs can be selected by clicking on the down arrow at the end of the text box.  This will show the contig files that are available.
 ![Figure 11](./images/Picture11.png "Figure 11")
 
 2. If the name is not easily seen, begin typing the name in the text box.  The search function will start looking for names that match the text that is entered.
@@ -70,7 +72,7 @@ Contigs  must be submitted to the annotation service. Submitting a read file wil
 3. Clicking on the appropriate name will fill the text box.  
 ![Figure 13](./images/Picture13.png "Figure 13")
 
-4. If an assembly has been generated outside of the BV-BRC or PATRIC, click on the folder at the end of the text box. If you want to upload data directly to your home directory, click on the icon with the arrow pointing up. This opens up a pop-up window where the files for upload can be selected. Click on the icon with the arrow pointing up. 
+4. If an assembly has been generated outside of BV-BRC, click on the folder at the end of the text box. If you want to upload data directly to your home directory, click on the icon with the arrow pointing up. This opens up a pop-up window where the files for upload can be selected. Click on the icon with the arrow pointing up. 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
 5. This opens a new window where the file you want to upload can be selected. Click on the “Select File” in the blue bar. 
@@ -116,7 +118,7 @@ Contigs  must be submitted to the annotation service. Submitting a read file wil
 
 ## Finding the completed Annotation job 
 
-1. There are two places to access a completed job in BV-BRC or PATRIC.  Clicking on the Jobs icon at the bottom right of any page will open the list of jobs that have been submitted.
+1. There are two places to access a completed job in BV-BRC.  Clicking on the Jobs icon at the bottom right of any page will open the list of jobs that have been submitted.
 ![Figure 28](./images/Picture28.png "Figure 28")
 
 2. A complete list of all completed jobs will appear from most recent to the very first job ever submitted.  Clicking on any of the column heads will resort the page to show the results in that order.
@@ -236,7 +238,7 @@ The four numbers –completeness, contamination, coarse consistency, and fine co
 
 ## Viewing the Annotated Genome
 
-Private genomes that have been annotated in BV-BRC or PATRIC can be viewed directly from the annotation job, or through the workspace, or by using the Global Search function.
+Private genomes that have been annotated in BV-BRC (or previously in PATRIC) can be viewed directly from the annotation job, or through the workspace, or by using the Global Search function.
 
 ### Viewing the genome from the job report
 
@@ -254,7 +256,7 @@ Private genomes that have been annotated in BV-BRC or PATRIC can be viewed direc
 1. Private genomes can be located through the workspace.  Click on the Workspace tab at the top of any page.  This will open a drop-down box.  Click on My Genomes at the upper right of this box.
 ![Figure 66](./images/Picture66.png "Figure 66")
 
-2. This will open a table that contains all of the genomes that you have annotated in the BV-BRC or PATRIC.  The top of the table contains a text box that can be used to filter the data.  Enter the name, or the unique genome ID into this box and then hit return on your keyboard.
+1. This will open a table that contains all of the genomes that you have annotated.  The top of the table contains a text box that can be used to filter the data.  Enter the name, or the unique genome ID into this box and then hit return on your keyboard.
 ![Figure 67](./images/Picture67.png "Figure 67")
 
 3. This will filter the genomes to show those that match the text entered.  Clicking on the row that contains the correct genome will highlight the vertical green bar to the right with possible downstream functions.  Clicking on the **Genome** icon will open a new tab that has the Genome landing page for that genome.
@@ -262,7 +264,7 @@ Private genomes that have been annotated in BV-BRC or PATRIC can be viewed direc
 
 ### Finding the genome using Global Search
 
-1. The Global Search can be used to locate public and private data.  The name of the genome can be entered into the box, which can be found on the home page for BV-BRC or PATRIC, and also at the top right of any other page.
+1. The Global Search can be used to locate public and private data.  The name of the genome can be entered into the box, which can be found on the home page, and also at the top right of any other page.
 ![Figure 69](./images/Picture69.png "Figure 69")
 
 2. Entering the Genome ID, if known, will provide a more direct access to an individual genome.  Click return after entering.

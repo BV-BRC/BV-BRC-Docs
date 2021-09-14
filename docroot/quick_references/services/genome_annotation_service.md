@@ -76,7 +76,7 @@ The Genome Annotation Service generates several files that are deposited in the 
 * **.gff3** - lists all the features of the genome in General Feature Format (GFF3 is the most recent version of GFF)
 * **.pep** - a fasta file of predicted proteins
 * **.rpt** - a summary file of program results
-* **GenomeReport.html** - contains summary report of the genome quality, described in [Analyzing Genome Quality](.../tutorial/genome_quality_report/genome_quality_report.html). Also contains a link to the genome in the BV-BRC Genome Browser.
+* **GenomeReport.html** - contains summary report of the genome quality, described in [Analyzing Genome Quality](../../tutorial/genome_quality_report/genome_quality_report.html). Also contains a link to the genome in the BV-BRC Genome Browser.
 * **.tar.gz** - a compressed tarfile of the SEED form of the exported genome
 * **.txt** - plain text form of the features in the genome
 * **.tbl** - predicted features in GenBank tbl format
@@ -97,7 +97,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Move** Allows moving of the file to another folder.
 * **Edit Type** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Buttons](../action_buttons.html) user guide.
+More details are available in the [Action Buttons](../action_buttons.html) quick reference.
 
 ## References
 1. Brettin T, Davis JJ, Disz T, Edwards RA, Gerdes S, Olsen GJ, Olson R, Overbeek R, Parrello B, Pusch GD, Shukla M, Thomason JA 3rd, Stevens R, Vonstein V, Wattam AR, Xia F. (2015). RASTtk: a modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. Scientific reports 5: 8365.

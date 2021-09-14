@@ -1,15 +1,15 @@
 # Genome Annotation Service
 
-Genome annotation is the process of identifying functional elements along the sequence of a genome.  The Genome Annotation Service in BV-BRC uses the RAST tool kit (RASTtk) [1] to provide annotation of genomic features in bacteria, and the Viral Genome ORF Reader (VIGOR4) to provide annotation for viruses. All genomes in the BV-BRC have been annotated with this service, and researchers can submit their own private genome to the annotation service, where it will be deposited into their private workspace for their perusal.
+Genome annotation is the process of identifying functional elements along the sequence of a genome.  The Genome Annotation Service in BV-BRC uses the RAST tool kit (RASTtk) [1] to provide annotation of genomic features in bacteria, and the Viral Genome ORF Reader (VIGOR4) [2] to provide annotation for viruses. All genomes in the BV-BRC have been annotated with this service, and researchers can submit their own private genome to the annotation service, where it will be deposited into their private workspace for their perusal.
 
 ## RAST
-In 2008, the RAST server (Rapid Annotation using Subsystem Technology) was developed to annotate microbial genomes<sup>1</sup>. It works by projecting manually curated gene annotations from the SEED database onto newly submitted genomes<sup>2,3</sup>. The key to the consistency and accuracy of the RAST algorithm has been the carefully structured annotation data in the SEED, which are organized into subsystems (sets of logically related functional roles<sup>2</sup>). RAST has become one of the most popular sources for consistent and accurate annotations for microbial genomes. 
+In 2008, the RAST server (Rapid Annotation using Subsystem Technology) was developed to annotate microbial genomes [1]. It works by projecting manually curated gene annotations from the SEED database onto newly submitted genomes [3,4]. The key to the consistency and accuracy of the RAST algorithm has been the carefully structured annotation data in the SEED, which are organized into subsystems (sets of logically related functional roles [3]). RAST has become one of the most popular sources for consistent and accurate annotations for microbial genomes. 
 
 ![Figure 1](./images/Picture1.png "Figure 1")
 
-The bacterial/archael annotation service available in BV-BRC uses a modular, updated version of RAST that is called the RAST toolkit (RASTtk)<sup>5</sup>, which is depicted above. It includes algorithms that were developed by the RAST team<sup>5</sup> and some that were developed by others and incorporated into the overall pipeline (seen in red in the figure above). tRNAscan-SE<sup>6</sup> is used to call the tRNA genes.  BLASTN<sup>7</sup> is used to identify repeat regions within the genome, and tools by Croucher<sup>8</sup> are used to identify *Streptococcus* repeat regions.  After repeat regions are identified, Prodigal<sup>9</sup>, followed by Glimmer<sup>10</sup>, are used to call coding sequences (CDS). Antimicrobial resistance is projected for a select group of genera based on a Adaboost machine learning<sup>11</sup>, followed by an initial protein annotation event that involves taking every protein called in a genome and using BLAT<sup>12</sup> and BLASTP<sup>13</sup> to identify CDSs that have homology to proteins in specialty databases.  Possible virulence factors are identified by blasting against a database containing proteins collected from the Virulence Factor Database<sup>14</sup>, Violins<sup>15</sup>, and a special curation effort by the BV-BRC team<sup>6</sup>. Genes with homology to those identified as being involved in antimicrobial resistance are BLATed against proteins from the Comprehensive Antibiotic Resistance Database<sup>16</sup>, the National Database of Antibiotic Resistant Organisms (NDARO - https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/), the Antibiotic Resistance Database (ARDB)<sup>17</sup> and a special curation of relevant proteins by BV-BRC curators<sup>18</sup>.  Genes with homology to transporters are identified by searching against proteins from the Transporter Classification Database (TCDB)<sup>19</sup>, and those similar to genes that have been identified as potential drug targets by comparison to proteins from DrugBank<sup>20</sup> and the Therapeutic Target Database (TTD)<sup>21</sup>.  Protein families22 are assigned, and then hypotheticals being identified.  All proteins are then mapped to subsystems<sup>2,3</sup>.  PubMLST (www.pubmlst.org) is used to assign sequence types, and then PhiSpy<sup>23</sup> is used to find prophages in bacterial genomes.
+The bacterial/archael annotation service available in BV-BRC uses a modular, updated version of RAST that is called the RAST toolkit (RASTtk) [6], which is depicted above. It includes algorithms that were developed by the RAST team 6] and some that were developed by others and incorporated into the overall pipeline (seen in red in the figure above). tRNAscan-SE [7] is used to call the tRNA genes.  BLASTN [8] is used to identify repeat regions within the genome, and tools by Croucher [9] are used to identify *Streptococcus* repeat regions.  After repeat regions are identified, Prodigal [10], followed by Glimmer [11], are used to call coding sequences (CDS). Antimicrobial resistance is projected for a select group of genera based on a Adaboost machine learning [12], followed by an initial protein annotation event that involves taking every protein called in a genome and using BLAT [13] and BLASTP [14] to identify CDSs that have homology to proteins in specialty databases.  Possible virulence factors are identified by blasting against a database containing proteins collected from the Virulence Factor Database [15], Violins [16], and a special curation effort by the BV-BRC team [7]. Genes with homology to those identified as being involved in antimicrobial resistance are BLATed against proteins from the Comprehensive Antibiotic Resistance Database [17], the National Database of Antibiotic Resistant Organisms (NDARO - https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/), the Antibiotic Resistance Database (ARDB) [18] and a special curation of relevant proteins by BV-BRC curators [19].  Genes with homology to transporters are identified by searching against proteins from the Transporter Classification Database (TCDB) [20], and those similar to genes that have been identified as potential drug targets by comparison to proteins from DrugBank [21] and the Therapeutic Target Database (TTD) [22].  Protein families22 are assigned, and then hypotheticals being identified.  All proteins are then mapped to subsystems [3,4].  PubMLST (www.pubmlst.org) is used to assign sequence types, and then PhiSpy [24] is used to find prophages in bacterial genomes.
 
-Every bacterial or archaeal genome annotated in BV-BRC, either public or private, are annotated with this pipeline, and many of the other services (ex. Phylogenetic tree, Genome Alignment, Protein Family Sorter, Comparative Pathway Viewer, Similar Genome Finder) rely of these annotations. A recent update is the inclusion of bacteriophage genome annotation pipeline(PHANOTATE)<sup>24,25</sup>, which opens up the same tools to bacteriophage researchers.  The source code for RASTtk is available on Github (https://github.com/SEEDtk/RASTtk), as is the source code for PHANOTATE (https://github.com/deprekate/PHANOTATE). 
+Every bacterial or archaeal genome annotated in BV-BRC, either public or private, are annotated with this pipeline, and many of the other services (ex. Phylogenetic tree, Genome Alignment, Protein Family Sorter, Comparative Pathway Viewer, Similar Genome Finder) rely of these annotations. A recent update is the inclusion of bacteriophage genome annotation pipeline (PHANOTATE) [25,26], which opens up the same tools to bacteriophage researchers.  The source code for RASTtk is available on Github (https://github.com/SEEDtk/RASTtk), as is the source code for PHANOTATE (https://github.com/deprekate/PHANOTATE). 
 
 ## VIGOR4
 VIGOR4 (Viral Genome ORF Reader) is a Java application to predict protein sequences encoded in viral genomes developed by the J Craig Venter Institute (JCVI). VIGOR4 determines the protein coding sequences by sequence similarity searching against curated viral protein databases. VIGOR4 uses the VIGOR_DB project which currently has databases for the following viruses:
@@ -54,7 +54,7 @@ For other viruses, the original GenBank annotations are propagated.
 3.	This will open up the Annotation Service landing page.
 ![Figure 9](./images/Picture9a.png "Figure 9")
 
-*Note:* Both RASTtk and VIGOR4 also accommodate the batch submission of genomes and the ability to customize annotation protocols for batch submissions, available via the BV-BRC Command Line Interface (CLI).
+*Note:* An annotation recipe chosen based on the user’s choice of microorganism: Bacteria/Archaea, Viruses, or Bacteriophages. A selection *must* be made, or the annotation job may fail.
 
 ## Selecting a contig file for annotation
 
@@ -95,13 +95,13 @@ Contigs  must be submitted to the annotation service. Submitting a read file wil
 
 ## Annotation Parameters
 
-1. Annotation parameters must be selected next.  BV-BRC provides annotation for Bacteria, Archaea and Bacteriophages.  Bacteria and Archaea are annotated using the RASTtk<sup>5</sup> pipeline. Bacteriophage genomes are annotated using the PHANOTATE<sup>25</sup> pipeline. To select a particular annotation strategy from one of those taxa, click on the down arrow at the end of the text box. Bacteriophages must be annotated using the Virus selection.
+1. Annotation parameters must be selected next.  BV-BRC provides annotation for Bacteria, Archaea and Bacteriophages.  Bacteria and Archaea are annotated using the RASTtk [6] pipeline. Bacteriophage genomes are annotated using the PHANOTATE [26] pipeline. Viruses are annotated with VIGOR4 To select a particular annotation strategy from one of those taxa, click on the down arrow at the end of the text box. Bacteriophages must be annotated using the Virus selection.
 ![Figure 21](./images/Picture21.png "Figure 21")
 
-2. The taxonomic name must next be selected.  Begin typing in the lowest ranked taxonomic name known for the sequenced isolate.  Try to get to Genus, if possible, so that the annotation will contain two types of protein families; global (cross-genus) and local (within genus)<sup>22</sup>.  Once typing begins, a drop-down box will start showing taxonomic names that match the text entered.  
+1. The taxonomic name must next be selected.  Begin typing in the lowest ranked taxonomic name known for the sequenced isolate.  For bacterial, try to get to Genus, if possible, so that the annotation will contain two types of protein families; global (cross-genus) and local (within genus) [23].  Once typing begins, a drop-down box will start showing taxonomic names that match the text entered.  
 ![Figure 22](./images/Picture22.png "Figure 22")
 
-3. Click on the most appropriate name, which will fill the text box with that, and also the corresponding Taxonomy ID.  If the Taxonomy ID is known, that can be filled in first and the matching taxonomic name will be auto filled.  BV-BRC provides two different version of protein families, which are called  PATtyFams<sup>22</sup>. If a taxonomic level above Genus is selected, the annotation will only have global protein families (PGFams) assigned.  If a genus or species is selected, the annotation will include both PGFams, and the local protein families (PLFams), which are genus specific. 
+1. Click on the most appropriate name, which will autofill the text box and also the corresponding Taxonomy ID.  If the Taxonomy ID is known, that can be filled in first and the matching taxonomic name will be autofilled.  BV-BRC provides two different version of protein families, which are called  PATtyFams [23]. If a taxonomic level above Genus is selected, the annotation will only have global protein families (PGFams) assigned.  If a genus or species is selected, the annotation will include both PGFams, and the local protein families (PLFams), which are genus specific. 
 ![Figure 23](./images/Picture23.png "Figure 23")
 
 4. Give the genome a unique name by entering text in the box underneath My Label.  The name that is entered will appear in the Output Name in the lowest text box.
@@ -169,7 +169,7 @@ Contigs  must be submitted to the annotation service. Submitting a read file wil
 6. The **feature_protein.fasta** contains all the protein sequences of the genome in protein FASTA format.
 ![Figure 43](./images/Picture43.png "Figure 43")
 
-7. The **features.txt** is a tab-delimited text file listing all the features of the genome. For each feature, it contains the BV-BRC ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5<sup>27</sup> checksum.
+7. The **features.txt** is a tab-delimited text file listing all the features of the genome. For each feature, it contains the BV-BRC ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5 [28] checksum.
 ![Figure 44](./images/Picture44.png "Figure 44")
 
 8. The **gb** file contains the annotated genome in GenBank format.
@@ -206,7 +206,7 @@ Contigs  must be submitted to the annotation service. Submitting a read file wil
 
 Genome quality analysis is automatically performed when using the BV-BRC Metagenomic Binning Service or Genome Annotation. The genome quality tools look at the functional roles present in an annotated genome to determine if the genome looks correct. Two separate mechanisms are used to predict the number of times each gene should be found in the genome. A role is good if it occurs the predicted number of times; otherwise it is problematic.
 
-The first quality tool (EvalG) checks the completeness and contamination of the genome using a re-implementation of the CheckM<sup>28</sup> algorithm. EvalG identifies universal genes that are expected to occur exactly once in all genomes of a particular taxonomic grouping. Missing genes indicate the genome is less complete; extra genes indicate the genome may be contaminated.
+The first quality tool (EvalG) checks the completeness and contamination of the genome using a re-implementation of the CheckM [29] algorithm. EvalG identifies universal genes that are expected to occur exactly once in all genomes of a particular taxonomic grouping. Missing genes indicate the genome is less complete; extra genes indicate the genome may be contaminated.
 
 The second quality tool (EvalCon) checks the consistency of the genome annotation. Over 1300 genes that have a predictable relationship to other genes were identified by a machine learning process. EvalCon determines how many instances of each gene are expected given the list of other genes in the genome. If a gene in the genome is unexpected, or an expected gene is missing, this is considered coarse inconsistency. If a gene occurs a different number of times than predicted, this is fine inconsistency.
 
@@ -276,30 +276,31 @@ Private genomes that have been annotated in BV-BRC (or previously in PATRIC) can
 ## References
 
 1. Aziz, R. K. et al. The RAST Server: rapid annotations using subsystems technology. BMC genomics 9, 75 (2008).
-2. Overbeek, R. et al. The subsystems approach to genome annotation and its use in the project to annotate 1000 genomes. Nucleic acids research 33, 5691-5702 (2005).
-3. Overbeek, R. et al. The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST).  42, D206-D214 (2013).
-4. Davis, J. J. et al. The PATRIC Bioinformatics Resource Center: expanding data and analysis capabilities. Nucleic acids research 48, D606-D612 (2020).
-5. Brettin, T. et al. RASTtk: a modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. Scientific reports 5, 8365 (2015).
-6. Mao, C. et al. Curation, integration and visualization of bacterial virulence factors in PATRIC. Bioinformatics 31, 252-258 (2015).
-7. Ye, J., McGinnis, S. & Madden, T. L. BLAST: improvements for better sequence analysis. Nucleic acids research 34, W6-W9 (2006).
-8. Croucher, N. J., Vernikos, G. S., Parkhill, J. & Bentley, S. D. Identification, variation and transcription of pneumococcal repeat sequences. BMC genomics 12, 1-13 (2011).
-9. Hyatt, D. et al. Prodigal: prokaryotic gene recognition and translation initiation site identification. BMC bioinformatics 11, 1-11 (2010).
-10	Delcher, A. L., Bratke, K. A., Powers, E. C. & Salzberg, S. L. Identifying bacterial genes and endosymbiont DNA with Glimmer. Bioinformatics 23, 673-679 (2007).
-11. Davis, J. J. et al. Antimicrobial resistance prediction in PATRIC and RAST. Scientific reports 6, 27930 (2016).
-12.	Kent, W. J. BLAT—the BLAST-like alignment tool. Genome research 12, 656-664 (2002).
-13.	Johnson, M. et al. NCBI BLAST: a better web interface. Nucleic acids research 36, W5-W9 (2008).
-14.	Liu, B., Zheng, D., Jin, Q., Chen, L. & Yang, J. VFDB 2019: a comparative pathogenomic platform with an interactive web interface. Nucleic acids research 47, D687-D692 (2019).
-15.	Xiang, Z. et al. VIOLIN: vaccine investigation and online information network. Nucleic acids research 36, D923-D928 (2007).
-16.	Alcock, B. P. et al. CARD 2020: antibiotic resistome surveillance with the comprehensive antibiotic resistance database. Nucleic acids research 48, D517-D525 (2020).
-17.	Liu, B. & Pop, M. ARDB—antibiotic resistance genes database. Nucleic acids research 37, D443-D447 (2009).
-18.	Antonopoulos, D. A. et al. PATRIC as a unique resource for studying antimicrobial resistance. Briefings in bioinformatics (2017).
-19.	Saier Jr, M. H. et al. The transporter classification database (TCDB): recent advances. Nucleic acids research 44, D372-D379 (2016).
-20.	Wishart, D. S. et al. DrugBank 5.0: a major update to the DrugBank database for 2018. Nucleic acids research 46, D1074-D1082 (2018).
-21.	Chen, X., Ji, Z. L. & Chen, Y. Z. TTD: therapeutic target database. Nucleic acids research 30, 412-415 (2002).
-22.	Davis, J. J. et al. PATtyFams: Protein families for the microbial genomes in the PATRIC database.  7, 118 (2016).
-23.	Akhter, S., Aziz, R. K. & Edwards, R. A. PhiSpy: a novel algorithm for finding prophages in bacterial genomes that combines similarity-and composition-based strategies. Nucleic acids research 40, e126-e126 (2012).
-24.	McNair, K. et al. in Bacteriophages     231-238 (Springer, 2018).
-25.	McNair, K., Zhou, C., Dinsdale, E. A., Souza, B. & Edwards, R. A. PHANOTATE: a novel approach to gene identification in phage genomes. Bioinformatics 35, 4537-4542 (2019).
-26.	Osawa, S., Jukes, T. H., Watanabe, K. & Muto, A. Recent evidence for evolution of the genetic code. Microbiological reviews 56, 229-264 (1992).
-27.	Rivest, R. & Dusse, S.     (MIT Laboratory for Computer Science Cambridge, 1992).
-28.	Parks, D. H., Imelfort, M., Skennerton, C. T., Hugenholtz, P. & Tyson, G. W. CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes. Genome research 25, 1043-1055 (2015).
+2.	https://github.com/JCVenterInstitute/VIGOR4. 
+3. Overbeek, R. et al. The subsystems approach to genome annotation and its use in the project to annotate 1000 genomes. Nucleic acids research 33, 5691-5702 (2005).
+4. Overbeek, R. et al. The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST).  42, D206-D214 (2013).
+5. Davis, J. J. et al. The PATRIC Bioinformatics Resource Center: expanding data and analysis capabilities. Nucleic acids research 48, D606-D612 (2020).
+6. Brettin, T. et al. RASTtk: a modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. Scientific reports 5, 8365 (2015).
+7. Mao, C. et al. Curation, integration and visualization of bacterial virulence factors in PATRIC. Bioinformatics 31, 252-258 (2015).
+8. Ye, J., McGinnis, S. & Madden, T. L. BLAST: improvements for better sequence analysis. Nucleic acids research 34, W6-W9 (2006).
+9. Croucher, N. J., Vernikos, G. S., Parkhill, J. & Bentley, S. D. Identification, variation and transcription of pneumococcal repeat sequences. BMC genomics 12, 1-13 (2011).
+10. Hyatt, D. et al. Prodigal: prokaryotic gene recognition and translation initiation site identification. BMC bioinformatics 11, 1-11 (2010).
+11.	Delcher, A. L., Bratke, K. A., Powers, E. C. & Salzberg, S. L. Identifying bacterial genes and endosymbiont DNA with Glimmer. Bioinformatics 23, 673-679 (2007).
+12. Davis, J. J. et al. Antimicrobial resistance prediction in PATRIC and RAST. Scientific reports 6, 27930 (2016).
+13.	Kent, W. J. BLAT—the BLAST-like alignment tool. Genome research 12, 656-664 (2002).
+14.	Johnson, M. et al. NCBI BLAST: a better web interface. Nucleic acids research 36, W5-W9 (2008).
+15.	Liu, B., Zheng, D., Jin, Q., Chen, L. & Yang, J. VFDB 2019: a comparative pathogenomic platform with an interactive web interface. Nucleic acids research 47, D687-D692 (2019).
+16.	Xiang, Z. et al. VIOLIN: vaccine investigation and online information network. Nucleic acids research 36, D923-D928 (2007).
+17.	Alcock, B. P. et al. CARD 2020: antibiotic resistome surveillance with the comprehensive antibiotic resistance database. Nucleic acids research 48, D517-D525 (2020).
+18.	Liu, B. & Pop, M. ARDB—antibiotic resistance genes database. Nucleic acids research 37, D443-D447 (2009).
+19.	Antonopoulos, D. A. et al. PATRIC as a unique resource for studying antimicrobial resistance. Briefings in bioinformatics (2017).
+20.	Saier Jr, M. H. et al. The transporter classification database (TCDB): recent advances. Nucleic acids research 44, D372-D379 (2016).
+21.	Wishart, D. S. et al. DrugBank 5.0: a major update to the DrugBank database for 2018. Nucleic acids research 46, D1074-D1082 (2018).
+22.	Chen, X., Ji, Z. L. & Chen, Y. Z. TTD: therapeutic target database. Nucleic acids research 30, 412-415 (2002).
+23.	Davis, J. J. et al. PATtyFams: Protein families for the microbial genomes in the PATRIC database.  7, 118 (2016).
+24.	Akhter, S., Aziz, R. K. & Edwards, R. A. PhiSpy: a novel algorithm for finding prophages in bacterial genomes that combines similarity-and composition-based strategies. Nucleic acids research 40, e126-e126 (2012).
+25.	McNair, K. et al. in Bacteriophages     231-238 (Springer, 2018).
+26.	McNair, K., Zhou, C., Dinsdale, E. A., Souza, B. & Edwards, R. A. PHANOTATE: a novel approach to gene identification in phage genomes. Bioinformatics 35, 4537-4542 (2019).
+27.	Osawa, S., Jukes, T. H., Watanabe, K. & Muto, A. Recent evidence for evolution of the genetic code. Microbiological reviews 56, 229-264 (1992).
+28.	Rivest, R. & Dusse, S. (MIT Laboratory for Computer Science Cambridge, 1992).
+29.	Parks, D. H., Imelfort, M., Skennerton, C. T., Hugenholtz, P. & Tyson, G. W. CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes. Genome research 25, 1043-1055 (2015).

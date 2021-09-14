@@ -71,7 +71,7 @@ The Genome Annotation Service generates several files that are deposited in the 
 * **feature_protein.fasta** - contains all the protein sequences of the genome in protein FASTA format.
 * **features.txt** - is a tab-delimited text file listing all the features of the genome. For each feature, it contains the BV-BRC ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5 checksum.
 * **.gb** - contains the annotated genome in GENBANK format.
-* **.genome** - contains a special "Genome Typed Object (GTO)" JSON-format file that encapsulates all the data from the annotated genome. See [Extracting and Mining Genome Typed Objects](https://docs.patricbrc.org/cli_tutorial/cli_getting_started.html#extracting-and-mining-genome-typed-objects-gtos) for more information.
+* **.genome** - contains a special "Genome Typed Object (GTO)" JSON-format file that encapsulates all the data from the annotated genome. See [Extracting and Mining Genome Typed Objects](../../cli_tutorial/cli_getting_started.html#extracting-and-mining-genome-typed-objects-gtos) for more information.
 * **.gff** - lists all the features of the genome in General Feature Format.
 * **.gff3** - lists all the features of the genome in General Feature Format (GFF3 is the most recent version of GFF)
 * **.pep** - a fasta file of predicted proteins

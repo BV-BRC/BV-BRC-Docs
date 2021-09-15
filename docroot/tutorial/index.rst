@@ -44,7 +44,6 @@ Data Tools
    :maxdepth: 1
 
    fastq_utilities/fastq_utilities.md
-   proteome_comparison/proteome_comparison.md
 
 Viral Services
 --------------

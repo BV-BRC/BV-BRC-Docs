@@ -156,7 +156,6 @@ This process is the same as described above for Trimming.
 ![Figure 33](./images/Picture33.png "Figure 33")
 
 5.	The **meta.txt**, **fqutils.err.text** and **fqutils.out.txt** files are the same as those described in the Trimming job results above. 
-![Figure 34](./images/Picture34.png "Figure 34")
 
 ## FastQC
 
@@ -167,61 +166,82 @@ The output from FastQC is an html file that may be viewed in your browser.  The 
 ### Submitting the FastQC job
 
 1.	To select the FastQC option, it must first be selected from the drop-down box underneath Pipeline.  Clicking on that row will fill the text box with FastQC. 
+![Figure 34](./images/Picture34.png "Figure 34")
+
+2.	Click on the plus icon (+) at the end of the text box to move that pipeline into the selected service box below. 
 ![Figure 35](./images/Picture35.png "Figure 35")
 
-
+3.	Uploading paired-end, single-end or reads available at the Sequence Read Archive are described above. If the reads of interest were previously trimmed, those reads will appear in the drop-down box and are available for analysis.  Click on the down arrow that follows the text box underneath **Read File**.  If submitting paired end reads, make sure to select the pairs that match. 
 ![Figure 36](./images/Picture36.png "Figure 36")
 
-
+4.	The reads must be moved to the **Selected Libraries** box. 
 ![Figure 37](./images/Picture37.png "Figure 37")
 
-
+5.	Once the Parameters and Reads have been filled in or selected, the Submit button turns blue and the job will be submitted once clicked. 
 ![Figure 38](./images/Picture38.png "Figure 38")
 
-
+6.	A successful submission will generate a message indicating that the job has been queued. 
 ![Figure 39](./images/Picture39.png "Figure 39")
 
+### Monitoring progress on the Jobs page
+This process is the same as described above for Trimming.
 
+ ### Viewing the FastQC job results
+
+1.	On the jobs page, click on the row that has the job of interest.  This will populate the vertical green bar on the right with possible downstream steps, which include viewing the results of the job, or reporting an issue that was experienced (like a job failure).  Click on the **View** icon. 
 ![Figure 40](./images/Picture40.png "Figure 40")
 
-
+2.	This will rewrite the page to show the information about the FastQC job, and all of the files that are produced when the pipeline runs.  The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the **Parameters** row. 
 ![Figure 41](./images/Picture41.png "Figure 41")
 
-
+3.	This will show the information on what was selected when the job was originally submitted. 
 ![Figure 42](./images/Picture42.png "Figure 42")
 
+4.	The **meta.txt**, **fqutils.err.text** and **fqutils.out.txt** files are the same as those described in the Trimming job results above.
 
+5.	The **fastqc.html** file shows the quality statistics.  The job page will have one file for each read set. There are a couple of good reviews of FastQC reports available (https://dnacore.missouri.edu/PDF/FastQC_Manual.pdf and https://rtsf.natsci.msu.edu/genomics/tech-notes/fastqc-tutorial-and-faq/). 
 ![Figure 43](./images/Picture43.png "Figure 43")
 
-
+6.	The Basic Statistics module shows composition statistics for the file analyzed. 
+    * **Filename** has the original name. 
+    * **File type** says if the file had actual base calls or colorspace data that had to be converted to base calls.
+    * **Total sequences** provides a count of the total number of sequences processed.
+    * **Sequences flagged as poor quality** tells which sequences were flagged to be filtered and removed from all analyses.
+    * **Sequence length** provides the length of the shortest and longest sequences in the set.  If all sequences are the same length, only one value is reported.
+    * **%GC** shows the overall %GC of all bases in all sequences. 
 ![Figure 44](./images/Picture44.png "Figure 44")
 
-
+7.	The **Per Base Sequence Quality** shows an overview of the range of quality values across all bases at each position in the FastQ file.  For each position, a BoxWhisker type blot is drawn.  The y-axis shows the quality scores (the higher the score the better the base call), and the background divides it into good quality calls (green), calls of reasonable quality (orange) and calls of poor quality (red). A warning will be issued if the lower quartile for any base is less than 10, or the median for any base is less than 35.  A failure will be issued if the lower quartile for any base is less than 5 or if the median for any base is less than 20. Note that the X-axis is not uniform, it starts out with bases 1-10 being reported individually, after that, it will bin bases across a window a certain number of positions wide. The number of base positions binned together depends on the length of the read; for example, with 150bp reads the latter part of the plot will report aggregate statistics for 5bp windows. Shorter reads will have smaller windows and longer reads larger windows. The blue line is the mean quality score at each base position/window. The red line within each yellow box represents the median quality score at that position/window. The yellow box is the inner-quartile range for 25th to 75th percentile. The upper and lower whiskers represent the 10th and 90th percentile scores. It is normal with all Illumina sequencers for the median quality score to start out lower over the first 5-7 bases and to then rise. The average quality score will steadily drop over the length of the read. With paired end reads the average quality scores for read 1 will almost always be higher than for read 2. 
 ![Figure 45](./images/Picture45.png "Figure 45")
 
-
+8.	**Per Sequence Quality Scores** shows the subset of sequences that have low quality values.  A warning is issued if the most frequently observed mean quality is below 27 (this equals a 0.2% error rate) and a failure is raised if the most frequently observed mean quality is below 20 (this equals a 1% error rate). 
 ![Figure 46](./images/Picture46.png "Figure 46")
 
-
+9.	**Per Base Sequence Content** plots out the proportion of each base position in a file for which each of the four normal DNA bases have been called. In a random library there would be little to no difference between the different bases of a sequence run, so the lines in this plot should run parallel with each other.  A warning is issued if the difference between A and T, or G and C is greater than 10% in any position.  A failure will be issued if the difference is greater than 20%. 
 ![Figure 47](./images/Picture47.png "Figure 47")
 
-
+10.	The **Per sequence GC content** measures the GC content across the whole length of each sequence in a file and compares it to a modelled normal distribution of GC content. In a normal random library, one would expect to see a roughly normal distribution of GC content where the central peak corresponds to the overall GC content of the underlying genome. A warning is raised if the sum of the deviations from the normal distribution represents more than 15% of the reads, and a failure will be raised if the sum is more than 30%. 
 ![Figure 48](./images/Picture48.png "Figure 48")
 
-
+11. The **Per base N content** plots out the percentage of base calls at each position for which an N was called. A warning is raised if any position shows an N content of >5%, and a failure if any position shows an N content of >20%.
 ![Figure 49](./images/Picture49.png "Figure 49")
 
-
+12. Some sequencers generate sequence fragments of uniform length, and some don’t. The **Sequence Length Distribution** generates a graph showing the distribution of fragment sizes in the file. A warning is raised if all sequences are not the same length, and a failure is issued if any of the sequences have 0 length. 
 ![Figure 50](./images/Picture50.png "Figure 50")
 
-
+13. Most sequence will occur only once in the final set, but a low level of duplication may indicate a very high level of coverage of the target sequence.  A high level of duplication is more likely to indicate some kind of enrichment bias. The **Sequence Duplication Levels** module counts the degree of duplication for every sequence in the set and creates a plot showing the relative number of sequences with different degrees of duplication. This module issues a warning if non-unique sequences make up more than 20% of the total, and a failure is issued if they are more than 50%. 
 ![Figure 51](./images/Picture51.png "Figure 51")
 
-
+14. A normal high-throughput library will contain a diverse set of sequences, with no individual sequence making up a tiny fraction of the whole.  A single overrepresented sequence either means that it is highly biologically significant, or that the library is contaminated, or that the library is not as diverse as expected. The **Overrepresented sequences** module lists all of the sequence which make up more than 0.1% of the total.  A warning will be issued if any sequence is found to represent more than 0.1% of the total, and a failure if it is more than 1.0%. 
 ![Figure 52](./images/Picture52.png "Figure 52")
 
-
+15.	The **Adapter Content** module shows the cumulative plot of the fraction of reads where the sequence library adapter sequence is identified at the indicated base position. Only adapters specific to the library type are searched. A warning is issued if any sequence is present in more than 5% of all reads, and a failure if more than 10%. 
 ![Figure 53](./images/Picture53.png "Figure 53")
+
+## Align
+
+The Align function of the FastQC Utilities service aligns reads to genomes using Bowtie2[5]to generate BAM files, saving unmapped reads, and generating SamStat[6] reports of the amount and quality of alignments. The Bowtie2 algorithm was downloaded from https://github.com/BenLangmead/bowtie2, and the SamStat algorithm from https://github.com/TimoLassmann/samstat.
+
 
 
 ![Figure 54](./images/Picture54.png "Figure 54")

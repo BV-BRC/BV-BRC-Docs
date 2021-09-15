@@ -37,6 +37,15 @@ Protein Tools
    protein_family_sorter/protein_family_sorter.md
    proteome_comparison/proteome_comparison.md
 
+Data Tools
+---------------
+
+.. toctree::
+   :maxdepth: 1
+
+   fastq_utilities/fastq_utilities.md
+   proteome_comparison/proteome_comparison.md
+
 Viral Services
 --------------
 

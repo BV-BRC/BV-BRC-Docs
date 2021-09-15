@@ -59,7 +59,7 @@ Please refer to the Assembly service tutorial for instructions on submitting rea
 
 The lengths of individual nucleotide sequences (reads) output by second-generation sequencing machines have reached 35, 50, 100 bps and more. When DNA or RNA molecules are sequenced that are shorter than this length the machine sequences into the adapter ligated to the 3 end of each molecule during library preparation. Consequently, the reads contain the sequence of the molecule of interest and also the adapter sequence. An essential first task prior to analysis is to find the reads containing adapters and to remove those adapters, leaving the relevant part of the read for downstream analysis. In some cases, finding adapters is a sign of contamination, and the reads containing them must be discarded entirely. The Trim component of Fastq Utilities service uses Trim Galore[1], which is Perl wrapper around the Cutadapt[2] and FastQC[3] tools. The Trim Galore algorithm was downloaded from the following source: https://github.com/FelixKrueger/TrimGalore. 
 
-## Submitting the Trimming job
+### Submitting the Trimming job
 
 1.	In order to run the trimming job, the Trim pipeline selection must be moved to the selected pipeline box.  Click on the + icon at the end of the text box that contains Trim.  This will move the pipeline choice into the selected pipeline box.  Note that any, or all pipeline options can be selected if desired. 
 ![Figure 8](./images/Picture8.png "Figure 8")
@@ -70,7 +70,7 @@ The lengths of individual nucleotide sequences (reads) output by second-generati
 3.	A successful submission will generate a message indicating that the job has been queued. 
 ![Figure 10](./images/Picture10.png "Figure 10")
 
-## Monitoring progress on the Jobs page
+### Monitoring progress on the Jobs page
 
 1.	Click on the Jobs box at the bottom right of any BV-BRC page. 
 ![Figure 11](./images/Picture11.png "Figure 11")
@@ -78,7 +78,7 @@ The lengths of individual nucleotide sequences (reads) output by second-generati
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
 ![Figure 12](./images/Picture12.png "Figure 12")
 
-## Viewing the trimming job
+### Viewing the trimming job
 
 1.	A job that has been successfully completed can be viewed by clicking on the row and then clicking on the View icon in the vertical green bar. 
 ![Figure 13](./images/Picture13.png "Figure 13")
@@ -123,34 +123,50 @@ The lengths of individual nucleotide sequences (reads) output by second-generati
 
 Paired end reads are usually provided as two fastq-format files, with each file representing one end of the read. Many commonly used downstream tools require that the sequence reads appear in each file in the same order and reads that do not have a pair in the corresponding file are placed in a separate file of singletons. Although most sequencing instruments capable of generating paired end reads produce files where each read has a corresponding mate, many downstream bioinformatics manipulations break the one-to-one correspondence between reads, and paired-end sequence files loose synchronicity, and contain either unordered sequences or sequences in one or other file without a mate. Assembly jobs often fail in the BV-BRC service due to the paired reads not being evenly matched, so the FASTQ Utilities service now offers a pipeline that ensures that all paired-end reads have a match.  The pipeline uses Fastq-Pair[4]. The code for Fastq-Pair is available here: https://github.com/linsalrob/fastq-pair.
 
+### Submitting the Paired Filter job
 
+1.	To select the Paired Filter option, it must first be selected from the drop-down box underneath **Pipeline**.  Clicking on that row will fill the text box with **paired_filter**. 
 ![Figure 26](./images/Picture26.png "Figure 26")
 
-
+2.	Click on the plus icon (+) at the end of the text box to move that pipeline into the selected service box below. 
 ![Figure 27](./images/Picture27.png "Figure 27")
 
-
+3.	Once the Parameters and Reads have been filled in or selected, the Submit button turns blue and the job will be submitted once clicked. 
 ![Figure 28](./images/Picture28.png "Figure 28")
 
-
+4.	A successful submission will generate a message indicating that the job has been queued. 
 ![Figure 29](./images/Picture29.png "Figure 29")
 
+### Monitoring progress on the Jobs page
 
+This process is the same as described above for Trimming.
+
+### Viewing the Paired Filter job results
+
+1.	On the jobs page, click on the row that has the job of interest.  This will populate the vertical green bar on the right with possible downstream steps, which include viewing the results of the job, or reporting an issue that was experienced (like a job failure).  Click on the **View** icon. 
 ![Figure 30](./images/Picture30.png "Figure 30")
 
-
+2.	This will rewrite the page to show the information about the job, and all of the files that are produced when the pipeline runs.  The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the **Parameters** row. 
 ![Figure 31](./images/Picture31.png "Figure 31")
 
-
+3.	This will show the information on what was selected when the job was originally submitted. 
 ![Figure 32](./images/Picture32.png "Figure 32")
 
-
+4.	The **fastq.paired.fq.gz** file contains the paired read file and should be used for downstream analyses.  It can be downloaded by clicking on the **Download** icon. 
 ![Figure 33](./images/Picture33.png "Figure 33")
 
-
+5.	The **meta.txt**, **fqutils.err.text** and **fqutils.out.txt** files are the same as those described in the Trimming job results above. 
 ![Figure 34](./images/Picture34.png "Figure 34")
 
+## FastQC
 
+FastQC[3] is a very popular tool used to provide an overview of basic quality control metrics for raw next generation sequencing data.  It provides a modular set of analyses that provide a quick impression of the data and indicate any problems that would impact further analysis. The FastQC algorithm was downloaded from Babraham Bioinformatics (http://www.bioinformatics.babraham.ac.uk/projects/fastqc/). An excellent tutorial on the FastQC report is provided by Michigan State University (https://rtsf.natsci.msu.edu/genomics/tech-notes/fastqc-tutorial-and-faq/), part of which is provided below.
+
+The output from FastQC is an html file that may be viewed in your browser.  The report contains one result section for each FastQC module.  In addition to the graphical or list data provided by each module, a flag of “Passed”, “Warn” or “Fail” is assigned.  Researchers should be very cautious about relying on these flags when assessing sequence data. The thresholds used to assign these flags are based on a very specific set of assumptions that are applicable to a very specific type of sequence data. Specifically, they are tuned for good quality whole genome shotgun DNA sequencing. They are less reliable with other types of sequencing, for example mRNA-Seq, small RNA-Seq, methyl-seq, targeted sequence capture and targeted amplicon sequencing.  Therefore, a module result that has a “Warn” or “Fail” flag does not necessarily mean that the sequence run failed.  “Warn” and “Fail” flags mean that the researcher must stop and consider what the results mean in the context of that particular sample and the type of sequencing that was run.
+
+### Submitting the FastQC job
+
+1.	To select the FastQC option, it must first be selected from the drop-down box underneath Pipeline.  Clicking on that row will fill the text box with FastQC. 
 ![Figure 35](./images/Picture35.png "Figure 35")
 
 

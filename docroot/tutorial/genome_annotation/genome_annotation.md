@@ -54,7 +54,7 @@ For other viruses, the original GenBank annotations are propagated.
 3.	This will open up the Annotation Service landing page.
 ![Figure 9](./images/Picture9a.png "Figure 9")
 
-*Note:* An annotation recipe chosen based on the user’s choice of microorganism: Bacteria/Archaea, Viruses, or Bacteriophages. A selection *must* be made, or the annotation job may fail.
+*Note:* The annotation recipe is chosen based on the user’s choice of microorganism: Bacteria/Archaea, Viruses, or Bacteriophages. A selection for microorganism *must* be made, or the annotation job may fail.
 
 ## Selecting a contig file for annotation
 

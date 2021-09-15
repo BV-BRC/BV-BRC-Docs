@@ -242,95 +242,116 @@ This process is the same as described above for Trimming.
 
 The Align function of the FastQC Utilities service aligns reads to genomes using Bowtie2[5]to generate BAM files, saving unmapped reads, and generating SamStat[6] reports of the amount and quality of alignments. The Bowtie2 algorithm was downloaded from https://github.com/BenLangmead/bowtie2, and the SamStat algorithm from https://github.com/TimoLassmann/samstat.
 
+### Submitting the Align job
 
-
+1.	To select the Align option, it must first be selected from the drop-down box underneath Pipeline.  Clicking on that row will fill the text box with Align. 
 ![Figure 54](./images/Picture54.png "Figure 54")
 
-
+2.	Click on the plus icon (+) at the end of the text box to move that pipeline into the selected service box below. 
 ![Figure 55](./images/Picture55.png "Figure 55")
 
-
+3.	A reference genome must be selected to align the reads against.  The name, or genome ID of a specific genome can be entered into the text box underneath **Target Genome**.  This will populate the drop-down box with possible matches to that text.  Clicking on the best match will fill the text box with that genome’s name. 
 ![Figure 56](./images/Picture56.png "Figure 56")
 
-
+4.	Once the Parameters and Reads have been filled in or selected, the Submit button turns blue and the job will be submitted once clicked. 
 ![Figure 57](./images/Picture57.png "Figure 57")
 
-
+5.	A successful submission will generate a message indicating that the job has been queued. 
 ![Figure 58](./images/Picture58.png "Figure 58")
 
+### Monitoring progress on the Jobs page
 
+This process is the same as described above for Trimming.
+
+### Viewing the Align job results
+
+1.	On the jobs page, click on the row that has the job of interest.  This will populate the vertical green bar on the right with possible downstream steps, which include viewing the results of the job, or reporting an issue that was experienced (like a job failure).  Click on the View icon. 
 ![Figure 59](./images/Picture59.png "Figure 59")
 
-
+2.	This will rewrite the page to show the information about the Align job, and all of the files that are produced when the pipeline runs.  The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the Parameters row. 
 ![Figure 60](./images/Picture60.png "Figure 60")
 
-
+3.	This will show the information on what was selected when the job was originally submitted. 
 ![Figure 61](./images/Picture61.png "Figure 61")
 
-
+3.	The output files from the Align job will provide a file that has all the reads from each read file that mapped to the target genome (**aligned.fq.gz)**. There will be one of these for each file that was submitted.  These files can be downloaded. 
 ![Figure 62](./images/Picture62.png "Figure 62")
 
-
+4.	A file containing the reads that did not map to the reference genome is also included (**unmapped.fq.gz**).  There will be one of these for each file that was submitted.  These files can be downloaded. 
 ![Figure 63](./images/Picture63.png "Figure 63")
 
+5.	The **meta.txt**, **fqutils.err.text** and **fqutils.out.txt** files are the same as those described in the Trimming job results above.
 
+6.	The **bam** and **bam.bai** files can be downloaded. A BAM file (.bam) is the compressed binary version of a SAM (Sequence Alignment/Map) file that is used to represent aligned sequences up to 128 Mb. BAM index files (.bam.bai) provide an index of the corresponding BAM file. These files could be uploaded to the genome browser on the target genome to show the mapped reads. 
 ![Figure 64](./images/Picture64.png "Figure 64")
 
-
+7.	To view the **bam.samstat.html** file, click on the row that contains it and then on the **View** icon in the vertical green bar. This will open the SAMStat report for the alignment job with the MAPQ statistics. 
 ![Figure 65](./images/Picture65.png "Figure 65")
 
-
+6.	The *8bam.samstat.html** file contains **Mapping stats**, which are represented as MAPping Quality (MAPQ) values. Mapping quality is the confidence that the read is correctly mapped to the genomic coordinates. For example, a read may be mapped to several genomic locations with almost a perfect match in all locations. In that case, alignment score will be high but mapping quality will be low. Reads falling in repetitive regions usually get very low mapping quality. Low quality means the observed read sequence is possibly wrong, and wrong sequence may lead to a wrong alignment. 
 ![Figure 66](./images/Picture66.png "Figure 66")
 
-
+7.	The **bam.samstat.html** file contains an indication of the read length and the base quality distribution. 
 ![Figure 67](./images/Picture67.png "Figure 67")
 
-
+8.	The **bam.samstat.html** file also contains the of MAPQ values that are greater or equal to 20 reads. 
 ![Figure 68](./images/Picture68.png "Figure 68")
 
-
+9.	The **bam.samstat.html** file also contains the of MAPQ values that are greater than equal to 0 or less than 20 reads. 
 ![Figure 69](./images/Picture69.png "Figure 69")
 
-
+10.	The **bam.samstat.html** file also contains the **Composition of the unmapped reads**. 
 ![Figure 70](./images/Picture70.png "Figure 70")
 
-
+11.	The **bam.samstat.html** file also contains bar charts showing the distribution of mismatches along the read for alignments for each category of read quality. 
 ![Figure 71](./images/Picture71.png "Figure 71")
 
-
+12.	The **bam.samstat.html** file also contains a bar plot showing the percentage of reads (y-axis) with 0, 1, 2 … errors (x axis) for MAPQ. 
 ![Figure 72](./images/Picture72.png "Figure 72")
 
+### Does trimming work?
 
+Reads from the same genome that were either trimmed or not, were run on the FASTQC, Align and Taxonomic Classification services in BV-BRC to examine and compare results. Trimmed and untrimmed reads were also assembled using Spades[7]. Differences can be seen below.
+
+1.	Comparison of per base sequence quality in the FastQC report before and after trimming. 
 ![Figure 73](./images/Picture73.png "Figure 73")
 
-
+2.	Comparison of per sequence quality scores before and after trimming. 
 ![Figure 74](./images/Picture74.png "Figure 74")
 
-
+3.	Comparison of per sequence content before and after trimming. 
 ![Figure 75](./images/Picture75.png "Figure 75")
 
-
+4.	Comparison of per sequence GC content before and after trimming. 
 ![Figure 76](./images/Picture76.png "Figure 76")
 
-
+5.	Comparison of sequence length distribution before and after trimming. 
 ![Figure 77](./images/Picture77.png "Figure 77")
 
-
+6.	Comparison of sequence distribution levels before and after trimming. 
 ![Figure 78](./images/Picture78.png "Figure 78")
 
-
+7.	Comparison of overrepresented sequences before and after trimming. 
 ![Figure 79](./images/Picture79.png "Figure 79")
 
-
+8.	Comparison of adaptor content before and after trimming. 
 ![Figure 80](./images/Picture80.png "Figure 80")
 
-
+9.	Comparison of mapped reads from Align-FASTQC service results before and after trimming. 
 ![Figure 81](./images/Picture81.png "Figure 81")
 
-
+10.	Comparison of Taxonomic Classification service results before and after trimming. 
 ![Figure 82](./images/Picture82.png "Figure 82")
 
-
+11.	Comparison of assembly statistics generated by Spades before and after trimming. 
 ![Figure 83](./images/Picture83.png "Figure 83")
 
+## References
 
+1.	Krueger, F., Trim Galore: a wrapper tool around Cutadapt and FastQC to consistently apply quality and adapter trimming to FastQ files, with some extra functionality for MspI-digested RRBS-type (Reduced Representation Bisufite-Seq) libraries. URL http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/. (Date of access: 28/04/2016), 2012.
+2.	Martin, M., Cutadapt removes adapter sequences from high-throughput sequencing reads. EMBnet. journal, 2011. 17(1): p. 10-12.
+3.	Andrews, S., FastQC: a quality control tool for high throughput sequence data. 2010.
+4.	Edwards, J.A. and R.A. Edwards, Fastq-pair: efficient synchronization of paired-end fastq files. bioRxiv, 2019: p. 552885.
+5.	Langmead, B. and S.L. Salzberg, Fast gapped-read alignment with Bowtie 2. Nature methods, 2012. 9(4): p. 357.
+6.	Lassmann, T., Y. Hayashizaki, and C.O. Daub, SAMStat: monitoring biases in next generation sequencing data. Bioinformatics, 2010. 27(1): p. 130-131.
+7.	Bankevich, A., et al., SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. Journal of computational biology, 2012. 19(5): p. 455-477.

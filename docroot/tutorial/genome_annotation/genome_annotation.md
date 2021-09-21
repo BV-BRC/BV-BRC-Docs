@@ -32,7 +32,7 @@ For other viruses, the original GenBank annotations are propagated. The source c
 BV-BRC also provides a bacteriophage genome annotation pipeline(PHANOTATE)[1c,1d], depicted below.  Use of this pipeline opens up the same tools to bacteriophage researchers that bacteria/archaea researchers can use. The source code for PHANOTATE is available on GitHub (https://github.com/deprekate/PHANOTATE). 
 
 ![Figure 1b](./images/Picture1b.png "Figure 1b")
-*Figure 1b. Steps in the bacteriophage pipeline using PHANOTATE.*
+*Figure 1b. Steps in the bacteriophage annotation pipeline using PHANOTATE.*
 
 ## Creating a folder to hold the annotation job and related data
 

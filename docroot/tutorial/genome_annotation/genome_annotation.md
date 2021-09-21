@@ -54,10 +54,10 @@ BV-BRC also provides a bacteriophage genome annotation pipeline(PHANOTATE)[1c,1d
 ## Locating the Annotation Service App
 
 1.	At the top of any BV-BRC page, find the Services tab. 
-![Figure 7](./images/Picture7.png "Figure 7")
+![Figure 7](./images/Picture7a.png "Figure 7")
 
 2.	In the drop-down box, underneath Genomics, click on Annotation. 
-![Figure 8](./images/Picture8.png "Figure 8")
+![Figure 8](./images/Picture8a.png "Figure 8")
 
 3.	This will open up the Annotation Service landing page. 
 ![Figure 9](./images/Picture9a.png "Figure 9")
@@ -78,7 +78,7 @@ Contigs  must be submitted to the annotation service. Submitting a read file wil
 ![Figure 12](./images/Picture12.png "Figure 12")
 
 3. Clicking on the appropriate name will fill the text box.  
-![Figure 13](./images/Picture13.png "Figure 13")
+![Figure 13](./images/Picture13a.png "Figure 13")
 
 4. If an assembly has been generated outside of BV-BRC, click on the folder at the end of the text box. If you want to upload data directly to your home directory, click on the icon with the arrow pointing up. This opens up a pop-up window where the files for upload can be selected. Click on the icon with the arrow pointing up. 
 ![Figure 14](./images/Picture14.png "Figure 14")
@@ -104,22 +104,22 @@ Contigs  must be submitted to the annotation service. Submitting a read file wil
 ## Annotation Parameters
 
 1. Annotation parameters must be selected next.  BV-BRC provides annotation for Bacteria, Archaea and Bacteriophages.  Bacteria and Archaea are annotated using the RASTtk [6] pipeline. Bacteriophage genomes are annotated using the PHANOTATE [26] pipeline. Viruses are annotated with VIGOR4 To select a particular annotation strategy from one of those taxa, click on the down arrow at the end of the text box. Bacteriophages must be annotated using the Virus selection. 
-![Figure 21](./images/Picture21.png "Figure 21")
+![Figure 21](./images/Picture21a.png "Figure 21")
 
 2. The taxonomic name must next be selected.  Begin typing in the lowest ranked taxonomic name known for the sequenced isolate.  For bacterial, try to get to Genus, if possible, so that the annotation will contain two types of protein families; global (cross-genus) and local (within genus) [23].  Once typing begins, a drop-down box will start showing taxonomic names that match the text entered.  
-![Figure 22](./images/Picture22.png "Figure 22")
+![Figure 22](./images/Picture22a.png "Figure 22")
 
 3. Click on the most appropriate name, which will autofill the text box and also the corresponding Taxonomy ID.  If the Taxonomy ID is known, that can be filled in first and the matching taxonomic name will be autofilled.  BV-BRC provides two different version of protein families, which are called  PATtyFams [23]. If a taxonomic level above Genus is selected, the annotation will only have global protein families (PGFams) assigned.  If a genus or species is selected, the annotation will include both PGFams, and the local protein families (PLFams), which are genus specific. 
-![Figure 23](./images/Picture23.png "Figure 23")
+![Figure 23](./images/Picture23a.png "Figure 23")
 
 4. Give the genome a unique name by entering text in the box underneath My Label.  The name that is entered will appear in the Output Name in the lowest text box. 
-![Figure 24](./images/Picture24.png "Figure 24")
+![Figure 24](./images/Picture24a.png "Figure 24")
 
 5. An output folder must be selected for the assembly job.  Typing the name of the folder in the text box underneath the words Output Folder will show a drop-down box that shows close hits to the name.  Clicking on the arrow at the end of the box will open a drop-down box that shows the most recently created folders.  To find a previously created folder that is not seen in the drop-down box, click on the folder icon at the end of the text box.  This will open a pop-up window that shows all the previously created folder, then follow the instructions at the top of this tutorial.  
 ![Figure 26](./images/Picture26.png "Figure 26")
 
 6. Once the input data and the parameters have been selected, the Submit button at the bottom of the page will turn blue.  The annotation job will be submitted once this button is clicked. Once submitted, the job will enter the queue.  You can check the status of your job by clicking on the Jobs monitor at the lower right. 
-![Figure 27](./images/Picture27.png "Figure 27")
+![Figure 27](./images/Picture27a.png "Figure 27")
 
 ## Finding the completed Annotation job 
 

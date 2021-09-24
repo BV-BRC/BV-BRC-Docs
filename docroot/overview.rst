@@ -1,5 +1,8 @@
-Welcome and Overview
-====================
+Overview
+========
+
+About BV-BRC
+------------
 
 Welcome to the Help Documentation site for the Bacterial and Viral Bioinformatics Resource Center (BV-BRC). BV-BRC is a joint effort among the University of Chicago (UChicago), J Craig Venter Institute (JCVI), Fellowship for Interpretation of Genomes (FIG), and University of Virginia (UVA) that provides a web-based information system designed to support the biomedical research community’s work on bacterial and viral infectious diseases via integration of vital pathogen information with rich data and analysis tools. BV-BRC combines the data, technology, and extensive user communities from two long-running centers: PATRIC, the bacterial system , and IRD/ViPR, the viral systems.
 

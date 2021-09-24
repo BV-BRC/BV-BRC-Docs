@@ -10,17 +10,8 @@ Help Documentation
 
 The BV-BRC Help Documentation is organized into several subsections:
 
-Quick References
-----------------
+ - Quick References: provides succinct overviews of specific feature (data, tool, functionality) within the resource with definitions of all of its component parts.
 
-BV-BRC Quick References provide a succinct overview of specific feature (data, tool, functionality) within the resource. These documents are helpful when you want to gain a summary understanding of the feature with definitions of all of its component parts.
+ - Tutorials: provides detailed, step-by-step instructions with screen captures to illustrate how to use a particular data type or tool and interpret its results, often with additional information and rationale to enhance its use in the context of a broader biological question. 
 
-Tutorials
----------
-
-BV-BRC Tutorials provide detailed, step-by-step instructions with screen captures to illustrate how to use a particular data type or tool and interpret its results. Tutorials also typically provide additional information and rationale to enhance their use in the context of a broader biological question. 
-
-FAQs and Common Tasks
----------------------
-
-BV-BRC provides data and mechanisms to help answer a broad host of biological inquiries. Answers to frequently asked questions (FAQs) from our users and instructions for performing common tasks are provided in this section.  
+ - FAQs and Common Tasks: provides answers to frequently asked questions (FAQs) from our users and instructions for performing common tasks are provided in this section.  

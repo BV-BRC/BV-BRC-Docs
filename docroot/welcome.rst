@@ -5,8 +5,8 @@ Welcome to the Help Documentation site for the Bacterial and Viral Bioinformatic
 
 BV-BRC is one of two Bionformatics Resource Centers (BRC) currently funded by the US National Institute of Allergy and Infectious Diseases (NIAID).  The other BRC--the Eukaryotic Pathogen, Vector, and Host Informatics Resource (VEuPathDB)--focuses on eukaryotic pathogens and invertebrate vectors of infectious diseases, encompassing data from legacy BRCs devoted to parasitic species (EuPathDB), fungi (FungiDB) and vector species (VectorBase).
 
-Help Documentation
-------------------
+Help Documentation Organization
+-------------------------------
 
 The BV-BRC Help Documentation is organized into several subsections:
 

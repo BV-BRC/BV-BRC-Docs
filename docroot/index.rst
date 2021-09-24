@@ -5,8 +5,9 @@ BV-BRC Documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: Help Documentation:
+   :caption: Help Resources:
 
+   welcome
    quick_references/index
    tutorial/index
 

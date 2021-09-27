@@ -17,4 +17,4 @@ The BV-BRC Help Documentation is organized into several subsections:
 
  - `Tutorials <./tutorial/index.html>`_: provide detailed, step-by-step instructions with screen captures to illustrate how to use a particular data type or tool and interpret its results, often with additional information and rationale to enhance its use in the context of a broader biological question. 
 
- - FAQs and Common Tasks <./faqs_common_tasks/index.html>`_: provide answers to frequently asked questions (FAQs) from our users and instructions for performing common tasks.  
+ - `FAQs and Common Tasks <./faqs_common_tasks/index.html>`_: provide answers to frequently asked questions (FAQs) from our users and instructions for performing common tasks.  

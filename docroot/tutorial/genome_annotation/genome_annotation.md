@@ -42,7 +42,7 @@ BV-BRC also provides a bacteriophage genome annotation pipeline(PHANOTATE)[3,4],
 2. This will open the home directory on your workspace.  To create a new folder, click on the Add Folder icon at the top right of the table. 
 ![Figure 3](./images/Picture3.png "Figure 3")
 
-3. This will open a pop-up window.  Note that the Create Folder button is greyed out.  Type the desired name in the text box. 
+3. This will open a pop-up window.  Note that the Create Folder button is greyed out.  Type the desired name in the text box.  
 ![Figure 4](./images/Picture4.png "Figure 4")
 
 4. Once the name is entered, the Create Folder icon will turn blue.  To create the folder, click on that button. 

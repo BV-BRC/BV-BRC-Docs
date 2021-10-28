@@ -5,8 +5,6 @@
 p3-kmer-compare
 ###############
 
-.. highlight:: perl
-
 
 *****************************************
 Perform a Kmer Comparison for Two Genomes
@@ -34,7 +32,7 @@ Parameters
 ==========
 
 
-The positional parameters are the two genomes to compare. Each genome can be either (1) a PATRIC genome ID, (2) the name of a DNA FASTA file, or
+The positional parameters are the two genomes to compare. Each genome can be either (1) a BV-BRC genome ID, (2) the name of a DNA FASTA file, or
 (3) the name of a :ref:`cli::GenomeTypeObject` file.
 
 There is no standard input.
@@ -42,19 +40,19 @@ There is no standard input.
 The command-line options are as follows.
 
 
-kmerSize
+- kmerSize
  
  The size of a kmer. The default is \ ``12``\  for DNA and \ ``8``\  for protein.
  
 
 
-geneticCode
+- geneticCode
  
  If specified, a genetic code to use to translate the DNA sequences to proteins. In this case, the matching will be on protein kmers.
  
 
 
-verbose
+- verbose
  
  If specified, completeness and contamination percentages will be included in the output matrix.
  

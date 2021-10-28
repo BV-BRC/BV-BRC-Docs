@@ -5,8 +5,6 @@
 p3-file-filter
 ##############
 
-.. highlight:: perl
-
 
 ***********************************************
 Filter a File Against Contents of a Second File
@@ -31,22 +29,38 @@ Parameters
 The positional parameters are the name of the filter file and the indices (1-based) or names of the key columns in the filter file.
 If the latter parameter is absent, the value of the \ ``--col``\  parameter will be used (same name or index as the input file).
 
-The standard input can be overriddn using the options in :ref:`cli-input-options`.
+The standard input can be overridden using the options in :ref:`cli-input-options`.
 
 Additional command-line options are the following.
 
 
-reverse
+- reverse
  
  Instead of only keeping input records that match a filter record, only keep records that do NOT match.
  
 
 
-col
+- col
  
  The name or index of the key column in the input file. If more than one value is specified, the columns are matched one-for-one
  with the corresponding filter file columns.
  
+
+
+Example
+-------
+
+
+This command is shown in the tutorial p3-common-tasks.html;
+
+p3-file-filter --reverse --col=feature.role aRoles.tbl feature.role &lt;cRoles.tbl
+
+feature.role    count
+2,3-dihydroxybenzoate-AMP ligase (EC 2.7.7.58) of siderophore biosynthesis  33
+2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase (EC 1.14.13.-)  1
+2-pyrone-4,6-dicarboxylic acid hydrolase (EC 3.1.1.57)  14
+23S ribosomal RNA rRNA prediction is too short  1
+...
 
 
 

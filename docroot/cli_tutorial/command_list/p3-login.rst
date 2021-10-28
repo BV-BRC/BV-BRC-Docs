@@ -5,11 +5,9 @@
 p3-login
 ########
 
-.. highlight:: perl
-
 
 ****************************
-Create a PATRIC login token.
+Create a BV-BRC login token.
 ****************************
 
 
@@ -19,19 +17,19 @@ Create a PATRIC login token.
      p3-login [options] username
 
 
-Create a PATRIC login token, used with workspace operations. To use this script, specify your user name on
+Create a BV-BRC login token, used with workspace operations. To use this script, specify your user name on
 the command line as a positional parameter. You will be asked for your password.
 
 The following command-line options are supported.
 
 
-logout
+- logout
  
  The current user is logged out. If this option is specified, the user name is not required.
  
 
 
-status
+- status
  
  Display the name of the user currently logged in. If this option is specified, the user name is not required.
  

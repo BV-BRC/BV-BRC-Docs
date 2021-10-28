@@ -5,11 +5,9 @@
 p3-gto
 ######
 
-.. highlight:: perl
-
 
 ************************************
-Create GTO Files from PATRIC Genomes
+Create GTO Files from BV-BRC Genomes
 ************************************
 
 
@@ -19,7 +17,7 @@ Create GTO Files from PATRIC Genomes
      p3-gto.pl [options] genome1 genome2 ... genomeN
 
 
-This script creates :ref:`cli::GenomeTypeObject` files for the specified PATRIC genomes. Each file is named using the genome ID with the suffix \ ``.gto``\ 
+This script creates :ref:`cli::GenomeTypeObject` files for the specified BV-BRC genomes. Each file is named using the genome ID with the suffix \ ``.gto``\ 
 and placed in the current directory. The \ ``--outDir``\  option can be used to specify an alternate output directory. Existing files will be
 replaced.
 
@@ -34,15 +32,21 @@ be used to modify the standard input.
 In addition, the following command-line options can modify the default behavior.
 
 
-outDir
+- outDir
  
  Name of the directory in which to put the output files. (The default is the current working directory.)
  
 
 
-missing
+- missing
  
  Only process genomes for which files do not yet exist in the output directory. The default is to replace existing files.
+ 
+
+
+- verbose
+ 
+ Display data API status messages in the standard output.
  
 
 

@@ -5,8 +5,6 @@
 p3-genome-fasta
 ###############
 
-.. highlight:: perl
-
 
 ********************************
 Return a FASTA file for a Genome
@@ -30,19 +28,19 @@ The positional parameter is the desired genome ID.
 The command-line options are as follows. All three are mutually exclusive.
 
 
-protein
+- protein
  
  If specified, the output will be a protein FASTA file.
  
 
 
-feature
+- feature
  
  If specified, the output will be a feature DNA FASTA file.
  
 
 
-contig
+- contig
  
  If specified, the output will be a contig DNA FASTA file. this is the default.
  

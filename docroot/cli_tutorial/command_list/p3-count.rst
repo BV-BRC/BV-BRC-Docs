@@ -5,8 +5,6 @@
 p3-count
 ########
 
-.. highlight:: perl
-
 
 *********************
 Count Distinct Values

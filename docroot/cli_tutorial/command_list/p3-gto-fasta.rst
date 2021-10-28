@@ -5,8 +5,6 @@
 p3-gto-fasta
 ############
 
-.. highlight:: perl
-
 
 *************************************
 Convert Genome Typed Objects to FASTA
@@ -31,19 +29,19 @@ The positional parameter is the name of the GTO file. If none is specified, the 
 The command-line options are the following. All three are mutually exclusive.
 
 
-protein
+- protein
  
  If specified, the output will be a protein FASTA file.
  
 
 
-feature
+- feature
  
  If specified, the output will be a feature DNA FASTA file.
  
 
 
-contig
+- contig
  
  If specified, the output will be a contig DNA FASTA file. this is the default.
  

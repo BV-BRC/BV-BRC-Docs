@@ -6,8 +6,8 @@ The top-level Services Menu provides access to wide range of services and tools 
 
 Clicking on one of the menu items will display an input form for the the corresponding analysis service, as described below. Note that registration and login is required for most of the analysis services.
 
-Genomics
----------
+Genomics Services
+-----------------
 
 .. toctree::
    :maxdepth: 1
@@ -23,8 +23,8 @@ Genomics
    services/genome_alignment_service.md
 
 
-Metagenomics
--------------
+Metagenomics Services
+---------------------
 .. toctree::
    :maxdepth: 1
    
@@ -33,8 +33,8 @@ Metagenomics
    services/metagenomic_binning_service.md
 
 
-Transcriptomics
-----------------
+Transcriptomics Services
+------------------------
 .. toctree::
    :maxdepth: 1
 
@@ -42,8 +42,8 @@ Transcriptomics
    services/rna_seq_analysis_service.md
 
 
-Protein Tools
---------------
+Protein Tools Services
+----------------------
 .. toctree::
    :maxdepth: 1
 
@@ -51,8 +51,8 @@ Protein Tools
    services/proteome_comparison_service.md
 
 
-Metabolomics
--------------
+Metabolomics Services
+---------------------
 .. toctree::
    :maxdepth: 1
 
@@ -60,8 +60,8 @@ Metabolomics
    services/model_reconstruction_service.md
 
 
-Data
------
+Data Services
+-------------
 
 .. toctree::
    :maxdepth: 1
@@ -69,11 +69,19 @@ Data
    services/id_mapper.md
    services/fastq_utilities_service.md
 
-Other
+Viral Services
+--------------
+
+.. toctree::
+   :maxdepth: 1
+
+   services/sars_cov_2_assembly_annotation_service.md
+   services/msa_snp_variation_service.md
+
+Data Visualizations
 ------
 
 .. toctree::
    :maxdepth: 1
 
    other/msa_viewer.md
-   services/sars_cov_2_assembly_annotation_service.md

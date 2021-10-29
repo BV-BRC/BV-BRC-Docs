@@ -1,6 +1,16 @@
 #
-# Read the p3-scripts list; pull the data from github;
-# transform to restructured text and place into the correct location.
+# Create the reference CLI documentation.
+# 
+# We pull from a named set of modules bvbrc-modules.txt. Each of these is found
+# in the container build repository (currently in
+# ~olson/sing/deployment/production-distributions/distribs/bvbrc-compute-image).
+#
+# All scripts in the scripts directory from chosen modules are included. If there
+# is a file DocBlocklist in the module, the files listed there will not be included.
+#
+# If there is a file DocLibs in the module, the library modules listed there will be
+# included.
+# 
 #
 
 use strict;
@@ -11,6 +21,29 @@ use LWP::UserAgent;
 use Pod::POM;
 use Pod::POM::View::Restructured;
 use File::Basename;
+use Getopt::Long::Descriptive;
+
+my($opt, $usage) = describe_options("%c %o container-version",
+				    ["container-dir=s" => "Location of container build repository",
+				 { default => "/home/olson/sing/deployment/production-distributions/distribs/bvbrc-compute-image" }],
+				    ["help|h" => "Show this help message."]);
+print($usage->text), exit 0 if $opt->help;
+die($usage->text) unless @ARGV == 1;
+
+my $version = shift;
+my $base_dir;
+
+if (-d $version)
+{
+    $base_dir = $version;
+    $version = "dev";
+}
+else
+{
+    $base_dir = $opt->container_dir . "/build-$version";
+}
+
+-d $base_dir or die "Cannot find distribution at $base_dir\n";
 
 my %link_map  = ('P3Utils/ih_options' => ":ref:`cli-input-options`",
 		 'P3Utils::ih_options' => ":ref:`cli-input-options`",
@@ -19,30 +52,111 @@ my %link_map  = ('P3Utils/ih_options' => ":ref:`cli-input-options`",
 		 'P3Utils/delim_options' => ":ref:`cli-delimiter-options`",
 		 );
 
-my $ua = LWP::UserAgent->new;
-
-my $url_top = "https://raw.githubusercontent.com/SEEDtk/RASTtk/master";
 my $out_base = "../docroot/cli_tutorial/command_list";
 
+my %modules;
 my %unmapped_links;
 
 #
-# read the module list first to find the moduels we can link to.
+# Ick. Prescan for modules
 #
-
-
-my %modules;
-open(M, "<", "p3-module-list.txt") or die "cannot read p3-module-list.txt: $!";
-while (<M>)
+open(M, "<", "bvbrc-modules.txt") or die "Cannot open bvbrc-modules.txt: $!";
+while (defined(my $mod = <M>))
 {
-    chomp;
-    s/\.pm$//;
-    $modules{$_} = 1;
+    chomp $mod;
+
+    my $mpath = "$base_dir/dev_container/modules/$mod";
+
+    -d $mpath or die "Cannot find module path $mpath\n";
+    if (open(L, "<", "$mpath/DocLibs"))
+    {
+	while (defined(my $lib = <L>))
+	{
+	    chomp $lib;
+	    my $lpath = "$mpath/lib/$lib";
+	    if (-f $lpath)
+	    {
+		$lib =~ s/.pm$//;
+		$modules{$lib} = 1;
+	    }
+	    else
+	    {
+		die "Library $lpath not found\n";
+	    }
+	}
+	close(L);
+    }
+    else
+    {
+	# print "No doclibs for $mpath\n";
+    }
 }
 close(M);
 
-transform("p3-script-list.txt", "$url_top/scripts");
-transform("p3-module-list.txt", "$url_top/lib");
+#
+# Scan module directories.
+#
+
+open(M, "<", "bvbrc-modules.txt") or die "Cannot open bvbrc-modules.txt: $!";
+while (defined(my $mod = <M>))
+{
+    chomp $mod;
+
+    my $mpath = "$base_dir/dev_container/modules/$mod";
+
+    -d $mpath or die "Cannot find module path $mpath\n";
+
+    my @block;
+    if (open(B, "<", "$mpath/DocBlocklist"))
+    {
+	while (<B>)
+	{
+	    chomp;
+	    s/^\s*//;
+	    next if /^\#/;
+	    s/\s*$//;
+	    push(@block, qr/$_/);
+	}
+	close(B);
+    }
+
+    if (opendir(D, "$mpath/scripts"))
+    {
+	while (my $p = readdir(D))
+	{
+	    my $bpath = "$mpath/scripts/$p";
+	    next unless -f $bpath;
+	    next if $p =~ /^\./;
+	    next unless $p =~ /\.pl/;
+	    next if grep { $p =~ $_ } @block;
+	    
+	    #	print "Process $bpath\n";
+	    
+	    transform($bpath);
+	}
+	closedir(D);
+    }
+
+    if (open(L, "<", "$mpath/DocLibs"))
+    {
+	while (defined(my $lib = <L>))
+	{
+	    chomp $lib;
+	    my $lpath = "$mpath/lib/$lib";
+	    if (-f $lpath)
+	    {
+		print "Process $lpath\n";
+		transform($lpath);
+	    }
+	    else
+	    {
+		die "Library $lpath not found\n";
+	    }
+	}
+	close(L);
+    }
+}
+
 
 
 if (%unmapped_links)
@@ -56,35 +170,19 @@ if (%unmapped_links)
 
 sub transform
 {
-    my($file, $url_base) = @_;
-    open(S, "<", $file) or die "Cannot open $file $!";
+    my($pod_file) = @_;
 
     my $conv = Pod::POM::View::Restructured->new(); # {namespace => 'cli'});
 
-    while (my $script = <S>)
-    {
-	chomp $script;
-	print "$script\n";
-	my $url = "$url_base/$script";
-	my $res = $ua->get($url);
-	if (!$res->is_success)
-	{
-	    die "Error " . $res->code . " fetching $url: " . $res->content;
-	}
+    my $base = basename($pod_file, ".pl", ".pm");
+    my $out_file = "$out_base/$base.rst";
 
-	my $txt = $res->content;
-	my $tmp = File::Temp->new();
-	print $tmp $txt;
-	close($tmp);
+    # print "Transform $pod_file to $out_file\n";
 
-	my $base = basename($script, ".pl", ".pm");
-	my $out_file = "$out_base/$base.rst";
+    open(my $fh, ">", $out_file) or die "Cannot write $out_file: $!";
+    print $fh ".. _cli::$base:\n\n";
 
-	open(my $fh, ">", $out_file) or die "Cannot write $out_file: $!";
-	print $fh ".. _cli::$base:\n\n";
-
-	$conv->convert_file("$tmp", $base, $fh, { link => \&handle_link });
-    }
+    $conv->convert_file($pod_file, $base, $fh, { link => \&handle_link });
 }
 
 sub handle_link

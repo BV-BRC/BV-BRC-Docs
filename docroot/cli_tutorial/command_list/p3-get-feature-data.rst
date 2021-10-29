@@ -5,11 +5,9 @@
 p3-get-feature-data
 ###################
 
-.. highlight:: perl
-
 
 ***********************************
-Return Data From Features in PATRIC
+Return Data From Features in BV-BRC
 ***********************************
 
 
@@ -28,12 +26,12 @@ Parameters
 
 There are no positional parameters.
 
-The standard input can be overriddn using the options in :ref:`cli-input-options`.
+The standard input can be overridden using the options in :ref:`cli-input-options`.
 
 Additional command-line options are those given in :ref:`cli-data-options` and :ref:`cli-column-options` plus the following.
 
 
-fields
+- fields
  
  List the available field names.
  

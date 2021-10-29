@@ -5,8 +5,6 @@
 p3-list-feature-groups
 ######################
 
-.. highlight:: perl
-
 
 *******************
 List Feature Groups

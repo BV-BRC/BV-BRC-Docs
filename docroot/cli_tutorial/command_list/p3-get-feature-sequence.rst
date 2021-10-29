@@ -5,8 +5,6 @@
 p3-get-feature-sequence
 #######################
 
-.. highlight:: perl
-
 
 ****************************************
 Create A FASTA File of Feature Sequences
@@ -33,13 +31,13 @@ The standard input can be overridden using the options in :ref:`cli-input-option
 The command-line options are those in :ref:`cli-column-options` (to choose the input column) plus the following.
 
 
-protein
+- protein
  
  Output amino acid sequences (the default).
  
 
 
-dna
+- dna
  
  Output DNA sequences (mutually exclusive with \ ``protein``\ ).
  

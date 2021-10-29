@@ -5,8 +5,6 @@
 p3-match
 ########
 
-.. highlight:: perl
-
 
 ******************************
 Select Rows from an Input File
@@ -36,15 +34,27 @@ The command-line options are those in :ref:`cli-column-options` (for selection o
 following.
 
 
-reverse
+- reverse
  
  If specified, only rows that do not match will be output.
  
 
 
-discards
+- discards
  
  If specified, the name of a file to contain the records that do not match.
+ 
+
+
+- exact
+ 
+ If specified, even a non-numeric match will be exact.
+ 
+
+
+- nonblank
+ 
+ If specified, all non-blank column values match and the positional parameter is ignored.
  
 
 

@@ -5,8 +5,6 @@
 p3-build-kmer-db
 ################
 
-.. highlight:: perl
-
 
 ***********************************************
 Build a Kmer Database from a Table of Sequences
@@ -42,26 +40,26 @@ The options in :ref:`cli-column-options` can be used to specify the input column
 Additional command-line options are the following.
 
 
-kmerSize
+- kmerSize
  
  The size of a kmer. The default is \ ``15``\ .
  
 
 
-max
+- max
  
  The maximum number of times a kmer can appear. A kmer appearing more than the specified number of times is considered common and discarded. A value of \ ``0``\ 
  indicates all kmers should be kept. The default is \ ``10``\ .
  
 
 
-nameCol
+- nameCol
  
  The index (1-based) or name of the input column containing the group names.
  
 
 
-discriminating
+- discriminating
  
  If specified, only discriminating kmers (that is, kmers unique to a single group) are kept. In this case, the \ ``--max``\  option is ignored.
  

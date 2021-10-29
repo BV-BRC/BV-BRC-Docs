@@ -5,8 +5,6 @@
 p3-rast
 #######
 
-.. highlight:: perl
-
 
 ****************************
 Annotate a Genome Using RAST
@@ -32,7 +30,7 @@ two positional parameters are the proposed taxonomic ID and the genome name. The
 options are as follows.
 
 
-gto
+- gto
  
  If specified, then the input file is presumed to be a contig object or a workspace contig object
  encoded in JSON format. The contigs must be in the form of a list attached to the \ ``contigs``\ 
@@ -40,34 +38,40 @@ gto
  
 
 
-domain
+- domain
  
  The domain of the new genome-- \ ``B``\  for bacteria, \ ``A``\  for archaea, and so forth. The default is
  \ ``B``\ .
  
 
 
-geneticCode
+- geneticCode
  
  The genetic code of the new genome. The default is \ ``11``\ .
  
 
 
-user
+- user
  
  User name for RAST access.
  
 
 
-password
+- password
  
  Password for RAST access.
  
 
 
-sleep
+- sleep
  
  Sleep interval in seconds while waiting for the job to complete. The default is \ ``60``\ .
+ 
+
+
+- noIndex
+ 
+ Do not add the genome to the BV-BRC index.
  
 
 

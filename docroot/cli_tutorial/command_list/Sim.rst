@@ -5,8 +5,6 @@
 Sim
 ###
 
-.. highlight:: perl
-
 
 *****************
 Similarity Object
@@ -46,7 +44,7 @@ new
 Create a similarity object from an array of fields.
 
 
-data
+- data
  
  An array of data in fields:
  
@@ -82,7 +80,7 @@ data
  
 
 
-RETURN
+- RETURN
  
  Returns a similarity object that allows the values to be accessed by name.
  
@@ -104,14 +102,14 @@ new_from_hsp
 Create a similarity object from a gjoparseblast hsp.
 
 
-hsp
+- hsp
  
  An array of data on a blast hsp as returned by gjoparseblast::blast_hsp_list()
  or gjoparseblast::next_blast_hsp().
  
 
 
-RETURN
+- RETURN
  
  Returns a similarity object that allows the values to be accessed by name.
  
@@ -154,14 +152,14 @@ Create a similarity object from a blast output line. The line is presumed to hav
 the complete list of similarity values in it, tab-separated.
 
 
-line
+- line
  
  Input line, containing the similarity values in it delimited by tabs. A line terminator
  may be present at the end.
  
 
 
-RETURN
+- RETURN
  
  Returns a similarity object that allows the values to be accessed by name.
  
@@ -192,7 +190,7 @@ as_line
 
 
 Return the similarity as an output line. This is exactly the reverse of
-/new_from_line_.
+`/new_from_line </new_from_line>`_.
 
 
 id1

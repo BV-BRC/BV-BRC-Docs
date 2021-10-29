@@ -6,7 +6,7 @@ The Multiple Sequence Alignment (MSA) and Single Nucleotide Polymorphism (SNP)/V
 ### See also
 * [MSA and SNP/Variation Analysis Service](https://beta.bv-brc.org/app/MSA)
 * [MSA and SNP/Variation Analysis Service Tutorial](../msa_snp_variation.html)
-* [Comparative Pathway Tool User Guide](../other/msa_viewer.html)
+* [MSA Viewer](../other/msa_viewer.html)
 
 ## Using the Multiple Sequence Alignment and Variation/SNP Analysis Service
 The **Multiple Sequence Alignment** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the MSA and SNP/Variation Service input form. *Note: You must be logged into BV-BRC to use this service.*
@@ -71,7 +71,7 @@ After selecting one of the output files by clicking it, a set of options becomes
   - **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
   - **Guide:** Links to the corresponding Quick Reference guide
   - **Download:** Downloads the selected item.
-  - **MSA:** Displays the aligned FASTA directly on the BV-BRC site with the MSA viewer.  
+  - **MSA:** Displays the aligned FASTA directly on the BV-BRC site with the [MSA Viewer](../other/msa_viewer.html).  
   - **View:** Displays the content of the file, typically as plain text or rendered html, depending on filetype.
   - **Delete:** Deletes the file.
   - **Rename:** Allows renaming of the file.

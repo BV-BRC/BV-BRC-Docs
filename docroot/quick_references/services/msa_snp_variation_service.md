@@ -78,7 +78,7 @@ After selecting one of the output files by clicking it, a set of options becomes
   - **Copy:** Copies the selected items to the clipboard.
   - **Move:** Allows moving of the file to another folder.
   
-More details are available in the [Action Buttons](../action_bar.html) Quick Reference.
+More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference.
 
 ## References
 1.	 Katoh K., Misawa K., Kuma K., Miyata T. MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform. Nucleic Acids Res. 2002;30:3059–3066. 

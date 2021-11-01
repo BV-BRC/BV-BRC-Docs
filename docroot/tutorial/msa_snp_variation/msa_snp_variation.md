@@ -8,8 +8,8 @@ MSA, multiple sequence alignment, mafft, muscle, progressiveMauve, SNP, variatio
 
 ### See also
 * [MSA and SNP/Variation Analysis Service](https://beta.bv-brc.org/app/MSA)
-* [MSA and SNP/Variation Analysis Service Quick Reference](../../quick_references/msa_snp_variation.html)
-* [MSA Viewer](../../other/msa_viewer.html)
+* [MSA and SNP/Variation Analysis Service Quick Reference](../../quick_references/services/msa_snp_variation_service.html)
+* [MSA Viewer](../../quick_references/other/msa_viewer.html)
 
 ## Locating the MSA and Variation Analysis App
 

@@ -10,7 +10,8 @@ BV-BRC Documentation
    overview
    quick_references/index
    tutorial/index
-   faqs_common_tasks/index
+   cli_tutorial/index
+   .. faqs_common_tasks/index
 ..
    quickstart_video
    cli_tutorial/index

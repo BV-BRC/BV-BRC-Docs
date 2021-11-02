@@ -5,6 +5,7 @@ The Multiple Sequence Alignment (MSA) Viewer provides an interactive visualizati
 
 ### See also
   * [Features Tab](../organisms_taxon/features.html)
+  * [MSA and SNP/Variation Service Tutorial](../../tutorial/msa_snp_variation/msa_snp_variation.html)
 
 ## Accessing the MSA Viewer
 The MSA Viewer can be accessed in two different ways:

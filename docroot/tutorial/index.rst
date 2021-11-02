@@ -52,3 +52,4 @@ Viral Services
    :maxdepth: 1
 
    sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.md
+   msa_snp_variation/msa_snp_variation.md

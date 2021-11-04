@@ -20,23 +20,24 @@ Once the primer design service has been selected, users will be directed to the 
 ![Figure 1](../images/primer_Picture1.png "Figure 1") 
 
 Users may select one of three input options. 
-1. *Pasting in a relevant sequence:* 
 
-   * **Sequence Identifier:** The user-provided name to identify the input sequence. If using a FASTA formatted file, this field will automatically be populated with the sequence name. 
+*(1) Pasting in a relevant sequence:* 
 
-   * **Paste Sequence:** Choosing this option allows users to paste in an input sequence. 
+**Sequence Identifier:** The user-provided name to identify the input sequence. If using a FASTA formatted file, this field will automatically be populated with the sequence name. 
+
+**Paste Sequence:** Choosing this option allows users to paste in an input sequence. 
 
 ![Figure 2](../images/primer_Picture2.png "Figure 2")
 
-2. *Choosing a workspace sequence:*
+*(2) Choosing a workspace sequence:*
 
-   * **Workspace FASTA:** Choosing this option allows users to specify the FASTA file from their workspace. 
+**Workspace FASTA:** Choosing this option allows users to specify the FASTA file from their workspace. 
 
 ![Figure 3](../images/primer_Picture3.png "Figure 3")
 
-3. *Choosing a BV-BRC record:* 
+*(3) Choosing a BV-BRC record:* 
 
-   * **BV-BRC ID:** Choosing this option allows users to specify the BV-BRC identifier for an input sequence. 
+**BV-BRC ID:** Choosing this option allows users to specify the BV-BRC identifier for an input sequence. 
   
 ![Figure 4](../images/primer_Picture4.png "Figure 4")
 
@@ -44,39 +45,39 @@ Users may select one of three input options.
 
 ![Figure 5](../images/primer_Picture5.png "Figure 5")
 
-   * **Excluded Regions:** Values should be one or a space-separated list of start, length pairs. Primers will not overlap these regions. These values will be denoted with “< >” symbols.
+**Excluded Regions:** Values should be one or a space-separated list of start, length pairs. Primers will not overlap these regions. These values will be denoted with “< >” symbols.
 
-   * **Targets:** Values should be one or a space-separated list of start, length pairs. Primers will flank one or more regions. These values will be denoted with “[ ]” symbols.
+**Targets:** Values should be one or a space-separated list of start, length pairs. Primers will flank one or more regions. These values will be denoted with “[ ]” symbols.
 
-   * **Included Regions:** Values should be a single start, length pair. Primers will be picked within this range. These values will be denoted with “{ }” symbols.
+**Included Regions:** Values should be a single start, length pair. Primers will be picked within this range. These values will be denoted with “{ }” symbols.
 
-   * **Primer Overlap Positions:** Values should be space separated list of positions, The forward OR reverse primer will overlap one of these positions. These values will be denoted with “-” symbol. 
+**Primer Overlap Positions:** Values should be space separated list of positions, The forward OR reverse primer will overlap one of these positions. These values will be denoted with “-” symbol. 
 
-   * **Output Folder:** The workspace folder where results will be placed.
+**Output Folder:** The workspace folder where results will be placed.
 
-   * **Output Name:** The name users specify for the completed job. 
+**Output Name:** The name users specify for the completed job. 
 
   *Users may also choose to specify one or more “Advanced Options” as shown below.*
 
 ![Figure 6](../images/primer_Picture6.png "Figure 6")
 
-   * **Number to Return:** number of primers/primer pairs to return.
+**Number to Return:** number of primers/primer pairs to return.
 
-   * **Product Size Ranges:** desired product size range.
+**Product Size Ranges:** desired product size range.
 
-   * **Primer Size:** desired primer length. 
+**Primer Size:** desired primer length. 
 
-   * **Primer TM:** melting temperature (Celsius) for a primer oligo.  
+**Primer TM:** melting temperature (Celsius) for a primer oligo.  
 
-   * **Primer GC%:** percentage of Gs (guanines) and Cs (cytosine) desired in primers.
+**Primer GC%:** percentage of Gs (guanines) and Cs (cytosine) desired in primers.
 
-   * **Concentration of Monovalent Cations:** The millimolar (mM) concentration of monovalent salt cations (usually KCl) in the PCR. Primer3 uses this argument to calculate oligo and primer melting temperatures.
+**Concentration of Monovalent Cations:** The millimolar (mM) concentration of monovalent salt cations (usually KCl) in the PCR. Primer3 uses this argument to calculate oligo and primer melting temperatures.
 
-   * **Concentration of Divalent Cations:** The millimolar concentration of divalent salt cations (usually MgCl^(2+)) in the PCR.
+**Concentration of Divalent Cations:** The millimolar concentration of divalent salt cations (usually MgCl^(2+)) in the PCR.
 
-   * **Annealing Oligo Concentration:** A value to use as nanomolar (nM) concentration of each annealing oligo over the course the PCR.
+**Annealing Oligo Concentration:** A value to use as nanomolar (nM) concentration of each annealing oligo over the course the PCR.
 
-   * **Concentration of DNTPs:** The millimolar concentration of the sum of all deoxyribonucleotide triphosphates.
+**Concentration of DNTPs:** The millimolar concentration of the sum of all deoxyribonucleotide triphosphates.
 
 *More details on primer3 settings can be found on the primer3 manual[5] page.* 
 
@@ -84,9 +85,9 @@ Users may select one of three input options.
 
 ![Figure 7](../images/primer_Picture7.png "Figure 7")
 
-   * **Reset:** Resets the input form to default values
+**Reset:** Resets the input form to default values
 
-   * **Submit:** Launches the primer design job. A message will appear below the box to indicate that the job is now in the queue. 
+**Submit:** Launches the primer design job. A message will appear below the box to indicate that the job is now in the queue. 
 
 ![Figure 8](../images/primer_Picture8.png "Figure 8")
 

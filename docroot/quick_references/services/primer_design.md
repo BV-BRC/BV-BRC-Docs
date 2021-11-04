@@ -60,24 +60,87 @@ Users may select one of three input options.
 
 ![Figure 6](../images/primer_Picture6.png "Figure 6")
 
+   * **Number to Return:** number of primers/primer pairs to return.
+
+   * **Product Size Ranges:** desired product size range.
+
+   * **Primer Size:** desired primer length. 
+
+   * **Primer TM:** melting temperature (Celsius) for a primer oligo.  
+
+   * **Primer GC%:** percentage of Gs (guanines) and Cs (cytosine) desired in primers.
+
+   * **Concentration of Monovalent Cations:** The millimolar (mM) concentration of monovalent salt cations (usually KCl) in the PCR. Primer3 uses this argument to calculate oligo and primer melting temperatures.
+
+   * **Concentration of Divalent Cations:** The millimolar concentration of divalent salt cations (usually MgCl^(2+)) in the PCR.
+
+   * **Annealing Oligo Concentration:** A value to use as nanomolar (nM) concentration of each annealing oligo over the course the PCR.
+
+   * **Concentration of DNTPs:** The millimolar concentration of the sum of all deoxyribonucleotide triphosphates.
+
+*More details on primer3 settings can be found on the primer3 manual[5] page.* 
+
+### Buttons
 
 ![Figure 7](../images/primer_Picture7.png "Figure 7")
 
+   * **Reset:** Resets the input form to default values
+
+   * **Submit:** Launches the primer design job. A message will appear below the box to indicate that the job is now in the queue. 
 
 ![Figure 8](../images/primer_Picture8.png "Figure 8")
 
+## Output Results
+
+Clicking on the Jobs indicator at the bottom of the BV-BRC page open the Jobs Status page that displays all current and previous service jobs and their status. 
 
 ![Figure 9](../images/primer_Picture9.png "Figure 9")
 
+Once the job has completed, selecting the job by clicking on it and clicking the “View” button on the green vertical Action Bar on the right-hand side of the page displays the results files. 
 
 ![Figure 10](../images/primer_Picture10.png "Figure 10")
 
+The results page will consist of a header describing the job and a list of output files, as shown below. 
 
 ![Figure 11](../images/primer_Picture11.png "Figure 11")
 
+The Primer Design Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include
+
+* **.txt** – a text file specifying parameters used. If none are specified, defied parameters will be used/listed. 
+* **.html** – a HyperText Markup Language file displaying output primer pairs, as well as their properties, statistics, and location in the input sequence (see below). 
 
 ![Figure 12](../images/primer_Picture12.png "Figure 12")
 
-
 ![Figure 13](../images/primer_Picture13.png "Figure 13")
 
+### Action buttons
+
+After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table. These include
+
+* **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
+
+* **Guide:** Links to the corresponding Quick Reference
+
+* **Download:** Downloads the selected item.
+
+* **View:** Displays the content of the file, typically as plain text or rendered html, depending on filetype.
+
+* **Delete:** Deletes the file.
+
+* **Rename:** Allows renaming of the file.
+
+* **Copy:** Copies the selected items to the clipboard.
+
+* **Move:** Allows moving of the file to another folder.
+
+* **Edit Type:** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website. Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
+
+More details are available in the [Action Bar Quick Reference](./action_bar.html).
+
+## References
+
+1.	Rozen S, Skaletsky H (2000) Primer3 on the WWW for general users and for biologist programmers. Methods Mol Biol 132(3):365–386
+2.	Untergasser A, Nijveen H, Rao X, Bisseling T, Geurts R, Leunissen JA (2007) Primer3Plus, an enhanced web interface to Primer3. Nucleic Acids Res 35(Web Server issue):71–74
+3.	You FM, Huo N, Gu YQ, Luo MC, Ma Y, Hane D, Lazo GR, Dvorak J, Anderson OD (2008) BatchPrimer3: a high throughput web application for PCR and sequencing primer design. BMC Bioinformatics 9:253
+4.	https://github.com/primer3-org
+5.	https://primer3.org/manual.html#PRIMER_DNA_CONC

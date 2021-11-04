@@ -77,6 +77,7 @@ Viral Services
 
    services/sars_cov_2_assembly_annotation_service.md
    services/msa_snp_variation_service.md
+   services/primer_design_service.md
 
 Data Visualizations
 ------

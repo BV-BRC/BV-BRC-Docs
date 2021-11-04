@@ -63,10 +63,10 @@ The results page will consist of a header describing the job and a list of outpu
 ![Figure 6](../images/metacats_Picture6.png "Figure 6")
 
 The MSA Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include:
-•	.afa – the alignment file in fasta format.
-•	.consensus.fasta – A consensus sequence, ie: the calculated order of most frequent residues (nucleotide or amino acid) in a sequence alignment. 
-•	.entropy.png –  a PNG (portable network graphics) image file showing the entropy score plotted against the sequence position. 
-•	.entropy.svg – a SVG (scalable vector graphics) image file showing the entropy score plotted against the sequence position.
-•	.snp.tsv – A tab separated value file allowing users a tabular view of all nucleotide or amino acid variations found within their MSA.
+   * **.afa** – the alignment file in fasta format.
+   * **.consensus.fasta** – A consensus sequence, ie: the calculated order of most frequent residues (nucleotide or amino acid) in a sequence alignment.
+   * **.entropy.png** –  a PNG (portable network graphics) image file showing the entropy score plotted against the sequence position.
+   * **.entropy.svg** – a SVG (scalable vector graphics) image file showing the entropy score plotted against the sequence position.
+   * **.snp.tsv** – A tab separated value file allowing users a tabular view of all nucleotide or amino acid variations found within their MSA.
 
-
+NEED TO FINISH

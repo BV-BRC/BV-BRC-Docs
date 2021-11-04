@@ -136,7 +136,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 
 * **Edit Type:** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website. Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Bar Quick Reference](./action_bar.html).
+More details are available in the [Action Bar Quick Reference](../action_bar.html).
 
 ## References
 

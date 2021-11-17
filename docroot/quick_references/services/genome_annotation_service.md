@@ -97,7 +97,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Move** Allows moving of the file to another folder.
 * **Edit Type** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Buttons](../action_buttons.html) quick reference.
+More details are available in the [Action Bar](../action_bar.html) quick reference.
 
 ## References
 1. Brettin T, Davis JJ, Disz T, Edwards RA, Gerdes S, Olsen GJ, Olson R, Overbeek R, Parrello B, Pusch GD, Shukla M, Thomason JA 3rd, Stevens R, Vonstein V, Wattam AR, Xia F. (2015). RASTtk: a modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. Scientific reports 5: 8365.

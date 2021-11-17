@@ -53,3 +53,4 @@ Viral Services
 
    sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.md
    msa_snp_variation/msa_snp_variation.md
+   metacats/metacats.md

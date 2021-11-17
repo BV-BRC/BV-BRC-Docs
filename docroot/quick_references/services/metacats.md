@@ -5,7 +5,7 @@ The meta-CATS metadata genome comparison tool takes sequence data and determines
 
 ### See also
 * [Metadata-driven Comparative Analysis Tool (meta-CATS)](https://beta.bv-brc.org/app/MetaCATS)
-* [Metadata-driven Comparative Analysis Tool (meta-CATS) Tutorial](../tutorial/metacats.html)
+* [Metadata-driven Comparative Analysis Tool (meta-CATS) Tutorial](../../tutorial/metacats/metacats.html)
 
 ## Using the Meta-CATS Service
 The **Meta-CATS** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the Meta-CATS Service input form. *Note: You must be logged into BV-BRC to use this service.*

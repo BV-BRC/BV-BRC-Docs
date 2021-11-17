@@ -11,7 +11,41 @@ The service returns a Newick file which can be rendered in the interactive Archa
 * [Phylogenetic Gene Tree Service](https://beta.bv-brc.org/app/GeneTree)
 * [Phylogenetic Gene Tree Tutorial](../../tutorial/genetree/genetree.html)
 
-## Using the Meta-CATS Service
-The **Meta-CATS** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the Meta-CATS Service input form. *Note: You must be logged into BV-BRC to use this service.*
+## Using the Service
+The **Gene Tree** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the phylogenetic tree input form. *Note: You must be logged into BV-BRC to use this service.*
 
-![Meta-CATS menu option](../images/bv_services_menu.png) 
+![BV-BRC Services Menu](../images/bv_services_menu.png) 
+
+## Input Options and Parameters
+
+Several options exist for tree building. Below is a description of input, output, and parameter options. 
+
+![Figure 1](./images/genetree_Picture1.png "Figure 1")
+
+
+![Figure 2](./images/genetree_Picture2.png "Figure 2")
+
+
+![Figure 3](./images/genetree_Picture3.png "Figure 3")
+
+
+![Figure 4](./images/genetree_Picture4.png "Figure 4")
+
+
+![Figure 5](./images/genetree_Picture5.png "Figure 5")
+
+
+![Figure 6](./images/genetree_Picture6.png "Figure 6")
+
+
+![Figure 7](./images/genetree_Picture7.png "Figure 7")
+
+
+![Figure 8](./images/genetree_Picture8.png "Figure 8")
+
+
+![Figure 9](./images/genetree_Picture9.png "Figure 9")
+
+
+![Figure 10](./images/genetree_Picture10.png "Figure 10")
+

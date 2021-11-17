@@ -12,7 +12,7 @@ The **Meta-CATS** submenu option under the **"SERVICES"** main menu (Viral Servi
 
 ![Meta-CATS menu option](../images/bv_services_menu.png) 
 
-### Parameters
+## Parameters
 
 Below is a screenshot of the Meta-CATS landing page, as well as a summary of customizable parameters.  
 
@@ -38,7 +38,7 @@ Below is a screenshot of the Meta-CATS landing page, as well as a summary of cus
 
 **Selected Objects Table:** The user specified files and/or datasets designated for analysis by the MSA and variation/SNP analysis tool. 
 
-### Buttons
+## Buttons
 
 ![Figure 2](../images/metacats_Picture2.png "Figure 2")
 
@@ -48,7 +48,7 @@ Below is a screenshot of the Meta-CATS landing page, as well as a summary of cus
 
 ![Figure 3](../images/metacats_Picture3.png "Figure 3")
 
-### Output Results
+## Output Results
 
 Clicking on the Jobs indicator at the bottom of the BV-BRC page open the Jobs Status page that displays all current and previous service jobs and their status. 
 
@@ -62,11 +62,22 @@ The results page will consist of a header describing the job and a list of outpu
 
 ![Figure 6](../images/metacats_Picture6.png "Figure 6")
 
-The MSA Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include:
-   * **.afa** – the alignment file in fasta format.
-   * **.consensus.fasta** – A consensus sequence, ie: the calculated order of most frequent residues (nucleotide or amino acid) in a sequence alignment.
-   * **.entropy.png** –  a PNG (portable network graphics) image file showing the entropy score plotted against the sequence position.
-   * **.entropy.svg** – a SVG (scalable vector graphics) image file showing the entropy score plotted against the sequence position.
-   * **.snp.tsv** – A tab separated value file allowing users a tabular view of all nucleotide or amino acid variations found within their MSA.
+The Meta-CATS Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include:
 
-NEED TO FINISH
+* **chisqTable.tsv** - a tab separated value file with results for a “Chi-square Goodness” of fit test result: ie: positions that have significant non-random distribution between the specified groups
+* **mcTable.tsv** - a tab separated value file with results for adjusted  p-values for multiple comparisons.
+* **Mafft.log** - an output log file produced by the Mafft aligner. 
+
+## Action buttons
+After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table. These include:
+
+* **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
+* **Guide Link:** to the corresponding Quick Reference.
+* **Download:** Downloads the selected item.
+* **View:** Displays the content of the file, typically as plain text or rendered html, depending on filetype.
+* **Delete:** Deletes the file.
+* **Rename:** Allows renaming of the file.
+* **Copy:** Copies the selected items to the clipboard.
+* **Move:** Allows moving of the file to another folder.
+
+More details are available in the [Action Buttons](../action_buttons.html) user guide.

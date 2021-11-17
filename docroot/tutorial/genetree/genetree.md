@@ -16,7 +16,7 @@ At the top of any BV-BRC page, find the **SERVICES** tab and then click on Gene 
  
 ![Services menu](../../quick_references/images/bv_services_menu.png)
 
-This will open the phylogenetic tree input form. Note: You must be logged into BV-BRC to use this service. 
+This will open the phylogenetic tree input form. *Note: You must be logged into BV-BRC to use this service.* 
 
 ![Figure 1](./images/Picture1.png "Figure 1")
 

@@ -80,4 +80,4 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Copy:** Copies the selected items to the clipboard.
 * **Move:** Allows moving of the file to another folder.
 
-More details are available in the [Action Buttons](../action_buttons.html) user guide.
+More details are available in the [Action Buttons](../action_bar.html) quick reference.

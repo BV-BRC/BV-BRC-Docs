@@ -76,6 +76,7 @@ Viral Services
    :maxdepth: 1
 
    services/sars_cov_2_assembly_annotation_service.md
+   services/genetree.md
    services/msa_snp_variation_service.md
    services/metacats.md
    services/primer_design_service.md

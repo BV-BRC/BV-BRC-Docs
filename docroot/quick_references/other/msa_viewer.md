@@ -5,11 +5,12 @@ The Multiple Sequence Alignment (MSA) Viewer provides an interactive visualizati
 
 ### See also
   * [Features Tab](../organisms_taxon/features.html)
+  * [MSA and SNP/Variation Service Tutorial](../../tutorial/msa_snp_variation/msa_snp_variation.html)
 
 ## Accessing the MSA Viewer
 The MSA Viewer can be accessed in two different ways:
 
-1. By selecting a set of features in the Features Tab or any other table that contains features/genes (nucleotide sequences) or proteins (amino acid sequences), then clicking the MSA button in the vertical green Action Bar to the right of the table, as shown below. Results presented in the MSA Viewer are generated using FastTree (Price 2009), Gblocks (Castresana 2002), and Muscle (Edgar 2004). 
+1. By selecting a set of features in the Features Tab or any other table that contains features/genes (nucleotide sequences) or proteins (amino acid sequences), then clicking the MSA button in the vertical green Action Bar to the right of the table, as shown below. Results presented in the MSA Viewer are generated using FastTree[1], Gblocks[2], and Muscle[3]. 
 
 ![MSA Action Button Selection](../images/msa_action_button_select.png)
 
@@ -45,50 +46,56 @@ Clicking on a node in the treee selects all items in that branch, as indicated b
 
 The multiple sequence alignment shows color-coded alginment of the letters in the sequnces in columns. The color scheme can be changed using the Colors button in the vertical green Action Bar on right side of the aignment. The sequence logo shows the amount of consservation of the letters in that column, indicated by the height of the corresponding letter.  A scrollbar between the seqeunce logo and alignment allows horizontal scrolling across the entire alignment.
 
-
-
 ### Action buttons
 
 After selecting one or more of the experiments by clicking the checkbox beside the Title column in the table, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
-* **Colors:** Displays a list of color coding options for the sequence alignment and logo. Several color schemes are available for visualizing MSAs.  Color schemes with a four (4) have been adapted from the Jalview MSA (more information here) 
-   * *Nucleotide(4) (nucleotide color scheme)*
-   * *Purine(4) = purine/pyrimidine (nucleotide color scheme)*
-   * *Zappo(4) (protein color scheme):* amino acid residues are colored by their physicochemical properties
-   * *Taylor(4) (protein color scheme):* amino acid residues are colored by the scheme provided by Taylor, 1997.
-   * *Hydrophobicity (protein color scheme):* amino acid residues are colored by the table of hydrophobicity. Briefly, the most hydrophobic residues are colored in red, the most hydrophilic ones in blue, and residues with intermediate properties are the halftones of purple.
+* **Colors:** Displays a list of color coding options for the sequence alignment and logo. Several color schemes are available for visualizing MSAs.  Color schemes with an asterix (\*) have been adapted from the Jalview MSA (more information here) 
+   * *Nucleotide\* (nucleotide color scheme)*
+   * *Purine\* = purine/pyrimidine (nucleotide color scheme)*
+   * *[Zappo](http://www.jalview.org/help/html/colourSchemes/zappo.html)\* (protein color scheme):* amino acid residues are colored by their physicochemical properties
+   * *[Taylor](http://www.jalview.org/help/html/colourSchemes/taylor.html)\* (protein color scheme):* amino acid residues are colored by the scheme provided by [Taylor, 1997](https://pubmed.ncbi.nlm.nih.gov/9342138/).
+   * *Hydrophobicity (protein color scheme):* amino acid residues are colored by the [table of hydrophobicity](https://pubmed.ncbi.nlm.nih.gov/7108955/). Briefly, the most hydrophobic residues are colored in red, the most hydrophilic ones in blue, and residues with intermediate properties are the halftones of purple.
    * *Lesk (protein color scheme)*
    * *Cinema (protein color scheme)*
    * *MAE (protein color scheme)*
-   * *Clustal(4) (protein color scheme):* color scheme used in the "Clustal" application
+   * *[Clustal](http://www.jalview.org/help/html/colourSchemes/clustal.html)\* (protein color scheme):* color scheme used in the "Clustal" application
    * *Clustal2 (protein color scheme):* color scheme used in the "Clustal2" application
-   * *Turn(4) = turn propensity:* amino acid residues are colored by their preference for formation of turns (Levitt, 1978).
-   * *Strand(4) = strand propensity:* amino acid residues are colored by their preference for formation of beta-folds (Levitt, 1978)
-   * *Buried(4) = buried index:* amino acid residues are colored by their frequency of occurrence inside a globule. 
-   * *Helix(4):* amino acid residues are colored by their preference for formation of alpha helices (Levitt, 1978). 
+   * *[Turn](http://www.jalview.org/help/html/colourSchemes/turn.html)\* = turn propensity:* amino acid residues are colored by their preference for formation of turns ([Levitt, 1978](https://pubs.acs.org/doi/10.1021/bi00613a026)).
+   * *Strand\* = strand propensity:* amino acid residues are colored by their preference for formation of beta-folds ([Levitt, 1978](https://pubs.acs.org/doi/10.1021/bi00613a026))
+   * *[Buried](http://www.jalview.org/help/html/colourSchemes/buried.html)\* = buried index:* amino acid residues are colored by their frequency of occurrence inside a globule. 
+   * *[Helix](http://www.jalview.org/help/html/colourSchemes/helix.html)\*:* amino acid residues are colored by their preference for formation of alpha helices ([Levitt, 1978](https://pubs.acs.org/doi/10.1021/bi00613a026)). 
    * *PID (protein color scheme):* percent identity; amino acid residues are colored by the rate of occurrence of a symbol in a column. See default values in table below: 
 
       * Percent	Color
-      * greater than 80 %	Mid blue
-      * greater than 60 %	Light blue
-      * greater than 40 %	Light grey
-      * less than or equal to 40%	White
+      * \> 80 %	Mid blue
+      * \> 60 %	Light blue
+      * \> 40 %	Light grey
+      * \>= 40%	White
    * *No color (no color scheme)*
-* **ID Type:** Allows changing labels on in gene tree from genome name to genomes ID.
-* **Filter:** Allows filtering (hiding) of columns based on % conservation and % gaps
-* **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
-* **MSA:** (Re-)launches the Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
-* **Feature:** Loads the Feature Page for the selected feature. *Available only if a single feature is selected.*
-* **Features:** Loads the Features Table for the selected features. *Available only if multiple features are selected.*
-* **Genome:** Loads the Genome View Overview page corresponding to the selected feature.  *Available only if a single feature is selected.*
-* **Genomes:** Loads the Genomes Table, listing the genomes that correspond to the selected features. *Available only if multiple features are selected.*
-* **Download:**  Downloads the selected items (rows).
+* **ID Type:** Allows changing labels on in gene tree from Genome Name to Gene ID.
+* **Filter:** Allows filtering (hiding) of columns based on % conservation and % gaps. Selecting one of these options will open a window that allows users to select the desired threshold (percent). If none is chosen, a default value will be provided. Options  are provided below. 
+   * Hide columns by % conservation (\>=) 
+   * Hide columns by % conservation (\<=) 
+   * Hide columns by % conservation (between)
+   * Hide columns by % gaps (\>=) 
+   * Hide columns by % gaps (\<=) 
+   * Hide columns by % gaps (between)
+   * Reset
+
+* **Download:**  allows users to download the file options listed below. 
+   * *MSA txt:* plain text version of the MSA. 
+   * *MSA fasta:* a MSA file in fasta format.
+   * *MSA image:* portable network graphic file of the current view of the MSA. 
+   * *MSA clustal:* a MSA file in clustal format. 
+   * *Tree svg:* Scalable vector graphics image format.
+   * *Tree newick:* Newick tree format file. 
 
 ## References
 
 1. Price, M. N., Dehal, P. S., & Arkin, A. P. (2009). FastTree: computing large minimum evolution trees with profiles instead of a distance matrix. Molecular biology and evolution, 26(7), 1641-1650.
 2. Castresana, J. (2002). Gblocks, v. 0.91 b. Online version available at: http://molevol.cmima.csic.es/castresana/Gblocks_server.html.
 3. Edgar, R.C. (2004) MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Res. 32(5):1792-1797.
-4. (JalVeiw) 
+4. Waterhouse, A.M., Procter, J.B., Martin, D.M.A, Clamp, M. and Barton, G. J. (2009). Jalview Version 2 - a multiple sequence alignment editor and analysis workbench. Bioinformatics25 (9) 1189-1191. doi: 10.1093/bioinformatics/btp033 
 

@@ -38,43 +38,25 @@ Several metadata fields are associated with protein structure records. Visible m
 
 Below is a list of available metadata fields (columns) and their definitions. 
 
-**PDB ID:** The protein data bank identification number for the structure. 
-
-**Title:** The descriptive name of the protein structure. 
-
-**Organism Name:** The scientific name of the organism. 
-
-**Taxon ID:** The NCBI Taxonomy ID number of the organism.
-
-**Taxon Lineage IDs:** The taxonomic hierarchical classification lineage of the source organism; numerical ID. 
-
-**Taxon Lineage Names:** The taxonomic hierarchical classification lineage of the source organism; descriptive name. 
-
-**Genome ID:** The internal BV-BRC identification given to the sequence. 
-
-**UniProtKB Accession:** The identifier for the UniProtKB entries.
-
-**Gene:** The gene name. 
-
-**Product:** The gene’s protein product name. 
-
-**Sequence MD5:** The protein MD5 checksum. 
-
-**Sequence:** The amino acid sequence of the relevant protein structure. 
-
-**Alignments:** The coordinates (start and end positions) of the alignment of the pdb sequence with the corresponding UniProt sequence.
-
-**Method:** The experimental method used to determine the protein structure. 
-
-**Resolution:** The measure of the quality of the data that has been collected on the structure.
-
-**PMID:** The NCBI’s PubMed ID associated with the publication describing the structure (if applicable). 
-
-**Institution:** The institute associated with the protein structure record submission. 
-
-**Authors:** The authors associated with the protein structure record submission.
-
-**Release Date:** The publication date of the protein structure record. 
+* **PDB ID:** The protein data bank identification number for the structure. 
+* **Title:** The descriptive name of the protein structure. 
+* **Organism Name:** The scientific name of the organism. 
+* **Taxon ID:** The NCBI Taxonomy ID number of the organism.
+* **Taxon Lineage IDs:** The taxonomic hierarchical classification lineage of the source organism; numerical ID. 
+* **Taxon Lineage Names:** The taxonomic hierarchical classification lineage of the source organism; descriptive name. 
+* **Genome ID:** The internal BV-BRC identification given to the sequence. 
+* **UniProtKB Accession:** The identifier for the UniProtKB entries.
+* **Gene:** The gene name. 
+* **Product:** The gene’s protein product name. 
+* **Sequence MD5:** The protein MD5 checksum. 
+* **Sequence:** The amino acid sequence of the relevant protein structure. 
+* **Alignments:** The coordinates (start and end positions) of the alignment of the pdb sequence with the corresponding UniProt sequence.
+* **Method:** The experimental method used to determine the protein structure. 
+* **Resolution:** The measure of the quality of the data that has been collected on the structure.
+* **PMID:** The NCBI’s PubMed ID associated with the publication describing the structure (if applicable). 
+* **Institution:** The institute associated with the protein structure record submission. 
+* **Authors:** The authors associated with the protein structure record submission.
+* **Release Date:** The publication date of the protein structure record. 
 
 Users who wish to further filter results can do so by clicking the “FILTERS” icon (red arrow) and selecting the desired criteria as shown below.   
 

@@ -12,29 +12,29 @@ Protein structure data can be accessed through multiple routes in the BV-BRC:
 
 1\. Specifically searching for protein structure data by selecting "Protein Structures" as the Data Type from the Global Search bar.
 
-![Figure 1](./images/structures_Picture1.png "Figure 1")
+![Figure 1](../images/structures_Picture1.png "Figure 1")
 
 2\. Selecting “Protein Structures” data type from the search results (red arrow) after performing search using a relevant keyword in the Global Search bar. 
 
-![Figure 3](./images/structures_Picture3.png "Figure 3")
+![Figure 3](../images/structures_Picture3.png "Figure 3")
 
 3\. Selecting "Protein Structures" from the Advanced Search under the “SEARCHES” menu. 
 
-![Figure 2](./images/structures_Picture2.png "Figure 2")
+![Figure 2](../images/structures_Picture2.png "Figure 2")
 
 4\. Selecting the “Protein Structures” tab when browsing data for a specific organism.  
 
-![Figure 4](./images/structures_Picture4.png "Figure 4")
+![Figure 4](../images/structures_Picture4.png "Figure 4")
 
 ## Protein Structure List View and Metadata Definitions
 
 Protein structure results are presented in tabular format in BV-BRC as shown below. 
 
-![Figure 5](./images/structures_Picture5.png "Figure 5")
+![Figure 5](../images/structures_Picture5.png "Figure 5")
 
 Several metadata fields are associated with protein structure records. Visible metadata columns can be customized by clicking on the “+” sign at the top right corner of the table, as shown below.  
 
-![Figure 6](./images/structures_Picture6.png "Figure 6")
+![Figure 6](../images/structures_Picture6.png "Figure 6")
 
 Below is a list of available metadata fields (columns) and their definitions. 
 
@@ -78,11 +78,11 @@ Below is a list of available metadata fields (columns) and their definitions.
 
 Users who wish to further filter results can do so by clicking the “FILTERS” icon (red arrow) and selecting the desired criteria as shown below.   
 
-![Figure 7](./images/structures_Picture7.png "Figure 7")
+![Figure 7](../images/structures_Picture7.png "Figure 7")
 
 Users may also customize the filters bar by clicking on the gear icon at the top right corner of the page. 
 
-![Figure 8](./images/structures_Picture8.png "Figure 8")
+![Figure 8](../images/structures_Picture8.png "Figure 8")
 
 ## Action buttons
 

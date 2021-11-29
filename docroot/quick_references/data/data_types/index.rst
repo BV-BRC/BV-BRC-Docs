@@ -9,6 +9,5 @@ Data Types
    genomic_features
    pathways
    protein_families
-   protein_structures.md
    specialty_genes
    transcriptomics

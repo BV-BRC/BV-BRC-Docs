@@ -50,7 +50,7 @@ Below is a list of available metadata fields (columns) and their definitions.
 * **Product:** The gene’s protein product name. 
 * **Sequence MD5:** The protein MD5 checksum. 
 * **Sequence:** The amino acid sequence of the relevant protein structure. 
-* **Alignments:** The coordinates (start and end positions) of the alignment of the pdb sequence with the corresponding UniProt sequence.
+* **Alignments:** The coordinates (start and end positions) of the alignment of the PDB sequence with the corresponding UniProt sequence.
 * **Method:** The experimental method used to determine the protein structure. 
 * **Resolution:** The measure of the quality of the data that has been collected on the structure.
 * **PMID:** The NCBI’s PubMed ID associated with the publication describing the structure (if applicable). 
@@ -68,7 +68,11 @@ Users may also customize the filters bar by clicking on the gear icon at the top
 
 ## Action buttons
 
-After selecting one of the output files by clicking it, a set of options becomes available in the vertical green “Action Bar” on the right side of the table. These include:
+After selecting one of the output files by clicking it, a set of options becomes available in the vertical green “Action Bar” on the right side of the table, as shown below. These include:
+
+![Figure 9](../images/structures_Picture9.png "Figure 9")
+
+Options include:
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
 * **Guide:** Links to the corresponding Quick Reference guide.

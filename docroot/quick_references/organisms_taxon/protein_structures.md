@@ -83,3 +83,18 @@ Options include:
 * **Structure:** Displays the Protein Structure View Overview page corresponding to the selected genome/feature. Available only if a single feature is selected.  
 
 More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference.
+
+## Using the Structure Viewer
+
+Protein structures can be viewed on BV-BRC by clicking on the “Structure” action button described above, as shown below. 
+
+![Figure 10](../images/structures_Picture10.png "Figure 10")
+
+This will open a new window, allowing the user to view and interact with the protein structure using Mol* (/’molstar/), a web-based open-source toolkit for visualisation and analysis of large-scale molecular data [1].
+
+![Figure 11](../images/structures_Picture11.png "Figure 11")
+
+## Additional Resources
+
+1. [Mol* website](https://molstar.org)
+2. [Mol* viewer documentation](https://molstar.org/viewer-docs/)

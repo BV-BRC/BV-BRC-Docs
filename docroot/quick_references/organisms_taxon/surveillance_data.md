@@ -48,7 +48,7 @@ Visible columns can be customized. Below is a list of available metadata fields 
 * **Sample Material:** The source material for the sample; eg: BAL (Bronchio-alveolar lavage), blood, cloacal swabs, feces, lungs, nasal swab, environment etc. 
 Sample Transport Medium:** The fluid used to preserve and/or transport sample. 
 * **Sample Receipt Date:** The date the sample was received
-* **Submission Date: The date the genomic information was received. 
+* **Submission Date:** The date the genomic information was received. 
 * **Last Update Date:** The date genomic information was last updated. 
 * **Longitudinal Study:** Specifies whether the sample was part of a longitudinal study involving repeated sampling of subjects. 
 * **Embargo End Date:** End date of the research embargo period. 

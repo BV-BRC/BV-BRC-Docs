@@ -27,6 +27,7 @@ Browsing BV-BRC by Taxon
    organisms_taxon/subsystems_tab
    organisms_taxon/transcriptomics
    organisms_taxon/interactions
+   organisms_taxon/surveillance_data
 
 
 Browsing BV-BRC by Genome/Strain

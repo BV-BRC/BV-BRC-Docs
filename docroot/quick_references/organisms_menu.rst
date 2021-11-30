@@ -21,6 +21,7 @@ Browsing BV-BRC by Taxon
    organisms_taxon/features
    organisms_taxon/specialty_genes
    organisms_taxon/protein_families
+   organisms_taxon/protein_structures
    organisms_taxon/pathways
    organisms_taxon/subsystems
    organisms_taxon/subsystems_tab

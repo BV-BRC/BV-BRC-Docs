@@ -55,3 +55,4 @@ Viral Services
    genetree/genetree.md
    msa_snp_variation/msa_snp_variation.md
    metacats/metacats.md
+   primer_design/primer_design.md

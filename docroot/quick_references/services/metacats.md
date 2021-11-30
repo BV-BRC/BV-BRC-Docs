@@ -18,25 +18,33 @@ Below is a screenshot of the Meta-CATS landing page, as well as a summary of cus
 
 ![Figure 1](../images/metacats_Picture1.png "Figure 1") 
 
-**Aligner:** The alignment algorithm that the user wishes to use. Options include Mafft [1,2], MUSCLE [3,4], and progressiveMauve [5]. 
-
-**DNA/Protein:** This option allows the user to specify whether they are aligning nucleic acid or protein (amino acid) sequences). 
+**P-value:** the probability of the observed data given that the null hypothesis is true. 
 
 **Output Folder:** The workspace folder where results will be placed.
 
-**Output Name:** A user-specified label. This name will appear in the workspace when the annotation job is complete.
+**Output Name:** A user-specified label. This name will appear in the workspace when the analysis job is complete.
 
 **Fasta Text Input:** Users may enter custom sequences here by pasting in FASTA formatted sequences. 
 
-### *Optional Comparison Sequences*
+### *Input Options*
 
-**Select DNA or Protein Fasta File:** Users may input a nucleic acid or protein FASTA file from their workspace or upload their own data here, either in addition to the FASTA text input, or as an alternative. 
+**Auto Grouping:** Allows users to group sequences by available metadata such as: host, country, year, virus type, host age, host gender, etc. The appropriate metadata field may be selected from the “METADATA” drop-down menu. 
 
 **And/or Select Feature Group:** Users may input a nucleic acid or protein FASTA file containing a previously selected “Feature Group” (eg. CDS, tRNA etc.) from their workspace here, either in addition to the FASTA text input, or as an alternative.
 
-**Or Select and Alignment File:** If users have previously aligned dataset, they may input their nucleic acid or protein MSA file in FASTA format from their workspace here, either in addition to the FASTA text input, or as an alternative.
+**Metadata:** Auto grouping by available metadata options includes: Host name, geographic location, isolation country, species, genus, and collection year.
 
-**Selected Objects Table:** The user specified files and/or datasets designated for analysis by the MSA and variation/SNP analysis tool. 
+**Feature Groups:** This option allows users to select previously identified groups of sequences saved to their workspace.
+
+**Alignment File:** This option allows users to select a previously aligned group of nucleotides or proteins.
+
+**Select Feature Group:** This option allows users to specify feature groups previously saved to their workbench.
+
+**DNA/PROTEIN:** Allows users to specify whether their sequences are nucleic acid or protein sequences.  
+
+**Group names:** User-specified names for custom groups. 
+
+**Delete Rows:** Allows users to delete unwanted sequences.
 
 ## Buttons
 

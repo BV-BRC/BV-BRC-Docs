@@ -19,9 +19,9 @@ Once the primer design service has been selected, users will be directed to the 
 
 ![Figure 1](../images/primer_Picture1.png "Figure 1") 
 
-Users may select one of three input options. 
+Users may select one of two input options. 
 
-*(1) Pasting in a relevant sequence:* 
+*1\) Pasting in a relevant sequence:* 
 
 **Sequence Identifier:** The user-provided name to identify the input sequence. If using a FASTA formatted file, this field will automatically be populated with the sequence name. 
 
@@ -29,21 +29,17 @@ Users may select one of three input options.
 
 ![Figure 2](../images/primer_Picture2.png "Figure 2")
 
-*(2) Choosing a workspace sequence:*
+*2\) Choosing a workspace sequence:*
 
 **Workspace FASTA:** Choosing this option allows users to specify the FASTA file from their workspace. 
 
 ![Figure 3](../images/primer_Picture3.png "Figure 3")
 
-*(3) Choosing a BV-BRC record:* 
+*Users will also need to select appropriate target, inclusion and exclusion positions using options shown below. Selections can either be denoted by highlighting the desired regions and clicking the appropriate buttons (red box), or by manually typing in a list of coordinates in the appropriate boxes below.* 
 
-**BV-BRC ID:** Choosing this option allows users to specify the BV-BRC identifier for an input sequence. 
-  
 ![Figure 4](../images/primer_Picture4.png "Figure 4")
 
-*Users will also need to select appropriate target, inclusion and exclusion positions using options shown below.* 
-
-![Figure 5](../images/primer_Picture5.png "Figure 5")
+If you would like to design a hybridization probe to detect the PCR product after amplification (real-time PCR applications) you may select the “PICK INTERNAL OLIGO” option as shown above. 
 
 **Excluded Regions:** Values should be one or a space-separated list of start, length pairs. Primers will not overlap these regions. These values will be denoted with “< >” symbols.
 
@@ -53,11 +49,15 @@ Users may select one of three input options.
 
 **Primer Overlap Positions:** Values should be space separated list of positions, The forward OR reverse primer will overlap one of these positions. These values will be denoted with “-” symbol. 
 
+*Output options can be specified using the parameters shown below:*  
+
+![Figure 5](../images/primer_Picture5.png "Figure 5")
+
 **Output Folder:** The workspace folder where results will be placed.
 
 **Output Name:** The name users specify for the completed job. 
 
-  *Users may also choose to specify one or more “Advanced Options” as shown below.*
+  *Users may also choose to specify one or more primer properties by selecting “Advanced Options,” as shown below.*
 
 ![Figure 6](../images/primer_Picture6.png "Figure 6")
 
@@ -79,7 +79,7 @@ Users may select one of three input options.
 
 **Concentration of DNTPs:** The millimolar concentration of the sum of all deoxyribonucleotide triphosphates.
 
-*More details on primer3 settings can be found on the primer3 manual[5] page.* 
+*More details on primer3 settings can be found on the [primer3 manual page [5]](https://primer3.org/manual.html#PRIMER_DNA_CONC).* 
 
 ### Buttons
 
@@ -107,12 +107,13 @@ The results page will consist of a header describing the job and a list of outpu
 
 The Primer Design Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include
 
-* **.txt** – a text file specifying parameters used. If none are specified, defied parameters will be used/listed. 
-* **.html** – a HyperText Markup Language file displaying output primer pairs, as well as their properties, statistics, and location in the input sequence (see below). 
+* **Primer3_input.txt** – a text file specifying the input sequences and the parameters used to specify the primer properties. If none are specified, default parameters will be used/listed. 
+* **Primer3_output.txt** – a text file containing a list of primers and probe (if selected) candidates designed, as well as their corresponding properties. 
+* **primers.fasta file** – a file containing a list of candidate primers and probes designed. Can be opened as a text or fasta file. 
+* **table.html** – a HyperText Markup Language (Web-formatted) file displaying a table of output primer pairs and probes, as well as their properties, statistics, and location in the input sequence (see below). 
+ 
 
 ![Figure 12](../images/primer_Picture12.png "Figure 12")
-
-![Figure 13](../images/primer_Picture13.png "Figure 13")
 
 ### Action buttons
 
@@ -133,8 +134,6 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Copy:** Copies the selected items to the clipboard.
 
 * **Move:** Allows moving of the file to another folder.
-
-* **Edit Type:** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website. Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
 More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference.
 

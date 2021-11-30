@@ -8,7 +8,7 @@ The Primer Design Service in the Bacterial and Viral Bioinformatics Resource Cen
  
 ### See also
 * [Primer Design Service](https://beta.bv-brc.org/app/PrimerDesign)
-* [Primer Design Service Quick Reference](../../quick_references/services/primer_design_services.html)
+* [Primer Design Service Quick Reference](../../quick_references/services/primer_design_service.html)
 
 ## Locating the service
 

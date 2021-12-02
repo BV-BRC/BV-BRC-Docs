@@ -5,7 +5,7 @@ The Primer Design Service utilizes Primer3[1-5] to design primers from a given i
 
 ### See also
 * [Primer Design Service](https://beta.bv-brc.org/app/PrimerDesign)
-* [Primer Design Service Tutorial](../tutorial/primer_design.html)
+* [Primer Design Service Tutorial](../../tutorial/primer_design/primer_design.html)
 
 ## Using the Primer Design Service
 

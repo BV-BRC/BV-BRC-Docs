@@ -55,10 +55,10 @@ The Metabolic Reconstruction Service generates several files that are deposited 
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table, listed below. For the Model Reconstruction Service, the only options in the Action Bar are the following:
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
-* **Guide:** Link to the corresponding User Guide.
+* **Guide:** Link to the corresponding Quick Reference Guide.
 * **Download:**  Downloads the selected item.
 
-More details are available in the [Action Buttons](../action_buttons.html) user guide.
+More details are available in the [Action Buttons](../action_buttons.html) Quick Reference Guide.
 
 ### ModelSEED Model Viewer
 ![Model Reconstruction Service View Icon](../images/model_reconstruction_view_icon.png)

@@ -6,7 +6,7 @@ The bacterial Phylogenetic Tree Building Service enables construction of custom 
 ### See also
 * [Phylogenetic Tree Building Service](https://alpha.bv-brc.org/app/PhylogeneticTree)
 * [Building Phylogenetic Trees - Codon Tutorial](https://docs.alpha.bv-brc.org/tutorial/codon_tree_building/codon_tree_building.html)
-* [Phylogeny Tab User Guide](../organisms_taxon/phylogeny.html)
+* [Phylogeny Tab Quick Reference Guide](../organisms_taxon/phylogeny.html)
 
 ## Using the Phylogenetic Tree Building Service
 The **Phylogenetic Tree** submenu option under the **Services** main menu (Genomics category) opens the Phylogenetic Tree input form (shown below). *Note: You must be logged in to use this service.*
@@ -42,7 +42,7 @@ The selection of “single-copy” genes can be made more lenient by allowing on
 
 ![Phylogenetic Tree View Icon](../images/phylogenetic_tree_view_icon.png)
 
-Clicking on the View icon at the upper right portion of the job result page will display the Phylogenetic Tree Viewer. See the [Phylogeny Tab User Guide](../organisms_taxon/phylogeny.html) for details about this viewer.  
+Clicking on the View icon at the upper right portion of the job result page will display the Phylogenetic Tree Viewer. See the [Phylogeny Tab Quick Reference Guide](../organisms_taxon/phylogeny.html) for details about this viewer.  
 
 ### Codon Tree Method
 
@@ -80,7 +80,7 @@ The ‘detail_files’ subfolder has other output files that may be useful under
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
-* **Guide:** Link to the corresponding User Guide
+* **Guide:** Link to the corresponding Quick Reference Guide.
 * **Download:**  Downloads the selected item.
 * **View:** Displays the content of the file, typically as plain text or rendered html, depending on filetype. Nwk files are rendered in the Phylogenetic Tree Viewer.
 * **Delete** Deletes the file.
@@ -89,7 +89,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Move** Allows moving of the file to another folder.
 * **Edit Type** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Buttons](../action_buttons.html) user guide.
+More details are available in the [Action Buttons](../action_buttons.html) Quick Reference Guide.
 
 ## References
 

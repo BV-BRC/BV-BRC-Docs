@@ -77,7 +77,7 @@ This page is a web-friendly report that summarizes the output of MKA. It provide
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
-* **Guide** Link to the corresponding User Guide
+* **Guide** Link to the corresponding Quick Reference Guide.
 * **Download:**  Downloads the selected item.
 * **View** Displays the content of the file, typically as plain text or rendered html, depending on filetype.
 * **Delete** Deletes the file.
@@ -85,7 +85,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Copy:** Copies the selected items to the clipboard.
 * **Move** Allows moving of the file to another folder.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) user guide.
+More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
 
 ## References
 * Kent, W. James. "BLAT—the BLAST-like alignment tool." Genome research 12.4 (2002): 656-664.

@@ -5,10 +5,6 @@ Data from worldwide influenza surveillance studies, including both avian and non
 
 Human samples were collected from patients presenting at a physician with influenza symptoms. Samples were collected from all patients and virus was isolated and sequenced from flu positive samples. Associated clinical data may also be available as part of the search results.
 
-
-### See also
-* Surveillance Data Tutorial
-
 ## Accessing Surveillance data
 
 Surveillance data can be accessed through multiple routes in BV-BRC: 

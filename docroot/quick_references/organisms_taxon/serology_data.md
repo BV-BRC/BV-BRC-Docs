@@ -3,9 +3,6 @@
 ## Overview
 Serum samples were collected from avian, non-human mammalian, and human subjects and tested for the presence of antibodies to specific influenza serotypes. The serotypes detected in the serum are identified in the search result. 
 
-### See also
-* Serology Data Tutorial
-
 ## Accessing Serology data
 
 Serology data can be accessed through multiple routes in the BV-BRC: 

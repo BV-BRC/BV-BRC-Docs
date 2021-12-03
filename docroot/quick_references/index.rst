@@ -1,7 +1,7 @@
-Quick References
-================
+Quick Reference Guides
+======================
 
-The BV-BRC website resource provides an entry point to integrated data and tools for viral and bacterial infectious disease research. The website is organized by data types and analysis tools. These **Quick References** provide summary information for each of the components of the website, including information on what the component is, what it does, where it is located, and an overview of its features. 
+The BV-BRC website resource provides an entry point to integrated data and tools for viral and bacterial infectious disease research. The website is organized by data types and analysis tools. These **Quick Reference Guides** provide summary information for each of the components of the website, including information on what the component is, what it does, where it is located, and an overview of its features. 
 
 .. toctree::
    :maxdepth: 1

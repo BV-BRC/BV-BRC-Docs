@@ -6,7 +6,7 @@ PATRIC Instructional Videos
 .. feed-entry::
    :date: 2018-12-04
 
-In addition to the current Tutorials, User Guides, and Webinars, PATRIC now features short instructional YouTube videos  that demonstrate how to perform a useful task in the PATRIC website. Five new videos have been added and are available from the Help/Videos top menu selection, which opens the `Instructional Videos page <https://docs.patricbrc.org/videos/>`_. All PATRIC videos and recorded webinars are also available from the `PATRIC YouTube channel <https://www.youtube.com/user/PATRICBRC>`_.
+In addition to the current Tutorials, Quick Reference Guides, and Webinars, PATRIC now features short instructional YouTube videos  that demonstrate how to perform a useful task in the PATRIC website. Five new videos have been added and are available from the Help/Videos top menu selection, which opens the `Instructional Videos page <https://docs.patricbrc.org/videos/>`_. All PATRIC videos and recorded webinars are also available from the `PATRIC YouTube channel <https://www.youtube.com/user/PATRICBRC>`_.
 
  - Creating a Genome Group
  - ID Mapping - finding genes

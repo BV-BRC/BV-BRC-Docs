@@ -38,7 +38,7 @@ You can now share genomes you have annotated in PATRIC so that other users can a
 <https://docs.patricbrc.org//user_guides/workspaces/genome_sharing.html>`__.
 
 **Updated Documentation**
-We have updated all of the User Guides for the PATRIC website, which provide instructions for using PATRIC tools and features.  The PATRIC User Guides are available `here
+We have updated all of the Quick Reference Guides for the PATRIC website, which provide instructions for using PATRIC tools and features.  The PATRIC Quick Reference Guides are available `here
 <https://docs.patricbrc.org/user_guides/index.html>`__.
 
 

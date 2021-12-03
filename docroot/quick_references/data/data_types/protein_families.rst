@@ -22,7 +22,7 @@ Our `Protein Family Sorter Tool <https://alpha.bv-brc.org/app/ProteinFamily>`_ a
 Assessing Protein Family Data
 -----------------------------
 
-Protein families are accesible from the "Protein Families" tab available at the taxon and genome levels on the website. For more information on how to access and use protein families, visit `Protein Families Tab User Guide <https://docs.alpha.bv-brc.org/user_guides/organisms_taxon/protein_families.html>`_.
+Protein families are accesible from the "Protein Families" tab available at the taxon and genome levels on the website. For more information on how to access and use protein families, visit `Protein Families Tab Quick Reference Guide <https://docs.alpha.bv-brc.org/user_guides/organisms_taxon/protein_families.html>`_.
 
 Relevant Services and Tools
 ----------------------------

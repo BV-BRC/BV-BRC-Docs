@@ -35,7 +35,7 @@ As with all tables, the Filters tool is available to narrow the display of the i
   
 ![Experiments Filter Panel](../images/experiments_filter_panel.png)
 
-Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel. More details are available in the [Filter Tool](../other/filter_tool.html) user guide.
+Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel. More details are available in the [Filter Tool](../other/filter_tool.html) Quick Reference Guide.
 
 ### Action buttons
 
@@ -46,10 +46,10 @@ After selecting one or more of the experiments by clicking the checkbox beside t
 * **Copy:** Copies the selected items to the clipboard.
 * **Experiment:** Opens the Experiment Overview page that provides a detailed description of the experiment. *Available only if one experiment is selected.*  Also provides a tab for accessing the associated Comparisons.
 * **Experiments:** Opens the Experiments Table, containing the selected Experiments.  *Available only if more than one sequence is selected.*  Also provides a tab for accessing the associated Comparisons.
-* **Genes:** Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page.  See [Transcriptomics Genes](../organisms_gene/transcriptomics.html) user guide for information on this page.
+* **Genes:** Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page.  See [Transcriptomics Genes](../organisms_gene/transcriptomics.html) Quick Reference Guide for information on this page.
 * **Group:** Opens a pop-up window to enable adding the selected experiments to an existing or new group in the private workspace.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) user guide.
+More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
 
 ### Comparisons Table
 
@@ -73,4 +73,4 @@ After selecting one or more of the experiments by clicking the checkbox beside t
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
 * **Download:**  Downloads the selected items (rows).
 * **Copy:** Copies the selected items to the clipboard.
-* **Genes:** Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page.  See [Transcriptomics Gene List](../organisms_taxon/transcriptomics_gene_list.html) user guide for information on this page.
+* **Genes:** Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page.  See [Transcriptomics Gene List](../organisms_taxon/transcriptomics_gene_list.html) Quick Reference Guide for information on this page.

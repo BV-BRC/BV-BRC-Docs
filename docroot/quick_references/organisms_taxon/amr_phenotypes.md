@@ -31,7 +31,7 @@ As with all tables, the Filters tool is available to narrow the display of the i
   
 ![AMR Phenotypes Filter Panel](../images/amr_phenotypes_filter_panel.png)
 
-Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel.  More details are available in the [Tables and Filters](../tables.html) user guide.
+Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel.  More details are available in the [Tables and Filters](../tables.html) Quick Reference Guide.
 
 ### Action buttons
 
@@ -44,4 +44,4 @@ After selecting one or more of the genomes by clicking the checkbox beside the G
 * **Antibiotic:** Loads the Antibiotic Overview for the corresponding antibiotic selected (available only if one genome/antibiotic row is selected). The Antibiotic Overview provides detailed information regarding the antibiotic.
 * **Group:** Opens a pop-up window to enable adding the selected genome/antibiotic records to an existing or new group in the private workspace.
 
-More details are available in the [Selection Action Bar](../action_bar.html) user guide.
+More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference Guide.

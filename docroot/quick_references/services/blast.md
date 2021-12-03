@@ -57,7 +57,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Genome:** Loads the Genome View Overview page corresponding to the selected feature.  *Available only if a single feature is selected.*
 * **Genomes:** Loads the Genomes Table, listing the genomes that correspond to the selected features. *Available only if multiple features are selected.*
 
-More details are available in the [Action Buttons](../action_buttons.html) user guide.
+More details are available in the [Action Buttons](../action_buttons.html) Quick Reference Guide.
 
 ## References
 1.	Boratyn, G.M., Camacho, C., Cooper, P.S., Coulouris, G., Fong, A., Ma, N., Madden, T.L., Matten, W.T., McGinnis, S.D., Merezhuk, Y. et al. (2013) BLAST: a more efficient report with usability improvements. Nucleic acids research, 41, W29-33.

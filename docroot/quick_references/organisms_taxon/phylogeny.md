@@ -5,7 +5,7 @@ The Phylogeny Tab and Phylogenetic Tree Viewer allow you to visualize and intera
 
 ### See also
   * [Building Phylogenetic Trees Tutorial](https://docs.patricbrc.org//tutorial/phylogenetic_tree_building/tree_building.html)
-  * [Phylogenetic Tree Building Service User Guide](../services/phylogenetic_tree_building_service.html)
+  * [Phylogenetic Tree Building Service Quick Reference Guide](../services/phylogenetic_tree_building_service.html)
 
 ## Accessing Phylogenetic Trees 
 Phylogenetic trees can be viewed by either 

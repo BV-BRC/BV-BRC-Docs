@@ -77,7 +77,7 @@ This page is a web-friendly report that summarizes the output of MKA. It provide
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
-* **Guide** Link to the corresponding Quick Reference Guide.
+* **Guide** Link to the corresponding Quick Reference Guide
 * **Download:**  Downloads the selected item.
 * **View** Displays the content of the file, typically as plain text or rendered html, depending on filetype.
 * **Delete** Deletes the file.

@@ -51,4 +51,4 @@ Data Processing and Clean Up Process
 Accessing Specialty Gene Data
 -----------------------------
 
-Specialty genes are accessible from the "Specialty Genes" tab available at the genome and taxon levels on the website. For more information on how to access and use specialty gene data, please visit `Specialty Genes Tab User Guide <../organisms_taxon/specialty_genes.html>`_.
+Specialty genes are accessible from the "Specialty Genes" tab available at the genome and taxon levels on the website. For more information on how to access and use specialty gene data, please visit `Specialty Genes Tab Quick Reference Guide <../organisms_taxon/specialty_genes.html>`_.

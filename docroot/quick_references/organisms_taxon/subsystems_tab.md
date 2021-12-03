@@ -48,7 +48,7 @@ As with all tables, the Filters tool is available to narrow the display of the i
   
 ![Subsystems Filter Panel](../images/subsystems_filter_panel.png)
 
-Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes *displayed* in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel.  Clicking the Apply button removes the non-matching genomes and *resets the scope* in the Taxonomic View to only the genomes matching the filter criteria. More details are available in the [Filter Tool](../other/filter_tool.html) user guide.
+Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes *displayed* in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel.  Clicking the Apply button removes the non-matching genomes and *resets the scope* in the Taxonomic View to only the genomes matching the filter criteria. More details are available in the [Filter Tool](../other/filter_tool.html) Quick Reference Guide.
 
 ### Action buttons
 
@@ -62,10 +62,10 @@ After selecting one or more of the genomes by clicking the checkbox beside the G
 * **Group:** Opens a pop-up window to enable adding the selected subsystems to an existing or new group in the private workspace.
 * **Map:** Launches the Comparative Subsystems Heatmap, described below.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) user guide.
+More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
 
 ## Comparative Subsystems Heatmap
-The Heatmap is an interactive visualization tool, which provides an overview of the distribution of genomes across the set of functional roles defined by a subsystem. Patterns visible in a Heatmap can allow for many types of analysis such as, a bird’s-eye view of the conservation (or lack thereof) of particular functional roles of interest, discerning how many proteins have the same function within a single genome, and identifying proteins with multiple homologs or paralogs across a set of genomes. The Heatmap is accessible by selecting a Subsystem or Gene in the corresponding tables (described in this user guide) and then clicking the Map icon in the green action bar.
+The Heatmap is an interactive visualization tool, which provides an overview of the distribution of genomes across the set of functional roles defined by a subsystem. Patterns visible in a Heatmap can allow for many types of analysis such as, a bird’s-eye view of the conservation (or lack thereof) of particular functional roles of interest, discerning how many proteins have the same function within a single genome, and identifying proteins with multiple homologs or paralogs across a set of genomes. The Heatmap is accessible by selecting a Subsystem or Gene in the corresponding tables (described in this Quick Reference Guide) and then clicking the Map icon in the green action bar.
 
 ![Subsystems Heatmap](../images/subsystems_tab_heatmap.png)
 

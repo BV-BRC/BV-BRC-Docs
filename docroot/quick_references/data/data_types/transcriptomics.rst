@@ -15,7 +15,7 @@ Accessing Transcriptomics Data
 ------------------------------
 
 Public transcriptomics datasets are accessible from the "Transcriptomics" Tab available at the taxon, genome and gene levels. 
-To learn more about how to access and use transcriptomics data, visit `Transcriptomics Tab User Guide <https://docs.alpha.bv-brc.org/user_guides/organisms_taxon/transcriptomics.html>`_.
+To learn more about how to access and use transcriptomics data, visit `Transcriptomics Tab Quick Reference Guide <https://docs.alpha.bv-brc.org/user_guides/organisms_taxon/transcriptomics.html>`_.
 
 - `Transcriptomics datasets for Bacteria <https://alpha.bv-brc.org/view/Taxonomy/2#view_tab=transcriptomics>`_
 - `Transcriptomics datasets for Eukaryotic hosts <https://alpha.bv-brc.org/view/GenomeList/?in(genome_id,(10090.24,10116.5,6239.6,9031.4,9669.1,9823.5,9544.2,7227.4,7955.5,9606.33))#view_tab=transcriptomics>`_

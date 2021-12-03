@@ -135,7 +135,7 @@ The bottom of each BV-BRC page has an indicator that shows the number of jobs th
 7.	Click on the TaxonomicReport.html. This will populate the vertical green bar with a number of icons. Click on the Guide icon.
 ![Figure 39](./images/Picture39.png "Figure 39")
 
-8.	This will open a new tab where you can see the user guide for this particular page, describing what you are seeing on the output page.
+8.	This will open a new tab where you can see the Quick Reference Guide for this particular page, describing what you are seeing on the output page.
 ![Figure 40](./images/Picture40.png "Figure 40")
 
 9.	Back on the output page, in the vertical green bar you will see icons for downloading the data, viewing it, deleting the file, renaming the file, copying or sharing it with another BV-BRC user, moving it to a different director, or changing the type tagged to the file. With the TaxonomicReport.html file selected, click on the View icon.

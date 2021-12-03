@@ -5,10 +5,6 @@ Data from worldwide influenza surveillance studies, including both avian and non
 
 Human samples were collected from patients presenting at a physician with influenza symptoms. Samples were collected from all patients and virus was isolated and sequenced from flu positive samples. Associated clinical data may also be available as part of the search results.
 
-
-### See also
-* Surveillance Data Tutorial
-
 ## Accessing Surveillance data
 
 Surveillance data can be accessed through multiple routes in BV-BRC: 
@@ -150,7 +146,7 @@ Users may also customize the fields displayed in the table by clicking on the ge
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table. These include:
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
-* **Guide:** Link to the corresponding User Guide
+* **Guide:** Link to the corresponding Quick Reference Guide.
 * **Download:** Downloads the selected item.
 * **Copy:** Copies the selected items to the clipboard.
 * **Surveillance:** Allows user to switch to the surveillance view, summarizing the surveillance test results.

@@ -3,9 +3,6 @@
 ## Overview
 Serum samples were collected from avian, non-human mammalian, and human subjects and tested for the presence of antibodies to specific influenza serotypes. The serotypes detected in the serum are identified in the search result. 
 
-### See also
-* Serology Data Tutorial
-
 ## Accessing Serology data
 
 Serology data can be accessed through multiple routes in the BV-BRC: 
@@ -69,7 +66,7 @@ Users may also customize the filters bar by clicking on the gear icon at the top
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green “Action Bar” on the right side of the table. These include:
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
-* **Guide:** Link to the corresponding User Guide
+* **Guide:** Link to the corresponding Quick Reference Guide.
 * **Download:** Downloads the selected item.
 * **Copy:** Copies the selected items to the clipboard.
 * **Serology:** Opens a new window and displays the selected serology record.

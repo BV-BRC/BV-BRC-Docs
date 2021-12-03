@@ -81,7 +81,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Copy:** Copies the selected items to the clipboard.
 * **Move:** Allows moving of the file to another folder.
 
-More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference.
+More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference Guide.
 
 ## References
 1.	Price MN, Dehal PS, Arkin AP. FastTree: computing large minimum evolution trees with profiles instead of a distance matrix. Mol Biol Evol. 2009 Jul;26(7):1641-50. doi: 10.1093/molbev/msp077. Epub 2009 Apr 17. PMID: 19377059; PMCID: PMC2693737. 

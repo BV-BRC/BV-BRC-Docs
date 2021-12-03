@@ -40,7 +40,7 @@ Source Code: https://github.com/PATRIC3/p3_web
 Static Content
 ###############
 
-Static content refers to electronic documents contains website Use Case / Tutorial, command line interface Use Case / Tutorial, user guides and PATRIC news. The contents of these documents are served independently of the main web server software and are publicly accessible. This site provides an RSS feed, which the main website application consumes and displays on its front page. Files are converted to html using the Python-based `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ documentation generator. The files are stored in the PATRIC GitHub repository.
+Static content refers to electronic documents contains website Use Case / Tutorial, command line interface Use Case / Tutorial, Quick Reference Guides and PATRIC news. The contents of these documents are served independently of the main web server software and are publicly accessible. This site provides an RSS feed, which the main website application consumes and displays on its front page. Files are converted to html using the Python-based `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ documentation generator. The files are stored in the PATRIC GitHub repository.
 
 Source Code: https://github.com/PATRIC3/p3_docs
 

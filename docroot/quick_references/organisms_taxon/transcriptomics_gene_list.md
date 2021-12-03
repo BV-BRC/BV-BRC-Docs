@@ -62,4 +62,4 @@ After selecting one or more of the genes by clicking the checkbox beside the Gen
 * **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in which the selected features are found.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) user guide.
+More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.

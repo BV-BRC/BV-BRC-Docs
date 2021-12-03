@@ -3,22 +3,27 @@
 ## Overview
 This set of short videos provides a step-by-step demonstration of using the PATRIC Protein Family Sorter to analyze protein families across a set of closely related bacterial genomes.
 
-1. [Using Global Search (7:37)](#pfs1)
-2. [Creating a genome group (5:01)](#pfs2)
-3. [Submitting a Protein Family Sorter Service analysis job (5:44)](#pfs3)
-4. [Protein Family Sorter tabular results (7:41)](#pfs4)
-5. [Filtering tabular results (8:17)](#pfs5)
-6. [Heatmap filtering (5:02)](#pfs6)
-7. [Heatmap clustering (4:47)](#pfs7)
-8. [Anchoring and downloading heatmap data (6:01)](#pfs8)
-9. [Using the Feature Table and Compare Region Viewer (12:40)](#pfs9)
-10. [Downloading sequences from Feature Table and viewing in the Genome Browser (9:38)](#pfs10)
-11. [BLASTing a genomic region (10:21)](#pfs11)
+- [Tutorial: Protein Family Sorter Service](#tutorial-protein-family-sorter-service)
+  - [Overview](#overview)
+    - [See also](#see-also)
+  - [Using the Protein Family Sorter Service](#using-the-protein-family-sorter-service)
+        - [1. Using Global Search (7:37)](#1-using-global-search-737)
+        - [2. Creating a genome group (5:01)](#2-creating-a-genome-group-501)
+        - [3. Submitting a Protein Family Sorter Service analysis job (5:44)](#3-submitting-a-protein-family-sorter-service-analysis-job-544)
+        - [4. Protein Family Sorter tabular results (7:41)](#4-protein-family-sorter-tabular-results-741)
+        - [5. Filtering tabular results (8:17)](#5-filtering-tabular-results-817)
+        - [6. Heatmap filtering (5:02)](#6-heatmap-filtering-502)
+        - [7. Heatmap clustering (4:47)](#7-heatmap-clustering-447)
+        - [8. Anchoring and downloading heatmap data (6:01)](#8-anchoring-and-downloading-heatmap-data-601)
+        - [9. Using the Feature Table and Compare Region Viewer (12:40)](#9-using-the-feature-table-and-compare-region-viewer-1240)
+        - [10. Downloading sequences from Feature Table and viewing in the Genome Browser (9:38)](#10-downloading-sequences-from-feature-table-and-viewing-in-the-genome-browser-938)
+        - [11. BLASTing a genomic region (10:21)](#11-blasting-a-genomic-region-1021)
+  - [References](#references)
 
 ### See also
 * [Protein Family Sorter Service](https://patricbrc.org/app/ProteinFamily)
 * [Comparing Protein Families Across Genomes Tutorial](https://docs.patricbrc.org//tutorial/protein_family_sorter/protein_family_sorter.html) (document)
-* [Protein Families Tab User Guide](../organisms_taxon/protein_families.html)
+* [Protein Families Tab Quick Reference Guide](../organisms_taxon/protein_families.html)
 
 ## Using the Protein Family Sorter Service
 

@@ -16,7 +16,7 @@ Source: Primary
 
 Description: The central data type in PATRIC is genomes. Most of the data and information within PATRIC is linked back to sequenced, assembled, and annotated genomes stored in the PATRIC database. Genomes are incorporated from RefSeq, GenBank, and other sources, and are annotated using a standard annotation protocol, RASTtk, to enable comparative analyses and linking of data across the website. In addition, PATRIC searches literature for large published AMR studies and assembles corresponding genomes using the reads available in the SRA database. As of June 2019, PATRIC contains 227,577 bacterial, 3,021 archaeal, 4,719 bacteriophage and 10 eukaryotic host genomes.
 
-User Guide: https://docs.patricbrc.org/user_guides/data/data_types/genomes.html
+Quick Reference Guide: https://docs.patricbrc.org/user_guides/data/data_types/genomes.html
 
 Source Code: 
 
@@ -47,7 +47,7 @@ Description: Genome metadata in PATRIC consists of more than 70 different metada
 
 PATRIC metadata is collected from multiple sources, such as GenBank records, BioProject and BioSample database, published literature, other NIAID sequencing centers, and other PATRIC collaborators. Automated metadata collections are augmented with manual curation to ensure consistency and accuracy.
 
-User Guide: https://docs.patricbrc.org/user_guides/organisms_taxon/genome_metadata.html
+Quick Reference Guide: https://docs.patricbrc.org/user_guides/organisms_taxon/genome_metadata.html
 
 Source Code: 
 
@@ -77,7 +77,7 @@ Description: Genome-level antimicrobial resistance (AMR) phenotype data is colle
 
 **AMR Regions** – AMR regions refer to the small genomic regions implicated in or associated with the resistance to one or more antibiotics. The AMR regions are computationally predicted using machine learning classifiers used to predict AMR phenotypes. They may map to existing genes or intergenic regions and may help identify new AMR genes or understand AMR mechanisms.
 
-User Guide: https://docs.patricbrc.org/user_guides/data/data_types/antimicrobial_resistance.html
+Quick Reference Guide: https://docs.patricbrc.org/user_guides/data/data_types/antimicrobial_resistance.html
 
 Source Code:
 
@@ -100,7 +100,7 @@ Source: Secondary
 
 Description: PATRIC genome features are the resulting annotations from the RASTtk system, and include coding sequences (CDS / gene calls), rRNAs, tRNAs, CRISPR elements, other miscellaneous genomic features, aspecialty gene designations, and AMR phenotypes where classifiers exist for the organism. PATRIC also retains the original GenBank/RefSeq annotations.
 
-User Guide: https://docs.patricbrc.org/user_guides/data/data_types/genomic_features.html
+Quick Reference Guide: https://docs.patricbrc.org/user_guides/data/data_types/genomic_features.html
 
 Source Code: 
 
@@ -144,7 +144,7 @@ Description: Specialty Genes refers to the special classes of genes that are of 
 
   - PATRIC Essential Genes: Predicted using Metabolic modeling and FBA
   
-User Guide: https://docs.patricbrc.org/user_guides/data/data_types/specialty_genes.html
+Quick Reference Guide: https://docs.patricbrc.org/user_guides/data/data_types/specialty_genes.html
 
 Source Code:
 
@@ -167,7 +167,7 @@ Source: Secondary
 
 Description: PATRIC provides multiple sets of protein families to enable comparative genomic analysis at various levels. FIGfams are a set of iso-functional homologs, each containing proteins that have the same function and sequences that are similar along their full length. In addition, PATRIC includes genus-specific protein families (PLfams) and cross-genera protein families (PGfams) for all the public genomes in PATRIC. These protein families cover almost all of the proteins in the current public genomes (~100% protein coverage) to support more comprehensive comparative analysis. 
 
-User Guide: https://docs.patricbrc.org/user_guides/data/data_types/protein_families.html
+Quick Reference Guide: https://docs.patricbrc.org/user_guides/data/data_types/protein_families.html
 
 Pathways
 --------
@@ -176,7 +176,7 @@ Source: Secondary
 
 Description: Pathways in PATRIC are represented using KEGG (Kyoto Encyclopedia of Genes and Genomes) maps. As of October 2018, there are 147 unique pathways covering 2,820 unique EC numbers in PATRIC. These pathways are projected in all public and private bacterial genomes as part of the genome annotation process. 
 
-User Guide: https://docs.patricbrc.org/user_guides/data/data_types/pathways.html
+Quick Reference Guide: https://docs.patricbrc.org/user_guides/data/data_types/pathways.html
 
 
 Phylogenetic Trees
@@ -200,7 +200,7 @@ Description: PATRIC provides interactive phylogenetic trees computed at the orde
 - Thiotrichales
 - Vibrionales
 
-User Guide: https://docs.patricbrc.org/user_guides/organisms_taxon/phylogeny.html
+Quick Reference Guide: https://docs.patricbrc.org/user_guides/organisms_taxon/phylogeny.html
 
 Source Code: 
 
@@ -217,7 +217,7 @@ Source: Primary
 
 Description: In the PATRIC context, Differential Expression Data can include quantitative gene expression data generated by high-throughput technologies, such as microarrays or RNA-Seq, or protein expression data as well. PATRIC has integrated a large number of published gene expression datasets related to bacterial pathogens from NCBI’s GEO database. Our manual curation process includes a review of the experiment description and the related publication to understand experimental design; combines data from replicates; and creates pair-wise comparisons or contrasts as described in the publication to identify differential gene expression, data normalization and log-transformation. As of October 2018, PATRIC includes 829 curated differential expression experiments with 5,743 comparisons. PATRIC also includes 21 curated host-response gene expression datasets for mouse and human, curated from Expression Atlas and other sources.
 
-User Guide: https://docs.patricbrc.org/user_guides/data/data_types/transcriptomics.html
+Quick Reference Guide: https://docs.patricbrc.org/user_guides/data/data_types/transcriptomics.html
 
 Source code: 
 
@@ -232,7 +232,7 @@ Source: Primary
 
 Description: PATRIC incorporates non-redundant, experimentally characterized protein-protein interactions (PPIs) from numerous public repositories, including IntAct, BIND, DIP, Uniprot, Mint, MPIdb, Spike, Reactome, MatrixDB, and InnateDB. Interaction data are initially retrieved by querying repositories in the PSICQUIC public registry for PPIs that have experimental support according to the PSI-MI interaction type and detection method ontologies, plus the presence of at least one literature reference. Verified data are subsequently matched to their corresponding taxa, stripped of redundant interactions, and categorized as either intraspecific (interactions that occur between proteins in the same species) or interspecific (interactions between proteins in different species, including host-pathogen (HP) PPIs). In addition to the experimentally characterized PPIs, PATRIC also provides computationally predicted PPIs and genetic interactions from STRING database. As of October 2018, PATRIC has 55,600,858 protein-protein interactions.
 
-User Guide: https://docs.patricbrc.org/user_guides/organisms_taxon/interactions.html
+Quick Reference Guide: https://docs.patricbrc.org/user_guides/organisms_taxon/interactions.html
 
 Source Code: 
 

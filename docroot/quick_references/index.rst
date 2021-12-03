@@ -35,7 +35,7 @@ Primary access to these components is provided through the BV-BRC main menu whic
 
 -  `Workspace, Private Data, Groups, Jobs <workspace_groups_upload.html>`_ - links to the private workspace and subdirectories in the private workspace; service jobs; and private genomes.
 
--  `Help <help_menu.html>`_ - links to documentaion pages containing Quick References, Tutorials, Webinars, and information to Provide Feedback.
+-  `Help <help_menu.html>`_ - links to documentaion pages containing Quick Reference Guides, Tutorials, Webinars, and information to Provide Feedback.
 
 -  `About <about_menu.html>`_ - links to pages containing additional information such as About BV-BRC, Contact Us, Our Team, Announcements, Outreach, Publications, Citations, Related Resources, and the BV-BRC GitHub code repository.
 

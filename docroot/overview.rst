@@ -13,7 +13,7 @@ Help Documentation Organization
 
 The BV-BRC Help Documentation is organized into several subsections:
 
- - `Quick References <./quick_references/index.html>`_: provide succinct overviews of specific feature (data, tool, functionality) within the resource with definitions of all of its component parts.
+ - `Quick Reference Guides <./quick_references/index.html>`_: provide succinct overviews of specific feature (data, tool, functionality) within the resource with definitions of all of its component parts.
 
  - `Tutorials <./tutorial/index.html>`_: provide detailed, step-by-step instructions with screen captures to illustrate how to use a particular data type or tool and interpret its results, often with additional information and rationale to enhance its use in the context of a broader biological question. 
 

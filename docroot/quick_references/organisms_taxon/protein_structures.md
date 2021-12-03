@@ -72,7 +72,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 Options include:
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
-* **Guide:** Links to the corresponding Quick Reference guide.
+* **Guide:** Links to the corresponding Quick Reference Guide.
 * **Download:** Downloads the selected item.
 * **Copy:** Copies the selected items to the clipboard.
 * **Feature:** Displays the Feature Page for the selected feature. Available only if a single feature is selected.

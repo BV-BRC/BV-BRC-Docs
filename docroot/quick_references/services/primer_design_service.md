@@ -135,7 +135,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 
 * **Move:** Allows moving of the file to another folder.
 
-More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference.
+More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference Guide.
 
 ## References
 

@@ -6,7 +6,7 @@ The bacterial Comparative Pathway Service allows users to identify a set of path
 ### See also
 * [Comparative Pathway Service](https://alpha.bv-brc.org/app/ComparativePathway)
 * [Comparing Pathways Across Genomes Tutorial](https://docs.alpha.bv-brc.org//tutorial/comparative_pathways/comparative_pathways.html)
-* [Comparative Pathway Tool User Guide](../organisms_taxon/pathways.html)
+* [Comparative Pathway Tool Quick Reference Guide](../organisms_taxon/pathways.html)
 
 ## Using the Comparative Pathway Service
 The **Comparative Pathway** submenu option under the **Services** main menu (Metabolomics category) opens the Comparative Pathway input form (*shown below*).

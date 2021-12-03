@@ -40,7 +40,7 @@ As with all tables, the Filters tool is available to narrow the display of the i
   
 ![Interactions Filter Panel](../images/interactions_filter_panel_genome.png)
 
-Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes *displayed* in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel.  Clicking the Apply button removes the non-matching genomes and *resets the scope* in the Taxonomic View to only the genomes matching the filter criteria. More details are available in the [Filter Tool](../other/filter_tool.html) user guide.
+Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes *displayed* in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel.  Clicking the Apply button removes the non-matching genomes and *resets the scope* in the Taxonomic View to only the genomes matching the filter criteria. More details are available in the [Filter Tool](../other/filter_tool.html) Quick Reference Guide.
 
 ### Action buttons
 
@@ -53,7 +53,7 @@ After selecting one or more of the interactions by clicking the checkbox beside 
 * **FASTA:** Provides the FASTA DNA or protein sequence for the selected feature(s).
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) user guide.
+More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
 
 ## Interactions Viewer
 Clicking the **Graph** option at the top left of the table displays the [Cytoscape](http://www.cytoscape.org/)-based Interactions Viewer. 
@@ -83,4 +83,4 @@ After selecting one or more of the nodes by clicking it (ctrl-clicking to select
 * **MSA:** Launches the Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) user guide.
+More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.

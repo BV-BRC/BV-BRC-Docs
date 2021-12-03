@@ -84,7 +84,7 @@ The Align option generates several files that are deposited in the Private Works
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include 
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
-* **Guide** Link to the corresponding User Guide
+* **Guide** Link to the corresponding Quick Reference Guide.
 * **Download:**  Downloads the selected item.
 * **View** Displays the content of the file, typically as plain text or rendered html, depending on filetype.
 * **Delete** Deletes the file.
@@ -93,7 +93,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Move** Allows moving of the file to another folder.
 * **Edit Type** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Buttons](../action_buttons.html) user guide.
+More details are available in the [Action Buttons](../action_buttons.html) Quick Reference Guide.
 
 ## References
 

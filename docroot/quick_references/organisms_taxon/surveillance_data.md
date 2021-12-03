@@ -146,7 +146,7 @@ Users may also customize the fields displayed in the table by clicking on the ge
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table. These include:
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
-* **Guide:** Link to the corresponding User Guide
+* **Guide:** Link to the corresponding Quick Reference Guide.
 * **Download:** Downloads the selected item.
 * **Copy:** Copies the selected items to the clipboard.
 * **Surveillance:** Allows user to switch to the surveillance view, summarizing the surveillance test results.

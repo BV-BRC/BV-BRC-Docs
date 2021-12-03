@@ -28,7 +28,7 @@ As with all tables, the Filters tool is available to narrow the display of the i
   
 ![Sequences Filter Panel](../images/sequences_filter_panel.png)
 
-Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel. More details are available in the [Filter Tool](../other/filter_tool.html) user guide.
+Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel. More details are available in the [Filter Tool](../other/filter_tool.html) Quick Reference Guide.
 
 ### Action buttons
 
@@ -43,4 +43,4 @@ After selecting one or more of the sequences by clicking the checkbox beside the
 * **Browser:** Loads the Genome Browser with only the selected sequence, as opposed to the entire corresponding genome.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) user guide.
+More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.

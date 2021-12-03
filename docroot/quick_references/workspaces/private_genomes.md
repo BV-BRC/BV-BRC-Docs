@@ -4,14 +4,14 @@
 BV-BRC allows users to have their own private genomes stored in the workspace and also available integrated with the rest of the BV-BRC public genome data to enable comparative analysis.
 
 ### See also:
-  * [Genome Annotation Service User Guide](../services/genome_annotation_service.html)
+  * [Genome Annotation Service Quick Reference Guide](../services/genome_annotation_service.html)
   * [Genome Annotation Service Tutorial](../../tutorial/genome_annotation/annotation.html)
   * [Private Workspace](../workspaces/workspace.html)
   * [Genomes Tab](../organisms_taxon/genomes.html)
   * [Genome Overview Tab](../organisms_genome/overview.html)
 
 ## Creating Private Genomes
-A private genome is automatically created as a result of running the Genome Annotation Service. See the [Genome Annotation Service User Guide](../services/genome_annotation_service.html) for details.
+A private genome is automatically created as a result of running the Genome Annotation Service. See the [Genome Annotation Service Quick Reference Guide](../services/genome_annotation_service.html) for details.
 
 ## Accessing and Using Private Genomes
 Upon successful completion of an annotation job, the resulting annotated genome is integrated into the other genome data in the website, but is only viewable by the owner (submitter) of the annotation job. This integration allows use of all the BV-BRC genome display and analysis tools, including comparisons with other public genomes.

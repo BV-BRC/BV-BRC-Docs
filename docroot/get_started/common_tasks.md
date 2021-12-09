@@ -1,4 +1,4 @@
 # Common Viral Data Searches and Analyses in BV-BRC
-## (For IRD/ViPR Users)
+## (Guide for IRD/ViPR Users)
 
 Coming soon...

@@ -1,4 +1,4 @@
 # BV-BRC Data and Functionality Overview 
-## (for PATRIC Users)
+## (Guide for PATRIC Users)
 
 Coming soon...

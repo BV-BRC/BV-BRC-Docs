@@ -7,6 +7,39 @@ BV-BRC has been developed by using the legacy PATRIC data, tools, services, webs
 
 ### Organisms
 
+In addition to pathogenic and other bacterial species (like PATRIC), BV-BRC now includes viral genomes and other data for influenza and other pathogenic viruses. Summary organism groups include:
+
+|Bacteria (Genera)|Viruses (Families)|
+|-----------------|------------------|
+|Acinetobacter    |Adenoviridae      |
+|Bacillus         |Asfarviridae      |
+|Bartonella       |Bunyavirales      |
+|Brucella         |Caliciviridae     |
+|Burkholderia     |Coronaviridae     |
+|Campylobacter    |Filoviridae       |
+
+
+
+
+
+
+
+
+
+
+
+As in PATRIC, archaea and eukaryotic host genomes are included as well.
+
+#### Bacteria (Genera)
+
+
+
+
+The top-level ORGANISMS menu option now includes these virus groups:
+
+
+
+
 ### Genomes
 Bacterial data (~500K annotated bacterial genomes and associated data) have been augmented with a comparable volume of viral data (~5M viral genomes and associated data). Many of the viral genomes have additional metadata fields, which have be been added to the overall set.
 

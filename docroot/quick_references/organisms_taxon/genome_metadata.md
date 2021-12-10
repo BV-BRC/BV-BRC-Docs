@@ -26,9 +26,9 @@ Genome metadata can be accessed in multiple ways:
 
 * **Organism Attributes:** Genome ID, Genome Name, Organism Name, Other Names, NCBI Taxon ID, Taxon Lineage IDs, Taxon Lineage Names, Superkingdon, Kingdom, Phylum, Class, Order, Family, Genus, Species, Genome Status, Strain, Serovar, Biovar, Pathovar, MLST, Segment, Subtype, H_type, N_type, Lineage, Clade, Subclade, Other Typing, Culture Collection, and Type Strain.
 
-* **Isolate Attributes:** Isolation Site, Isolation Source, Isolation Comments, Collection Date, Isolation Country, Geographic Location, Latitude, Longitude, Altitude, Depth, and Other Environmental.
+* **Isolate Attributes:** Isolation Source, Isolation Comments, Collection Date, Collection Year, Season, Isolation Country, Geographic Group, Geographic Location, Latitude, Longitude, Altitude, Depth, and Other Environmental.
 
-* **Host Attributes:** Host Name, Host Gender, Host Age, Host Health, Body Sample Site, Body Sample Subsite, and Other Clinical.
+* **Host Attributes:** Host Name, Host Common Name, Host Gender, Host Age, Host Health, Host Group, Lab Host, Passage, Body Sample Site, Body Sample Subsite, and Other Clinical.
 
 * **Sequence Attributes:** Sequencing Center, Sequencing Status, Sequencing Platform, Sequencing Depth, Assembly Method, Chromosome, Plasmids, Contigs, Size, GC Content, Contig L50, Contig N50, TRNA, RRNA, Mat Peptide, CDS, Coarse Consistency, Fine Consistency, CheckM Completeness, CheckM Contamination, Genome and Quality Flags.
 
@@ -36,7 +36,7 @@ Genome metadata can be accessed in multiple ways:
 
 * **Project Attributes:** Completion Date, Publication, BioProject Accession, BioSample Accession, Assembly Accession, SRA Accession, GenBank Accessions, and RefSeq Accessions.
 
-* **Other:** Comments, Additional Metadata, Insert Date, and Last Modified.
+* **Other:** Additional Metadata, Comments, Date Inserted, Date Modified, Public (true/false), Owner, Members (shared with).
 
 ## Clinical Metadata
 Some clinical metadata that is available for only a subset of the genomes available. This includes typing methods that are specific to a small number of genomes (such as spa type or wzi type), but are still important to researchers. These data are stored as a key-value pairs so that the Global Search can find genomes that contain any data for that field (e.g., search for 'wzi') or for genomes with specific values for that field (e.g., search for 'wzi:29')

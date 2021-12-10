@@ -24,17 +24,17 @@ Genome metadata can be accessed in multiple ways:
 
 ### Metadata Attributes
 
-* **Organism Info:** Genome ID, Genome Name, Organism Name, NCBI Taxon ID, Genome Status, Strain, Serovar, Biovar, Pathovar, MLST, Other Typing, Culture Collection, and Type Strain.
+* **Organism Attributes:** Genome ID, Genome Name, Organism Name, Other Names, NCBI Taxon ID, Taxon Lineage IDs, Taxon Lineage Names, Superkingdon, Kingdom, Phylum, Class, Order, Family, Genus, Species, Genome Status, Strain, Serovar, Biovar, Pathovar, MLST, Segment, Subtype, H_type, N_type, Lineage, Clade, Subclade, Other Typing, Culture Collection, and Type Strain.
 
-* **Isolate Info:** Isolation Site, Isolation Source, Isolation Comments, Collection Date, Isolation Country, Geographic Location, Latitude, Longitude, Altitude, Depth, and Other Environmental.
+* **Isolate Attributes:** Isolation Site, Isolation Source, Isolation Comments, Collection Date, Isolation Country, Geographic Location, Latitude, Longitude, Altitude, Depth, and Other Environmental.
 
-* **Host Info:** Host Name, Host Gender, Host Age, Host Health, Body Sample Site, Body Sample Subsite, and Other Clinical.
+* **Host Attributes:** Host Name, Host Gender, Host Age, Host Health, Body Sample Site, Body Sample Subsite, and Other Clinical.
 
-* **Sequence Info:** Sequencing Centers, Sequencing Status, Sequencing Platform, Sequencing Depth, Assembly Method, Chromosomes, Plasmids, Contigs, Sequences, Genome Length, CG Content, and CDS.
+* **Sequence Attributes:** Sequencing Center, Sequencing Status, Sequencing Platform, Sequencing Depth, Assembly Method, Chromosome, Plasmids, Contigs, Size, GC Content, Contig L50, Contig N50, TRNA, RRNA, Mat Peptide, CDS, Coarse Consistency, Fine Consistency, CheckM Completeness, CheckM Contamination, Genome and Quality Flags.
 
-* **Phenotype Info:** Antimicrobial Resistance, Antimicrobial Resistance Evidence, Gram Stain, Cell Shape, Motility, Sporulation, Temperature Range, Optimal Temperature, Salinity, Oxygen Requirement, Habitat, and Disease.
+* **Phenotype Attributes:** Antimicrobial Resistance, Antimicrobial Resistance Evidence, Gram Stain, Cell Shape, Motility, Sporulation, Temperature Range, Optimal Temperature, Salinity, Oxygen Requirement, Habitat, and Disease.
 
-* **Project Info:** Completion Date, Publication, BioProject Accession, BioSample Accession, Assembly Accession, GenBank Accessions, and RefSeq Accessions.
+* **Project Attributes:** Completion Date, Publication, BioProject Accession, BioSample Accession, Assembly Accession, SRA Accession, GenBank Accessions, and RefSeq Accessions.
 
 * **Other:** Comments, Additional Metadata, Insert Date, and Last Modified.
 

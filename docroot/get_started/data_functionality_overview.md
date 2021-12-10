@@ -15,7 +15,7 @@ As in PATRIC, eukaryotic host genomes are included as well.
 
 ### Genomes
 
-Bacterial genomes (~500K annotated bacterial genomes and associated data) have been augmented with a comparable volume of viral genomes (~5M viral genomes and associated data). Many of the viral genomes have additional metadata attributes, which have be been added to the overall set of genome metadata fields. A summary of available genome metadata fields and how to access them is available in the [Genome Metadata](../quick_references/organisms_taxon/genome_metadata.html) quick reference guide.
+Bacterial genomes (~500K annotated bacterial genomes and associated data) have been augmented with a comparable volume of viral genomes (~5M viral genomes and associated data). Many of the viral genomes have additional metadata attributes, which have be been added to the overall set of genome metadata fields. A summary of available genome metadata fields and how to access them is available in the [Genome Metadata Quick Reference Guide](../quick_references/organisms_taxon/genome_metadata.html).
 
 ### Other Data
 

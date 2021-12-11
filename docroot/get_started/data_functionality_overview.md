@@ -44,27 +44,15 @@ Summaries for the new and extended tools and services are below, with links to c
 
 **SARS-CoV-2 Genome Assembly and Annotation Service** - new service designed to support assembly and annotation of SARS-CoV-2 genomes from sequence reads. ([Quick Reference Guide](..//quick_references/services/sars_cov_2_assembly_annotation_service.html), [Tutorial](../tutorial/sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.html)).
 
-**Metadata-driven Comparative Analysis Tool (Meta-CATS)** - new service tha looks for positions that significantly differ between user-defined groups of sequences.
-* [Quick Reference Guide](../quick_references/services/metacats.html)
-* [Tutorial](../tutorial/metacats/metacats.html)
+**Metadata-driven Comparative Analysis Tool (Meta-CATS)** - new service tha looks for positions that significantly differ between user-defined groups of sequences ([Quick Reference Guide](../quick_references/services/metacats.html), [Tutorial](../tutorial/metacats/metacats.html)).
 
-**Primer Design Service** - new service that designs primers from a given input sequence under a variety of temperature, size, and concentration constraints.
-* [Quick Reference Guide](../quick_references/services/primer_design_service.html)
-* [Tutorial](../tutorial/primer_design/primer_design.html)
+**Primer Design Service** - new service that designs primers from a given input sequence under a variety of temperature, size, and concentration constraints ([Quick Reference Guide](../quick_references/services/primer_design_service.html), [Tutorial](../tutorial/primer_design/primer_design.html)).
 
-**MSA and SNP Analysis Service** - 
-* [Quick Reference Guide](../quick_references/services/msa_snp_variation_service.html)
-* [Tutorial](../tutorial/msa_snp_variation/msa_snp_variation.html)
+**MSA and SNP Analysis Service** - new service that constructs a multiple sequence analysis (MSA) and computes single nucleotide polymorphisms (SNPs) for a given set of nucleotide or protein sequences ([Quick Reference Guide](../quick_references/services/msa_snp_variation_service.html), [Tutorial](../tutorial/msa_snp_variation/msa_snp_variation.html)).
 
-**Gene Tree Service** - constructs custom phylogenetic trees built from user-selected genomes, genes, or proteins. 
-* [Quick Reference Guide](../quick_references/services/genetree.html)
-* [Tutorial](../tutorial/genetree/genetree.html)
+**Gene Tree Service** - constructs custom phylogenetic trees built from user-selected genomes, genes, or proteins ([Quick Reference Guide](../quick_references/services/genetree.html), [Tutorial](../tutorial/genetree/genetree.html)).
 
-**Taxonomic Classification** - extended to include viruses.
-* [Quick Reference Guide](../quick_references/services/taxonomic_classification_service.html)
-* [Tutorial](../tutorial/taxonomic_classification/taxonomic_classification.html)
+**Taxonomic Classification** - extended to include viruses ([Quick Reference Guide](../quick_references/services/taxonomic_classification_service.html), [Tutorial](../tutorial/taxonomic_classification/taxonomic_classification.html)).
 
-**Metagenomic Binning** - extended to include viruses.
-* [Quick Reference Guide](../quick_references/services/metagenomic_binning_service.html)
-* [Tutorial](../tutorial/metagenomic_binning/metagenomic_binning.html)
+**Metagenomic Binning** - extended to include viruses ([Quick Reference Guide](../quick_references/services/metagenomic_binning_service.html), [Tutorial](../tutorial/metagenomic_binning/metagenomic_binning.html)).
 

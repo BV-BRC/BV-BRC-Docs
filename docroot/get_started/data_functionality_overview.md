@@ -33,7 +33,7 @@ The viral data brings with it two unique data types, not formerly available in P
 
 Analysis tools from IRD/ViPR have been integrated with the PATRIC bacterial analysis service infrastructure. Where practical, complementary tools from both resources have been merged into one, or the tool has been extended (if necessary) to support the other data type. These are available from the TOOLS & SERVICES TOP menu, shown below. The letter "B" or "V" beside the service name indicates that the service is only available for bacterial *(B)* or viral *(V)* data.
 
-![Tools and Services Menu](./images/bv_services_menu_updated.png)
+![Tools and Services Menu](./images/bv_services_menu_updated2.png)
 
 
 Summaries for the new and extended tools and services are below, with links to corresponding quick reference guides and tutorials: 

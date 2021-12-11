@@ -9,7 +9,7 @@ BV-BRC has been developed by starting with the legacy PATRIC data, tools, servic
 
 In addition to bacterial pathogens and other bacterial and archaeal species (as in PATRIC), BV-BRC includes viral genomes and other data for influenza and other pathogenic viruses. The ORGANISMS top menu reflects these new options (see below). Website pages, searches, services, and tools can also access, display, and use these data. 
 
-![Organisms Menu](./images/bv_organisms_menu_virus.png)
+![Organisms Menu](./images/bv_organisms_menu_virus2.png)
 
 As in PATRIC, eukaryotic host genomes are included as well. 
 

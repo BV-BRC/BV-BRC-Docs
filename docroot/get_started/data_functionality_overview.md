@@ -38,12 +38,39 @@ Analysis tools from IRD/ViPR have been integrated with the PATRIC bacterial anal
 
 Summaries for the new and extended tools and services are below, with links to corresponding quick reference guides and tutorials: 
 
-* **Genome Annotation** - extended to support annotation of viral genomes.
-   *  [Genome Annotation Service Quick Reference Guide](../quick_references/services/genome_annotation_service.html)
-   *  [Genome Annotation Service Tutorial](../tutorial/genome_annotation/genome_annotation.html)
+**Genome Annotation Service** - extended to support annotation of viral genomes.
+* [Quick Reference Guide](../quick_references/services/genome_annotation_service.html)
+* [Tutorial](../tutorial/genome_annotation/genome_annotation.html)
 
-* **BLAST (Homology Search)** - extended to include viral sequences and short sequence search/
-   * 
+**BLAST (Homology Search) Service** - extended to include viral sequences and short sequence search.
+* [Quick Reference Guide](../quick_references/services/blast.html)
+* [Tutorial](../tutorial/blast/blast.html)
+
+**SARS-CoV-2 Genome Assembly and Annotation Service** - new service designed to support assembly and annotation of SARS-CoV-2 genomes from sequence reads.
+* [Quick Reference Guide](..//quick_references/services/sars_cov_2_assembly_annotation_service.html)
+* [Tutorial](../tutorial/sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.html)
+
+**Metadata-driven Comparative Analysis Tool (Meta-CATS)** - new service tha looks for positions that significantly differ between user-defined groups of sequences.
+* [Quick Reference Guide](../quick_references/services/metacats.html)
+* [Tutorial](../tutorial/metacats/metacats.html)
+
+**Primer Design Service** - new service that designs primers from a given input sequence under a variety of temperature, size, and concentration constraints.
+* [Quick Reference Guide](../quick_references/services/primer_design_service.html)
+* [Tutorial](../tutorial/primer_design/primer_design.html)
+
+**MSA and SNP Analysis Service** - 
+* [Quick Reference Guide](../quick_references/services/msa_snp_variation_service.html)
+* [Tutorial](../tutorial/msa_snp_variation/msa_snp_variation.html)
+
+**Gene Tree Service** - constructs custom phylogenetic trees built from user-selected genomes, genes, or proteins. 
+* [Quick Reference Guide](../quick_references/services/genetree.html)
+* [Tutorial](../tutorial/genetree/genetree.html)
 
 
-* 
+* [Quick Reference Guide]()
+* [Tutorial]()
+
+
+* [Quick Reference Guide]()
+* [Tutorial]()
+

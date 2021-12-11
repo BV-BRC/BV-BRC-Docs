@@ -66,11 +66,11 @@ Summaries for the new and extended tools and services are below, with links to c
 * [Quick Reference Guide](../quick_references/services/genetree.html)
 * [Tutorial](../tutorial/genetree/genetree.html)
 
+**Taxonomic Classification** - extended to include viruses.
+* [Quick Reference Guide](../quick_references/services/taxonomic_classification_service.html)
+* [Tutorial](../tutorial/taxonomic_classification/taxonomic_classification.html)
 
-* [Quick Reference Guide]()
-* [Tutorial]()
-
-
-* [Quick Reference Guide]()
-* [Tutorial]()
+**Metagenomic Binning** - extended to include viruses.
+* [Quick Reference Guide](../quick_references/services/metagenomic_binning_service.html)
+* [Tutorial](../tutorial/metagenomic_binning/metagenomic_binning.html)
 

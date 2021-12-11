@@ -29,6 +29,15 @@ The viral data brings with it two unique data types, not formerly available in P
 
 * [Serology Data Quick Reference Guide](../quick_references/organisms_taxon/serology_data.html)
 
+*Note: The DATA top menu that is in PATRIC has been deprecated for BV-BRC.  It will be replaced with documentation that describes data processing protocols used in BV-BRC for both bacteria and viruses.*
+
+## Searches
+
+The Global Search has been augmented with specialized Advanced Searches for each of the major data types. 
+
+![Tools and Services Menu](./images/bv_searches_menu.png)
+
+
 ## Tools and Services
 
 Analysis tools from IRD/ViPR have been integrated with the PATRIC bacterial analysis service infrastructure. Where practical, complementary tools from both resources have been merged into one, or the tool has been extended (if necessary) to support the other data type. These are available from the TOOLS & SERVICES TOP menu, shown below. The letter "B" or "V" beside the service name indicates that the service is only available for bacterial *(B)* or viral *(V)* data.

@@ -38,17 +38,11 @@ Analysis tools from IRD/ViPR have been integrated with the PATRIC bacterial anal
 
 Summaries for the new and extended tools and services are below, with links to corresponding quick reference guides and tutorials: 
 
-**Genome Annotation Service** - extended to support annotation of viral genomes.
-* [Quick Reference Guide](../quick_references/services/genome_annotation_service.html)
-* [Tutorial](../tutorial/genome_annotation/genome_annotation.html)
+**Genome Annotation Service** - extended to support annotation of viral genomes ([Quick Reference Guide](../quick_references/services/genome_annotation_service.html),  [Tutorial](../tutorial/genome_annotation/genome_annotation.html)). 
 
-**BLAST (Homology Search) Service** - extended to include viral sequences and short sequence search.
-* [Quick Reference Guide](../quick_references/services/blast.html)
-* [Tutorial](../tutorial/blast/blast.html)
+**BLAST (Homology Search) Service** - extended to include viral sequences and short sequence search ([Quick Reference Guide](../quick_references/services/blast.html), [Tutorial](../tutorial/blast/blast.html)).
 
-**SARS-CoV-2 Genome Assembly and Annotation Service** - new service designed to support assembly and annotation of SARS-CoV-2 genomes from sequence reads.
-* [Quick Reference Guide](..//quick_references/services/sars_cov_2_assembly_annotation_service.html)
-* [Tutorial](../tutorial/sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.html)
+**SARS-CoV-2 Genome Assembly and Annotation Service** - new service designed to support assembly and annotation of SARS-CoV-2 genomes from sequence reads. ([Quick Reference Guide](..//quick_references/services/sars_cov_2_assembly_annotation_service.html), [Tutorial](../tutorial/sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.html)).
 
 **Metadata-driven Comparative Analysis Tool (Meta-CATS)** - new service tha looks for positions that significantly differ between user-defined groups of sequences.
 * [Quick Reference Guide](../quick_references/services/metacats.html)

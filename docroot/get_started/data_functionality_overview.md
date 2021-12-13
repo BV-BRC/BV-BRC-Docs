@@ -33,17 +33,15 @@ The viral data brings with it two unique data types, not formerly available in P
 
 ## Searches
 
-The Global Search has been augmented with specialized Advanced Searches for each of the major data types. 
+The Global Search has been augmented with specialized **Advanced Searches** for each of the major data types including Taxa, Genomes, Strains, Proteins, Specialty Genes, Domains and Motifs, Epitopes, Protein Structures, Pathways, Surveillance data, and Serology data.  These searches are available from the **SEARCHES** top menu. 
 
 ![Tools and Services Menu](./images/bv_searches_menu.png)
-
 
 ## Tools and Services
 
 Analysis tools from IRD/ViPR have been integrated with the PATRIC bacterial analysis service infrastructure. Where practical, complementary tools from both resources have been merged into one, or the tool has been extended (if necessary) to support the other data type. These are available from the TOOLS & SERVICES TOP menu, shown below. The letter "B" or "V" beside the service name indicates that the service is only available for bacterial *(B)* or viral *(V)* data.
 
 ![Tools and Services Menu](./images/bv_services_menu_updated2.png)
-
 
 Summaries for the new and extended tools and services are below, with links to corresponding quick reference guides and tutorials: 
 
@@ -65,3 +63,6 @@ Summaries for the new and extended tools and services are below, with links to c
 
 **Metagenomic Binning** - extended to include viruses ([Quick Reference Guide](../quick_references/services/metagenomic_binning_service.html), [Tutorial](../tutorial/metagenomic_binning/metagenomic_binning.html)).
 
+## Visualization Tools
+
+A new 3-D Protein Structure Viewer has been integrated that displays structures for bacterial and viral proteins, where available.  

@@ -16,11 +16,12 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     <th>BV-BRC Feature</th>
     <th>Documentation</th>
   </tr>
+  <tr>
     <td>DATA SEARCHES</td>
     <td></td>
     <td></td>
   </tr>
-  </tr>
+  <tr>
     <td>
       <a href="https://www.fludb.org/brc/influenza_sequence_search_segment_display.spg?method=ShowCleanSearch&decorator=influenza">Nucleotide Search (IRD)</a><br>
       <a href="https://www.fludb.org/brc/influenza_sequence_search_segment_display.spg?method=ShowCleanSearch&decorator=influenza">Genome Search (ViPR)</a>
@@ -28,67 +29,90 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     <td><a href="https://beta.bv-brc.org/searches/GenomeSearch">Genome Search</a></td>
     <td></td>
   </tr>
-  </tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  </tr>
-    <td></td>
-    <td></td>
+  <tr>
+    <td>
+      <a href="https://www.fludb.org/brc/influenza_surveillanceRecord_search.spg?method=ShowCleanSearch&decorator=influenza">Animal Surveillance Search (IRD)</a><br>
+      <a href="https://www.fludb.org/brc/influenza_humanSurveillanceData_search.spg?method=ShowCleanSearch&decorator=influenza">Human Surveillance Records (IRD)</a>
+    </td>
+    <td><a href="https://beta.bv-brc.org/searches/SurveillanceSearch">Surveillance Search</a></td>
     <td></td>
   </tr>
+  <tr>
+    <td><a href="https://www.fludb.org/brc/influenza_surveillanceRecord_search.spg?method=ShowCleanSearch&decorator=influenza">3-D Protein Structure Search</a></td>
+    <td><a href="https://beta.bv-brc.org/searches/ProteinStructureSearch">Protein Structure Search</a></td>
+    <td></td>
   </tr>
+  <tr>
+    <td><a href="https://www.fludb.org/brc/serology_experiment_search.spg?method=ShowCleanSearch&decorator=influenza">Serology Experiment Search (IRD)</a></td>
+    <td><a href="https://beta.bv-brc.org/searches/SerologySearch">Serology Search</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.fludb.org/brc/influenza_surveillanceRecord_search.spg?method=ShowCleanSearch&decorator=influenza">3-D Protein Structure Search</a></td>
+    <td><a href="https://beta.bv-brc.org/searches/ProteinStructureSearch">Protein Structure Search</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.fludb.org/brc/influenza_surveillanceRecord_search.spg?method=ShowCleanSearch&decorator=influenza">3-D Protein Structure Search</a></td>
+    <td><a href="https://beta.bv-brc.org/searches/ProteinStructureSearch">Protein Structure Search</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.fludb.org/brc/influenza_surveillanceRecord_search.spg?method=ShowCleanSearch&decorator=influenza">3-D Protein Structure Search</a></td>
+    <td><a href="https://beta.bv-brc.org/searches/ProteinStructureSearch">Protein Structure Search</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.fludb.org/brc/influenza_sequenceFeatureVariantTypes_search.spg?method=ShowCleanSearch&decorator=influenza">Sequence Feature Variant Types</a></td>
     <td></td>
     <td></td>
-    <td></td>
   </tr>
-  </tr>
+  <tr>
     <td>ANALYSIS TOOLS</td>
     <td></td>
     <td></td>
   </tr>
-  </tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
   </tr>
-  </tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
   </tr>
-  </tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
   </tr>
-  </tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
   </tr>
-  </tr>
+  <tr>
     <td>WORKBENCH</td>
     <td></td>
     <td></td>
   </tr>
-  </tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
   </tr>
-  </tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
   </tr>
-  </tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>
   </tr>
-  </tr>
+  <tr>
     <td></td>
     <td></td>
     <td></td>

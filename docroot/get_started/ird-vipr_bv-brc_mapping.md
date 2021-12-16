@@ -1,3 +1,11 @@
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+
+
 # IRD/ViPR to BV-BRC Terminology and Feature Mapping
 ## (A Guide for IRD/ViPR Users)
 

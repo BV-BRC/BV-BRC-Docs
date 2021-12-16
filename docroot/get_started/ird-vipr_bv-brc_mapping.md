@@ -5,26 +5,89 @@ table, th, td {
 }
 </style>
 
-
 # IRD/ViPR to BV-BRC Terminology and Feature Mapping
 ## (A Guide for IRD/ViPR Users)
 
-Coming soon...
+BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and tools from PATRIC. The BV-BRC system is built on the PATRIC system infrastructure (database, services, and website). As a result, the interfaces for accessing and using data and tools differ substantially from IRD and ViPR. To aid researchers in making this transition, the table below provides a mapping of IRD and ViPR features to the corresponding BV-BRC features. Links to relevant BV-BRC help documentation are provided as well.
 
 <table>
   <tr>
-    <th>Col Head 1</th>
-    <th>Col Head 2</th>
-    <th>Col Head 3</th>
+    <th>IRD/ViPR Feature</th>
+    <th>BV-BRC Feature</th>
+    <th>Documentation</th>
   </tr>
-  <tr>
-    <td>Col 1 Row 1</td>
-    <td>Col 2 Row 1</td>
-    <td>Col 3 Row 1</td>
+    <td>DATA SEARCHES</td>
+    <td></td>
+    <td></td>
   </tr>
-  <tr>
-    <td>Col 1 Row 2</td>
-    <td>Col 2 Row 2</td>
-    <td>Col 3 Row 2</td>
+  </tr>
+    <td></td>
+    <td><a href="https://beta.bv-brc.org/searches/GenomeSearch">Genome Search</a></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td>ANALYSIS TOOLS</td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td>WORKBENCH</td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>

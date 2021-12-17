@@ -53,8 +53,8 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     <td></td>
   </tr>
   <tr>
-    <td><a href="https://www.fludb.org/brc/influenza_surveillanceRecord_search.spg?method=ShowCleanSearch&decorator=influenza">3-D Protein Structure Search</a></td>
-    <td><a href="https://beta.bv-brc.org/searches/ProteinStructureSearch">Protein Structure Search</a></td>
+    <td><a href="https://www.fludb.org/brc/influenza_epitope_search.spg?method=ShowCleanSearch&decorator=influenza">Immune Epitope Search</a></td>
+    <td><a href="https://beta.bv-brc.org/searches/EpitopeSearch">Epitope Search</a></td>
     <td></td>
   </tr>
   <tr>

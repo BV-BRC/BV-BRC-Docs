@@ -43,6 +43,7 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     <td><a href="https://beta.bv-brc.org/searches/ProteinStructureSearch">Protein Structure Search</a></td>
     <td></td>
   </tr>
+  <! --- Insert Anti-Viral Drugs Search when available --->
   <tr>
     <td><a href="https://www.fludb.org/brc/serology_experiment_search.spg?method=ShowCleanSearch&decorator=influenza">Serology Experiment Search (IRD)</a></td>
     <td><a href="https://beta.bv-brc.org/searches/SerologySearch">Serology Search</a></td>
@@ -58,9 +59,14 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     <td><a href="https://beta.bv-brc.org/searches/EpitopeSearch">Epitope Search</a></td>
     <td></td>
   </tr>
+  <! --- Insert Phenotypes Search if/when available --->
+  <! --- Insert PCR Primer Probe Search if/when available --->
+  <! --- Insert Sequence Feature Variant Type Search if/when available --->
+  <! --- Insert Human Clinical Studies Search if/when available --->
+  <! --- Insert ORFeome Plasmid Data Search if/when available --->
   <tr>
-    <td><a href="https://www.fludb.org/brc/influenza_surveillanceRecord_search.spg?method=ShowCleanSearch&decorator=influenza">3-D Protein Structure Search</a></td>
-    <td><a href="https://beta.bv-brc.org/searches/ProteinStructureSearch">Protein Structure Search</a></td>
+    <td><a href="https://www.viprbrc.org/brc/vipr_virusDomain_search.spg?method=ShowCleanSearch&decorator=corona">Protein Domains Search</a></td>
+    <td><a href="https://beta.bv-brc.org/searches/ProteinFeatureSearch">Domain and Motif Search</a></td>
     <td></td>
   </tr>
   <tr>

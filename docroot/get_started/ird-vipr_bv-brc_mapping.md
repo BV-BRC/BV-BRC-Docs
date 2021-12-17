@@ -77,11 +77,6 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td><b>ANALYSIS TOOLS</b></td>
     <td></td>
     <td></td>

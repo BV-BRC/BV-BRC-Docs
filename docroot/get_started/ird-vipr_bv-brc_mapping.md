@@ -24,6 +24,13 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
   </tr>
   <tr>
     <td>
+      <a href="https://www.fludb.org/brc/search_landing.spg?decorator=influenza">Quick Search</a> (Search page, upper right)
+    </td>
+    <td><a href="https://beta.bv-brc.org/view/Taxonomy/10239">Global Search</a> (top right, all pages)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://www.fludb.org/brc/influenza_sequence_search_segment_display.spg?method=ShowCleanSearch&decorator=influenza">Nucleotide Search (IRD)</a><br>
       <a href="https://www.fludb.org/brc/influenza_sequence_search_segment_display.spg?method=ShowCleanSearch&decorator=influenza">Genome Search (ViPR)</a>
     </td>

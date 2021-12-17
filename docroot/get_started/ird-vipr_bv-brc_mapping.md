@@ -1,9 +1,3 @@
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
 
 # IRD/ViPR to BV-BRC Terminology and Feature Mapping
 ## (A Guide for IRD/ViPR Users)
@@ -63,7 +57,7 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     <td></td>
   </tr>
   <tr>
-    <td><a href="https://www.fludb.org/brc/influenza_sequenceFeatureVariantTypes_search.spg?method=ShowCleanSearch&decorator=influenza">Sequence Feature Variant Types</a></td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>

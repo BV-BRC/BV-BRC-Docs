@@ -121,19 +121,19 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     </td>  
   </tr>
   <tr>
-    <td><a href=""></a></td>
-    <td><a href=""></a></td>
+    <td><a href="https://www.fludb.org/brc/mgc.spg?method=ShowCleanInputPage&selectionContext={selectionContext}&decorator=influenza">Metadata-driven Comparative Analysis Tool for Sequences (Meta-CATS)</a></td>
+    <td><a href="https://beta.bv-brc.org/app/MetaCATS">Metadata-driven Comparative Analysis Tool for Sequences (Meta-CATS)</a></td>
     <td>
-      <a href="../quick_references/">Quick Reference</a><br>
-      <a href="../tutorial/">Tutorial</a>
+      <a href="../quick_references/services/metacats.html">Quick Reference</a><br>
+      <a href="../tutorial/metacats/metacats.html">Tutorial</a>
     </td>  
   </tr>
   <tr>
-    <td><a href=""></a></td>
-    <td><a href=""></a></td>
+    <td><a href="https://www.fludb.org/brc/primer3.spg?method=ShowCleanInputPage&decorator=influenza">Polymerase Chain Reaction (PCR) Primer Design</a></td>
+    <td><a href="https://beta.bv-brc.org/app/PrimerDesign">Primer Design</a></td>
     <td>
-      <a href="../quick_references/">Quick Reference</a><br>
-      <a href="../tutorial/">Tutorial</a>
+      <a href="../quick_references/services/primer_design_service.html">Quick Reference</a><br>
+      <a href="../tutorial/primer_design/primer_design.html">Tutorial</a>
     </td>  
   </tr>
   <tr>

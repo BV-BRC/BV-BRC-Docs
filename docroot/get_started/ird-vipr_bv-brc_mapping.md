@@ -82,11 +82,42 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     <td></td>
   </tr>
   <tr>
-    <td><a href="https://www.fludb.org/brc/blast.spg?method=ShowCleanInputPage&decorator=influenza">Identify Similar Sequences (BLAST)</a></td>
+    <td>
+      <a href="https://www.fludb.org/brc/blast.spg?method=ShowCleanInputPage&decorator=influenza">Identify Similar Sequences (BLAST)</a><br>
+      <a href="https://www.fludb.org/brc/sssearch.spg?method=ShowCleanInputPage&decorator=influenza&preSelectDB=true">Identify Short Peptides in Proteins</a>
+    </td>
     <td><a href="https://beta.bv-brc.org/app/Homology">BLAST (Homology)</a></td>
     <td>
       <a href="../quick_references/services/blast.html">Quick Reference</a><br>
       <a href="../tutorial/blast/blast.html">Tutorial</a>
+    </td>  
+  </tr>
+  <tr>
+    <td><a href="https://www.fludb.org/brc/tree.spg?method=ShowCleanInputPage&decorator=influenza">Generate Phylogenetic Tree</a></td>
+    <td><a href="">Phylogenetic Tree (Gene Tree)</a></td>
+    <td>
+      <a href="../quick_references/services/genetree.html">Quick Reference</a><br>
+      <a href="../tutorial/genetree/genetree.html">Tutorial</a>
+    </td>  
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.fludb.org/brc/msa.spg?method=ShowCleanInputPage&decorator=influenza">Align Sequences (MSA)</a><br>
+      <a href="https://www.fludb.org/brc/snpAnalysis.spg?method=ShowCleanInputPage&decorator=influenza">Analyze Sequence Variation</a><br>
+      <a href="https://www.fludb.org/brc/jalviewUsingFasta.spg?method=ShowCleanInputPage&decorator=influenza">Visualize Aligned Sequences</a>
+    </td>
+    <td><a href="https://beta.bv-brc.org/app/MSA">MSA and SNP/Variation Analysis</a></td>
+    <td>
+      <a href="../quick_references/services/msa_snp_variation_service.html">Quick Reference</a><br>
+      <a href="../tutorial/msa_snp_variation/msa_snp_variation.html">Tutorial</a>
+    </td>  
+  </tr>
+  <tr>
+    <td><a href="https://www.viprbrc.org/brc/vigorAnnotator.spg?method=ShowCleanInputPage&decorator=corona">Genome Annotation (VIGOR4)</a></td>
+    <td><a href="https://beta.bv-brc.org/app/Annotation">Genome Annotation</a></td>
+    <td>
+      <a href="../quick_references/services/genome_annotation_service.html">Quick Reference</a><br>
+      <a href="../tutorial/genome_annotation/genome_annotation.html">Tutorial</a>
     </td>  
   </tr>
   <tr>
@@ -98,14 +129,60 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     </td>  
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+    <td>
+      <a href="../quick_references/">Quick Reference</a><br>
+      <a href="../tutorial/">Tutorial</a>
+    </td>  
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+    <td>
+      <a href="../quick_references/">Quick Reference</a><br>
+      <a href="../tutorial/">Tutorial</a>
+    </td>  
+  </tr>
+  <tr>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+    <td>
+      <a href="../quick_references/">Quick Reference</a><br>
+      <a href="../tutorial/">Tutorial</a>
+    </td>  
+  </tr>
+  <tr>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+    <td>
+      <a href="../quick_references/">Quick Reference</a><br>
+      <a href="../tutorial/">Tutorial</a>
+    </td>  
+  </tr>
+  <tr>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+    <td>
+      <a href="../quick_references/">Quick Reference</a><br>
+      <a href="../tutorial/">Tutorial</a>
+    </td>  
+  </tr>
+  <tr>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+    <td>
+      <a href="../quick_references/">Quick Reference</a><br>
+      <a href="../tutorial/">Tutorial</a>
+    </td>  
+  </tr>
+  <tr>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+    <td>
+      <a href="../quick_references/">Quick Reference</a><br>
+      <a href="../tutorial/">Tutorial</a>
+    </td>  
   </tr>
   <tr>
     <td><b>WORKBENCH</b></td>

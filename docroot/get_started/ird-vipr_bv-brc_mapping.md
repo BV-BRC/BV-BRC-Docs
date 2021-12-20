@@ -13,9 +13,9 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
 
 <table style="width:100%">
   <tr>
-    <th>IRD/ViPR Feature</th>
-    <th>BV-BRC Feature</th>
-    <th>Documentation</th>
+    <th style="width:40%">IRD/ViPR Feature</th>
+    <th style="width:40%">BV-BRC Feature</th>
+    <th style="width:20%">Documentation</th>
   </tr>
   <tr>
     <td><b>DATA SEARCHES</b></td>
@@ -24,10 +24,10 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
   </tr>
   <tr>
     <td>
-      <a href="https://www.fludb.org/brc/search_landing.spg?decorator=influenza">Quick Search</a> (Search page, upper right)
+      <a href="https://www.fludb.org/brc/search_landing.spg?decorator=influenza">Quick Search</a> (upper right)
     </td>
-    <td><a href="https://beta.bv-brc.org/view/Taxonomy/10239">Global Search</a> (top right, all pages)</td>
-    <td></td>
+    <td><a href="https://beta.bv-brc.org/view/Taxonomy/10239">Global Search</a> (top right)</td>
+    <td><a href="../quick_references/global_search.html">Quick Reference</a></td>
   </tr>
   <tr>
     <td>
@@ -77,34 +77,64 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td><b>ANALYSIS TOOLS</b></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>
+      <a href="https://www.fludb.org/brc/blast.spg?method=ShowCleanInputPage&decorator=influenza">Identify Similar Sequences (BLAST)</a><br>
+      <a href="https://www.fludb.org/brc/sssearch.spg?method=ShowCleanInputPage&decorator=influenza&preSelectDB=true">Identify Short Peptides in Proteins</a>
+    </td>
+    <td><a href="https://beta.bv-brc.org/app/Homology">BLAST (Homology)</a></td>
+    <td>
+      <a href="../quick_references/services/blast.html">Quick Reference</a><br>
+      <a href="../tutorial/blast/blast.html">Tutorial</a>
+    </td>  
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><a href="https://www.fludb.org/brc/tree.spg?method=ShowCleanInputPage&decorator=influenza">Generate Phylogenetic Tree</a></td>
+    <td><a href="">Phylogenetic Tree (Gene Tree)</a></td>
+    <td>
+      <a href="../quick_references/services/genetree.html">Quick Reference</a><br>
+      <a href="../tutorial/genetree/genetree.html">Tutorial</a>
+    </td>  
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>
+      <a href="https://www.fludb.org/brc/msa.spg?method=ShowCleanInputPage&decorator=influenza">Align Sequences (MSA)</a><br>
+      <a href="https://www.fludb.org/brc/snpAnalysis.spg?method=ShowCleanInputPage&decorator=influenza">Analyze Sequence Variation</a><br>
+      <a href="https://www.fludb.org/brc/jalviewUsingFasta.spg?method=ShowCleanInputPage&decorator=influenza">Visualize Aligned Sequences</a>
+    </td>
+    <td><a href="https://beta.bv-brc.org/app/MSA">MSA and SNP Analysis</a></td>
+    <td>
+      <a href="../quick_references/services/msa_snp_variation_service.html">Quick Reference</a><br>
+      <a href="../tutorial/msa_snp_variation/msa_snp_variation.html">Tutorial</a>
+    </td>  
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><a href="https://www.viprbrc.org/brc/vigorAnnotator.spg?method=ShowCleanInputPage&decorator=corona">Genome Annotation (VIGOR4)</a></td>
+    <td><a href="https://beta.bv-brc.org/app/Annotation">Genome Annotation</a></td>
+    <td>
+      <a href="../quick_references/services/genome_annotation_service.html">Quick Reference</a><br>
+      <a href="../tutorial/genome_annotation/genome_annotation.html">Tutorial</a>
+    </td>  
+  </tr>
+  <tr>
+    <td><a href="https://www.fludb.org/brc/mgc.spg?method=ShowCleanInputPage&selectionContext={selectionContext}&decorator=influenza">Metadata-driven Comparative Analysis Tool (Meta-CATS)</a></td>
+    <td><a href="https://beta.bv-brc.org/app/MetaCATS">Metadata-driven Comparative Analysis Tool (Meta-CATS)</a></td>
+    <td>
+      <a href="../quick_references/services/metacats.html">Quick Reference</a><br>
+      <a href="../tutorial/metacats/metacats.html">Tutorial</a>
+    </td>  
+  </tr>
+  <tr>
+    <td><a href="https://www.fludb.org/brc/primer3.spg?method=ShowCleanInputPage&decorator=influenza">Polymerase Chain Reaction (PCR) Primer Design</a></td>
+    <td><a href="https://beta.bv-brc.org/app/PrimerDesign">Primer Design</a></td>
+    <td>
+      <a href="../quick_references/services/primer_design_service.html">Quick Reference</a><br>
+      <a href="../tutorial/primer_design/primer_design.html">Tutorial</a>
+    </td>  
   </tr>
   <tr>
     <td><b>WORKBENCH</b></td>

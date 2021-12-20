@@ -137,54 +137,6 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     </td>  
   </tr>
   <tr>
-    <td><a href=""></a></td>
-    <td><a href=""></a></td>
-    <td>
-      <a href="../quick_references/">Quick Reference</a><br>
-      <a href="../tutorial/">Tutorial</a>
-    </td>  
-  </tr>
-  <tr>
-    <td><a href=""></a></td>
-    <td><a href=""></a></td>
-    <td>
-      <a href="../quick_references/">Quick Reference</a><br>
-      <a href="../tutorial/">Tutorial</a>
-    </td>  
-  </tr>
-  <tr>
-    <td><a href=""></a></td>
-    <td><a href=""></a></td>
-    <td>
-      <a href="../quick_references/">Quick Reference</a><br>
-      <a href="../tutorial/">Tutorial</a>
-    </td>  
-  </tr>
-  <tr>
-    <td><a href=""></a></td>
-    <td><a href=""></a></td>
-    <td>
-      <a href="../quick_references/">Quick Reference</a><br>
-      <a href="../tutorial/">Tutorial</a>
-    </td>  
-  </tr>
-  <tr>
-    <td><a href=""></a></td>
-    <td><a href=""></a></td>
-    <td>
-      <a href="../quick_references/">Quick Reference</a><br>
-      <a href="../tutorial/">Tutorial</a>
-    </td>  
-  </tr>
-  <tr>
-    <td><a href=""></a></td>
-    <td><a href=""></a></td>
-    <td>
-      <a href="../quick_references/">Quick Reference</a><br>
-      <a href="../tutorial/">Tutorial</a>
-    </td>  
-  </tr>
-  <tr>
     <td><b>WORKBENCH</b></td>
     <td></td>
     <td></td>

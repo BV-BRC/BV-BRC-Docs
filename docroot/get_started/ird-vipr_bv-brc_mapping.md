@@ -121,8 +121,8 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     </td>  
   </tr>
   <tr>
-    <td><a href="https://www.fludb.org/brc/mgc.spg?method=ShowCleanInputPage&selectionContext={selectionContext}&decorator=influenza">Metadata-driven Comparative Analysis Tool for Sequences (Meta-CATS)</a></td>
-    <td><a href="https://beta.bv-brc.org/app/MetaCATS">Metadata-driven Comparative Analysis Tool for Sequences (Meta-CATS)</a></td>
+    <td><a href="https://www.fludb.org/brc/mgc.spg?method=ShowCleanInputPage&selectionContext={selectionContext}&decorator=influenza">Metadata-driven Comparative Analysis Tool (Meta-CATS)</a></td>
+    <td><a href="https://beta.bv-brc.org/app/MetaCATS">Metadata-driven Comparative Analysis Tool (Meta-CATS)</a></td>
     <td>
       <a href="../quick_references/services/metacats.html">Quick Reference</a><br>
       <a href="../tutorial/metacats/metacats.html">Tutorial</a>

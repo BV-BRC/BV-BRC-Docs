@@ -13,9 +13,9 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
 
 <table style="width:100%">
   <tr>
-    <th>IRD/ViPR Feature</th>
-    <th>BV-BRC Feature</th>
-    <th>Documentation</th>
+    <th style="width:40%">IRD/ViPR Feature</th>
+    <th style="width:40%">BV-BRC Feature</th>
+    <th style="width:20%">Documentation</th>
   </tr>
   <tr>
     <td><b>DATA SEARCHES</b></td>
@@ -106,7 +106,7 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
       <a href="https://www.fludb.org/brc/snpAnalysis.spg?method=ShowCleanInputPage&decorator=influenza">Analyze Sequence Variation</a><br>
       <a href="https://www.fludb.org/brc/jalviewUsingFasta.spg?method=ShowCleanInputPage&decorator=influenza">Visualize Aligned Sequences</a>
     </td>
-    <td><a href="https://beta.bv-brc.org/app/MSA">MSA and SNP/Variation Analysis</a></td>
+    <td><a href="https://beta.bv-brc.org/app/MSA">MSA and SNP Analysis</a></td>
     <td>
       <a href="../quick_references/services/msa_snp_variation_service.html">Quick Reference</a><br>
       <a href="../tutorial/msa_snp_variation/msa_snp_variation.html">Tutorial</a>

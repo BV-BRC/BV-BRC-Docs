@@ -82,14 +82,20 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><a href="https://www.fludb.org/brc/blast.spg?method=ShowCleanInputPage&decorator=influenza">Identify Similar Sequences (BLAST)</a></td>
+    <td><a href="https://beta.bv-brc.org/app/Homology">BLAST (Homology)</a></td>
+    <td>
+      <a href="../quick_references/services/blast.html">Quick Reference</a><br>
+      <a href="../tutorial/blast/blast.html">Tutorial</a>
+    </td>  
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+    <td>
+      <a href="../quick_references/">Quick Reference</a><br>
+      <a href="../tutorial/">Tutorial</a>
+    </td>  
   </tr>
   <tr>
     <td></td>

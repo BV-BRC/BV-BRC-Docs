@@ -21,14 +21,22 @@ Additional details are presented below.
 <a name="data"></a>
 ## Data
 
-Viral data in BV-BRC are organized by families, as in ViPR, with direct access to subsets of featured viruses including Influenza A (IRD focus), Dengue, Ebolavirus, Enterovirus, Hepatitis C, Lassa mammarenavirus, SARS-CoV-2, Zika, and bacteriophages.
+Viral data in BV-BRC are organized by families, as in ViPR, with direct access to subsets of featured viruses including Influenza A (focus of IRD), Dengue, Ebolavirus, Enterovirus, Hepatitis C, Lassa mammarenavirus, SARS-CoV-2, Zika, and bacteriophages.
 
-In ViPR, users can directly access viral data by family by clicking the appropriate link in the middle of the [ViPR](https://www.viprbrc.org/brc/home.spg?decorator=vipr) homepage. (For [IRD](https://www.fludb.org/brc/home.spg?decorator=influenza), the homepage is already scoped to Influenza.) 
+In ViPR, users can directly access viral data by family by clicking the appropriate link in the middle of the [ViPR Homepage](https://www.viprbrc.org/brc/home.spg?decorator=vipr) homepage. (The [IRD homepage](https://www.fludb.org/brc/home.spg?decorator=influenza) is already scoped to Influenza.) 
 
+**ViPR Homepage:**
 ![ViPR homepage](./images/vipr_homepage_families.png)
 
-BV-BRC provides 2 ways to access viral data at the same levels - through the top ORGANISMS menu and from the Vir
+The BV-BRC provides a landing page with access to viral data at the same levels. It can be reached by clicking the VIRUSES button on the [BV-BRC homepage](https://bv-brc.org/): 
 
+**BV-BRC Homepage:**
+![BV-BRC homepage virus navigation](./images/bv_homepage_viruses_button.png)
+
+This will display the [BV-BRC Viruses landing page](https://beta.bv-brc.org/view/Virus/10239):
+
+**BV-BRC Viruses Landing Page:**
+![BV-BRC Viruses Landing Page](./images/bv_virus_landing_page.png)
 
 <table style="width:100%">
   <tr>

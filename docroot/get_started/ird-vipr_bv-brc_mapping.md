@@ -42,7 +42,7 @@ Clicking on one of these links (e.g., "Coronaviridae") will display the correspo
 
 ![Coronaviridae family link](./images/bv_coronaviridae_link.png)
 
-Alternatively, the same set of viral families and featured viral groups can be accessed directly from the ORGANISMS top menu.
+*Alternatively*, the same set of viral families and featured viral groups can be accessed directly from the ORGANISMS top menu.
 
 ![Organisms Menu, Viruses](./images/bv_organisms_menu_virus2.png)
 

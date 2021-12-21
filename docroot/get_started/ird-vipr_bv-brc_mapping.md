@@ -21,6 +21,15 @@ Additional details are presented below.
 <a name="data"></a>
 ## Data
 
+Viral data in BV-BRC are organized by families, as in ViPR, with direct access to subsets of featured viruses including Influenza A (IRD focus), Dengue, Ebolavirus, Enterovirus, Hepatitis C, Lassa mammarenavirus, SARS-CoV-2, Zika, and bacteriophages.
+
+In ViPR, users can directly access viral data by family by clicking the appropriate link in the middle of the [ViPR](https://www.viprbrc.org/brc/home.spg?decorator=vipr) homepage. (For [IRD](https://www.fludb.org/brc/home.spg?decorator=influenza), the homepage is already scoped to Influenza.) 
+
+![ViPR homepage](./images/vipr_homepage_families.png)
+
+BV-BRC provides 2 ways to access viral data at the same levels - through the top ORGANISMS menu and from the Vir
+
+
 <table style="width:100%">
   <tr>
     <th style="width:40%">IRD/ViPR</th>

@@ -6,23 +6,84 @@ table, th, td {
 }
 </style>
 
-# IRD/ViPR to BV-BRC Terminology and Feature Mapping
+# IRD/ViPR to BV-BRC Mapping of Features and Terminology
 ## Guide for IRD/ViPR Users
 
 BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and tools from PATRIC. The BV-BRC system is built on the PATRIC system infrastructure (database, services, and website). As a result, the interfaces for accessing and using data and tools differ substantially from IRD and ViPR. To aid researchers in making this transition, the table below provides a mapping of IRD and ViPR features to the corresponding BV-BRC features. Links to relevant BV-BRC help documentation are provided as well.
 
+* [Viral Genomes and Other Data](#data)
+* [Searches](#searches)
+* [Viral Analysis Tools](#tools)
+* [Workbench](#workbench)
+
+Additional details are presented below. 
+
+<a name="data"></a>
+## Data
+
+Viral data in BV-BRC are organized by families, as in ViPR, with direct access to subsets of featured viruses including Influenza A (focus of IRD), Dengue, Ebolavirus, Enterovirus, Hepatitis C, Lassa mammarenavirus, SARS-CoV-2, Zika, and bacteriophages.
+
+In ViPR, users can directly access viral data by family by clicking the appropriate link in the middle of the [ViPR Homepage](https://www.viprbrc.org/brc/home.spg?decorator=vipr) homepage. (The [IRD homepage](https://www.fludb.org/brc/home.spg?decorator=influenza) is already scoped to Influenza.) 
+
+**ViPR Homepage:**
+![ViPR homepage](./images/vipr_homepage_families.png)
+
+The BV-BRC provides a landing page with access to viral data at the same levels. It can be reached by clicking the VIRUSES button on the [BV-BRC homepage](https://bv-brc.org/): 
+
+**BV-BRC Homepage:**
+![BV-BRC homepage virus navigation](./images/bv_homepage_viruses_button.png)
+
+This will display the [BV-BRC Viruses landing page](https://beta.bv-brc.org/view/Virus/10239):
+
+**BV-BRC Viruses Landing Page:**
+![BV-BRC Viruses Landing Page](./images/bv_virus_landing_page.png)
+
 <table style="width:100%">
   <tr>
-    <th style="width:40%">IRD/ViPR Feature</th>
-    <th style="width:40%">BV-BRC Feature</th>
+    <th style="width:40%">IRD/ViPR</th>
+    <th style="width:40%">BV-BRC</th>
     <th style="width:20%">Documentation</th>
   </tr>
+ <tr>
+    <td>
+      <a href="https://www.fludb.org/brc/search_landing.spg?decorator=influenza">Quick Search</a> (upper right)
+    </td>
+    <td><a href="https://beta.bv-brc.org/view/Taxonomy/10239">Global Search</a> (top right)</td>
+    <td><a href="../quick_references/global_search.html">Quick Reference</a></td>
+  </tr>
   <tr>
-    <td><b>DATA SEARCHES</b></td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+<a name="searches"></a>
+## Searches
+
+<table style="width:100%">
+  <tr>
+    <th style="width:40%">IRD/ViPR</th>
+    <th style="width:40%">BV-BRC</th>
+    <th style="width:20%">Documentation</th>
+  </tr>
+ <tr>
     <td>
       <a href="https://www.fludb.org/brc/search_landing.spg?decorator=influenza">Quick Search</a> (upper right)
     </td>
@@ -76,10 +137,16 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     <td><a href="https://beta.bv-brc.org/searches/ProteinFeatureSearch">Domain and Motif Search</a></td>
     <td></td>
   </tr>
+</table>
+
+<a name="tools"></a>
+## Analysis Tools
+
+<table style="width:100%">
   <tr>
-    <td><b>ANALYSIS TOOLS</b></td>
-    <td></td>
-    <td></td>
+    <th style="width:40%">IRD/ViPR</th>
+    <th style="width:40%">BV-BRC</th>
+    <th style="width:20%">Documentation</th>
   </tr>
   <tr>
     <td>
@@ -136,8 +203,20 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
       <a href="../tutorial/primer_design/primer_design.html">Tutorial</a>
     </td>  
   </tr>
+</table>  
+
+
+<a name="workbench"></a>
+## Workbench
+
+<table style="width:100%">
   <tr>
-    <td><b>WORKBENCH</b></td>
+    <th style="width:40%">IRD/ViPR</th>
+    <th style="width:40%">BV-BRC</th>
+    <th style="width:20%">Documentation</th>
+  </tr>  
+  <tr>
+    <td></td>
     <td></td>
     <td></td>
   </tr>

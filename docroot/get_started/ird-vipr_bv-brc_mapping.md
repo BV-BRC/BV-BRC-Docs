@@ -6,23 +6,58 @@ table, th, td {
 }
 </style>
 
-# IRD/ViPR to BV-BRC Terminology and Feature Mapping
+# IRD/ViPR to BV-BRC Mapping of Features and Terminology
 ## Guide for IRD/ViPR Users
 
 BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and tools from PATRIC. The BV-BRC system is built on the PATRIC system infrastructure (database, services, and website). As a result, the interfaces for accessing and using data and tools differ substantially from IRD and ViPR. To aid researchers in making this transition, the table below provides a mapping of IRD and ViPR features to the corresponding BV-BRC features. Links to relevant BV-BRC help documentation are provided as well.
 
+## Data
+
 <table style="width:100%">
   <tr>
-    <th style="width:40%">IRD/ViPR Feature</th>
-    <th style="width:40%">BV-BRC Feature</th>
+    <th style="width:40%">IRD/ViPR</th>
+    <th style="width:40%">BV-BRC</th>
     <th style="width:20%">Documentation</th>
   </tr>
+ <tr>
+    <td>
+      <a href="https://www.fludb.org/brc/search_landing.spg?decorator=influenza">Quick Search</a> (upper right)
+    </td>
+    <td><a href="https://beta.bv-brc.org/view/Taxonomy/10239">Global Search</a> (top right)</td>
+    <td><a href="../quick_references/global_search.html">Quick Reference</a></td>
+  </tr>
   <tr>
-    <td><b>DATA SEARCHES</b></td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+## Searches
+
+<table style="width:100%">
+  <tr>
+    <th style="width:40%">IRD/ViPR</th>
+    <th style="width:40%">BV-BRC</th>
+    <th style="width:20%">Documentation</th>
+  </tr>
+ <tr>
     <td>
       <a href="https://www.fludb.org/brc/search_landing.spg?decorator=influenza">Quick Search</a> (upper right)
     </td>
@@ -76,10 +111,16 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     <td><a href="https://beta.bv-brc.org/searches/ProteinFeatureSearch">Domain and Motif Search</a></td>
     <td></td>
   </tr>
+</table>
+
+
+## Analysis Tools
+
+<table style="width:100%">
   <tr>
-    <td><b>ANALYSIS TOOLS</b></td>
-    <td></td>
-    <td></td>
+    <th style="width:40%">IRD/ViPR</th>
+    <th style="width:40%">BV-BRC</th>
+    <th style="width:20%">Documentation</th>
   </tr>
   <tr>
     <td>
@@ -136,8 +177,18 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
       <a href="../tutorial/primer_design/primer_design.html">Tutorial</a>
     </td>  
   </tr>
+</table>  
+  
+## Workbench
+
+<table style="width:100%">
   <tr>
-    <td><b>WORKBENCH</b></td>
+    <th style="width:40%">IRD/ViPR</th>
+    <th style="width:40%">BV-BRC</th>
+    <th style="width:20%">Documentation</th>
+  </tr>  
+  <tr>
+    <td></td>
     <td></td>
     <td></td>
   </tr>

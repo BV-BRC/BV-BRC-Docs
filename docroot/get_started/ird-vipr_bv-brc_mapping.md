@@ -23,12 +23,12 @@ Additional details are presented below.
 
 As in ViPR, viral data in BV-BRC are organized by families, with additional links to subsets of featured viruses including Influenza A (focus of IRD), Dengue, Ebolavirus, Enterovirus, Hepatitis C, Lassa mammarenavirus, SARS-CoV-2, Zika, and bacteriophages.
 
-In **ViPR**, users can directly access viral data by family by clicking the appropriate link in the middle of the [ViPR Homepage](https://www.viprbrc.org/brc/home.spg?decorator=vipr) homepage. (The [IRD homepage](https://www.fludb.org/brc/home.spg?decorator=influenza) is already scoped to Influenza.) 
+In *ViPR*, users can directly access viral data by family by clicking the appropriate link in the middle of the [ViPR Homepage](https://www.viprbrc.org/brc/home.spg?decorator=vipr) homepage. (The [IRD homepage](https://www.fludb.org/brc/home.spg?decorator=influenza) is already scoped to Influenza.) 
 
 **ViPR Homepage:**
 ![ViPR homepage](./images/vipr_homepage_families.png)
 
-**BV-BRC** provides a landing page with access to viral data at the same levels. It can be reached by clicking the VIRUSES button on the [BV-BRC homepage](https://bv-brc.org/): 
+*BV-BRC* provides a landing page with access to viral data at the same levels. It can be reached by clicking the VIRUSES button on the [BV-BRC homepage](https://bv-brc.org/): 
 
 **BV-BRC Homepage:**
 ![BV-BRC homepage virus navigation](./images/bv_homepage_viruses_button.png)
@@ -38,15 +38,19 @@ This will display the [BV-BRC Viruses landing page](https://beta.bv-brc.org/view
 **BV-BRC Viruses Landing Page:**
 ![BV-BRC Viruses Landing Page](./images/bv_virus_landing_page.png)
 
-Clicking on one of these links (e.g., "Coronaviridae") will display the corresponding viral data in BV-BRC, scoped to that viral family or subset. 
+Clicking on one of these links (e.g., "Coronaviridae") will display the corresponding viral data in BV-BRC, scoped to that viral family or subset, shown in the second figure below.
 
 ![Coronaviridae family link](./images/bv_coronaviridae_link.png)
 
-The **Data Tabs** (Overview, Taxonomy, Genomes, Proteins, Protein Structures, Domains and Motifs, Epitopes, etc.)  will be similarly scoped to the selected taxon as well. 
+Alternatively, the same set of viral families and featured viral groups can be accessed directly from the ORGANISMS top menu.
+
+![Organisms Menu, Viruses](./images/bv_organisms_menu_virus2.png)
+
+Once the desired virus family or subset is selected, the corresponding Taxon landing page will be displayed. The **Data Tabs** (Overview, Taxonomy, Genomes, Proteins, Protein Structures, Domains and Motifs, Epitopes, etc.) on this page will be similarly scoped to the selected Taxon as well. 
 
 ![Coronaviridae page](./images/bv_coronaviridae_page.png)
 
-Clicking on the tabs (e.g., "Genomes") will display a list of all of the data and associated metadata of that type in BV-BRC for the selected Taxon. Keyword Search, Advanced Search, and Filter tools are available to refine the list. Also, the metadata columns can be resized, rearranged, added, removed, and sorted. 
+Clicking on the Data Tabs (e.g., "Genomes") will display a list of all of the data and associated metadata of that type in BV-BRC for the selected Taxon. Keyword Search, Advanced Search, and Filter tools are available to refine the list. Also, the metadata columns can be resized, rearranged, added, removed, and sorted. 
 
 ![Coronaviridae Genomes tab](./images/bv_coronaviridae_genomes_tab.png)
 

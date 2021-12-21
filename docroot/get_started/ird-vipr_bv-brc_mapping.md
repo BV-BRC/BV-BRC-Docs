@@ -11,6 +11,14 @@ table, th, td {
 
 BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and tools from PATRIC. The BV-BRC system is built on the PATRIC system infrastructure (database, services, and website). As a result, the interfaces for accessing and using data and tools differ substantially from IRD and ViPR. To aid researchers in making this transition, the table below provides a mapping of IRD and ViPR features to the corresponding BV-BRC features. Links to relevant BV-BRC help documentation are provided as well.
 
+* [Viral Genomes and Other Data](#data)
+* [Searches](#searches)
+* [Viral Analysis Tools](#tools)
+* [Workbench](#workbench)
+
+Additional details are presented below. 
+
+<a name="data"></a>
 ## Data
 
 <table style="width:100%">
@@ -49,6 +57,7 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
 </table>
 
 
+<a name="searches"></a>
 ## Searches
 
 <table style="width:100%">
@@ -113,7 +122,7 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
   </tr>
 </table>
 
-
+<a name="tools"></a>
 ## Analysis Tools
 
 <table style="width:100%">
@@ -178,7 +187,9 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
     </td>  
   </tr>
 </table>  
-  
+
+
+<a name="workbench"></a>
 ## Workbench
 
 <table style="width:100%">

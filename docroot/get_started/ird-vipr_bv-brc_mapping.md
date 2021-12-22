@@ -44,6 +44,10 @@ Clicking on one of these links (e.g., "Coronaviridae") will display the correspo
 
 *Alternatively*, the same set of viral families and featured viral groups can be accessed directly from the ORGANISMS top menu.
 
+![BV-BRC Organisms Menu](./images/bv_organisms_menu_top_nav.png)
+
+The ORGANISMS menu provides links to viral families and featured viruses, as well as bacteria genera, archaea, and eukaryotic hosts.  
+
 ![Organisms Menu, Viruses](./images/bv_organisms_menu_virus2.png)
 
 Once the desired virus family or subset is selected, the corresponding **Taxon landing page** will be displayed. The **Data Tabs** (Overview, Taxonomy, Genomes, Proteins, Protein Structures, Domains and Motifs, Epitopes, etc.) on this page will be similarly scoped to the selected Taxon as well. 
@@ -73,15 +77,28 @@ The *BV-BRC* **Global Search** is available at the top right of all BV-BRC pages
 **BV-BRC Global Search**
 ![BV-BRC Global Search](./images/bv_global_search.png)
 
-The Global Search provides optional filters for data types and search term options (all, any, exact).  
+The Global Search provides optional filters for data types and search term options (All, Any, Exact).  
 
 ![Global Search Options](./images/bv_global_search_options.png)
 
 Detailed instructions for using the Global Search is available from the [BV-BRC Global Search Quick Reference Guide](../quick_references/global_search.html).
 
 ### Advanced Searches
-The *BV-BRC* **Advanced Searches** provide fine-grained searches based on data type and metadata values, similar to the *IRD/ViPR* **Search Tools** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza)).
+The *BV-BRC* **Advanced Searches** provide fine-grained searches based on data type and metadata values, similar to the *IRD/ViPR* **Search Tools** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza)). Some searches have been deprecated based on limited usage and available data.
 
+**IRD/ViPR Search Tools**
+![IRD/ViPR Search Tools](./images/ird_search_tools.png)
+
+The *BV-BRC* **Advanced Searches** are available from the SEARCHES top menu. 
+
+**BV-BRC Advanced Searches**
+![BV-BRC Advanced Searches](./images/bv_global_search.png)
+
+The Global Search provides optional filters for data types and search term options (All, Any, Exact).  
+
+![Global Search Options](./images/bv_global_search_options.png)
+
+Detailed instructions for using the Global Search is available from the [BV-BRC Global Search Quick Reference Guide](../quick_references/global_search.html).
 
 
 

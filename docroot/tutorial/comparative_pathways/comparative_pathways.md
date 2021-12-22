@@ -1,5 +1,7 @@
 # Comparing Pathways Across Genomes Or Genome Groups
 
+***This tutorial is outdated and requires work. It will be updated soon***
+
 The Comparative Pathway Tool allows users to search for pathways based on taxonomy, EC number, pathway ID, or pathway name and compare pathways across one or more genomes using KEGG pathway maps and interactive heatmap viewer. 
 
 **Keywords:** Comparative genomics, Comparative pathway analysis, Pathway comparison, Pathways, Metabolic pathways, KEGG pathways, Metabolomics. 

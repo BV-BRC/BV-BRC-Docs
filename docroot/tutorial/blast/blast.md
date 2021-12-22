@@ -1,5 +1,7 @@
 # BLAST Service
 
+***This tutorial is outdated and requires work. It will be updated soon***
+
 ## Submitting a BLAST (Basic Local Alignment Search Tool) job at PATRIC
 
 ### I. Locating the BLAST Service

@@ -1,5 +1,7 @@
 # Expression Import
 
+***This tutorial is outdated and requires work. It will be updated soon***
+
 ## I. Using the Expression Import Service at PATRIC
 1. Find an article of interest, a dataset at the Gene Expression Omnibus (GEO, http://www.ncbi.nlm.nih.gov/geo/), or prepare your own data.  In this example, we are using a paper (PMID: 16626502) that examines transcriptional responses in Escherichia coli MG1655 to a variety of stimuli.  This strain has been designated as a reference strain by NCBI.
 ![Step 1](./images/image1.png)

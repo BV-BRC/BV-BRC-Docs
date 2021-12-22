@@ -21,14 +21,14 @@ Additional details are presented below.
 <a name="data"></a>
 ## Data
 
-Viral data in BV-BRC are organized by families, as in ViPR, with direct access to subsets of featured viruses including Influenza A (focus of IRD), Dengue, Ebolavirus, Enterovirus, Hepatitis C, Lassa mammarenavirus, SARS-CoV-2, Zika, and bacteriophages.
+As in ViPR, viral data in BV-BRC are organized by families, with additional links to subsets of featured viruses including Influenza A (focus of IRD), Dengue, Ebolavirus, Enterovirus, Hepatitis C, Lassa mammarenavirus, SARS-CoV-2, Zika, and bacteriophages.
 
-In ViPR, users can directly access viral data by family by clicking the appropriate link in the middle of the [ViPR Homepage](https://www.viprbrc.org/brc/home.spg?decorator=vipr) homepage. (The [IRD homepage](https://www.fludb.org/brc/home.spg?decorator=influenza) is already scoped to Influenza.) 
+In *ViPR*, users can directly access viral data by family by clicking the appropriate link in the middle of the [ViPR Homepage](https://www.viprbrc.org/brc/home.spg?decorator=vipr) homepage. (The [IRD homepage](https://www.fludb.org/brc/home.spg?decorator=influenza) is already scoped to Influenza.) 
 
 **ViPR Homepage:**
 ![ViPR homepage](./images/vipr_homepage_families.png)
 
-The BV-BRC provides a landing page with access to viral data at the same levels. It can be reached by clicking the VIRUSES button on the [BV-BRC homepage](https://bv-brc.org/): 
+Similarly, *BV-BRC* provides a landing page with access to viral data at the same levels. It can be reached by clicking the VIRUSES button on the [BV-BRC homepage](https://bv-brc.org/): 
 
 **BV-BRC Homepage:**
 ![BV-BRC homepage virus navigation](./images/bv_homepage_viruses_button.png)
@@ -38,44 +38,75 @@ This will display the [BV-BRC Viruses landing page](https://beta.bv-brc.org/view
 **BV-BRC Viruses Landing Page:**
 ![BV-BRC Viruses Landing Page](./images/bv_virus_landing_page.png)
 
-<table style="width:100%">
-  <tr>
-    <th style="width:40%">IRD/ViPR</th>
-    <th style="width:40%">BV-BRC</th>
-    <th style="width:20%">Documentation</th>
-  </tr>
- <tr>
-    <td>
-      <a href="https://www.fludb.org/brc/search_landing.spg?decorator=influenza">Quick Search</a> (upper right)
-    </td>
-    <td><a href="https://beta.bv-brc.org/view/Taxonomy/10239">Global Search</a> (top right)</td>
-    <td><a href="../quick_references/global_search.html">Quick Reference</a></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+Clicking on one of these links (e.g., "Coronaviridae") will display the corresponding viral data in BV-BRC, scoped to that viral family or subset, shown in the second figure below.
+
+![Coronaviridae family link](./images/bv_coronaviridae_link.png)
+
+*Alternatively*, the same set of viral families and featured viral groups can be accessed directly from the ORGANISMS top menu.
+
+![BV-BRC Organisms Menu](./images/bv_organisms_menu_top_nav.png)
+
+The ORGANISMS menu provides links to viral families and featured viruses, as well as bacteria genera, archaea, and eukaryotic hosts.  
+
+![Organisms Menu, Viruses](./images/bv_organisms_menu_virus2.png)
+
+Once the desired virus family or subset is selected, the corresponding **Taxon landing page** will be displayed. The **Data Tabs** (Overview, Taxonomy, Genomes, Proteins, Protein Structures, Domains and Motifs, Epitopes, etc.) on this page will be similarly scoped to the selected Taxon as well. 
+
+![Coronaviridae page](./images/bv_coronaviridae_page.png)
+
+Clicking on the Data Tabs (e.g., "Genomes") will display a list of all of the data and associated metadata of that type in BV-BRC for the selected Taxon. Keyword Search, Advanced Search, and Filter tools are available to refine the list. Also, the metadata columns can be resized, rearranged, added, removed, and sorted. 
+
+![Coronaviridae Genomes tab](./images/bv_coronaviridae_genomes_tab.png)
+
+Detailed instructions for using the Taxon-level data pages is available from the [BV-BRC Organisms Quick Reference Guide](../quick_references/organisms_menu.html).
 
 
 <a name="searches"></a>
 ## Searches
+
+Similar to IRD and ViPR, BV-BRC provides searches to facilitate rapide direct access to viral data of interest. Two types of searches are provided: **Global Search** and **Advanced Searches**.
+
+### Global Search
+The *BV-BRC* **Global Search** provides keyword search capability similar to the *IRD/ViPR* **Quick Search** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza)), but with advanced controls for selecting data type and other search conditions.  
+
+**IRD/ViPR Quick Search**
+![IRD/ViPR Quick Search](./images/ird_quick_search.png)
+
+The *BV-BRC* **Global Search** is available at the top right of all BV-BRC pages, except for the home page, where it is in the upper center of the page.
+
+**BV-BRC Global Search**
+![BV-BRC Global Search](./images/bv_global_search.png)
+
+The Global Search provides optional filters for data types and search term options (All, Any, Exact).  
+
+![Global Search Options](./images/bv_global_search_options.png)
+
+Detailed instructions for using the Global Search are available from the [BV-BRC Global Search Quick Reference Guide](../quick_references/global_search.html).
+
+### Advanced Searches
+The *BV-BRC* **Advanced Searches** provide fine-grained searches based on data type and metadata values, similar to the *IRD/ViPR* **Search Tools** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza)). Some searches have been deprecated based on limited usage and available data.
+
+**IRD/ViPR Search Tools**
+![IRD/ViPR Search Tools](./images/ird_search_tools.png)
+
+The *BV-BRC* **Advanced Searches** are available from the SEARCHES top menu. 
+
+**BV-BRC Advanced Searches**
+![BV-BRC Searches Menu](./images/bv_searches_menu_top_nav.png)
+
+Advanced Searches are available for each of the major data types in BV-BRC.  
+
+![Advanced Searches](./images/bv_searches_menu.png)
+
+Clicking on one of the Advanced Searches (e.g., "Strains") opens a search form with drop down box options for primary metadata values and other special criteria.  
+
+![Strain Advanced Search](./images/bv_strain_search.png)
+
+Detailed instructions for using the Advanced Searches are available from the [BV-BRC Advanced Searches Quick Reference Guide](../quick_references/advanced_searches.html).
+
+The table below provides a mapping of the IRD/ViPR Search Tools to corresponding BV-BRC Advanced Searches. 
+
+**Mapping of IRD/ViPR Search Tools to BV-BRC Advanced Searches**
 
 <table style="width:100%">
   <tr>

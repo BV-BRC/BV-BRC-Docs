@@ -15,7 +15,15 @@ The Bacterial and Viral Bioinformatic Resource Center (BV-BRC) has released its 
 
 .. cut::
 
-The Beta website is available https://bv-brc.org/. It is designed to allow users to explore, try out features, and provide feedback to the BV-BRC team.
+The Beta website is designed to allow users to explore, try out features, and provide feedback to the BV-BRC team. PATRIC,IRD, and ViPR uses, as well as other bacterial and viral researchers are invited to use the site. The Beta website is available from the link below:
+
+`BV-BRC Beta Website <https://bv-brc.org/>`_
+
+To aid users in getting started, we have created some introductory help documents, as well as a full set of detailed help:
+
+`BV-BRC Quick Start Guide <>`_
+
+`BV-BRC Data and Functionality Overview (Guide for PATRIC Users) <https://www.bv-brc.org/docs/get_started/data_functionality_overview.html>`_
 
 
 

@@ -14,9 +14,27 @@ Genomics
    genome_assembly/assembly.md
    genome_annotation/genome_annotation.md
    comprehensive_genome_analysis/comprehensive_genome_analysis.md
+   blast/blast.md
+   sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.md
    similar_genome_finder/similar_genome_finder.md
-   variation_analysis/variation_analysis.md
+   metacats/metacats.md
    phylogenetic_tree/phylogenetic_tree.md
+   genome_alignment/genome_alignment.md
+   primer_design/primer_design.md
+   variation_analysis/variation_analysis.md
+   tn-seq/tn-seq.md
+
+Protein Tools
+---------------
+
+.. toctree::
+   :maxdepth: 1
+
+   msa_snp_variation/msa_snp_variation.md
+   genetree/genetree.md
+   protein_family_sorter/protein_family_sorter.md
+   proteome_comparison/proteome_comparison.md
+   comparative_pathways/comparative_pathways.md
 
 Metagenomics
 ------------
@@ -28,31 +46,21 @@ Metagenomics
    taxonomic_classification/taxonomic_classification.md
    metagenomic_binning/metagenomic_binning.md
 
-Protein Tools
+Transcriptomics
+----------------
+
+.. toctree::
+   :maxdepth: 1
+
+   expression_import/expression_import.md
+   rna_seq/rna_seq.md
+
+Utilities
 ---------------
 
 .. toctree::
    :maxdepth: 1
 
-   protein_family_sorter/protein_family_sorter.md
-   proteome_comparison/proteome_comparison.md
-
-Data Tools
----------------
-
-.. toctree::
-   :maxdepth: 1
-
+   id_mapper/id_mapper.md
    fastq_utilities/fastq_utilities.md
-
-Viral Services
---------------
-
-.. toctree::
-   :maxdepth: 1
-
-   sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.md
-   genetree/genetree.md
-   msa_snp_variation/msa_snp_variation.md
-   metacats/metacats.md
-   primer_design/primer_design.md
+   

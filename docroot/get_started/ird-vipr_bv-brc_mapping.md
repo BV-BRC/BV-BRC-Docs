@@ -178,7 +178,32 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
 <a name="tools"></a>
 ## Analysis Tools
 
-Similar to IRD and ViPR, BV-BRC provides tools and visualizations to enable  researchers to perform in-depth analysis and exploration of their own data and in combination with BV-BRC data. These tools 
+Similar to IRD and ViPR, BV-BRC provides tools and visualizations to enable  researchers to perform in-depth analyses and exploration of their own data and in combination with BV-BRC data. BV-BRC integrates the most used analysis tools In *IRD/ViPR* (available from the [IRD/ViPR Analysis Tools page](https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza), below).
+
+***IRD/ViPR* Analysis Tools**
+![IRD/ViPR Analysis Tools](./images/ird_analysis_tools.png)
+
+In *BV-BRC*, analysis tools are available from the TOOLS & SERVICES top menu, as shown below. A list of all tools with descriptions is available from the [BV-BRC Tools & Services page](https://bv-brc.org/tools)
+
+***BV-BRC* Tools & Services**
+![BV-BRC Tools & Services Menu](./images/bv_tools_services_menu_top_nav.png)
+
+In the BV-BRC TOOLS & SERVICES menu, viral analysis tools are shown alongside bacterial analysis tools. Where practical, the two have been merged into one tool, with appropriate settings and logic to perform the correct type of computation based on the the organism type (e.g., Genome Annotation). The figure below highlights tools that have been added or updated to support viral data. 
+
+![Tools & Services](./images/bv_services_menu_viral_tools.png)
+
+Clicking on one of the tools (e.g., "Annotation") opens an input form that allows users to upload their own data, set parameters, and specify a location in the Workspace to save the results.   
+
+![BV-BRC Genome Annotation Service](./images/bv_annotation_service_form.png)
+
+Most analysis tools in BV-BRC are implemented as computational "services" that use high-performance computing (HPC) resources to perform the analysis on the backend. When an analysis tool is started, it creates a "job" that runs on the HPC resources. The job processing status (Queued, Running, Complete, Failed) and results are listed on the user's Job Status page, which is displayed by clicking the small Jobs status monitor on the bottom right of each page. 
+
+![Job Status Page](./images/bv_job_status_page.png)
+
+
+Detailed instructions for using the Advanced Searches are available from the [BV-BRC Advanced Searches Quick Reference Guide](../quick_references/advanced_searches.html).
+
+The table below provides a mapping of the IRD/ViPR Search Tools to corresponding BV-BRC Advanced Searches. 
 
 
 

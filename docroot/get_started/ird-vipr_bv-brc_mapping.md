@@ -18,8 +18,9 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
 
 Additional details are presented below. 
 
+<hr>
 <a name="data"></a>
-## Data
+## Viral Data
 
 As in ViPR, viral data in BV-BRC are organized by families, with additional links to subsets of featured viruses including Influenza A (focus of IRD), Dengue, Ebolavirus, Enterovirus, Hepatitis C, Lassa mammarenavirus, SARS-CoV-2, Zika, and bacteriophages.
 
@@ -60,7 +61,7 @@ Clicking on the Data Tabs (e.g., "Genomes") will display a list of all of the da
 
 Detailed instructions for using the Taxon-level data pages is available from the [BV-BRC Organisms Quick Reference Guide](../quick_references/organisms_menu.html).
 
-
+<hr>
 <a name="searches"></a>
 ## Searches
 
@@ -170,6 +171,7 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
   </tr>
 </table>
 
+<hr>
 <a name="tools"></a>
 ## Analysis Tools
 
@@ -236,7 +238,7 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
   </tr>
 </table>  
 
-
+<hr>
 <a name="workbench"></a>
 ## Workbench
 

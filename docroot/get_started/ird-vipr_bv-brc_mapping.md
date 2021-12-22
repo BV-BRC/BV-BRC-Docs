@@ -192,7 +192,7 @@ In the BV-BRC TOOLS & SERVICES menu, viral analysis tools are shown alongside ba
 
 ![Tools & Services](./images/bv_services_menu_viral_tools.png)
 
-Clicking on one of the tools (e.g., "Annotation") opens an input form that allows users to upload their own data, set parameters, and specify a location in the Workspace to save the results.   
+Clicking on one of the tools (e.g., "Annotation") opens an input form that allows users to upload their own data, set parameters, and specify a location in the Workspace to save the results. Links to **Quick Reference Guides** and **Tutorials** are available on every input form. Quick Reference Guides provide short descriptions of each feature of the tool. Tutorials provide detailed, step-by-step instructions for using the tool. 
 
 ![BV-BRC Genome Annotation Service](./images/bv_annotation_service_form.png)
 
@@ -200,12 +200,7 @@ Most analysis tools in BV-BRC are implemented as computational "services" that u
 
 ![Job Status Page](./images/bv_job_status_page.png)
 
-
-Detailed instructions for using the Advanced Searches are available from the [BV-BRC Advanced Searches Quick Reference Guide](../quick_references/advanced_searches.html).
-
-The table below provides a mapping of the IRD/ViPR Search Tools to corresponding BV-BRC Advanced Searches. 
-
-
+The [Tools & Services Quick Reference Guide](../quick_references/services_menu.html) provides an overview available tools. The table below provides a mapping of the IRD/ViPR Search Tools to corresponding BV-BRC Advanced Searches. 
 
 <table style="width:100%">
   <tr>

@@ -19,6 +19,7 @@ BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and 
 Additional details are presented below. 
 
 <hr>
+
 <a name="data"></a>
 ## Viral Data
 
@@ -62,6 +63,7 @@ Clicking on the Data Tabs (e.g., "Genomes") will display a list of all of the da
 Detailed instructions for using the Taxon-level data pages is available from the [BV-BRC Organisms Quick Reference Guide](../quick_references/organisms_menu.html).
 
 <hr>
+
 <a name="searches"></a>
 ## Searches
 
@@ -172,6 +174,7 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
 </table>
 
 <hr>
+
 <a name="tools"></a>
 ## Analysis Tools
 
@@ -239,6 +242,7 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
 </table>  
 
 <hr>
+
 <a name="workbench"></a>
 ## Workbench
 

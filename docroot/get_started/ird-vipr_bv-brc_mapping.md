@@ -81,7 +81,7 @@ The Global Search provides optional filters for data types and search term optio
 
 ![Global Search Options](./images/bv_global_search_options.png)
 
-Detailed instructions for using the Global Search is available from the [BV-BRC Global Search Quick Reference Guide](../quick_references/global_search.html).
+Detailed instructions for using the Global Search are available from the [BV-BRC Global Search Quick Reference Guide](../quick_references/global_search.html).
 
 ### Advanced Searches
 The *BV-BRC* **Advanced Searches** provide fine-grained searches based on data type and metadata values, similar to the *IRD/ViPR* **Search Tools** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza)). Some searches have been deprecated based on limited usage and available data.
@@ -92,18 +92,21 @@ The *BV-BRC* **Advanced Searches** provide fine-grained searches based on data t
 The *BV-BRC* **Advanced Searches** are available from the SEARCHES top menu. 
 
 **BV-BRC Advanced Searches**
-![BV-BRC Advanced Searches](./images/bv_global_search.png)
+![BV-BRC Searches Menu](./images/bv_searches_menu_top_nav.png)
 
-The Global Search provides optional filters for data types and search term options (All, Any, Exact).  
+Advanced Searches are available for each of the major data types in BV-BRC.  
 
-![Global Search Options](./images/bv_global_search_options.png)
+![Advanced Searches](./images/bv_searches_menu.png)
 
-Detailed instructions for using the Global Search is available from the [BV-BRC Global Search Quick Reference Guide](../quick_references/global_search.html).
+Clicking on one of the Advanced Searches (e.g., "Strains") opens a search form with drop down box options for primary metadata values and other special criteria.  
 
+![Strain Advanced Search](./images/bv_strain_search.png)
 
+Detailed instructions for using the Advanced Searches are available from the [BV-BRC Advanced Searches Quick Reference Guide](../quick_references/advanced_searches.html).
 
+The table below provides a mapping of the IRD/ViPR Search Tools to corresponding BV-BRC Advanced Searches. 
 
-BV-BRC Global Search
+**Mapping of IRD/ViPR Search Tools to BV-BRC Advanced Searches**
 
 <table style="width:100%">
   <tr>

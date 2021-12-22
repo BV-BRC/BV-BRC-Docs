@@ -6,8 +6,8 @@ table, th, td {
 }
 </style>
 
-# IRD/ViPR to BV-BRC Mapping of Features and Terminology
-## Guide for IRD/ViPR Users
+# Mapping of IRD/ViPR Features and Terminology to BV-BRC
+## A Guide for IRD/ViPR Users
 
 BV-BRC integrates key IRD and ViPR viral data and tools with bacterial data and tools from PATRIC. The BV-BRC system is built on the PATRIC system infrastructure (database, services, and website). As a result, the interfaces for accessing and using data and tools differ substantially from IRD and ViPR. To aid researchers in making this transition, the table below provides a mapping of IRD and ViPR features to the corresponding BV-BRC features. Links to relevant BV-BRC help documentation are provided as well.
 
@@ -25,27 +25,28 @@ Additional details are presented below.
 
 As in ViPR, viral data in BV-BRC are organized by families, with additional links to subsets of featured viruses including Influenza A (focus of IRD), Dengue, Ebolavirus, Enterovirus, Hepatitis C, Lassa mammarenavirus, SARS-CoV-2, Zika, and bacteriophages.
 
-In *ViPR*, users can directly access viral data by family by clicking the appropriate link in the middle of the [ViPR Homepage](https://www.viprbrc.org/brc/home.spg?decorator=vipr) homepage. (The [IRD homepage](https://www.fludb.org/brc/home.spg?decorator=influenza) is already scoped to Influenza.) 
+In *ViPR*, users can directly access viral data by family by clicking the appropriate link in the middle of the [ViPR Homepage](https://www.viprbrc.org/brc/home.spg?decorator=vipr) homepage, as shown below. (The [IRD homepage](https://www.fludb.org/brc/home.spg?decorator=influenza) is already scoped to Influenza.) 
 
-**ViPR Homepage:**
+***ViPR* Homepage:**
 ![ViPR homepage](./images/vipr_homepage_families.png)
 
-Similarly, *BV-BRC* provides a landing page with access to viral data at the same levels. It can be reached by clicking the VIRUSES button on the [BV-BRC homepage](https://bv-brc.org/): 
+Similarly, *BV-BRC* provides a landing page with access to viral data at the same levels. It can be reached by clicking the VIRUSES button on the [BV-BRC homepage](https://bv-brc.org/), as shown below: 
 
-**BV-BRC Homepage:**
+***BV-BRC* Homepage:**
 ![BV-BRC homepage virus navigation](./images/bv_homepage_viruses_button.png)
 
-This will display the [BV-BRC Viruses landing page](https://beta.bv-brc.org/view/Virus/10239):
+This will display the [BV-BRC Viruses landing page](https://beta.bv-brc.org/view/Virus/10239) (below):
 
-**BV-BRC Viruses Landing Page:**
+***BV-BRC* Viruses Landing Page:**
 ![BV-BRC Viruses Landing Page](./images/bv_virus_landing_page.png)
 
-Clicking on one of these links (e.g., "Coronaviridae") will display the corresponding viral data in BV-BRC, scoped to that viral family or subset, shown in the second figure below.
+Clicking on one of these links (e.g., "Coronaviridae" in the figure below) will display the corresponding viral data in BV-BRC, scoped to that viral family or subset, shown in the second figure below.
 
 ![Coronaviridae family link](./images/bv_coronaviridae_link.png)
 
-*Alternatively*, the same set of viral families and featured viral groups can be accessed directly from the ORGANISMS top menu.
+*Alternatively*, the same set of viral families and featured viral groups can be accessed directly from the ORGANISMS top menu (below).
 
+***BV-BRC* Organisms Menu**
 ![BV-BRC Organisms Menu](./images/bv_organisms_menu_top_nav.png)
 
 The ORGANISMS menu provides links to viral families and featured viruses, as well as bacteria genera, archaea, and eukaryotic hosts.  
@@ -70,14 +71,14 @@ Detailed instructions for using the Taxon-level data pages is available from the
 Similar to IRD and ViPR, BV-BRC provides searches to facilitate rapide direct access to viral data of interest. Two types of searches are provided: **Global Search** and **Advanced Searches**.
 
 ### Global Search
-The *BV-BRC* **Global Search** provides keyword search capability similar to the *IRD/ViPR* **Quick Search** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza)), but with advanced controls for selecting data type and other search conditions.  
+The *BV-BRC* **Global Search** provides keyword search capability similar to the *IRD/ViPR* **Quick Search** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza), below), but with advanced controls for selecting data type and other search conditions.  
 
-**IRD/ViPR Quick Search**
+***IRD/ViPR* Quick Search**
 ![IRD/ViPR Quick Search](./images/ird_quick_search.png)
 
-The *BV-BRC* **Global Search** is available at the top right of all BV-BRC pages, except for the home page, where it is in the upper center of the page.
+The *BV-BRC* **Global Search** is available at the top right of all BV-BRC pages, except for the home page, where it is in the upper center of the page, as shown below.
 
-**BV-BRC Global Search**
+***BV-BRC* Global Search**
 ![BV-BRC Global Search](./images/bv_global_search.png)
 
 The Global Search provides optional filters for data types and search term options (All, Any, Exact).  
@@ -87,14 +88,14 @@ The Global Search provides optional filters for data types and search term optio
 Detailed instructions for using the Global Search are available from the [BV-BRC Global Search Quick Reference Guide](../quick_references/global_search.html).
 
 ### Advanced Searches
-The *BV-BRC* **Advanced Searches** provide fine-grained searches based on data type and metadata values, similar to the *IRD/ViPR* **Search Tools** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza)). Some searches have been deprecated based on limited usage and available data.
+The *BV-BRC* **Advanced Searches** provide fine-grained searches based on data type and metadata values, similar to the *IRD/ViPR* **Search Tools** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza), below). Some searches have been deprecated based on limited usage and available data.
 
-**IRD/ViPR Search Tools**
+***IRD/ViPR* Search Tools**
 ![IRD/ViPR Search Tools](./images/ird_search_tools.png)
 
-The *BV-BRC* **Advanced Searches** are available from the SEARCHES top menu. 
+The *BV-BRC* **Advanced Searches** are available from the SEARCHES top menu, as shown below. 
 
-**BV-BRC Advanced Searches**
+***BV-BRC* Advanced Searches**
 ![BV-BRC Searches Menu](./images/bv_searches_menu_top_nav.png)
 
 Advanced Searches are available for each of the major data types in BV-BRC.  
@@ -110,7 +111,6 @@ Detailed instructions for using the Advanced Searches are available from the [BV
 The table below provides a mapping of the IRD/ViPR Search Tools to corresponding BV-BRC Advanced Searches. 
 
 **Mapping of IRD/ViPR Search Tools to BV-BRC Advanced Searches**
-
 <table style="width:100%">
   <tr>
     <th style="width:40%">IRD/ViPR</th>
@@ -177,6 +177,35 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
 
 <a name="tools"></a>
 ## Analysis Tools
+
+Similar to IRD and ViPR, BV-BRC provides tools and visualizations to enable  researchers to perform in-depth analyses and exploration of their own data and in combination with BV-BRC data. BV-BRC integrates the most used analysis tools In *IRD/ViPR* (available from the [IRD/ViPR Analysis Tools page](https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza), below).
+
+***IRD/ViPR* Analysis Tools**
+![IRD/ViPR Analysis Tools](./images/ird_analysis_tools.png)
+
+In *BV-BRC*, analysis tools are available from the TOOLS & SERVICES top menu, as shown below. A list of all tools with descriptions is available from the [BV-BRC Tools & Services page](https://bv-brc.org/tools)
+
+***BV-BRC* Tools & Services**
+![BV-BRC Tools & Services Menu](./images/bv_tools_services_menu_top_nav.png)
+
+In the BV-BRC TOOLS & SERVICES menu, viral analysis tools are shown alongside bacterial analysis tools. Where practical, the two have been merged into one tool, with appropriate settings and logic to perform the correct type of computation based on the the organism type (e.g., Genome Annotation). The figure below highlights tools that have been added or updated to support viral data. 
+
+![Tools & Services](./images/bv_services_menu_viral_tools.png)
+
+Clicking on one of the tools (e.g., "Annotation") opens an input form that allows users to upload their own data, set parameters, and specify a location in the Workspace to save the results.   
+
+![BV-BRC Genome Annotation Service](./images/bv_annotation_service_form.png)
+
+Most analysis tools in BV-BRC are implemented as computational "services" that use high-performance computing (HPC) resources to perform the analysis on the backend. When an analysis tool is started, it creates a "job" that runs on the HPC resources. The job processing status (Queued, Running, Complete, Failed) and results are listed on the user's Job Status page, which is displayed by clicking the small Jobs status monitor on the bottom right of each page. 
+
+![Job Status Page](./images/bv_job_status_page.png)
+
+
+Detailed instructions for using the Advanced Searches are available from the [BV-BRC Advanced Searches Quick Reference Guide](../quick_references/advanced_searches.html).
+
+The table below provides a mapping of the IRD/ViPR Search Tools to corresponding BV-BRC Advanced Searches. 
+
+
 
 <table style="width:100%">
   <tr>

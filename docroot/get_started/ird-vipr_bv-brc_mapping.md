@@ -28,7 +28,7 @@ In *ViPR*, users can directly access viral data by family by clicking the approp
 **ViPR Homepage:**
 ![ViPR homepage](./images/vipr_homepage_families.png)
 
-*BV-BRC* provides a landing page with access to viral data at the same levels. It can be reached by clicking the VIRUSES button on the [BV-BRC homepage](https://bv-brc.org/): 
+Similarly, *BV-BRC* provides a landing page with access to viral data at the same levels. It can be reached by clicking the VIRUSES button on the [BV-BRC homepage](https://bv-brc.org/): 
 
 **BV-BRC Homepage:**
 ![BV-BRC homepage virus navigation](./images/bv_homepage_viruses_button.png)
@@ -46,7 +46,7 @@ Clicking on one of these links (e.g., "Coronaviridae") will display the correspo
 
 ![Organisms Menu, Viruses](./images/bv_organisms_menu_virus2.png)
 
-Once the desired virus family or subset is selected, the corresponding Taxon landing page will be displayed. The **Data Tabs** (Overview, Taxonomy, Genomes, Proteins, Protein Structures, Domains and Motifs, Epitopes, etc.) on this page will be similarly scoped to the selected Taxon as well. 
+Once the desired virus family or subset is selected, the corresponding **Taxon landing page** will be displayed. The **Data Tabs** (Overview, Taxonomy, Genomes, Proteins, Protein Structures, Domains and Motifs, Epitopes, etc.) on this page will be similarly scoped to the selected Taxon as well. 
 
 ![Coronaviridae page](./images/bv_coronaviridae_page.png)
 
@@ -59,6 +59,34 @@ Detailed instructions for using the Taxon-level data pages is available from the
 
 <a name="searches"></a>
 ## Searches
+
+Similar to IRD and ViPR, BV-BRC provides searches to facilitate rapide direct access to viral data of interest. Two types of searches are provided: **Global Search** and **Advanced Searches**.
+
+### Global Search
+The *BV-BRC* **Global Search** provides keyword search capability similar to the *IRD/ViPR* **Quick Search** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza)), but with advanced controls for selecting data type and other search conditions.  
+
+**IRD/ViPR Quick Search**
+![IRD/ViPR Quick Search](./images/ird_quick_search.png)
+
+The *BV-BRC* **Global Search** is available at the top right of all BV-BRC pages, except for the home page, where it is in the upper center of the page.
+
+**BV-BRC Global Search**
+![BV-BRC Global Search](./images/bv_global_search.png)
+
+The Global Search provides optional filters for data types and search term options (all, any, exact).  
+
+![Global Search Options](./images/bv_global_search_options.png)
+
+Detailed instructions for using the Global Search is available from the [BV-BRC Global Search Quick Reference Guide](../quick_references/global_search.html).
+
+### Advanced Searches
+The *BV-BRC* **Advanced Searches** provide fine-grained searches based on data type and metadata values, similar to the *IRD/ViPR* **Search Tools** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza)).
+
+
+
+
+
+BV-BRC Global Search
 
 <table style="width:100%">
   <tr>

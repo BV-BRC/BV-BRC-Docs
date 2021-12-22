@@ -9,28 +9,18 @@
 {% block footer %}
 {{ super() }}
 <script>
-  var logo = '<img src="https://alpha.bv-brc.org/docs/_static/bvbrc-logo-blue.png" class="logo" alt="BV-BRC Logo">';
+  var logo = '<img src="https://www.bv-brc.org/docs/_static/bvbrc-logo-blue.png" class="logo" alt="BV-BRC Logo">';
   var home = '<div class="branding"><a href="https://bv-brc.org" title="BV-BRC Homepage">BV-BRC Home</a> &rsaquo; <a href="/docs/" title="BV-BRC Documentation">Docs</a></div>';
   $(".wy-side-nav-search").prepend(home).prepend(logo);
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11736060-11"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165638318-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-11736060-11');
+  gtag('config', 'UA-165638318-1');
 </script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11736060-7"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-11736060-7', {
-        'link_attribution': true
-    });
-</script>
 {% endblock %}

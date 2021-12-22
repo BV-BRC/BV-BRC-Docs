@@ -270,35 +270,28 @@ The [Tools & Services Quick Reference Guide](../quick_references/services_menu.h
 <a name="workbench"></a>
 ## Workbench
 
-<table style="width:100%">
-  <tr>
-    <th style="width:40%">IRD/ViPR</th>
-    <th style="width:40%">BV-BRC</th>
-    <th style="width:20%">Documentation</th>
-  </tr>  
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+Similar to the [IRD/ViPR Workbench](https://www.fludb.org/brc/workbench_landing.spg?decorator=influenza&method=WorkbenchDetail) (shown below), BV-BRC provides a private **Workspace**, where users can upload their own data, perform analyses with BV-BRC Tools, compare their data with other data in BV-BRC, and share their data via shared and public workspaces. 
+
+***IRD/ViPR* Workbench**
+![IRD Workbench](./images/ird_workbench.png)
+
+As with the IRD/ViPR Workbench, users will need to sign in (top right of page) to access their BV-BRC Workspace. IRD/ViPR users can use the same login ID and password as they do for IRD/ViPR.  At present, we do not have the capability to transfer over data from IRD/ViPR Workbenches to the BV-BRC Workspace.
+
+***BV-BRC* Workspace Login**
+![BV-BRC Sign In and Registration](./images/bv_workspace_login.png)
+
+Once signed in, users can access their private and shared workspaces from the WORKSPACES top menu. 
+
+![BV-BRC Workspaces Top Menu](./images/bv_workspaces_menu_top_nav.png)
+
+![BV-BRC Workspaces Menu](./images/bv_workspaces_menu.png)
+
+Clicking on the "Home" workspace opens the user's private workspace at the top level. The Workspace contains folders to facilitate organization of files. Users can upload files and create new folders. Move, copy, delete, and other controls are also available. 
+
+![BV-BRC Workspace](./images/bv_workspace.png)
+
+Also, users can create **Groups** of genomes, features (genes), and other data types, similar to *IRD/ViPR* "Working Sets." 
+
+![BV-BRC Workspace](./images/bv_workspace_groups.png)
+
+Detailed information on using the BV-BRC Workspace can be found in the [Workspace, Private Data, Groups, Jobs Quick Reference Guides](../quick_references/workspace_groups_upload.html).

@@ -1,17 +1,17 @@
-:github_url: https://github.com/PATRIC3/p3_docs/blob/master/docroot/news/index
+:github_url: https://github.com/BV-BRC/bvbrc_docs/blob/master/docroot/news/index
 
 News Articles
 =============
 
 .. feed::
    :rss: news.rss
-   :title: PATRIC News
-   :description: PATRIC News RSS feed
-   :link: https://docs.patricbrc.org/
+   :title: BV-BRC News
+   :description: BV-BRC News RSS feed
+   :link: https://www.bv-brc.org/docs/
 
+   2021/20211222-bv-brc-beta-release
    2021/20210513-brc-impact-survey
    2021/20210201-new-webinar-series
-   2020/20201022-mooc-release
 
    
 .. toctree::

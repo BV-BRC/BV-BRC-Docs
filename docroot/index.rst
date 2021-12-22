@@ -12,6 +12,7 @@ BV-BRC Documentation
    quick_references/index
    tutorial/index
    cli_tutorial/index
+   news/index
    .. faqs_common_tasks/index
 ..
    quickstart_video

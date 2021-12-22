@@ -270,6 +270,8 @@ The [Tools & Services Quick Reference Guide](../quick_references/services_menu.h
 <a name="workbench"></a>
 ## Workbench
 
+Similar to the **IRD/ViPR Workbench**, BV-BRC provides a private **Workspace**, where users can upload their own data, perform analyses with BV-BRC Tools, compare their data with other data in BV-BRC, and share their data via shared and public workspaces.  
+
 <table style="width:100%">
   <tr>
     <th style="width:40%">IRD/ViPR</th>

@@ -21,13 +21,10 @@ The Beta website is designed to allow users to explore, try out features, and pr
 
 To aid users in getting started, we have created some introductory help documents, as well as a full set of detailed help:
 
-`BV-BRC Quick Start Guide <>`_
+`BV-BRC Quick Start Guide <../get_started/quick_start.html>`_
 
-`BV-BRC Data and Functionality Overview (Guide for PATRIC Users) <https://www.bv-brc.org/docs/get_started/data_functionality_overview.html>`_
+`BV-BRC Data and Functionality Overview (Guide for PATRIC Users) <../get_started/data_functionality_overview.html>`_
 
+`Mapping of IRD/ViPR Features and Terminology to BV-BRC (Guide for IRD and ViPR Users)<../get_started/ird-vipr_bv-brc_mapping.html>`_ 
 
-
-
-While much of the scientific focus of attention has been on the novel coronavirus, SARS-CoV-2, we will discuss other pathogens that may cause respiratory illness, or even co-occur with SARS-CoV-2. The Bacterial and Viral Bioinformatics Resource Center, (BV-BRC) will discuss viral and bacterial pathogens, whereas The Eukaryotic Pathogen, Host & Vector Genomics Resource (VEuPathDB), will focus on fungal pathogens and host response. Webinars will be structured to include a brief basic biology refresher on the pathogen of interest and a live demo of available tools for in silico research.
-
-A special guest speaker will also be featured during each session. The IRD and ViPR will focus on the following viral families: Orthomyxoviridae (Influenza), Coronaviridae (various human coronavirus species), Pneumoviridae (RSV), and Picornaviridae (Enterovirus). Our counterparts at the Pathosystems Resource Integration Center (PATRIC) will discuss bacterial respiratory pathogens and antibacterial resistance, and showcase PATRIC’s bioinformatic tools. Finally our partners at VEuPathDB, will present data on Aspergillus and Candida, and introduce users to bioinformatic resources available at FungiDB and HostDB. A schedule is provided below.
+`Common Viral Data Searches and Analyses in BV-BRC (Guide for IRD/ViPR Users)<../get_started/common_tasks.html>`_

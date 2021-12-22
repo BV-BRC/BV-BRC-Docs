@@ -17,10 +17,10 @@ The BV-BRC website resource provides an entry point to integrated data and tools
    registration
    views_tables_action-bar
    system_requirements
+   ftp
 
 ..
    data_submission_to_patric
-   ftp
 
 Primary access to these components is provided through the BV-BRC main menu which is available at the top of the home page. The main menu includes the following options: 
 

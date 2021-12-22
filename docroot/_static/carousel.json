@@ -1,43 +1,31 @@
 [   {
+        "title": "BV-BRC Beta Release",
+        "desc": "The Bacterial and Viral Bioinformatic Resource Center (BV-BRC) has released its new Beta website for researchers to use.",
+        "img": "https://www.bv-brc.org/docs/_static/announcements/bvbrc-logo-beta-release.png",
+        "link": "https://www.bv-brc.org/docs/news/2021/20211222-bv-brc-beta-release.html"
+    },
+    {
         "title": "Bioinformatics Resource Centers (BRCs) Impact Survey",
         "desc": "This survey will help the National Institute of Allergy and Infectious Diseases (NIAID) understand the usage and utility of the resource to improve the service provided by the BRCs to the community as part of program evaluations conducted by NIAID.",
-        "img": "https://docs.patricbrc.org/_static/announcements/brc-survey.png",
-        "link": "https://docs.patricbrc.org/news/2021/20210513-brc-impact-survey.html"
+        "img": "https://www.bv-brc.org/docs/_static/announcements/brc-survey.png",
+        "link": "https://www.bv-brc.org/docs/news/2021/20210513-brc-impact-survey.html"
     },
     {
         "title": "Bioinformatics Resource Center Webinar Series",
         "desc": "The Bioinformatic Resource Centers (BRC) have partnered to present a joint webinar series on Respiratory Pathogens and the tools available for their study.",
-        "img": "https://docs.patricbrc.org/_static/announcements/brc-webinar.png",
-        "link": "https://docs.patricbrc.org/news/2021/20210201-new-webinar-series.html"
+        "img": "https://www.bv-brc.org/docs/_static/announcements/brc-webinar.png",
+        "link": "https://www.bv-brc.org/docs/news/2021/20210201-new-webinar-series.html"
     },
     {
         "title": "New PATRIC Online Bacterial Bioinformatics Course",
         "desc": "We have released a new online Bacterial Bioinformatics course, freely available through Coursera.",
-        "img": "https://docs.patricbrc.org/_static/announcements/mooc.png",
-        "link": "https://docs.patricbrc.org/news/2020/20201022-mooc-release.html"
+        "img": "https://www.bv-brc.org/docs/_static/announcements/mooc.png",
+        "link": "https://www.bv-brc.org/docs/news/2020/20201022-mooc-release.html"
     },
     {
         "title": "New PATRIC Video Tutorial Series",
         "desc": "We have released a series of new video tutorials for PATRIC services and associated functionality.",
-        "img": "https://docs.patricbrc.org/_static/announcements/video-tutorials.png",
-        "link": "https://docs.patricbrc.org/news/2020/20200701-new-video-tutorials.html"
-    },
-    {
-        "title": "CANCELLED! - PATRIC/RAST Bacterial and IRD/ViPR Viral Workshops at Argonne National Laboratory",
-        "desc": "The new Bacterial-Viral BRC (BV-BRC), a collaboration between the PATRIC/RAST and IRD/ViPR teams",
-        "img": "https://docs.patricbrc.org/_static/announcements/workshop-1.png",
-        "link": "https://docs.patricbrc.org/news/2020/20200130-bv-brc-workshop-at-argonne-national-lab.html"
-    },
-    {
-        "title": "PATRIC Data and Website Releases, September – December 2019",
-        "desc": "This PATRIC release includes a new Genome Assembly Service, new Heatmap Viewer, new analysis Job Scheduler, and over 31,000 new microbial genomes.",
-        "img": "https://docs.patricbrc.org/_static/announcements/sep-dec-2019-release.png",
-        "link": "https://docs.patricbrc.org/news/2019/20191213-patric-sep-dec-2019-release.html"
-    },
-    {
-        "title": "New Bioinformatics Hub at UChicago Enables Next-Gen Infectious Disease Research",
-        "desc": "The new Bacterial and Viral Bioinformatics Resource Center (BV-BRC) combines two independent efforts at UChicago and the J. Craig Venter Institute (JCVI) into a common infrastructure that will support richer scientific data and more powerful analytic tools",
-        "img": "https://docs.patricbrc.org/_static/announcements/bv-brc.png",
-        "link": "https://www.cs.uchicago.edu/news/article/bioinformatics-hub/"
+        "img": "https://www.bv-brc.org/docs/_static/announcements/video-tutorials.png",
+        "link": "https://www.bv-brc.org/docs/news/2020/20200701-new-video-tutorials.html"
     }
 ]

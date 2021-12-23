@@ -7,7 +7,7 @@ The Multiple Sequence Alignment (MSA) and Single Nucleotide Polymorphism (SNP)/V
 MSA, multiple sequence alignment, mafft, muscle, progressiveMauve, SNP, variation
 
 ### See also
-* [MSA and SNP/Variation Analysis Service](https://beta.bv-brc.org/app/MSA)
+* [MSA and SNP/Variation Analysis Service](https://bv-brc.org/app/MSA)
 * [MSA and SNP/Variation Analysis Service Quick Reference Guide](../../quick_references/services/msa_snp_variation_service.html)
 * [MSA Viewer](../../quick_references/other/msa_viewer.html)
 

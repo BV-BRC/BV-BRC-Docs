@@ -35,7 +35,7 @@ Similarly, *BV-BRC* provides a landing page with access to viral data at the sam
 ***BV-BRC* Homepage:**
 ![BV-BRC homepage virus navigation](./images/bv_homepage_viruses_button.png)
 
-This will display the [BV-BRC Viruses landing page](https://beta.bv-brc.org/view/Virus/10239) (below):
+This will display the [BV-BRC Viruses landing page](https://bv-brc.org/view/Virus/10239) (below):
 
 ***BV-BRC* Viruses Landing Page:**
 ![BV-BRC Viruses Landing Page](./images/bv_virus_landing_page.png)
@@ -121,7 +121,7 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
     <td>
       <a href="https://www.fludb.org/brc/search_landing.spg?decorator=influenza">Quick Search</a> (upper right)
     </td>
-    <td><a href="https://beta.bv-brc.org/view/Taxonomy/10239">Global Search</a> (top right)</td>
+    <td><a href="https://bv-brc.org/view/Taxonomy/10239">Global Search</a> (top right)</td>
     <td><a href="../quick_references/global_search.html">Quick Reference</a></td>
   </tr>
   <tr>
@@ -129,7 +129,7 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
       <a href="https://www.fludb.org/brc/influenza_sequence_search_segment_display.spg?method=ShowCleanSearch&decorator=influenza">Nucleotide Search (IRD)</a><br>
       <a href="https://www.fludb.org/brc/influenza_sequence_search_segment_display.spg?method=ShowCleanSearch&decorator=influenza">Genome Search (ViPR)</a>
     </td>
-    <td><a href="https://beta.bv-brc.org/searches/GenomeSearch">Genome Search</a></td>
+    <td><a href="https://bv-brc.org/searches/GenomeSearch">Genome Search</a></td>
     <td></td>
   </tr>
   <tr>
@@ -137,18 +137,18 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
       <a href="https://www.fludb.org/brc/influenza_surveillanceRecord_search.spg?method=ShowCleanSearch&decorator=influenza">Animal Surveillance Search (IRD)</a><br>
       <a href="https://www.fludb.org/brc/influenza_humanSurveillanceData_search.spg?method=ShowCleanSearch&decorator=influenza">Human Surveillance Records (IRD)</a>
     </td>
-    <td><a href="https://beta.bv-brc.org/searches/SurveillanceSearch">Surveillance Search</a></td>
+    <td><a href="https://bv-brc.org/searches/SurveillanceSearch">Surveillance Search</a></td>
     <td></td>
   </tr>
   <tr>
     <td><a href="https://www.fludb.org/brc/influenza_surveillanceRecord_search.spg?method=ShowCleanSearch&decorator=influenza">3-D Protein Structure Search</a></td>
-    <td><a href="https://beta.bv-brc.org/searches/ProteinStructureSearch">Protein Structure Search</a></td>
+    <td><a href="https://bv-brc.org/searches/ProteinStructureSearch">Protein Structure Search</a></td>
     <td></td>
   </tr>
   <! --- Insert Anti-Viral Drugs Search when available --->
   <tr>
     <td><a href="https://www.fludb.org/brc/serology_experiment_search.spg?method=ShowCleanSearch&decorator=influenza">Serology Experiment Search (IRD)</a></td>
-    <td><a href="https://beta.bv-brc.org/searches/SerologySearch">Serology Search</a></td>
+    <td><a href="https://bv-brc.org/searches/SerologySearch">Serology Search</a></td>
     <td></td>
   </tr>
   <tr>
@@ -158,7 +158,7 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
   </tr>
   <tr>
     <td><a href="https://www.fludb.org/brc/influenza_epitope_search.spg?method=ShowCleanSearch&decorator=influenza">Immune Epitope Search</a></td>
-    <td><a href="https://beta.bv-brc.org/searches/EpitopeSearch">Epitope Search</a></td>
+    <td><a href="https://bv-brc.org/searches/EpitopeSearch">Epitope Search</a></td>
     <td></td>
   </tr>
   <! --- Insert Phenotypes Search if/when available --->
@@ -168,7 +168,7 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
   <! --- Insert ORFeome Plasmid Data Search if/when available --->
   <tr>
     <td><a href="https://www.viprbrc.org/brc/vipr_virusDomain_search.spg?method=ShowCleanSearch&decorator=corona">Protein Domains Search</a></td>
-    <td><a href="https://beta.bv-brc.org/searches/ProteinFeatureSearch">Domain and Motif Search</a></td>
+    <td><a href="https://bv-brc.org/searches/ProteinFeatureSearch">Domain and Motif Search</a></td>
     <td></td>
   </tr>
 </table>
@@ -213,7 +213,7 @@ The [Tools & Services Quick Reference Guide](../quick_references/services_menu.h
       <a href="https://www.fludb.org/brc/blast.spg?method=ShowCleanInputPage&decorator=influenza">Identify Similar Sequences (BLAST)</a><br>
       <a href="https://www.fludb.org/brc/sssearch.spg?method=ShowCleanInputPage&decorator=influenza&preSelectDB=true">Identify Short Peptides in Proteins</a>
     </td>
-    <td><a href="https://beta.bv-brc.org/app/Homology">BLAST (Homology)</a></td>
+    <td><a href="https://bv-brc.org/app/Homology">BLAST (Homology)</a></td>
     <td>
       <a href="../quick_references/services/blast.html">Quick Reference</a><br>
       <a href="../tutorial/blast/blast.html">Tutorial</a>
@@ -233,7 +233,7 @@ The [Tools & Services Quick Reference Guide](../quick_references/services_menu.h
       <a href="https://www.fludb.org/brc/snpAnalysis.spg?method=ShowCleanInputPage&decorator=influenza">Analyze Sequence Variation</a><br>
       <a href="https://www.fludb.org/brc/jalviewUsingFasta.spg?method=ShowCleanInputPage&decorator=influenza">Visualize Aligned Sequences</a>
     </td>
-    <td><a href="https://beta.bv-brc.org/app/MSA">MSA and SNP Analysis</a></td>
+    <td><a href="https://bv-brc.org/app/MSA">MSA and SNP Analysis</a></td>
     <td>
       <a href="../quick_references/services/msa_snp_variation_service.html">Quick Reference</a><br>
       <a href="../tutorial/msa_snp_variation/msa_snp_variation.html">Tutorial</a>
@@ -241,7 +241,7 @@ The [Tools & Services Quick Reference Guide](../quick_references/services_menu.h
   </tr>
   <tr>
     <td><a href="https://www.viprbrc.org/brc/vigorAnnotator.spg?method=ShowCleanInputPage&decorator=corona">Genome Annotation (VIGOR4)</a></td>
-    <td><a href="https://beta.bv-brc.org/app/Annotation">Genome Annotation</a></td>
+    <td><a href="https://bv-brc.org/app/Annotation">Genome Annotation</a></td>
     <td>
       <a href="../quick_references/services/genome_annotation_service.html">Quick Reference</a><br>
       <a href="../tutorial/genome_annotation/genome_annotation.html">Tutorial</a>
@@ -249,7 +249,7 @@ The [Tools & Services Quick Reference Guide](../quick_references/services_menu.h
   </tr>
   <tr>
     <td><a href="https://www.fludb.org/brc/mgc.spg?method=ShowCleanInputPage&selectionContext={selectionContext}&decorator=influenza">Metadata-driven Comparative Analysis Tool (Meta-CATS)</a></td>
-    <td><a href="https://beta.bv-brc.org/app/MetaCATS">Metadata-driven Comparative Analysis Tool (Meta-CATS)</a></td>
+    <td><a href="https://bv-brc.org/app/MetaCATS">Metadata-driven Comparative Analysis Tool (Meta-CATS)</a></td>
     <td>
       <a href="../quick_references/services/metacats.html">Quick Reference</a><br>
       <a href="../tutorial/metacats/metacats.html">Tutorial</a>
@@ -257,7 +257,7 @@ The [Tools & Services Quick Reference Guide](../quick_references/services_menu.h
   </tr>
   <tr>
     <td><a href="https://www.fludb.org/brc/primer3.spg?method=ShowCleanInputPage&decorator=influenza">Polymerase Chain Reaction (PCR) Primer Design</a></td>
-    <td><a href="https://beta.bv-brc.org/app/PrimerDesign">Primer Design</a></td>
+    <td><a href="https://bv-brc.org/app/PrimerDesign">Primer Design</a></td>
     <td>
       <a href="../quick_references/services/primer_design_service.html">Quick Reference</a><br>
       <a href="../tutorial/primer_design/primer_design.html">Tutorial</a>

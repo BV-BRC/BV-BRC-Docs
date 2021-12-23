@@ -7,7 +7,7 @@ The meta-CATS tool provides the capability to perform customized comparative gen
 metadata, variation analysis, comparative analysis. 
 
 ### See also
-* [Meta-CATS Analysis Service](https://beta.bv-brc.org/app/MetaCATS)
+* [Meta-CATS Analysis Service](https://bv-brc.org/app/MetaCATS)
 * [Meta-CATS Analysis Service Quick Reference Guide](../../quick_references/services/metacats.html)
 
 ## Locating the meta-CATS App

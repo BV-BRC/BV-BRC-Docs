@@ -7,7 +7,7 @@ The Primer Design Service in the Bacterial and Viral Bioinformatics Resource Cen
 **Keywords:** Primers, probes, oligo, oligomers, virus, bacteria, phage.
  
 ### See also
-* [Primer Design Service](https://beta.bv-brc.org/app/PrimerDesign)
+* [Primer Design Service](https://bv-brc.org/app/PrimerDesign)
 * [Primer Design Service Quick Reference Guide](../../quick_references/services/primer_design_service.html)
 
 ## Locating the service

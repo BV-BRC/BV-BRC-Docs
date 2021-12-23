@@ -1,5 +1,5 @@
-Command Line Interface
-========================
+Command Line Interface (CLI)
+============================
 
 `BV-BRC <https://www.bv-brc.org>`_ is an integration of different
 types of data and software tools that support research on bacterial and viral
@@ -10,6 +10,8 @@ more suitable. For users that wish command-line access to BV-BRC, we
 provide the tools described in this document. We call these tools the
 *P3-scripts*. They are intended to run on your machine, going over the
 network to access the services provided by BV-BRC.
+
+**NOTE:The CLI documentation is in the process of being updated to reflect its instantiation in BV-BRC.**
 
 Installing the CLI Release
 --------------------------

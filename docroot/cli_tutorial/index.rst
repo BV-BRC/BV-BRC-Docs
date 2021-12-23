@@ -12,6 +12,7 @@ provide the tools described in this document. We call these tools the
 network to access the services provided by BV-BRC.
 
 **NOTE:The CLI documentation is in the process of being updated to reflect its instantiation in BV-BRC.**
+---------------------------------------------------------------------------------------------------------
 
 Installing the CLI Release
 --------------------------

@@ -1,4 +1,4 @@
-# BLAST Service
+# BLAST (Homology) Service
 
 The **B**asic **L**ocal **A**lignment **S**earch **T**ool (BLAST)[1] is an algorithm and program for comparing primary biological sequence information, such as the amino-acid sequences of proteins or the nucleotides of DNA and/or RNA sequences. A BLAST search allows a researcher to compare a subject protein or nucleotide sequence (called a **query**) with a library or database of sequences, and identify database sequences that resemble the query sequence above a certain threshold.  An excellent resource on BLAST is provided by Madden[2].
 
@@ -105,109 +105,173 @@ There are four BLAST programs provided by BV-BRC, and each has a specific query 
 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
+9\.	**Fasta file.**  Searching within a fasta file is also provided.  The file can be present in BV-BRC, which would be located by entering the name in the text box, clicking on the drop-down box, or navigating within the workspace.  
 
 ![Figure 21](./images/Picture21.png "Figure 21")
 
+10\. It is also possible to upload a fasta file from outside BV-BRC. Clicking on the folder icon at the end to the text box opens a pop-up window. Click on the upload icon in the upper right corner of the window.  This will open the dialog box with the computer that has been described above. 
 
 ![Figure 22](./images/Picture22.png "Figure 22")
 
+## Selecting the Database type
+
+1\.	The available database will be determined by the query source.  When there is a nucleotide sequence with BLASTN or BLASTX selected, BV-BRC provides searches against a database of contigs or gene.  Clicking on the down arrow that follows “Contigs” will show both choices, and types.  Clicking on the desired row will select the database. 
 
 ![Figure 23](./images/Picture23.png "Figure 23")
 
-
+2\.	When an amino acid sequence with BLASTP or tBLASTn is selected, Proteins is the only type of database. 
+ 
 ![Figure 24](./images/Picture24.png "Figure 24")
 
+## Selecting an Output Folder
+
+An output folder must be created or selected to hold the job.  Folder creation is described at the top of this tutorial.  Existing folders can be located by entering the name in the text box, clicking on the arrow at the end of that box, or clicking on the folder icon to navigate to the workspace. 
 
 ![Figure 25](./images/Picture25.png "Figure 25")
 
+## Naming the BLAST job
+
+1\.	Every job submitted to BV-BRC needs a name.  This is entered into the text box underneath the words Output name. 
 
 ![Figure 26](./images/Picture26.png "Figure 26")
 
+2\.	At this point, if the search program, the query source, the database source and type, the output folder and name have been selected, the Submit button will turn blue.  That means that the job is ready to be submitted. 
 
 ![Figure 27](./images/Picture27.png "Figure 27")
 
+## Selecting Advanced Options
+
+1\.	The number of hits returned can be selected, as can the E value.  To enable that selection, click on the down arrow following Advanced Options below the Database Source box.  This will open a box that shows the BLAST parameters. 
 
 ![Figure 28](./images/Picture28.png "Figure 28")
 
+2\. Clicking on the down arrow at the end of the text box underneath Max Hits will show the number of hits that can be returned. Clicking on the desired number will autofill the text box with that selection.
 
 ![Figure 29](./images/Picture29.png "Figure 29")
 
+3\. Clicking on the down arrow at the end of the text box underneath E value threshold will show stringency of selection for the BLAST hits that are returned. Clicking on the desired threshold will autofill the text box with that selection. 
 
 ![Figure 30](./images/Picture30.png "Figure 30")
 
+## Submitting the BLAST job
+
+1\. The BLAST job can be submitted by clicking the blue Submit button.  When View Results is selected, the job will return in the same tab. 
 
 ![Figure 31](./images/Picture31.png "Figure 31")
 
+2\.	A message will appear following job selection that the job has been submitted and queued, and that it is a live job. 
 
 ![Figure 32](./images/Picture32.png "Figure 32")
 
+3\.	If the View results button was not clicked, the message will indicate that the job has been submitted and queued. 
 
 ![Figure 33](./images/Picture33.png "Figure 33")
 
+## Viewing the BLAST job
+
+1\.	A BLAST job that had the View results option selected will return results in the same page. 
 
 ![Figure 34](./images/Picture34.png "Figure 34")
 
+2\.	Even if the View results option had been selected, all BLAST jobs can also be found on the Jobs page.  Click on the Jobs box at the bottom right of any BV-BRC page. 
 
 ![Figure 35](./images/Picture35.png "Figure 35")
 
-
+3\.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
+ 
 ![Figure 36](./images/Picture36.png "Figure 36")
 
+4\.	A job that has been successfully completed can be viewed by clicking on the row and then clicking on the View icon in the vertical green bar. 
 
 ![Figure 37](./images/Picture37.png "Figure 37")
 
+5\.	This will rewrite the page to show the information about the job, and all the files that are produced when the pipeline runs.  The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the Parameters row. 
 
 ![Figure 38](./images/Picture38.png "Figure 38")
 
+6\. This will show the information on what was selected when the job was originally submitted. 
 
 ![Figure 39](./images/Picture39.png "Figure 39")
 
+7\. The jobs page has several files for download or viewing.  The **blast_headers.txt** file shows the column headers that are provided with the BLAST results.  They are as follows:
+* qseqid:  query or source (e.g., gene) sequence id
+* sseqid:  subject or target (e.g., reference genome) sequence id
+* pident:  percentage of identical matches
+* length:  alignment length (sequence overlap)
+* mismatch:  number of mismatches
+* gapopen:  number of gap openings
+* qstart:  start of alignment in query
+* qend:  end of alignment in query
+* sstart:  start of alignment in subject
+* send:  end of alignment in subject
+* evalue:  expect value
+* bitscore:  bit score
 
 ![Figure 40](./images/Picture40.png "Figure 40")
 
+8\. The **blast_out.archive** file can be viewed by selecting the row and clicking on the View icon.  This will reload the page to show the archive file. This file is the entire file generated from a BLAST job, which BV-BRC uses to create the blast_out.json file used in the BV-BRC viewers. This file could be used in an alternate viewer outside of BV-BRC. 
 
 ![Figure 41](./images/Picture41.png "Figure 41")
 
+9\. The BLAST service also produces several json files (A JSON file is a file that stores simple data structures and objects in JavaScript Object Notation (JSON) format, which is a standard data interchange format. It is primarily used for transmitting data between a web application and a server). There is a **blast_out.json** file, which is formatted output created from the **blast_out.archive** file.  It can be viewed by selecting the row and clicking on the **View** icon.  This will reload the page to show the json file. 
 
 ![Figure 42](./images/Picture42.png "Figure 42")
 
+10\. The service also provides a **blast_out.metadata.json** file for the metadata associated with the BLAST job. This can be viewed by selecting the row and then clicking on the View icon. 
 
 ![Figure 43](./images/Picture43.png "Figure 43")
 
+11\. The service also provides a **blast_out.raw.json** file. BLAST uses a list of BLAST identifiers that are not the same identifiers that we use at BV-BRC, so this file includes those identifiers.  It can be viewed by selecting the row and then clicking on the View icon.  This will rewrite the page to show the file. 
 
 ![Figure 44](./images/Picture44.png "Figure 44")
 
+12\. Clicking on the row that contains the **blast_out.txt** file and then the View icon will rewrite the page to show the BLAST output without the column heads. These will show the query and target sequences, and the strength of the BLAST hits. 
 
 ![Figure 45](./images/Picture45.png "Figure 45")
 
+13\. BV-BRC also provides an interface that shows the BLAST hits and the alignments.  To see them, click on the **View** icon at the *upper right of the Jobs page*. 
 
 ![Figure 46](./images/Picture46.png "Figure 46")
 
+14\. This will rewrite the page to show the details of the BLAST job, including the query and subject IDs and the strength of the BLAST hits.  This table can be downloaded by clicking on the download icon at the top right of this table. 
 
 ![Figure 47](./images/Picture47.png "Figure 47")
 
+15\. The alignment between the query and subject sequences can be seen by clicking on the arrow icon in the second column. 
 
 ![Figure 48](./images/Picture48.png "Figure 48")
 
+16\. This will show a drop-down view of the alignment. 
 
 ![Figure 49](./images/Picture49.png "Figure 49")
 
+17\. Information about the subject sequence can be seen by clicking on the check box in the first column for each of the rows.  This will populate the vertical green bar to the right with different icons where different information can be viewed. 
 
 ![Figure 50](./images/Picture50.png "Figure 50")
 
+18\. Clicking on the **FASTA** icon will provide the option to view the nucleotide or amino acid sequence of the BLAST subject data, which is in the database. 
 
 ![Figure 51](./images/Picture51.png "Figure 51")
 
-
+19\. Clicking on the **ID Mapping** icon will open a drop-down box that allows researcher to find other identifiers, either within or outside of the BV-BRC, that the subject data has. 
+ 
 ![Figure 52](./images/Picture52.png "Figure 52")
 
+20\. Clicking on the **Group** icon will open a pop-up window where researchers can add the subject hit to a feature (gene or protein) or genome group.  The subject can be added to an existing group, or a new group can be created. 
 
 ![Figure 53](./images/Picture53.png "Figure 53")
 
+21\. Clicking on the Genome icon will open a new tab that shows the genome landing page of the genome that contains the subject sequence.  
 
 ![Figure 54](./images/Picture54.png "Figure 54")
 
+22\. Clicking on the Feature icon will open a new tab that shows the feature landing page of the gene/protein that contains the subject sequence. 
 
 ![Figure 55](./images/Picture55.png "Figure 55")
+
+## References
+
+1. Altschul, S. F. J. e. BLAST algorithm.  (2001).
+2. Madden, T. The BLAST sequence analysis tool. The NCBI handbook 2, 425-436 (2013).
 
 

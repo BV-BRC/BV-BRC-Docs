@@ -46,39 +46,62 @@ There are four BLAST programs provided by BV-BRC, and each has a specific query 
 
 ![Figure 8](./images/Picture8.png "Figure 8")
 
-
+6\.	Fasta files can also be uploaded to the workspace.  From the pop-up window, clicking on the icon will open a window that starts the process for selecting a file from the computer.  Note that the window has the type of the file needed for the service pre-selected and when the computer interface opens, it will highlight files that meet the fasta requirement.  Moreover, those files that are uploaded will be tagged as DNA or Protein FASTA, depending upon the service that was originally selected the search program. Click on the Select File button in the middle of the page. 
+ 
 ![Figure 9](./images/Picture9.png "Figure 9")
 
+7\.	This will open an interface with the computer.  Navigate to the file of interest and click on the Open button.  The name will then appear below File Selected on the pop-up window.  Then click on the Start Upload button at the lower right of the window. 
 
 ![Figure 10](./images/Picture10.png "Figure 10")
 
+8\.	The pop-up window will close, and the name of the file will appear in the Query source text box. 
 
 ![Figure 11](./images/Picture11.png "Figure 11")
 
+9\.	**Select Feature group.**  When “Select Feature group” is selected, a query sequence can be located in several ways as described above for Fasta files.  Text can be entered in the text box or located by clicking on the arrow at the end of box.  Clicking on the folder icon at the end of the text box will open a pop-up window with access to the workspace, where the group of interest can be located and selected. 
 
 ![Figure 12](./images/Picture12.png "Figure 12")
 
+## Selecting the Database
+
+1\.	BR-BRC has different databases to choose from.  To see the available choices, click on the down arrow at the end of the text box underneath Database Source.  There are six different choices to search within, each of which can be selected by clicking on the row that contains them: 
+* Reference and representative genomes (bacteria, archaea)
+* Reference and representative genomes (virus)
+* Selected genome list
+* Selected genome group
+* Selected feature group
+* Taxon
+* Selected fasta file
+
+**Reference and representative genomes.**  The reference and representative genomes, which are the default, are those designated by the National Center (https://www.ncbi.nlm.nih.gov/refseq/about/prokaryotes/). 
 
 ![Figure 13](./images/Picture13.png "Figure 13")
 
+2\.	**Genome List.** Clicking on “Search within genome list” in the drop-down box will open a new source box where desired genomes can be added and searched against.   
 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
+3\.	The name or ID of the desired genome is entered into the text box.  The name of the matching genome, which will occur below the text box, is clicked on, and then the name will appear in the text box.  To move it into the box for the selected genomes, click on the arrow at the end of the text box.  The name will move into the text box at the right.  Additional genomes can be added in this manner. 
 
 ![Figure 15](./images/Picture15.png "Figure 15")
 
+4\.	**Genome Group.**  Previously created groups of genomes can also be searched.  There are several ways to navigate to the group.  Clicking on the drop-down box will show genome groups, with the most recently created groups shown first. Clicking on the desired group will fill the box with that name. 
 
 ![Figure 16](./images/Picture16.png "Figure 16")
 
+5\.	The text box can also be used by entering part of a name.  the drop-down box below will show all the genome groups that match that text.  Clicking on the desired group will fill the box with that name. 
 
 ![Figure 17](./images/Picture17.png "Figure 17")
 
+6\.	Another way to find a genome group of interest is to navigate to it in the workspace.  Clicking on the file icon to the immediate right of the text box will open a pop-up window that shows the workspace.  Navigate to the desired folder, click on the row that contains the desired group, and then click on the OK button at the lower right of that window.  The name of the selected group will appear in the text box. 
 
 ![Figure 18](./images/Picture18.png "Figure 18")
 
+7\.	**Feature group.** Previously created groups of features (genes or proteins) can also be searched, with the methods like those described for genome groups above. 
 
 ![Figure 19](./images/Picture19.png "Figure 19")
 
+8\.	**Taxon.** A broader search across a taxon is also provided.  Entering the name of the taxon will open a drop-down box that shows the taxa that have similar text.  Clicking on the row that has the correct name will select the database, which will appear in the text box. 
 
 ![Figure 20](./images/Picture20.png "Figure 20")
 

@@ -4,7 +4,10 @@ The top-level Services Menu provides access to wide range of services and tools 
 
 .. image:: ./images/bv_services_menu.png
 
-Clicking on one of the menu items will display an input form for the the corresponding analysis service, as described below. Note that registration and login is required for most of the analysis services.
+Clicking on one of the menu items will display an input form for the the corresponding analysis service, as described below. Note that registration and login is required for the analysis services. 
+
+Services generally support both bacterial and viral data analysis.  However, some are limited to one type or the other, indicated by a (B) for baceria-only services, and a <V> for viral-only services.
+
 
 Genomics Services
 -----------------
@@ -16,11 +19,24 @@ Genomics Services
    services/genome_annotation_service.md
    services/comprehensive_genome_analysis_service.md
    services/blast.md
+   services/sars_cov_2_assembly_annotation_service.md
    services/similar_genome_finder_service.md
-   services/variation_analysis_service.md
-   services/tn_seq_analysis_service.md
+   services/metacats.md
    services/phylogenetic_tree_building_service.md
    services/genome_alignment_service.md
+   services/primer_design_service.md
+   services/variation_analysis_service.md
+   services/tn_seq_analysis_service.md
+
+
+Protein Tools Services
+----------------------
+.. toctree::
+   :maxdepth: 1
+
+   services/genetree.md
+   services/msa_snp_variation_service.md
+   services/proteome_comparison_service.md
 
 
 Metagenomics Services
@@ -42,24 +58,6 @@ Transcriptomics Services
    services/rna_seq_analysis_service.md
 
 
-Protein Tools Services
-----------------------
-.. toctree::
-   :maxdepth: 1
-
-   services/protein_family_service.md
-   services/proteome_comparison_service.md
-
-
-Metabolomics Services
----------------------
-.. toctree::
-   :maxdepth: 1
-
-   services/comparative_pathway_service.md
-   services/model_reconstruction_service.md
-
-
 Data Services
 -------------
 
@@ -68,23 +66,3 @@ Data Services
 
    services/id_mapper.md
    services/fastq_utilities_service.md
-
-Viral Services
---------------
-
-.. toctree::
-   :maxdepth: 1
-
-   services/sars_cov_2_assembly_annotation_service.md
-   services/genetree.md
-   services/msa_snp_variation_service.md
-   services/metacats.md
-   services/primer_design_service.md
-
-Data Visualizations
-------
-
-.. toctree::
-   :maxdepth: 1
-
-   other/msa_viewer.md

@@ -1,3 +1,3 @@
-# Common Viral Data Searches and Analyses (for IRD/ViPR Users)
+# Viral Data Searches and Analyses (for IRD/ViPR Users)
 
 Coming soon...

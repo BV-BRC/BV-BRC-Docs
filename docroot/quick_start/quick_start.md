@@ -1,3 +1,3 @@
-# BV-BRC Quick Start Guide
+# BV-BRC Quick Start Videos
 
 Coming soon...

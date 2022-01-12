@@ -1,3 +1,3 @@
-# BV-BRC Quick Start Videos
+# Quick Start Videos
 
 Coming soon...

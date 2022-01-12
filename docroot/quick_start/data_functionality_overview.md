@@ -1,4 +1,4 @@
-# BV-BRC Data and Functionality Overview (for PATRIC Users) 
+# Data and Functionality Overview (for PATRIC Users) 
 
 BV-BRC has been developed by starting with the legacy PATRIC data, tools, services, website, and infrastructure, and augmenting it with integrated viral data, tools, and features from the legacy IRD (influenza) and ViPR (other pathgenic viruses) BRCs. PATRIC users Will be able to do all of the same searches, analyses, workspace that they have used at PATRIC. In BV-BRC, there are additional data, tools, and services at their disposal for more comprehensive review and analyses. A few changes in website layout and terminology have been made to assist IRD/ViPR users in make the transition to BV-BRC. In summary, the changes with respect to PATRIC are the following:
 

@@ -1,3 +1,0 @@
-# BV-BRC Quick Start Guide
-
-Coming soon...

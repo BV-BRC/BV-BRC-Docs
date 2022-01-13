@@ -2,12 +2,14 @@
 
 The following short videos provide a brief overview of the BV-BRC website and how to use various features. These videos are oriented more towards existing PATRIC or IRD/ViPR users, but should be helpful for anyone wanting to get started using the resource.
 
-* [Introduction](#intro)
-* [Filtering Tabular Results](#filters)
-* [Workspace](#workspace)
+- [Quick Start Videos](#quick-start-videos)
+  - [Introduction](#introduction)
+  - [Filtering Data](#filtering-data)
+  - [Workspace and Sharing](#workspace-and-sharing)
 
 
 <a name="intro"></a>
+## Introduction
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rb3d6fJ1Yxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -16,7 +18,9 @@ The following short videos provide a brief overview of the BV-BRC website and ho
 
 
 
+
 <a name="filters"></a>
+## Filtering Data
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q-UBdYnizN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -24,6 +28,7 @@ The following short videos provide a brief overview of the BV-BRC website and ho
 
 
 <a name="workspace"></a>
+## Workspace and Sharing
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7-ypDbAhqiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

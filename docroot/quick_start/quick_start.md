@@ -2,7 +2,6 @@
 
 The following short videos provide a brief overview of the BV-BRC website and how to use various features. These videos are oriented more towards existing PATRIC or IRD/ViPR users, but should be helpful for anyone wanting to get started using the resource.
 
-- [Quick Start Videos](#quick-start-videos)
   - [Introduction](#introduction)
   - [Filtering Data](#filtering-data)
   - [Workspace and Sharing](#workspace-and-sharing)

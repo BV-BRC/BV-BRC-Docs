@@ -13,6 +13,8 @@ Help Documentation Organization
 
 The BV-BRC Help Documentation is organized into several subsections:
 
+ - `Quick Start <./quick_start/index.html>`_: provides set of introductory videos and documents designed to help users, especially those coming from PATRIC and IRD/ViPR, get started using BV-BRC.
+
  - `Quick Reference Guides <./quick_references/index.html>`_: provide succinct overviews of specific feature (data, tool, functionality) within the resource with definitions of all of its component parts.
 
  - `Tutorials <./tutorial/index.html>`_: provide detailed, step-by-step instructions with screen captures to illustrate how to use a particular data type or tool and interpret its results, often with additional information and rationale to enhance its use in the context of a broader biological question. 

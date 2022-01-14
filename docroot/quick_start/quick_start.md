@@ -9,7 +9,7 @@ The following short videos provide a brief overview of the BV-BRC website and ho
   - [Viewing Results of Analysis Jobs](#results)
   - [Workspace and Sharing](#workspace)
 
-All videos are also availble on the [BV-BRC YouTube Channel](https://www.youtube.com/channel/UCDkT2ZCWhK3GBtm5R-o1J4A).
+**All videos are also availble on the [BV-BRC YouTube Channel](https://www.youtube.com/channel/UCDkT2ZCWhK3GBtm5R-o1J4A).**
 
 
 <a name="intro"></a>

@@ -5,7 +5,7 @@ The Differential Expression Import Service facilitates upload of user-provided, 
 
 ### See also
   * [Expression Import Service](https://bv-brc.org/app/Expression)
-  * [Expression Import Service Tutorial](https://docs.alpha.bv-brc.org/tutorial/expression_import/expression_import.html)
+  * [Expression Import Service Tutorial](../../tutorial/expression_import/expression_import.html)
 
 ## Using the Expression Import Service
 The **Expression Import** submenu option under the **Services** main menu (Transcriptomics category) opens the Expression Import input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.* The Expression Data Import Service can also be accessed via the Command Line Interface (CLI).

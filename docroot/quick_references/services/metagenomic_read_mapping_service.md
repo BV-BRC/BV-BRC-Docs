@@ -5,6 +5,7 @@ The bacterial Metagenomic Read Mapping Service uses [KMA](https://bmcbioinformat
 
 ### See also
   * [Metagenomic Read Mapping Service](https://bv-brc.org/app/MetagenomicReadMapping)
+  * [Metagenomic Read Mapping Service Tutorial](../../tutorial/metagenomic_read_mapping/metagenomic_read_mapping.html)
 
 ## Using the Metagenomic Read Mapping Service
 The **Metagenomic Read Mapping** submenu option under the **Services** main menu (Metagenomics category) opens the Metagenomic Read Mapping Service input form (shown below). *Note: You must be logged into BV-BRC to use this service.*

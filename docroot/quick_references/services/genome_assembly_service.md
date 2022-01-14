@@ -5,7 +5,7 @@ The bacterial Genome Assembly Service allows single or multiple assemblers to be
 
 ### See also
 * [Genome Assembly Service](https://bv-brc.org/app/Assembly2)
-* Genome Assembly Service Tutorial
+* [Genome Assembly Service Tutorial](../../tutorial/genome_assembly/assembly.html)
 
 ## Using the Genome Assembly Service
 The **Assembly** submenu option under the **Services** main menu (Genomics category) opens the Genome Assembly input form, shown below. *Note: You must be logged into BV-BRC to use this service.*

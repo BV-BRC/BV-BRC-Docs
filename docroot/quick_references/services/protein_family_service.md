@@ -5,7 +5,7 @@ The bacterial Protein Family Sorter Service tool enables researchers to examine 
 
 ### See also
 * [Protein Family Sorter Service](https://bv-brc.org/app/ProteinFamily)
-* [Comparing Protein Families Across Genomes Tutorial](https://docs.bv-brc.org//tutorial/protein_family_sorter/protein_family_sorter.html)
+* [Comparing Protein Families Across Genomes Tutorial](../../tutorial/protein_family_sorter/protein_family_sorter.html)
 * [Protein Families Tab Quick Reference Guide](../organisms_taxon/protein_families.html)
 
 ## Using the Protein Family Sorter Service

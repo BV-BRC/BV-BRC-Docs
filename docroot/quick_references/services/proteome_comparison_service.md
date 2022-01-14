@@ -5,7 +5,7 @@ The bacterial Proteome Comparison Service performs protein sequence-based genome
 
 ### See also
 * [Proteome Comparison Service](https://bv-brc.org/app/SeqComparison)
-* [Proteome Comparison Tutorial](https://docs.bv-brc.org//tutorial/proteome_comparison/proteome_comparison.html)
+* [Proteome Comparison Tutorial](../../tutorial/proteome_comparison/proteome_comparison.html)
 
 ## Using the Proteome Comparison Service
 The **Proteome Comparison** submenu option under the **Services** main menu (Protein Tools category) opens the Proteome Comparison input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*

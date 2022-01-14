@@ -5,7 +5,7 @@ The bacterial Similar Genome Finder Service will find similar public genomes in 
 
 ### See also
 * [Similar Genome Finder Service](https://bv-brc.org/app/GenomeDistance)
-* [Similar Genome Finder Service Tutorial](https://docs.bv-brc.org//tutorial/similar_genome_finder/similar_genome_finder.html)
+* [Similar Genome Finder Service Tutorial](../../tutorial/similar_genome_finder/similar_genome_finder.html)
 
 ## Using the Similar Genome Finder Service
 The **Similar Genome Finder** submenu option under the **Services** main menu (Genomics category) opens the Similar Genome Finder input form (*shown below*).

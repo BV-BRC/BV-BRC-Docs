@@ -5,7 +5,7 @@ The Fastq Utilities Service makes available common operations for FASTQ files fr
 
 ### See also
 * [Fastq Utilities Service](https://bv-brc.org/app/FastqUtil)
-* [Fastq Utilities Service Tutorial](https://docs.alpha.bv-brc.org/tutorial/fastq-utilities/fastq-utilities.html)
+* [Fastq Utilities Service Tutorial](../../tutorial/fastq-utilities/fastq-utilities.html)
 
 ## Using the Fastq Utilities Service
 The **Fastq Utilities** submenu option under the **Services** main menu (Genomics category) opens the Fastq Utilities input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*

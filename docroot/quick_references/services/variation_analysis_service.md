@@ -5,7 +5,7 @@ The Variation Analysis Service can be used to identify and annotate sequence var
 
 ### See also
 * [Variation Analyis Service](https://bv-brc.org/app/Variation)
-* [Variation Analysis Service Tutorial](https://docs.bv-brc.org//tutorial/variation_analysis_service/variation_analysis_service.html)
+* [Variation Analysis Service Tutorial](../../tutorial/variation_analysis_service/variation_analysis_service.html)
 
 ## Using the Variation Analysis Service
 The **Variation** submenu option under the **Services** main menu (Genomics category) opens the Variation Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*

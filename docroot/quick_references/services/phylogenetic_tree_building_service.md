@@ -5,7 +5,7 @@ The bacterial Phylogenetic Tree Building Service enables construction of custom 
 
 ### See also
 * [Phylogenetic Tree Building Service](https://bv-brc.org/app/PhylogeneticTree)
-* [Building Phylogenetic Trees - Codon Tutorial](https://docs.alpha.bv-brc.org/tutorial/codon_tree_building/codon_tree_building.html)
+* [Building Phylogenetic Trees - Codon Tutorial](../../tutorial/codon_tree_building/codon_tree_building.html)
 * [Phylogeny Tab Quick Reference Guide](../organisms_taxon/phylogeny.html)
 
 ## Using the Phylogenetic Tree Building Service

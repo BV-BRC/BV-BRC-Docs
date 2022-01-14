@@ -5,7 +5,7 @@ The Multiple Sequence Alignment (MSA) and Single Nucleotide Polymorphism (SNP)/V
 
 ### See also
 * [MSA and SNP/Variation Analysis Service](https://bv-brc.org/app/MSA)
-* [MSA and SNP/Variation Analysis Service Tutorial](../../tutorial/msa_snp_variation.html)
+* [MSA and SNP/Variation Analysis Service Tutorial](../../tutorial/msa_snp_variation/msa_snp_variation.html)
 * [MSA Viewer](../other/msa_viewer.html)
 
 ## Using the Multiple Sequence Alignment and Variation/SNP Analysis Service

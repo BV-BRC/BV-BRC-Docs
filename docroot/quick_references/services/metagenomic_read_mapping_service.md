@@ -4,7 +4,7 @@
 The bacterial Metagenomic Read Mapping Service uses [KMA](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2336-6) to align reads against antibiotic resistance genes, virulence factors, or other custom sets of genes.
 
 ### See also
-  * [Metagenomic Read Mapping Service](https://alpha.bv-brc.org/app/MetagenomicReadMapping)
+  * [Metagenomic Read Mapping Service](https://bv-brc.org/app/MetagenomicReadMapping)
 
 ## Using the Metagenomic Read Mapping Service
 The **Metagenomic Read Mapping** submenu option under the **Services** main menu (Metagenomics category) opens the Metagenomic Read Mapping Service input form (shown below). *Note: You must be logged into BV-BRC to use this service.*

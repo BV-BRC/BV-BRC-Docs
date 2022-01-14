@@ -4,7 +4,7 @@
 The Metagenomic Binning Service accepts either reads or contigs, and attempts to "bin" the data into a set of genomes. This service can be used to reconstruct bacterial and archael genomes from environmental samples.
 
 ### See also
-* [Metagenomic Binning Service](https://alpha.bv-brc.org/app/MetagenomicBinning)
+* [Metagenomic Binning Service](https://bv-brc.org/app/MetagenomicBinning)
 * [Metagenomic Binning Service Tutorial](https://docs.alpha.bv-brc.org//tutorial/metagenomic_binning/metagenomic_binning.html)
 
 ## Using the Metagenomic Binning Service

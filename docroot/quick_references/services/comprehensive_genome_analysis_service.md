@@ -4,7 +4,7 @@
 The bacterial Comprehensive Genome Analysis Service provides a streamlined analysis **"meta-service"** that accepts raw reads and performs a comprehensive analysis including assembly, annotation, identification of nearest neighbors, a basic comparative analysis that includes a subsystem summary, phylogenetic tree, and the features that distinguish the genome from its nearest neighbors.
 
 ### See also
-  * [Comprehensive Genome Analysis Service](https://alpha.bv-brc.org/app/ComprehensiveGenomeAnalysis)
+  * [Comprehensive Genome Analysis Service](https://bv-brc.org/app/ComprehensiveGenomeAnalysis)
   * Comprehensive Genome Analysis Service Tutorial
   * [Genome Assembly Service Quick Reference Guide](./genome_assembly_service.html)
   * [Genome Annotation Service Quick Reference Guide](./genome_annotation_service.html)

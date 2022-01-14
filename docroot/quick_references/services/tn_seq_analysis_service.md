@@ -8,8 +8,8 @@ The Tn-Seq Analysis Service facilitates determination of essential and condition
 * DeJesus, M. A., Ambadipudi, C., Baker, R., Sassetti, C., & Ioerger, T. R. (2015). TRANSIT-a software tool for Himar1 TnSeq analysis. *PLoS computational biology*, *11*(10), e1004401.
 
 ### See also
-* [Tn-Seq Analysis Service](https://alpha.bv-brc.org/app/Tnseq)
-* [Tn-Seq Analysis Service Tutorial](https://docs.alpha.bv-brc.org//tutorial/tn-seq/tn-seq.html)
+* [Tn-Seq Analysis Service](https://bv-brc.org/app/Tnseq)
+* [Tn-Seq Analysis Service Tutorial](https://docs.bv-brc.org//tutorial/tn-seq/tn-seq.html)
 
 ## Using the Tn-Seq Service
 The **Tn-Seq Analysis** submenu option under the **Services** main menu (Genomics category) opens the Tn-Seq Analysis input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*

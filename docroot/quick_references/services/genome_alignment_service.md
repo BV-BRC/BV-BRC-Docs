@@ -5,7 +5,7 @@ The bacterial Genome Alignment Service uses [progressiveMauve](https://journals.
 
 
 ### See also
-* [Genome Alignment Service](https://alpha.bv-brc.org/app/GenomeAlignment)
+* [Genome Alignment Service](https://bv-brc.org/app/GenomeAlignment)
 
 ## Using the Genome Alignment Service
 The **Genome Alignment** submenu option under the **Services** main menu (Genomics category) opens the Genome Alignment Service input form (*shown below*).

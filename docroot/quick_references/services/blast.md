@@ -26,6 +26,24 @@ There are four BLAST programs provided by BV-BRC, and each has a specific query 
 
  ## Query Source 
 
+There are three types of Query sources that are provided by BV-BRC:
+
+* **Enter sequence** - Paste the query sequence into the box.
+* **Select FASTA file** - Choose FASTA file that has been uploaded to the Workspace.
+* **Select feature group** - Choose a feature (gene/protein) that has been saved in the Workspace.
+
+## Database Source
+
+BV-BRC has different databases to choose from for the source to search wihin: 
+ 
+* Reference and representative genomes (bacteria, archaea)
+* Reference and representative genomes (virus)
+* Selected genome list
+* Selected genome group
+* Selected feature group
+* Taxon
+* Selected fasta file
+
 
 
 **Database:** Dropdown list of a variety of BV-BRC databases or user-selected data sets for searching. Depending upon the query type, searches are available for entire genomes or limited to only features. Specifically, blastn, tblastn, or tblastx, allows searches against either genomes or features. However, blastp or blastx are limited to features (proteins) only.   

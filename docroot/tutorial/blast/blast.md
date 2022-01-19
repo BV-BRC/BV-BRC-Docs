@@ -65,7 +65,7 @@ There are four BLAST programs provided by BV-BRC, and each has a specific query 
 
 ## Selecting the Database
 
-1\.	BR-BRC has different databases to choose from.  To see the available choices, click on the down arrow at the end of the text box underneath Database Source.  There are six different choices to search within, each of which can be selected by clicking on the row that contains them: 
+1\.	BV-BRC has different databases to choose from.  To see the available choices, click on the down arrow at the end of the text box underneath Database Source.  There are six different choices to search within, each of which can be selected by clicking on the row that contains them: 
 * Reference and representative genomes (bacteria, archaea)
 * Reference and representative genomes (virus)
 * Selected genome list

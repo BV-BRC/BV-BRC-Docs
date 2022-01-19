@@ -35,14 +35,14 @@ There are three types of Query sources that are provided by BV-BRC:
 ## Database Source
 
 BV-BRC has different databases to choose from for the source to search wihin: 
- 
-* Reference and representative genomes (bacteria, archaea)
-* Reference and representative genomes (virus)
-* Selected genome list
-* Selected genome group
-* Selected feature group
-* Taxon
-* Selected fasta file
+
+* **Reference and representative genomes (bacteria, archaea)** - Those designated by the [NCBI](https://www.ncbi.nlm.nih.gov/refseq/about/prokaryotes/). This is the default.
+* **Reference and representative genomes (virus)** - Those designated by the [NCBI](https://www.ncbi.nlm.nih.gov/refseq/about/).
+* **Selected genome list** - Clicking on “Search within genome list” in the drop-down box will open a new source box where desired genomes can be added.
+* **Selected genome group** - Genome group saved in the Workspace.
+* **Selected feature group** - Feature (gene/protein) group saved in the workspace.
+* **Taxon** - Selected taxonomic level from the database.
+* **Selected fasta file** - FASTA file that has been uploaded to the Workspace.
 
 
 

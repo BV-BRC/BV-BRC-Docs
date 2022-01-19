@@ -27,7 +27,7 @@ There are four BLAST programs provided by BV-BRC, and each has a specific query 
 ![Figure 3](./images/Picture3.png "Figure 3")
 
 ## Selecting the Query Source
-1\.	There are three types of Query sources that are provided by BV-BRC.  Clicking on the radial button in front of the query type will select it and will also reformat the page to support that selection.  
+1\.	There are three types of Query sources that are provided by BV-BRC.  Clicking on the button in front of the query type will select it and will also reformat the page to support that selection.  
 
 ![Figure 4](./images/Picture4.png "Figure 4")
 

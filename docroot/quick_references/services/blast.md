@@ -8,25 +8,25 @@ The BLAST service integrates the BLAST (Basic Local Aligment Search Tool) algori
 * [BLAST Service Tutorial](../../tutorial/blast/blast.html)
 
 ## Using the BLAST Service
-The **BLAST** submenu option under the **Services** main menu (Genomics category) opens the BLAST input form (*shown below*). *Note: The BLAST Service can be used without logging in, but if you want to include your private genome in the BLAST results, you must be logged into BV-BRC.*
+The **BLAST** submenu option under the **Services** main menu (Genomics category) opens the BLAST input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
 
 ![BLAST Menu](../images/bv_services_menu.png)
 
 ## Options
 ![BLAST Input Form](../images/blast_input_form.png) 
 
-**Sequence:** This is the entry box for either the nucleotide or amino acid target search sequence.  Cut-and-paste is supported. 
+## Search Program 
 
-**Program:** Depending upon the type of sequence (nucleotide or amino acid) entered into the Sequence text box sequence, this will open a dropdown box showing the types of BLAST available. These include the following: 
-  * blastn: searches nucleotide databases using a nucleotide query
+There are four BLAST programs provided by BV-BRC, and each has a specific query sequence and database. Clicking on the button in front of the program name will select it and will also select the appropriate databases.
 
-  * blastx: searches protein databases using a translated nucleotide query
+  * **BLASTN** – The query sequence is DNA (nucleotide), and when enabled the program will search against DNA databases of contig or gene sequences.
+  * **BLASTX** – The query sequence is DNA (nucleotide), and when enabled the program will search against the protein sequence database.
+  * **BLASTP** – The query sequence is protein (amino acid), and when enabled the program will search against the protein sequence database.
+  * **tBLASTn** – The query sequence is protein (amino acid), and when enabled the program will search against DNA databases of contig or gene sequences.
 
-  * tblastx: searches translated nucleotide databases using a translated nucleotide query
+ ## Query Source 
 
-  * blastp: searches protein databases using a protein query
 
-  * tblastn: searches translated nucleotide subjects using a protein query
 
 **Database:** Dropdown list of a variety of BV-BRC databases or user-selected data sets for searching. Depending upon the query type, searches are available for entire genomes or limited to only features. Specifically, blastn, tblastn, or tblastx, allows searches against either genomes or features. However, blastp or blastx are limited to features (proteins) only.   
 

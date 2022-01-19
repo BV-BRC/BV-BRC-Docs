@@ -51,11 +51,10 @@ Folder in the Workspace where you want the BLAST results stored.
 Name you provide to identify the results in the Workspace. 
 
 ## Advanced Options
+**BLAST Parameters** include the following:
 
 * **Max hits** - Maximum number of BLAST hits to return.
 * **E-Value threshold** - the number of expected hits of similar quality (score) that could be found just by chance.
-
-**BLAST Parameters:** Allows adjustment of maximum number of hits returned and E value threshold.
 
 ## Buttons
 

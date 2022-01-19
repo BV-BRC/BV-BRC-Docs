@@ -17,7 +17,8 @@ Please refer to the [Assembly Service Tutorial](../genome_assembly/assembly.html
 
 ## Selecting the Search Program
 
-There are four BLAST programs provided by BV-BRC, and each has a specific query sequence and database. Clicking on the radial button in front of the program name will select it and will also select the appropriate databases.
+There are four BLAST programs provided by BV-BRC, and each has a specific query sequence and database. Clicking on the button in front of the program name will select it and will also select the appropriate databases.
+
 * BLASTN – The query sequence is DNA (nucleotide), and when enabled the program will search against DNA databases of contig or gene sequences.
 * BLASTX – The query sequence is DNA (nucleotide), and when enabled the program will search against the protein sequence database.
 * BLASTP – The query sequence is protein (amino acid), and when enabled the program will search against the protein sequence database.
@@ -26,7 +27,7 @@ There are four BLAST programs provided by BV-BRC, and each has a specific query 
 ![Figure 3](./images/Picture3.png "Figure 3")
 
 ## Selecting the Query Source
-1\.	There are three types of Query sources that are provided by BV-BRC.  Clicking on the radial button in front of the query type will select it and will also reformat the page to support that selection.  
+1\.	There are three types of Query sources that are provided by BV-BRC.  Clicking on the button in front of the query type will select it and will also reformat the page to support that selection.  
 
 ![Figure 4](./images/Picture4.png "Figure 4")
 
@@ -64,7 +65,7 @@ There are four BLAST programs provided by BV-BRC, and each has a specific query 
 
 ## Selecting the Database
 
-1\.	BR-BRC has different databases to choose from.  To see the available choices, click on the down arrow at the end of the text box underneath Database Source.  There are six different choices to search within, each of which can be selected by clicking on the row that contains them: 
+1\.	BV-BRC has different databases to choose from.  To see the available choices, click on the down arrow at the end of the text box underneath Database Source.  There are six different choices to search within, each of which can be selected by clicking on the row that contains them: 
 * Reference and representative genomes (bacteria, archaea)
 * Reference and representative genomes (virus)
 * Selected genome list

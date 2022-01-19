@@ -4,7 +4,7 @@
 The Genome Annotation Service uses the RAST tool kit, [RASTtk](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4322359/), for bacteria and the [Viral Genome ORF Reader (VIGOR4)](https://github.com/JCVenterInstitute/VIGOR4) for viruses. The service accepts a FASTA formatted contig file and an annotation recipe based on taxonomy to provide an annotated genome, to provide annotation of genomic features. Once the annotation process has started by clicking the “Annotate” button, the genome is queued as a “job” for the Annotation Service to process, and will increment the count in the Jobs information box on the bottom right of the page. Once the annotation job has successfully completed, the output file will appear in the workspace, available for use in the BV-BRC comparative tools and/or can be downloaded if desired.
 
 ### See also
-* [Genome Annotation Service](https://alpha.bv-brc.org/app/Annotation)
+* [Genome Annotation Service](https://bv-brc.org/app/Annotation)
 * [Genome Annotation Service Tutorial](../../tutorial/genome_annotation/genome_annotation.html)
 
 ## Using the Genome Annotation Service

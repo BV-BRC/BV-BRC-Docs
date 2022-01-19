@@ -4,8 +4,8 @@
 The bacterial Protein Family Sorter Service tool enables researchers to examine the distribution of protein families across a set of user-selected genomes. Results are displayed in a page showing all the families associated with the selected genomes, plus filter controls and an interactive heatmap.
 
 ### See also
-* [Protein Family Sorter Service](https://alpha.bv-brc.org/app/ProteinFamily)
-* [Comparing Protein Families Across Genomes Tutorial](https://docs.alpha.bv-brc.org//tutorial/protein_family_sorter/protein_family_sorter.html)
+* [Protein Family Sorter Service](https://bv-brc.org/app/ProteinFamily)
+* [Comparing Protein Families Across Genomes Tutorial](../../tutorial/protein_family_sorter/protein_family_sorter.html)
 * [Protein Families Tab Quick Reference Guide](../organisms_taxon/protein_families.html)
 
 ## Using the Protein Family Sorter Service

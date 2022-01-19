@@ -4,7 +4,7 @@
 The ID Mapper tool maps BV-BRC identifiers to those from other prominent external databases such as GenBank, RefSeq, EMBL, UniProt, KEGG, etc. Alternatively, it can map a list of external database identifiers to the corresponding BV-BRC features. 
 
 ### See also
-* [ID Mapper Service](https://alpha.bv-brc.org/app/IDMapper)
+* [ID Mapper Service](https://bv-brc.org/app/IDMapper)
 
 ## ID Mapping Sources
   * First, BV-BRC CDSs (protein coding genes) are mapped to

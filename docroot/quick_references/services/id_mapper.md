@@ -58,4 +58,4 @@ After selecting one of the output features by clicking it, a set of options beco
 * **Genome:** Loads the Genome View Overview page corresponding to the selected feature.  *Available only if a single feature is selected.*
 * **Genomes:** Loads the Genomes Table, listing the genomes that correspond to the selected features. *Available only if multiple features are selected.*
 
-More details are available in the [Action Buttons](../action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.

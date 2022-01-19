@@ -104,7 +104,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Move:** Allows moving of the file to another folder.
 * **Edit Type:** Allows changing of the type of the file in terms of how the content is interpreted and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Buttons](../action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
 
 ### Proteome Comparison Viewer
 ![Proteome Comparison Service View Icon](../images/proteome_comparison_view_icon.png)

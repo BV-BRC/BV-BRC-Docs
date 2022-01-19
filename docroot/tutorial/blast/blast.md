@@ -17,7 +17,8 @@ Please refer to the [Assembly Service Tutorial](../genome_assembly/assembly.html
 
 ## Selecting the Search Program
 
-There are four BLAST programs provided by BV-BRC, and each has a specific query sequence and database. Clicking on the radial button in front of the program name will select it and will also select the appropriate databases.
+There are four BLAST programs provided by BV-BRC, and each has a specific query sequence and database. Clicking on the button in front of the program name will select it and will also select the appropriate databases.
+
 * BLASTN – The query sequence is DNA (nucleotide), and when enabled the program will search against DNA databases of contig or gene sequences.
 * BLASTX – The query sequence is DNA (nucleotide), and when enabled the program will search against the protein sequence database.
 * BLASTP – The query sequence is protein (amino acid), and when enabled the program will search against the protein sequence database.

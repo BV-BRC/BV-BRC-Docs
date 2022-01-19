@@ -44,15 +44,24 @@ BV-BRC has different databases to choose from for the source to search wihin:
 * **Taxon** - Selected taxonomic level from the database.
 * **Selected fasta file** - FASTA file that has been uploaded to the Workspace.
 
+## Output Folder
+Folder in the Workspace where you want the BLAST results stored.
 
-
-**Database:** Dropdown list of a variety of BV-BRC databases or user-selected data sets for searching. Depending upon the query type, searches are available for entire genomes or limited to only features. Specifically, blastn, tblastn, or tblastx, allows searches against either genomes or features. However, blastp or blastx are limited to features (proteins) only.   
+## Output Name
+Name you provide to identify the results in the Workspace. 
 
 ## Advanced Options
+
+* **Max hits** - Maximum number of BLAST hits to return.
+* **E-Value threshold** - the number of expected hits of similar quality (score) that could be found just by chance.
+
 **BLAST Parameters:** Allows adjustment of maximum number of hits returned and E value threshold.
 
 ## Buttons
-**Search:** Launches the search which, upon completion, returns a set of results matching the sequence provided and selected criteria.  On the results page, the **Edit form and resubmit Button** above the search results reloads the input form so that the parameters can be easily adjusted and the search relaunched.
+
+* **Reset** above the search results reloads the input form so that the parameters can be easily adjusted and the search relaunched.
+* **Submit** Launches the search which, upon completion, returns a set of results matching the sequence provided and selected criteria.  
+* **View results (checkbox)** -  
 
 ## Output Results
 ![BLAST Service Results](../images/blast_service_results.png) 

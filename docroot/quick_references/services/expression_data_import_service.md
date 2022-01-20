@@ -72,7 +72,7 @@ Folder in the Workspace where the uploaded data file will be located.  The defau
 
 ## Optional Metadata
 Allows upload of an additional file containing key metadata attributes about the comparisons. This will enhance your analysis when using the heatmap and clustering tools. The metadata table can be uploaded as a tab/comma-delimited or Excel file. *Note: The column names should be the same as in the example template. Also, comparison IDs in
-the metadata file should match those in the data file.* Click to download the [Metadata Template](https://docs.alpha.bv-brc.org/_static/Sample-Metadata.xlsx).
+the metadata file should match those in the data file.* Click to download the [Metadata Template](../_static/Sample-Metadata.xlsx).
 
 ## Buttons
 **Reset:** Resets the input form to default values.
@@ -96,7 +96,7 @@ Clicking on the View icon at the top right of the page will display a page with 
 
 ![Expression Import Conditions Table](../images/expression_import_conditions_table.png)
 
-Selecting one of the Conditions and clicking the Genes icon in the vertical green Action Bar on the right side of the table will display a table of the genes and how they are regulated for that condition. See [Transcriptomics Tab](https://docs.alpha.bv-brc.org/user_guides/organisms_taxon/transcriptomics.html) for more information on how to use this table and the associated heatmap.
+Selecting one of the Conditions and clicking the Genes icon in the vertical green Action Bar on the right side of the table will display a table of the genes and how they are regulated for that condition. See [Transcriptomics Tab](../organisms_taxon/transcriptomics.html) for more information on how to use this table and the associated heatmap.
 
 ### View Experiment Results Across All Conditions
 ![Expression Import Experiment Icon](../images/expression_import_experiment_icon.png) 

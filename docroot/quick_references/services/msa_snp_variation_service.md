@@ -20,14 +20,12 @@ The **Multiple Sequence Alignment** submenu option under the **"SERVICES"** main
 ## Start with
 
 Choose either
-
 * **Unaligned sequences** - Set of sequences, not previously aligned.
 * **Aligned sequences** - Pre-aligned set of sequences
 
 ## Comparison sequences
 
 Choose one of the following options: 
-
 * **Select Feature Group:** Users may input a nucleic acid or protein FASTA file containing a previously selected “Feature Group” (eg. CDS, tRNA etc.) from their workspace here, either in addition to the FASTA text input, or as an alternative. Choose either DNA or protein sequences.
 
 * **Select DNA or Protein FASTA File:** Users may input a nucleic acid or protein FASTA file from their workspace or upload their own data here, either in addition to the FASTA text input, or as an alternative. 

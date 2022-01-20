@@ -119,7 +119,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Move:** Allows moving of the file to another folder.
 * **Edit Type:** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Buttons](../action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
 
 ## References
 1.	Wick, R.R., et al., Unicycler: resolving bacterial genome assemblies from short and long sequencing reads. PLoS computational biology, 2017. 13(6): p. e1005595.

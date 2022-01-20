@@ -1,3 +1,0 @@
-Help
-===========
-Coming soon.

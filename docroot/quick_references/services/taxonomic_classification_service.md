@@ -96,8 +96,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Copy:** Copies the selected items to the clipboard.
 * **Move** Allows moving of the file to another folder.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
-
+More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
 
 ## References
  * Ondov BD, Bergman NH, and Phillippy AM. Interactive metagenomic visualization in a Web browser. BMC Bioinformatics. 2011 Sep 30; 12(1):385.

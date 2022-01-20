@@ -11,8 +11,6 @@ The BV-BRC website resource provides an entry point to integrated data and tools
    searches_menu
    services_menu
    workspace_groups_upload
-   help_menu
-   about_menu
    global_search
    registration
    views_tables_action-bar

@@ -21,7 +21,7 @@ The **Expression Import** submenu option under the **Services** main menu (Trans
 Allows upload a data file containing differential gene expression values in the form of log ratios. The file should be in one of the supported formats described below. Optionally, you may also upload metadata related to sample comparisons in the prescribed format to provide additional context for data analysis. See Optional Metadata.
 
 **File Format:**  Currently, BV-BRC allows you to upload your transcriptomics datasets in
-the form of differential gene expression measured as log ratios. Data can be uploaded in multiple file formats: comma separated values (.csv), tab delimited values (.txt), or Excel (.xls or .xlsx). Click to download the [Sample Data template](../_static/Sample-Genes.xlsx) in Gene Matrix Format.
+the form of differential gene expression measured as log ratios. Data can be uploaded in multiple file formats: comma separated values (.csv), tab delimited values (.txt), or Excel (.xls or .xlsx). Click to download the [Sample Data template](../../_static/Sample-Genes.xlsx) in Gene Matrix Format.
 Files should contain data in one of the following formats:
 
 *Gene Matrix:* Gene IDs are represented in the first column with extra columns for each of the comparisons in the form of log ratio, i.e., log2(test/control). Below is an example of transcriptomics data in Gene Matrix format:
@@ -72,7 +72,7 @@ Folder in the Workspace where the uploaded data file will be located.  The defau
 
 ## Optional Metadata
 Allows upload of an additional file containing key metadata attributes about the comparisons. This will enhance your analysis when using the heatmap and clustering tools. The metadata table can be uploaded as a tab/comma-delimited or Excel file. *Note: The column names should be the same as in the example template. Also, comparison IDs in
-the metadata file should match those in the data file.* Click to download the [Metadata Template](../_static/Sample-Metadata.xlsx).
+the metadata file should match those in the data file.* Click to download the [Metadata Template](../../_static/Sample-Metadata.xlsx).
 
 ## Buttons
 **Reset:** Resets the input form to default values.

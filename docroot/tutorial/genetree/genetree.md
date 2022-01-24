@@ -14,7 +14,7 @@ The service returns a Newick file which can be rendered in the interactive Archa
 
 At the top of any BV-BRC page, find the **SERVICES** tab and then click on Gene Tree (Viral Services category). 
  
-![Services menu](../../quick_references/images/bv_services_menu.png)
+![Figure 0](./images/Picture0.png "Figure 0")
 
 This will open the phylogenetic tree input form. *Note: You must be logged into BV-BRC to use this service.* 
 

@@ -1,7 +1,5 @@
 # Submitting a Tn-Seq Job
 
-***This tutorial is outdated and requires work. It will be updated soon***
-
 Transposon insertion sequencing (Tn-Seq for short) is a popular experimental methodology for determining essential (and conditionally essential) regions in bacterial genomes. Tn-Seq (in the broad sense used in this paper) refers to a family of related methods that use deep sequencing to survey a transposon insertion library and quantify the abundance of insertions at different sites in the genome.
 
 **Keywords:** Tn-seq analysis, Transposon insertion sequencing, Essential genes, Gene essentiality, Identification, Detection, Bacteria, Archaea. 
@@ -48,7 +46,7 @@ Transposon insertion sequencing (Tn-Seq for short) is a popular experimental met
 5\.	Click on the folder.  The page will reload to show a folder that has four reads.  Two of these (U19_73_R1 and U19_74_R1) are controls, and two (U19_91_R1 and U19_92_R1) are treatments. 
 ![Image 12](images/image12.png) 
 
-6\.	Click on the read file of interest, which will highlight the row blue.  Then click the Ok button at the bottom right of the pop-up box. 
+6\.	Click on the read file of interest, which will highlight the row blue.  Then click the Ok button at the bottom right of the pop-up box.    
 ![Image 13](images/image13.png) 
 
 7\.	The name of the read file will appear in the box.  To choose the condition, click on the down arrow at the end of the text box under condition.  This will open a drop-down box that has either control or treatment as an option.  Click on the appropriate label for the selected reads. 

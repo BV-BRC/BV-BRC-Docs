@@ -17,13 +17,13 @@ Metagenomics is the study of genomic sequences obtained directly from an environ
 
 Paired read libraries are usually given as file pairs, with each file containing the forward or reverse half of each read pair. Paired read files are expected to be sorted in such a way that each read in a pair occurs in the same Nth position as its mate in their respective files. These files are specified as READ FILE 1 and READ FILE 2. For a given file pair, the selection of which file is READ 1 or READ 2 does not matter.
 
-1\. To upload a fastq file that contains paired reads, locate the box called “Paired read library.”
+1\. To upload a fastq file that contains paired reads, locate the box called “Paired read library.” 
 ![Figure 4](./images/Picture4.png "Figure 4") 
 
-2\. The reads must be located in the workspace to submit them to a BV-BRC service.  To initiate the upload, first click on the folder icon.
+2\. The reads must be located in the workspace to submit them to a BV-BRC service.  To initiate the upload, first click on the folder icon. 
 ![Figure 5](./images/Picture5.png "Figure 5") 
 
-3\. This opens up a pop-up window where the files for upload can be selected.  Click on the icon with the arrow pointing up.
+3\. This opens up a pop-up window where the files for upload can be selected.  Click on the icon with the arrow pointing up. 
 ![Figure 6](./images/Picture6.png "Figure 6") 
 
 4\. This opens a new pop-up window where the file can be selected.  Click on the “Select File” in the blue bar.
@@ -159,56 +159,57 @@ The bottom of each BV-BRC page has an indicator that shows the number of jobs th
 15\. The image can be downloaded by clicking on the Download icon at the top of this page.
 ![Figure 47](./images/Picture47.png "Figure 47") 
 
-16\.	The number of circles shown in the graph can be changed by increasing the number (+) or decreasing the number (-) using the Max depth function.
-![Figure 48](./images/Picture48.png "Figure 48")
+16\. The number of circles shown in the graph can be changed by increasing the number (+) or decreasing the number (-) using the Max depth function.
+![Figure 48](./images/Picture48.png "Figure 48") 
 
-17\.	The font size in the visualization can be changed by using the buttons to decrease (-) or increase (+) it in front of the words Font size.
-![Figure 49](./images/Picture49.png "Figure 49")
+17\. The font size in the visualization can be changed by using the buttons to decrease (-) or increase (+) it in front of the words Font size.
+![Figure 49](./images/Picture49.png "Figure 49") 
 
-18\.	Change the chart size.
-![Figure 50](./images/Picture50.png "Figure 50")
+18\. Change the chart size.
+![Figure 50](./images/Picture50.png "Figure 50") 
 
-19\.	You can see the taxonomy spectrum by clicking on a region of interest in the Krona chart.  This will rewrite the view to show how the data mapped within the particular taxon selected.
-![Figure 51](./images/Picture51.png "Figure 51")
+19\. You can see the taxonomy spectrum by clicking on a region of interest in the Krona chart.  This will rewrite the view to show how the data mapped within the particular taxon selected.
+![Figure 51](./images/Picture51.png "Figure 51") 
 
-20\.	Following the changes, a snapshot of the new image can be downloaded by clicking on Snapshot.
-![Figure 52](./images/Picture52.png "Figure 52")
+20\. Following the changes, a snapshot of the new image can be downloaded by clicking on Snapshot.
+![Figure 52](./images/Picture52.png "Figure 52") 
 
 21\. A shareable link will also be generated if Link is clicked.
-![Figure 53](./images/Picture53.png "Figure 53")
+![Figure 53](./images/Picture53.png "Figure 53") 
 
-22\.	A link to the Krona documentation can be viewed by clicking on the question mark (?) icon.
-![Figure 54](./images/Picture54.png "Figure 54")
+22\. A link to the Krona documentation can be viewed by clicking on the question mark (?) icon.
+![Figure 54](./images/Picture54.png "Figure 54") 
 
 23\. Going back to the TaxonomicReport.html page, and underneath the link to the Krona diagram is a table that shows Kraken 2’s standard sample report format, which is tab-delimited with one line per taxon. The fields of the output, from left-to-right, are as follows:
+
    * Percentage of fragments covered by the clade rooted at this taxon
    * Number of fragments covered by the clade rooted at this taxon
    * Number of fragments assigned directly to this taxon
    * A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Taxa that are not at any of these 10 ranks have a rank code that is formed by using the rank code of the closest ancestor rank with a number indicating the distance from that rank. E.g., “G2” is a rank code indicating a taxon is between genus and species and the grandparent taxon is at the genus rank.
    * NCBI taxonomic ID number
    * Indented scientific name
-![Figure 55](./images/Picture55.png "Figure 55")
+![Figure 55](./images/Picture55.png "Figure 55") 
 
-24\.	Clicking on any of the names in the blue text will open the landing page for the selected taxon. 
-![Figure 56](./images/Picture56.png "Figure 56")
+24\. Clicking on any of the names in the blue text will open the landing page for the selected taxon. 
+![Figure 56](./images/Picture56.png "Figure 56") 
 
-25\.	Returning to the job output page, click the chart.html row and then click the View icon. This will re-write the page with the Kronos image described above.
-![Figure 57](./images/Picture57.png "Figure 57")
+25\. Returning to the job output page, click the chart.html row and then click the View icon. This will re-write the page with the Kronos image described above.
+![Figure 57](./images/Picture57.png "Figure 57") 
 
-26\.	The full_report.txt is a downloadable text file of the results seen in the report.txt file, but also includes taxonomy entries for which there were zero hits. To view this file, select the row and then click on the View icon.
-![Figure 58](./images/Picture58.png "Figure 58")
+26\. The full_report.txt is a downloadable text file of the results seen in the report.txt file, but also includes taxonomy entries for which there were zero hits. To view this file, select the row and then click on the View icon.
+![Figure 58](./images/Picture58.png "Figure 58") 
 
-27\.	The full report contains any taxonomy entry which has one percent or more of the total hits, but also includes taxonomy entries for which there were zero hits.
-![Figure 59](./images/Picture59.png "Figure 59")
+27\. The full report contains any taxonomy entry which has one percent or more of the total hits, but also includes taxonomy entries for which there were zero hits.
+![Figure 59](./images/Picture59.png "Figure 59") 
 
-28\.	The output.txt.gz contains information about each input sequence. This will be a large file that should be downloaded in order to view it.
-![Figure 60](./images/Picture60.png "Figure 60")
+28\. The output.txt.gz contains information about each input sequence. This will be a large file that should be downloaded in order to view it.
+![Figure 60](./images/Picture60.png "Figure 60") 
 
 29\. The report.txt report can be viewed by selecting the row and then clicking on the View icon in the vertical green bar.
-![Figure 61](./images/Picture61.png "Figure 61")
+![Figure 61](./images/Picture61.png "Figure 61") 
 
-30\.	This will rewrite the page to show the report.  It  contains any taxonomy entry which has one percent or more of the total hits.
-![Figure 62](./images/Picture62.png "Figure 62")
+30\. This will rewrite the page to show the report.  It  contains any taxonomy entry which has one percent or more of the total hits.
+![Figure 62](./images/Picture62.png "Figure 62") 
 
 ## References
 1. Lu, J. & Salzberg, S. L. Ultrafast and accurate 16S rRNA microbial community analysis using Kraken 2. Microbiome 8, 1-11 (2020).

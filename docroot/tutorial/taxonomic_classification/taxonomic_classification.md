@@ -4,12 +4,15 @@ Metagenomics is the study of genomic sequences obtained directly from an environ
 ## I. Locating the Taxonomic Classification Service App
 
 1\. At the top of any BV-BRC page, find the Services tab.
+
 ![Figure 1](./images/Picture1.png "Figure 1") 
 
 2\. Click on Taxonomic Classification in the Metagenomics group.
+
 ![Figure 2](./images/Picture2.png "Figure 2") 
 
 3\. This will open up the Taxonomic Classification landing page where researchers can submit long reads, single or paired read files, an SRA run accession number, or assembled contigs to the service.
+
 ![Figure 3](./images/Picture3.png "Figure 3") 
 
 

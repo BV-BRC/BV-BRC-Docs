@@ -1,12 +1,12 @@
 # Taxonomic Classification Service
-Metagenomics is the study of genomic sequences obtained directly from an environment. For many metagenomic samples, the species, genera and even phyla present in the sample are largely unknown at the time of sequencing, and the goal of sequencing is to determine the microbial composition as precisely as possible. The BV-BRC Taxonomic Classification service can be used to identify the microbial composition of metagenomic samples. Researchers can submit their metagenomic samples that are reads (paired-or single-end, long or short, zipped or not) or contigs to the service, as well as the Sequence Read Archive accession numbers. This service uses Kraken 21. Kraken, first released in 2014, has been shown to provide exceptionally fast and accurate classification for shotgun metagenomics sequencing projects. Kraken 2, which matches the accuracy and speed of Kraken 1, supports 16S rRNA databases.  Kraken uses exact-match database queries of k-mers, rather than inexact alignment of sequences.  Sequences are classified by querying the database for each k-mer in a sequence, and then using the resulting set of lowest common ancestor (LCA) taxa to determine an appropriate label for the sequence.
+Metagenomics is the study of genomic sequences obtained directly from an environment. For many metagenomic samples, the species, genera and even phyla present in the sample are largely unknown at the time of sequencing, and the goal of sequencing is to determine the microbial composition as precisely as possible. The BV-BRC Taxonomic Classification service can be used to identify the microbial composition of metagenomic samples. Researchers can submit their metagenomic samples that are reads (paired-or single-end, long or short, zipped or not) or contigs to the service, as well as the Sequence Read Archive accession numbers. This service uses Kraken 2[1]. Kraken, first released in 2014, has been shown to provide exceptionally fast and accurate classification for shotgun metagenomics sequencing projects. Kraken 2, which matches the accuracy and speed of Kraken 1, supports 16S rRNA databases.  Kraken uses exact-match database queries of k-mers, rather than inexact alignment of sequences.  Sequences are classified by querying the database for each k-mer in a sequence, and then using the resulting set of lowest common ancestor (LCA) taxa to determine an appropriate label for the sequence.
 
 ## I. Locating the Taxonomic Classification Service App
 
 1. At the top of any BV-BRC page, find the Services tab.
 ![Figure 1](./images/Picture1.png "Figure 1")
 
-2. Click on Taxonomic Classification.
+2. Click on Taxonomic Classification in the Metagenomics group.
 ![Figure 2](./images/Picture2.png "Figure 2")
 
 3. This will open up the Taxonomic Classification landing page where researchers can submit long reads, single or paired read files, an SRA run accession number, or assembled contigs to the service.
@@ -147,7 +147,7 @@ The bottom of each BV-BRC page has an indicator that shows the number of jobs th
 11.	The top of the TaxonomicReport.html page includes the SRA run accession number (if that was used).  This is a hyperlink and clicking on it will open a new tab that shows the landing page for the data in the Sequence Read Archive.
 ![Figure 43](./images/Picture43.png "Figure 43")
 
-12.	Further down in the TaxonomicClassification.html page, there is a line that says “Results: (Click here to view Interactive Chart).  Clicking on that will open an interactive, visual description of the results using Krona(2).
+12.	Further down in the TaxonomicClassification.html page, there is a line that says “Results: (Click here to view Interactive Chart).  Clicking on that will open an interactive, visual description of the results using Krona[2].
 ![Figure 44](./images/Picture44.png "Figure 44")
 
 13.	This view has a search box at the top of the page.  Entering any text will search the graph for text that matches the entry.

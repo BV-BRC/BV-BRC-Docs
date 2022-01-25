@@ -3,16 +3,13 @@ Metagenomics is the study of genomic sequences obtained directly from an environ
 
 ## I. Locating the Taxonomic Classification Service App
 
-1\. At the top of any BV-BRC page, find the Services tab.
-
+1\. At the top of any BV-BRC page, find the Services tab. 
 ![Figure 1](./images/Picture1.png "Figure 1") 
 
-2\. Click on Taxonomic Classification in the Metagenomics group.
-
+2\. Click on Taxonomic Classification in the Metagenomics group. 
 ![Figure 2](./images/Picture2.png "Figure 2") 
 
-3\. This will open up the Taxonomic Classification landing page where researchers can submit long reads, single or paired read files, an SRA run accession number, or assembled contigs to the service.
-
+3\. This will open up the Taxonomic Classification landing page where researchers can submit long reads, single or paired read files, an SRA run accession number, or assembled contigs to the service. 
 ![Figure 3](./images/Picture3.png "Figure 3") 
 
 
@@ -26,7 +23,7 @@ Paired read libraries are usually given as file pairs, with each file containing
 2\. The reads must be located in the workspace to submit them to a BV-BRC service.  To initiate the upload, first click on the folder icon. 
 ![Figure 5](./images/Picture5.png "Figure 5") 
 
-3\. This opens up a pop-up window where the files for upload can be selected.  Click on the icon with the arrow pointing up. 
+3\. This opens up a pop-up window where the files for upload can be selected.  Click on the icon with the arrow pointing up.  
 ![Figure 6](./images/Picture6.png "Figure 6") 
 
 4\. This opens a new pop-up window where the file can be selected.  Click on the “Select File” in the blue bar.

@@ -12,9 +12,9 @@ metadata, variation analysis, comparative analysis.
 
 ## Locating the meta-CATS App
 
-At the top of any BV-BRC page, find the **SERVICES** tab and then click on Meta-CATS. 
+At the top of any BV-BRC page, find the **SERVICES** tab and then click on Meta-CATS in the Genomics group. 
  
-![Services menu](../../quick_references/images/bv_services_menu.png)
+![Figure 1](./images/Picture1.png "Figure 1")
 
 This will open up the **Meta-CATS** landing page. 
 

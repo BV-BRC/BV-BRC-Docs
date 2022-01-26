@@ -32,9 +32,7 @@ Protein Tools
 
    msa_snp_variation/msa_snp_variation.md
    genetree/genetree.md
-   protein_family_sorter/protein_family_sorter.md
    proteome_comparison/proteome_comparison.md
-   comparative_pathways/comparative_pathways.md
 
 Metagenomics
 ------------
@@ -63,4 +61,10 @@ Utilities
 
    id_mapper/id_mapper.md
    fastq_utilities/fastq_utilities.md
+
+..
+   protein_family_sorter/protein_family_sorter.md
+   comparative_pathways/comparative_pathways.md
+
+
    

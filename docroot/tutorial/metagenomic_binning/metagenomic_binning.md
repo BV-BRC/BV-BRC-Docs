@@ -34,7 +34,7 @@ https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.
 1.	At the top of any BV-BRC page, find the Services tab  
 ![Figure 7](./images/Picture7.png "Figure 7")
 
-2.	In the drop-down box, underneath Genomics, click on Annotation.  
+2.	In the drop-down box, under Metagenomics, click on Metagenomic Binning.  
 ![Figure 8](./images/Picture8.png "Figure 8")
 
 3.	This will open up the Metagenomic Binning Service landing page.  The default page shows starting with a read file.  

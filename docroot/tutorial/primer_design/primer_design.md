@@ -14,7 +14,7 @@ The Primer Design Service in the Bacterial and Viral Bioinformatics Resource Cen
 
 1\. At the top of any BV-BRC page, find the **SERVICES** tab and then click on **Primer Design**. 
  
-![Services menu](../../quick_references/images/bv_services_menu.png)
+![Figure 0](./images/Picture0.png "Figure 0")
 
 2\. This will open up the Primer Design landing page. 
 

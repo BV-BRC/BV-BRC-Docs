@@ -15,7 +15,7 @@ MSA, multiple sequence alignment, mafft, muscle, progressiveMauve, SNP, variatio
 
 1.	At the top of any BV-BRC page, find the SERVICES tab and then click on Multiple Sequence Alignment. 
  
-![MSA menu option](../../quick_references/images/bv_services_menu.png)
+![Figure 0](./images/Picture0.png "Figure 0")
 
 2.	This will open up the Multiple Sequence Alignment and SNP/Variation Analysis landing page.
 

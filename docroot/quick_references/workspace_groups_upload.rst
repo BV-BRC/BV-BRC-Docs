@@ -1,4 +1,4 @@
-Workspaces Menu, Private Data, Groups, Jobs
+Workspaces Menu - Private Data, Groups, Jobs
 ==========================================
 The top-level Workspaces Menu provides access to a private area in the website for uploading data, running analysis services on the data, storing the analysis results, and managing groups of data created within the BV-BRC website.  Registration is required to us the private BV-BRC workspace.
 

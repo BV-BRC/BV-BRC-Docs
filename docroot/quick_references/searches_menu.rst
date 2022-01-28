@@ -1,3 +1,3 @@
-Searches
-===========
+Searches Menu
+=============
 Coming soon.

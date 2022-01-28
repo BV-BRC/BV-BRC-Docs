@@ -21,7 +21,8 @@ Registration and Login Process
 
 Clicking the "Register" button located at the top right corner of the website will open the User Registration dialog box. The username will be the name you log in with, and a link will be sent to the email address so that you can set your password. *Note: The registration information will remain completely private. Under no circumstances will BV-BRC sell, distribute, or lease this information to third parties.*
 
-In the box at the bottom of the registration form, a link to the other BRC, VEuPathDB (Vectors and Eukaryotic Pathogens), is provided for convenience. You may also sign up for a cross-BRC email listserv. 
+In the box at the bottom of the registration form, a link to the other BRC, VEuPathDB (Vectors and Eukaryotic Pathogens), is provided for convenience. You may also sign up for a cross-BRC email listserv.
+ 
 .. image:: ./images/registration_dialog.png
     :alt: User Registration Dialog Box
 

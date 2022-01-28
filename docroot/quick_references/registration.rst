@@ -22,9 +22,6 @@ Registration and Login Process
 Clicking the "Register" button located at the top right corner of the website will open the User Registration dialog box. A username and email address are required.  The username will be the name you log in with, and the email address is required so that a link can be sent to you so that you can set your password. The other information is optional. *Note: The registration information will remain completely private. Under no circumstances will BV-BRC sell, distribute or lease this information to third parties.*
 
 .. image:: ./images/registration_dialog.png
-    :width: 533px
-    :align: left
-    :height: 391px
     :alt: User Registration Dialog Box
 
 Clicking the "Login" button located at the top right corner of the website beside the "Register" button will open the Login dialog box, where a username and password are required to complete the login.

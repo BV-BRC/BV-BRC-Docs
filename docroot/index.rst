@@ -9,6 +9,7 @@ BV-BRC Documentation
 
    overview
    quick_start/index
+   data_protocols/index
    quick_references/index
    tutorial/index
    cli_tutorial/index

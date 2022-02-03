@@ -1,10 +1,12 @@
-Data Types
-==========
+Data Sources and Protocols
+==========================
 
 .. toctree::
    :maxdepth: 1
 
    antimicrobial_resistance
+
+..
    genomes
    genomic_features
    pathways

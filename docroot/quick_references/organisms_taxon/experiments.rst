@@ -1,4 +1,4 @@
-Transcriptomics Tab
+Experiments Tab
 ===================
 Transcriptomics data is presented in three primary displays: the Experiments and Comparisons Tables, the Gene List Table, and the Gene List Heatmap.  Details for each are provided from the links below.
 

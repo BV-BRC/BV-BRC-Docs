@@ -1,7 +1,7 @@
-# Transcriptomics Experiments and Comparisons Tables
+# Experiments and Comparisons Tables
 
 ## Overview
-The Transcriptomics Tab provides a table of all the publicly available transcriptomics experiment datasets that are incorporated into BV-BRC, displayed as lists of Experiments and Comparisons. The Experiments Table shows a list of studies or datasets that contain one or more samples or experimental conditions. The Comparisons Table shows a list of curated pair-wise comparisons of two samples or experimental conditions to provide differential gene expression measurements. From these tables, the corresponding genes are available for further examination and comparative analysis.
+The Experiments Tab provides a table of all the publicly available transcriptomics experiment datasets that are incorporated into BV-BRC, displayed as lists of Experiments and Comparisons. The Experiments Table shows a list of studies or datasets that contain one or more samples or experimental conditions. The Comparisons Table shows a list of curated pair-wise comparisons of two samples or experimental conditions to provide differential gene expression measurements. From these tables, the corresponding genes are available for further examination and comparative analysis.
 
 Some transcriptomics data has been curated from published gene expression datasets related to bacterial pathogens in [NCBI's GEO database](http://www.ncbi.nlm.nih.gov/geo/). Some additional data sets have been incorporated from the NIAID-funded [Systems Biology and Functional Genomics Centers.
 

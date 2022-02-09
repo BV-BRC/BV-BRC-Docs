@@ -13,6 +13,7 @@ BV-BRC Documentation
    tutorial/index
    cli_tutorial/index
    news/index
+   privacy_policy
    .. faqs_common_tasks/index
 ..
    quickstart_video

@@ -23,7 +23,6 @@ Browsing BV-BRC by Taxon
    organisms_taxon/protein_families
    organisms_taxon/protein_structures
    organisms_taxon/pathways
-   organisms_taxon/subsystems
    organisms_taxon/subsystems_tab
    organisms_taxon/transcriptomics
    organisms_taxon/interactions

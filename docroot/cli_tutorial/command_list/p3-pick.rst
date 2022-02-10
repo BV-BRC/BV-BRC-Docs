@@ -5,6 +5,8 @@
 p3-pick
 #######
 
+.. highlight:: perl
+
 
 *************************************
 Choose Random Rows from an Input File
@@ -26,14 +28,6 @@ Parameters
 
 The single positional parameter is the number of rows to pick.
 
-The standard input may be overridden by the command-line options given in :ref:`cli-input-options`. The following additional
-options may be specified.
-
-
-- nohead
- 
- Input file has no headers.
- 
-
+The standard input may be overridden by the command-line options given in :ref:`cli-input-options`.
 
 

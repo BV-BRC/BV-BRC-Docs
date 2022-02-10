@@ -5,6 +5,8 @@
 p3-sort
 #######
 
+.. highlight:: perl
+
 
 ****************************
 Small File Multi-Column Sort
@@ -36,48 +38,26 @@ are indicated by a slash-n (\ ``/n``\ ) at the end of the column index or name. 
 
 Would indicate two key columns, the second of which is to be sorted numerically.
 
-Use \ ``/p``\  to sort in PEG order, which means the column contains FIG feature IDs.
-
-To sort in reverse, add \ ``/r``\  for reverse string sort and \ ``/nr``\  for reverse numeric sort.
-
-The standard input can be overridden using the options in :ref:`cli-input-options`.
+The standard input can be overriddn using the options in :ref:`cli-input-options`.
 
 The following additional options are suppported.
 
 
-- count
+count
  
  If specified, the output will consist only of the key fields with a count column added.
  
 
 
-- nonblank
+nonblank
  
  If specified, records with at least one empty key field will be discarded.
  
 
 
-- unique
+unique
  
- Only include one output line for each key value.  This option is mutually exclusive with \ ``--dups``\ .
- 
-
-
-- dups
- 
- Only include lines with duplicate keys in the output.  This option is mutually exclusive with \ ``--unique``\ .
- 
-
-
-- nohead
- 
- If specified, the input file has no headers.
- 
-
-
-- verbose
- 
- Write progress messages to STDERR.
+ Only include one output line for each key value.
  
 
 

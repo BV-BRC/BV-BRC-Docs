@@ -5,6 +5,8 @@
 p3-blast
 ########
 
+.. highlight:: perl
+
 
 ****************
 Blast FASTA Data
@@ -34,60 +36,60 @@ The options in :ref:`cli-input-options` can be used to override the standard inp
 The additional command-line options are as follows.
 
 
-- hsp
+hsp
  
  If specified, then the output is in the form of HSP data (see :ref:`cli::Hsp`). This is the default, and is mutually exclusive with \ ``sim``\  and \ ``tbl``\ .
  
 
 
-- sim
+sim
  
  If specified, then the output is in the form of similarity data (see :ref:`cli::Sim`). This parameter is mutually exclusive with \ ``hsp``\  and \ ``tbl``\ .
  
 
 
-- tbl
+tbl
  
  If specified, then the output is in the form of a six-column table: query ID, query description, subject ID, subject description, percent identity, and e-value.
  
 
 
-- best
+best
  
  If specified, then only the best match for each query sequence will be output.
  
 
 
-- BLAST Parameters
+BLAST Parameters
  
  The following may be specified as BLAST parameters
  
  
- - maxE
+ maxE
   
   Maximum E-value (default \ ``1e-10``\ ).
   
  
  
- - maxHSP
+ maxHSP
   
   Maximum number of returned results (before filtering). The default is to return all results.
   
  
  
- - minScr
+ minScr
   
   Minimum required bit-score. The default is no minimum.
   
  
  
- - percIdentity
+ percIdentity
   
   Minimum percent identity. The default is no minimum.
   
  
  
- - minLen
+ minLen
   
   Minimum permissible match length (used to filter the results). The default is no filtering.
   

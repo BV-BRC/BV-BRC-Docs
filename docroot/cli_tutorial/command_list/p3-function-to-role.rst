@@ -5,6 +5,8 @@
 p3-function-to-role
 ###################
 
+.. highlight:: perl
+
 
 **************************************************
 Convert Functions to Roles in a Tab-Delimited File
@@ -39,7 +41,7 @@ descriptions in the output.
 The additional command-line options are
 
 
-- roles
+roles
  
  A tab-delimited file of roles. Each record consists of (0) a role ID, (1) the role checksum, and
  (2) the role description. Specify this file if you want a role-filtering scheme other than

@@ -219,7 +219,7 @@ Working with Genomes
 Find a Genome from an Accession Number or Project ID
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Genomes in PATRIC are stored with four alternate IDs, any of which
+Genomes in BV-BRC are stored with four alternate IDs, any of which
 can be used to search for the genomes.
 
 #. ncbi\_project\_id. The NCBI project number
@@ -814,7 +814,7 @@ column, and it can be easily piped to :ref:`cli::p3-get-feature-data`.
 Find a Feature from an Alternate Feature ID
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Features in PATRIC are stored with four alternate IDs, all of which
+Features in BV-BRC are stored with four alternate IDs, all of which
 are indexed for fast retrieval.
 
 #. gene. The common gene name (e.g. ``ciaR``). Not all features will
@@ -897,7 +897,7 @@ The amino acid sequence is in the attribute *aa\_sequence*. You use
 Find How many Genomes have an Identical Protein to a Given Feature
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The individual protein sequences are not indexed, but the PATRIC
+The individual protein sequences are not indexed, but the BV-BRC
 database contains an MD5 signature for each protein that is indexed,
 in the feature attribute *aa\_sequence\_md5*. The following pipe
 finds out how many times the protein sequence for

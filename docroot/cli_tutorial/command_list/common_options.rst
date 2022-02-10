@@ -4,7 +4,7 @@
  Common Options to Command Line Programs
 =========================================
 
-The PATRIC scripts accept a large number of options to control their action. 
+The BV-BRC scripts accept a large number of options to control their action. 
 There are a number of options that are common to many scripts. We describe these options here.
 
 .. _cli-input-options:

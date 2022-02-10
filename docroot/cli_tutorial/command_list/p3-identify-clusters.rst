@@ -5,6 +5,8 @@
 p3-identify-clusters
 ####################
 
+.. highlight:: perl
+
 
 ****************************
 Identify Clusters in Genomes
@@ -43,43 +45,43 @@ Additional command-line options are those given in :ref:`cli-delimiter-options` 
 :ref:`cli-column-options` plus the following.
 
 
-- locCol
+locCol
  
  Index (1-based) or name of the location column in the input.  The default is \ ``location``\ .
  
 
 
-- idCol
+idCol
  
  Index (1-based) or name of the feature ID column in the input.  The default is \ ``patric_id``\ .
  
 
 
-- seqCol
+seqCol
  
  Index (1-based) or name of the sequence ID column in the input. The default is \ ``sequence_id``\ .
  
 
 
-- maxGap
+maxGap
  
  The maximum gap between features for them to be considered part of a cluster. The default is \ ``2000``\ .
  
 
 
-- minItems
+minItems
  
  The minimum number of features for a group to be considered a cluster. The default is \ ``3``\ .
  
 
 
-- showRoles
+showRoles
  
  If specified, the roles found in the cluster will be displayed in a column of the output.
  
 
 
-- showFids
+showFids
  
  If specified, the features found in the cluster will be displayed in a column of the output.
  

@@ -5,6 +5,8 @@
 p3-get-features-by-sequence
 ###########################
 
+.. highlight:: perl
+
 
 *****************************************
 Find Protein Features Using Sequence Data
@@ -34,19 +36,19 @@ Additional command-line options are those given in :ref:`cli-column-options` (to
 options.
 
 
-- dna
+dna
  
  The input contains DNA sequences. This is the default.
  
 
 
-- protein
+protein
  
  The input contains protein sequences. This is mutually exclusive with \ ``DNA``\ .
  
 
 
-- fasta
+fasta
  
  The input file is a FASTA. In this case the output file will be tab-delimited with the columns being (1) the sequence ID, (2) the sequence comment, and (3) the
  found feature ID.

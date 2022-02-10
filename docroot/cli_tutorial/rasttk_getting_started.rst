@@ -26,16 +26,16 @@ environment.
 Getting Started
 ~~~~~~~~~~~~~~~
 
-In order to run the RASTtk tools, you will need to install the PATRIC 
+In order to run the RASTtk tools, you will need to install the BV-BRC 
 command line utilities package. This is available for the macOS and Ubuntu or Debian 
 Linux `here <https://github.com/TheSEED/RASTtk-Distribution/releases/>`_.
 
 If you want to step through the tutorial, you can download the *E. coli*
-K-12 contig in fasta format from PATRIC using the following command::
+K-12 contig in fasta format from BV-BRC using the following command::
 
          p3-genome-fasta --contig 511145.12 > E_coli.contig    
 
-511145.12 is the PATRIC genome identifier for E. coli K-12.
+511145.12 is the BV-BRC genome identifier for E. coli K-12.
 The ``p3-genome-fasta`` command returns the DNA data for the contigs 
 of the given genome. 
 

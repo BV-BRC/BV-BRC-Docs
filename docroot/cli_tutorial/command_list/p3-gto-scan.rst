@@ -5,6 +5,8 @@
 p3-gto-scan
 ###########
 
+.. highlight:: perl
+
 
 ****************************
 Analyze Genome Typed Objects
@@ -35,19 +37,19 @@ GTO in JSON format. (This is consistent with the output from :ref:`cli::p3-rast`
 The command-line options are those in :ref:`cli-delimiter-options` plus the following.
 
 
-- features
+features
  
  If specified, the features containing each role will be listed on the output.
  
 
 
-- peg
+peg
  
  If specified, only protein-encoding features will be processed.
  
 
 
-- verbose
+verbose
  
  If specified, all roles will be displayed, rather than only the roles that differ between genomes.
  

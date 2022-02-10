@@ -1,4 +1,4 @@
-PATRIC Command Line Program Reference
+BV-BRC Command Line Program Reference
 =====================================
 
 .. toctree::

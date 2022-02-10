@@ -11,7 +11,7 @@ typed object. We will also show some of the additional scripts that are
 not part of the standard pipeline. As before, these commands will work
 in the IRIS environment or in the RASTtk app.
 
-To start this tututorial we will retrieve the *E. coli* K-12 contig from the PATRIC database. To do this type::
+To start this tututorial we will retrieve the *E. coli* K-12 contig from the BV-BRC database. To do this type::
 
     p3-genome-fasta --contig 511145.12 > E_coli.contig    
 

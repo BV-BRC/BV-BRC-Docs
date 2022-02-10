@@ -4,7 +4,7 @@ Common Tasks Using the Web Interface
 ====================================
 
 In this tutorial, we will present examples of common tasks and show how
-to accomplish them using the PATRIC Web Interface.  To keep this page
+to accomplish them using the BV_BRC Web Interface.  To keep this page
 manageable, we link to instructions on separate pages.
 
 Working with Sequences
@@ -14,7 +14,7 @@ Working with Sequences
 Assemble a Set of Reads into Contigs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-PATRIC provides an assembly service that allows you to choose between multiple assemblers,
+BV_BRC provides an assembly service that allows you to choose between multiple assemblers,
 using either single-read libraries, paired-end reads, or reads stored online in the
 `NCBI Sequence Read Archive <https://www.ncbi.nlm.nih.gov/sra/>`_.  We have an
 :doc:`introductory tutorial </tutorial/genome_assembly/assembly>` and
@@ -23,7 +23,7 @@ a :doc:`more detailed guide </user_guides/services/genome_assembly_service>`.
 Create an Annotated Genome from a set of contigs and Estimate its Quality
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-PATRIC provides an annotation service that constructs a private genome from
+BV_BRC provides an annotation service that constructs a private genome from
 contigs and produces a quality report.  See :doc:`/tutorial/genome_annotation/annotation`
 for instructions on submitting the contigs, and :doc:`/tutorial/genome_quality_report/genome_quality_report`
 to read the quality report.  A sample contigs input file and the resulting job output
@@ -38,11 +38,11 @@ The :doc:`/user_guides/services/metagenome_binning_service` provides this functi
 see :doc:`/tutorial/metagenomic_binning/metagenomic_binning`.  Example input files for binning and
 their results can be found here: `Binning Example <https://patricbrc.org/workspace/public/PATRIC@patricbrc.org/PATRIC%20Workshop/Metagenome%20Binning/ICU%20Metagenome>`_.
 
-Annotate a New Genome and Compare it to Similar Genomes in PATRIC
+Annotate a New Genome and Compare it to Similar Genomes in BV_BRC
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This combines several of the tasks listed elsewhere on this page.  The
 Comprehensive Genome Analysis service takes either reads or contigs and
-creates a private genome integrated into the PATRIC database. It also
+creates a private genome integrated into the BV_BRC database. It also
 creates a web page describing the genome and places it into a phylogenetic
 tree.  There is a tutorial on how to use this service
 :doc:`here </tutorial/comprehensive-genome-analysis/comprehensive-genome-analysis>`.
@@ -58,7 +58,7 @@ Find Representative Genomes for a Taxon
 
 NCBI identifies
 `Reference and Representative genomes for each clade and species <https://www.ncbi.nlm.nih.gov/refseq/about/prokaryotes/#representative_genomes>`_.
-To these lists, PATRIC adds UniProt reference genomes, and additional genomes selected by manual
+To these lists, BV_BRC adds UniProt reference genomes, and additional genomes selected by manual
 curation.  Because of their high quality, they are a useful subset for doing certain types of
 analysis.
 

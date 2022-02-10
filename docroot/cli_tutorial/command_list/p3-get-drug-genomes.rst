@@ -5,6 +5,8 @@
 p3-get-drug-genomes
 ###################
 
+.. highlight:: perl
+
 
 *************************************
 Return AMR Data for Drugs From BV-BRC
@@ -33,19 +35,19 @@ Additional command-line options are those given in :ref:`cli-data-options` and :
 the following
 
 
-- fields
+fields
  
  Show available fields.
  
 
 
-- resistant
+resistant
  
  Filter for genomes resistant to the incoming drug.
  
 
 
-- susceptible
+susceptible
  
  Filter for genoems susceptible to the incoming drug.
  

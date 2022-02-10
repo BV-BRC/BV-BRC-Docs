@@ -14,7 +14,7 @@ genomes from a given species and a second set from different species in
 the same genus. In this case, we might look for chromosomal clusters
 that occur in most genomes from the specific species, but almost never
 occur in genomes from a different species in the same genus. This is
-just one of a growing set of tools you can use to access PATRIC data,
+just one of a growing set of tools you can use to access BV-BRC data,
 but we think of it as extremely interesting.
 
 So, the general operation we are implementing might be described as
@@ -112,7 +112,7 @@ genome name.
     482234.3    Streptococcus canis FSL Z3-227
     862969.3    Streptococcus constellatus subsp. pharyngis C1050
 
-The first command looks at all of the PATRIC genomes, keeps only those
+The first command looks at all of the BV-BRC genomes, keeps only those
 which have 'Streptococcus' within the *genome\_name* field, and writes
 out one line for each extracted *Streptococcus* genome. This is actually
 a fairly complex incantation, so we urge you to try to construct the
@@ -212,7 +212,7 @@ Summary
 We have implemented a tool that, given two sets of genomes, will compute
 the signature clusters that occur (or tend to occur) in genomes from one
 set but not in genomes from the other. The sets of genomes are taken
-from the current release of the PATRIC database.
+from the current release of the BV-BRC database.
 
 We have illustrated one intended use: finding the signature clusters
 that distinguish a species from other species within a phylogenetic

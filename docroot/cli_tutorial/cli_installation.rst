@@ -1,10 +1,10 @@
 .. _cli-installation:
 
 ==============================================
- Installing the PATRIC Command Line Interface
+ Installing the BV-BRC Command Line Interface
 ==============================================
 
-The PATRIC project supports the PATRIC command line on the following systems:
+The BV-BRC project supports the BV-BRC command line on the following systems:
 
  * Apple computers running macOS version 10.11 (El Capitan) or newer. 
 
@@ -14,7 +14,7 @@ The PATRIC project supports the PATRIC command line on the following systems:
 
  * PCs running Windows 7 or newer. 
 
-Distribution packages for the releases may be found at the `PATRIC github release site 
+Distribution packages for the releases may be found at the `BV-BRC github release site 
 <https://github.com/PATRIC3/PATRIC-distribution/releases>`_. 
 
 The installation details differ between the major operating systems. We will discuss each in turn.
@@ -22,12 +22,12 @@ The installation details differ between the major operating systems. We will dis
 Installation on macOS
 =====================
 
-The macOS version of the PATRIC command line interface is distributed
+The macOS version of the BV-BRC command line interface is distributed
 as a disk image file. We recommend downloading the most recent version
-listed at  the `PATRIC github release site
+listed at  the `BV-BRC github release site
 <https://github.com/PATRIC3/PATRIC-distribution/releases>`_.
 
-Download the release disk image file by clicking on the link named PATRIC-<version>.dmg. Your
+Download the release disk image file by clicking on the link named BV-BRC-<version>.dmg. Your
 browser will begin the download and save the file to your downloads
 directory.
 
@@ -62,14 +62,14 @@ The disk image will open and the following window will appear:
 
 |mac_disk_image|
 
-To install the distribution, drag the PATRIC icon onto the
-Applications icon. This will copy the PATRIC distribution into the
+To install the distribution, drag the BV-BRC icon onto the
+Applications icon. This will copy the BV-BRC distribution into the
 Applications folder on your computer. 
 
 |mac_install_copy_dialog|
 
 If you already an installation
-of the PATRIC toolkit on your computer you will see the following
+of the BV-BRC toolkit on your computer you will see the following
 dialog:
 
 |mac_overwrite_installation|
@@ -81,17 +81,17 @@ Bring up a Finder window showing the Applications folder. You can do
 this by clicking the desktop background to bring Finder to the front,
 and selecting the Go menu and choosing Applications.
 
-To start PATRIC the first time, you will need to start it in a way
+To start BV-BRC the first time, you will need to start it in a way
 that is a little clumsy. This is due to the security mechanisms in
 macOS that protect users from unguarded downloads of applications from
 the Internet.
 
-You will know you need to do this if you doubleclick the PATRIC icon
+You will know you need to do this if you doubleclick the BV-BRC icon
 and see this dialog:
 
 |mac_unidentified_developer|
 
-If you see this, instead of doubleclicking the PATRIC icon,
+If you see this, instead of doubleclicking the BV-BRC icon,
 right-click it and select Open:
 
 |mac_right_click_open|
@@ -107,7 +107,7 @@ be prompted for an administrative account username and password:
 
 |mac_unidentified_developer_override|
 
-The PATRIC icon will bounce in the dock, possibly for several seconds
+The BV-BRC icon will bounce in the dock, possibly for several seconds
 the first time, and then a Terminal window will open with the command
 line interface prompt:
 
@@ -116,11 +116,11 @@ line interface prompt:
 Installation on Debian / Ubuntu / Mint Linux
 ============================================
 
-The version of the PATRIC command line interface packaged for Debian
+The version of the BV-BRC command line interface packaged for Debian
 Linu and its derivative distributions (Ubuntu, Mint, etc) is provided
 as a Debian ``.deb`` distribution file. The release is named
 ``patric-cli-<version>.deb`` and may be found on the 
-`PATRIC github release site                                                                       
+`BV-BRC github release site                                                                       
 <https://github.com/PATRIC3/PATRIC-distribution/releases>`_. 
 
 There are several options for installation. The simplest is to
@@ -142,7 +142,7 @@ Then to install with gdebi::
 
    sudo gdebi patric-cli-1.024.deb
 
-When the install has completed, the PATRIC command line tools will be
+When the install has completed, the BV-BRC command line tools will be
 available for you to use. They are installed in the system binary
 directory ``/usr/bin`` which is accessible in your default
 environment.
@@ -157,7 +157,7 @@ If you see an error like the following::
     This package is uninstallable
     Dependency is not satisfiable: libanyevent-perl
 
-there are a couple possibilities. First, on Ubuntu the PATRIC package
+there are a couple possibilities. First, on Ubuntu the BV-BRC package
 requires the Universe repository to be enabled. This can be done in the user interface. 
 Open software center. Click on 'edit' and then 'software
 sources' to open the software sources window. Once that is open, check
@@ -176,12 +176,12 @@ be updated using::
 Installation on Windows
 =======================
 
-The macOS version of the PATRIC command line interface is distributed
+The macOS version of the BV-BRC command line interface is distributed
 as a Windows installation package. The release is named
-``PATRIC-<version>.exe`` and may be found on `PATRIC github release site
+``PATRIC-<version>.exe`` and may be found on `BV-BRC github release site
 <https://github.com/PATRIC3/PATRIC-distribution/releases>`_.
 
-Download the PATRIC installer file by clicking on the link named ``PATRIC-<version>.exe``. Your
+Download the BV-BRC installer file by clicking on the link named ``PATRIC-<version>.exe``. Your
 browser will begin the download and save the file to your downloads
 directory.
 
@@ -189,9 +189,9 @@ Start the installer by doubleclicking the downloaded file. This will
 start the installation process. You should be able to take the
 defaults for all of the options.
 
-When the installation has completed, you may start a PATRIC command
+When the installation has completed, you may start a BV-BRC command
 line window by going to the Start Menu, select All Programs, and then
-PATRIC.
+BV-BRC.
 
 .. |safari_download_image| image:: images/safari_download_image.png
 .. |chrome_download_image| image:: images/chrome_download_image.png

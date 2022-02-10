@@ -5,6 +5,8 @@
 p3-sequence-profile
 ###################
 
+.. highlight:: perl
+
 
 ***********************************
 Profile Sequences by Letter Content
@@ -27,22 +29,8 @@ Parameters
 
 There are no positional parameters.
 
-The standard input can be overridden using the options in :ref:`cli-input-options`.
+The standard input can be overriddn using the options in :ref:`cli-input-options`.
 
-Additional command-line options are those given in :ref:`cli-column-options` (to select the column containing the sequences)
-plus the following.
-
-
-- fasta
- 
- Input file is a FASTA. In this case, the column specification will be ignored.
- 
-
-
-- count
- 
- The number of sequences will be output to STDERR.
- 
-
+Additional command-line options are those given in :ref:`cli-column-options` (to select the column containing the sequences).
 
 

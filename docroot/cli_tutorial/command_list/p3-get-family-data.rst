@@ -5,6 +5,8 @@
 p3-get-family-data
 ##################
 
+.. highlight:: perl
+
 
 *******************************************
 Return Data From Protein Families in BV-BRC
@@ -31,7 +33,7 @@ The standard input can be overriddn using the options in :ref:`cli-input-options
 Additional command-line options are those given in :ref:`cli-data-options` and :ref:`cli-column-options` plus the following.
 
 
-- fields
+fields
  
  Show available fields.
  

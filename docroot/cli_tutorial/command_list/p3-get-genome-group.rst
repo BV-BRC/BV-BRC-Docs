@@ -5,6 +5,8 @@
 p3-get-genome-group
 ###################
 
+.. highlight:: perl
+
 
 ***********************************************
 Retrieve a genome group from a patric workspace

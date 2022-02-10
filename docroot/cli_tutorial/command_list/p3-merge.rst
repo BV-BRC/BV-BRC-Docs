@@ -5,6 +5,8 @@
 p3-merge
 ########
 
+.. highlight:: perl
+
 
 ****************************************************
 Merge Two Files-- Union, Intersection, or Difference
@@ -36,33 +38,27 @@ The standard input can be overridden using the options in :ref:`cli-input-option
 Additional command-line options are the following.
 
 
-- nohead
+nohead
  
  If specified, the files are presumed to have no headers.
  
 
 
-- and
+and
  
  The output should only contain lines found in both files. This is mutually exclusive with \ ``or``\  and \ ``diff``\ .
  
 
 
-- or
+or
  
  The output should contain all lines from either file. This is the default.
  
 
 
-- diff
+diff
  
  The output should contain lines from the first file not found in the second. This is mutually exclusive with \ ``and``\  and \ ``diff``\ .
- 
-
-
-- input
- 
- If specified, the name of a tab-delimited file containing the names of the files to merge in its first column.
  
 
 

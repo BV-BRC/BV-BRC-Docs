@@ -5,6 +5,8 @@
 p3-find-couples
 ###############
 
+.. highlight:: perl
+
 
 *********************************************************
 Find Physically Coupled Categories (e.g. Roles, Families)
@@ -31,46 +33,45 @@ A blank value in the category column will cause the input line to be ignored.
 
 The output will be three columns-- the two category IDs and the number of times the couple occurred.
 
+If both the location and the sequence ID are present in the input file, then this command will not query the
+database. In that case, it can be run independent of access to BV-BRC, even on genomes not necessarily in the
+BV-BRC system. The feature IDs, however, must include the genome ID as a substring (which means the IDs should
+be of a format similar to the short-form BV-BRC feature IDs).
+
 Parameters
 ==========
 
 
 The positional parameter is the index (1-based) or name of the column containing the category information.
 
-The standard input can be overriddn using the options in :ref:`cli-input-options`.
+The standard input can be overridden using the options in :ref:`cli-input-options`.
 
 Additional command-line options are those given in :ref:`cli-column-options` (to specify the column containing
 feature IDs) plus the following.
 
 
-- minCount
+minCount
  
  The minimum number of times a couple must occur to be considered significant. The default is \ ``5``\ .
  
 
 
-- maxGap
+maxGap
  
  The maximum number of base pairs allowed between two features in the same cluster. The default is \ ``2000``\ .
  
 
 
-- location
+location
  
  If the feature location is already present in the input file, the name of the column containing the feature location.
- The location should be in the form of a start and end with two dots in between, the format used in GenBank and BV-BRC.
+ The feature location should be in the form \ *start*\ \ ``..``\ \ *end*\ .
  
 
 
-- sequence
+sequence
  
  If the sequence ID is already present in the input file, the name of the column containing the sequence ID.
- 
-
-
-- verbose
- 
- If specified, status messages will be written to STDERR.
  
 
 

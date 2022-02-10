@@ -5,6 +5,8 @@
 p3-generate-clusters
 ####################
 
+.. highlight:: perl
+
 
 *****************************************************
 Generate Clusters From Pairs Using Transitive Closure
@@ -51,7 +53,7 @@ specify the delimiter.
 Additional command-line options are as follows.
 
 
-- title
+title
  
  Title to give to the output column. The default is <cluster>.
  

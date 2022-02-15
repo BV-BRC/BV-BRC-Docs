@@ -1,7 +1,7 @@
 :github_url: https://github.com/BV-BRC/bvbrc_docs/blob/master/docroot/news/index
 
-News Articles
-=============
+News and Announcements
+======================
 
 .. feed::
    :rss: news.rss

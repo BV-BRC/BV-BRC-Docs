@@ -18,15 +18,8 @@ News Articles
    :maxdepth: 2
    :caption: News Articles Archives:
    
+   2022/index
    2021/index
    2020/index
    2019/index
-   2018/index
-   2017/index
-   2016/index
-   2015/index
-   2014/index
-   2013/index
-   2012/index
-   2011/index
-   2010/index
+

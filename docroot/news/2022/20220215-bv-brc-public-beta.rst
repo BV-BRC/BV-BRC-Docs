@@ -31,4 +31,4 @@ To aid users in getting started, we have created some introductory Help document
 
 Users can provide feedback at <https://www.bv-brc.org/feedback>`_
 
-The brochure below provides additional information about the BV-BRC website. Full documentation is available at the `BV-BRC Documetation site <../>`.
+The brochure below provides additional information about the BV-BRC website. Full documentation is available at the `BV-BRC Documetation site <../../>`.

@@ -20,7 +20,6 @@ The Beta website is designed to allow users to explore, try out features, and pr
 `BV-BRC Beta Website <https://bv-brc.org/>`_
 
 To aid users in getting started, we have created some introductory Help documents: 
-`BV-BRC Quick Start Guide <../get_started/quick_start.html>`_
 
 `BV-BRC Data and Functionality Overview (Guide for PATRIC Users) <../get_started/data_functionality_overview.html>`_
 
@@ -28,4 +27,4 @@ To aid users in getting started, we have created some introductory Help document
 
 `Common Viral Data Searches and Analyses in BV-BRC (Guide for IRD/ViPR Users) <../get_started/common_tasks.html>`_
 
-Full documentation is available from the HELP menu on the site .
+Full documentation is available from the HELP menu on the site.

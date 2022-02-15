@@ -31,9 +31,10 @@ Users can provide feedback at <https://www.bv-brc.org/feedback>`_
 
 The brochure below provides additional information about the BV-BRC website. Full documentation is available from the Help menu.
 
-## BV-BRC Beta Release Brochure
+BV-BRC Beta Release Brochure
+----------------------------
 
 .. image:: ../images/bv-brc_beta_brochure.png
   :alt: BV-BRC Beta Release brochure
 
-`Click here to download the brochure PDF <(../files/BV-BRC_newsletter_Feb-2022.pdf)>`_
+`Click here to download the brochure PDF <../files/BV-BRC_newsletter_Feb-2022.pdf>`_

@@ -21,13 +21,13 @@ The Beta website is designed to allow users to explore, try out features, and pr
 
 To aid users in getting started, we have created some introductory Help documents:
 
-`BV-BRC Quick Start Videos <../quick_start/quick_start.html>`_
+`BV-BRC Quick Start Videos <../../quick_start/quick_start.html>`_
 
-`BV-BRC Data and Functionality Overview (Guide for PATRIC Users) <../get_started/data_functionality_overview.html>`_
+`BV-BRC Data and Functionality Overview (Guide for PATRIC Users) <../../get_started/data_functionality_overview.html>`_
 
-`Mapping of IRD/ViPR Features and Terminology to BV-BRC (Guide for IRD and ViPR Users) <../get_started/ird-vipr_bv-brc_mapping.html>`_ 
+`Mapping of IRD/ViPR Features and Terminology to BV-BRC (Guide for IRD and ViPR Users) <../../get_started/ird-vipr_bv-brc_mapping.html>`_ 
 
-`Common Viral Data Searches and Analyses in BV-BRC (Guide for IRD/ViPR Users) <../get_started/common_tasks.html>`_
+`Common Viral Data Searches and Analyses in BV-BRC (Guide for IRD/ViPR Users) <../../get_started/common_tasks.html>`_
 
 Users can provide feedback at <https://www.bv-brc.org/feedback>`_
 

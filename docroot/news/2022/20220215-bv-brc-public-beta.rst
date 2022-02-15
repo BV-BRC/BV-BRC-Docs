@@ -27,8 +27,13 @@ To aid users in getting started, we have created some introductory Help document
 
 `Mapping of IRD/ViPR Features and Terminology to BV-BRC (Guide for IRD and ViPR Users) <../../get_started/ird-vipr_bv-brc_mapping.html>`_ 
 
-`Common Viral Data Searches and Analyses in BV-BRC (Guide for IRD/ViPR Users) <../../get_started/common_tasks.html>`_
-
 Users can provide feedback at <https://www.bv-brc.org/feedback>`_
 
-The brochure below provides additional information about the BV-BRC website. Full documentation is available at the `BV-BRC Documetation site <../../>`.
+The brochure below provides additional information about the BV-BRC website. Full documentation is available from the Help menu.
+
+## BV-BRC Beta Release Brochure
+
+.. image:: ../images/bv-brc_beta_brochure.png
+  :alt: BV-BRC Beta Release brochure
+
+`Click here to download the brochure PDF <(../files/BV-BRC_newsletter_Feb-2022.pdf)>`_

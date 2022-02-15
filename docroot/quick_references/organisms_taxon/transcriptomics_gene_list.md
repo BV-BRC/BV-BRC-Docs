@@ -1,4 +1,4 @@
-# Transcriptomics Gene List Table
+# Gene List Table
 
 ## Overview
 A Gene List is a custom user-created list of genes based on the transcriptomics datasets of interest. Each Gene List displays all of the genes present in selected datasets, their functions, and summaries of their expression levels in various samples or comparisons. A Gene List can be dynamically filtered based on the identifiers, product/function, expression levels, or up/down regulation in one or more comparisons. Any subset of genes of interest can be downloaded along with the annotations and expression values as tab-delimited text or Excel file; or saved as a Workspace group for further analysis. A complementary Heatmap Viewer enables quick sorting or clustering of genes and comparisons; and visualization of genes that are similarly expressed across one or more comparisons.

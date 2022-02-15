@@ -9,10 +9,7 @@ News Articles
    :description: BV-BRC News RSS feed
    :link: https://www.bv-brc.org/docs/
 
-   2021/20211222-bv-brc-beta-release
-   2021/20210513-brc-impact-survey
-   2021/20210201-new-webinar-series
-
+   2022/20220215-bv-brc-public-beta
    
 .. toctree::
    :maxdepth: 2

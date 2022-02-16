@@ -35,4 +35,4 @@ BV-BRC Beta Release Brochure
 .. image:: ../images/bv-brc_beta_brochure.png
   :alt: BV-BRC Beta Release brochure
 
-`Click here to download the brochure PDF <../files/2022/bv-brc_newsletter_feb-2022.pdf>`_
+`Click here to download the brochure PDF <../../_static/files/news/2022/bv-brc_newsletter_feb-2022.pdf>`_

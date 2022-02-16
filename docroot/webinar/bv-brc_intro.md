@@ -4,40 +4,34 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 
 ## Schedule
 
-### Friday, February 25
-**Introduction to BV-BRC**
+**Friday, February 25 - Introduction to BV-BRC**
 * What is the BV-BRC?
 * Tour of the website
 * New users - creating an account
 * Join Zoom Meeting: https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09
 
-### Friday, March 4
- **Information for PATRIC users and bacterial researchers**
+**Friday, March 4 - Information for PATRIC users and bacterial researchers**
 * Changes that affect PATRIC users
 * Bacterial data
 * Join Zoom Meeting: https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09
 
-### Friday, March 11
- **Information for IRD and ViPR users and viral researchers**
+**Friday, March 11 - Information for IRD and ViPR users and viral researchers**
 * Changes that affect IRD/ViPR users
 * Viral data
 * Join Zoom Meeting: https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09
 
-### Friday, March 18
-**BV-BRC Private Workspace (Workbench)** 
-* Introduction
+**Friday, March 18 - BV-BRC Private Workspace (Workbench)** 
+* Introduction to the Workspace
 * Using the Workspace
 * Join Zoom Meeting: https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09
 
-### Friday, March 25
-**Finding and working with data**
+**Friday, March 25 - Finding and working with data**
 * Searches 
 * Filtering data
 * Creating data groups (working sets)
 * Join Zoom Meeting: https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09
 
-### Friday, April 1
-**Tools and Services**
+**Friday, April 1 - Tools and Services**
 * Introduction to BV-BRC analysis services
 * Example service run and results
 * Join Zoom Meeting: https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09

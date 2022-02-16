@@ -54,7 +54,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'BV-BRC Documentation'
-copyright = '2021 | The BV-BRC Team'
+copyright = '2022 | The BV-BRC Team'
 author = 'BV-BRC Team'
 
 

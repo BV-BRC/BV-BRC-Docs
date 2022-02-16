@@ -32,10 +32,12 @@ The brochure below provides additional information about the BV-BRC website. Ful
 BV-BRC Beta Release Brochure
 ----------------------------
 
+`Click here to download the brochure PDF <../../_static/files/news/2022/BV-BRC_newsletter_Feb-2022.pdf>`_
+
 .. image:: ../images/bv-brc_beta_brochure.png
   :alt: BV-BRC Beta Release brochure
 
 .. image:: ../images/bv-brc_beta_brochure_pg2.png
   :alt: BV-BRC Beta Release brochure
 
-`Click here to download the brochure PDF <../../_static/files/news/2022/BV-BRC_newsletter_Feb-2022.pdf>`_
+`Click here to download the brochure PDF <../../_static/files/news/2022/bv-brc-newsletter-feb-2022.pdf>`_

@@ -10,8 +10,7 @@ BV-BRC Beta Public Release
   :width: 635
   :alt: BV-BRC logo
 
-
-The Bacterial and Viral Bioinformatic Resource Center (BV-BRC) Beta website is now available for researchers to use and provide feedback.  
+We are pleased to announce the Beta release of the new Bacterial and Viral Bioinformatics Resource Center (BV-BRC). BV-BRC combines the data, tools, and technologies from two long-running centers, PATRIC, the bacterial BRC, and IRD / ViPR, the viral BRCs
 
 .. cut::
 
@@ -39,4 +38,3 @@ BV-BRC Beta Release Brochure
 
 .. image:: ../images/bv-brc_beta_brochure_pg2.png
   :alt: BV-BRC Beta Release brochure
-

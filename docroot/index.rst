@@ -13,12 +13,12 @@ BV-BRC Documentation
    quick_references/index
    tutorial/index
    cli_tutorial/index
+   webinar/index
    news/index
    privacy_policy
    .. faqs_common_tasks/index
 ..
    quickstart_video
    cli_tutorial/index
-   webinar/index
    videos/index
    workshops

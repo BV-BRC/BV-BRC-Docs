@@ -13,28 +13,28 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 **Friday, March 4 - Information for PATRIC users and bacterial researchers**
 * Changes that affect PATRIC users
 * Bacterial data
-* Join Zoom Meeting: https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09
+* Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
 
 **Friday, March 11 - Information for IRD and ViPR users and viral researchers**
 * Changes that affect IRD/ViPR users
 * Viral data
-* Join Zoom Meeting: https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09
+* Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
 
 **Friday, March 18 - BV-BRC Private Workspace (Workbench)** 
 * Introduction to the Workspace
 * Using the Workspace
-* Join Zoom Meeting: https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09
+* Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
 
 **Friday, March 25 - Finding and working with data**
 * Searches 
 * Filtering data
 * Creating data groups (working sets)
-* Join Zoom Meeting: https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09
+* Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
 
 **Friday, April 1 - Tools and Services**
 * Introduction to BV-BRC analysis services
 * Example service run and results
-* Join Zoom Meeting: https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09
+* Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
 
 
 ## Full Zoom Meeting Information:
@@ -53,9 +53,9 @@ Times:
 
 Please download and import the following iCalendar (.ics) files to your calendar system.
 
-Weekly: https://virginia.zoom.us/meeting/tJwscumvqTgoGNO87QuLnmQ-Fq4rgW53xJE8/ics?icsToken=98tyKuCgrz4qHdOWshuARow-BY_4c-3wtnZBjY1yxEjUFgxdbzK7EPMWILVIRYvI
+Weekly: <https://virginia.zoom.us/meeting/tJwscumvqTgoGNO87QuLnmQ-Fq4rgW53xJE8/ics?icsToken=98tyKuCgrz4qHdOWshuARow-BY_4c-3wtnZBjY1yxEjUFgxdbzK7EPMWILVIRYvI>
 
-Join Zoom Meeting: https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09
+Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
 
 Meeting ID: 981 5077 3227
 

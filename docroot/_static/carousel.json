@@ -1,4 +1,10 @@
 [   {
+        "title": "BV-BRC Public Beta Release",
+        "desc": "We are pleased to announce the Beta release of the new Bacterial and Viral Bioinformatics Resource Center (BV-BRC).",
+        "img": "https://www.bv-brc.org/docs/_static/announcements/bv-brc-homepage.png",
+        "link": "https://www.bv-brc.org/docs/news/2022/20220215-bv-brc-public-beta.html"   
+    },
+    {
         "title": "BV-BRC Beta Release",
         "desc": "The Bacterial and Viral Bioinformatic Resource Center (BV-BRC) has released its new Beta website for researchers to use.",
         "img": "https://www.bv-brc.org/docs/_static/announcements/bvbrc-logo-beta-release.png",

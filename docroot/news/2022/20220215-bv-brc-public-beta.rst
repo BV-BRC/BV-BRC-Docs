@@ -1,6 +1,6 @@
 :github_url: https://github.com/PATRIC3/p3_docs/blob/master/docroot/news/2021/20211222.rst
 
-BV-BRC Beta Public Release
+BV-BRC Public Beta Release
 ==========================
 
 .. feed-entry::

@@ -25,7 +25,7 @@ To aid users in getting started, we have created some introductory Help document
 * `BV-BRC Data and Functionality Overview (Guide for PATRIC Users) <../../get_started/data_functionality_overview.html>`_
 * `Mapping of IRD/ViPR Features and Terminology to BV-BRC (Guide for IRD and ViPR Users) <../../get_started/ird-vipr_bv-brc_mapping.html>`_ 
 
-Users can `provide feedback here <https://www.bv-brc.org/feedback>`_.
+Users can `provide feedback here <mailto:help@bv-brc.atlassian.net>`_.
 
 The brochure below provides additional information about the BV-BRC website. Full documentation is available from the Help menu.
 
@@ -39,3 +39,4 @@ BV-BRC Beta Release Brochure
 
 .. image:: ../images/bv-brc_beta_brochure_pg2.png
   :alt: BV-BRC Beta Release brochure
+

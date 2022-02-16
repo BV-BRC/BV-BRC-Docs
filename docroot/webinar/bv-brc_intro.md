@@ -28,17 +28,20 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 **BV-BRC Private Workspace (Workbench)** 
 * Introduction
 * Using the Workspace
+* (Meeting link)
 
 ### Friday, March 25
 **Finding and working with data**
 * Searches 
 * Filtering data
 * Creating data groups (working sets)
+* (Meeting link)
 
 ### Friday, April 1
 **Tools and Services**
 * Introduction to BV-BRC analysis services
 * Example service run and results
+* (Meeting link)
 
 
 

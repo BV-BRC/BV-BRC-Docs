@@ -10,7 +10,7 @@ BV-BRC Public Beta Release
   :width: 635
   :alt: BV-BRC logo
 
-We are pleased to announce the Beta release of the new `Bacterial and Viral Bioinformatics Resource Center (BV-BRC) <https://www.bv-brc.org>`_. BV-BRC combines the data, tools, and technologies from two long-running centers, `PATRIC <https://www.patricbrc.org>`_, the bacterial BRC, and `IRD <https://www.fludb.org>`_ / `ViPR <https://www.viprbrc.org>`_, the viral BRCs
+We are pleased to announce the Beta release of the new `Bacterial and Viral Bioinformatics Resource Center (BV-BRC) <https://www.bv-brc.org>`_. BV-BRC combines the data, tools, and technologies from two long-running centers, `PATRIC <https://www.patricbrc.org>`_, the bacterial BRC, and `IRD <https://www.fludb.org>`_ / `ViPR <https://www.viprbrc.org>`_, the viral BRCs.
 
 .. cut::
 

@@ -5,6 +5,8 @@
 Hsp
 ###
 
+.. highlight:: perl
+
 
 ********************************
 High-scoring Segment Pair Object
@@ -44,7 +46,7 @@ new
 Create an HSP object from an array of fields.
 
 
-- data
+data
  
  An array of data in fields:
  
@@ -76,23 +78,10 @@ Create an HSP object from an array of fields.
  
 
 
-- RETURN
+RETURN
  
  Returns an HSP object that allows the values to be accessed by name.
  
-
-
-dummy
------
-
-
-
-.. code-block:: perl
-
-     my $hsp = Hsp->dummy();
-
-
-Return an empty, dummy Hsp.
 
 
 qid
@@ -391,7 +380,7 @@ sloc
      my $sloc = $hsp->sloc;
 
 
-Return the match region of the subject sequence as a location object.
+Return the match region of the subject sequence as a `BasicLocation <BasicLocation>`_ object.
 
 
 qloc
@@ -404,7 +393,7 @@ qloc
      my $qloc = $hsp->qloc;
 
 
-Return the match region of the query sequence as a location object.
+Return the match region of the query sequence as a `BasicLocation <BasicLocation>`_ object.
 
 
 

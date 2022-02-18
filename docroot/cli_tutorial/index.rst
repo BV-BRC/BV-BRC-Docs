@@ -1,5 +1,5 @@
-Command Line Interface (CLI)
-============================
+Command Line Interface
+==================================
 
 `BV-BRC <https://www.bv-brc.org>`_ is an integration of different
 types of data and software tools that support research on bacterial and viral
@@ -11,27 +11,24 @@ provide the tools described in this document. We call these tools the
 *P3-scripts*. They are intended to run on your machine, going over the
 network to access the services provided by BV-BRC.
 
-**NOTE: The CLI documentation is in the process of being updated to reflect its instantiation in BV-BRC.**
----------------------------------------------------------------------------------------------------------
-
 Installing the CLI Release
 --------------------------
 
 Since the CLI tools run on your computer, to use them you will need to
 download and install a software package in order to use them.
 
-We currently have Windows, macOS and Debian/Ubuntu releases of the BV-BRC Command Line 
-Interface. 
+We currently have Windows, macOS and Debian/Ubuntu releases of the BV-BRC Command Line
+Interface.
 
-The releases are available at the `PATRIC3 github
+The releases are available at the `BV-BRC github
 site <https://github.com/PATRIC3/PATRIC-distribution/releases>`_. Full installation
 instructions are available in :ref:`cli-installation`.
 
 Tutorials and Reference Documentation
 -------------------------------------
 
-In order to enable users to make the most of the PATRIC command line interface
-we have collected a number of tutorials and reference materials. This collection 
+In order to enable users to make the most of the BV-BRC command line interface
+we have collected a number of tutorials and reference materials. This collection
 is linked below.
 
 .. toctree::
@@ -44,7 +41,7 @@ is linked below.
    cli_common_tasks
    cli_clustering
    cli_signature_clusters
-   
+
 .. toctree::
    :maxdepth: 1
    :caption: Reference documentation:
@@ -55,8 +52,8 @@ RAST Tutorials
 --------------
 
 We are also making available here a set of tutorials that relate to the RAST
-and RASTtk projects. The RAST technology underlies the genome annotation 
-services provided by PATRIC.
+and RASTtk projects. The RAST technology underlies the genome annotation
+services provided by BV-BRC.
 
 .. toctree::
     :maxdepth: 1

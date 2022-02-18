@@ -5,6 +5,8 @@
 p3-set-to-relation
 ##################
 
+.. highlight:: perl
+
 
 *******************************************
 Convert a Table of Sets to a Relation Table
@@ -33,7 +35,7 @@ Additional command-line options are those given in :ref:`cli-column-options` whi
 column, :ref:`cli-delimiter-options` which specifies the delimiter between set items, and the following.
 
 
-- idCol
+idCol
  
  The index (1-based) or name of the column containing the set ID. If omitted, the set IDs are generated internally.
  

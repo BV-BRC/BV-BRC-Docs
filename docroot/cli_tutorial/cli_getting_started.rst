@@ -1,19 +1,19 @@
 .. _cli-getting-started:
 
 ==========================================
- Using the PATRIC Command-line Interface
+ Using the BV-BRC Command-line Interface
 ==========================================
 
 
-`PATRIC <https://www.patricbrc.org>`_ is an integration of different
+`BV-BRC <https://www.patricbrc.org>`_ is an integration of different
 types of data and software tools that support research on bacterial
-pathogens. The typical biologist seeking access to the PATRIC data and
+pathogens. The typical biologist seeking access to the BV-BRC data and
 tools will usually explore the web-based user interface. However, there
 are many instances in which programatic or command-line interfaces are
-more suitable. For users that wish command-line access to PATRIC, we
+more suitable. For users that wish command-line access to BV-BRC, we
 provide the tools described in this document. We call these tools the
 *P3-scripts*. They are intended to run on your machine, going over the
-network to access the services provided by PATRIC.
+network to access the services provided by BV-BRC.
 
 Document Conventions
 --------------------
@@ -47,7 +47,7 @@ stream, the missing parts will be shown with a gray bar.
      
     This is somewhere in the middle.
 
-    NOTE: we add new genomes to the PATRIC database every week. Your
+    NOTE: we add new genomes to the BV-BRC database every week. Your
     results from the examples in this tutorial may not match ours.
 
 Installing the CLI Release
@@ -56,10 +56,10 @@ Installing the CLI Release
 Since the CLI tools run on your computer, to use them you will need to
 download and install a software package in order to use them.
 
-We currently have macOS and Debian/Ubuntu releases of the PATRIC Command Line
+We currently have macOS and Debian/Ubuntu releases of the BV-BRC Command Line
 Interface. A Windows version is in the works.
 
-The releases are available at the `PATRIC3 github
+The releases are available at the `BV-BRC github
 site <https://github.com/PATRIC3/PATRIC-distribution/releases>`_. Full installation
 installations are available in :ref:`cli-installation`.
 
@@ -85,10 +85,10 @@ get a summary of the options and parameters, for example
             --discards STR          name of file to contain discarded records
             -h --help               display usage information
 
-The PATRIC Database
+The BV-BRC Database
 -------------------
 
-The main PATRIC database is organized as a series of large,
+The main BV-BRC database is organized as a series of large,
 heavily-indexed relational tables. From the perspective of the CLI,
 there are five main tables representing objects of interest, connected
 by four relationships.
@@ -125,7 +125,7 @@ Contig
 Drug
     Represents an antimicrobial drug used for therapeutic treatment.
     This table is the anchor for all antimicrobial resistance data in
-    PATRIC. Use :ref:`cli::p3-all-drugs` to get a list of drugs. Use
+    BV-BRC. Use :ref:`cli::p3-all-drugs` to get a list of drugs. Use
     :ref:`cli::p3-get-drug-genomes` to get resistance data relating to specific
     drugs from a list. Fields from the Drug table appear in the output
     with a heading prefix of ``drug``. Thus, the *molecular\_formula*
@@ -165,7 +165,7 @@ Family
 Files and Pipelines
 -------------------
 
-The PATRIC CLI operates on tab-delimited files. That is, each record is
+The BV-BRC CLI operates on tab-delimited files. That is, each record is
 divided into fields or columns separated by tab characters. The first
 record in each file contains the name of each column. Typically, a
 column name consists of a record name, a dot, and a field name. For
@@ -362,7 +362,7 @@ p3-all-genomes
 
     would list all genomes in the genus Streptomyces. (That is, all
     genomes whose names start with that word.) The ``--eq`` parameter
-    introduces an equality constraint. In PATRIC, string searches
+    introduces an equality constraint. In BV-BRC, string searches
     perform a word-based substring match, which allows us to easily do
     queries of this type. The various database commands all support the
     ``--eq`` option. In addition, you can specify output fields using
@@ -445,7 +445,7 @@ p3-get-genome-data
     :ref:`cli::p3-get-genome-data` to process genome ID files created on a
     separate occasion or via other scripts that don't have the full
     power of :ref:`cli::p3-all-genomes`. If you don't specify any ``--attr``
-    values, you get the same output fields as found on the PATRIC genome
+    values, you get the same output fields as found on the BV-BRC genome
     list tab.
 
     ::
@@ -616,7 +616,7 @@ p3-get-drug-genomes
 
 p3-get-family-features
     Given a list of protein family IDs, get all the features in the
-    families. PATRIC supports three types of protein families--
+    families. BV-BRC supports three types of protein families--
     ``local``, ``global``, and ``figfam``. The ``--ftype`` parameter
     specifies the type of family desired. So, for example, the following
     pipeline finds the global family for the feature
@@ -683,17 +683,17 @@ p3-get-feature-data
     :ref:`cli::p3-get-feature-data` is provided for the situation where you are
     piping in the feature list from something external or precomputed.
 
-What Is a PATRIC Workspace?
+What Is a BV-BRC Workspace?
 ---------------------------
 
-Users of PATRIC have access to a wealth of public data that support
-interpretation of prokaryotic genomes. The PATRIC team actively
+Users of BV-BRC have access to a wealth of public data that support
+interpretation of prokaryotic genomes. The BV-BRC team actively
 integrates newly-sequenced genomes, data relating to antimicrobial
 resistance, expression data, pathway data and subsystem data into an
-integrated framework that can be queried using either the PATRIC UI or
+integrated framework that can be queried using either the BV-BRC UI or
 the CLI.
 
-In the PATRIC UI, your workspace looks a lot like a standard file
+In the BV-BRC UI, your workspace looks a lot like a standard file
 system, divided into folders full of data. In addition to files you
 upload, such as FASTA and FASTQ files, there will also be typed objects
 such as genomes, feature groups, and genome groups. The CLI allows you
@@ -703,7 +703,7 @@ so you can manipulate them at will.
 Logging In
 ~~~~~~~~~~
 
-To access your workspace, you need a PATRIC account. If you do not have
+To access your workspace, you need a BV-BRC account. If you do not have
 one already, go to
 `https://user.patricbrc.org/register <https://user.patricbrc.org/register>`_
 and register now.
@@ -734,7 +734,7 @@ If you are logged out, it will respond
 
 ::
 
-    You are currently logged out of PATRIC.
+    You are currently logged out of BV-BRC.
 
 If you are logged in, you will get something like
 
@@ -983,7 +983,7 @@ The output looks something like this.
 
 We didn't tell :ref:`cli::p3-get-family-features` what attributes of the
 features to display, so it defaulted to the columns normally found on
-the PATRIC web page *Features* tab. We don't have time to examine these
+the BV-BRC web page *Features* tab. We don't have time to examine these
 features in detail now, but we can put them in a feature group by piping
 them into :ref:`cli::p3-put-feature-group` as follows.
 
@@ -1042,10 +1042,10 @@ would see the following.
 Extracting and Mining Genome Typed Objects (GTOs)
 -------------------------------------------------
 
-Sometimes you want to store a genome on your local hard drive. PATRIC
+Sometimes you want to store a genome on your local hard drive. BV-BRC
 provides a special format for encapsulating all the data from a genome
 called the *genome typed object* or *GTO*. The :ref:`cli::p3-gto` script allows
-you to download one or more PATRIC genomes in GTO format. The following
+you to download one or more BV-BRC genomes in GTO format. The following
 command downloads two strep genomes -- 1313.7001 and 1313.7016-- in GTO
 format and stores them in the current directory.
 
@@ -1193,7 +1193,7 @@ put in a different directory. The following creates a new subdirectory
     p3-get-genome-group weak_strep | p3-gto --outDir=PathogenGTO 594.8 - 149539.441
 
 You are not required to write code to manipulate GTOs. Instead, we've
-included some useful scripts in the PATRIC CLI. First and foremost is
+included some useful scripts in the BV-BRC CLI. First and foremost is
 :ref:`cli::p3-gto-scan`. For example, if you run
 
 ::
@@ -1282,7 +1282,7 @@ separate the individual feature IDs.
     6-phosphofructokinase (EC 2.7.1.11) 1   fig|1313.7001.peg.1372
     6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44) 1   fig|1313.7001.peg.542
 
-This is a common convention in the PATRIC CLI-- when a single column
+This is a common convention in the BV-BRC CLI-- when a single column
 contains multiple values, we use a double colon to separate them. You
 can use the ``--delim`` option to change this default. Supported
 alternate delimiters include ``space``, ``tab``, and ``comma``. For
@@ -1455,7 +1455,7 @@ via the web interface in your QuickData folders.
 To invoke :ref:`cli::p3-rast`, you specify a taxonomic ID or the ID of a genome
 with the same taxonomic ID plus the name to give to the new genome. The
 contigs should be in the form of a FASTA file via the standard input.
-All this data is submitted to the PATRIC annotation service. When the
+All this data is submitted to the BV-BRC annotation service. When the
 service completes, it stores the new genome in your workspace and sends
 back a GTO. The example below shows a submission of sequences taken from
 a metagenomic sample named *SRS576036* chosen because they have a high
@@ -1691,7 +1691,7 @@ all the methicillin-resistant genomes into the roup **meth\_resist**.
 More Applications
 -----------------
 
-The following documents describe more applications for the PATRIC CLI.
+The following documents describe more applications for the BV-BRC CLI.
 
 #. :ref:`cli-clustering`
 #. :ref:`cli-signature-clusters`

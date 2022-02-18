@@ -5,6 +5,8 @@
 GenomeTypeObject
 ################
 
+.. highlight:: perl
+
 
 ****
 NAME
@@ -137,7 +139,7 @@ Add a new feature. The details of the feature are defined in the parameters hash
 keys:
 
 
-- -id
+-id
  
  Identifier for this feature. If not provided, a new identifier will be
  created based on the genome id, the type of the feature and the current largest identifier for
@@ -173,43 +175,38 @@ Return a hash of metrics about this GTO. The metrics returned will include N50, 
 probable completeness.
 
 
-- RETURN
+RETURN
  
  Returns a reference to a hash with the following keys.
  
  
- - N50
+ N50
   
-  The N50 of the contig lengths (see `/n_metric </n_metric>`_).
+  The N50 of the contig lengths (see /n_metric_).
   
  
  
- - N70
+ N70
   
   The N70 of the contig lengths.
   
  
  
- - N90
+ N90
   
   The N90 of the contig lengths.
   
  
  
- - totlen
+ totlen
   
   The total DNA length.
   
  
  
- - complete
+ complete
   
   \ ``1``\  if the genome is mostly complete, else \ ``0``\ .
-  
- 
- 
-
-
 
 n_metric
 --------
@@ -227,55 +224,15 @@ longest contigs comprising 70% of the total contig lengths. Similarly, the N50 m
 in the set of longest contigs comprising 50% of the total contig lengths.
 
 
-- thresh
+thresh
  
  The threshold to use for the desired metric. For example, specify \ ``70``\  for an N70 metric.
  
 
 
-- RETURN
+RETURN
  
  Returns the length of the contig at the desired metric level.
- 
-
-
-
-n_length
---------
-
-
-
-.. code-block:: perl
-
-     my $length = $gto->n_length;
-
-
-Compute the number of base pairs in the genome.
-
-
-- RETURN
- 
- Returns the DNA size of the genome.
- 
-
-
-
-cripple
--------
-
-
-
-.. code-block:: perl
-
-     $gto->cripple($removal);
-
-
-Remove the specified percentage of the features from this genome. This is useful in testing quality metrics.
-
-
-- removal
- 
- The percent of features to remove, from \ ``0``\  (none) to \ ``100``\  (all).
  
 
 

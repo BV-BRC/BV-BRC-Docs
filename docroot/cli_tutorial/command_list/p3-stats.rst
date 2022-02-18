@@ -5,6 +5,8 @@
 p3-stats
 ########
 
+.. highlight:: perl
+
 
 **************************************
 Statistically Analyze Numerical Values
@@ -28,20 +30,6 @@ The positional parameter is the name of the column to be analyzed. It must conta
 
 The standard input can be overriddn using the options in :ref:`cli-input-options`.
 
-Additional command-line options are the following.
-
-
-- col
- 
- The index (1-based) or name of the key column used to divide the file into groups.  The default is \ ``0``\ , indicating the
- last column.  If \ ``none``\  is specified, then all of the rows are put into a single group.
- 
-
-
-- nohead
- 
- If specified, then it is assumed there are no headers.
- 
-
+Additional command-line options are those given in :ref:`cli-column-options` (to specify the key column).
 
 

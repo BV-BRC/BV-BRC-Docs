@@ -5,6 +5,8 @@
 p3-gto
 ######
 
+.. highlight:: perl
+
 
 ************************************
 Create GTO Files from BV-BRC Genomes
@@ -32,21 +34,15 @@ be used to modify the standard input.
 In addition, the following command-line options can modify the default behavior.
 
 
-- outDir
+outDir
  
  Name of the directory in which to put the output files. (The default is the current working directory.)
  
 
 
-- missing
+missing
  
  Only process genomes for which files do not yet exist in the output directory. The default is to replace existing files.
- 
-
-
-- verbose
- 
- Display data API status messages in the standard output.
  
 
 

@@ -5,6 +5,8 @@
 p3-tbl-to-fasta
 ###############
 
+.. highlight:: perl
+
 
 *************************************
 Convert a Tab-Delimited File to FASTA
@@ -32,16 +34,9 @@ The standard input can be overriddn using the options in :ref:`cli-input-options
 The following additional command-line options are supported.
 
 
-- comment
+comment
  
- The index (1-based) or name of the column containing comment text. If omitted, no comment text is included in the output. If multiple
- comment columns are specified (using multiple instancs of the option), they will be concatenated with a tab.
- 
-
-
-- nohead
- 
- If specified, the standard input will be presumed to have no headers.
+ The index (1-based) or name of the column containing comment text. If omitted, no comment text is included in the output.
  
 
 

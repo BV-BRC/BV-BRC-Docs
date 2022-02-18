@@ -4,8 +4,8 @@ Using the RAST tool kit in batch mode
 =====================================
 
 Welcome to the tutorial on submitting genomes to the RASTtk service in
-PATRIC in batch mode.  You can follow this tutorial by using the
-PATRIC Command Line Interface. We recommend that you first familiarize
+BV-BRC in batch mode.  You can follow this tutorial by using the
+BV-BRC Command Line Interface. We recommend that you first familiarize
 yourself with the RASTtk commands in the tutorials,
 :ref:`rasttk-getting-started` and :ref:`rasttk-incremental-commands`.
 
@@ -13,13 +13,13 @@ yourself with the RASTtk commands in the tutorials,
 How to perform a default pipeline batch submission
 --------------------------------------------------
 
-We will start by logging in to IRIS or by opening the PATRIC Command
-Line Interface.  You will need to log into PATRIC by typing the
+We will start by logging in to IRIS or by opening the BV-BRC Command
+Line Interface.  You will need to log into BV-BRC by typing the
 following command::
 
     p3-login   username
 
-The username and password are your PATRIC account username and password.
+The username and password are your BV-BRC account username and password.
 
 Navigate to a directory where you are comfortable working.
 
@@ -32,7 +32,7 @@ Please remain in the current working directory. We will populate
 "ToSubmit" momentarily.
 
 Next we will download the contig files for *E. coli* and *B. subtilis*
-from PATRIC into our current working directory. Type::
+from BV-BRC into our current working directory. Type::
 
     p3-genome-fasta --contig 511145.12 > E_coli.contig    
     p3-genome-fasta --contig 224308.43  >B_subtilis.contig

@@ -11,6 +11,7 @@ Introduction to BV-BRC Webinar Series
   :alt: BV-BRC intro webinar series
 
 As part of the launch of the new BV-BRC Beta website, we are offering a webinar series to help new users, as well as PATRIC and IRD/ViPR users, become acquainted with the new website. 
+
 .. cut::
 
 TThe first set of webinars will be focused on introduction to the site. We will have follow-on webinars that dive more deeply into functionality and analysis tools. The link below provides additional details and Zoom information.

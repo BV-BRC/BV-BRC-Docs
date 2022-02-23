@@ -9,6 +9,7 @@ News and Announcements
    :description: BV-BRC News RSS feed
    :link: https://www.bv-brc.org/docs/
 
+   2022/20220223-bv-brc-intro-webinars
    2022/20220215-bv-brc-public-beta
    
 .. toctree::

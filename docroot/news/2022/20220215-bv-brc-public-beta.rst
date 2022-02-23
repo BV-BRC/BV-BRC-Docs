@@ -1,4 +1,4 @@
-:github_url: https://github.com/PATRIC3/p3_docs/blob/master/docroot/news/2021/20211222.rst
+:github_url: https://github.com/BV-BRC/bvbrc_docs/blob/master/docroot/news/2022/20220215-bv-brc-public-beta.rst
 
 BV-BRC Public Beta Release
 ==========================

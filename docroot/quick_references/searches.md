@@ -48,10 +48,22 @@ Other fields allow entry of numeric values to specify a range of results, e.g., 
 
 ![Metadata Ranges and Flags](./images/search_range_flag.png)
 
-The last option in each Advanced Search form is **Additional Criteria** which allows refinement of additional metadata attributes that do not appear elsewhere in the form. 
-
 ### Additional Criteria 
+
+The last option in each Advanced Search form is **Additional Criteria** which allows refinement of additional metadata attributes not specified elsewhere in the form. 
 
 ![Additional Metadata Attributes](./images/search_additional_criteria.png)
 
-The 
+Clicking on the dropdown list on the left displays a list of *all* the metadata fields in the database for the data type. After selecting one of the metadata fields, entering a search term in the box on the right will limit the matching results appropriately. 
+
+![Additional Metadata Attributes](./images/search_metadata_field_list.png)
+
+Clicking the **plus sign (+)** opens another metadata attribute criterion option. This can be done multiple times to include additional criteria for the search. Boolean operators (AND, OR, NOT) are available to allow very fine-grained specificity in the search results. Clicking the **minus sign (-)** removes the corresponding criterion.
+
+![Multiple Additional Attributes](./images/search_add_criteria.png)
+
+## Running the Search
+
+The **Search** button runs the search the database for the data type and returns all matching results based on metadata attribute selections in the form.
+
+The **Reset** button clears and resets the input form.

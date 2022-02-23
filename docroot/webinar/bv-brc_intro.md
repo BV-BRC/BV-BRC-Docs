@@ -38,6 +38,7 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 * Example service run and results
 * Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
 
+<hr>
 
 ## Full Zoom Meeting Information:
 

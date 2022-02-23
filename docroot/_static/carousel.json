@@ -21,17 +21,5 @@
         "desc": "The Bioinformatic Resource Centers (BRC) have partnered to present a joint webinar series on Respiratory Pathogens and the tools available for their study.",
         "img": "https://www.bv-brc.org/docs/_static/announcements/brc-webinar.png",
         "link": "https://www.bv-brc.org/docs/news/2021/20210201-new-webinar-series.html"
-    },
-    {
-        "title": "New PATRIC Online Bacterial Bioinformatics Course",
-        "desc": "We have released a new online Bacterial Bioinformatics course, freely available through Coursera.",
-        "img": "https://www.bv-brc.org/docs/_static/announcements/mooc.png",
-        "link": "https://www.bv-brc.org/docs/news/2020/20201022-mooc-release.html"
-    },
-    {
-        "title": "New PATRIC Video Tutorial Series",
-        "desc": "We have released a series of new video tutorials for PATRIC services and associated functionality.",
-        "img": "https://www.bv-brc.org/docs/_static/announcements/video-tutorials.png",
-        "link": "https://www.bv-brc.org/docs/news/2020/20200701-new-video-tutorials.html"
     }
 ]

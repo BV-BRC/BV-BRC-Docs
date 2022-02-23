@@ -1,3 +1,0 @@
-Searches Menu
-=============
-Coming soon.

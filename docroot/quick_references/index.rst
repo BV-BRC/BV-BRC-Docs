@@ -8,7 +8,7 @@ The BV-BRC website resource provides an entry point to integrated data and tools
    :caption: Contents:
 
    organisms_menu
-   searches_menu
+   searches_menu.md
    services_menu
    workspace_groups_upload
    global_search

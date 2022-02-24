@@ -1,6 +1,6 @@
 # Metagenomic Binning Service
 
-The BV-BRC metagenomic binning service utilizes the BV-BRC database to furnish a large, diverse set of reference genomes. This is a service for supervised extraction and annotation of high-quality, near-complete genomes from reads or metagenomically-derived contigs. Reads are assembled using either MetaSPAdes1 or MEGAHIT2.  Each set of binned contigs represents a draft genome that will be annotated by RASTtk3 for bacteria, or with VIGOR44,5 or  Mat_Peptide6 for viruses. A structured-language binning report is provided containing quality measurements and taxonomic information about the contig bins. The BV-BRC metagenome binning service emphasizes extraction of high-quality genomes for downstream analysis using other BV-BRC tools and services.
+The BV-BRC metagenomic binning service utilizes the BV-BRC database to furnish a large, diverse set of reference genomes. This is a service for supervised extraction and annotation of high-quality, near-complete genomes from reads or metagenomically-derived contigs [1]. Reads are assembled using either MetaSPAdes [2] or MEGAHIT [3].  Each set of binned contigs represents a draft genome that will be annotated by RASTtk [4] for bacteria, or with VIGOR4 [5,6] or  Mat_Peptide [7] for viruses. A structured-language binning report is provided containing quality measurements and taxonomic information about the contig bins. The BV-BRC metagenome binning service emphasizes extraction of high-quality genomes for downstream analysis using other BV-BRC tools and services.
 
 ![Figure 1](./images/Picture1.png "Figure 1")
 
@@ -117,18 +117,18 @@ Parameters must be selected prior to the submission of the Metagenomic Binning j
 ![Figure 30](./images/Picture30.png "Figure 30")
 
 1.	The assembly strategy for the reads must be selected.  Clicking on the down arrow that follows the text box under Assembly Strategy will open a drop-down box that shows all the strategies that BV-BRC offers.  A description of each strategy is listed below.  
-    * The metaSPAdes(1) software is part of the SPAdes toolkit, developed to address the various challenges of metagenomic assembly.  The latest version of the SPAdes toolkit that includes metaSPAdes is available here (http://cab.spbu.ru/software/spades/).
+    * The metaSPAdes [2] software is part of the SPAdes toolkit, developed to address the various challenges of metagenomic assembly.  The latest version of the SPAdes toolkit that includes metaSPAdes is available here (http://cab.spbu.ru/software/spades/).
 
-    * MEGAHIT is a de novo assembler for assembling large and complex metagenomics data(2). The MegaHit software is available here: https://github.com/voutcn/megahit.  MEGAHIT assembles the data as a whole (i.e., no preprocessing like partitioning and normalization).
+    * MEGAHIT is a de novo assembler for assembling large and complex metagenomics data [3]. The MegaHit software is available here: https://github.com/voutcn/megahit.  MEGAHIT assembles the data as a whole (i.e., no preprocessing like partitioning and normalization).
 
 ### Organisms of Interest  
 
 ![Figure 31](./images/Picture31.png "Figure 31")
 
 1.	Organisms of interest must be selected.  Clicking on Bacteria/Archaea will only show those results,  clicking on Viruses will only show those, and clicking on Both will show all of those results.  
-    * If **Bacteria/Archaea** are selected, the RASTtk3 annotation pipeline will be used. The code for the RASTtk pipeline is located at https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl
+    * If **Bacteria/Archaea** are selected, the RASTtk [4] annotation pipeline will be used. The code for the RASTtk pipeline is located at https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl
 
-    * Selecting **Viruses** will use one of two annotation pipelines. Other viruses are first run through the VIGOR4(4,5) pipeline.  (The software for the VIGOR pipeline is located at: https://github.com/JCVenterInstitute/VIGOR4). If that does not find a virus match, the Mat Peptide6 pipeline is used.
+    * Selecting **Viruses** will use one of two annotation pipelines. Other viruses are first run through the VIGOR4 [5,6] pipeline.  (The software for the VIGOR pipeline is located at: https://github.com/JCVenterInstitute/VIGOR4). If that does not find a virus match, the Mat Peptide [7] pipeline is used.
 
     * When selecting **Both** the bacterial/archaeal and viral pipelines will be run.  The workflow for this strategy is available at the top of this tutorial.
 
@@ -272,7 +272,7 @@ Parameters must be selected prior to the submission of the Metagenomic Binning j
     * **Genome ID**: The ID number assigned to the genome in BV-BRC that represents the bin. Clicking on this number takes you to the genome.
     * **Genome Name**:  The name given to the bin. This is usually the species of the closest reference genome.
     * **Length**: The number of DNA base pairs in the bin.
-    * **Completeness**: CheckV8 is used to estimates genome completeness.  It bases this score on comparison with a large database of complete viral genomes derived from NCBI GenBank and environmental samples and reports a confidence level for the estimate.
+    * **Completeness**: CheckV [9] is used to estimates genome completeness.  It bases this score on comparison with a large database of complete viral genomes derived from NCBI GenBank and environmental samples and reports a confidence level for the estimate.
     * **Error**: CheckV reports a confidence level for each AAI-based estimate according to the expected relative unsigned error rate: high confidence (0–5% error), medium confidence (5–10% error) or low confidence (>10% error).
     * **Coverage**: The average coverage for contigs in the bin.
 
@@ -306,7 +306,7 @@ If “Bacteria/Archaea” or “Both” were selected under “Organisms of Inte
 6.	The **feature_protein.fasta** contains all the protein sequences of the genome in protein FASTA format  
 ![Figure 75](./images/Picture75.png "Figure 75")
 
-7.	The **features.txt** is a tab-delimited text file listing all the features of the genome. For each feature, it contains the BV-BRC ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD59 checksum.  
+7.	The **features.txt** is a tab-delimited text file listing all the features of the genome. For each feature, it contains the BV-BRC ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5 [10] checksum.  
 ![Figure 76](./images/Picture76.png "Figure 76")
 
 8.	The **gb** file contains the annotated genome in GenBank format.  
@@ -370,7 +370,7 @@ If  “Viruses” or “Both” were selected under “Organisms of Interest” 
 8.	The **feature_protein.fasta** contains all the protein sequences of the genome in protein FASTA format. If the file size is 0, that means that VIGOR4 could not annotate proteins for this particular viral family.  
 ![Figure 95](./images/Picture95.png "Figure 95")
 
-9.	The **features.txt** is a tab-delimited text file listing all the features of the genome. For each feature, it contains the BV-BRC ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5(9) checksum.  If the file size is small, it is an indication that VIGOR4 could not annotate any features in this particular viral family.  Opening the file will only show the column headers.  
+9.	The **features.txt** is a tab-delimited text file listing all the features of the genome. For each feature, it contains the BV-BRC ID, the location string, the feature type, the functional assignment, any alternated IDs found, and (for protein-coding genes) the protein MD5 [10] checksum.  If the file size is small, it is an indication that VIGOR4 could not annotate any features in this particular viral family.  Opening the file will only show the column headers.  
 ![Figure 96](./images/Picture96.png "Figure 96")
 
 10.	The **gb** file contains the annotated genome in GenBank format.  
@@ -392,7 +392,7 @@ If  “Viruses” or “Both” were selected under “Organisms of Interest” 
 
 Genome quality analysis is automatically performed when Using the BV-BRC Metagenomic Binning Service or Genome Annotation. The genome quality tools look at the functional roles present in an annotated genome to determine if the genome looks correct. Two separate mechanisms are used to predict the number of times each gene should be found in the genome. A role is good if it occurs the predicted number of times; otherwise it is problematic.  
 
-The first quality tool (EvalG) checks the completeness and contamination of the genome using a re-implementation of the CheckM(10) algorithm. EvalG identifies universal genes that are expected to occur exactly once in all genomes of a particular taxonomic grouping. Missing genes indicate the genome is less complete; extra genes indicate the genome may be contaminated.  
+The first quality tool (EvalG) checks the completeness and contamination of the genome using a re-implementation of the CheckM [11] algorithm. EvalG identifies universal genes that are expected to occur exactly once in all genomes of a particular taxonomic grouping. Missing genes indicate the genome is less complete; extra genes indicate the genome may be contaminated.  
 
 The second quality tool (EvalCon) checks the consistency of the genome annotation. Over 1300 genes that have a predictable relationship to other genes were identified by a machine learning process. EvalCon determines how many instances of each gene are expected given the list of other genes in the genome. If a gene in the genome is unexpected, or an expected gene is missing, this is considered coarse inconsistency. If a gene occurs a different number of times than predicted, this is fine inconsistency.  
 
@@ -424,15 +424,18 @@ The four numbers– completeness, contamination, coarse consistency, and fine co
 
 ## References  
 
-1. Nurk, S., Meleshko, D., Korobeynikov, A. & Pevzner, P. A. metaSPAdes: a new versatile metagenomic assembler. Genome research 27, 824-834 (2017).
-2. Li, D. et al. MEGAHIT v1. 0: a fast and scalable metagenome assembler driven by advanced methodologies and community practices. Methods 102, 3-11 (2016).
-3. Brettin, T. et al. RASTtk: a modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. Scientific reports 5, 8365 (2015).
-4. Wang, S., Sundaram, J. P. & Spiro, D. VIGOR, an annotation program for small viral genomes. BMC bioinformatics 11, 1-10 (2010).
-5. Wang, S., Sundaram, J. P. & Stockwell, T. B. VIGOR extended to annotate genomes for additional 12 different viruses. Nucleic acids research 40, W186-W192 (2012).
-6. Larsen, C. N. et al. Mat_peptide: comprehensive annotation of mature peptides from polyproteins in five virus families. Bioinformatics 36, 1627-1628 (2020).
-7. Parrello, B. et al. A machine learning-based service for estimating quality of genomes using PATRIC. BMC bioinformatics 20, 1-9 (2019).
-8. Nayfach, S. et al. CheckV assesses the quality and completeness of metagenome-assembled viral genomes. Nature biotechnology 39, 578-585 (2021).
-9. Rivest, R. & Dusse, S.     (MIT Laboratory for Computer Science Cambridge, 1992).
-10. Parks, D. H., Imelfort, M., Skennerton, C. T., Hugenholtz, P. & Tyson, G. W. CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes. Genome research 25, 1043-1055 (2015).
+1. Parrello, B., Butler, R., Chlenski, P., Pusch, G. D. & Overbeek, R. Supervised extraction of near-complete genomes from metagenomic samples: A new service in PATRIC. Plos one 16, e0250092 (2021).
+2. Nurk, S., Meleshko, D., Korobeynikov, A. & Pevzner, P. A. metaSPAdes: a new versatile metagenomic assembler. Genome research 27, 824-834 (2017)
+3. Li, D. et al. MEGAHIT v1. 0: a fast and scalable metagenome assembler driven by advanced methodologies and community practices. Methods 102, 3-11 (2016).
+4. Brettin, T. et al. RASTtk: a modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. Scientific reports 5, 8365 (2015).
+5. Wang, S., Sundaram, J. P. & Spiro, D. VIGOR, an annotation program for small viral genomes. BMC bioinformatics 11, 1-10 (2010).
+6. Wang, S., Sundaram, J. P. & Stockwell, T. B. VIGOR extended to annotate genomes for additional 12 different viruses. Nucleic acids research 40, W186-W192 (2012).
+7. Larsen, C. N. et al. Mat_peptide: comprehensive annotation of mature peptides from polyproteins in five virus families. Bioinformatics 36, 1627-1628 (2020).
+8. Parrello, B. et al. A machine learning-based service for estimating quality of genomes using PATRIC. BMC bioinformatics 20, 1-9 (2019)
+9. Nayfach, S. et al. CheckV assesses the quality and completeness of metagenome-assembled viral genomes. Nature biotechnology 39, 578-585 (2021).
+10. Rivest, R. & Dusse, S.  The MD5 message-digest algorithm. (MIT Laboratory for Computer Science Cambridge, 1992).
+11. Parks, D. H., Imelfort, M., Skennerton, C. T., Hugenholtz, P. & Tyson, G. W. CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes. Genome research 25, 1043-1055 (2015).
+
+
 
 

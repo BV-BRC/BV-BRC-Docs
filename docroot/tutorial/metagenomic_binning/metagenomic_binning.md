@@ -7,10 +7,10 @@ The BV-BRC metagenomic binning service utilizes the BV-BRC database to furnish a
 Metagenomic binning jobs that include assembly that, on average, take an hour to complete.  However, the BV-BRC assembly service is quite popular, and there is often a long queue resulting in jobs taking 24 hours to complete.  If the size of the read file is large (Gb) or the queue is long, results could take several days.  
 
 The code for the binning script is located at:
-https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-checkv.pl
+[https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-checkv.pl](https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-checkv.pl)
 
 The code for the RASTtk pipeline is located at:
-https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl
+[https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl](https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl)
 
 ## Creating a folder to hold the metagenomic binning job and related data
 

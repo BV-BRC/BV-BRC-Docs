@@ -6,7 +6,7 @@ Introduction to BV-BRC Webinar Series
 .. feed-entry::
    :date: 2022-02-23
 
-.. image:: ../images/bv-brc_intro_webinars.png
+.. image:: ../images/bv-brc_intro_webinars_v2.png
   :width: 589
   :alt: BV-BRC intro webinar series
 

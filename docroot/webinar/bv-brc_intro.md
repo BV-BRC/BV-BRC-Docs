@@ -11,7 +11,7 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 * What is the BV-BRC?
 * Tour of the website
 * New users - creating an account
-* Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
+* Recorded Webinar on YouTube: <https://youtu.be/sPh9syjXpuA>
 
 **Friday, March 4 - Information for PATRIC users and bacterial researchers**
 * Changes that affect PATRIC users

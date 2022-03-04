@@ -10,6 +10,5 @@ The Bacterial and Viral Bioinformatics Resource Center (BV-BRC) is an informatio
    quick_start
    data_functionality_overview
    ird-vipr_bv-brc_mapping
-
-..
-   common_tasks
+   ..
+      common_tasks

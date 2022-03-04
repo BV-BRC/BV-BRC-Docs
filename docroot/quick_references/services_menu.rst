@@ -66,3 +66,11 @@ Data Services
 
    services/id_mapper.md
    services/fastq_utilities_service.md
+
+Other Services
+---------------
+
+.. toctree::
+   :maxdepth: 1
+
+   services/archaeopteryx.md

@@ -16,7 +16,7 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 **Friday, March 4 - Information for PATRIC users and bacterial researchers**
 * Changes that affect PATRIC users
 * Bacterial data
-* Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
+* Recorded Webinar on YouTube: <https://youtu.be/efNsqDFFCi0>
 
 **Friday, March 11 - Information for IRD and ViPR users and viral researchers**
 * Changes that affect IRD/ViPR users

@@ -14,7 +14,7 @@ News and Announcements
    2022/20220215-bv-brc-public-beta
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: News Articles Archives:
    
    2022/index

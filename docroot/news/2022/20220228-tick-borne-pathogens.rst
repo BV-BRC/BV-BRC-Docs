@@ -7,7 +7,7 @@ Ticks and Tick-Borne Pathogens Webinar Series
    :date: 2022-02-28
 
 .. image:: ../images/tick_webinar_series.png
-  :width: 589
+  :width: 580
   :alt: Tick-Borne Pathogen webinar series
 
 This webinar series is geared towards researchers working on ticks and the bacterial, viral or eukaryotic pathogens they transmit. The webinars will focus on highlighting data and bioinformatic tools provided by the NIAID bioinformatic resource centers, BV-BRC and VEuPathDB. 

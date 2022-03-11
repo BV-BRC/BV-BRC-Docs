@@ -41,10 +41,11 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 
 <hr>
 
-## Full Zoom Meeting Information:
+# Full Zoom Meeting Information:
 
-Topic: Introduction to BV-BRC Website
-Times: 
+**Topic:** Introduction to BV-BRC Website
+
+**Times:** 
 * Feb 25, 2022 01:00 PM Eastern Time (US and Canada)
 * Every week on Fri, 6 occurrence(s)
   * Feb 25, 2022 01:00 PM
@@ -56,16 +57,15 @@ Times:
 
 Please download and import the following iCalendar (.ics) files to your calendar system.
 
-Weekly: <https://virginia.zoom.us/meeting/tJwscumvqTgoGNO87QuLnmQ-Fq4rgW53xJE8/ics?icsToken=98tyKuCgrz4qHdOWshuARow-BY_4c-3wtnZBjY1yxEjUFgxdbzK7EPMWILVIRYvI>
+**Weekly (iCal):** <https://virginia.zoom.us/meeting/tJwscumvqTgoGNO87QuLnmQ-Fq4rgW53xJE8/ics?icsToken=98tyKuCgrz4qHdOWshuARow-BY_4c-3wtnZBjY1yxEjUFgxdbzK7EPMWILVIRYvI>
 
-Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
+**Join Zoom Meeting:** <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
 
-Meeting ID: 981 5077 3227
+**Meeting ID:** 981 5077 3227
 
-Passcode: 480517
+**Passcode:** 480517
 
-One tap mobile
+**One tap mobile**
 
 +14702509358,,98150773227# US (Atlanta)
-
 +14703812552,,98150773227# US (Atlanta)

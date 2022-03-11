@@ -21,7 +21,7 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 **Friday, March 11 - Information for IRD and ViPR users and viral researchers**
 * Changes that affect IRD/ViPR users
 * Viral data
-* Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
+* Recorded Webinar on YouTube: <https://youtu.be/nyH7YdX5pPc>
 
 **Friday, March 18 - BV-BRC Private Workspace (Workbench)** 
 * Introduction to the Workspace

@@ -4,7 +4,7 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 
 [![BV-BRC Website](./images/visualization_collage.png)](https://www.bv-brc.org/)
 
-# Schedule
+## Schedule
 ### Fridays, 1:00-2:00pm ET
 
 **Friday, February 25 - Introduction to BV-BRC**
@@ -41,7 +41,7 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 
 <hr>
 
-# Full Zoom Meeting Information:
+## Full Zoom Meeting Information:
 
 **Topic:** Introduction to BV-BRC Website
 

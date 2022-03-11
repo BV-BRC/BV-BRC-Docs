@@ -1,10 +1,16 @@
 [   {
+        "title": "Ticks and Tick-Borne Pathogens Webinar Series",
+        "desc": "This webinar series is geared towards researchers working on ticks and the bacterial, viral or eukaryotic pathogens they transmit.",
+        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/tick-webinar-series.png",
+        "link": "https://www.bv-brc.org/docs/news/2022/20220228-tick-borne-pathogens.html"   
+    },
+    {
         "title": "Introduction to BV-BRC Webinar Series",
         "desc": "As part of the launch of the new BV-BRC Beta website, we are offering a webinar series to help new users, as well as PATRIC and IRD/ViPR users, become acquainted with the new website.",
         "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bv-brc-intro-webinars-v2.png",
         "link": "https://www.bv-brc.org/docs/news/2022/20220223-bv-brc-intro-webinars.html"   
-        },
-        {
+    },
+    {
         "title": "BV-BRC Public Beta Release",
         "desc": "We are pleased to announce the Beta release of the new Bacterial and Viral Bioinformatics Resource Center (BV-BRC).",
         "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bv-brc-homepage.png",

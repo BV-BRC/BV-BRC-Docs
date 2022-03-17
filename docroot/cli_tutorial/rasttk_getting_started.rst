@@ -39,9 +39,6 @@ K-12 contig in fasta format from BV-BRC using the following command::
 The ``p3-genome-fasta`` command returns the DNA data for the contigs 
 of the given genome. 
 
-If you want to annotate batches of genomes, please refer to our
-`tutorial <rasttk_batch_mode.html>`_ on this topic.
-
 The Default RASTtk Pipeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

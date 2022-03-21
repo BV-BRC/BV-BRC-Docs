@@ -26,7 +26,7 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 **Friday, March 18 - BV-BRC Private Workspace (Workbench)** 
 * Introduction to the Workspace
 * Using the Workspace
-* Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
+* Recorded Webinar on YouTube: <https://youtu.be/_kyo2uZ6g2c>
 
 **Friday, March 25 - Finding and working with data**
 * Searches 

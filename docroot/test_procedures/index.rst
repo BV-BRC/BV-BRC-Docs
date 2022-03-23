@@ -17,3 +17,11 @@ Searches
    
    global_search
    taxa_search
+
+Tools & Services
+----------------
+.. toctree::
+   :maxdepth: 1
+   
+   genome_assembly
+   genome_annotation

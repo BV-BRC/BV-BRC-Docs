@@ -15,11 +15,15 @@ BV-BRC Documentation
    cli_tutorial/index
    test_procedures/index
    webinar/index
+   .. faqs_common_tasks/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Other Information:
+
    news/index
    privacy_policy
-   .. faqs_common_tasks/index
+
 ..
-   quickstart_video
-   cli_tutorial/index
    videos/index
    workshops

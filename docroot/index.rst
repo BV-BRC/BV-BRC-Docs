@@ -13,6 +13,7 @@ BV-BRC Documentation
    quick_references/index
    tutorial/index
    cli_tutorial/index
+   test_procedures/index
    webinar/index
    news/index
    privacy_policy

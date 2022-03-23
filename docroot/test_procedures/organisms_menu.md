@@ -4,9 +4,6 @@ This Test Procedure is intended to confirm proper operation and data display for
 
 ## See Also:
 * [Organisms Menu Quick Reference Guide](../quick_references/organisms_menu.html)
-* [Organisms Menu Quick Reference Guide](../../quick_references/organisms_menu.html)
-* 
-
 
 ## Prerequisites
 None

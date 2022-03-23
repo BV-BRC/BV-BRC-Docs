@@ -7,4 +7,4 @@ Upcoming Webinars
    :maxdepth: 1
    
    bv-brc_intro
-   tick-borne_diseases
+   tick-borne_pathogens

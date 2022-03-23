@@ -1,7 +1,12 @@
 # Organisms Menu Test Procedure
 
-## Purpose
 This Test Procedure is intended to confirm proper operation and data display for the options under the Organisms top menu.  
+
+## See Also:
+* [Organisms Menu Quick Reference Guide](../quick_references/organisms_menu.html)
+* [Organisms Menu Quick Reference Guide](../../quick_references/organisms_menu.html)
+* 
+
 
 ## Prerequisites
 None

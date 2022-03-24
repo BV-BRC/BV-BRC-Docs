@@ -9,7 +9,11 @@ This Test Procedure is intended to confirm proper operation and returned results
 * [Genome Annotation Protocol](../data_protocols/genome_annotation.html)
 
 ## Prerequisites
-ADD
+Test contigs in workspace 
 
 ## Procedure
-1. Click  
+*Note: The [Genome Annotation Service Tutorial](../tutorial/genome_annotation/genome_annotation.html) provides detailed step-by-step instructions and screenshots for using the Genome Annotation Service.*
+
+1. Select **'Annotation'** from the **'Tools & Services'** top menu (<https://www.bv-brc.org/app/Annotation>)
+2. 
+3. 

@@ -15,4 +15,4 @@ taxa_search
 Tools & Services
 ----------------
 
-`Genome Annotation - Bacteria <genome_annotation_service_bacteria_test_procedure.pdf>`_.
+`Genome Annotation, Bacteria <../files/test_procedures/genome_annotation_service_bacteria.pdf>`_.

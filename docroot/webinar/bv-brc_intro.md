@@ -1,11 +1,12 @@
 # Introduction to BV-BRC Webinar Series
 
-As part of the launch of the new BV-BRC Beta website, we are offering a webinar series to help new users, as well as PATRIC and IRD/ViPR users, become acquainted with the new website. The first set of webinars will be focused on introduction to the site. The webinars are scheduled for 1 hour each, with presentations and demos at the beginning and time for questions and answers at the end. We will have follow-on webinars that dive more deeply into functionality and analysis tools. We can also respond to user requests for webinars focused on particular aspects of the website. Webinars will be recorded for reference at later times.
+As part of the launch of the new BV-BRC Beta website, we are offering a webinar series to help new users, as well as PATRIC and IRD/ViPR users, become acquainted with the new website. The first set of webinars will be focused on introduction to the site. The webinars are scheduled for 1 hour each, with presentations and demos at the beginning and time for questions and answers at the end. We will have follow-on webinars that dive more deeply into functionality and analysis tools. We can also respond to user requests for webinars focused on particular aspects of the website. 
+
+This webinar series has been completed. Video recordings of the webinars are available from the [BV-BRC YouTube channel](https://www.youtube.com/channel/UCDkT2ZCWhK3GBtm5R-o1J4A). 
 
 [![BV-BRC Website](./images/visualization_collage.png)](https://www.bv-brc.org/)
 
 ## Schedule
-### Fridays, 1:00-2:00pm ET
 
 **Friday, February 25 - Introduction to BV-BRC**
 * What is the BV-BRC?
@@ -32,41 +33,9 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 * Searches 
 * Filtering data
 * Creating data groups (working sets)
-* Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
+* Recorded webinar on YouTube: <https://youtu.be/gefGo7rVs9w>
 
 **Friday, April 1 - Tools and Services**
 * Introduction to BV-BRC analysis services
 * Example service run and results
 * Recorded Webinar on YouTube: <https://youtu.be/E4kadbLooRk>
-
-<hr>
-
-## Full Zoom Meeting Information:
-
-**Topic:** Introduction to BV-BRC Website
-
-**Times:** 
-* Feb 25, 2022 01:00 PM Eastern Time (US and Canada)
-* Every week on Fri, 6 occurrence(s)
-  * Feb 25, 2022 01:00 PM
-  * Mar 4, 2022 01:00 PM
-  * Mar 11, 2022 01:00 PM
-  * Mar 18, 2022 01:00 PM
-  * Mar 25, 2022 01:00 PM
-  * Apr 1, 2022 01:00 PM
-
-Please download and import the following iCalendar (.ics) files to your calendar system.
-
-**Weekly (iCal):** <https://virginia.zoom.us/meeting/tJwscumvqTgoGNO87QuLnmQ-Fq4rgW53xJE8/ics?icsToken=98tyKuCgrz4qHdOWshuARow-BY_4c-3wtnZBjY1yxEjUFgxdbzK7EPMWILVIRYvI>
-
-**Join Zoom Meeting:** <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
-
-**Meeting ID:** 981 5077 3227
-
-**Passcode:** 480517
-
-**One tap mobile**
-
-+14702509358,,98150773227# US (Atlanta)
-
-+14703812552,,98150773227# US (Atlanta)

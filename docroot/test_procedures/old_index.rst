@@ -5,14 +5,23 @@ As part of its development, deployment, and maintenance processes, BV-BRC perfor
 
 Data
 ----
-organisms_menu
+.. toctree::
+   :maxdepth: 1
+   
+   organisms_menu
 
 Searches
 --------
-global_search
-taxa_search
+.. toctree::
+   :maxdepth: 1
+   
+   global_search
+   taxa_search
 
 Tools & Services
 ----------------
-
-`Genome Annotation - Bacteria <./files/genome_annotation_service_bacteria_test_procedure.pdf>`_.
+.. toctree::
+   :maxdepth: 1
+   
+   genome_assembly
+   genome_annotation

@@ -37,7 +37,7 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 **Friday, April 1 - Tools and Services**
 * Introduction to BV-BRC analysis services
 * Example service run and results
-* Join Zoom Meeting: <https://virginia.zoom.us/j/98150773227?pwd=V2FqRVJEbTNiSXRhN1pUeUNpMjRsQT09>
+* Recorded Webinar on YouTube: <https://youtu.be/E4kadbLooRk>
 
 <hr>
 

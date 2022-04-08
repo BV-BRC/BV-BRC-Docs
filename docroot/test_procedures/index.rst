@@ -16,4 +16,5 @@ Tools & Services
 ----------------
 
 `Genome Annotation Test Procecdure - Bacteria (PDF) <../_static/files/test_procedures/genome-annotation-service-bacteria_procedure.pdf>`_
-`Genome Annotation Test Resulte - Bacteria (PDF) <../_static/files/test_procedures/genome-annotation-service-bacteria_result.pdf>`_
+
+`Genome Annotation Test Result - Bacteria (PDF) <../_static/files/test_procedures/genome-annotation-service-bacteria_result.pdf>`_

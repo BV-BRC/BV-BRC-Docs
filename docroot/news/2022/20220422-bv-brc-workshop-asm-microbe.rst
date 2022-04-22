@@ -28,7 +28,7 @@ The 1-day workshop (8:00am - 4:00pm) will include hands-on training designed to 
 Additional Instructors will be present to help individuals as needed. 
 
 `Full workshop description (Course CW05) <https://www.abstractsonline.com/pp8/#!/10522/session/54>`_
-----------------------------------------------------------------------------------------------------
+====================================================================================================
 
-`ASM Microbe 2022 information page <https://asm.org/Events/ASM-Microbe/Home>`_
-==============================================================================
+`ASM Microbe 2022 information and registration <https://asm.org/Events/ASM-Microbe/Home>`_
+==========================================================================================

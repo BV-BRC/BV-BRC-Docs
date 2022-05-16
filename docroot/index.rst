@@ -22,8 +22,11 @@ BV-BRC Documentation
    :caption: Other Information:
 
    news/index
-   privacy_policy
+
 
 ..
+   privacy_policy
+
+..   
    videos/index
    workshops

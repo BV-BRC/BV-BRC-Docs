@@ -17,6 +17,7 @@ Genomics Services
 
    services/genome_assembly_service.md
    services/genome_annotation_service.md
+   services/comparative_systems.md
    services/comprehensive_genome_analysis_service.md
    services/blast.md
    services/sars_cov_2_assembly_annotation_service.md

@@ -1,4 +1,11 @@
-[   {
+[   
+    {
+        "title": "BV-BRC (PATRIC) Workshop at ASM Microbe",
+        "desc": "BV-BRC is presenting a workshop on June 9 at ASM Microbe 2022 in Washington, DC entitled, Genomic, Transcriptomic and Metagenomic Analysis of Bacterial Data in the BV-BRC (aka PATRIC).",
+        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bvbrc-asm-microbe-workshop.png",
+        "link": "https://www.bv-brc.org/docs/news/2022/20220422-bv-brc-workshop-asm-microbe.html"   
+    },
+    {
         "title": "Ticks and Tick-Borne Pathogens Webinar Series",
         "desc": "This webinar series is geared towards researchers working on ticks and the bacterial, viral or eukaryotic pathogens they transmit.",
         "img": "https://www.bv-brc.org/docs/_static/announcements/2022/tick-webinar-series.png",

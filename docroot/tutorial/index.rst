@@ -13,6 +13,7 @@ Genomics
 
    genome_assembly/assembly.md
    genome_annotation/genome_annotation.md
+   comparative_systems/comparative_systems.md
    comprehensive_genome_analysis/comprehensive_genome_analysis.md
    blast/blast.md
    sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.md

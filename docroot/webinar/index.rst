@@ -6,6 +6,7 @@ BV-BRC periodically offers live instructional webinars where users can participa
 Introduction to BV-BRC
 ----------------------
 February 25 - April 1, 2022
+
 This set of webinars provides overviews of each major aspect of the BV-BRC resource. The webinars were recorded and are available from the links below. `Original webinar announcement and schedule <https://www.bv-brc.org/docs/webinar/bv-brc_intro.html>`_.
 
 * `Introduction to BV-BRC <https://youtu.be/sPh9syjXpuA>`_
@@ -18,6 +19,7 @@ This set of webinars provides overviews of each major aspect of the BV-BRC resou
 Ticks and Tick-Borne Pathogens
 ------------------------------
 March 8 - June 14, 2022
+
 This set of webinars, created in collaboration with our sister BRC, VEuPathDB, is geared towards researchers working on ticks and the bacterial, viral or eukaryotic pathogens they transmit. The webinars focus on highlighting data and bioinformatic tools provided by BV-BRC and VEuPathDB. `Full announcement and registration <https://veupathdb.org/veupathdb/app/static-content/tickwebinars.html>`_.
 
 * `Ticks: How to analyze omics and field population data sets in VectorBase <https://www.youtube.com/watch?v=93Ci3UJ-yAU&t=1s>`_ (VEuPathDB)

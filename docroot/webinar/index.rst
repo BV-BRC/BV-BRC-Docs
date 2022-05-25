@@ -3,17 +3,6 @@ Webinars
 
 BV-BRC periodically offers live instructional webinars where users can participate and ask questions along the way. The webinars are recorded and made available for viewing afterward from the `BV-BRC YouTube Channel <https://www.youtube.com/channel/UCDkT2ZCWhK3GBtm5R-o1J4A>`_.
 
-Introduction to BV-BRC
-----------------------
-**February 25 - April 1, 2022**. This webinar series provides overviews of each major aspect of the BV-BRC resource. The webinars were recorded and are available from the links below. `Original webinar announcement and schedule <https://www.bv-brc.org/docs/webinar/bv-brc_intro.html>`_.
-
-* `Introduction to BV-BRC <https://youtu.be/sPh9syjXpuA>`_
-* `Bacterial data in BV-BRC <https://youtu.be/efNsqDFFCi0>`_
-* `Viral data in BV-BRC <https://youtu.be/nyH7YdX5pPc>`_
-* `BV-BRC Workspace introduction and use <https://youtu.be/_kyo2uZ6g2c>`_
-* `Finding and working with data <https://youtu.be/gefGo7rVs9w>`_
-* `BV-BRC Analysis Services <https://youtu.be/E4kadbLooRk>`_
-
 Ticks and Tick-Borne Pathogens
 ------------------------------
 **March 8 - June 14, 2022**.  This webinar series, created in collaboration with our sister BRC, VEuPathDB, is geared towards researchers working on ticks and the bacterial, viral or eukaryotic pathogens they transmit. The webinars focus on highlighting data and bioinformatic tools provided by BV-BRC and VEuPathDB. `Full announcement and registration <https://veupathdb.org/veupathdb/app/static-content/tickwebinars.html>`_.
@@ -26,3 +15,14 @@ Ticks and Tick-Borne Pathogens
 * `Comparative genomics analysis of tick-transmitted bacteria uisng BV-BRC <https://www.youtube.com/watch?v=4BohhruNoTs&list=PLWfOyhOW_OatTq0-FQxH-bx3rlCm2PwF3&index=10>`_ (BV-BRC)
 * May 31, 2022: `Flaviviridae virus in ticks - registration <https://upenn.zoom.us/meeting/register/tJEqdu6gqDwiHNFKc-RPSoncdCFgk0VSNSWf>`_ (BV-BRC)
 * June 14, 2022: `RNA-Seq and SNP analysis of bacteria transmitted by ticks - registration <https://upenn.zoom.us/meeting/register/tJ0td-Gsqj0uHNeBNnLDJyomDsF1SKZjwHCv>`_ (BV-BRC)
+
+Introduction to BV-BRC
+----------------------
+**February 25 - April 1, 2022**. This webinar series provides overviews of each major aspect of the BV-BRC resource. The webinars were recorded and are available from the links below. `Original webinar announcement and schedule <https://www.bv-brc.org/docs/webinar/bv-brc_intro.html>`_.
+
+* `Introduction to BV-BRC <https://youtu.be/sPh9syjXpuA>`_
+* `Bacterial data in BV-BRC <https://youtu.be/efNsqDFFCi0>`_
+* `Viral data in BV-BRC <https://youtu.be/nyH7YdX5pPc>`_
+* `BV-BRC Workspace introduction and use <https://youtu.be/_kyo2uZ6g2c>`_
+* `Finding and working with data <https://youtu.be/gefGo7rVs9w>`_
+* `BV-BRC Analysis Services <https://youtu.be/E4kadbLooRk>`_

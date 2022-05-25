@@ -5,7 +5,8 @@ BV-BRC periodically offers live instructional webinars where users can participa
 
 Introduction to BV-BRC
 ----------------------
-This set of webinars, delivered in February - April 2022, provides overviews of each major aspect of the BV-BRC resource. The webinars were recorded and are available from the links below. `Original webinar announcement and schedule <https://www.bv-brc.org/docs/webinar/bv-brc_intro.html>`_.
+February 25 - April 1, 2022
+This set of webinars provides overviews of each major aspect of the BV-BRC resource. The webinars were recorded and are available from the links below. `Original webinar announcement and schedule <https://www.bv-brc.org/docs/webinar/bv-brc_intro.html>`_.
 
 * `Introduction to BV-BRC <https://youtu.be/sPh9syjXpuA>`_
 * `Bacterial data in BV-BRC <https://youtu.be/efNsqDFFCi0>`_
@@ -16,11 +17,14 @@ This set of webinars, delivered in February - April 2022, provides overviews of 
 
 Ticks and Tick-Borne Pathogens
 ------------------------------
-This set of webinars, created in collaboration with our sister BRC, VEuPathDB, is geared towards researchers working on ticks and the bacterial, viral or eukaryotic pathogens they transmit. The webinars focus on highlighting data and bioinformatic tools provided by BV-BRC and VEuPathDB. This webinar series is scheduled from March 8 - June 14. `Full announcement and registration <https://veupathdb.org/veupathdb/app/static-content/tickwebinars.html>`_.
+March 8 - June 14, 2022
+This set of webinars, created in collaboration with our sister BRC, VEuPathDB, is geared towards researchers working on ticks and the bacterial, viral or eukaryotic pathogens they transmit. The webinars focus on highlighting data and bioinformatic tools provided by BV-BRC and VEuPathDB. `Full announcement and registration <https://veupathdb.org/veupathdb/app/static-content/tickwebinars.html>`_.
 
 * `Ticks: How to analyze omics and field population data sets in VectorBase <https://www.youtube.com/watch?v=93Ci3UJ-yAU&t=1s>`_ (VEuPathDB)
 * `Analyzing Bunyavirales viruses in ticks using BV-BRC <https://www.youtube.com/watch?v=9IVaY5d6qdA&list=PLWfOyhOW_OatTq0-FQxH-bx3rlCm2PwF3&index=7>`_ (BV-BRC)
-* `
-
-
-
+* `Analyzing endosymbionts of ticks using BV-BRC <https://www.youtube.com/watch?v=lsDXu00IB_4&list=PLWfOyhOW_OatTq0-FQxH-bx3rlCm2PwF3&index=8>`_ (BV-BRC)
+* `Analysis of tick metagenomics samples using BV-BRC <https://www.youtube.com/watch?v=EpvW42kN-1c&list=PLWfOyhOW_OatTq0-FQxH-bx3rlCm2PwF3&index=9>`_ (BV-BRC)
+* `Resources for eukaryotic pathogens transmitted by ticks <https://www.youtube.com/watch?v=4gKJ62wOUi0&t=2089s>`_ (VEuPathDB)
+* `Comparative genomics analysis of tick-transmitted bacteria uisng BV-BRC <https://www.youtube.com/watch?v=4BohhruNoTs&list=PLWfOyhOW_OatTq0-FQxH-bx3rlCm2PwF3&index=10>`_ (BV-BRC)
+* May 31, 2022: Flaviviridae virus in ticks (BV-BRC) - `Click here to register <https://upenn.zoom.us/meeting/register/tJEqdu6gqDwiHNFKc-RPSoncdCFgk0VSNSWf>`_
+* June 14, 2022: RNA-Seq and SNP analysis of bacteria transmitted by ticks (BV-BRC) - `Click here to register <https://upenn.zoom.us/meeting/register/tJ0td-Gsqj0uHNeBNnLDJyomDsF1SKZjwHCv>`_

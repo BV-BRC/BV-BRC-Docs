@@ -18,9 +18,9 @@ Ticks and Tick-Borne Pathogens
 ------------------------------
 This set of webinars, created in collaboration with our sister BRC, VEuPathDB, is geared towards researchers working on ticks and the bacterial, viral or eukaryotic pathogens they transmit. The webinars focus on highlighting data and bioinformatic tools provided by BV-BRC and VEuPathDB. This webinar series is scheduled from March 8 - June 14. `Full announcement and registration <https://veupathdb.org/veupathdb/app/static-content/tickwebinars.html>`_.
 
-* `Ticks: How to analyze omics and field population data sets in VectorBase <https://www.youtube.com/watch?v=93Ci3UJ-yAU&t=1s>`_ (VEuPathDB: Mar 8, 2022)
-* `Analyzing Bunyavirales viruses in ticks using BV-BRC <https://www.youtube.com/watch?v=9IVaY5d6qdA&list=PLWfOyhOW_OatTq0-FQxH-bx3rlCm2PwF3&index=7>`_ (BV-BRC: Mar 22, 2022)
-* 
+* `Ticks: How to analyze omics and field population data sets in VectorBase <https://www.youtube.com/watch?v=93Ci3UJ-yAU&t=1s>`_ (VEuPathDB)
+* `Analyzing Bunyavirales viruses in ticks using BV-BRC <https://www.youtube.com/watch?v=9IVaY5d6qdA&list=PLWfOyhOW_OatTq0-FQxH-bx3rlCm2PwF3&index=7>`_ (BV-BRC)
+* `
 
 
 

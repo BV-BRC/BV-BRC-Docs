@@ -15,6 +15,7 @@ BV-BRC Documentation
    cli_tutorial/index
    test_procedures/index
    webinar/index
+   workshops/index
    .. faqs_common_tasks/index
 
 .. toctree::

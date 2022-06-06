@@ -18,10 +18,14 @@ If you wish to participate, please fill out the “Argonne Visitor Request” fo
 
 After you have completed registration, please send a mail to Lisa Hundley ( lhundley@anl.gov ) to confirm your registration.
 
-**Note:** Please note the COVID-19 restrictions and safety guidance currently in place at the Argonne National Laboratory.
-* All visitors must be fully vaccinated or provide accepted proof of negative COVID-19 test results that are less than 72 hours old. 
+**Note:** *Please note the COVID-19 restrictions and safety guidance currently in place at the Argonne National Laboratory.*
+
+* All visitors must be fully vaccinated or provide accepted proof of negative COVID-19 test results that are less than 72 hours old.
+
 * Face coverings are required, except to the extent necessary to eat or drink when maintaining appropriate physical distance, or when an individual is isolated in an enclosed space.
-* We will keep the desks at least 6 feet apart from each other at the workshop venue to maintain safe physical distance.   
+
+* We will keep the desks at least 6 feet apart from each other at the workshop venue to maintain safe physical distance.
+
 * There are outdoor seating areas with gazebos, which can be used during breaks and lunch time. Face coverings may be removed while outside and socially distancing.   
 
 

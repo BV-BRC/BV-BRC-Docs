@@ -175,6 +175,10 @@ Day 3 - Thursday, July 21
 
   10:45 am   Job submission via the command line
 
-  11:45 am   Question and Answer Session and Hands on Work
+  12:00 pm   Lunch
 
-  12:30 pm   Workshop Concludes
+   1:00 pm   Working on specific use cases and participant data
+
+   4:00 pm   Final questions
+
+   5:00 pm   Workshop concludes

@@ -5,7 +5,9 @@ The Taxonomic Classification Service accepts reads or contigs from sequencing of
 
 ### See also
   * [Taxonomic Classification Service](https://bv-brc.org/app/TaxonomicClassification)
-  * [Taxonomic Classification Service Tutorial](../tutorial/taxonomic_classification/taxonomic_classification.html)
+  * [Taxonomic Classification Service Tutorial](../../tutorial/taxonomic_classification/taxonomic_classification.html)
+
+/tutorial/taxonomic_classification/taxonomic_classification.html
 
 ## Using the Taxonomic Classification Service
 The **Taxonomic Classification** submenu option under the **Services** main menu (Metagenomics category) opens the Taxonomic Classification input form (shown below). *Note: You must be logged into BV-BRC to use this service.*

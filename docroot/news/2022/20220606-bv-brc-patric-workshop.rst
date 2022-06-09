@@ -11,7 +11,7 @@ BV-BRC (PATRIC & IRD/ViPR) Workshop at Argonne National Laboratory, July 19-21, 
 .. role:: notice-header
      :class: notice-header
 
-:notice-header:`Notice: We have reached the limit for the maximum number of in-person participants for this workshop.`
+:notice-header:`NOTICE: We have reached the limit for the maximum number of in-person participants for this workshop.`
 
 .. role:: notice-body
      :class: notice-body

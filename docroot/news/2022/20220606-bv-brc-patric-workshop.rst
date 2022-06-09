@@ -22,15 +22,6 @@ The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be off
 
 .. cut::
 
-.. role:: strike
-    :class: strike
-
-:strike:`The workshop will be limited to 40 people on a first-come, first-served basis. There is no fee for the workshop, but participants are responsible for their own travel expenses, accommodation, and meals.`
-
-:strike:`If you wish to participate, please fill out the “Argonne Visitor Request” form at: https://apps.anl.gov/registration/visitors as soon as possible — especially non-U.S. Citizens, since they will take additional time to be cleared. Please enter Lisa Hundley, lhundley@anl.gov, for the “Sponsor’s E-mail Address.”`
-
-After you have completed registration, please send a mail to Lisa Hundley ( lhundley@anl.gov ) to confirm your registration.
-
 **Note:** *Please note the COVID-19 restrictions and safety guidance currently in place at the Argonne National Laboratory.*
 
 * All visitors must be fully vaccinated or provide accepted proof of negative COVID-19 test results that are less than 72 hours old.

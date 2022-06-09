@@ -20,6 +20,15 @@ p {
     text-decoration: line-through;
 }
 
+.notice-header {
+    font-size: 18px;
+    color: #3a7ca8;
+}
+
+.notice-body {
+    font-size: 18px;
+}
+
 .registration-link {
     font-size: 18px;
 }

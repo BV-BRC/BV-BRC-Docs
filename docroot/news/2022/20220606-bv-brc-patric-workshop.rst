@@ -11,10 +11,16 @@ BV-BRC (PATRIC & IRD/ViPR) Workshop at Argonne National Laboratory, July 19-21, 
 The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a **Bioinformatics Workshop on July 19-21, 2022, at Argonne National Laboratory** in the suburbs of Chicago, IL. The workshop will show researchers how to use the new BV-BRC website, which is a merger of the two long running bacterial and viral BRC resources, PATRIC and IRD/ViPR, respectively. The workshop will consist of interactive hands-on training sessions. During the first two days, participants will learn how to search for public datasets of interest and perform genomic, comparative genomic, metagenomic, and transcriptomic analysis using various analysis services and tools at BV-BRC. The third day of the workshop will focus on using command-line interface for programmatic search and retrieval of the data and job submissions, as well as users working with their own data and analysis problems with the help from the BV-BRC team members.
 
 .. cut::
+   
+**Notice: We have reached the limit for the maximum number of in-person participants for this workshop.**
+Due to high interest, we are checking on the feasibility of supporting a limited number of participants remotely via web conference (e.g., Zoom). We will post information here as soon as we have that information.
 
-The workshop will be limited to 40 people on a first-come, first-served basis. There is no fee for the workshop, but participants are responsible for their own travel expenses, accommodation, and meals. 
+.. role:: strike
+    :class: strike
 
-If you wish to participate, please fill out the “Argonne Visitor Request” form at: https://apps.anl.gov/registration/visitors as soon as possible — especially non-U.S. Citizens, since they will take additional time to be cleared. Please enter Lisa Hundley, lhundley@anl.gov, for the “Sponsor’s E-mail Address.”
+:strike:`The workshop will be limited to 40 people on a first-come, first-served basis. There is no fee for the workshop, but participants are responsible for their own travel expenses, accommodation, and meals.`
+
+:strike:`If you wish to participate, please fill out the “Argonne Visitor Request” form at: https://apps.anl.gov/registration/visitors as soon as possible — especially non-U.S. Citizens, since they will take additional time to be cleared. Please enter Lisa Hundley, lhundley@anl.gov, for the “Sponsor’s E-mail Address.”`
 
 After you have completed registration, please send a mail to Lisa Hundley ( lhundley@anl.gov ) to confirm your registration.
 

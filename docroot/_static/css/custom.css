@@ -16,6 +16,10 @@ p {
     color: #454545;
 }
 
+.strike {
+    text-decoration: line-through;
+}
+
 .registration-link {
     font-size: 18px;
 }

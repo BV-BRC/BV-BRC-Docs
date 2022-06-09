@@ -20,7 +20,13 @@ p {
     text-decoration: line-through;
 }
 
-.notice {
+.notice-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3a7ca8;
+}
+
+.notice-body {
     font-size: 18px;
 }
 

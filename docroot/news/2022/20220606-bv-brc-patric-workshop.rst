@@ -12,8 +12,8 @@ The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be off
 
 .. cut::
    
-**Notice: We have reached the limit for the maximum number of in-person participants for this workshop.**
-Due to high interest, we are checking on the feasibility of supporting a limited number of participants remotely via web conference (e.g., Zoom). We will post information here as soon as we have that information.
+| **Notice: We have reached the limit for the maximum number of in-person participants for this workshop.**
+| Due to high interest, we are checking on the feasibility of supporting a limited number of participants remotely via web conference (e.g., Zoom). We will post information here as soon as we have that information.
 
 .. role:: strike
     :class: strike

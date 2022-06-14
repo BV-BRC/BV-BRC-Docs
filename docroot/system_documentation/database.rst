@@ -1,5 +1,3 @@
-:github_url: https://github.com/PATRIC3/p3_docs/blob/master/docroot/system_documentation/database.rst
-
 Database
 =========
 
@@ -11,7 +9,7 @@ See **Data Section** for list and description of data types supported.
 Database Schema
 ----------------
 
-The primary data store for PATRIC is a distributed SolrCloud database. The SolrCloud configuration allows "collections" to be defined using xml schema files. These collection definitions, combined with the data indexes are deployed on one or more SolrCloud hosts. Multiple machines can utilize the same set of collections and/or indexes to address scalability, high availability and higher throughput and query performance by allowing more concurrent queries. 
+The primary data store for BV-BRC is a distributed SolrCloud database. The SolrCloud configuration allows "collections" to be defined using xml schema files. These collection definitions, combined with the data indexes are deployed on one or more SolrCloud hosts. Multiple machines can utilize the same set of collections and/or indexes to address scalability, high availability and higher throughput and query performance by allowing more concurrent queries. 
 
 Below is a list of the collections and the main fields/attributes available in each collection. Refer to https://github.com/PATRIC3/patric_solr_cloud for the most updated configurations and schemas.
 
@@ -50,7 +48,7 @@ Below is a list of the collections and the main fields/attributes available in e
 Data Dictionaries
 -----------------
 
-PATRIC uses several data dictionaries to support controlled vocabularies for certain biological entities and annotations, which provide consistent naming across data from heterogenous sources for more efficient search and query. 
+BV-BRC uses several data dictionaries to support controlled vocabularies for certain biological entities and annotations, which provide consistent naming across data from heterogenous sources for more efficient search and query. 
 
 The following Collections store such data dictionaries and related information. 
 

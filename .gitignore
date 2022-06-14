@@ -5,3 +5,4 @@ docroot/_build/
 .project
 /.pydevproject
 /.settings/
+env/

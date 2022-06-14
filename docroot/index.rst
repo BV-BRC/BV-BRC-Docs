@@ -29,8 +29,6 @@ BV-BRC Documentation
    :maxdepth: 2
    :caption: System Documentation:
 
-   usage_metrics.md
-   test_procedures/index
    system_documentation/data
    system_documentation/database
    system_documentation/data_dictionaries
@@ -39,6 +37,8 @@ BV-BRC Documentation
    system_documentation/system_architecture
    system_documentation/documentation
    system_architecture/accounts
+   test_procedures/index
+   usage_metrics.md
    
 
    

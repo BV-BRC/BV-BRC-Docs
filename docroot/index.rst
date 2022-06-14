@@ -5,6 +5,14 @@ BV-BRC Documentation
 
 .. toctree::
    :maxdepth: 2
+   :caption: Updates and Reports
+
+   news/index
+   analysis_reports.md
+
+
+.. toctree::
+   :maxdepth: 2
    :caption: Help Resources:
 
    overview
@@ -13,21 +21,17 @@ BV-BRC Documentation
    quick_references/index
    tutorial/index
    cli_tutorial/index
-   test_procedures/index
    webinar/index
    .. workshops/index
    .. faqs_common_tasks/index
 
 .. toctree::
    :maxdepth: 2
-   :caption: Other Information:
+   :caption: System Documentation:
 
-   news/index
+   test_procedures/index
+   usage_metrics.md
+   
 
+   
 
-..
-   privacy_policy
-
-..   
-   videos/index
-   workshops

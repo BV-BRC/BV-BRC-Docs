@@ -29,14 +29,7 @@ BV-BRC Documentation
    :maxdepth: 2
    :caption: System Documentation:
 
-   system_documentation/data
-   system_documentation/database
-   system_documentation/data_dictionaries
-   system_documentation/capabilities_and_functionality
-   system_documentation/software_tools_and_code
    system_documentation/system_architecture
-   system_documentation/documentation
-   system_architecture/accounts
    test_procedures/index
    usage_metrics.md
    

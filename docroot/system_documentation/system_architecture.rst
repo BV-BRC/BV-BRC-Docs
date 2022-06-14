@@ -1,48 +1,46 @@
-:github_url: https://github.com/PATRIC3/p3_docs/blob/master/docroot/system_documentation/system_architecture.rst
-
 System Architecture
 ====================
 
 Overview
 --------
-From a user's perspective, the PATRIC systems are primarily interfaced through the PATRIC website using a standard modern web browser. The PATRIC website server software is designed to be hosted by industry standard application containers and is deployable in a number of different configurations. The server software, as well as the client interface (browser application) rely upon a number of additional systems in order to successfully build, deploy, and provide querying and analysis services to these applications.
+From a user's perspective, the BV-BRC systems are primarily interfaced through the BV-BRC website using a standard modern web browser. The BV-BRC website server software is designed to be hosted by industry standard application containers and is deployable in a number of different configurations. The server software, as well as the client interface (browser application) rely upon a number of additional systems in order to successfully build, deploy, and provide querying and analysis services to these applications.
 
-Direct support for the website application is provided by a number of different databases and services. These services typically support the interactive capabilities of the website and its users. For example, Solr database instances provide all of the scientific querying capabilities against the PATRIC data. The PATRIC website and application aggregates the data and capabilities of PATRIC services to present them interactively to the user.
+Direct support for the website application is provided by a number of different databases and services. These services typically support the interactive capabilities of the website and its users. For example, Solr database instances provide all of the scientific querying capabilities against the BV-BRC data. The BV-BRC website and application aggregates the data and capabilities of BV-BRC services to present them interactively to the user.
 
-Several other key components are used—and are critical—to the PATRIC project, but don't directly support the PATRIC website itself in production. This includes data analysis services, software, and databases used to collect, analyze and annotate PATRIC data prior to release and deployment to the production PATRIC website. Additionally, software and/or scripts to manage the data, services, and database loading and extraction are required.
+Several other key components are used—and are critical—to the BV-BRC project, but don't directly support the BV-BRC website itself in production. This includes data analysis services, software, and databases used to collect, analyze and annotate BV-BRC data prior to release and deployment to the production BV-BRC website. Additionally, software and/or scripts to manage the data, services, and database loading and extraction are required.
 
 Software Architecture
 ----------------------
 
-The Software Architecture section of this document describes the general use and interaction of the components that make up the PATRIC website and its direct and indirect components. Some components of the architecture are third-party components and their architectures and deployment will not be detailed here except where relevant to the understanding of the overall architecture described by the PATRIC Systems Documentation.
+The Software Architecture section of this document describes the general use and interaction of the components that make up the BV-BRC website and its direct and indirect components. Some components of the architecture are third-party components and their architectures and deployment will not be detailed here except where relevant to the understanding of the overall architecture described by the BV-BRC Systems Documentation.
 
-PATRIC Website
+BV-BRC Website
 ---------------
 
 The Browser Application
 ########################
 
-The user's web browser is the host of the entire PATRIC website, which is more accurately described as a Web Application. Logically, the set of pages that the PATRIC Web Server's provide make up the entirety of the PATRIC Web Application. A user's state is maintained across all of these pages at any one time and from the user's perspective they are navigating through the interactive space of PATRIC. Each page can be considered to be hosting one or more individual applications that communicate with the web server to provide an interactive experience
+The user's web browser is the host of the entire BV-BRC website, which is more accurately described as a Web Application. Logically, the set of pages that the BV-BRC Web Server's provide make up the entirety of the BV-BRC Web Application. A user's state is maintained across all of these pages at any one time and from the user's perspective they are navigating through the interactive space of BV-BRC. Each page can be considered to be hosting one or more individual applications that communicate with the web server to provide an interactive experience
 
-The browser application is written with ECMAScript (Javascript, JS) and DojoJS. It communicates with the server via HTTP Requests (AJAX). The browser application is part of the PATRIC Server application and intermingled with other content on pages generated by the PATRIC Server. However, browser application run in the user's web browser, on a different network endpoint from the server, may be restarted (when a page reloads) at any time, may be composed of "mashup" data from external sites, and so they require independent consideration from the server side of the PATRIC website.
+The browser application is written with ECMAScript (Javascript, JS) and DojoJS. It communicates with the server via HTTP Requests (AJAX). The browser application is part of the BV-BRC Server application and intermingled with other content on pages generated by the BV-BRC Server. However, browser application run in the user's web browser, on a different network endpoint from the server, may be restarted (when a page reloads) at any time, may be composed of "mashup" data from external sites, and so they require independent consideration from the server side of the BV-BRC website.
 
 The browser application provides full support to common modern web browsers, with support for specific UI functionalities degrading when not supported by the underlying browser. Instead of requiring all users to conform to a specific set of browsers to use the website at all, we prefer to provide the best support possible for modern browsers, and support for older browsers via fallback mechanisms or degraded functionality. Browsers known to currently work are Chrome, Firefox, Safari, and IE7+. Some applications (pages) may require Flash for fully functionality.
 
-Source Code: https://github.com/PATRIC3/p3_web
+Source Code: https://github.com/BV-BRC/bvbrc_website
 
 Web Application Server
 #######################
 
 This component serves the web content to client browsers. It is currently comprised an ExpressJS application running in a NodeJS webserver. It serves HTML, CSS, Javascript, and images to client browsers. The bulk of the user interface is implemented in Browser Application, which itself is built upon the Dojo javascript library.
 
-Source Code: https://github.com/PATRIC3/p3_web
+Source Code: https://github.com/BV-BRC/bvbrc_website
 
 Static Content
 ###############
 
-Static content refers to electronic documents contains website Use Case / Tutorial, command line interface Use Case / Tutorial, Quick Reference Guides and PATRIC news. The contents of these documents are served independently of the main web server software and are publicly accessible. This site provides an RSS feed, which the main website application consumes and displays on its front page. Files are converted to html using the Python-based `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ documentation generator. The files are stored in the PATRIC GitHub repository.
+Static content refers to electronic documents contains website Use Case / Tutorial, command line interface Use Case / Tutorial, Quick Reference Guides and BV-BRC news. The contents of these documents are served independently of the main web server software and are publicly accessible. This site provides an RSS feed, which the main website application consumes and displays on its front page. Files are converted to html using the Python-based `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ documentation generator. The files are stored in the BV-BRC GitHub repository.
 
-Source Code: https://github.com/PATRIC3/p3_docs
+Source Code: https://github.com/BV-BRC/bvbrc_docs
 
 Workspace
 ##########
@@ -53,7 +51,7 @@ Source Code: https://github.com/PATRIC3/Workspace
 
 **Workspace API:**
 
-The Workspace is connected to the rest of the PATRIC tools and website via a programmatic JSON RPC API. 
+The Workspace is connected to the rest of the BV-BRC tools and website via a programmatic JSON RPC API. 
 
 The API has 11 commands:
 
@@ -73,7 +71,7 @@ The associated resource is: https://p3.theseed.org/services/Workspace
 
 **Data formats:**
 
-Objects of any type may be stored in the workspace, but most typically objects are simple text files, often stored in JSON format. Additionally, all objects are assigned a type (e.g., Genome, Model, FeatureSet), and this type indicates how the object is treated when viewed on the PATRIC website, as well as the handling of the object by automated processing scripts built into the workspace. The types accepted by the workspace are configurable and completely extensible.
+Objects of any type may be stored in the workspace, but most typically objects are simple text files, often stored in JSON format. Additionally, all objects are assigned a type (e.g., Genome, Model, FeatureSet), and this type indicates how the object is treated when viewed on the BV-BRC website, as well as the handling of the object by automated processing scripts built into the workspace. The types accepted by the workspace are configurable and completely extensible.
 
 **Database structure:**
 
@@ -85,12 +83,12 @@ When an object is saved to the workspace, it always undergoes a processing step,
 
 **Download service:**
 
-In order to support transparent and efficient downloading of data files from the workspace, the Download Service allows the PATRIC website to provide URL-based access to private files in the workspace. Access to these URLs do not require a password; to ensure privacy, they are un-guessable hashes and are only valid for a short time. 
+In order to support transparent and efficient downloading of data files from the workspace, the Download Service allows the BV-BRC website to provide URL-based access to private files in the workspace. Access to these URLs do not require a password; to ensure privacy, they are un-guessable hashes and are only valid for a short time. 
 
 Data API
 #########
 
-The data API provides access to querying, retrieval, and indexing of public PATRIC data and for private annotated data. The API provides a REST interface to the rich data PATRIC provides. The data can be retrieved directly by ID or it can be queried using the Request Query Language (RQL) syntax or using Solr syntax. As queries are submitted to the API they are modified and submitted to the backend data sources (Solr) to retrieve the data that is visible to the user. Users are able to view public data, any data they own, or any data that another user has shared with them.
+The data API provides access to querying, retrieval, and indexing of public BV-BRC data and for private annotated data. The API provides a REST interface to the rich data BV-BRC provides. The data can be retrieved directly by ID or it can be queried using the Request Query Language (RQL) syntax or using Solr syntax. As queries are submitted to the API they are modified and submitted to the backend data sources (Solr) to retrieve the data that is visible to the user. Users are able to view public data, any data they own, or any data that another user has shared with them.
 
 Source Code: https://github.com/PATRIC3/p3_api
 
@@ -103,91 +101,49 @@ The data API has two functions for each data type:
 
 The associated resources are, respectively:
 
-- https://www.patricbrc.org/api/{{data type}}/{{ id }}
-- https://www.patricbrc.org/api/{{ data type }}/?{{ query }}
+- https://www.bv-brc.org/api/{{data type}}/{{ id }}
+- https://www.bv-brc.org/api/{{ data type }}/?{{ query }}
 
 In addition to the API for querying and retrieving data, there is also an API endpoint for submitting new data to the system to be indexed in the database.
 
 Command-line Interface (CLI)
 ############################
 
-PATRIC is an integration of different types of data and software tools that support research on bacterial pathogens. The typical biologist seeking access to the PATRIC data and tools will usually explore the web-based user interface. However, there are many instances in which programatic or command-line interfaces are more suitable, specially for querying data or submitting jobs in batch mode. For users that wish command-line access to PATRIC, we provide the tools described in this document. We call these tools the P3-scripts. They are intended to run on your machine, going over the network to access the services provided by PATRIC.
+BV-BRC is an integration of different types of data and software tools that support research on bacterial pathogens. The typical biologist seeking access to the BV-BRC data and tools will usually explore the web-based user interface. However, there are many instances in which programatic or command-line interfaces are more suitable, specially for querying data or submitting jobs in batch mode. For users that wish command-line access to BV-BRC, we provide the tools described in this document. We call these tools the P3-scripts. They are intended to run on your machine, going over the network to access the services provided by BV-BRC.
 
 Source Code and Client Application: https://github.com/PATRIC3/PATRIC-distribution/ 
-
-Currently, the following commands are available to the community:
-
-========================  ===========================  =================================
-p3-abstract-clusters      p3-get-feature-sequence      p3-put-genome-group
-p3-aggregate-sss          p3-get-features-by-sequence  p3-rast
-p3-aggregates-to-html     p3-get-genome-contigs        p3-related-by-clusters
-p3-all-drugs              p3-get-genome-data           p3-rep-prots
-p3-all-genomes            p3-get-genome-drugs          p3-rm
-p3-blast                  p3-get-genome-expression     p3-rmdir
-p3-build-kmer-db          p3-get-genome-features       p3-role-matrix
-p3-closest-seqs           p3-get-genome-group          p3-sequence-profile
-p3-co-occur               p3-gto                       p3-set-to-relation
-p3-collate                p3-gto-dna                   p3-signature-clusters
-p3-config                 p3-gto-fasta                 p3-signature-families
-p3-count                  p3-gto-scan                  p3-signature-peginfo
-p3-count-families         p3-head                      p3-similar-proteins-by-blast
-p3-cp                     p3-identical-dna             p3-similar-proteins-by-family
-p3-drug-amr-data          p3-identical-proteins        p3-sort
-p3-echo                   p3-identify-clusters         p3-stats
-p3-extract                p3-inAandB                   p3-submit-genome-annotation
-p3-extract-gto            p3-inAnotB                   p3-submit-genome-assembly
-p3-feature-gap            p3-inAorB                    p3-tbl-to-fasta
-p3-feature-upstream       p3-job-status                p3-tbl-to-html
-p3-file-filter            p3-join                      p3-tests
-p3-find-couples           p3-kmer-compare              p3-whoami
-p3-find-features          p3-list-feature-groups
-p3-find-in-clusters       p3-list-genome-groups
-p3-format-results         p3-login
-p3-function-to-role       p3-logout
-p3-generate-close-roles   p3-ls
-p3-generate-clusters      p3-mass-cluster-run
-p3-genome-amr-data        p3-match
-p3-genome-fasta           p3-merge
-p3-genus-species          p3-mkdir
-p3-get-contig-data        p3-pick
-p3-get-drug-genomes       p3-project-subsystems
-p3-get-family-data        p3-put-feature-group
-p3-get-family-features    
-p3-get-feature-data       
-p3-get-feature-group      
-========================  ===========================  =================================
 
 Databases
 ##########
 
-PATRIC data is stored `Solr <http://lucene.apache.org/solr/>`_ and indexed in its entirety (all fields) as PATRIC releases data. Solr then provides read-only searching services to both the server and browser side of the PATRIC via HTTP requests. A standard Solr 6 installation can host the PATRIC data, but the deployment of Solr can be accomplished in a number of different ways that can have a dramatic impact on performance for many of the PATRIC activities. 
+BV-BRC data is stored `Solr <http://lucene.apache.org/solr/>`_ and indexed in its entirety (all fields) as BV-BRC releases data. Solr then provides read-only searching services to both the server and browser side of the BV-BRC via HTTP requests. A standard Solr 6 installation can host the BV-BRC data, but the deployment of Solr can be accomplished in a number of different ways that can have a dramatic impact on performance for many of the BV-BRC activities. 
 The performance of the Solr service is heavily memory dependent. It is important, at a minimum, to be able to fit the entire set of data indexes into memory. Additionally, cache and other such tunable parameters can require additional memory. In any deployment, this physical limitation of the available resources is likely to be one of the key defining factors for Solr configuration and performance.
 
 Source Code: https://github.com/PATRIC3/patric_solr_cloud
 
 User Service
 ############
-The user service provides user profile management and authentication for the PATRIC system. The user system provides a REST interface to read and modify a user's profile. It also provides authentication services for the PATRIC web application and related components. The backend services consume authentication tokens that are generated by the user service.
+The user service provides user profile management and authentication for the BV-BRC system. The user system provides a REST interface to read and modify a user's profile. It also provides authentication services for the BV-BRC web application and related components. The backend services consume authentication tokens that are generated by the user service.
 
 Source Code: https://github.com/PATRIC3/p3_user
 
 Web/Proxy Server
 #################
 
-All PATRIC websites and web applications run behind a web server which is used to host static files, proxy requests to underlying application servers, and in some cases load balancing among web server instances. This component is not strictly required for deployment of the PATRIC infrastructure in basic form, but greatly simplifies deployment and is the current method used for load balancing.
+All BV-BRC websites and web applications run behind a web server which is used to host static files, proxy requests to underlying application servers, and in some cases load balancing among web server instances. This component is not strictly required for deployment of the BV-BRC infrastructure in basic form, but greatly simplifies deployment and is the current method used for load balancing.
 `NGINX <http://nginx.org/>`_ is deployed on hosts with websites on the standard HTTP and HTTPS ports (80,443), while the underlying applications are deployed on unused ports. nginx is then configured to proxy requests to these localhosts using its Named Virtual Hosting system.
 
 
 App Service
 ############
 
-The PATRIC resource supports a number of computational services (e.g., genome assembly and annotation, model production, etc.). These services are hosted on an extensible set of computational resources at Argonne. The interface between the user’s interaction with the PATRIC website and the computational resources is called the App Service. The App Service presents a unified view of all supported services, allowing the user to submit requests, monitor progress, and view results within a common framework on the PATRIC website. For the developers, the App Service enables the development of new applications without the need to handle the details of process execution and management.
+The BV-BRC resource supports a number of computational services (e.g., genome assembly and annotation, model production, etc.). These services are hosted on an extensible set of computational resources at Argonne. The interface between the user’s interaction with the BV-BRC website and the computational resources is called the App Service. The App Service presents a unified view of all supported services, allowing the user to submit requests, monitor progress, and view results within a common framework on the BV-BRC website. For the developers, the App Service enables the development of new applications without the need to handle the details of process execution and management.
 
 Source Code: https://github.com/PATRIC3/app_service
 
 App Service API:
 
-The App Service is connected to the rest of the PATRIC tools and website via a programmatic JSON RPC API. 
+The App Service is connected to the rest of the BV-BRC tools and website via a programmatic JSON RPC API. 
 The API has 6 commands:
 
 - enumerate_apps
@@ -202,7 +158,7 @@ The associated resource is: https://p3.theseed.org/services/app_service
 Hardware Deployment
 ####################
 
-The hardware hosted at Argonne National Laboratory on behalf of the University of Chicago’s bioinformatics computing core supporting the PATRIC services are as follows:
+The hardware hosted at Argonne National Laboratory on behalf of the University of Chicago’s bioinformatics computing core supporting the BV-BRC services are as follows:
 
 - Production support services
 
@@ -244,7 +200,7 @@ The hardware hosted at Argonne National Laboratory on behalf of the University o
 
   - 2 systems, each 4 CPUs, 64GB RAM, 10Gb network
 
-Storage is provided to the above systems through Fibre Channel SAN storage. The SOLR portion of PATRIC and the FTP site are currently consuming approximately 10 TB of storage.
+Storage is provided to the above systems through Fibre Channel SAN storage. The SOLR portion of BV-BRC and the FTP site are currently consuming approximately 10 TB of storage.
 
 
 

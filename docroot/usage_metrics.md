@@ -1,2 +1,16 @@
 # Usage Metrics
-As part of the new Bacterial and Viral Bioinformatics Center (BV-BRC), which combines the resources of PATRIC with those of the Influenza Resource Database (IRD) and Virus Pathogen Resource (ViPR), we are now reporting unified monthly usage and performance metrics. The latest Usage Metrics and Performance Metrics reports are available from the <a href="https://bv-brc.org/about">BV-BRC About page<a/>. 
+
+[BV-BRC Website Statistics](https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?config=All_BVBRC_Combined)
+
+## Performance Metrics
+
+[BV-BRC Performance Metrics Report - January 2022](_static/files/metrics_reports/bv-brc-performance-metrics-report-january-2022)
+[BV-BRC Performance Metrics Report - February 2022](_static/files/metrics_reports/bv-brc-performance-metrics-report-february-2022)
+[BV-BRC Performance Metrics Report - March 2022](_static/files/metrics_reports/bv-brc-performance-metrics-report-march-2022)
+
+## Usage Metrics
+
+[BV-BRC Usage Metrics Report - January 2022](_static/files/metrics_reports/bv-brc-usage-metrics-report-january-2022)
+[BV-BRC Usage Metrics Report - February 2022](_static/files/metrics_reports/bv-brc-usage-metrics-report-february-2022)
+[BV-BRC Usage Metrics Report - March 2022](_static/files/metrics_reports/bv-brc-usage-metrics-report-march-2022)
+

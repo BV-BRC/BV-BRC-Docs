@@ -16,6 +16,20 @@ p {
     color: #454545;
 }
 
+.strike {
+    text-decoration: line-through;
+}
+
+.notice-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3a7ca8;
+}
+
+.notice-body {
+    font-size: 18px;
+}
+
 .registration-link {
     font-size: 18px;
 }

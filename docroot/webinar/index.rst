@@ -13,7 +13,7 @@ Ticks and Tick-Borne Pathogens
 * `Analysis of tick metagenomics samples using BV-BRC <https://youtu.be/EpvW42kN-1c>`_ (BV-BRC)
 * `Resources for eukaryotic pathogens transmitted by ticks <https://youtu.be/4gKJ62wOUi0>`_ (VEuPathDB)
 * `Comparative genomics analysis of tick-transmitted bacteria uisng BV-BRC <https://youtu.be/4BohhruNoTs>`_ (BV-BRC)
-* `Flaviviridae virus in ticks - registration <https://youtu.be/v_xw06GPso8>`_ (BV-BRC)
+* `Flaviviridae virus in ticks <https://youtu.be/v_xw06GPso8>`_ (BV-BRC)
 * `SNP and RNA-Seq analysis of bacteria transmitted by ticks - <https://youtu.be/4HnDM_KJg4U>`_ (BV-BRC)
 
 Introduction to BV-BRC

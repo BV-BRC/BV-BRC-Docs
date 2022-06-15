@@ -11,12 +11,12 @@ BV-BRC (PATRIC & IRD/ViPR) Workshop at Argonne National Laboratory, July 19-21, 
 .. role:: notice-header
      :class: notice-header
 
-:notice-header:`NOTICE: We have reached the limit for the maximum number of in-person participants for this workshop.`
+:notice-header:`NOTICE:`
 
 .. role:: notice-body
      :class: notice-body
 
-:notice-body:`Due to high interest, we are checking on the feasibility of supporting a limited number of participants remotely via web conference (e.g., Zoom). We will post information here as soon as we have that information.`
+:notice-body:`Dear users, we have reached the limit for the maximum number of in-person participants for this workshop. Due to high interest, we are offering virtual participation option via Zoom to a limited number of participants (30 maximum). If you would like to attend the workshop virtually, please register by sending an email to Lisa Hundley (lhundley@anl.gov).`
 
 The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a **Bioinformatics Workshop on July 19-21, 2022, at Argonne National Laboratory** in the suburbs of Chicago, IL. The workshop will show researchers how to use the new BV-BRC website, which is a merger of the two long running bacterial and viral BRC resources, PATRIC and IRD/ViPR, respectively. The workshop will consist of interactive hands-on training sessions. During the first two days, participants will learn how to search for public datasets of interest and perform genomic, comparative genomic, metagenomic, and transcriptomic analysis using various analysis services and tools at BV-BRC. The third day of the workshop will focus on using command-line interface for programmatic search and retrieval of the data and job submissions, as well as users working with their own data and analysis problems with the help from the BV-BRC team members.
 

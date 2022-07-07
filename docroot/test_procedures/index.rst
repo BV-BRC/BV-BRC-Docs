@@ -36,6 +36,20 @@ Test Procedure Reports
 | `A8 Service - Similar Genome Finder - Bacteria Test Report (PDF) <../_static/files/test_procedures/a8-service-similar-genome-finder-bacteria-test-report.pdf>`_
 | `A9 Service - metaCATS Test Report (PDF) <../_static/files/test_procedures/a9-service-metacats-test-report.pdf>`_
 | `A10 Service - Phylogenetic Tree - Bacteria Test Report (PDF) <../_static/files/test_procedures/a10-service-phylogenetic-tree-bacteria-test-report.pdf>`_
+| `A11 Service - Genome Alignment - Bacteria Test Report (PDF) <../_static/files/test_procedures/a11-service-genome-alignment-bacteria-test-report.pdf>`_
+| `A12 Service - Primer Design Test Report (PDF) <../_static/files/test_procedures/a12-service-primer-design-test-report.pdf>`_
+| `A13 Service - Variation Analysis - Bacteria Test Report (PDF) <../_static/files/test_procedures/a13-service-variation-analysis-bacteria-test-report.pdf>`_
+| `A14 Service - Tn-Seq - Bacteria Test Report (PDF) <../_static/files/test_procedures/a14-service-tn-seq-analysis-bacteria-test-report.pdf>`_
+| `A15 Service - MSA and SNP Analysis Test Report (PDF) <../_static/files/test_procedures/a15-service-msa-test-report.pdf>`_
+| `A16 Service - Gene Tree Test Report (PDF) <../_static/files/test_procedures/a16-service-gene-tree-test-report.pdf>`_
+| `A17 Service - Proteome Comparison - Bacteria Test Report (PDF) <../_static/files/test_procedures/a17-service-proteome-comparison-bacteria-test-report.pdf>`_
+| `A18 Service - Metagenomic Read Mapping Test Report (PDF) <../_static/files/test_procedures/a18-service-metagenomic-read-mapping-test-report.pdf>`_
+| `A19 Service - Taxonomic Classification Test Report (PDF) <../_static/files/test_procedures/a19-service-taxonomic-classification-test-report.pdf>`_
+| `A20 Service - Metagenomic Binning Test Report (PDF) <../_static/files/test_procedures/a20-service-metagenomic-binning-test-report.pdf>`_
+| `A21 Service - Expression Import - Bacteria Test Report (PDF) <../_static/files/test_procedures/a21-service-expression-import-bacteria-test-report.pdf>`_
+| `A22 Service - RNA-Seq Analysis - Bacteria Test Report (PDF) <../_static/files/test_procedures/a22-service-rna-seq-analysis-bacteria-test-report.pdf>`_
+| `A23 Service - ID Mapper - Bacteria Test Report (PDF) <../_static/files/test_procedures/a23-service-id-mapper-bacteria-test-report.pdf>`_
+| `A24 Service - Fastq Utilities Test Report (PDF) <../_static/files/test_procedures/a24-service-fastq-utilities-test-report.pdf>`_
 
 **Workspace**
 

@@ -20,6 +20,10 @@ p {
     text-decoration: line-through;
 }
 
+.p-text-size {
+    font-size: 14px;
+}
+
 .notice-header {
     font-size: 18px;
     font-weight: bold;

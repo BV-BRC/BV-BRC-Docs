@@ -13,21 +13,20 @@ Plans and Reports
 Test Procedure Reports
 ----------------------
 
-Searches
-+++++++++
+**Searches**
 
 `S1 Search - Global Test Report (PDF) <../_static/files/test_procedures/s1-search-global-test-report.pdf>`_
 
 
 
-Data Pages
-+++++++++++
+**Data Pages**
 
 
 
-Analysis Tools and Services
-++++++++++++++++++++++++++++
+**Analysis Tools and Services**
 
+.. class:: p-text-size
+  
 | `A0 Service - XXXXX - Bacteria Test Report (PDF) <../_static/files/test_procedures/a0-service-xxxxx-bacteria-test-report.pdf>`_
 | `A1 Service - Genome Assembly - Bacteria Test Report (PDF) <../_static/files/test_procedures/a1-service-genome-assembly-bacteria-test-report.pdf>`_
 | `A2 Service - Genome Annotation - Bacteria Test Report (PDF) <../_static/files/test_procedures/a2-service-genome-annotation-bacteria-test-report.pdf>`_
@@ -40,8 +39,7 @@ Analysis Tools and Services
 | `A9 Service - metaCATS Test Report (PDF) <../_static/files/test_procedures/a9-service-metacats-test-report.pdf>`_
 | `A10 Service - Phylogenetic Tree - Bacteria Test Report (PDF) <../_static/files/test_procedures/a10-service-phylogenetic-tree-bacteria-test-report.pdf>`_
 
-Workspace
-++++++++++
+**Workspace**
 
 
 

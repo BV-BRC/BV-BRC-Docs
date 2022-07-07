@@ -1,23 +1,31 @@
 Test Procedures
 ===============
 
-As part of its development, deployment, and maintenance processes, BV-BRC performs a full range of tests and validation checks to ensure correct data, analytical processing, and presentation in the resource. The following Test Procedures provide end-user oriented test protocols using representative use cases, parameter settings, and exemplar data sets with expected validated results. Also provided are links to associated data source and processing protocols as well as references to relevant publications, where appropriate. 
+As part of its development, deployment, and maintenance processes, BV-BRC performs a full range of tests and validation checks to ensure correct data, analytical processing, and presentation in the resource. Below are the acceptance Test Plan and Report for the BV-BRC Beta version. As part of the Test Plan, Test Procedures define testing protocols using representative use cases, parameter settings, and exemplar data sets with expected validated results.  
 
-Data
-----
-organisms_menu
+Plans and Reports
+-----------------
 
-Searches
---------
-global_search
-taxa_search
+`Beta Test Plan (PDF) <../_static/files/test_procedures/beta-test-plan-rev3.pdf>`_
 
-Tools & Services
-----------------
+`Beta Test Report (PDF) <../_static/files/test_procedures/beta-test-report-rev3.pdf>`_
 
-Genome Annotation, Bacteria
-***************************
 
-`Genome Annotation Test Procecdure - Bacteria (PDF) <../_static/files/test_procedures/genome-annotation-service-bacteria_procedure.pdf>`_
+Test Procedures
+---------------
 
-`Genome Annotation Test Result - Bacteria (PDF) <../_static/files/test_procedures/genome-annotation-service-bacteria_result.pdf>`_
+**Searches**
+
+
+
+**Data Pages**
+
+
+
+**Analysis Tools and Services**
+
+
+**Workspace**
+
+
+

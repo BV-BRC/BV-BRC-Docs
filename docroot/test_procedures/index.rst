@@ -11,10 +11,12 @@ Plans and Reports
 `Beta Test Report (PDF) <../_static/files/test_procedures/beta-test-report-rev3.pdf>`_
 
 
-Test Procedures
----------------
+Test Procedure Reports
+----------------------
 
 **Searches**
+
+`S1 Search-Global Test Report (PDF) <../_static/files/test_procedures/s1-search-global-test-report.pdf>`_
 
 
 

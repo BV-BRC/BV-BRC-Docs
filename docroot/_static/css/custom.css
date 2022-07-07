@@ -16,12 +16,12 @@ p {
     color: #454545;
 }
 
-.strike {
-    text-decoration: line-through;
+.line-block .line a {
+    font-size: 14px;
 }
 
-.p-text-size {
-    font-size: 14px;
+.strike {
+    text-decoration: line-through;
 }
 
 .notice-header {

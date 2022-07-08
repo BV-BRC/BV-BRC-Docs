@@ -54,7 +54,6 @@ Test Procedure Reports
 
 **Analysis Tools and Services**
 
-| `A0 Service - XXXXX - Bacteria Test Report  <../_static/files/test_procedures/a0-service-xxxxx-bacteria-test-report.pdf>`_
 | `A1 Service - Genome Assembly - Bacteria Test Report  <../_static/files/test_procedures/a1-service-genome-assembly-bacteria-test-report.pdf>`_
 | `A2 Service - Genome Annotation - Bacteria Test Report  <../_static/files/test_procedures/a2-service-genome-annotation-bacteria-test-report.pdf>`_
 | `A3 Service - Genome Annotation - Phage Report  <../_static/files/test_procedures/a3-service-genome-annotation-phage-test-report.pdf>`_

@@ -87,3 +87,7 @@ Test Procedure Reports
 | `V3 Visualization - Proteome Comparison Viewer Test Report  <../_static/files/test_procedures/v3-visualization-proteome-comparison-viewer-test-report.pdf>`_
 | `V4 Visualization - Genome Alignment Viewer Test Report  <../_static/files/test_procedures/v4-visualization-genome-alignment-viewer-test-report.pdf>`_
 | `V5 Visualization - Heatmap Test Report  <../_static/files/test_procedures/v5-visualization-heatmap-test-report.pdf>`_
+
+**Workspaces**
+
+| `W1 Workspace Test Report  <../_static/files/test_procedures/w1-workspace-test-report.pdf>`_

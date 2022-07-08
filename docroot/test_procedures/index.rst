@@ -63,7 +63,7 @@ Test Procedure Reports
 | `A6 Service - Homology Test Report  <../_static/files/test_procedures/a6-service-homology-test-report.pdf>`_
 | `A7 Service - Homology - Short Peptide Search Test Report  <../_static/files/test_procedures/a7-service-homology-short-peptide-test-report.pdf>`_
 | `A8 Service - Similar Genome Finder - Bacteria Test Report  <../_static/files/test_procedures/a8-service-similar-genome-finder-bacteria-test-report.pdf>`_
-| `A9 Service - metaCATS Test Report  <../_static/files/test_procedures/a9-service-metacats-test-report.pdf>`_
+| `A9 Service - MetaCATS Test Report  <../_static/files/test_procedures/a9-service-metacats-test-report.pdf>`_
 | `A10 Service - Phylogenetic Tree - Bacteria Test Report  <../_static/files/test_procedures/a10-service-phylogenetic-tree-bacteria-test-report.pdf>`_
 | `A11 Service - Genome Alignment - Bacteria Test Report  <../_static/files/test_procedures/a11-service-genome-alignment-bacteria-test-report.pdf>`_
 | `A12 Service - Primer Design Test Report  <../_static/files/test_procedures/a12-service-primer-design-test-report.pdf>`_

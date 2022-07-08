@@ -15,11 +15,39 @@ Test Procedure Reports
 
 **Searches**
 
-`S1 Search - Global Test Report  <../_static/files/test_procedures/s1-search-global-test-report.pdf>`_
+| `S1 Search - Global Test Report  <../_static/files/test_procedures/s1-search-global-test-report.pdf>`_
+| `S2 Search - Taxa Test Report  <../_static/files/test_procedures/s2-search-taxa-test-reportt.pdf>`_
+| `S3 Search - Genome Test Report  <../_static/files/test_procedures/s3-search-genome-test-report.pdf>`_
+| `S4 Search - Strains Test Report  <../_static/files/test_procedures/s4-search-strains-test-report.pdf>`_
+| `S5 Search - Proteins Test Report  <../_static/files/test_procedures/s5-search-proteins-test-report.pdf>`_
+| `S6 Search - Specialty Genes Test Report  <../_static/files/test_procedures/s6-search-specialty-genes-test-report.pdf>`_
+| `S8 Search - Epitopes Test Report  <../_static/files/test_procedures/s8-search-epitopes-test-report.pdf>`_
+| `S9 Search - Protein Structures Test Report  <../_static/files/test_procedures/s9-search-protein-structures-test-report.pdf>`_
+| `S10 Search - Pathways Test Report  <../_static/files/test_procedures/s10-search-pathways-test-report.pdf>`_
+| `S11 Search - Subsystems Test Report  <../_static/files/test_procedures/s11-search-subsystems-test-report.pdf>`_
+| `S12 Search - Surveillance Test Report  <../_static/files/test_procedures/s12-search-surveillance-test-report.pdf>`_
+| `S13 Search - Serology Test Report  <../_static/files/test_procedures/s13-search-serology-test-report.pdf>`_
 
 
 
 **Data Pages**
+| `D1 Overview Tab - Bacteria Test Report  <../_static/files/test_procedures/d1-overview-tab-bacteria-test-report.pdf>`_
+| `D2 Overview Tab - Virus Test Report  <../_static/files/test_procedures/d2-overview-tab-virus-test-report.pdf>`_
+| `D3 Phylogeny Tab Test Report  <../_static/files/test_procedures/d3-phylogeny-tab-test-report.pdf>`_
+| `D4 Taxonomy Tab Test Report  <../_static/files/test_procedures/d4-taxonomy-tab-test-report.pdf>`_
+| `D5 Strains Tab Test Report  <../_static/files/test_procedures/d5-strains-tab-test-reportt.pdf>`_
+| `D6 Genomes Tab Test Report  <../_static/files/test_procedures/d6-genomes-tab-test-report.pdf>`_
+| `D7 AMR Phenotypes Tab Test Report  <../_static/files/test_procedures/d7-amr-phenotypes-tab-test-report>`_
+| `D8 Sequences Tab Test Report  <../_static/files/test_procedures/d8-sequences-tab-test-report.pdf>`_
+| `D9 Proteins \(Features\) Test Report  <../_static/files/test_procedures/d9-proteins-features-tab-test-report.pdf>`_
+| `D10 Protein Structures Tab Test Report  <../_static/files/test_procedures/d10-protein-structures-tab-test-report.pdf>`_
+| `D11 Specialty Genes Tab Test Report  <../_static/files/test_procedures/d11-specialty-genes-tab-test-report.pdf>`_
+| `D12 Domains and Motifs Tab Test Report  <../_static/files/test_procedures/d12-domains-and-motifs-tab-test-report.pdf>`_
+| `D13 Epitopes Tab Test Report  <../_static/files/test_procedures/d13-epitopes-tab-test-report.pdf>`_
+| `D14 Surveillance Tab Test Report  <../_static/files/test_procedures/d14-surveillance-tab-test-report.pdf>`_
+| `D15 Serology Tab Test Report  <../_static/files/test_procedures/d15-serology-tab-test-report.pdf>`_
+| `D16 Experiments Tab Test Report  <../_static/files/test_procedures/d16-experiments-tab-test-report.pdf>`_
+| `D17 Interactions Tab Test Report  <../_static/files/test_procedures/d17-interactions-tab-test-report.pdf>`_
 
 
 

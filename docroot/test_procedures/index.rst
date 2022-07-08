@@ -21,6 +21,7 @@ Test Procedure Reports
 | `S4 Search - Strains Test Report  <../_static/files/test_procedures/s4-search-strains-test-report.pdf>`_
 | `S5 Search - Proteins Test Report  <../_static/files/test_procedures/s5-search-proteins-test-report.pdf>`_
 | `S6 Search - Specialty Genes Test Report  <../_static/files/test_procedures/s6-search-specialty-genes-test-report.pdf>`_
+| `S7 Search - Domains and Motifs Test Report  <../_static/files/test_procedures/s6-search-domains-and-motifs-test-report.pdf>`_
 | `S8 Search - Epitopes Test Report  <../_static/files/test_procedures/s8-search-epitopes-test-report.pdf>`_
 | `S9 Search - Protein Structures Test Report  <../_static/files/test_procedures/s9-search-protein-structures-test-report.pdf>`_
 | `S10 Search - Pathways Test Report  <../_static/files/test_procedures/s10-search-pathways-test-report.pdf>`_
@@ -30,7 +31,7 @@ Test Procedure Reports
 
 
 
-**Data Pages**
+**Data Tabs**
 
 | `D1 Overview Tab - Bacteria Test Report  <../_static/files/test_procedures/d1-overview-tab-bacteria-test-report.pdf>`_
 | `D2 Overview Tab - Virus Test Report  <../_static/files/test_procedures/d2-overview-tab-virus-test-report.pdf>`_
@@ -79,7 +80,10 @@ Test Procedure Reports
 | `A23 Service - ID Mapper - Bacteria Test Report  <../_static/files/test_procedures/a23-service-id-mapper-bacteria-test-report.pdf>`_
 | `A24 Service - Fastq Utilities Test Report  <../_static/files/test_procedures/a24-service-fastq-utilities-test-report.pdf>`_
 
-**Workspace**
+**Visualizations**
 
-
-
+| `V1 Visualization - Genome Browser Test Report  <../_static/files/test_procedures/v1-visualization-genome-browser-test-report.pdf>`_
+| `V2 Visualization - Circular Genome Browser Test Report  <../_static/files/test_procedures/v2-visualization-circular-genome-browser-test-report.pdf>`_
+| `V3 Visualization - Proteome Comparison Viewer Test Report  <../_static/files/test_procedures/v3-visualization-proteome-comparison-viewer-test-report.pdf>`_
+| `V4 Visualization - Genome Alignment Viewer Test Report  <../_static/files/test_procedures/v4-visualization-genome-alignment-viewer-test-report.pdf>`_
+| `V5 Visualization - Heatmap Test Report  <../_static/files/test_procedures/v5-visualization-heatmap-test-report.pdf>`_

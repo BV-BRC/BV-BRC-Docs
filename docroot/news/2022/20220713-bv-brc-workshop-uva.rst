@@ -28,9 +28,6 @@ The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be off
 | 994 Research Park Boulevard
 | Charlottesville, VA 22911
 
-<p><iframe allowfullscreen="" aria-hidden="false" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3137.600677340614!2d-78.43706844854414!3d38.14947729818487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b47726a5709f6f%3A0x1de8b16581ced920!2s994%20Research%20Park%20Boulevard%2C%20Charlottesville%2C%20VA%2022911!5e0!3m2!1sen!2sus!4v1603911363299!5m2!1sen!2sus" style="border:0;" tabindex="0" width="600"></iframe></p>
-
-
 **AGENDA**
 
 Day 1 - Tuesday, August 30

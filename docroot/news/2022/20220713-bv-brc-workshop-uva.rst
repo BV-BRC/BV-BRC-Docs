@@ -2,7 +2,7 @@ BV-BRC (PATRIC & IRD/ViPR) Workshop at University of Virginia in Charlottesville
 ==================================================================================================================
 
 .. feed-entry::
-   :date: 2022-07-13
+   :date: 2022-07-14
 
 .. image:: ../images/bv-brc-workshop-uva-2022.gif
   :width: 500

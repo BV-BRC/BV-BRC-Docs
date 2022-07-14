@@ -8,18 +8,25 @@ BV-BRC (PATRIC & IRD/ViPR) Workshop at the University of Virginia, August 30 - S
   :width: 500
   :alt: BV-BRC Workshop UVA
 
-The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a 3-day **Bioinformatics Workshop on August 30 - September 1, 2022, at the University of Virgnia** in Charlottesville, VA. The workshop will be held at the UVA North Fork Discovery Park, approximately 10 miles north of UVA grounds.  The workshop will show researchers how to use the new BV-BRC website, which is a merger of the two long running bacterial and viral BRC resources, PATRIC and IRD/ViPR, respectively. The workshop will consist of interactive hands-on training sessions. During the first two days, participants will learn how to search for public datasets of interest and perform genomic, comparative genomic, metagenomic, and transcriptomic analysis using various analysis services and tools at BV-BRC. The third day of the workshop will focus on using command-line interface for programmatic search and retrieval of the data and job submissions, as well as users working with their own data and analysis problems with the help from the BV-BRC team members.
+The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a 3-day **Bioinformatics Workshop on August 30 - September 1, 2022, at the University of Virgnia (UVA)** in Charlottesville, VA. The workshop will be held at the UVA North Fork Discovery Park, approximately 10 miles north of UVA grounds.  The workshop will show researchers how to use the new BV-BRC website, which is a merger of the two long running bacterial and viral BRC resources, PATRIC and IRD/ViPR, respectively. The workshop will consist of interactive hands-on training sessions. During the first two days, participants will learn how to search for public datasets of interest and perform genomic, comparative genomic, metagenomic, and transcriptomic analysis using various analysis services and tools at BV-BRC. The third day of the workshop will focus on using command-line interface for programmatic search and retrieval of the data and job submissions, as well as users working with their own data and analysis problems with the help from the BV-BRC team members.
+
+**REGISTRATION**
+
+To register for the workshop, send an email to arw3s@virginia.edu. Registration is limited to 50 people, and will be accepted based on the order the emails are received. You should receive a confirmation email within 2 business days. If you don't receive one, you can also reach us at help@bv-brc.org. 
+
+The workshop is free to attend, but participants must arrange and pay for their own travel, meals, and lodging. Light refreshments will be available. There is also a small coffee and snack bar in the building and a cafe and grill in the adjacent building.
 
 .. cut::
 
 **Note:** *The following COVID-19 safety precautions are currently in place at the University of Virginia.*
 
-* Face coverings are recommended, except to the extent necessary to eat or drink when maintaining appropriate physical distance, or when an individual is isolated in an enclosed space.
+* Wearing face masks is optional on UVA properties, except in clinical spaces.
 
 * We will keep the seating at least 6 feet apart from each other at the workshop venue to maintain safe physical distance.
 
-* There are outdoor seating areas which can be used during breaks and lunch time. Face coverings may be removed while outside and socially distancing.   
+* There are outdoor seating areas which can be used during breaks and lunch time. Face coverings may be removed while outside and socially distancing.
 
+* Full information can be found in `UVA Policy SEC-045: COVID-19 Health & Safety Requirements – Vaccination, Testing, Face Masks, Events and Gatherings, and Visitors <https://uvapolicy.virginia.edu/policy/SEC-045>`_.
 
 **LOCATION**
 
@@ -34,11 +41,11 @@ The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be off
 
     <p><iframe allowfullscreen="" aria-hidden="false" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3137.600677340614!2d-78.43706844854414!3d38.14947729818487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b47726a5709f6f%3A0x1de8b16581ced920!2s994%20Research%20Park%20Boulevard%2C%20Charlottesville%2C%20VA%2022911!5e0!3m2!1sen!2sus!4v1603911363299!5m2!1sen!2sus" style="border:0;" tabindex="0" width="600"></iframe></p>
 
-The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently located 2 miles south of the Biocomplexity Institute. There are many hotels and dining options nearby.
+The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently located 2 miles south of the Biocomplexity Institute. There are several hotels and dining options nearby.
 
 **AGENDA**
 
-Day 1 - Tuesday, August 30
+**Day 1 - Tuesday, August 30**
 ::
 
    9:00 am   Workshop information, BV-BRC registration, overview (www.bv-brc.org)           
@@ -101,7 +108,7 @@ Day 1 - Tuesday, August 30
 
    5:00 pm   Day 1 Adjourn
 
-Day 2 - Wednesday, August 31
+**Day 2 - Wednesday, August 31**
 
 ::
 
@@ -166,7 +173,7 @@ Day 2 - Wednesday, August 31
 
    5:00 pm   Day 2 Adjourn
 
-Day 3 - Thursday, September 1
+**Day 3 - Thursday, September 1**
 ::
 
    9:00 am   Command Line Interface

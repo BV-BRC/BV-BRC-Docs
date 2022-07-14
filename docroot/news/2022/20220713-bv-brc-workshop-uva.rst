@@ -20,18 +20,16 @@ The workshop is free to attend, but participants must arrange and pay for their 
 
 **Note:** *The following COVID-19 safety precautions are currently in place at the University of Virginia.*
 
-* Wearing face masks is optional on UVA properties, except in clinical spaces.
+* Wearing face masks is optional on UVA properties including the Biocomplexity Institute.
 
-* We will keep the seating at least 6 feet apart from each other at the workshop venue to maintain safe physical distance.
+* We will keep the seating at least 6 feet apart at the workshop venue to maintain safe physical distance.
 
-* There are outdoor seating areas which can be used during breaks and lunch time. Face coverings may be removed while outside and socially distancing.
-
-* Full information can be found in `UVA Policy SEC-045: COVID-19 Health & Safety Requirements – Vaccination, Testing, Face Masks, Events and Gatherings, and Visitors <https://uvapolicy.virginia.edu/policy/SEC-045>`_.
+* Full information can be found in `UVA Policy SEC-045: COVID-19 Health & Safety Requirements <https://uvapolicy.virginia.edu/policy/SEC-045>`_.
 
 **LOCATION**
 
 | Biocomplexity Institute
-| Town Center Four
+| Town Center Four, 1st Floor, Room A
 | 994 Research Park Boulevard
 | Charlottesville, VA 22911
 
@@ -40,6 +38,8 @@ The workshop is free to attend, but participants must arrange and pay for their 
 .. raw:: html
 
     <p><iframe allowfullscreen="" aria-hidden="false" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3137.600677340614!2d-78.43706844854414!3d38.14947729818487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b47726a5709f6f%3A0x1de8b16581ced920!2s994%20Research%20Park%20Boulevard%2C%20Charlottesville%2C%20VA%2022911!5e0!3m2!1sen!2sus!4v1603911363299!5m2!1sen!2sus" style="border:0;" tabindex="0" width="600"></iframe></p>
+
+There is plenty of free parking adjacent to the Biocomplexity Institute.
 
 The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently located 2 miles south of the Biocomplexity Institute. There are several hotels and dining options nearby.
 

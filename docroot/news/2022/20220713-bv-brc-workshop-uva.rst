@@ -4,7 +4,7 @@ BV-BRC (PATRIC & IRD/ViPR) Workshop at University of Virginia in Charlottesville
 .. feed-entry::
    :date: 2022-07-13
 
-.. image:: ../images/bv-brc-workshop-uva-2022.jpg
+.. image:: ../images/bv-brc-workshop-uva-2022.gif
   :width: 500
   :alt: BV-BRC Workshop UVA
 
@@ -12,7 +12,7 @@ The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be off
 
 .. cut::
 
-**Note:** *Please note the COVID-19 safety guideline currently in place at University of Virginia.*
+**Note:** *The following COVID-19 safety precautions are currently in place at the University of Virginia.*
 
 * Face coverings are recommended, except to the extent necessary to eat or drink when maintaining appropriate physical distance, or when an individual is isolated in an enclosed space.
 

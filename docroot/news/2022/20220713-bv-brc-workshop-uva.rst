@@ -14,12 +14,13 @@ The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be off
 
 **Note:** *The following COVID-19 safety precautions are currently in place at the University of Virginia.*
 
-* Face coverings are recommended, except to the extent necessary to eat or drink when maintaining appropriate physical distance, or when an individual is isolated in an enclosed space.
+* Wearing face masks is optional on UVA properties, except in clinical spaces.
 
 * We will keep the seating at least 6 feet apart from each other at the workshop venue to maintain safe physical distance.
 
-* There are outdoor seating areas which can be used during breaks and lunch time. Face coverings may be removed while outside and socially distancing.   
+* There are outdoor seating areas which can be used during breaks and lunch time. Face coverings may be removed while outside and socially distancing.
 
+* Full information can be found in `Policy SEC-045: COVID-19 Health & Safety Requirements – Vaccination, Testing, Face Masks, Events and Gatherings, and Visitors <https://uvapolicy.virginia.edu/policy/SEC-045>`_.
 
 **LOCATION**
 

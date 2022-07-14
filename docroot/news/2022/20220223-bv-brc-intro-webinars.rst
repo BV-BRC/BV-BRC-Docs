@@ -17,4 +17,3 @@ As part of the launch of the new BV-BRC Beta website, we are offering a webinar 
 The first set of webinars will be focused on introduction to the site. We will have follow-on webinars that dive more deeply into functionality and analysis tools. The link below provides additional details and Zoom information.
 
 `CLICK HERE to go to webinar series details page <../../webinar/bv-brc_intro.html>`_
-====================================================================================

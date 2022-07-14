@@ -9,6 +9,7 @@ News and Announcements
    :description: BV-BRC News RSS feed
    :link: https://www.bv-brc.org/docs/
 
+   2022/20220713-bv-brc-workshop-uva
    2022/20220606-bv-brc-patric-workshop
    2022/20220422-bv-brc-workshop-asm-microbe
    2022/20220228-tick-borne-pathogens

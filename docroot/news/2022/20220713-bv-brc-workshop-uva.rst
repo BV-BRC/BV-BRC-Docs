@@ -12,7 +12,7 @@ The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be off
 
 **REGISTRATION**
 
-**To register for the workshop, send an email with your name and research interests to *arw3s@virginia.edu*. Registration is limited to 50 people, and will be accepted based on the order the emails are received.** The workshop is free to attend, but participants must arrange and pay for their own travel, meals, and lodging. Light refreshments will be available. There is also a small coffee and snack bar in the building and a cafe and grill in the adjacent building.
+**To register for the workshop, send an email to Rebecca Wattam <arw3s@virginia.edu>. Registration is limited to 50 people, and will be accepted based on the order the emails are received.** The workshop is free to attend, but participants must arrange and pay for their own travel, meals, and lodging. Light refreshments will be available. There is also a small coffee and snack bar in the building and a cafe and grill in the adjacent building.
 
 .. cut::
 

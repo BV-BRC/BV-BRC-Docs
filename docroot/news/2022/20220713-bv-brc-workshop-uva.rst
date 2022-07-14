@@ -1,5 +1,5 @@
-BV-BRC (PATRIC & IRD/ViPR) Workshop at University of Virginia in Charlottesville, VA August 30 - September 1, 2022
-==================================================================================================================
+BV-BRC (PATRIC & IRD/ViPR) Workshop at the University of Virginia, August 30 - September 1, 2022
+================================================================================================
 
 .. feed-entry::
    :date: 2022-07-14

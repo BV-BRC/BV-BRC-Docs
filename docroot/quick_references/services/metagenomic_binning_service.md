@@ -68,6 +68,10 @@ User-defined name used to uniquely identify results.
 ### Genome Group Name
 Name used to create genome group with identified genomes.
 
+## Buttons
+* **Reset** - clears the form and resets all default values
+* **Submit** - Submits the analysis service job. This button is only enabled after all required fields and settings in the form are completed.
+
 ## Output Results
 ![Metagenomic Binning Service Output Files](../images/metagenomic_binning_result.png) 
 

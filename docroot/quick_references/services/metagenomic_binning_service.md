@@ -1,7 +1,7 @@
 # Metagenomic Binning Service
 
 ## Overview
-The Metagenomic Binning Service accepts either reads or contigs, and attempts to "bin" the data into a set of genomes. This service can be used to reconstruct bacterial and archael genomes from environmental samples.
+The Metagenomic Binning Service accepts either reads or contigs, and attempts to "bin" the data into a set of genomes. This service can be used to reconstruct bacterial and archael genomes from environmental samples [1].
 
 ### See also
 * [Metagenomic Binning Service](https://bv-brc.org/app/MetagenomicBinning)
@@ -48,19 +48,22 @@ Alternatively, contigs can be uploaded and used with the service instead of read
 ### Assembly Strategy
 3 options are available for read assembly:
 
-* **MetaSpades [1]** - part of the SPAdes toolkit, developed to address the various challenges of metagenomic assembly. 
+* **MetaSpades [2]** - part of the SPAdes toolkit, developed to address the various challenges of metagenomic assembly.
+* **MEGAHIT [3]** - a de novo assembler for assembling large and complex metagenomics data. MEGAHIT assembles the data as a whole (i.e., no preprocessing like partitioning and normalization).
+* **Auto** - the service uses the most appropriate strategy for the input data.
 
-### Parameters
+### Organisms of Interest
+This option allows selection of bacterial or viral annotation, or both.
 
-
-
-
+* **Bacteria/Archaea** - Uses the RASTtk [4] annotation pipeline.
+* **Viruses** - Uses use one of two annotation pipelines. It uses the VIGOR4 [5,6] pipeline if a reference annotation is available for that virus or viral family. If not, the Mat Peptide [7] pipeline is used.
+* **Both** - Uses both the bacterial and viral annotation pipelines.
 
 ### Output Folder
-The workspace folder where results will be placed.
+The workspace folder where analysis job results will be placed.
 
 ### Output Name
-Name used to uniquely identify results.
+User-defined name used to uniquely identify results.
 
 ### Genome Group Name
 Name used to create genome group with identified genomes.
@@ -79,3 +82,8 @@ The Metagenomic Binning Service generates several files that are deposited in th
 1. Parrello, B., Butler, R., Chlenski, P., Pusch, G. D. & Overbeek, R. Supervised extraction of near-complete genomes from metagenomic samples: A new service in PATRIC. Plos one 16, e0250092 (2021).
 2. Nurk, S., Meleshko, D., Korobeynikov, A. & Pevzner, P. A. metaSPAdes: a new versatile metagenomic assembler. Genome research 27, 824-834 (2017)
 3. Li, D. et al. MEGAHIT v1. 0: a fast and scalable metagenome assembler driven by advanced methodologies and community practices. Methods 102, 3-11 (2016).
+4. Brettin, T. et al. RASTtk: a modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. Scientific reports 5, 8365 (2015).
+5. Wang, S., Sundaram, J. P. & Spiro, D. VIGOR, an annotation program for small viral genomes. BMC bioinformatics 11, 1-10 (2010).
+6. Wang, S., Sundaram, J. P. & Stockwell, T. B. VIGOR extended to annotate genomes for additional 12 different viruses. Nucleic acids research 40, W186-W192 (2012).
+7. Larsen, C. N. et al. Mat_peptide: comprehensive annotation of mature peptides from polyproteins in five virus families. Bioinformatics 36, 1627-1628 (2020).
+

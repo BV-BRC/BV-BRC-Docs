@@ -20,20 +20,24 @@ The service supports input of read files or assembled contigs. This selection ch
 ### Read File Option
 ![Metagenomic Binning Input Form](../images/metagenomic_binning_input_form_reads.png) 
 
-
-
-
 ### Assembled Contigs Option
 ![Metagenomic Binning Input Form](../images/metagenomic_binning_input_form_contigs.png) 
 
-
-
-
-
 ## Input File
+The Input File box options depend on whether Read File or Assemblee Contigs is chosen in the Start With box. 
 
-### Paired Read Library - Read File 1 & 2
+### Read File Option
+
+#### Paired Read Library - Read File 1 & 2
 Many paired read libraries are given as file pairs, with each file containing half of each read pair. Paired read files are expected to be sorted such that each read in a pair occurs in the same Nth position as its mate in their respective files. These files are specified as READ FILE 1 and READ FILE 2. For a given file pair, the selection of which file is READ 1 and which is READ 2 does not matter.
+
+#### Single Read Library
+
+
+
+#### SRR Run Accession
+
+
 
 ## Contigs
 Alternatively, contigs can be used with the service instead of read files.

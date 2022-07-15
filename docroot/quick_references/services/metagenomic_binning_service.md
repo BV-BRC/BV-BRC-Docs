@@ -13,11 +13,26 @@ The **Metagenomic Binning** submenu option under the **Services** main menu (Gen
 ![Metagenomic Binning Menu](../images/bv_services_menu.png)
 
 ## Options
-![Metagenomic Binning Input Form](../images/metagenome_binning_input_form.png) 
 
-## Paired read library
+## Start With
+The service supports input of read files or assembled contigs. This selection changes the options in the Input File box on the form. 
 
-### Read File 1 & 2
+### Read File Option
+![Metagenomic Binning Input Form](../images/metagenomic_binning_input_form_reads.png) 
+
+
+
+
+### Assembled Contigs Option
+![Metagenomic Binning Input Form](../images/metagenomic_binning_input_form_contigs.png) 
+
+
+
+
+
+## Input File
+
+### Paired Read Library - Read File 1 & 2
 Many paired read libraries are given as file pairs, with each file containing half of each read pair. Paired read files are expected to be sorted such that each read in a pair occurs in the same Nth position as its mate in their respective files. These files are specified as READ FILE 1 and READ FILE 2. For a given file pair, the selection of which file is READ 1 and which is READ 2 does not matter.
 
 ## Contigs

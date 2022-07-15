@@ -8,7 +8,7 @@ The Metagenomic Binning Service accepts either reads or contigs, and attempts to
 * [Metagenomic Binning Service Tutorial](../../tutorial/metagenomic_binning/metagenomic_binning.html)
 
 ## Using the Metagenomic Binning Service
-The **Metagenomic Binning** submenu option under the **Services** main menu (Genomics category) opens the Metagenomic Binning Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
+The **Metagenomic Binning** submenu option under the **Services** main menu (Metagenomics category) opens the Metagenomic Binning Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
 
 ![Metagenomic Binning Menu](../images/bv_services_menu.png)
 

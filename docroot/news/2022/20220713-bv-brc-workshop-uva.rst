@@ -69,7 +69,7 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
 
   11:15 am   Similar Genome Finder Service
               * Description of MASH/MinHash algorithm
-              * Uploading genome sequences, reads or contigs
+              * Uploading genome sequences, reads, or contigs
               * Submitting job
               * Viewing  and interpreting results
 
@@ -83,7 +83,7 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
               * Viewing and interpreting results
 
    1:15 pm   Metagenomic Binning
-              * Description of MASH/MinHash algorigthm
+              * Description of algorigthm
               * Uploading reads or contigs and submitting the job
               * Viewing and interpreting the results
 
@@ -100,11 +100,11 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
               * Description of BV-BRC protein families and job submission
               * Finding the pan, core and accessory genomes 
               * Visualizing and manipulating the heatmap viewer 
-              * Finding specific differences, downloading and saving results into private workspace
+              * Finding specific differences, downloading and saving results
               * Comparing pathways on pathway map and heatmap
-              * Finding specific differences, downloading and saving results into private workspace
+              * Finding specific differences, downloading and saving results
               * Comparing subsystems in table and on heatmap
-              * Finding specific differences, downloading and saving results into private workspace
+              * Finding specific differences, downloading and saving results
 
    4:30 pm   Question and Answer Session and Hands-on Work
 
@@ -148,7 +148,7 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
 
    1:30 pm   BLAST
               *	Description of BLAST
-              *	Choosing BLAST database, parameters and job submission
+              *	Choosing BLAST database, parameters, and job submission
               *	Viewing and interpreting the results
 
    2:00 pm   Break
@@ -164,10 +164,12 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
               *	Viewing and interpresting the results
 
    3:15 pm   RNA-Seq Pipeline
-              *	Discussion of algorithm and choosing a strategy
+              *	Discussion of algorithms and choosing a strategy
               *	Uploading RNA-seq data
               *	Selecting genomes  and job submission
               *	Viewing and interpreting the results
+
+   4:15 pm   Install Command Line Interface (for Day 3)
 
    4:15 pm   Question and Answer Session and Hands on Work
 
@@ -189,8 +191,6 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
               * Uploading private data (singular or batch)
               * Submitting assembly jobs (singular or batch)
               * Submitting annotation jobs (singular or batch)
-              * What other services…?  Comprehensive Genome Analysis?  Phylogenetic Trees?  Others?
-
 
   12:00 pm   Lunch
 

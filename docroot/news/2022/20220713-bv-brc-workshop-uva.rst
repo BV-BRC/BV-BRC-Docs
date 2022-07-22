@@ -165,7 +165,7 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
    4:00 pm   Install Command Line Interface
               * Installing the Command Line Interface
 
-   4:15 pm   Question and Answer Session and Hands on Work
+   4:30 pm   Question and Answer Session and Hands-on Work
 
    5:00 pm   Day 2 Adjourn
 

@@ -53,50 +53,48 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
               * BV-BRC registration
               * Overview (www.bv-brc.org)
 
-   9:45 am   FASTQ Utilities
+  10:00 am   FASTQ Utilities
               * Desription of FASTQ files and service 
               * Selecting pipeline (Trim, FastQC, Paired read, Align)
               * Uploading reads and submitting job
               * Viewing and interpreting results
 
-  10:30 am   Taxonomic Classification
+  10:45 am   Taxonomic Classification
               * Description of Kraken2
               * Uploading reads or contigs and submitting job
               * Saving classified or unclassified sequences
               * Viewing and Interpreting the results
 
-  11:00 am   Break
+  11:15 am   Break
 
-  11:15 am   Similar Genome Finder Service
+  11:30 am   Similar Genome Finder Service
               * Description of MASH/MinHash algorithm
               * Uploading genome sequences, reads, or contigs
               * Submitting job
               * Viewing  and interpreting results
-
-  11:30 am   Comprehensive Genome Analysis Service
-              * Description of assembly and annotation algorithms
-              * Uploading reads or contigs and submitting job
   
   12:00 pm   Lunch
 
-   1:00 pm   Comprehensive Genome Analysis Service (continued)
+   1:00 pm   Comprehensive Genome Analysis Service
+              * Description of assembly and annotation algorithms
+              * Uploading reads or contigs and submitting job
               * Viewing and interpreting results
 
-   1:15 pm   Metagenomic Binning
+   1:45 pm   Metagenomic Binning
               * Description of algorigthm
               * Uploading reads or contigs and submitting the job
               * Viewing and interpreting the results
 
-   2:00 pm   Break
+   2:15 pm   Break
 
-   2:15 pm   Phylogenetic Tree Building Service
+   2:30 pm   Phylogenetic Tree Building Service
               * Creating a genome group
               * Determining if selected genomes are “treeable”
               * Description of algorithm and submitting tree-building job
               * Viewing and interpreting results
               * Newick file download 
 
-   3:00 pm   Comparative Services (Protein Families, Pathways, and Subsystems)
+   3:15 pm   Comparative Services (Protein Families, Pathways, and Subsystems)
               * Description of BV-BRC protein families and job submission
               * Finding the pan, core and accessory genomes 
               * Visualizing and manipulating the heatmap viewer 
@@ -106,7 +104,7 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
               * Comparing subsystems in table and on heatmap
               * Finding specific differences, downloading and saving results
 
-   4:30 pm   Question and Answer Session and Hands-on Work
+   4:45 pm   Question and Answer Session and Hands-on Work
 
    5:00 pm   Adjourn
 
@@ -120,56 +118,52 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
               * Visualization of compared genomes
               * Download and analysis of results
 
-   9:45 am   Compare Region Viewer
+   10:00 am   Compare Region Viewer
               * Feature Overview
               * Description of calculations for gene neighborhoods
               * Adjusting the view 
               * Seeing data of interest (genome and feature groups) 
 
-  10:15 am   Primer Design
+  10:30 pm   Break
+
+  10:45 am   Primer Design
               * Description of algorithm
               * Adjusting parameters and job submission
               * Viewing and interpreting the results
 
-  10:45 pm   Break
+  11:30 pm   Genome Alignment
+              * Description of MAUVE
+              * Selection of genomes and job submission
+              * Viewing the results
 
-  11:00 pm   SNP and MNP Variation Service
+  12:00 pm   Lunch
+
+   1:00 pm   BLAST
+              *	Description of BLAST
+              *	Choosing BLAST database, parameters, and job submission
+              *	Viewing and interpreting the results
+
+   1:30 pm   SNP and MNP Variation Service
               *	Description of SNP callers and aligners
               *	Uploading reads 
               *	Discussion and selection of target genomes
               *	Viewing and interpreting the results
 
-  12:00 pm   Lunch
-
-   1:00 pm   Genome Alignment
-              * Description of MAUVE
-              * Selection of genomes and job submission
-              * Viewing the results
-
-   1:30 pm   BLAST
-              *	Description of BLAST
-              *	Choosing BLAST database, parameters, and job submission
-              *	Viewing and interpreting the results
-
-   2:00 pm   Break
-
-   2:15 pm   Multiple Sequence Alignment and SNP view
-              *	Description of algorithm
-              *	Selection of genes and job submission
-              *	Viewing and interpreting the results
-
-   2:45 pm   Gene Tree
+   2:00 pm   Gene Tree
               *	Description of algorithm
               *	Selection of data and job submission
               *	Viewing and interpresting the results
 
-   3:15 pm   RNA-Seq Pipeline
+   2:30 pm   Break
+
+   2:45 pm   RNA-Seq Pipeline
               *	Discussion of algorithms and choosing a strategy
               *	Uploading RNA-seq data
               *	Selecting genomes  and job submission
               *	Viewing and interpreting the results
 
-   4:15 pm   Install Command Line Interface (for Day 3)
+   4:00 pm   Install Command Line Interface
+              * Installing the Command Line Interface
 
    4:15 pm   Question and Answer Session and Hands on Work
 
@@ -179,7 +173,6 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
 ::
 
    9:00 am   Command Line Interface
-              * Installing the Command Line Interface
               * Logging in
               * Searching for data
               * Creating groups from data selections

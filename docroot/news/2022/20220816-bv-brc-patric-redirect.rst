@@ -55,7 +55,7 @@ Transition Schedule
 Help Documentation
 ------------------
 
-To aid users in getting started, we have created some introductory Help documents:
+In addition to full `BV-BRC Help Documentation <https://www.bv-brc.org/docs/>`_, the following addtional information is available to aid users in making the transition from PATRIC and IRD/ViPR to BV-BRC:
 
 * `BV-BRC Quick Start Videos <../../quick_start/quick_start.html>`_
 * `BV-BRC Data and Functionality Overview (Guide for PATRIC Users) <../../quick_start/data_functionality_overview.html>`_

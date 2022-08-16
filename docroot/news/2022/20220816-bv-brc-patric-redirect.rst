@@ -46,11 +46,11 @@ Transition Schedule
 * February 15, 2022 - BV-BRC Beta Release 
    * This release is complete and available at `BV-BRC <https://www.bv-brc.org>`_
 * September 14, 2022 - BV-BRC Production Release 
-   * The PATRIC website will automatically redirect to the BV-BRC website
+   * The PATRIC website will automatically redirect users to the BV-BRC website
    * The PATRIC website will still be available, but with minimal updates and maintenance
 * December 14, 2022 - PATRIC goes offline
    * The PATRIC website will permanently go offline
-   * The patricbrc.org website domain will redirect to BV-BRC
+   * The patricbrc.org website domain will redirect to bv-brc.org
 
 Help Documentation
 ------------------

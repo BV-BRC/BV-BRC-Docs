@@ -23,6 +23,7 @@ New Features
 
 The new data and features in BV-BRC that are not in PATRIC include the following:
 
+* Redesigned homepage
 * Viral pathogen data 
    * 8.5M viral genomes
    * SARS-CoV-2 variants and lineages of concern

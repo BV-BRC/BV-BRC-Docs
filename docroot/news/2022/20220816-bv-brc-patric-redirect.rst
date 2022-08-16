@@ -1,4 +1,4 @@
-:github_url: https://github.com/BV-BRC/bvbrc_docs/blob/master/docroot/news/2022/20220816-bv-brc-patricbrc-redirect.rst
+:github_url: https://github.com/BV-BRC/bvbrc_docs/blob/master/docroot/news/2022/20220816-bv-brc-patric-redirect.rst
 
 PATRIC to BV-BRC Final Transition Schedule
 ==========================================

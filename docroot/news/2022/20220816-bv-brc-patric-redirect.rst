@@ -43,9 +43,9 @@ The new data and features in BV-BRC that are not in PATRIC include the following
 
 Transition Schedule
 -------------------
-February 15, 2022 - BV-BRC Beta Release (complete)
-September 14, 2022 - BV-BRC Production Release (PATRIC website redirects to BV-BRC website; PATRIC site still available, but with minimal updates and maintenance)
-December 14, 2022 - PATRIC goes offline
+* February 15, 2022 - BV-BRC Beta Release (complete)
+* September 14, 2022 - BV-BRC Production Release (PATRIC website redirects to BV-BRC website; PATRIC site still available, but with minimal updates and maintenance)
+* December 14, 2022 - PATRIC goes offline
 
 Help Documentation
 ------------------

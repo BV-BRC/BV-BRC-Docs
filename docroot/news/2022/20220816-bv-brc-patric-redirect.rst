@@ -18,6 +18,9 @@ As `announced previously <../20220215-bv-brc-public-beta.html>`_, `PATRIC <https
 
 For PATRIC users, the migration will be relatively straightforward bacause BV-BRC is built on the PATRIC platform. This includes the PATRIC private workspace, so all data and analysis service jobs that have been created in PATRIC are available in the BV-BRC workspace. PATRIC users can use the same login credentials in BV-BRC.  
 
+New Features
+------------
+
 The new data and features in BV-BRC that are not in PATRIC include the following:
 
 * Viral pathogen data 
@@ -28,23 +31,24 @@ The new data and features in BV-BRC that are not in PATRIC include the following
    * Domains and motifs
    * Epitopes
    * Experiment data
-* New analysis tools and data
-   * 
+* New analysis tools and services
+   * MetaCATS (Metadata-driven Comparative Analysis Tool)
+   * Primer Design
+   * MSA and SNP Analysis
+   * Gene Tree
+   * Taxonomic Classification (with support for viral data)
+   * Metagenomic Binning (with support for viral data)
+   * 3-D Protein Structure Viewer (new)
+   * SARS-CoV-2 Genome Assembly and Annotation
 
+Transition Schedule
+-------------------
+February 15, 2022 - BV-BRC Beta Release (complete)
+September 14, 2022 - BV-BRC Production Release (PATRIC website redirects to BV-BRC website; PATRIC site still available, but with minimal updates and maintenance)
+December 14, 2022 - PATRIC goes offline
 
-
-
-
-Schedule
---------
-
-
-
-
-
-The Beta website is designed to allow users to explore, try out features, and provide feedback to the BV-BRC team. PATRIC, IRD, and ViPR users, as well as other bacterial and viral researchers, are invited to use the site. The Beta website is available from the link below:
-
-`BV-BRC Beta Website <https://bv-brc.org/>`_
+Help Documentation
+------------------
 
 To aid users in getting started, we have created some introductory Help documents:
 
@@ -52,17 +56,17 @@ To aid users in getting started, we have created some introductory Help document
 * `BV-BRC Data and Functionality Overview (Guide for PATRIC Users) <../../quick_start/data_functionality_overview.html>`_
 * `Mapping of IRD/ViPR Features and Terminology to BV-BRC (Guide for IRD and ViPR Users) <../../quick_start/ird-vipr_bv-brc_mapping.html>`_ 
 
-Users can `provide feedback here <mailto:help@bv-brc.atlassian.net>`_.
+Users can `provide feedback here <mailto:help@bv-brc.org>`_.
 
 The brochure below provides additional information about the BV-BRC website. Full documentation is available from the Help menu.
 
-BV-BRC Beta Release Brochure
-----------------------------
+BV-BRC Brochure
+---------------
 
-`Click here to download the brochure PDF <../../_static/files/news/2022/bv-brc-newsletter-feb-2022.pdf>`_
+`Click here to download a brochure PDF summarizing the BV-BRC transtion and features <../../_static/files/news/2022/bv-brc-newsletter-feb-2022.pdf>`_
 
 .. image:: ../images/bv-brc_beta_brochure.png
-  :alt: BV-BRC Beta Release brochure
+  :alt: BV-BRC brochure
 
 .. image:: ../images/bv-brc_beta_brochure_pg2.png
-  :alt: BV-BRC Beta Release brochure
+  :alt: BV-BRC brochure

@@ -1,0 +1,68 @@
+:github_url: https://github.com/BV-BRC/bvbrc_docs/blob/master/docroot/news/2022/20220816-bv-brc-patricbrc-redirect.rst
+
+PATRIC to BV-BRC Final Transition Schedule
+==========================================
+
+.. feed-entry::
+   :date: 2022-08-16
+
+.. image:: ../images/bv-brc_logo_transparent_white_bg_v3_small.png
+  :width: 635
+  :alt: BV-BRC logo
+
+We are now in the final phase of transitioning `PATRIC <https://www.patricbrc.org>`_ to the `Bacterial and Viral Bioinformatics Resource Center (BV-BRC) <https://www.bv-brc.org>`_. Website redirects will start in mid-September, and PATRIC will go offline by mid-December of this year. Here is what you need to know.
+
+.. cut::
+
+As `announced previously <../20220215-bv-brc-public-beta.html>`_, `PATRIC <https://www.patricbrc.org>`_, the bacterial BRC, and `IRD <https://www.fludb.org>`_ / `ViPR <https://www.viprbrc.org>`_, the viral BRCs, are being merged into the new `Bacterial and Viral Bioinformatics Resource Center (BV-BRC) <https://www.bv-brc.org>`_. BV-BRC combines the data, tools, and technologies from these BRCs to provide an integrated resource for bacterial and viral genomics-based infectious disease research.
+
+For PATRIC users, the migration will be relatively straightforward bacause BV-BRC is built on the PATRIC platform. This includes the PATRIC private workspace, so all data and analysis service jobs that have been created in PATRIC are available in the BV-BRC workspace. PATRIC users can use the same login credentials in BV-BRC.  
+
+The new data and features in BV-BRC that are not in PATRIC include the following:
+
+* Viral pathogen data 
+   * 8.5M viral genomes
+   * SARS-CoV-2 variants and lineages of concern
+   * Influenza surveillance and serology data
+   * Proteins and protein structures
+   * Domains and motifs
+   * Epitopes
+   * Experiment data
+* New analysis tools and data
+   * 
+
+
+
+
+
+Schedule
+--------
+
+
+
+
+
+The Beta website is designed to allow users to explore, try out features, and provide feedback to the BV-BRC team. PATRIC, IRD, and ViPR users, as well as other bacterial and viral researchers, are invited to use the site. The Beta website is available from the link below:
+
+`BV-BRC Beta Website <https://bv-brc.org/>`_
+
+To aid users in getting started, we have created some introductory Help documents:
+
+* `BV-BRC Quick Start Videos <../../quick_start/quick_start.html>`_
+* `BV-BRC Data and Functionality Overview (Guide for PATRIC Users) <../../quick_start/data_functionality_overview.html>`_
+* `Mapping of IRD/ViPR Features and Terminology to BV-BRC (Guide for IRD and ViPR Users) <../../quick_start/ird-vipr_bv-brc_mapping.html>`_ 
+
+Users can `provide feedback here <mailto:help@bv-brc.atlassian.net>`_.
+
+The brochure below provides additional information about the BV-BRC website. Full documentation is available from the Help menu.
+
+BV-BRC Beta Release Brochure
+----------------------------
+
+`Click here to download the brochure PDF <../../_static/files/news/2022/bv-brc-newsletter-feb-2022.pdf>`_
+
+.. image:: ../images/bv-brc_beta_brochure.png
+  :alt: BV-BRC Beta Release brochure
+
+.. image:: ../images/bv-brc_beta_brochure_pg2.png
+  :alt: BV-BRC Beta Release brochure

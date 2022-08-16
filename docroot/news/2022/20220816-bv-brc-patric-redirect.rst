@@ -23,7 +23,6 @@ New Features
 
 The new data and features in BV-BRC that are not in PATRIC include the following:
 
-* Redesigned homepage
 * Viral pathogen data 
    * 8.5M viral genomes
    * SARS-CoV-2 variants and lineages of concern
@@ -33,6 +32,7 @@ The new data and features in BV-BRC that are not in PATRIC include the following
    * Epitopes
    * Experiment data
 * New analysis tools and services
+   * Specialized advanced searches
    * MetaCATS (Metadata-driven Comparative Analysis Tool)
    * Primer Design
    * MSA and SNP Analysis

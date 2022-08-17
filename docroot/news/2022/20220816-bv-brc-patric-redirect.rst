@@ -6,7 +6,7 @@ PATRIC to BV-BRC Final Transition Schedule
 .. feed-entry::
    :date: 2022-08-16
 
-.. image:: ../images/patric-to-bv-brc.png
+.. image:: ../images/patric-to-bv-brc-v2.png
   :width: 635
   :alt: PATRIC to BV-BRC
 

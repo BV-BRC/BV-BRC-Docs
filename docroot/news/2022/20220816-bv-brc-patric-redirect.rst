@@ -53,7 +53,7 @@ Transition Schedule
 
 .. raw:: html
 
-    <style> .red {color:#aa0060; font-weight:bold} </style>
+    <style> .red {color:#bf0000; font-weight:bold} </style>
 
 .. role:: red
 

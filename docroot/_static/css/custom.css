@@ -16,6 +16,10 @@ p {
     color: #454545;
 }
 
+.line-block .line a {
+    font-size: 14px;
+}
+
 .strike {
     text-decoration: line-through;
 }

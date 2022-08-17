@@ -1,15 +1,9 @@
 [       
     {
-        "title": "BV-BRC (PATRIC & IRD/ViPR) Workshop at Argonne National Laboratory",
-        "desc": "The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a Bioinformatics Workshop on July 19-21, 2022, at Argonne National Laboratory in the suburbs of Chicago, IL.",
-        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bv-brc-patric-workshop-2022.jpg",
-        "link": "https://www.bv-brc.org/docs/news/2022/20220606-bv-brc-patric-workshop.html"   
-    },
-    {
-        "title": "BV-BRC (PATRIC) Workshop at ASM Microbe",
-        "desc": "BV-BRC is presenting a workshop on June 9 at ASM Microbe 2022 in Washington, DC entitled, Genomic, Transcriptomic and Metagenomic Analysis of Bacterial Data in the BV-BRC (aka PATRIC).",
-        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bvbrc-asm-microbe-workshop.png",
-        "link": "https://www.bv-brc.org/docs/news/2022/20220422-bv-brc-workshop-asm-microbe.html"   
+        "title": "BV-BRC (PATRIC & IRD/ViPR) Workshop at the University of Virginia, August 30 - September 1, 2022",
+        "desc": "The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a 3-day Bioinformatics Workshop on August 30 - September 1, 2022, at the University of Virgnia (UVA) in Charlottesville, VA.",
+        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bv-brc-workshop-uva-2022.gif",
+        "link": "https://www.bv-brc.org/docs/news/2022/20220713-bv-brc-workshop-uva.html"   
     },
     {
         "title": "Ticks and Tick-Borne Pathogens Webinar Series",
@@ -28,11 +22,5 @@
         "desc": "We are pleased to announce the Beta release of the new Bacterial and Viral Bioinformatics Resource Center (BV-BRC).",
         "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bv-brc-homepage.png",
         "link": "https://www.bv-brc.org/docs/news/2022/20220215-bv-brc-public-beta.html"   
-    },
-    {
-        "title": "Bioinformatics Resource Center Webinar Series",
-        "desc": "The Bioinformatic Resource Centers (BRC) have partnered to present a joint webinar series on Respiratory Pathogens and the tools available for their study.",
-        "img": "https://www.bv-brc.org/docs/_static/announcements/brc-webinar.png",
-        "link": "https://www.bv-brc.org/docs/news/2021/20210201-new-webinar-series.html"
     }
 ]

@@ -55,6 +55,19 @@ Transition Schedule
    * The PATRIC website will permanently go offline
    * The patricbrc.org website domain will redirect to bv-brc.org
 
+
+.. raw:: html
+
+    <style> .red {color:#aa0060; font-weight:bold; font-size:16px} </style>
+
+.. role:: red
+
+:red:`test - this text should be red``
+
+
+
+
+
 Help Documentation
 ------------------
 

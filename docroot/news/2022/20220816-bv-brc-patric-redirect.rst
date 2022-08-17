@@ -42,7 +42,7 @@ The new data and features in BV-BRC that are not in PATRIC include the following
    * 3-D Protein Structure Viewer (new)
    * SARS-CoV-2 Genome Assembly and Annotation
 
-`Click here to download a brochure PDF summarizing the BV-BRC transtion and features <../../_static/files/news/2022/bv-brc-newsletter-feb-2022.pdf>`_. Full documentation is available from the `BV-BRC Help Documentation site <https://www.bv-brc.org/docs/>`_.
+`Click here to download a brochure PDF summarizing the BV-BRC transtion and features <../../_static/files/news/2022/bv-brc-newsletter-feb-2022.pdf>`_.
 
 Transition Schedule
 -------------------

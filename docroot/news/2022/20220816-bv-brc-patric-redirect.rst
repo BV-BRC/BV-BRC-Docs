@@ -63,11 +63,11 @@ Transition Schedule
 
 .. raw:: html
 
-    <style> .red {color:#aa0060; font-weight:bold; font-size:16px} </style>
+    <style> .red {color:#aa0060; font-weight:bold} </style>
 
 .. role:: red
 
-:red:`December 14, 2022 - PATRIC goes offline``
+:red:`December 14, 2022 - PATRIC goes offline`
 
 - The PATRIC website will permanently go offline
 

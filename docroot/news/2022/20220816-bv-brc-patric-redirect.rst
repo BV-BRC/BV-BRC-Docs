@@ -16,7 +16,7 @@ We are now in the final phase of transitioning `PATRIC <https://www.patricbrc.or
 
 As `announced previously <../20220215-bv-brc-public-beta.html>`_, `PATRIC <https://www.patricbrc.org>`_, the bacterial BRC, and `IRD <https://www.fludb.org>`_ / `ViPR <https://www.viprbrc.org>`_, the viral BRCs, are being merged into the new `Bacterial and Viral Bioinformatics Resource Center (BV-BRC) <https://www.bv-brc.org>`_. BV-BRC combines the data, tools, and technologies from these BRCs to provide an integrated resource for bacterial and viral genomics-based infectious disease research.
 
-For PATRIC users, the migration will be relatively straightforward bacause BV-BRC is built on the PATRIC platform. This includes the PATRIC private workspace, so all data and analysis service jobs that have been created in PATRIC are available in the BV-BRC workspace. PATRIC users can use the same login credentials in BV-BRC.  
+For PATRIC users, the migration will be relatively straightforward bacause BV-BRC is built on the PATRIC platform. This includes the PATRIC private workspace, so all data and analysis service jobs that have been stored and created in PATRIC are available in the BV-BRC workspace. PATRIC users can use the same login credentials in BV-BRC.  
 
 New Features
 ------------

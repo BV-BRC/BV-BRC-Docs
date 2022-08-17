@@ -58,7 +58,7 @@ Transition Schedule
 .. role:: red
 
 :red:`December 14, 2022 - PATRIC goes offline`
-- The PATRIC website will permanently go offline and the patricbrc.org website domain will redirect to bv-brc.org.
+- The PATRIC website will *permanently go offline* and the patricbrc.org website domain will redirect to bv-brc.org.
 
 Help Documentation
 ------------------

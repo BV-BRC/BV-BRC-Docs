@@ -52,7 +52,6 @@ Transition Schedule
 
 
 **February 15, 2022 - BV-BRC Beta Release** 
-
 - This release is complete and available at `BV-BRC <https://www.bv-brc.org>`_
  
 **September 14, 2022 - BV-BRC Production Release** 

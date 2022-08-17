@@ -6,9 +6,9 @@ PATRIC to BV-BRC Final Transition Schedule
 .. feed-entry::
    :date: 2022-08-16
 
-.. image:: ../images/bv-brc_logo_transparent_white_bg_v3_small.png
+.. image:: ../images/patric-to-bv-brc.png
   :width: 635
-  :alt: BV-BRC logo
+  :alt: PATRIC to BV-BRC
 
 We are now in the final phase of transitioning `PATRIC <https://www.patricbrc.org>`_ to the `Bacterial and Viral Bioinformatics Resource Center (BV-BRC) <https://www.bv-brc.org>`_. Website redirects will start in mid-September, and PATRIC will go offline by mid-December of this year. Here is what you need to know.
 

@@ -6,8 +6,8 @@ PATRIC to BV-BRC Final Transition Schedule
 .. feed-entry::
    :date: 2022-08-16
 
-.. image:: ../images/patric-to-bv-brc.png
-  :width: 635
+.. image:: ../images/patric-to-bv-brc-v2.png
+  :width: 579
   :alt: PATRIC to BV-BRC
 
 We are now in the final phase of transitioning `PATRIC <https://www.patricbrc.org>`_ to the `Bacterial and Viral Bioinformatics Resource Center (BV-BRC) <https://www.bv-brc.org>`_. Website redirects will start in mid-September, and PATRIC will go offline by mid-December of this year. Here is what you need to know.
@@ -42,7 +42,7 @@ The new data and features in BV-BRC that are not in PATRIC include the following
    * 3-D Protein Structure Viewer (new)
    * SARS-CoV-2 Genome Assembly and Annotation
 
-`Click here to download a brochure PDF summarizing the BV-BRC transtion and features <../../_static/files/news/2022/bv-brc-overview-brochure-aug-2022.pdf>`_.
+`Click here to download a brochure PDF summarizing the BV-BRC transition and features <../../_static/files/news/2022/bv-brc-overview-brochure-aug-2022.pdf>`_.
 
 Transition Schedule
 -------------------
@@ -63,7 +63,7 @@ Transition Schedule
 Help Documentation
 ------------------
 
-In addition to full `BV-BRC Help Documentation <https://www.bv-brc.org/docs/>`_, the following addtional information is available to aid users in making the transition from PATRIC and IRD/ViPR to BV-BRC:
+In addition to full `BV-BRC Help Documentation <https://www.bv-brc.org/docs/>`_, the following additional information is available to aid users in making the transition from PATRIC and IRD/ViPR to BV-BRC:
 
 * `BV-BRC Quick Start Videos <../../quick_start/quick_start.html>`_
 * `BV-BRC Data and Functionality Overview (Guide for PATRIC Users) <../../quick_start/data_functionality_overview.html>`_
@@ -74,7 +74,7 @@ Users can ask questions and provide feedback `here <mailto:help@bv-brc.org>`_.
 Live Help
 ---------
 
-In order to help users that are having difficulty with transitioning, we are offering office hours via Zoom every Friday at 11:00am - 12:00 pm ET, from August 19 through October 14, 2022. During that time, one or more of the BV-BRC team members will be logged in to the Zoom meeting below and availble to provide one-on-one help as needed.
+In order to help users that are having difficulty with transitioning, we are offering office hours via Zoom every Friday at 11:00am - 12:00 pm ET, from August 19 through October 14, 2022. During that time, one or more of the BV-BRC team members will be logged in to the Zoom meeting below and available to provide one-on-one help as needed.
 
 | Topic: BV-BRC Office Hours
 | Time: Aug 19, 2022 11:00 AM Eastern Time (US and Canada)

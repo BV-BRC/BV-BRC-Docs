@@ -1,5 +1,11 @@
 [       
     {
+        "title": "PATRIC to BV-BRC Final Transition Schedule",
+        "desc": "We are now in the final phase of transitioning PATRIC to the Bacterial and Viral Bioinformatics Resource Center (BV-BRC). Website redirects will start in mid-September, and PATRIC will go offline by mid-December of this year. Here is what you need to know.",
+        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/patric-to-bvbrc-transition.png",
+        "link": "https://www.bv-brc.org/docs/news/2022/20220816-bv-brc-patric-redirect.html"   
+    },
+    {
         "title": "BV-BRC (PATRIC & IRD/ViPR) Workshop at the University of Virginia, August 30 - September 1, 2022",
         "desc": "The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a 3-day Bioinformatics Workshop on August 30 - September 1, 2022, at the University of Virgnia (UVA) in Charlottesville, VA.",
         "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bv-brc-workshop-uva-2022.gif",

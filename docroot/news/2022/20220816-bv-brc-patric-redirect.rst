@@ -63,7 +63,7 @@ Transition Schedule
 Help Documentation
 ------------------
 
-In addition to full `BV-BRC Help Documentation <https://www.bv-brc.org/docs/>`_, the following addtional information is available to aid users in making the transition from PATRIC and IRD/ViPR to BV-BRC:
+In addition to full `BV-BRC Help Documentation <https://www.bv-brc.org/docs/>`_, the following additional information is available to aid users in making the transition from PATRIC and IRD/ViPR to BV-BRC:
 
 * `BV-BRC Quick Start Videos <../../quick_start/quick_start.html>`_
 * `BV-BRC Data and Functionality Overview (Guide for PATRIC Users) <../../quick_start/data_functionality_overview.html>`_
@@ -74,7 +74,7 @@ Users can ask questions and provide feedback `here <mailto:help@bv-brc.org>`_.
 Live Help
 ---------
 
-In order to help users that are having difficulty with transitioning, we are offering office hours via Zoom every Friday at 11:00am - 12:00 pm ET, from August 19 through October 14, 2022. During that time, one or more of the BV-BRC team members will be logged in to the Zoom meeting below and availble to provide one-on-one help as needed.
+In order to help users that are having difficulty with transitioning, we are offering office hours via Zoom every Friday at 11:00am - 12:00 pm ET, from August 19 through October 14, 2022. During that time, one or more of the BV-BRC team members will be logged in to the Zoom meeting below and available to provide one-on-one help as needed.
 
 | Topic: BV-BRC Office Hours
 | Time: Aug 19, 2022 11:00 AM Eastern Time (US and Canada)

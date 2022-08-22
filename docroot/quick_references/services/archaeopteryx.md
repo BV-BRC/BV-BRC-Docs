@@ -8,7 +8,10 @@ Archaeopteryx.js provides an interactive display of phylogenetic trees, with the
   * Phylogenetic Tree Service
 
 ## Accessing Archaeopteryx.js 
-COMING SOON...
+Clicking the **"VIEW"** icon at the top right of the result page of a Gene Tree Service analysis job result will open the Archaeopteryx display. 
+
+![View icon](../images/archaeopteryx.png)
+
 
 ![Archaeopteryx display](../images/archaeopteryx.png)
 

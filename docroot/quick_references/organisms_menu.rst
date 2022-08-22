@@ -1,5 +1,5 @@
-Organisms Menu
-==============
+Organisms
+=========
 The top-level Organisms Menu provides direct access to genus-level data for bacteria and viruses in BV-BRC corresponding to `NIAID's Priority Pathogens <https://www.niaid.nih.gov/research/emerging-infectious-diseases-pathogens>`_. It also provides direct access to summary-level data for all bacteria, viruses, archaea, phages, and eukaryotic hosts in BV-BRC.
 
 .. image:: ./images/bv_organisms_menu.png
@@ -31,7 +31,7 @@ Browsing BV-BRC by Taxon
 
 
 Browsing BV-BRC by Genome/Strain
---------------------------
+--------------------------------
 
 .. toctree::
    :maxdepth: 1
@@ -42,7 +42,7 @@ Browsing BV-BRC by Genome/Strain
 
 
 Browsing BV-BRC by Gene/Protein
-------------------------
+-------------------------------
 
 .. toctree::
    :maxdepth: 1

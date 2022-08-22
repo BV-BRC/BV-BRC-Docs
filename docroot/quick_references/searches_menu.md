@@ -1,4 +1,4 @@
-# Searches Menu
+# Advanced Searches
 
 ## Overview
 

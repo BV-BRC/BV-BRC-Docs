@@ -68,8 +68,8 @@ Data Services
    services/id_mapper.md
    services/fastq_utilities_service.md
 
-Other Services
----------------
+Data Visualizations
+-------------------
 
 .. toctree::
    :maxdepth: 1

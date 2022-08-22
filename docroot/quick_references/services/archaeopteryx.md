@@ -8,14 +8,14 @@ Archaeopteryx.js provides an interactive display of phylogenetic trees, with the
   * Phylogenetic Tree Service
 
 ## Accessing Archaeopteryx.js 
-Clicking the **"VIEW"** icon at the top right of the result page of a Gene Tree Service analysis job result will open the Archaeopteryx display. 
 
 ![View icon](../images/archaeopteryx/view-icon.png)
 
+Clicking the **"VIEW"** icon at the top right of the result page of a Gene Tree Service analysis job result will open the Archaeopteryx display. 
 
 ![Archaeopteryx display](../images/archaeopteryx/archaeopteryx.png)
 
-Archaeopteryx provides an interactive graphical representation of phylogenetic trees with the ability to adjust many parameters of the display, download images in multiple formats, and search within the tree.
+Archaeopteryx provides an interactive graphical representation of phylogenetic trees control panels on the left and right side of the tree display. The controls are described below.
 
 ## Controls
 The following describes the standard controls (found in the left control box). Depending on the tree displayed, some buttons might not be present. For example, if the tree being shown lacks confidence values ("bootstrap values"), the button to show confidence values does not appear.

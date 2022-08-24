@@ -110,6 +110,15 @@ Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assemb
 2.	This will rewrite the page to show the information about the phylogenetic tree job, and all of the files that are produced when the pipeline runs.  
 ![Figure 27](./images/Picture27.png "Figure 27")
 
+The resulting tree can be viewed in the BV-BRC interactive Archaeopteryx.js Tree Viewer. To launch the viewer, click the **VIEW** icon at the top right of the page, to the left of the green bar.
+
+![Figure 27a](./images/Picture27a.png "Figure 27a")
+
+(Example Archaeopteryx.js image)
+![Figure 27b](./images/Picture27b.png "Figure 27b")
+
+The [Archaeopteryx.js Tree Viewer Quick Reference Guide](../../quick_references/services/archaeopteryx.html) provides detailed information about its features and options. 
+
 3.	The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the Parameters row. 
 ![Figure 28](./images/Picture28.png "Figure 28")
 

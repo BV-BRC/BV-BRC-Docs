@@ -5,6 +5,8 @@ Archaeopteryx.js provides an interactive display of phylogenetic trees, with the
 
 ### See also
   * [Gene Tree Service](https://www.bv-brc.org/app/GeneTree)
+  * [Gene Tree Quick Reference Guide](./genetree.html)
+  * [Gene Tree Tutorial](../tutorial/genetree/genetree.html)
   * [Phylogenetic Tree Service](https://www.bv-brc.org/app/PhylogeneticTree)
 
 ## Accessing Archaeopteryx.js 

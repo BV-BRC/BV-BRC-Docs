@@ -9,6 +9,7 @@ The service returns a Newick file which can be rendered in the interactive Archa
 ### See also
 * [Phylogenetic Gene Tree Service](https://bv-brc.org/app/GeneTree)
 * [Phylogenetic Gene Tree Service Quick Reference Guide](../../quick_references/services/genetree.html)
+* [Archaeopteryx.js Tree Viewer Quick Reference Guide](../../quick_references/services/archaeopteryx.html)
 
 ## Locating the service
 

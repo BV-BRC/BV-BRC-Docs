@@ -101,19 +101,27 @@ Protein: LG, WAG, JTT, Blosum62, Dayhoff, HIVw, HIVb
 
 ![Figure 19](./images/Picture19.png "Figure 19")
 
-6\.	Click on the tree_report.html file. This will populate the vertical green bar with several icons for downloading the data, viewing it, deleting or renaming the file, copying or sharing with another BV-BRC user, moving it to a different directory, or changing the type tagged to the file. To examine the tree_report.html, click on the View icon. 
+6.\. The resulting tree can be viewed in the BV-BRC interactive Archaeopteryx.js Tree Viewer. To launch the viewer, click the **VIEW** icon at the top right of the page, to the left of the green bar.
+
+![Figure 19a](./images/Picture19a.png "Figure 19a")
+
+![Figure 19b](./images/Picture19b.png "Figure 19b")
+
+The [Archaeopteryx.js Tree Viewer Quick Reference Guide](../../quick_references/services/archaeopteryx.html) provides detailed information its features and options. 
+
+7\.	Click on the tree_report.html file. This will populate the vertical green bar with several icons for downloading the data, viewing it, deleting or renaming the file, copying or sharing with another BV-BRC user, moving it to a different directory, or changing the type tagged to the file. To examine the tree_report.html, click on the View icon. 
 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
-7\. This will re-write the page to show the html report, which can also be downloaded. The report shows the rendered tree at the top, followed by the tree statistics. 
+8\. This will re-write the page to show the html report, which can also be downloaded. The report shows the rendered tree at the top, followed by the tree statistics. 
 
 ![Figure 21](./images/Picture21.png "Figure 21")
 
-8\.	Click on the row that contains the “tree.nwk” file. This will populate the vertical green bar with several icons for downloading the tree, viewing it, as well as other options. Click on the “View” icon. 
+9\.	Click on the row that contains the “tree.nwk” file. This will populate the vertical green bar with several icons for downloading the tree, viewing it, as well as other options. Click on the “View” icon. 
 
 ![Figure 22](./images/Picture22.png "Figure 22")
 
-9\.	This will re-write the page to show the phylogenetic tree, which can also be downloaded. 
+10\.	This will re-write the page to show the phylogenetic tree, which can also be downloaded. 
 
 ![Figure 23](./images/Picture23.png "Figure 23")
 

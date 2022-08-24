@@ -105,6 +105,7 @@ Protein: LG, WAG, JTT, Blosum62, Dayhoff, HIVw, HIVb
 
 ![Figure 19a](./images/Picture19a.png "Figure 19a")
 
+(Example Archaeopteryx.js image)
 ![Figure 19b](./images/Picture19b.png "Figure 19b")
 
 The [Archaeopteryx.js Tree Viewer Quick Reference Guide](../../quick_references/services/archaeopteryx.html) provides detailed information about its features and options. 

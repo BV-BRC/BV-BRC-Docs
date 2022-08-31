@@ -5,8 +5,6 @@
 p3-join
 #######
 
-.. highlight:: perl
-
 
 *****************************
 Join Two Files on a Key Field
@@ -29,22 +27,54 @@ Parameters
 
 
 The positional parameters are the names of the two files. If only one file is specified, the second file
+will be taken from the standard input.  If a hyphen \ ``-``\  is used for the first parameter, the first file
 will be taken from the standard input.
 
-The standard input can be overriddn using the options in :ref:`cli-input-options`.
+The standard input can be overridden using the options in :ref:`cli-input-options`.
 
 Additional command-line options are the following.
 
 
-key1
+- key1
  
  The index (1-based) or name of the key column in the first file. The default \ ``0``\ , indicating the last column.
  
 
 
-key2
+- key2
  
  The index (1-based) or name of the key column in the second file. The default is the value of \ ``--key1``\ .
+ 
+
+
+- nohead
+ 
+ If specified, the files are assumed to not have headers.
+ 
+
+
+- batchSize
+ 
+ The number of records to read in each group from the first file.  The default is \ ``10``\ .
+ 
+
+
+- only
+ 
+ If specified, a comma-delimited list of column names or indices (1-based) from the second file.  Only these fields will be included in
+ the output.
+ 
+
+
+- nonblank
+ 
+ If specified, lines with blank keys will be removed from the files.
+ 
+
+
+- left
+ 
+ If specified, all lines from the first file will be included in the output, even if there is not a matching copy of the second file.
  
 
 

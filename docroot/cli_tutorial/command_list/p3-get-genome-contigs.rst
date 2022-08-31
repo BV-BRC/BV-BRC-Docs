@@ -5,8 +5,6 @@
 p3-get-genome-contigs
 #####################
 
-.. highlight:: perl
-
 
 **********************************
 Return Data From Contigs in BV-BRC
@@ -33,7 +31,7 @@ The standard input can be overriddn using the options in :ref:`cli-input-options
 Additional command-line options are those given in :ref:`cli-data-options` and :ref:`cli-column-options` plus the following.
 
 
-fields
+- fields
  
  Display the available field names.
  

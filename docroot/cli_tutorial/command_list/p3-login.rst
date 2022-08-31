@@ -5,8 +5,6 @@
 p3-login
 ########
 
-.. highlight:: perl
-
 
 ****************************
 Create a BV-BRC login token.
@@ -25,13 +23,13 @@ the command line as a positional parameter. You will be asked for your password.
 The following command-line options are supported.
 
 
-logout
+- logout
  
  The current user is logged out. If this option is specified, the user name is not required.
  
 
 
-status
+- status
  
  Display the name of the user currently logged in. If this option is specified, the user name is not required.
  

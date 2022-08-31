@@ -5,8 +5,6 @@
 p3-find-in-clusters
 ###################
 
-.. highlight:: perl
-
 
 *******************************************
 Identify Clusters Containing Input Features
@@ -35,19 +33,19 @@ key column (specified using the options in :ref:`cli-column-options`) plus the f
 The following additional options are supported.
 
 
-maxGap
+- maxGap
  
  The maximum number of base pairs allowed between two features in the same cluster. The default is \ ``2000``\ .
  
 
 
-location
+- location
  
  In index (1-based) or name of the column containing the feature location. The default is \ ``location``\ .
  
 
 
-sequence
+- sequence
  
  The index (1-based) or name of the column containing the sequence ID. The defahult is \ ``sequence_id``\ .
  

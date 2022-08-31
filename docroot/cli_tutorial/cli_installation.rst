@@ -14,8 +14,10 @@ The BV-BRC project supports the BV-BRC command line on the following systems:
 
  * PCs running Windows 7 or newer. 
 
+ * Windows 10 with Windows Subsystem for Linux and the Ubuntu distribution therein.
+
 Distribution packages for the releases may be found at the `BV-BRC github release site 
-<https://github.com/PATRIC3/PATRIC-distribution/releases>`_. 
+<https://github.com/BV-BRC/BV-BRC-CLI/releases>`_. 
 
 The installation details differ between the major operating systems. We will discuss each in turn.
 
@@ -25,7 +27,7 @@ Installation on macOS
 The macOS version of the BV-BRC command line interface is distributed
 as a disk image file. We recommend downloading the most recent version
 listed at  the `BV-BRC github release site
-<https://github.com/PATRIC3/PATRIC-distribution/releases>`_.
+<https://github.com/BV-BRC/BV-BRC-CLI/releases>`_.
 
 Download the release disk image file by clicking on the link named BV-BRC-<version>.dmg. Your
 browser will begin the download and save the file to your downloads
@@ -56,7 +58,7 @@ the downloaded document:
 When the download is complete (depending on your internet speed it may
 take several minutes since the disk image is 200 megabytes
 in size), open the image by clicking on the downloaded file
-``PATRIC-1.018.dmg``. 
+``BV-BRC-1.040.dmg``. 
 
 The disk image will open and the following window will appear:
 
@@ -119,17 +121,17 @@ Installation on Debian / Ubuntu / Mint Linux
 The version of the BV-BRC command line interface packaged for Debian
 Linu and its derivative distributions (Ubuntu, Mint, etc) is provided
 as a Debian ``.deb`` distribution file. The release is named
-``patric-cli-<version>.deb`` and may be found on the 
+``bvbrc-cli-<version>.deb`` and may be found on the 
 `BV-BRC github release site                                                                       
-<https://github.com/PATRIC3/PATRIC-distribution/releases>`_. 
+<https://github.com/BV-BRC/BV-BRC-CLI/releases>`_. 
 
 There are several options for installation. The simplest is to
 download the installer using a command line tool, and install with
 ``dpkg``. This method requires a followup call to ``apt-get`` to
 resolve dependencies (here, we are installing version 1.024)::
 
-  curl -O -L https://github.com/PATRIC3/PATRIC-distribution/releases/download/1.024/patric-cli-1.024.deb
-  sudo dpkg -i patric-cli-1.024.deb
+  curl -O -L https://github.com/BV-BRC/BV-BRC-CLI/releases/download/1.040/bvbrc-cli-1.040.deb
+  sudo dpkg -i patric-cli-1.040.deb
   sudo sudo apt-get -f install
 
 It may be simpler to install using the ``gdebi`` tool as it handles
@@ -140,7 +142,7 @@ by default so you will need to install it first::
 
 Then to install with gdebi::
 
-   sudo gdebi patric-cli-1.024.deb
+   sudo gdebi patric-cli-1.040.deb
 
 When the install has completed, the BV-BRC command line tools will be
 available for you to use. They are installed in the system binary
@@ -149,7 +151,7 @@ environment.
 
 If you see an error like the following::
 
-    $ sudo gdebi patric-cli-1.025.deb 
+    $ sudo gdebi bvbrc--cli-1.040.deb 
     Reading package lists... Done
     Building dependency tree        
     Reading state information... Done
@@ -176,12 +178,12 @@ be updated using::
 Installation on Windows
 =======================
 
-The macOS version of the BV-BRC command line interface is distributed
+The Windows version of the BV-BRC command line interface is distributed
 as a Windows installation package. The release is named
-``PATRIC-<version>.exe`` and may be found on `BV-BRC github release site
-<https://github.com/PATRIC3/PATRIC-distribution/releases>`_.
+``bv-brc-win64-<version>.exe`` and may be found on `BV-BRC github release site
+<https://github.com/BV-BRC/BV-BRC-CLI/releases>`_.
 
-Download the BV-BRC installer file by clicking on the link named ``PATRIC-<version>.exe``. Your
+Download the BV-BRC installer file by clicking on the link named ``bv-brc-win64-<version>.exe``. Your
 browser will begin the download and save the file to your downloads
 directory.
 

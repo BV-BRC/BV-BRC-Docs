@@ -5,8 +5,6 @@
 p3-gto-fasta
 ############
 
-.. highlight:: perl
-
 
 *************************************
 Convert Genome Typed Objects to FASTA
@@ -19,7 +17,7 @@ Convert Genome Typed Objects to FASTA
      p3-gto-fasta.pl [options] gtoFile
 
 
-This script produces FASTA files from a :ref:`cli::GenomeTypeObject` instance. The GTO must be
+This script produces FASTA files from a `GenomeTypeObject <GenomeTypeObject>`_ instance. The GTO must be
 provided as a file in JSON format.
 
 Parameters
@@ -31,19 +29,19 @@ The positional parameter is the name of the GTO file. If none is specified, the 
 The command-line options are the following. All three are mutually exclusive.
 
 
-protein
+- protein
  
  If specified, the output will be a protein FASTA file.
  
 
 
-feature
+- feature
  
  If specified, the output will be a feature DNA FASTA file.
  
 
 
-contig
+- contig
  
  If specified, the output will be a contig DNA FASTA file. this is the default.
  

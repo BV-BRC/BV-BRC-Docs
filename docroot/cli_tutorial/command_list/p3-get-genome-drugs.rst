@@ -5,8 +5,6 @@
 p3-get-genome-drugs
 ###################
 
-.. highlight:: perl
-
 
 *************************************
 Return AMR Data For Genomes in BV-BRC
@@ -33,19 +31,19 @@ The standard input can be overriddn using the options in :ref:`cli-input-options
 Additional command-line options are those given in :ref:`cli-data-options` and :ref:`cli-column-options` plus the following.
 
 
-fields
+- fields
  
  List the fields of the table.
  
 
 
-resistant
+- resistant
  
  Filter for drugs to which the genome is resistant.
  
 
 
-susceptible
+- susceptible
  
  Filter for drugs to which the genome is susceptible.
  

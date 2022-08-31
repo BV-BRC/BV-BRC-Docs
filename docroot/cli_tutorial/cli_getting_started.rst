@@ -5,7 +5,7 @@
 ==========================================
 
 
-`BV-BRC <https://www.patricbrc.org>`_ is an integration of different
+`BV-BRC <https://www.bv-brc.org>`_ is an integration of different
 types of data and software tools that support research on bacterial
 pathogens. The typical biologist seeking access to the BV-BRC data and
 tools will usually explore the web-based user interface. However, there
@@ -60,7 +60,7 @@ We currently have macOS and Debian/Ubuntu releases of the BV-BRC Command Line
 Interface. A Windows version is in the works.
 
 The releases are available at the `BV-BRC github
-site <https://github.com/PATRIC3/PATRIC-distribution/releases>`_. Full installation
+site <https://github.com/BV-BRC/BV-BRC-CLI/releases>`_. Full installation
 installations are available in :ref:`cli-installation`.
 
 Command-Line Help
@@ -705,7 +705,7 @@ Logging In
 
 To access your workspace, you need a BV-BRC account. If you do not have
 one already, go to
-`https://user.patricbrc.org/register <https://user.patricbrc.org/register>`_
+`https://user.bv-brc.org/register <https://user.bv-brc.org/register>`_
 and register now.
 
 Now that you have a working user name and password, you can use the

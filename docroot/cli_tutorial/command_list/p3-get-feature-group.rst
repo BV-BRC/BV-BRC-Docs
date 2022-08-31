@@ -5,8 +5,6 @@
 p3-get-feature-group
 ####################
 
-.. highlight:: perl
-
 
 ************************************************
 Retrieve a feature group from a patric workspace

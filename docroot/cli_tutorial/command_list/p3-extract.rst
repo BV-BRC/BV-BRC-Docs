@@ -5,8 +5,6 @@
 p3-extract
 ##########
 
-.. highlight:: perl
-
 
 *********************************
 Select Columns from an Input File
@@ -33,13 +31,19 @@ The standard input may be overridden by the command-line options given in :ref:`
 The following additional options are supported.
 
 
-all
+- all
  
  Output all the columns. This simply copies the file.
  
 
 
-nohead
+- reverse
+ 
+ Output all the columns not listed, rather than the listed columns.
+ 
+
+
+- nohead
  
  If specified, the file is presumed to have no headers.
  

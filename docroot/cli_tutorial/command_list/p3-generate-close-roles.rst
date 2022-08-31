@@ -5,8 +5,6 @@
 p3-generate-close-roles
 #######################
 
-.. highlight:: perl
-
 
 ************************************
 Find Roles That Occur Close Together
@@ -26,25 +24,25 @@ the chromosome. Such roles typically have related functions in a genome.
 The input file must contain the following four fields.
 
 
-1
+- 1
  
  genome ID
  
 
 
-2
+- 2
  
  contig (sequence) ID
  
 
 
-3
+- 3
  
  location in the sequence
  
 
 
-4
+- 4
  
  functional role
  
@@ -77,40 +75,55 @@ The standard input can be overriddn using the options in :ref:`cli-input-options
 Additional command-line options are
 
 
-genome
+- genome
  
  The index (1-based) or name of the column containing the genome ID. The default is \ ``1``\ .
  
 
 
-sequence
+- sequence
  
  The index (1-based) or name of the column containing the sequence ID. The default is \ ``2``\ .
  
 
 
-location
+- location
  
  The index (1-based) or name of the column containing the location string. The default is \ ``3``\ .
  
 
 
-role
+- role
  
  The index (1-based) or name of the column containing the role description. The default is \ ``4``\ .
  
 
 
-maxGap
+- maxGap
  
  The maximum space between two features considered close. The default is \ ``2000``\ .
  
 
 
-minOcc
+- minOcc
  
  The minimum number of occurrences for a pair to be considered significant. The default is \ ``4``\ .
  
+
+
+Example
+-------
+
+
+This command is shown in the tutorial p3_common_tasks.html
+
+p3-get-genome-features --eq feature_type,CDS --attr sequence_id --attr location --attr product &lt;genomes.tbl | p3-function-to-role | p3-generate-close-roles
+    role1   role2   count
+    Transposase, IS3/IS911 family   Mobile element protein  33
+    Mobile element protein  Mobile element protein  29
+    Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5)   Copper-translocating P-type ATPase (EC 3.6.3.4) 25
+    Potassium efflux system KefA protein    Small-conductance mechanosensitive channel  13
+    ...
 
 
 

@@ -5,8 +5,6 @@
 p3-list-genome-groups
 #####################
 
-.. highlight:: perl
-
 
 ******************
 List Genome Groups

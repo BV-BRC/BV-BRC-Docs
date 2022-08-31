@@ -21,7 +21,7 @@ We currently have Windows, macOS and Debian/Ubuntu releases of the BV-BRC Comman
 Interface.
 
 The releases are available at the `BV-BRC github
-site <https://github.com/PATRIC3/PATRIC-distribution/releases>`_. Full installation
+site <https://github.com/BV-BRC/BV-BRC-CLI/releases>`_. Full installation
 instructions are available in :ref:`cli-installation`.
 
 Tutorials and Reference Documentation

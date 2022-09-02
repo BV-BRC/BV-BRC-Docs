@@ -5,8 +5,6 @@
 p3-put-genome-group
 ###################
 
-.. highlight:: perl
-
 
 *********************************
 Push ids to a Patric genome-group

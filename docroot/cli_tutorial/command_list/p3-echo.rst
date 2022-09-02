@@ -5,8 +5,6 @@
 p3-echo
 #######
 
-.. highlight:: perl
-
 
 *****************************
 Write Data to Standard Output
@@ -65,16 +63,23 @@ The positional parameters are the values to be output.
 The command-line options are as follows.
 
 
-title
+- title
  
  The value to use for the header line. If more than one value is specified, then the output file is multi-column. If
  omitted, the single column header \ ``id``\  is assumed.
  
 
 
-nohead
+- nohead
  
  If this option is specified, then no column headers are output. The value is the number of columns desired.
+ 
+
+
+- data
+ 
+ Specifies a file name. The records in the file will be added to the end of the output. Use this option to put headers
+ onto a headerless file.
  
 
 

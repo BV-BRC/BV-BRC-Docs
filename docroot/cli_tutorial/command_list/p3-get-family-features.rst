@@ -5,8 +5,6 @@
 p3-get-family-features
 ######################
 
-.. highlight:: perl
-
 
 ***************************************
 Return Features From Families in BV-BRC
@@ -35,27 +33,27 @@ The standard input can be overridden using the options in :ref:`cli-input-option
 Additional command-line options are those given in :ref:`cli-data-options` and :ref:`cli-column-options` plus the following.
 
 
-gFile
+- gFile
  
  Name of a tab-delimited file containing genome IDs. If specified, only features in these genomes will be returned.
  
 
 
-gCol
+- gCol
  
  Index (1-based) or header name of the column containing the genome IDs in the genome file. The default is
  \ ``genome.genome_id``\ .
  
 
 
-ftype
+- ftype
  
  The type of family being used. The default is \ ``local``\ , indicating BV-BRC local protein families. Other options are
  \ ``figfam``\  or \ ``global``\ .
  
 
 
-fields
+- fields
  
  List the available field names.
  

@@ -5,8 +5,6 @@
 p3-related-by-clusters
 ######################
 
-.. highlight:: perl
-
 
 **************************************************
 Compute Related Protein Families Based on Clusters
@@ -93,44 +91,44 @@ Standard input is not used.
 The additional command-line options are as follows.
 
 
-gs1
+- gs1
  
  Genome set 1: a file containing genome ids in the first column
  These genomes will be the onces containing signature families and clusters.
  
 
 
-gs2
+- gs2
  
  Genome set 2: a file containing genome ids in the first column
  
 
 
-sz1
+- sz1
  
  For each iteration pick a sample of sz1 genomes from gs1
  
 
 
-sz2
+- sz2
  
  For each iteration pick a sample of sz2 genomes from gs2
  
 
 
-iterations
+- iterations
  
  run this many iterations of random subsets of gs1 and gs2
  
 
 
-output
+- output
  
  a created directory that will contain the output
  
 
 
-family
+- family
  
  Type of protein family-- local, global, or figfam.
  

@@ -1,5 +1,5 @@
 p3_cli
-p3_core
-p3_code
-seed_core
+sars2_assembly
+p3_auth
+app_service
 Workspace

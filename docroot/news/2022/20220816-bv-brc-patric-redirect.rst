@@ -74,20 +74,6 @@ Users can ask questions and provide feedback `here <mailto:help@bv-brc.org>`_.
 Live Help
 ---------
 
-In order to help users that are having difficulty with transitioning, we are offering office hours via Zoom every Friday at 11:00am - 12:00 pm ET, from August 19 through October 14, 2022. During that time, one or more of the BV-BRC team members will be logged in to the Zoom meeting below and available to provide one-on-one help as needed.
+In order to help users that are having difficulty with transitioning, we are offering office hours via Zoom every Friday at 11:00am - 12:00 pm ET, beginning September 9 through October 14, 2022. During that time, one or more of the BV-BRC team members will be logged in to the Zoom meeting below and available to provide one-on-one help as needed.
 
-| Topic: BV-BRC Office Hours
-| Time: Aug 19, 2022 11:00 AM Eastern Time (US and Canada)
-| Every week on Fri, until Oct 14, 2022, 9 occurrence(s)
-
-| Please download and import the following iCalendar (.ics) files to your calendar system.
-| Weekly: https://virginia.zoom.us/meeting/tJItdeGprToqE9FIBQA8m0LmY0ai1B7oqEdK/ics?icsToken=98tyKuCurjkiG9eUsBCCRowAAojoWevztn5fj_p7tT3UInheMi_7D7JDO-NdR9fB
-
-| Join Zoom Meeting
-| https://virginia.zoom.us/j/96028131095?pwd=VVFMc0E4ZlZzd2pldkRwdFJiSVV6QT09
-
-| Meeting ID: 960 2813 1095
-| Passcode: 256049
-| One tap mobile
-| +13017158592,,96028131095# US (Washington DC)
-| +13126266799,,96028131095# US (Chicago)
+| Registration information coming soon.

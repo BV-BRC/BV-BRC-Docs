@@ -9,7 +9,7 @@ News and Announcements
    :description: BV-BRC News RSS feed
    :link: https://www.bv-brc.org/docs/
 
-   2022/20220907-monkeypox-and-orthopoxvirus-symposium.rst
+   2022/20220907-monkeypox-and-orthopoxvirus-symposium
    2022/20220816-bv-brc-patric-redirect
    2022/20220713-bv-brc-workshop-uva
    2022/20220606-bv-brc-patric-workshop

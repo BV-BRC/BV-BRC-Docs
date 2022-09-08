@@ -31,5 +31,8 @@ Confirmed Speakers and Tentative Agenda
 ----------------------------------------
 *(subject to change)*
 
-Introductory Talks
-^^^^^^^^^^^^^^^^^^^
+**Introductory Talks**
+  * *Introduction to MPXV and history* **TBD**
+  * *MPXV primer* **TBD**
+
+**Monkeypox 2022 Outbreak**

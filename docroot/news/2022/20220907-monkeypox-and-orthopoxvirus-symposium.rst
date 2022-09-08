@@ -45,3 +45,26 @@ Confirmed Speakers and Tentative Agenda
   *	Phylogenomic characterization and signs of microevolution in the 2022 multi-country outbreak of monkeypox virus **Vítor Borges - National Institute of Health - Portugal**
  
   *	*Genetic variability, including gene duplication and deletion, in early sequences from the 2022 global monkeypox outbreak* **Terry Jones - Charité - Universitätsmedizin Berlin**
+
+**Diagnostic and Sequencing Techniques**
+
+  * *Diagnostic assays for monkeypox: Polymerase Chain Reaction (PCR) and Point of Care (POC)* **Christina Hurson - CDC/DDID/NCEZID/DHCPP**
+
+  * *Advanced Genomic Sequencing for H2H Transmission Analysis of Poxvirus* **Gustavio Palacios – Icahn School of Medicine at Mount Sinai**
+
+  * *Monkeypox virus whole genome sequencing using combination of NextGenPCR and Oxford Nanopore* **Matthijs Welkers - Amsterdam UMC , Amsterdam, The Netherlands**
+
+  * *Monkeypox virus multiplexed PCR amplicon sequencing (PrimalSeq)* **Chantal Vogels - Yale School of Public Health**
+
+
+**Bioinformatic Databases, Tools and Resources**
+
+ * *Nextclade, Nextstrain and New Monkeypox Sublineages* **Emma Hodcroft - University of Bern**
+
+ * *International Committee on Taxonomy of Viruses: ICTV* **Elliot Lefkowitz - University of Alabama Birmingham**
+ 
+ * *NCBI Virus
+Eneida Hatcher – National Center for Biotechnology Information  
+ * *The Bacterial and Viral Bioinformatics Resource Center (BV-BRC)* **Anna Maria Niewiadomska - BV-BRC**
+
+ * *Viral Bioinformatics Research Center: Bioinformatics for Poxviruses and ASFV* **Rachel Roper - East Carolina University**

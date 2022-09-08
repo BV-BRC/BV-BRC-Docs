@@ -17,15 +17,15 @@ Discussion of bioinformatic resources and tools available and in development for
 Event Information
 -------------------
 
-**Registration: **
+**Registration:** `Click Here <https://jcvi.webex.com/jcvi/j.php?RGID=r8537c82536643eda7a517fa4eb38a908>`_
 
-**Date: **
+**Date:** September 15, 2022
 
-**Time: **
+**Time:** 7 AM – 11 AM Pacific, 10 AM – 2 PM Eastern , 2 PM – 6 PM UTC
 
-**Scope: **
+**Scope:** Discussion of bioinformatic resources and tools available and in development for the purpose of studying monkeypox virus. Will also include a brief primer on monkeypox virus, as well as research presentations focusing on the recent outbreak.
 
-**Audience: **
+**Audience:** Bioinformaticians, public health practitioners, bench scientists in the field of Monkeypox or poxvirus research
 
 Confirmed Speakers and Tentative Agenda
 ----------------------------------------

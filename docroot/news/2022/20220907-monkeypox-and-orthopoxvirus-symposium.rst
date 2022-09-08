@@ -63,8 +63,8 @@ Confirmed Speakers and Tentative Agenda
 
  * *International Committee on Taxonomy of Viruses: ICTV* **Elliot Lefkowitz - University of Alabama Birmingham**
  
- * *NCBI Virus
-Eneida Hatcher – National Center for Biotechnology Information  
+ * *NCBI Virus* **Eneida Hatcher – National Center for Biotechnology Information**
+ 
  * *The Bacterial and Viral Bioinformatics Resource Center (BV-BRC)* **Anna Maria Niewiadomska - BV-BRC**
 
  * *Viral Bioinformatics Research Center: Bioinformatics for Poxviruses and ASFV* **Rachel Roper - East Carolina University**

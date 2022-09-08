@@ -1,4 +1,10 @@
-[       
+[ 
+    {
+        "title": "Monkeypox and Orthopoxvirus Mini-Symposium",
+        "desc": "Discussion of bioinformatic resources and tools available and in development for the purpose of studying monkeypox virus. Will also include a brief primer on monkeypox virus, as well as research presentations focusing on the recent outbreak.",
+        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/monkeypox-symposium.png",
+        "link": "https://www.bv-brc.org/docs/news/2022/20220907-monkeypox-and-orthopoxvirus-symposium.html"   
+    },      
     {
         "title": "PATRIC to BV-BRC Final Transition Schedule",
         "desc": "We are now in the final phase of transitioning PATRIC to the Bacterial and Viral Bioinformatics Resource Center (BV-BRC). Website redirects will start in mid-September, and PATRIC will go offline by mid-December of this year. Here is what you need to know.",
@@ -22,11 +28,5 @@
         "desc": "As part of the launch of the new BV-BRC Beta website, we are offering a webinar series to help new users, as well as PATRIC and IRD/ViPR users, become acquainted with the new website.",
         "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bv-brc-intro-webinars-v2.png",
         "link": "https://www.bv-brc.org/docs/news/2022/20220223-bv-brc-intro-webinars.html"   
-    },
-    {
-        "title": "BV-BRC Public Beta Release",
-        "desc": "We are pleased to announce the Beta release of the new Bacterial and Viral Bioinformatics Resource Center (BV-BRC).",
-        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bv-brc-homepage.png",
-        "link": "https://www.bv-brc.org/docs/news/2022/20220215-bv-brc-public-beta.html"   
     }
 ]

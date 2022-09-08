@@ -32,7 +32,16 @@ Confirmed Speakers and Tentative Agenda
 *(subject to change)*
 
 **Introductory Talks**
+
   * *Introduction to MPXV and history* **TBD**
   * *MPXV primer* **TBD**
 
 **Monkeypox 2022 Outbreak**
+
+  *	*Monkeypox virus sequencing in the 2022 outbreak reveals multiple independent lineages and unique mutational signatures* **Crystal Gigante - CDC/DDID/NCEZID/DHCPP**
+
+  *	*A distinct phylogenetic cluster of Monkeypox genomes suggests an early and cryptic spread of the virus* **Bani Jolly - CSIR Institute of Genomics and Integrative Biology (CSIR-IGIB), New Delhi, India**
+ 
+  *	Phylogenomic characterization and signs of microevolution in the 2022 multi-country outbreak of monkeypox virus **Vítor Borges - National Institute of Health - Portugal**
+ 
+  *	*Genetic variability, including gene duplication and deletion, in early sequences from the 2022 global monkeypox outbreak* **Terry Jones - Charité - Universitätsmedizin Berlin**

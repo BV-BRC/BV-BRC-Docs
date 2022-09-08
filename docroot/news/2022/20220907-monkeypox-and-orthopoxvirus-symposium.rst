@@ -59,12 +59,12 @@ Confirmed Speakers and Tentative Agenda
 
 **Bioinformatic Databases, Tools and Resources**
 
- * *Nextclade, Nextstrain and New Monkeypox Sublineages* **Emma Hodcroft - University of Bern**
+ * *Nextclade, Nextstrain and New Monkeypox Sublineages* --- **Emma Hodcroft - University of Bern**
 
- * *International Committee on Taxonomy of Viruses: ICTV* **Elliot Lefkowitz - University of Alabama Birmingham**
+ * *International Committee on Taxonomy of Viruses: ICTV* --- **Elliot Lefkowitz - University of Alabama Birmingham**
  
- * *NCBI Virus* **Eneida Hatcher – National Center for Biotechnology Information**
- 
- * *The Bacterial and Viral Bioinformatics Resource Center (BV-BRC)* **Anna Maria Niewiadomska - BV-BRC**
+ * *NCBI Virus* --- **Eneida Hatcher – National Center for Biotechnology Information**
 
- * *Viral Bioinformatics Research Center: Bioinformatics for Poxviruses and ASFV* **Rachel Roper - East Carolina University**
+ * *The Bacterial and Viral Bioinformatics Resource Center (BV-BRC)* --- **Anna Maria Niewiadomska - BV-BRC**
+
+ * *Viral Bioinformatics Research Center: Bioinformatics for Poxviruses and ASFV* --- **Rachel Roper - East Carolina University**

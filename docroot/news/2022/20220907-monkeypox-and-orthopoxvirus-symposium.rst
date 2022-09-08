@@ -33,28 +33,28 @@ Confirmed Speakers and Tentative Agenda
 
 **Introductory Talks**
 
-  * *Introduction to MPXV and history* **TBD**
-  * *MPXV primer* **TBD**
+  * *Introduction to MPXV and history* --- **TBD**
+  * *MPXV primer* --- **TBD**
 
 **Monkeypox 2022 Outbreak**
 
-  *	*Monkeypox virus sequencing in the 2022 outbreak reveals multiple independent lineages and unique mutational signatures* **Crystal Gigante - CDC/DDID/NCEZID/DHCPP**
+  *	*Monkeypox virus sequencing in the 2022 outbreak reveals multiple independent lineages and unique mutational signatures* --- **Crystal Gigante - CDC/DDID/NCEZID/DHCPP**
 
-  *	*A distinct phylogenetic cluster of Monkeypox genomes suggests an early and cryptic spread of the virus* **Bani Jolly - CSIR Institute of Genomics and Integrative Biology (CSIR-IGIB), New Delhi, India**
+  *	*A distinct phylogenetic cluster of Monkeypox genomes suggests an early and cryptic spread of the virus* --- **Bani Jolly - CSIR Institute of Genomics and Integrative Biology (CSIR-IGIB), New Delhi, India**
  
-  *	Phylogenomic characterization and signs of microevolution in the 2022 multi-country outbreak of monkeypox virus **Vítor Borges - National Institute of Health - Portugal**
+  *	*Phylogenomic characterization and signs of microevolution in the 2022 multi-country outbreak of monkeypox virus* --- **Vítor Borges - National Institute of Health - Portugal**
  
-  *	*Genetic variability, including gene duplication and deletion, in early sequences from the 2022 global monkeypox outbreak* **Terry Jones - Charité - Universitätsmedizin Berlin**
+  *	*Genetic variability, including gene duplication and deletion, in early sequences from the 2022 global monkeypox outbreak* --- **Terry Jones - Charité - Universitätsmedizin Berlin**
 
 **Diagnostic and Sequencing Techniques**
 
-  * *Diagnostic assays for monkeypox: Polymerase Chain Reaction (PCR) and Point of Care (POC)* **Christina Hurson - CDC/DDID/NCEZID/DHCPP**
+  * *Diagnostic assays for monkeypox: Polymerase Chain Reaction (PCR) and Point of Care (POC)* --- **Christina Hurson - CDC/DDID/NCEZID/DHCPP**
 
-  * *Advanced Genomic Sequencing for H2H Transmission Analysis of Poxvirus* **Gustavio Palacios – Icahn School of Medicine at Mount Sinai**
+  * *Advanced Genomic Sequencing for H2H Transmission Analysis of Poxvirus* --- **Gustavio Palacios – Icahn School of Medicine at Mount Sinai**
 
-  * *Monkeypox virus whole genome sequencing using combination of NextGenPCR and Oxford Nanopore* **Matthijs Welkers - Amsterdam UMC , Amsterdam, The Netherlands**
+  * *Monkeypox virus whole genome sequencing using combination of NextGenPCR and Oxford Nanopore* --- **Matthijs Welkers - Amsterdam UMC , Amsterdam, The Netherlands**
 
-  * *Monkeypox virus multiplexed PCR amplicon sequencing (PrimalSeq)* **Chantal Vogels - Yale School of Public Health**
+  * *Monkeypox virus multiplexed PCR amplicon sequencing (PrimalSeq)* --- **Chantal Vogels - Yale School of Public Health**
 
 
 **Bioinformatic Databases, Tools and Resources**

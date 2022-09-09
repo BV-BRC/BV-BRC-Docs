@@ -7,7 +7,7 @@ BV-BRC typically hosts four open workshops annually: two at Argonne National Lab
 Workshop Schedule
 -----------------
 
-`VEME <.\2022-Aug-21-26_veme.html>_`
+`VEME <./2022-Aug-21-26_veme.html>_`
 
 
 

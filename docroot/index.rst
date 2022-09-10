@@ -22,7 +22,7 @@ BV-BRC Documentation
    tutorial/index
    cli_tutorial/index
    webinar/index
-   .. workshops/index
+   workshops/index
    .. faqs_common_tasks/index
 
 .. toctree::

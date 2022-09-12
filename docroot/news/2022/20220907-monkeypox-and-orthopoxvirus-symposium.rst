@@ -21,7 +21,7 @@ Event Information
 
 **Date:** September 15, 2022
 
-**Time:** 7 AM – 11 AM Pacific, 10 AM – 2 PM Eastern , 2 PM – 6 PM UTC
+**Time:** 7 AM – 11:30 AM Pacific, 10 AM – 2 PM:30 Eastern , 4 PM – 8:30 PM CET
 
 **Scope:** Discussion of bioinformatic resources and tools available and in development for the purpose of studying monkeypox virus. Will also include a brief primer on monkeypox virus, as well as research presentations focusing on the recent outbreak.
 
@@ -31,40 +31,13 @@ Confirmed Speakers and Tentative Agenda
 ----------------------------------------
 *(subject to change)*
 
-**Introductory Talks**
+::
 
-  * *Introduction to MPXV and history* --- **TBD**
-  * *MPXV primer* --- **TBD**
+   10:00 EDT /   Introduction and Welcome
+   16:00 CET      * Richard Scheuermann & Anna Maria Niewiadomska - BV-BRC & J. Craig Venter Institute
 
-**Monkeypox 2022 Outbreak**
+   10:05 EDT /   Monkeypox virus primer
+   16:05 CET      * Paula Traktman - Medical University of South Carolina
 
-  *	*Monkeypox virus sequencing in the 2022 outbreak reveals multiple independent lineages and unique mutational signatures* --- **Crystal Gigante - CDC/DDID/NCEZID/DHCPP**
-
-  *	*A distinct phylogenetic cluster of Monkeypox genomes suggests an early and cryptic spread of the virus* --- **Bani Jolly - CSIR Institute of Genomics and Integrative Biology (CSIR-IGIB), New Delhi, India**
- 
-  *	*Phylogenomic characterization and signs of microevolution in the 2022 multi-country outbreak of monkeypox virus* --- **Vítor Borges - National Institute of Health - Portugal**
- 
-  *	*Genetic variability, including gene duplication and deletion, in early sequences from the 2022 global monkeypox outbreak* --- **Terry Jones - Charité - Universitätsmedizin Berlin**
-
-**Diagnostic and Sequencing Techniques**
-
-  * *Diagnostic assays for monkeypox: Polymerase Chain Reaction (PCR) and Point of Care (POC)* --- **Christina Hurson - CDC/DDID/NCEZID/DHCPP**
-
-  * *Advanced Genomic Sequencing for H2H Transmission Analysis of Poxvirus* --- **Gustavio Palacios – Icahn School of Medicine at Mount Sinai**
-
-  * *Monkeypox virus whole genome sequencing using combination of NextGenPCR and Oxford Nanopore* --- **Matthijs Welkers - Amsterdam UMC , Amsterdam, The Netherlands**
-
-  * *Monkeypox virus multiplexed PCR amplicon sequencing (PrimalSeq)* --- **Chantal Vogels - Yale School of Public Health**
-
-
-**Bioinformatic Databases, Tools and Resources**
-
- * *Nextclade, Nextstrain and New Monkeypox Sublineages* --- **Emma Hodcroft - University of Bern**
-
- * *International Committee on Taxonomy of Viruses: ICTV* --- **Elliot Lefkowitz - University of Alabama Birmingham**
- 
- * *NCBI Virus* --- **Eneida Hatcher – National Center for Biotechnology Information**
-
- * *The Bacterial and Viral Bioinformatics Resource Center (BV-BRC)* --- **Anna Maria Niewiadomska - BV-BRC**
-
- * *Viral Bioinformatics Research Center: Bioinformatics for Poxviruses and ASFV* --- **Rachel Roper - East Carolina University**
+   10:20 EDT /   Phylogenomic characterization and signs of microevolution in the 2022 multi-country outbreak of monkeypox virus
+   16:20 CET      * Vitor Borges - National Institute of Health - Portugal

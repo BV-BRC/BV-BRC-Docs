@@ -31,16 +31,3 @@ Confirmed Speakers and Tentative Agenda
 ----------------------------------------
 *(subject to change)*
 
-::
-
-   10:00 EDT /   Introduction and Welcome
-   16:00 CET      * **Richard Scheuermann** & **Anna Maria Niewiadomska**
-                    BV-BRC & J. Craig Venter Institute
-
-   10:05 EDT /   Monkeypox virus primer
-   16:05 CET      * Paula Traktman
-                    Medical University of South Carolina
-
-   10:20 EDT /   Phylogenomic characterization and signs of microevolution
-                 in the 2022 multi-country outbreak of monkeypox virus
-   16:20 CET      * Vitor Borges - National Institute of Health - Portugal

@@ -31,3 +31,7 @@ Confirmed Speakers and Tentative Agenda
 ----------------------------------------
 *(subject to change)*
 
+**10:00 EDT / 16:00 CET**
+*Introduction and Welcome*
+    -- Richard Scheuermann & Anna Maria Niewiadomska
+       BV-BRC & J. Craig Venter Institute

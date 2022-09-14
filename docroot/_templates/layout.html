@@ -13,7 +13,17 @@
   var home = '<div class="branding"><a href="https://bv-brc.org" title="BV-BRC Homepage">BV-BRC Home</a> &rsaquo; <a href="/docs/" title="BV-BRC Documentation">Docs</a></div>';
   $(".wy-side-nav-search").prepend(home).prepend(logo);
 </script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GS8F60MG56"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GS8F60MG56');
+</script>
+
+<!-- Universal Analytics - EOL -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165638318-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

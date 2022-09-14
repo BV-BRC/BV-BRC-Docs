@@ -53,7 +53,7 @@ source_suffix = {
 master_doc = 'index'
 
 # General information about the project.
-project = 'BV-BRC Documentation'
+project = 'BV-BRC'
 copyright = '2022 | The BV-BRC Team'
 author = 'BV-BRC Team'
 
@@ -109,7 +109,7 @@ html_theme_options = {
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_logo = ""
 html_favicon = "_static/favicon.ico"
-html_title = "BV-BRC Documentation"
+html_title = "Documentation"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -125,7 +125,7 @@ html_static_path = ['_static']
 # A list of paths that contain extra files not directly relation to the docs
 # Relative paths to the config.py file
 # Copied directly to the output directly (_build/html)
-html_extra_path = ['sitemap.xml']
+html_extra_path = [''] # Inherited from bvbrc_web
 
 
 # -- Options for HTMLHelp output ------------------------------------------

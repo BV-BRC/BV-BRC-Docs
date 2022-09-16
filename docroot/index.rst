@@ -9,6 +9,7 @@ BV-BRC Documentation
 
    news/index
    analysis_reports.md
+   emerging_variant_reports.rst
 
 
 .. toctree::

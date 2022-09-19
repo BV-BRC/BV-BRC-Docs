@@ -7,7 +7,7 @@ Please note  that the information provided reflects sequence counts and sequence
  
 In addition, due to sequence anomalies (e.g., ambiguous nucleotides in many sequence records) and other issues, the absolute counts of Variants of Concern sequences are likely to be underestimation of the true sequence prevalence. 
  
-The reports includes preliminary/incomplete stats for the current month in order to help identify early signs of novel
+The reports includes preliminary/incomplete stats for the current month in order to help identify early signs of novel.
 
 .. csv-table:: Example :rst:dir:`csv-table`
    :header: "Date, "PDF", "Excel"

@@ -9,8 +9,10 @@ In addition, due to sequence anomalies (e.g., ambiguous nucleotides in many sequ
  
 The reports includes preliminary/incomplete stats for the current month in order to help identify early signs of novel
 
-========   ========   ========
-Date       PDF        Excel
-=========  =========  ========
-09/06/22   test       false
-=========  =========  =========
+.. csv-table:: Example :rst:dir:`csv-table`
+   :header: "Date, "PDF", "Excel"
+
+   "08/30/22",               "Data 1.2",      "Data 1.3"
+   "08/23/22",               "Data 2.2",      "Data 2.3"
+   "08/15/22",               ,                "Data 1.3 (Data 1.2 left out)"
+   "08/09/22",               "Data 4.2 (Data 4.3 left out)"

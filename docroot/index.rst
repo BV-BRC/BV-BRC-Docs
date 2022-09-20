@@ -9,9 +9,6 @@ BV-BRC Documentation
 
    news/index
    reports_and_analysis/index
-   sars_cov_2_analysis_reports.md
-   sars_cov_2_emerging_variants_reports.md
-
 
 .. toctree::
    :maxdepth: 2

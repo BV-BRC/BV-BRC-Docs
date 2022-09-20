@@ -9,8 +9,8 @@ In addition, due to sequence anomalies (e.g., ambiguous nucleotides in many sequ
  
 The reports includes preliminary/incomplete stats for the current month in order to help identify early signs of novel emerging variants.
 
-Variant Report Downloads
--------------------------
+**Variant Report Downloads**
+
 *Table of variant report downloads to be uploaded shortly*
 
 **Acknowledgements**

@@ -5,7 +5,7 @@ BV-BRC Documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: Updates and Reportsss
+   :caption: Updates and Reports
 
    news/index
    reports_and_analysis/index

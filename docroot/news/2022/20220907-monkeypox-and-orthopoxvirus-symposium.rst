@@ -43,42 +43,41 @@ Confirmed Speakers and Tentative Agenda
 |
 | **10:20 EDT / 16:20 CET**
 | *Phylogenomic characterization and signs of microevolution*
-| *in the 2022 multi-country outbreak of monkeypox virus* `Link <https://www.nature.com/articles/s41591-022-01907-y>`_
+| *in the 2022 multi-country outbreak of monkeypox virus* --- `Link <https://www.nature.com/articles/s41591-022-01907-y>`_
 | Vitor Borges
 | National Institute of Health - Portugal
 |
 | **10:35 EDT / 16:35 CET**
 | *Monkeypox virus sequencing in the 2022 outbreak reveals*
-| *multiple independent lineages and unique mutational signatures* `Link <https://www.biorxiv.org/content/10.1101/2022.06.10.495526v1>`_
+| *multiple independent lineages and unique mutational signatures* ---`Link <https://www.biorxiv.org/content/10.1101/2022.06.10.495526v1>`_
 | Crystal Gigante
 | CDC/DDID/NCEZID/DHCPP
 |
 | **10:50 EDT / 16:50 CET**
 | *A distinct phylogenetic cluster of Monkeypox genomes*
-| *suggests an early and cryptic spread of the virus* `Link <https://linkinghub.elsevier.com/retrieve/pii/S0163-4453(22)00476-5>`_
+| *suggests an early and cryptic spread of the virus* --- `Link <https://linkinghub.elsevier.com/retrieve/pii/S0163-4453(22)00476-5>`_
 | Bani Jolly
 | CSIR-IGIB, New Delhi, India
 |
 | **11:05 EDT / 17:05 CET**
 | *Genetic variability, including gene duplication and deletion,*
-| *in early sequences from the 2022 global monkeypox outbreak*
+| *in early sequences from the 2022 global monkeypox outbreak* --- `Link <https://www.biorxiv.org/content/10.1101/2022.07.23.501239v1>`_
 | Terry Jones
 | Charité - Universitätsmedizin Berlin
 |
 | **11:20 EDT / 17:20 CET**
-| *Nextclade, Nextstrain and New Monkeypox Sublineages*
+| `Nextclade <https://clades.nextstrain.org>`_, `Nextstrain <https://nextstrain.org>`_ and New Monkeypox `Sublineages <https://github.com/mpxv-lineages/lineage-designation>`_
 | Emma Hodcroft & Cornelius Roemer
 | Nextstrain
 |
 | **11:35 EDT / 17:35 CET**
-| *Detection of monkeypox viral DNA in a routine wastewater monitoring*
-| * program -  doi: 10.1101/2022.07.25.22278043v1*
+| *Detection of monkeypox viral DNA in a routine wastewater monitoring* --- `Link <https://doi.org/10.1101/2022.09.06.22279312>`_
 | Marlene Wolfe
 | Emory University
 |
 | **11:50 EDT / 17:50 CET**
 | *Monkeypox virus whole genome sequencing using combination of*
-| *NextGenPCR and Oxford Nanopore*
+| *NextGenPCR and Oxford Nanopore* --- `Link <https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5/v1>`_
 | Matthijs Welkers
 | Amsterdam UMC, Amsterdam, the Netherlands
 |

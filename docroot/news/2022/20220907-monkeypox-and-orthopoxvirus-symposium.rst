@@ -27,7 +27,7 @@ Event Information
 
 **Audience:** Bioinformaticians, public health practitioners, bench scientists in the field of Monkeypox or poxvirus research
 
-**Downloadable PDF of the event** --- `Click Here <>`_
+**Downloadable PDF of the event** --- `Click Here <../_static/event_files/monkeypox-mini-symposium-agenda.pdf>`_
 
 Confirmed Speakers and Tentative Agenda
 ----------------------------------------

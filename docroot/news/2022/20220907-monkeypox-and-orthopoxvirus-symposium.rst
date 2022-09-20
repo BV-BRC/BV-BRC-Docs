@@ -42,8 +42,8 @@ Confirmed Speakers and Tentative Agenda
 | Medical University of South Carolina
 |
 | **10:20 EDT / 16:20 CET**
-| *Phylogenomic characterization and signs of microevolution* 
-| *in the 2022 multi-country outbreak of monkeypox virus*
+| `Phylogenomic characterization and signs of microevolution 
+|  in the 2022 multi-country outbreak of monkeypox virus <https://www.nature.com/articles/s41591-022-01907-y>`_
 | Vitor Borges
 | National Institute of Health - Portugal
 |

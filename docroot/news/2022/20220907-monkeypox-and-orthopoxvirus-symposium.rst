@@ -43,13 +43,13 @@ Confirmed Speakers and Tentative Agenda
 |
 | **10:20 EDT / 16:20 CET**
 | *Phylogenomic characterization and signs of microevolution*
-| *in the 2022 multi-country outbreak of monkeypox virus* --- `Link <https://www.nature.com/articles/s41591-022-01907-y>`_
+| *in the 2022 multi-country outbreak of monkeypox virus* --- `Click Here to Visit <https://www.nature.com/articles/s41591-022-01907-y>`_
 | Vitor Borges
 | National Institute of Health - Portugal
 |
 | **10:35 EDT / 16:35 CET**
 | *Monkeypox virus sequencing in the 2022 outbreak reveals*
-| *multiple independent lineages and unique mutational signatures* ---`Link <https://www.biorxiv.org/content/10.1101/2022.06.10.495526v1>`_
+| *multiple independent lineages and unique mutational signatures* --- `Click here to visit <https://www.biorxiv.org/content/10.1101/2022.06.10.495526v1>`_
 | Crystal Gigante
 | CDC/DDID/NCEZID/DHCPP
 |

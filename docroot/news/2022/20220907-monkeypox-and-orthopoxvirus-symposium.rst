@@ -27,6 +27,8 @@ Event Information
 
 **Audience:** Bioinformaticians, public health practitioners, bench scientists in the field of Monkeypox or poxvirus research
 
+**Downloadable PDF of the event** --- `Click Here <>`_
+
 Confirmed Speakers and Tentative Agenda
 ----------------------------------------
 *(subject to change)*
@@ -71,13 +73,13 @@ Confirmed Speakers and Tentative Agenda
 | Nextstrain
 |
 | **11:35 EDT / 17:35 CET**
-| *Detection of monkeypox viral DNA in a routine wastewater monitoring* --- `Link <https://doi.org/10.1101/2022.09.06.22279312>`_
+| *Detection of monkeypox viral DNA in a routine wastewater monitoring* --- `Click here to visit <https://doi.org/10.1101/2022.09.06.22279312>`_
 | Marlene Wolfe
 | Emory University
 |
 | **11:50 EDT / 17:50 CET**
 | *Monkeypox virus whole genome sequencing using combination of*
-| *NextGenPCR and Oxford Nanopore* --- `Link <https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5/v1>`_
+| *NextGenPCR and Oxford Nanopore* --- `Click here to visit <https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5/v1>`_
 | Matthijs Welkers
 | Amsterdam UMC, Amsterdam, the Netherlands
 |
@@ -85,7 +87,7 @@ Confirmed Speakers and Tentative Agenda
 | *Break*
 |
 | **12:15 EDT / 18:15 CET**
-| *Amplicon-based sequencing of human monkeypox virus*
+| *Amplicon-based sequencing of human monkeypox virus* --- `Click here to visit <https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o/v2>`_
 | Chantal Vogels
 | Yale School of Public Health
 |
@@ -93,29 +95,29 @@ Confirmed Speakers and Tentative Agenda
 | *Applying the COVID-19 Lessons Learned to Other*
 | *Pathogens of Public Health Concern*
 | Kevin Libuit
-| Thieagen
+| `Thieagen <https://theiagen.com>`_
 |
 | **12:45 EDT / 18:45 CET**
-| *International Committee on Taxonomy of Viruses: ICTV*
+| *International Committee on Taxonomy of Viruses: ICTV* --- `Click here to visit <http://ictv.global>`_
 | *ictv.global*
 | Elliot Lefkowitz
 | University of Alabama Birmingham
 |
 | **13:00 EDT / 19:00 CET**
-| *Monkeypox/Orthopox data and tools in NCBI Virus*
+| *Monkeypox/Orthopox data and tools in NCBI Virus* --- `Click here to visit <http://ncbi.nlm.nih.gov/labs/virus/vssi>`_
 | *ncbi.nlm.nih.gov/labs/virus/vssi*
 | Eneida Hatcher
 | NIH/NLM/NCBI
 |
 | **13:15 EDT / 19:15 CET**
 | *Monkeypox/Orthopox data and tools in the Bacterial and Viral*
-| *Bioinformatics Resource Center (BV-BRC) bv-brc.org*
+| *Bioinformatics Resource Center (BV-BRC)* --- `Click here to visit <https://www.bv-brc.org>`_
 | Anna Maria Niewiadomska
 | J. Craig Venter Institute
 |
 | **13:30 EDT / 19:30 CET**
 | *Viral Bioinformatics Research Center: Bioinformatics for*
-| *Poxviruses - 4virology.net*
+| *Poxviruses - 4virology.net* --- `Click here to visit <http://4virology.net/>`_
 | Rachel Roper
 | East Carolina University
 |
@@ -135,6 +137,11 @@ Confirmed Speakers and Tentative Agenda
 | *Diagnostic assays (PCR and POC) for monkeypox*
 | Christina Hutson
 | CDC/DDID/NCEZID/DHCPP
+|
+| **14:30 EDT / 20:30 CET**
+| (5 minute talk) `UCSC Genome Browser <https://genome.ucsc.edu>`_ & `hgPhyloPlace/Usher-web <https://genome.ucsc.edu/cgi-bin/hgPhyloPlace>`_
+| Maximilian Haeussler
+| UCSC
 |
 | **14:30 EDT / 20:30 CET**
 | *End*

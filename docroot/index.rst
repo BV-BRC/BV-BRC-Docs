@@ -4,12 +4,10 @@ BV-BRC Documentation
 =====================
 
 .. toctree::
-   :caption: Updates and Reports
    :maxdepth: 2
+   :caption: Updates and Reports
 
    news/index
-
-   :maxdepth: 1
    analysis_reports.md
    sars_cov_2_emerging_variants_reports.rst
 

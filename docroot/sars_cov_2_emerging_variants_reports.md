@@ -10,41 +10,53 @@ The reports includes preliminary/incomplete stats for the current month in order
 
 ## Variant Report Downloads
 
+**09/20/22**
+- Download *PDF* file -- Coming Soon
+- Download [Excel](_static/files/sars_cov_2_emerging_variants_reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220920.xlsx) file
+
+**09/13/22**
+- Download [PDF](_static/files/sars_cov_2_emerging_variants_reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220913.pdf) file
+- Download [Excel](_static/files/sars_cov_2_emerging_variants_reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220913.xlsx) file
+
+**09/06/22**
+- Download [PDF](_static/files/sars_cov_2_emerging_variants_reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220906.pdf) file
+- Download [Excel](_static/files/sars_cov_2_emerging_variants_reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220906.xlsx) file
+
 **08/30/22**
-- [PDF]()
-- [Excel]()
+- Download [PDF](_static/files/sars_cov_2_emerging_variants_reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220830.pdf) file
+- Download [Excel](_static/files/sars_cov_2_emerging_variants_reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220830.xlsx) file
 
 **08/23/22**
-- [PDF]()
-- [Excel]()
+- Download [PDF](_static/files/sars_cov_2_emerging_variants_reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220823.pdf) file
+- Download [Excel](_static/files/sars_cov_2_emerging_variants_reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220823.xlsx) file
 
 **08/15/22**
-- [PDF]()
-- [Excel]()
+- Download [PDF](_static/files/sars_cov_2_emerging_variants_reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220815.pdf) file
+- Download [Excel](_static/files/sars_cov_2_emerging_variants_reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220815.xlsx) file
 
 **08/09/22**
-- [PDF]()
-- [Excel]()
+- Download [PDF](_static/files/sars_cov_2_emerging_variants_reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220809.pdf) file
+- Download [Excel](_static/files/sars_cov_2_emerging_variants_reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220809.xlsx) file
 
 **08/02/22**
-- [PDF]()
-- [Excel]()
+- Download [PDF](_static/files/sars_cov_2_emerging_variants_reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220802.pdf) file
+- Download [Excel](_static/files/sars_cov_2_emerging_variants_reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220802.xlsx) file
 
 **07/26/22**
-- [PDF]()
-- [Excel]()
+- Download [PDF](_static/files/sars_cov_2_emerging_variants_reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220726.pdf) file
+- Download [Excel](_static/files/sars_cov_2_emerging_variants_reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220726.xlsx) file
 
 **07/19/22**
-- [PDF]()
-- [Excel]()
+- Download [PDF](_static/files/sars_cov_2_emerging_variants_reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220719.pdf) file
+- Download [Excel](_static/files/sars_cov_2_emerging_variants_reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220719.xlsx) file
 
 **05/12/22**
-- [PDF]()
-- [Excel]()
+- Download [PDF](_static/files/sars_cov_2_emerging_variants_reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220712.pdf) file
+- Download [Excel](_static/files/sars_cov_2_emerging_variants_reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220712.xlsx) file
 
 **07/05/22**
-- [PDF]()
-- [Excel]()
+- Download [PDF](_static/files/sars_cov_2_emerging_variants_reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220705.pdf) file
+- Download [Excel](_static/files/sars_cov_2_emerging_variants_reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20220705.xlsx) file
 
 
 

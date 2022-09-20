@@ -43,7 +43,7 @@ Confirmed Speakers and Tentative Agenda
 |
 | **10:20 EDT / 16:20 CET**
 | *Phylogenomic characterization and signs of microevolution*
-| *in the 2022 multi-country outbreak of monkeypox virus* --- `Click Here to Visit <https://www.nature.com/articles/s41591-022-01907-y>`_
+| *in the 2022 multi-country outbreak of monkeypox virus* --- `Click Here to visit <https://www.nature.com/articles/s41591-022-01907-y>`_
 | Vitor Borges
 | National Institute of Health - Portugal
 |
@@ -55,13 +55,13 @@ Confirmed Speakers and Tentative Agenda
 |
 | **10:50 EDT / 16:50 CET**
 | *A distinct phylogenetic cluster of Monkeypox genomes*
-| *suggests an early and cryptic spread of the virus* --- `Link <https://linkinghub.elsevier.com/retrieve/pii/S0163-4453(22)00476-5>`_
+| *suggests an early and cryptic spread of the virus* --- `Click here to visit <https://linkinghub.elsevier.com/retrieve/pii/S0163-4453(22)00476-5>`_
 | Bani Jolly
 | CSIR-IGIB, New Delhi, India
 |
 | **11:05 EDT / 17:05 CET**
 | *Genetic variability, including gene duplication and deletion,*
-| *in early sequences from the 2022 global monkeypox outbreak* --- `Link <https://www.biorxiv.org/content/10.1101/2022.07.23.501239v1>`_
+| *in early sequences from the 2022 global monkeypox outbreak* --- `Click here to visit <https://www.biorxiv.org/content/10.1101/2022.07.23.501239v1>`_
 | Terry Jones
 | Charité - Universitätsmedizin Berlin
 |

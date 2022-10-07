@@ -179,25 +179,25 @@ Day 2 -Thursday, December 15
 Day 3 - Friday, December 19
 ::
 
-   9:00 am	Command Line Interface 
-            * Logging in
-            * Searching for data
-            * Creating groups from data selections
-            * Downloading data
+   9:00 am	   Command Line Interface 
+                * Logging in
+                * Searching for data
+                * Creating groups from data selections
+                * Downloading data
 
-   10:30 am	Break
+   10:30 am	   Break
 
-   10:45 am	Job submission via command line 
-            * Uploading private data (singular or batch)
-            * Submitting assembly jobs (singular or batch)
-            * Submitting annotation jobs (singular or batch)
-            * Discussion of command line submission to other services 
+   10:45 am	   Job submission via command line 
+                * Uploading private data (singular or batch)
+                * Submitting assembly jobs (singular or batch)
+                * Submitting annotation jobs (singular or batch)
+                * Discussion of command line submission to other services 
 
-   12:00 pm   Lunch
+   12:00 pm    Lunch
 
-   1:00 pm   Working on specific use cases and participant data
+   1:00 pm     Working on specific use cases and participant data
 
-   4:00 pm   Final questions
+   4:00 pm     Final questions
 
-   5:00 pm   Workshop concludes
+   5:00 pm     Workshop concludes
 

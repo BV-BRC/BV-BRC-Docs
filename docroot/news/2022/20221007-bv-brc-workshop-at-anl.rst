@@ -108,7 +108,6 @@ Day 1 - Wednesday, December 14
    5:00 pm   Day 1 Adjourn
 
 Day 2 -Thursday, December 15
-
 ::
 
    9:00 am   Review of Day 1
@@ -180,21 +179,21 @@ Day 2 -Thursday, December 15
 Day 3 - Friday, December 19
 ::
 
-9:00 am	Command Line Interface 
+   9:00 am	Command Line Interface 
             * Logging in
             * Searching for data
             * Creating groups from data selections
             * Downloading data
 
-10:30 am	Break
+   10:30 am	Break
 
-10:45 am	Job submission via command line 
-           * Uploading private data (singular or batch)
-           * Submitting assembly jobs (singular or batch)
-           * Submitting annotation jobs (singular or batch)
-           * Discussion of command line submission to other services 
+   10:45 am	Job submission via command line 
+            * Uploading private data (singular or batch)
+            * Submitting assembly jobs (singular or batch)
+            * Submitting annotation jobs (singular or batch)
+            * Discussion of command line submission to other services 
 
-  12:00 pm   Lunch
+   12:00 pm   Lunch
 
    1:00 pm   Working on specific use cases and participant data
 

@@ -5,16 +5,8 @@ BV-BRC Workshop at Argonne National Laboratory, December 14-16, 2022
    :date: 2022-10-07
 
 .. image:: ../images/2022/bv-brc-dec-workshop-anl.jpg
-  :width: 500
-  :alt: BV-BRC December Workshop at Argonne National Laboratory
-
-.. role:: notice-header
-     :class: notice-header
-
-:notice-header:`NOTICE:`
-
-.. role:: notice-body
-     :class: notice-body
+   :width: 500
+   :alt: BV-BRC December Workshop at Argonne National Laboratory
 
 
 The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a **Bioinformatics Workshop on December 16-19, 2022, at Argonne National Laboratory** in the suburbs of Chicago, IL. The workshop will show researchers how to analyze and explore **antimicrobial resistance data** using the BV-BRC website, which is a merger of the two long running bacterial and viral BRC resources, PATRIC and IRD/ViPR, respectively.

@@ -1,5 +1,11 @@
 [ 
     {
+        "title": "BV-BRC Workshop at Argonne National Laboratory, December 14-16, 2022",
+        "desc": "The BV-BRC team will be offering a Bioinformatics Workshop that show researchers how to analyze and explore antimicrobial resistance data using the BV-BRC tools and services.",
+        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bv-brc-dec-workshop-anl.jpg",
+        "link": "https://www.bv-brc.org/docs/news/2022/20221007-bv-brc-workshop-at-anl.html"   
+    },  
+    {
         "title": "Monkeypox and Orthopoxvirus Mini-Symposium",
         "desc": "Discussion of bioinformatic resources and tools available and in development for the purpose of studying monkeypox virus. Will also include a brief primer on monkeypox virus, as well as research presentations focusing on the recent outbreak.",
         "img": "https://www.bv-brc.org/docs/_static/announcements/2022/monkeypox-symposium.png",

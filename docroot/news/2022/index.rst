@@ -4,6 +4,7 @@ Archives 2022
 .. toctree::
    :maxdepth: 1
 
+   20221007-bv-brc-workshop-at-anl.rst
    20220907-monkeypox-and-orthopoxvirus-symposium.rst
    20220816-bv-brc-patric-redirect.rst
    20220713-bv-brc-workshop-uva.rst

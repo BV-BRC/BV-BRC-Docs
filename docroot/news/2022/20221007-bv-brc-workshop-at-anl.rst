@@ -176,7 +176,7 @@ Day 2 -Thursday, December 15
 
    5:00 pm   Day 2 Adjourn
 
-Day 3 - Friday, December 19
+Day 3 - Friday, December 16
 ::
 
    9:00 am	   Command Line Interface 

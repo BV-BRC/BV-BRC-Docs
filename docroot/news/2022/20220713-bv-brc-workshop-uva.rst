@@ -8,9 +8,6 @@ BV-BRC (PATRIC & IRD/ViPR) Workshop at the University of Virginia, August 30 - S
   :width: 500
   :alt: BV-BRC Workshop UVA
 
-.. role:: notice-header
-   :class: notice-header
-
 :notice-header:`NOTICE:`
 
 :notice-body:`Dear BV-BRC users, we have reached the limit for the maximum number of in-person and virtual participants for this workshop. Hence, the registration is closed. Please subscribe to the BV-BRC mailing list or follow us on social media to learn about upcoming workshops and webinars.`

@@ -8,7 +8,7 @@ BV-BRC Workshop at Argonne National Laboratory, December 14-16, 2022
    :width: 500
    :alt: BV-BRC December Workshop at Argonne National Laboratory
 
-   .. role:: notice-header
+.. role:: notice-header
    :class: notice-header
 
 :notice-header:`NOTICE:`

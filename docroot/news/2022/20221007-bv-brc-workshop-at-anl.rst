@@ -23,14 +23,6 @@ The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be off
 
 The workshop will consist of interactive hands-on training sessions. During the first two days, participants will learn how to search for public datasets of interest and perform genomic, comparative genomic, metagenomic, and transcriptomic analysis using various analysis services and tools at BV-BRC. The third day of the workshop will focus on using command-line interface for programmatic search and retrieval of the data and job submissions, as well as users working with their own data and analysis problems with the help from the BV-BRC team members.
 
-**REGISTRATION**
-
-The workshop will be limited to 50 people on a first-come, first-served basis. There is no fee for the workshop, but participants are responsible for their own travel expenses, accommodation, and meals.
-
-If you wish to participate, please fill out the “Argonne Visitor Request” form at: https://apps.anl.gov/registration/visitors as soon as possible — especially non-U.S. Citizens, since they will take additional time to be cleared. Please enter Lisa Hundley, lhundley@anl.gov, for the “Sponsor’s E-mail Address.”
-
-After you have completed registration, please send a mail to Lisa Hundley ( lhundley@anl.gov ) to confirm your registration.
-
 **COVID-19:**
 *Please note the COVID-19 restrictions and safety guidance currently in place at the Argonne National Laboratory.*
 

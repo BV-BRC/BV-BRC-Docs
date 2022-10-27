@@ -35,12 +35,14 @@ This box displays the list of all of the genomes and/or genome groups selected t
 ## Output Results
 ![Comparative Systems Output Files](../images/comparative_systems_result.png) 
 
-The Comparative Systems Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include
+The Comparative Systems Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include the following, where [output_name] is replaced with the Output Name entered on the input form:
 
-* **BinningReport.html** - Document containing the list of bins and other summary information. Double-clicking on this file to display it.
-![Metagenomic Binning Report](../images/metagenomic_binning_report.png) 
-* **bin.#.####** - Annotation job result of bin number #.
-* **bin.#.####.fa** - a FASTA file containing the bin’s contigs for bin number #.
+* **[output_name]_pathways.tsv** - 
+* **[output_name]_pathways_tables.json** - 
+* **[output_name]_proteinfams_tables.json** - 
+* **[output_name]_subsystems.tsv** - 
+* **[output_name]_subsystems_tables.json.** - 
+
 
 ## References
 1. Parrello, B., Butler, R., Chlenski, P., Pusch, G. D. & Overbeek, R. Supervised extraction of near-complete genomes from metagenomic samples:

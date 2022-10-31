@@ -288,6 +288,8 @@ As with the IRD/ViPR Workbench, users will need to sign in (top right of page) t
 
 Once signed in, users can access their private and shared workspaces from the WORKSPACES top menu. 
 
+***Note that, as of October 31, 2022, all IRD/ViPR workbench data and files were copied into the user's corresponding workspace in BV-BRC. The data are organized into three folders: Working Sets, Uploaded Files, and Analysis Results. You can access this workspace with the same login credentials that you have for IRD/ViPR. There will be a README.txt file in the workspace that provides additional details.*** 
+
 ![BV-BRC Workspaces Top Menu](./images/bv_workspaces_menu_top_nav.png)
 
 ![BV-BRC Workspaces Menu](./images/bv_workspaces_menu.png)

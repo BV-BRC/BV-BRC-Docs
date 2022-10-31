@@ -45,7 +45,7 @@ The Comparative Systems Service generates several files that are deposited in th
 
 
 ## References
-1. Parrello, B., Butler, R., Chlenski, P., Pusch, G. D. & Overbeek, R. Supervised extraction of near-complete genomes from metagenomic samples:
+1. 
 
 
 

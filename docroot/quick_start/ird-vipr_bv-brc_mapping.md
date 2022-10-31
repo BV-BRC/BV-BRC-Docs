@@ -262,6 +262,13 @@ The [Tools & Services Quick Reference Guide](../quick_references/services_menu.h
       <a href="../tutorial/primer_design/primer_design.html">Tutorial</a>
     </td>  
   </tr>
+  <tr>
+    <td>Influenza H5, H3, H1 clade, rotavirus genotype, and flavivirus serotype classification</td>
+    <td><a href="https://www.bv-brc.org/app/SubspeciesClassification">Subspecies Classification</a></td>
+    <td>
+      Coming soon.
+    </td>  
+  </tr>
 </table>  
 
 <hr>

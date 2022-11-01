@@ -53,7 +53,7 @@ source_suffix = {
 master_doc = 'index'
 
 # General information about the project.
-project = 'BV-BRC Documentation'
+project = 'BV-BRC'
 copyright = '2022 | The BV-BRC Team'
 author = 'BV-BRC Team'
 
@@ -125,7 +125,7 @@ html_static_path = ['_static']
 # A list of paths that contain extra files not directly relation to the docs
 # Relative paths to the config.py file
 # Copied directly to the output directly (_build/html)
-html_extra_path = ['sitemap.xml']
+html_extra_path = [''] # Inherited from bvbrc_web
 
 
 # -- Options for HTMLHelp output ------------------------------------------

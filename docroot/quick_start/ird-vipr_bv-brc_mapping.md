@@ -262,6 +262,13 @@ The [Tools & Services Quick Reference Guide](../quick_references/services_menu.h
       <a href="../tutorial/primer_design/primer_design.html">Tutorial</a>
     </td>  
   </tr>
+  <tr>
+    <td>Influenza H5, H3, H1 clade, rotavirus genotype, and flavivirus serotype classification</td>
+    <td><a href="https://www.bv-brc.org/app/SubspeciesClassification">Subspecies Classification</a></td>
+    <td>
+      Coming soon.
+    </td>  
+  </tr>
 </table>  
 
 <hr>
@@ -280,6 +287,8 @@ As with the IRD/ViPR Workbench, users will need to sign in (top right of page) t
 ![BV-BRC Sign In and Registration](./images/bv_workspace_login.png)
 
 Once signed in, users can access their private and shared workspaces from the WORKSPACES top menu. 
+
+***Note that, as of November 1, 2022, all IRD/ViPR workbench data and files were copied into the user's corresponding workspace in BV-BRC. The data are organized into three folders: Working Sets, Uploaded Files, and Analysis Results. You can access this workspace with the same login credentials that you have for IRD/ViPR. There will be a README.txt file in the workspace that provides additional details.*** 
 
 ![BV-BRC Workspaces Top Menu](./images/bv_workspaces_menu_top_nav.png)
 

@@ -78,7 +78,7 @@ More details are available in the [Action Buttons](https://bv-brc.org/docs/user_
 
 ## References
 1.  Pplacer
-    https://matsen.fhcrc.org/pplacer/
+    [https://matsen.fhcrc.org/pplacer/](https://matsen.fhcrc.org/pplacer/)
 
 2.  Cladinator
-    https://github.com/cmzmasek/forester/blob/master/forester/java/src/org/forester/application/cladinator.java
+    [https://github.com/cmzmasek/forester/blob/master/forester/java/src/org/forester/application/cladinator.java](https://github.com/cmzmasek/forester/blob/master/forester/java/src/org/forester/application/cladinator.java)

@@ -28,7 +28,7 @@ Genomics Services
    services/primer_design_service.md
    services/variation_analysis_service.md
    services/tn_seq_analysis_service.md
-   services/subspecies_classification.md
+   services/subspecies_classification_service.md
 
 
 Protein Tools Services

@@ -332,7 +332,7 @@ The source code for the Comparative Systems service can be found at: <br/>
       ![Image](images/Picture104.png)
 
 5.	Researchers can also click on the nodes within the tree.  The possible downstream functions will populate the green bar to the right, where you can create a group, generate a new alignment from the selection, and see the genes or the genomes.
-      ![Image](images/Picture185.png)
+      ![Image](images/Picture105.png)
 
 ## References
 

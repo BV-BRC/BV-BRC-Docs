@@ -188,89 +188,89 @@ The source code for the Comparative Systems service can be found at: <br/>
 
 ## Protein Families – Tabular View
 1.	The Comparative Systems job includes direct access to a page where protein families can be viewed and explored.  To reach that page, click on the Families icon at the upper right of the job page.
-     ![Image](images/Picture57.png)
-
-2.	The page will reload to show the Protein Family Table view.  This contains a dynamic filter on the left, and a table on the right that shows all the families based on the selections of the filter.
      ![Image](images/Picture58.png)
 
-3.	The Protein Family Sorter loads showing all the protein families across all the genomes. This is the Pan Genome.
+2.	The page will reload to show the Protein Family Table view.  This contains a dynamic filter on the left, and a table on the right that shows all the families based on the selections of the filter.
      ![Image](images/Picture59.png)
 
-4.	The Core Genome can be seen by clicking on the box in the column head below Present in all families. This will select all the genomes in the list and will reload the table to show all the protein families that are in that selection.
+3.	The Protein Family Sorter loads showing all the protein families across all the genomes. This is the Pan Genome.
      ![Image](images/Picture60.png)
 
-5.	The Accessory Genome for a species can be seen by first clicking on the box in the column head below Absent in all families and then clicking on the text box in the Either/Mixed column in front of each genome of interest. This will select all the genomes in the list and will reload the table to show all the protein families that are in that selection.
+4.	The Core Genome can be seen by clicking on the box in the column head below Present in all families. This will select all the genomes in the list and will reload the table to show all the protein families that are in that selection.
      ![Image](images/Picture61.png)
 
-6.	The Accessory Genome for a single genome can be seen by first clicking on the box in the column head below Absent in all families and then clicking on the text box in the Present column in front of the genome of interest. This will select all the genomes in the list and will reload the table to show all the protein families that are in that selection.
+5.	The Accessory Genome for a species can be seen by first clicking on the box in the column head below Absent in all families and then clicking on the text box in the Either/Mixed column in front of each genome of interest. This will select all the genomes in the list and will reload the table to show all the protein families that are in that selection.
      ![Image](images/Picture62.png)
 
-7.	The text filter box can be used to find protein families that contain specific names. Enter a name of interest and click the Filter button. This will re-filter the table to show the protein families that contain that text in the functional description.
+6.	The Accessory Genome for a single genome can be seen by first clicking on the box in the column head below Absent in all families and then clicking on the text box in the Present column in front of the genome of interest. This will select all the genomes in the list and will reload the table to show all the protein families that are in that selection.
      ![Image](images/Picture63.png)
 
-8.	The text box filter can also be used to find protein family IDs, which is an excellent way to see presence and absence across a group of genomes.  Entering the IDs in the table and then clicking on the filter icon will reload the table to show the protein families that meet that criterion.
+7.	The text filter box can be used to find protein families that contain specific names. Enter a name of interest and click the Filter button. This will re-filter the table to show the protein families that contain that text in the functional description.
      ![Image](images/Picture64.png)
 
-9.	There are additional filtering options below the text box.  This includes protein families meeting particular criteria.  One important filter is Perfect Families.  In BV-BRC, perfect families refer to those protein families where each of the genomes have a single protein that is part of the family.  This is an important default for the Phylogenetic Tree service, which could be used to see if a group of genomes are “tree able.”
+8.	The text box filter can also be used to find protein family IDs, which is an excellent way to see presence and absence across a group of genomes.  Entering the IDs in the table and then clicking on the filter icon will reload the table to show the protein families that meet that criterion.
      ![Image](images/Picture65.png)
 
-10.	The “non-perfect” protein families can also be examined, both selecting the Non perfect Families button, or filtering by the Number of Proteins per Family.
+9.	There are additional filtering options below the text box.  This includes protein families meeting particular criteria.  One important filter is Perfect Families.  In BV-BRC, perfect families refer to those protein families where each of the genomes have a single protein that is part of the family.  This is an important default for the Phylogenetic Tree service, which could be used to see if a group of genomes are “tree able.”
      ![Image](images/Picture66.png)
 
-11.	 The number of Genomes per Family can also be examined.
+10.	The “non-perfect” protein families can also be examined, both selecting the Non perfect Families button, or filtering by the Number of Proteins per Family.
      ![Image](images/Picture67.png)
+
+11.	 The number of Genomes per Family can also be examined.
+     ![Image](images/Picture68.png)
 
 ## Protein Family Sorter – Heatmap
 1.	The presence and/or absence of protein families can also be seen in a heatmap view. To see the heatmap, click on the Heatmap icon above the filter. This will reload the page to show the heatmap.
-    ![Image](images/Picture68.png)
+    ![Image](images/Picture69.png)
  
 2.	A filter is directly above the heatmap.  
-     ![Image](images/Picture69.png)
-
-3.	A text box filter will highlight columns that have protein families that have text that matches the text entered into the box.  This is indicated by a blue box above the column.
      ![Image](images/Picture70.png)
 
-4.	Expanding the slider at the top of the heatmap view will allow researchers to expand the view enough to see the protein family name.  Note that the text in the name that matches the filter criterion will be highlighted blue.  In addition, a blue line remains directly above the column.
+3.	A text box filter will highlight columns that have protein families that have text that matches the text entered into the box.  This is indicated by a blue box above the column.
      ![Image](images/Picture71.png)
 
-5.	Researchers can flip the axis of the heatmap view if desired.
+4.	Expanding the slider at the top of the heatmap view will allow researchers to expand the view enough to see the protein family name.  Note that the text in the name that matches the filter criterion will be highlighted blue.  In addition, a blue line remains directly above the column.
      ![Image](images/Picture72.png)
 
-6.	The protein families can also be clustered.  This will rearrange the order of both the genomes and the protein families, depending on the clustering algorithm selected.
+5.	Researchers can flip the axis of the heatmap view if desired.
      ![Image](images/Picture73.png)
 
-7.	Clicking on Advanced will show the different clustering options.
+6.	The protein families can also be clustered.  This will rearrange the order of both the genomes and the protein families, depending on the clustering algorithm selected.
      ![Image](images/Picture74.png)
 
-8.	BV-BRC allows researcher to cluster by either Protein Families, Genomes, or Both.  The default is set at Both.
+7.	Clicking on Advanced will show the different clustering options.
      ![Image](images/Picture75.png)
 
-9.	To see the Clustering algorithm choices, click on the down arrow that follows Pearson correlation, which is the default setting.
+8.	BV-BRC allows researcher to cluster by either Protein Families, Genomes, or Both.  The default is set at Both.
      ![Image](images/Picture76.png)
 
-10.	BV-BRC offers four types of clustering.  To see the options, click on the down arrow underneath Clustering type that follows Pairwise average-linkage, which is the default setting.
+9.	To see the Clustering algorithm choices, click on the down arrow that follows Pearson correlation, which is the default setting.
      ![Image](images/Picture77.png)
 
-11.	 Choosing different clustering options will change the heatmap.
+10.	BV-BRC offers four types of clustering.  To see the options, click on the down arrow underneath Clustering type that follows Pairwise average-linkage, which is the default setting.
      ![Image](images/Picture78.png)
 
-12.	 The protein family sorter allows users to see the protein families in the order that they appear in any given genome. This process is called anchoring a genome. To re-order the protein families, click on the Anchor icon. This will open a pop-up window where you can select a genome.  If you click on the down arrow that follows the words, Select a genome.
+11.	 Choosing different clustering options will change the heatmap.
      ![Image](images/Picture79.png)
 
-13.	 This will open a drop-down box of all the genomes available in the group.  The heatmap will rearrange in the order of the selected genome, starting with the first gene annotate in that genome to the last.  Researchers will be able to see regions of the reference genome that are absent in some of the comparison genomes.
+12.	 The protein family sorter allows users to see the protein families in the order that they appear in any given genome. This process is called anchoring a genome. To re-order the protein families, click on the Anchor icon. This will open a pop-up window where you can select a genome.  If you click on the down arrow that follows the words, Select a genome.
      ![Image](images/Picture80.png)
 
-14.	Mousing over individual cells in a column will open a pop-up window that shows the genome, the protein family name and ID, and the number of genes that the genome has in that family.
+13.	 This will open a drop-down box of all the genomes available in the group.  The heatmap will rearrange in the order of the selected genome, starting with the first gene annotate in that genome to the last.  Researchers will be able to see regions of the reference genome that are absent in some of the comparison genomes.
      ![Image](images/Picture81.png)
 
-15.	 Areas within the heatmap can be examined.  To so this, use the mouse to draw a box over the area of interest in a heatmap, which is indicated by the blue box in the figure below.  This will open a pop-up window that show the number of genomes in the selection, the number of families within it, and the number of genes/proteins (called Members) within the selection.
+14.	Mousing over individual cells in a column will open a pop-up window that shows the genome, the protein family name and ID, and the number of genes that the genome has in that family.
      ![Image](images/Picture82.png)
 
-16.	 Clicking on Show Proteins will open a new tab showing the Features (aka genes/proteins) that were part of that selection.
+15.	 Areas within the heatmap can be examined.  To so this, use the mouse to draw a box over the area of interest in a heatmap, which is indicated by the blue box in the figure below.  This will open a pop-up window that show the number of genomes in the selection, the number of families within it, and the number of genes/proteins (called Members) within the selection.
      ![Image](images/Picture83.png)
 
-12.	Clicking on Save will open a drop-down box.  Researchers can choose to download the visible portion of a large heatmap (Save snapshot) or the entire heatmap (Save entire chart).  The heatmap can also be saved to a tab separated value (Save chart to TSV) for json file (Save chart to JSON).
+16.	 Clicking on Show Proteins will open a new tab showing the Features (aka genes/proteins) that were part of that selection.
      ![Image](images/Picture84.png)
+
+12.	Clicking on Save will open a drop-down box.  Researchers can choose to download the visible portion of a large heatmap (Save snapshot) or the entire heatmap (Save entire chart).  The heatmap can also be saved to a tab separated value (Save chart to TSV) for json file (Save chart to JSON).
+     ![Image](images/Picture85.png)
 
 ## Viewing Subsystems
 1.	The Comparative Systems job includes direct access to a page where subsystems can be viewed and explored.  To reach that page, click on the Subsystems icon at the upper right of the job page.

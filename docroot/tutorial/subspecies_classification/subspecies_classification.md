@@ -1,4 +1,4 @@
-# Subspecies Classification Tutorial
+# Subspecies Classification
 
 ## Overview
 

@@ -108,28 +108,28 @@ The source code for the Comparative Systems service can be found at: <br/>
   ![Image](images/Picture29.png)
 
 5.	Pathway.tsv: To view, or download, a tab separated value (tsv) file of all the pathways and genes found across all the genomes in the selection, click on the row that has the file and then click on the View, or Download icon in the vertical green bar.
-  ![Image](images/Picture30.png)
-
-6.	If the View icon was selected, a new tab will open showing the pathway table.
   ![Image](images/Picture31.png)
 
-7.	Pathways_tables.json:  A JSON file is a file that stores simple data structures and objects in JavaScript Object Notation (JSON) format, which is a standard data interchange format. It is primarily used for transmitting data between a web application and a server.  The downloadable files from the Comparative Systems job includes a pathways_table json file that can be viewed by clicking on the View icon in the vertical green bar or downloaded.
+6.	If the View icon was selected, a new tab will open showing the pathway table.
   ![Image](images/Picture32.png)
 
-8.	Proteinfams_tables.json: The downloadable files from the Comparative Systems job includes a protein families table json file that can be viewed by clicking on the View icon in the vertical green bar, or downloaded
+7.	Pathways_tables.json:  A JSON file is a file that stores simple data structures and objects in JavaScript Object Notation (JSON) format, which is a standard data interchange format. It is primarily used for transmitting data between a web application and a server.  The downloadable files from the Comparative Systems job includes a pathways_table json file that can be viewed by clicking on the View icon in the vertical green bar or downloaded.
   ![Image](images/Picture33.png)
 
-9.	Subsystems_tsv: A tsv file of all the subsystems and genes found across all the genomes in the selection is available for download or viewing.  To view the file, click on the row that has it and then click on the View, or Download icon in the vertical green bar.
+8.	Proteinfams_tables.json: The downloadable files from the Comparative Systems job includes a protein families table json file that can be viewed by clicking on the View icon in the vertical green bar, or downloaded
   ![Image](images/Picture34.png)
 
-10.	 If the View icon was selected, a new tab will open showing all the subsystem information.
+9.	Subsystems_tsv: A tsv file of all the subsystems and genes found across all the genomes in the selection is available for download or viewing.  To view the file, click on the row that has it and then click on the View, or Download icon in the vertical green bar.
   ![Image](images/Picture35.png)
 
-11.	Subsystems_tables-json: The downloadable files from the Comparative Systems job includes a subsystems table json file that can be viewed by clicking on the View icon in the vertical green bar, or downloaded
+10.	 If the View icon was selected, a new tab will open showing all the subsystem information.
   ![Image](images/Picture36.png)
 
-12.	Report_txt: The downloadable files also include a report.txt file that provides the number of pathways, protein families, and subsystems that were identified in the Comparative Systems job.  The file can be viewed or downloaded by clicking on the appropriate icons in the vertical green bar.
+11.	Subsystems_tables-json: The downloadable files from the Comparative Systems job includes a subsystems table json file that can be viewed by clicking on the View icon in the vertical green bar, or downloaded
   ![Image](images/Picture37.png)
+
+12.	Report_txt: The downloadable files also include a report.txt file that provides the number of pathways, protein families, and subsystems that were identified in the Comparative Systems job.  The file can be viewed or downloaded by clicking on the appropriate icons in the vertical green bar.
+  ![Image](images/Picture38.png)
 
 ## Viewing Pathways
 1.	The Comparative Systems job includes direct access to a page where pathways can be viewed and explored.  To reach that page, click on the Pathways icon at the upper right of the job page.

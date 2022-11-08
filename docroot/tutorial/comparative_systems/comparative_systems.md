@@ -274,65 +274,66 @@ The source code for the Comparative Systems service can be found at: <br/>
 
 ## Viewing Subsystems
 1.	The Comparative Systems job includes direct access to a page where subsystems can be viewed and explored.  To reach that page, click on the Subsystems icon at the upper right of the job page.
- 
+      ![Image](images/Picture86.png)
 
 2.	This will open a new tab that shows the Subsystem Super Class distribution pie chart.
- 
+      ![Image](images/Picture87.png)
 
 3.	Researchers can drill into the table on the right and see the Classes and Subclasses in each Super Class by clicking on the carrot in front of the name.  The number of subsystems are colored green, and the number of genes within those subsystems are colored yellow.
- 
+      ![Image](images/Picture88.png)
 
 4.	To see a tabular view, click on the Subsystems tab at the top left of the page.
- 
+      ![Image](images/Picture89.png)
 
 5.	This will open a new tab that shows all the Subsystems available across the selection of genomes.
- 
+      ![Image](images/Picture90.png)
 
 6.	Clicking on the row or checkbox of a single row will populate the vertical green bar with possible downstream functions.  To view the details of an individual subsystem, click on the checkbox in the first column and then click on the Map icon.
- 
+      ![Image](images/Picture91.png)
 
 7.	This will open a heatmap view of the selected subsystem, with the genomes listed on the x-axis and the proteins along the y-axis.  
- 
+      ![Image](images/Picture92.png)
 
 8.	A filter is directly above the heatmap.  
- 
+      ![Image](images/Picture93.png)
 
 9.	A text box filter will highlight columns that have protein families that have text that matches the text entered into the box.  This is indicated by a blue box above the column, and by blue text that matches what was entered in the textbox in the names of the genomes.
- 
+      ![Image](images/Picture94.png)
 
 10.	Expanding the slider at the top of the heatmap view will allow researchers to expand the view enough to see the genome name.  Note that the text in the name that matches the filter criterion will be highlighted blue.  In addition, a blue line remains directly above the column.
- 
+      ![Image](images/Picture95.png)
 
 11.	Researchers can flip the axis of the heatmap view if desired.
- 
+      ![Image](images/Picture96.png)
 
 12.	The default subsystem view includes a number of reference genome to provide a sense of the genes used by other organisms to perform this function.  These genomes are to the right of the genomes that were initially selected for the Comparative Systems job.  The reference genomes will be eliminated from the view by clicking on the Reference Genomes icon.
- 
+      ![Image](images/Picture97.png)
 
 13.	Clicking on the Cluster icon will cluster the genomes together.
- 
+      ![Image](images/Picture98.png)
 
 14.	Mousing over individual cells in a column will open a pop-up window that shows the gene, the genome, and the number of genes that the genome with that annotation.
- 
+      ![Image](images/Picture99.png)
 
 15.	A pop-up window summarizing the data selected will appear after clicking on a row or column head.  Researchers can download or show the proteins or add them to a group.
- 
+      ![Image](images/Picture100.png)
 
-Generating a Multiple Sequence Alignment (MSA)
+## Generating a Multiple Sequence Alignment (MSA)
 1.	 A MSA can be generated from any feature table, or from the features selected from a heatmap. Clicking on the check box at the top of the first column will select all the features in the table.  This will populate the vertical green bar with possible downstream functions.  Click on the MSA icon.
- 
+      ![Image](images/Picture101.png)
 
 2.	This will open a drop-down box where the nucleotide or amino acid sequence alignment can be selected.  The resulting tab will show an alignment and the corresponding gene tree.
- 
+      ![Image](images/Picture102.png)
 
 3.	Once the alignment has been generated, clicking on the Colors icon in the green bar will show a number of different choices that can be selected.  Each will change the color of the amino acids in the alignment to the left.
- 
+      ![Image](images/Picture103.png)
 
 4.	The tips at the end of the branches in the gene tree can be changed by clicking on the ID Type icon.  If the data exists for the particular genome that contains the gene in the alignment, that will now populate the gene tree.
- 
+      ![Image](images/Picture104.png)
 
 5.	Researchers can also click on the nodes within the tree.  The possible downstream functions will populate the green bar to the right, where you can create a group, generate a new alignment from the selection, and see the genes or the genomes.
- 
+      ![Image](images/Picture185.png)
+
 ## References
 
 - 1	Overbeek, R. et al. The subsystems approach to genome annotation and its use in the project to annotate 1000 genomes. Nucleic acids research 33, 5691-5702 (2005).

@@ -133,60 +133,60 @@ The source code for the Comparative Systems service can be found at: <br/>
 
 ## Viewing Pathways
 1.	The Comparative Systems job includes direct access to a page where pathways can be viewed and explored.  To reach that page, click on the Pathways icon at the upper right of the job page.
- 
+  ![Image](images/Picture39.png) 
 
 2.	This will open a landing page where all the pathways can be viewed.  The table includes the KEGG pathway ID, pathway class and Pathway name.  It shows the number of the genomes withing the selection that have genes in that pathway (Genome Count), and the proteins with EC numbers that are in that pathway (EC Number Count).  Gene Count shows the number of genes in the genomes that have those EC numbers. The Genome EC Count shows the sum of the EC numbers found across all the genomes that have genes in this pathway.  The EC Conservation (%) number gives the percent of unique EC numbers present in all selected genomes. 100% describes a situation in which all unique EC numbers are present in all selected genomes. Smaller numbers indicate that there is one or more genomes are missing some EC numbers.
- 
+  ![Image](images/Picture40.png)
 
 3.	The EC Number tab is above the table.  
- 
+   ![Image](images/Picture41.png)
 
 4.	Clicking on that tab will show the details of the EC numbers that are found across the selection of genomes for the individual pathway.  Each EC Number has its own row, and the Description column provides the function of the genes in that pathway.
- 
+   ![Image](images/Picture42.png)
 
 5.	Clicking on the row or checkbox of a single row will populate the vertical green bar with possible downstream functions.  To view the details of an individual pathway, click on the Map icon.
- 
+    ![Image](images/Picture43.png)
 
 6.	This will open the Pathway View, which includes an EC table and the corresponding KEGG pathway map.
- 
+    ![Image](images/Picture44.png)
 
 7.	The EC table shows the EC Number, the number of genomes that have the gene with that number (Genome Count), the number of genes that have that EC number (Feature Count), the number of genomes in the selection that are missing that number (Genome Count Not Present), and the number of times that gene is shown in the pathway map (Occurrence).
- 
+    ![Image](images/Picture45.png)
 
 8.	Clicking on an individual row in the EC table will color the corresponding box with that EC number red in the pathway table.  Clicking on the Legend icon in the upper right will open a drop-down box that shows the legend.  EC numbers that are not found within the collection of genomes are found in white boxes.  Lime green boxes indicate that all genomes in the collection have at least one gene with this EC number, and the olive color indicates an EC number that is found only in some, but not all of the genomes in the selection.  
- 
+    ![Image](images/Picture46.png)
 
 9.	Above the EC table and pathway map are two tabs.  The KEGG Map view is the default.  Clicking on the Heatmap tab will show the presence and absence of the EC numbers across the selected genomes, as well as the number of genes that are annotated with that EC number across the selection of genomes.
- 
+    ![Image](images/Picture47.png)
 
 10.	 The heatmap view opens to show the EC numbers and their functional description listed on the y axis, and the name of the genomes in the collection across the x axis.
- 
+    ![Image](images/Picture48.png)
 
 11.	A filter can be found directly above the heatmap. 
+   ![Image](images/Picture49.png)
 
 12.	Researchers can flip the axis of the heatmap view if desired.
- 
+    ![Image](images/Picture50.png)
 
 13.	Clicking on Save SVG will open a drop-down box.  Researchers can choose to download the visible portion of a large heatmap (Save snapshot) or the entire heatmap (Save entire chart).
- 
+    ![Image](images/Picture51.png)
 
 14.	A text box filter will highlight columns that have text that matches the text entered into the box.  This is indicated by a blue box above the column.
-
+   ![Image](images/Picture52.png)
  
-
 15.	Mousing over individual cells in a column will open a pop-up window that shows the genome, the enzyme commission number and description, and the number of genes that the genome has in that family.
- 
+    ![Image](images/Picture53.png)
 
 16.	Areas within the heatmap can be examined.  To so this, use the mouse to draw a box over the area of interest in a heatmap or by clicking on the gene name, which will select the entire row.  
- 
+    ![Image](images/Picture54.png)
 
 17.	This will open a pop-up window that show the number of genomes in the selection, the number of EC numbers in the selection, and the number of genes/proteins (called Members) within the selection.
- 
+    ![Image](images/Picture55.png)
 
 18.	Clicking on Show Proteins will open a new tab showing the Features (aka genes/proteins) that were part of that selection.
- 
+    ![Image](images/Picture56.png)
 
-Protein Families – Tabular View
+## Protein Families – Tabular View
 1.	The Comparative Systems job includes direct access to a page where protein families can be viewed and explored.  To reach that page, click on the Families icon at the upper right of the job page.
  
 

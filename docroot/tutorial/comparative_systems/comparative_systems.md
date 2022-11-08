@@ -16,13 +16,12 @@ Subsystems are also included in the Comparative Systems service.  This part of t
 The source code for the Comparative Systems service can be found at: <br/>
 [https://github.com/BV-BRC/comparative_systems_service](https://github.com/BV-BRC/comparative_systems_service)
 
-Creating a folder to hold the Comparative Systems job and related data
+## Creating a folder to hold the Comparative Systems job and related data
 1.	It is always good practice to create a folder to keep the results from a particular experiment or project in order.  To create a new folder, go to the Workspaces tab and click on home.
- 
-
+ ![Image](images/Picture2.png)
 
 2.	This will open the home directory on your workspace.  To create a new folder, click on the Add Folder icon at the top right of the table.
- 
+ ![Image](images/Picture3.png)
 
 3.	This will open a pop-up window.  Note that the Create Folder button is greyed out.  Type the desired name in the text box.
  

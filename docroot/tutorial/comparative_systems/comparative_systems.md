@@ -24,25 +24,25 @@ The source code for the Comparative Systems service can be found at: <br/>
  ![Image](images/Picture3.png)
 
 3.	This will open a pop-up window.  Note that the Create Folder button is greyed out.  Type the desired name in the text box.
- 
+ ![Image](images/Picture4.png) 
 
 4.	Once the name is entered, the Create Folder icon will turn blue.  To create the folder, click on that button.
- 
+ ![Image](images/Picture5.png) 
 
 5.	The pop-up window will disappear.  At the button left of the page you will see a temporal message indicating that the folder was successfully created.
- 
+ ![Image](images/Picture6.png) 
 
-Locating the Comparative Systems App
+## Locating the Comparative Systems App
 1.	At the top of any BV-BRC page, find the Services tab
- 
+ ![Image](images/Picture7.png)
 
 2.	In the drop-down box, underneath Genomics, click on Comparative Systems.
- 
+ ![Image](images/Picture8.png)
 
 3.	This will open up the Comparative Systems landing page.  The default page shows starting with a read file.
- 
+ ![Image](images/Picture9.png)
 
-Selecting Genomes
+## Selecting Genomes
 1.	To include any genome (reference, representative, other public, or private genomes), click on the filter button to narrow the selection and deselect the categories that are not of interest. 
 
 2.	Typing in the text box will show a list of the genomes available that contain that text. Private genomes are indicated by a Lock symbol. Once the genome of interest is located, clicking on it will fill the box.

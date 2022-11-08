@@ -43,90 +43,95 @@ The source code for the Comparative Systems service can be found at: <br/>
  ![Image](images/Picture9.png)
 
 ## Selecting Genomes
-1.	To include any genome (reference, representative, other public, or private genomes), click on the filter button to narrow the selection and deselect the categories that are not of interest. 
+1.	To include any genome (reference, representative, other public, or private genomes), click on the filter button to narrow the selection and deselect the categories that are not of interest.
+ ![Image](images/Picture10.png)
 
 2.	Typing in the text box will show a list of the genomes available that contain that text. Private genomes are indicated by a Lock symbol. Once the genome of interest is located, clicking on it will fill the box.
+ ![Image](images/Picture11.png)
  
 
 3.	The genome must be added to the genomes for comparison, a box in the Selected Genomes box. Click on the arrow at the upper right of the Select Genome box (and the name of the genome will appear in the Selected Genomes box.
+ ![Image](images/Picture12.png)
  
-Selecting Genome Groups
+## Selecting Genome Groups
 1.	To select a genome group, go to the Select Genome Group box and click on the down arrow that follows the text box. That will show a list of all the genome groups, with the most recently created appearing at the top of the list
+ ![Image](images/Picture13.png)
  
 2.	Entering a name (or part of a name) in the text box will populate the drop-down box with possible groups that match that text.
- 
+ ![Image](images/Picture14.png)
 
 3.	Clicking on the genome group of interest will make the name appear in the text box.
- 
+ ![Image](images/Picture15.png)
 
 4.	The genome group must be added to the genomes for comparison, a box in the Select Genomes box. Click on the arrow at the upper right of the Select Genome box and the name of the genome will appear in the box. This can be repeated until all the genome groups or genomes of interest, have been added to the Selected Genomes box.
- 
-5.	Clicking on the X icon that follows the name of a genome or genome group in the Selected Input Genome Table will remove it from the selection.
- 
+ ![Image](images/Picture16.png)
 
-Selecting parameters
+5.	Clicking on the X icon that follows the name of a genome or genome group in the Selected Input Genome Table will remove it from the selection.
+ ![Image](images/Picture17.png)
+
+## Selecting parameters
 1.	A folder must be selected to hold the Comparative Systems job.  Recently created folders can be viewed by clicking on the drop-down arrow at the end of the text box underneath OUTPUT FOLDER.  Clicking on the folder of interest will select it.
- 
+ ![Image](images/Picture18.png)
 
 2.	Previously created folders can also be found by beginning to type the name in the text box.  A drop-down box below the box will show all available folders that match the text.
- 
+ ![Image](images/Picture19.png)
 
 3.	Previously created folders can also be located by clicking on the folder icon that follows the text box.  That will open an interface to the workspace, where the correct folder can be selected by clicking on the row that contains its name, and then on the OK button at the lower right of the window.
- 
+ ![Image](images/Picture20.png)
 
 4.	A name must be selected for the Comparative Systems job.  Enter the name in the text box underneath the words OUTPUT NAME.  At this point the Submit button will turn blue.  The job can be submitted by clicking on that button.
- 
+ ![Image](images/Picture21.png)
 
 5.	A message will appear above the submit button, indicating that the submission was successful.
- 
+ ![Image](images/Picture22.png)
 
 
-Monitoring progress on the Jobs page
+## Monitoring progress on the Jobs page
 1.	Click on the Jobs box at the bottom right of any BV-BRC page.
- 
+ ![Image](images/Picture23.png)
 
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed.
- 
+ ![Image](images/Picture24.png)
 
 
-Viewing the Comparative Systems job results
+## Viewing the Comparative Systems job results
 1.	To view a particular job, click on a row to select it. Once selected, the downstream processes available for the selection appear in the vertical green bar.  Clicking on the View icon will open the comparative systems job summary.
- 
+  ![Image](images/Picture25.png)
 
 2.	This will rewrite the page to show the information about the comparative systems job, and all of the files that are produced when the pipeline runs.  
- 
+  ![Image](images/Picture26.png)
 
 3.	The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the Parameters row.
- 
+  ![Image](images/Picture27.png)
 
 4.	This will show the information on what was selected when the job was originally submitted.
- 
+  ![Image](images/Picture28.png)
 
 5.	Pathway.tsv: To view, or download, a tab separated value (tsv) file of all the pathways and genes found across all the genomes in the selection, click on the row that has the file and then click on the View, or Download icon in the vertical green bar.
- 
+  ![Image](images/Picture29.png)
 
 6.	If the View icon was selected, a new tab will open showing the pathway table.
- 
+  ![Image](images/Picture30.png)
 
 7.	Pathways_tables.json:  A JSON file is a file that stores simple data structures and objects in JavaScript Object Notation (JSON) format, which is a standard data interchange format. It is primarily used for transmitting data between a web application and a server.  The downloadable files from the Comparative Systems job includes a pathways_table json file that can be viewed by clicking on the View icon in the vertical green bar or downloaded.
- 
+  ![Image](images/Picture31.png)
 
 8.	Proteinfams_tables.json: The downloadable files from the Comparative Systems job includes a protein families table json file that can be viewed by clicking on the View icon in the vertical green bar, or downloaded
- 
+  ![Image](images/Picture32.png)
 
 9.	Subsystems_tsv: A tsv file of all the subsystems and genes found across all the genomes in the selection is available for download or viewing.  To view the file, click on the row that has it and then click on the View, or Download icon in the vertical green bar.
- 
+  ![Image](images/Picture33.png)
 
 10.	 If the View icon was selected, a new tab will open showing all the subsystem information.
- 
+  ![Image](images/Picture34.png)
 
 11.	Subsystems_tables-json: The downloadable files from the Comparative Systems job includes a subsystems table json file that can be viewed by clicking on the View icon in the vertical green bar, or downloaded
- 
+  ![Image](images/Picture35.png)
 
 12.	Report_txt: The downloadable files also include a report.txt file that provides the number of pathways, protein families, and subsystems that were identified in the Comparative Systems job.  The file can be viewed or downloaded by clicking on the appropriate icons in the vertical green bar.
- 
+  ![Image](images/Picture36.png)
 
-Viewing Pathways
+## Viewing Pathways
 1.	The Comparative Systems job includes direct access to a page where pathways can be viewed and explored.  To reach that page, click on the Pathways icon at the upper right of the job page.
  
 

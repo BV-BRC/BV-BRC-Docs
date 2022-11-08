@@ -13,7 +13,7 @@ Subsystems are also included in the Comparative Systems service.  This part of t
 
 ## Source code for algorithms 
 
-The source code for the Comparative Systems service can be found at:
+The source code for the Comparative Systems service can be found at: <br/>
 [https://github.com/BV-BRC/comparative_systems_service](https://github.com/BV-BRC/comparative_systems_service)
 
 Creating a folder to hold the Comparative Systems job and related data

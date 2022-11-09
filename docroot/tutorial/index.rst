@@ -24,6 +24,7 @@ Genomics
    primer_design/primer_design.md
    variation_analysis/variation_analysis.md
    tn-seq/tn-seq.md
+   subspecies_classification/subspecies_classification.md
 
 Protein Tools
 ---------------

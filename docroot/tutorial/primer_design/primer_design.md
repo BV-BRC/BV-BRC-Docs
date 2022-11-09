@@ -1,4 +1,4 @@
-# Primer Design Tutorial
+# Primer Design
 
 ## Overview
 

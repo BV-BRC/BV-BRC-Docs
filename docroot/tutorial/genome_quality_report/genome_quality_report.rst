@@ -9,6 +9,17 @@ Genome quality analysis is automatically performed when :doc:`/tutorial/metageno
 or :doc:`/tutorial/genome_annotation/annotation`.
 
 The genome quality tools look at the functional roles present in an annotated genome to determine if the genome looks correct.
+A functional role is an atomic part of a functional annotation (the **Product** column in the list of CDS features).
+In most cases, the role and the functional annotation are the same; however, if a protein performs more than one task in
+the cell, each task will be considered a different role. So, for example,
+in `fig|511145.peg.1 <https://www.bv-brc.org/view/Feature/PATRIC.511145.12.NC_000913.CDS.343.2799.fwd#view_tab=overview>`__
+the functional annotation is
+
+        Aspartokinase (EC 2.7.2.4) / Homoserine dehydrogenase (EC 1.1.1.3)
+
+This corresponds to two roles-- **Aspartokinase** and **Homoserine dehydrogenase**, so the single CDS would be counted as
+an occurrence of both.
+
 Two separate mechanisms are used to predict the number of times each role should be found in the genome. A role is *good* if it
 occurs the predicted number of times; otherwise it is *problematic*.
 
@@ -82,8 +93,12 @@ Contamination:
     If the genome is not a Bacteria or Archaea, this number will always be 100.
 
 Evaluation Group:
-    This is the taxonomic grouping that was used by EvalG to determine the universal roles. The smaller this grouping, the more accurate the completeness
-    and contamination will be.
+    This is the representative genome group that was used by EvalG to determine the universal roles. The prefix (R200 in the screen fragment)
+    indicates the tightness of the grouping, with higher numbers indicating that the group is covering a smaller portion of the taxonomy
+    tree.  In general, R200 covers a species, R100 a genus, and R50 a family, but this is not always the case.  The grouping is based on
+    protein distance for a conserved protein-- PheS-- whose sequence mutations are known to have a high correlation with the overall
+    protein mutation rate for a genome.  The mutation rate does not always correspond to taxonomic boundaries, and in particular *Enterobacteriaceae*
+    has many species in the same R200 group, while *Wolbachia* has strains that are far apart enough to land in different groups.
 
 Contig Count:
     The number of contigs in the genome. For a given assembly size, a lower number indicates a better-quality assembly.
@@ -105,6 +120,24 @@ Predicted Roles:
     The total number of roles that were examined by either EvalG or EvalCon. EvalCon uses a set of roughly 1300 roles. EvalG uses between 60 and 2000 roles
     depending on the taxonomic grouping chosen. The two sets frequently overlap.
 
+Total Distinct Roles:
+    The number of different roles found in the genome.
+
+Protein-Encoding Genes with Functional Assignment:
+    The number of CDS features in the genome with a known product.
+
+Protein-Encoding Genes without Functional Assignment:
+    The number of hypothetical proteins in the genome.
+
+% Protein-Encoding Feature Coverage:
+    The percent of coding regions vs. the number expected in a genome of this size.  The number will sometimes be more than 100%.
+
+% Features that are Hypothetical:
+    The number of hypothetical proteins in the genome expressed as a percent of the total number of CDS features.
+
+% Features that are in Local Protein Families:
+    The number of CDS features in the genome that are in the same protein family as other genomes for the same genus, expressed
+    as a percent of the total number of CDS features.  The higher this number is, the more confidence we have in the gene-calling.
 
 
 Problematic Roles Report

@@ -5,44 +5,45 @@ In addtion to Quick Reference Guides and Tutorial documentation, the `BV-BRC You
 
 Quick Start
 ------------------
-This YouTube playlist provides brief demonstrations of key BV-BRC features:
-* ` <>`_
-* ` <>`_
-* ` <>`_
-* ` <>`_
-* ` <>`_
-* ` <>`_
-* ` <>`_
-* ` <>`_
-* ` <>`_
+This playlist provides brief demonstrations of key BV-BRC features.
+* `Introduction <https://youtu.be/Rb3d6fJ1Yxo>`_
+* `Searching for data <https://youtu.be/NB5tvu1YDkc>`_
+* `Filtering search results <https://youtu.be/q-UBdYnizN0>`_
+* `Annotating a genome <https://youtu.be/fxDgVQ8h_Ic>`_
+* `Viewing a completed annotion job <https://youtu.be/Ye3P02qZZU4>`_
+* `Workspace guide <https://youtu.be/Ye3P02qZZU4>`_
 
-Services
---------
-This YouTube playlist provides brief demonstrations of key BV-BRC features:
-* ` <>`_
-* ` <>`_
-* ` <>`_
-* ` <>`_
-* ` <>`_
+Analysis Services
+-----------------
+These videos provide step-by-step demonstrations of BV-BRC Analysis Services.
+* `Comparative Systems <https://youtu.be/U0ahNJpebhs>`_
+* `Comprehensive Genome Analysis <https://youtu.be/AI23teqjnwM>`_
+* `BLAST <https://youtu.be/PJ9vdCnozMg>`_
+* `Similar Genome Finder <https://youtu.be/hZu2qK5TcgU>`_
+* `Phylogenetic Tree <https://youtu.be/ckNPGPwoT5U>`_
+* `Genome Alignment <https://youtu.be/uvRzymyh_hM>`_
+* `Primer Design <https://youtu.be/4MlDw9V5H7w>`_
+* `MSA and SNP Analysis <https://youtu.be/ea6GboAZPQs>`_
+* `Gene Tree <https://youtu.be/VtXWBRSdXRo>`_
+* `Proteome Comparison <https://youtu.be/UJak-ifQ9FE>`_
+* `Metagenomic Binning <https://youtu.be/Xt1ptDtG-UQ>`_
+* `Taxonomic Classification <https://youtu.be/PsqHeZ8pvt4>`_
+* `Expression Import Service <https://youtu.be/6MZUq42jx78>`_
+* `RNA-Seq Analysis <https://youtu.be/kEhdQJ2o-tI>`_
+* `Fastq Utilities (playlist) <https://youtube.com/playlist?list=PLWfOyhOW_Oas1LLS2wRlWzilruoSxVeJw>`_
+
+Visualizations and Other Tools
+------------------------------
+These videos provide demonstrations of BV-BRC interactive visualizations and other tools and features in the resource.
+
+* `Compare Region Viewer <https://youtu.be/KQkmeG84kQY>`_
+
+Command Line Interface
+----------------------
+These videos provide instructions for installation and use of the BV-BRC Command Line Interface (CLI).
+
+* `CLI Installation <https://youtu.be/7bJtZOSD7yY>`_
+* `CLI Overview <https://youtu.be/7vpkY6LVYds>`_
+* `CLI Job Submission <https://youtu.be/97WpQfUW1uI>`_
 
 
-Visualizations
---------------
-This YouTube playlist provides brief demonstrations of key BV-BRC features:
-* ` <>`_
-* ` <>`_
-* ` <>`_
-* ` <>`_
-* ` <>`_
-
-
-
-
-periodically offers live instructional webinars where users can participate and ask questions along the way. The webinars are recorded and made available for viewing afterward from the 
-
-Monkeypox and Orthopoxvirus Mini Symposium
-------------------------------------------
-**September 15, 2022**. BV-BRC organized the Monkeypox and Orthopoxvirus Mini Symposium in response to the global 2022 monkeypox virus outbreak. The presentations begins with a brief primer on monkeypox virus. Addtional topics include bioinformatic resources and tools currently available and in development for the purpose of studying monkeypox virus, as well as updates on the analysis of emerging MPXV genomes. (Click `here <https://www.bv-brc.org/docs/news/2022/20220907-monkeypox-and-orthopoxvirus-symposium.html>`_ to see the original webinar announcement and schedule).
-
-
-* `Introduction and poxvirus primer <https://youtu.be/J8J7IaGTQ1I>`_

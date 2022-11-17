@@ -1,58 +1,82 @@
-# BV-BRC Documentation Repo
+# The BV-BRC Documentation Site
 
-This repository is for manage BV-BRC static contents such as Website Tutorial, CLI Tutorial, Quick Reference Guides, and BV-BRC eNews. 
-See [here](./Setup.md) for configuration.
+## System Requirements
+
+The documentation website requires [Python](https://www.python.org/) with [PIP](https://pypi.org/project/pip/) and [Nginx](https://nginx.org/en/) to be installed and configured on your machine. Modern versions of both should work.
+
+If using **MacOS** all can be installed with [Homebrew](https://brew.sh/)
+
+## Sphinx
+```
+pip install Sphinx
+```
+### Install Markdown support
+```
+pip install recommonmark
+```
+See more detail http://www.sphinx-doc.org/en/stable/markdown.html
+
+### Install readthedocs theme
+```
+pip install sphinx_rtd_theme
+```
+See more detail https://github.com/rtfd/sphinx_rtd_theme
+
+### Install additional plugins
+```
+pip install sphinxcontrib-newsfeed
+pip install sphinxcontrib-spelling
+```
 
 ## Nginx
-After following the Sphinx/Nginx [Setup Guide](./Setup.md) make sure your local Nginx server is running.
+Install nginx and config like below. Set document root accordingly.
+
 ```
-sudo nginx
+# nginx conf
+
+server {
+	listen 80;
+	server_name docs.bvbrc.local;
+	root /BV-BRC-Docs/docroot/_build/html;
+
+        # to avoid Cross-Origin Request Blocked error
+        location / { 
+          if ($request_method = 'OPTIONS') {
+             add_header 'Access-Control-Allow-Origin' '*';
+             add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+             add_header 'Access-Control-Allow-Headers' 'Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range';
+             return 204;
+          }
+          if ($request_method = 'GET') {
+             add_header 'Access-Control-Allow-Origin' '*';
+             add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+          }
+        }
+}
 ```
-And enter your password. You'll need to turn this on everytime you restart your computer unless you have it set to start automatically.
 
-## How to add an entry
-1. Create a folder. If you don't have image associated, then you can ommit the images folder.
+Add record for docs.bvbrc.local in /etc/hosts with sudo
 ```
-mkdir -p tutorial/excel_formatting/images/
-```
-
-2. Make a markdown or ReST (ReStructuredText) format file
-
-3. Place images under `./images` sub folder
-
-4. If you have a file attachment to link, place the file in the '_static' directory, and reference it from there. (Sphinx will ignore attachment files such as .PDF, .XLSX, etc)
-
-5. Add a link in the category index file (e.g. `tutorial/index.rst`)
-
-6. build html
-```
-$ make html
+127.0.0.1	localhost
+127.0.0.1	docs.bvbrc.local
 ```
 
-Note: You may need to completely clear your previously built docs application to see new changes made. You can run this command to delete and rebuild from within the docroot directory.
+## How to add an entry, page, tutorial, or guide
+Following the structure already laid out in the repository you should be able to create a .md or .rst file corresponding to what you're looking to do. In order for it to show up in the Table of Contents or landing pages make sure to link your new page to the respective `index.rst` located at it's corresponding spot in the heirarchy.
+
+## Rebuild the documentation
+From within the `BV-BRC-Docs/docroot` directory you can run this command to rebuild the doc site.
+```
+make html
+```
+
+On occastion, especially with heavy TOC changes and/or static files added you make need to do a complete rebuild.
 ```
 rm -rf _build && make html
 ```
 
-## How to add a News entry
-In order to generate feed RSS, you need to write the news entries in rst format.
-Check a sample entry [here](https://github.com/PATRIC3/p3_docs/blob/master/docroot/news/20170930-patric-september-2017-data-release.rst)
-
-1. Follow the instruction for creating a file & linking
-2. For news entries, you need to add a code block like below,
-```
-.. feed-entry::
-   :date: 2017-09-30
-
-   Add description (a line or two) regarding the news item here. This will show up in the home page.
-
-.. cut::
-```
-
-3. When you build html, `news.rss` will be updated.
-
 ## Resources
-We write our documentation pages in both Markdown (.md) and reStructuredText (.rst). Sphinx uses the CommonMark version of Markdown when it builds the documentation site. It is slightly different than the GitHub Flavored MarkDown used by GitHub so make sure to take note of any subtle differences. Use these resources to write and develop documentation for PATRIC without causing warnings or failures. There is only one flavor of reStructuredText.
+We write our documentation pages in both Markdown (.md) and reStructuredText (.rst). Sphinx uses the CommonMark version of Markdown when it builds the documentation site. It is slightly different than the GitHub Flavored MarkDown used by GitHub so make sure to take note of any subtle differences. Use these resources to write and develop documentation for BV-BRC without causing warnings or failures. There is only one flavor of reStructuredText.
 
 ### Markdown
 

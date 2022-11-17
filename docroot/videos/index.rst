@@ -6,6 +6,7 @@ In addtion to Quick Reference Guides and Tutorial documentation, the `BV-BRC You
 Quick Start
 ------------------
 This playlist provides brief demonstrations of key BV-BRC features.
+
 * `Introduction <https://youtu.be/Rb3d6fJ1Yxo>`_
 * `Searching for data <https://youtu.be/NB5tvu1YDkc>`_
 * `Filtering search results <https://youtu.be/q-UBdYnizN0>`_
@@ -16,6 +17,7 @@ This playlist provides brief demonstrations of key BV-BRC features.
 Analysis Services
 -----------------
 These videos provide step-by-step demonstrations of BV-BRC Analysis Services.
+
 * `Comparative Systems <https://youtu.be/U0ahNJpebhs>`_
 * `Comprehensive Genome Analysis <https://youtu.be/AI23teqjnwM>`_
 * `BLAST <https://youtu.be/PJ9vdCnozMg>`_

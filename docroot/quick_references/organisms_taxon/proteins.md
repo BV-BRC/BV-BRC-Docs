@@ -1,4 +1,4 @@
-# Proteins Tab - Annotated Features
+# Proteins Tab
 
 ## Overview
 The Proteins Tab provides a table of all the annotated genomic features (gene, CDS, mRNA, proteins, etc.) corresponding to the set of genomes in the selected Taxon View level or in the user-defined Genome Group.  From this page, proteins can be sorted, filtered, collected into groups, and downloaded. 

@@ -17,8 +17,6 @@ Discussion of bioinformatic resources and tools available and in development for
 Event Information
 -------------------
 
-**Registration:** `Click Here <https://jcvi.webex.com/jcvi/j.php?RGID=r8537c82536643eda7a517fa4eb38a908>`_
-
 **Date:** September 15, 2022
 
 **Time:** 7 AM – 11:30 AM Pacific, 10 AM – 2 PM:30 Eastern , 4 PM – 8:30 PM CET

@@ -1,21 +1,21 @@
-# Proteins Tab
+# Genomic Features Tab
 
 ## Overview
-The Proteins Tab provides a table of all the annotated genomic features (gene, CDS, mRNA, proteins, etc.) corresponding to the set of genomes in the selected Taxon View level or in the user-defined Genome Group.  From this page, proteins can be sorted, filtered, collected into groups, and downloaded. 
+The Genomic Features Tab provides a table of all the annotated genomic features (gene, CDS, mRNA, proteins, etc.) corresponding to the set of genomes in the selected Taxon View level or in the user-defined Genome Group.  From this page, features can be sorted, filtered, collected into groups, and downloaded. 
 
 ### See also
   * [Genome Annotations](../organisms_taxon/genome_annotations.html)
   * [Genome Page Overview](../organisms_genome/overview.html)
   * [Multiple Sequence Alignment Viewer](../other/msa_viewer.html)
 
-## Accessing the Proteins Table
-Clicking the Proteins Tab in a Taxon View displays the Proteins Table (shown below), listing all the annotated proteins and other genomic features corresponding to the set of genomes in the selected taxon level.
+## Accessing the Genomic Features Table
+Clicking the Genomic Features Tab in a Taxon View displays the Genomic Features Table (shown below), listing all the annotated genomics features corresponding to the set of genomes in the selected taxon level.
 
-![Proteins Table](../images/proteins_tab.png)
+![Genomic Features Table](../images/proteins_tab.png)
 
-The list in the Proteins table includes annotations created by the BV-BRC annotation service, which includes protein-coding genes and other genomic features, as well as the original annotations (typically from RefSeq), if availalble. 
+The list in the Genomic Features table includes annotations created by the BV-BRC annotation service, which includes protein-coding genes and other genomic features, as well as the original annotations (typically from RefSeq), if availalble. 
 
-### Proteins Table Tools
+### Genomic Features Table Tools
 Within this table you may do the following:
 
 * **Download** the entire contents of the table in text, CSV, or Excel format by clicking the Download button above the table on the left side.
@@ -32,19 +32,19 @@ Clicking on the Filters button at the top right of the table opens the Filter Pa
 
 ### Action buttons
 
-After selecting one or more of the proteins by clicking the checkbox beside the Genome Name in the table, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include
+After selecting one or more of the features by clicking the checkbox beside the Genome Name in the table, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
 * **Download:**  Downloads the selected items (rows).
 * **Copy:** Copies the selected items to the clipboard.
 * **Feature:** Loads the Feature Page for the selected feature. *Available only if a single feature is selected.*
-* **Features:** Loads the Proteins Table for the selected proteins/features. *Available only if multiple proteins are selected.*
+* **Features:** Loads the Genomic Features Table for the selected features. *Available only if multiple features are selected.*
 * **Genome:** Loads the Genome View Overview page corresponding to the selected feature.  *Available only if a single feature is selected.*
-* **Genomes:** Loads the Genomes Table, listing the genomes that correspond to the selected proteins. *Available only if multiple proteins are selected.*
+* **Genomes:** Loads the Genomes Table, listing the genomes that correspond to the selected featuress. *Available only if multiple featuress are selected.*
 * **FASTA:** Provides the FASTA DNA or protein sequence for the selected feature(s).
 * **ID Map:** Provides the option to map the selected feature(s) to multiple other idenfiers, such as RefSeq and UniProt.
-* **MSA:** Launches the Multiple Sequence Alignment (MSA) tool and aligns the selected proteins/features by DNA or protein sequence in an interactive viewer.
-* **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in which the selected proteins/features are found.
+* **MSA:** Launches the Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
+* **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in which the selected features are found.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
 More details are available in the [Action Buttons](../action_buttons.html) Quick Reference Guide.

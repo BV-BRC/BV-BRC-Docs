@@ -20,6 +20,7 @@ BV-BRC Documentation
    quick_references/index
    tutorial/index
    cli_tutorial/index
+   videos/index
    webinar/index
    workshops/index
    .. faqs_common_tasks/index

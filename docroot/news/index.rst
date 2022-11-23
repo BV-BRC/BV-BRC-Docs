@@ -9,7 +9,7 @@ News and Announcements
    :description: BV-BRC News RSS feed
    :link: https://www.bv-brc.org/docs/
 
-   2022/20221122-rsv-and-influenza-webinars.rst
+   2022/20221122-rsv-and-influenza-webinars
    2022/20221007-bv-brc-workshop-at-anl
    2022/20220907-monkeypox-and-orthopoxvirus-symposium
    2022/20220816-bv-brc-patric-redirect

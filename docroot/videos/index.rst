@@ -28,11 +28,11 @@ These videos provide step-by-step demonstrations of BV-BRC Analysis Services.
 * `MSA and SNP Analysis <https://youtu.be/ea6GboAZPQs>`_
 * `Gene Tree <https://youtu.be/VtXWBRSdXRo>`_
 * `Proteome Comparison <https://youtu.be/UJak-ifQ9FE>`_
-* `Metagenomic Binning <https://youtu.be/Xt1ptDtG-UQ>`_
 * `Taxonomic Classification <https://youtu.be/PsqHeZ8pvt4>`_
-* `Expression Import Service <https://youtu.be/6MZUq42jx78>`_
+* `Metagenomic Binning <https://youtu.be/Xt1ptDtG-UQ>`_
+* `Expression Import <https://youtu.be/6MZUq42jx78>`_
 * `RNA-Seq Analysis <https://youtu.be/kEhdQJ2o-tI>`_
-* `Fastq Utilities (playlist) <https://youtube.com/playlist?list=PLWfOyhOW_Oas1LLS2wRlWzilruoSxVeJw>`_
+* `Fastq Utilities (Video Playlist) <https://youtube.com/playlist?list=PLWfOyhOW_Oas1LLS2wRlWzilruoSxVeJw>`_
 
 Visualizations and Other Tools
 ------------------------------

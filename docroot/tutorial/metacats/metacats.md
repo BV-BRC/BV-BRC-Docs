@@ -1,7 +1,7 @@
-# Metadata-driven Comparative Analysis Tool (meta-CATS)
+# Metadata-driven Comparative Analysis Tool (Meta-CATS)
 
 ## Overview
-The meta-CATS tool provides the capability to perform customized comparative genomics analyses with minimal manual manipulation. You can perform a statistical analysis on sequences assigned to up to 10 different groups to determine which residues significantly correlate with one or more metadata fields. The meta-CATS tool looks for positions that significantly differ between user-defined groups of sequences. However, biological biases due to covariation, codon biases, and differences in genotype, geography, time of isolation, or others may affect the robustness of the underlying statistical assumptions. Open-source code for meta-CATS can be found [here](https://github.com/JCVenterInstitute/Meta-CATS). 
+The Meta-CATS tool provides the capability to perform customized comparative genomics analyses with minimal manual manipulation. You can perform a statistical analysis on sequences assigned to up to 10 different groups to determine which residues significantly correlate with one or more metadata fields. The meta-CATS tool looks for positions that significantly differ between user-defined groups of sequences. However, biological biases due to covariation, codon biases, and differences in genotype, geography, time of isolation, or others may affect the robustness of the underlying statistical assumptions. Open-source code for meta-CATS can be found [here](https://github.com/JCVenterInstitute/Meta-CATS). 
 
 ### Keywords:
 metadata, variation analysis, comparative analysis. 

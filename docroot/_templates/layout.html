@@ -1,15 +1,13 @@
 {% extends "!layout.html" %}
 
-{%- if not embedded and docstitle %}
-  {%- set titlesuffix = " &#8214; "|safe + docstitle|e %}
-{%- else %}
-  {%- set titlesuffix = "" %}
-{%- endif %}
-
 {% block extrahead %}
 <meta name="google-site-verification" content="TkjceNtwo7upCQl_gx8Zmhhp9tCmc08LitZGuvQ1Eb8" />
 <link rel="icon" sizes="16x16 32x32" href="/_static/favicon.ico" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Roboto:400,700&display=swap">
+
+{%- block htmltitle %}
+<title>{{ title|striptags|e }}{{ " | " + docstitle|e }}</title>
+{%- endblock -%}
 {% endblock %}
 
 {% block footer %}

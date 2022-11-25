@@ -1,4 +1,4 @@
-# Comparative Systems
+# Comparative Systems Service
 
 The new Comparative Systems service at BV-BRC combines two tools that were part of the PATRIC resource (Protein Family Sorter and Comparative Pathways Viewer) and also includes subsystems1,2, a set of functional roles that together implement a specific biological process or structural complex and can also be generalized as pathways.   Up to 500 genomes can be compared.  All of the three systems use the two protein families (PATtyFams3) that are assigned in the BV-BRC annotation process known as RASTtk4.  The global families, known as PGFams, can be used for cross genus comparisons.  The local families (PLFams) are for intra genus comparisons.
 

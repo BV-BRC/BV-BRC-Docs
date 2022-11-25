@@ -1,4 +1,4 @@
-# RNA-Seq Analysis
+# RNA-Seq Analysis Service
 
 ***This tutorial is outdated and requires work. It will be updated soon***
 

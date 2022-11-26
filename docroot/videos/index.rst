@@ -5,7 +5,7 @@ In addtion to Quick Reference Guides and Tutorial documentation, the `BV-BRC You
 
 Quick Start
 ------------------
-This playlist provides brief demonstrations of key BV-BRC features.
+This `playlist <https://youtu.be/Rb3d6fJ1Yxo>`_ provides brief demonstrations of key BV-BRC features.
 
 * `Introduction <https://youtu.be/Rb3d6fJ1Yxo>`_
 * `Searching for data <https://youtu.be/NB5tvu1YDkc>`_

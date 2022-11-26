@@ -9,6 +9,10 @@ Source code for algorithms
 * The source code for MUSCLE can be found at: https://www.drive5.com/muscle/downloads.htm
 * The source code for BioPython can be found at: https://github.com/biopython/biopython
 
+### See also
+* [Phylogenetic Tree Service](https://bv-brc.org/app/PhylogeneticTree)
+* [Phylogenetic Tree Service Quick Reference Guide](../../quick_references/services/phylogenetic_tree_building_service.html)
+
 ## Creating a folder to hold the phylogenetic tree job and related data
 
 Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on creating a folder in the workspace.

@@ -7,8 +7,8 @@ The Phylogenetic Tree (Gene Tree) Building Service enables construction of custo
 The service returns a Newick file which can be rendered in the interactive Archaeopteryx Tree Viewer in the BV-BRC or downloaded and viewed in other software.   
 
 ### See also
-* [Phylogenetic Gene Tree Service](https://bv-brc.org/app/GeneTree)
-* [Phylogenetic Gene Tree Service Quick Reference Guide](../../quick_references/services/genetree.html)
+* [Gene Tree Service](https://bv-brc.org/app/GeneTree)
+* [Gene Tree Service Quick Reference Guide](../../quick_references/services/genetree.html)
 * [Archaeopteryx.js Tree Viewer Quick Reference Guide](../../quick_references/services/archaeopteryx.html)
 
 ## Locating the service

@@ -18,7 +18,7 @@ Browsing BV-BRC by Taxon
    organisms_taxon/genomes 
    organisms_taxon/amr_phenotypes
    organisms_taxon/sequences
-   organisms_taxon/genomic_features
+   organisms_taxon/features
    organisms_taxon/proteins
    organisms_taxon/specialty_genes
    organisms_taxon/protein_families

@@ -15,14 +15,17 @@ Browsing BV-BRC by Taxon
    organisms_taxon/overview
    organisms_taxon/phylogeny
    organisms_taxon/taxonomy
+   organisms_taxon/strains
    organisms_taxon/genomes 
    organisms_taxon/amr_phenotypes
    organisms_taxon/sequences
-   organisms_taxon/genomic_features
+   organisms_taxon/features
    organisms_taxon/proteins
-   organisms_taxon/specialty_genes
-   organisms_taxon/protein_families
    organisms_taxon/protein_structures
+   organisms_taxon/specialty_genes
+   organisms_taxon/domains_and_motifs
+   organisms_taxon/epitopes
+   organisms_taxon/protein_families
    organisms_taxon/pathways
    organisms_taxon/subsystems_tab
    organisms_taxon/experiments

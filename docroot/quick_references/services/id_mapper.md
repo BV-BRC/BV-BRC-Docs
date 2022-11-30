@@ -1,4 +1,4 @@
-# ID Mapper
+# ID Mapper Tool
 
 ## Overview
 The ID Mapper tool maps BV-BRC identifiers to those from other prominent external databases such as GenBank, RefSeq, EMBL, UniProt, KEGG, etc. Alternatively, it can map a list of external database identifiers to the corresponding BV-BRC features. 

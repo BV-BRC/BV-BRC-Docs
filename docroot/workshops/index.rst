@@ -14,6 +14,9 @@ Workshop Schedule
 +-----------------------------+------------------+------------------+
 | Institute/Conference        | Location         | Dates            |
 +=============================+==================+==================+
+| Argonne National Laboratory | Lemont,          | Dec 14 - 26,     |
+|                             | IL               | 2022             |
++-----------------------------+------------------+------------------+
 | University of Virginia      | Charlottesville, | Aug 30 - Sep 01, |
 | Biocomplexity Institute     | VA               | 2022             |
 +-----------------------------+------------------+------------------+

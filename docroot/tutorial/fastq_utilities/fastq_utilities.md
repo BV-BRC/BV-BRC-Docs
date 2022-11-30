@@ -1,4 +1,4 @@
-# FastQ Utilities Service
+# Fastq Utilities Service
 
 ## Determining/Improving Read Quality
 

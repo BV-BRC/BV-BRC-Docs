@@ -1,3 +1,3 @@
-# Genome Alignment
+# Genome Alignment Service
 
 ***Tutorial Coming Soon***

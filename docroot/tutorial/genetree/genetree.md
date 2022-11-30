@@ -1,4 +1,4 @@
-# Building Phylogenetic Trees (Gene Trees) Tutorial
+# Gene Tree Service
 
 ## Overview
 The Phylogenetic Tree (Gene Tree) Building Service enables construction of custom phylogenetic trees built from user-selected genomes, genes or proteins. Trees can be built based on either nucleotide or protein input sequences. The "FastTree" option computes large minimum evolution trees with profiles instead of a distance matrix. [1,2]. We also offer two maximum likelihood tree building algorithms: PhyML [3] and RaxML [4]. User-defined settings are required for either. PhyML and RaxML infer a more evolutionarily-accurate phylogenetic topology by applying a substitution model to the nucleotide sequences. This algorithm is best applied to datasets containing: 
@@ -7,8 +7,8 @@ The Phylogenetic Tree (Gene Tree) Building Service enables construction of custo
 The service returns a Newick file which can be rendered in the interactive Archaeopteryx Tree Viewer in the BV-BRC or downloaded and viewed in other software.   
 
 ### See also
-* [Phylogenetic Gene Tree Service](https://bv-brc.org/app/GeneTree)
-* [Phylogenetic Gene Tree Service Quick Reference Guide](../../quick_references/services/genetree.html)
+* [Gene Tree Service](https://bv-brc.org/app/GeneTree)
+* [Gene Tree Service Quick Reference Guide](../../quick_references/services/genetree.html)
 * [Archaeopteryx.js Tree Viewer Quick Reference Guide](../../quick_references/services/archaeopteryx.html)
 
 ## Locating the service

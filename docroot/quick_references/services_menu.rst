@@ -75,4 +75,5 @@ Data Visualizations
 .. toctree::
    :maxdepth: 1
 
+   organisms_genome/genome_browser.md
    services/archaeopteryx.md

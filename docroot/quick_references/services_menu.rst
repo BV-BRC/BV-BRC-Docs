@@ -76,4 +76,7 @@ Data Visualizations
    :maxdepth: 1
 
    organisms_genome/genome_browser.md
+   organisms_genome/circular_genome_viewer.md
+   organisms_gene/compare_region_viewer.md
    services/archaeopteryx.md
+   other/msa_viewer.md

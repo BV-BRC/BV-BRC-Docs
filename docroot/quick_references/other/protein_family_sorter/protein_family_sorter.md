@@ -12,10 +12,10 @@ The PFS can be accessed by clickging the **Families** icon at the top right of t
 
 ![Families Icon](../images/protein_families_icon.png)
 
-Results are presented in tabular and heatmap views, as shown in the figures below:
+Results are presented in tabular and heatmap views, as described below.
 
-**Nucleotide MSA**
-![MSA Viewer - Nucleotide](../images/msa_nucleotide.png)
+**Tabular View**
+![Filter-Tabular View](../images/pfs_filter_tabular_view.png)
 
 **Amino Acid MSA**
 ![MSA Viewer - Amino Acid](../images/msa_amino_acid.png)

@@ -8,17 +8,20 @@ The Protein Family Sorter (PFS) allows users to select a set of genomes of inter
   * [Comparative Systems Service Tutorial](../../tutorial/comparative_systems/comparative_systems.html)
 
 ## Accessing the Protein Family Sorter
-The PFS can be accessed by clickging the **Families** icon at the top right of the results page from a Comparative Systems analysis job.
+The PFS can be accessed by clickging the **Families** icon at the top right of the results page from a Comparative Systems Service analysis job.
 
-![Families Icon](../images/protein_families_icon.png)
+![Families Icon](./images/protein_families_icon.png)
 
 Results are presented in tabular and heatmap views, as described below.
 
 **Tabular View**
-![Filter-Tabular View](../images/pfs_filter_tabular_view.png)
+![Filter-Tabular View](./images/pfs_filter_table.png)
 
-**Amino Acid MSA**
-![MSA Viewer - Amino Acid](../images/msa_amino_acid.png)
+
+
+
+**Heatmap View**
+![Filter-Tabular View](./images/pfs_filter_table.png)
 
 ## Features and Functionality
 

@@ -7,6 +7,7 @@ BV-BRC provides Advanced Searches for each major data type in the database, to e
 * Taxa
 * Genomes
 * Strains
+* Features
 * Proteins
 * Specialty Genes
 * Domains and Motifs

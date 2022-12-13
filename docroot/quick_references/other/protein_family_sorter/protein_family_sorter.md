@@ -45,9 +45,14 @@ For these options, clicking the **Filter** button applies these filter options t
 
 In the Tabular View, the right panel displays a list of the protein families based on the criteria specified in the left-hand filter panel. Fields (columns) in the table include the following:
 
-* 
-
-
+* **ID**: BV-BRC identifier for the protein family
+* **Proteins**: Number of proteins in the protein family   
+* **Genomes**: Number of genomes containing proteins in the protein family  
+* **Description**: Functional description of the proteins in the family  
+* **Min AA Length**: Length (number of amino acids) of shortest protein in the family  
+* **Max AA Length**: Length (number of amino acids) of longest protein in the family
+* **Mean**: Average length of proteins in the family
+* **Std Dev**: Standard deviation of lengths of proteins in the family. 
 
 
 ### Heatmap View

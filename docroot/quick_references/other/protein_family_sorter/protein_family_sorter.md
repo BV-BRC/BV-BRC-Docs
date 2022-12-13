@@ -54,6 +54,22 @@ In the Tabular View, the right panel displays a list of the protein families bas
 * **Mean**: Average length of proteins in the family
 * **Std Dev**: Standard deviation of lengths of proteins in the family. 
 
+### Action buttons
+
+After selecting one or more of the protein families by clicking the checkbox beside the ID column in the table, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include
+
+* **Hide:** Toggles (hides) the right-hand side Details Pane.
+* **Guide:** Opens the Quick Reference Guide for the page.
+* **Services:** Provides links to tools and services in BV-BRC that can accept the selected items as input.
+* **ID Map:** Provides the option to map the selected feature(s) to multiple other idenfiers, such as RefSeq and UniProt.
+* **Pathway:** Displays the Pathway Summary Table containing a list of all the pathways in which the selected features are found.
+* **Download:**  Downloads the selected items (rows).
+* **FASTA:** Provides the FASTA DNA or protein sequence for the selected item(s).
+* **MSA:** Launches the Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
+* **Members:** Displays a list of all of the features in the selected protein family within the current genome or taxonomic level.
+* **Group:** Opens a pop-up window to enable adding the selected genomes or features to an existing or new group in the private workspace.
+
+More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
 
 ### Heatmap View
 ![](./images/)

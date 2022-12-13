@@ -75,11 +75,11 @@ More details are available in the [Action Buttons](../other/action_buttons.html)
 
 ### Heatmap View
 
-The presence and/or absence of protein families can also be seen in a heatmap view. 
+The presence and/or absence of protein families can also be seen in a heatmap view. To see the heatmap, click on the Heatmap icon above the filter: 
 
 ![Heatmap Option](./images/pfs_heatmap_option.png)
 
-To see the heatmap, click on the Heatmap icon above the filter. This will reload the page to show the heatmap.
+This will reload the page to show the heatmap:
 
 ![Protein Family Sorter Heatmap](./images/pfs_heatmap.png)
 
@@ -114,4 +114,4 @@ The following options may be accessed from a pop-up widow by clicking on any ind
 * **Add Proteins to Group:** button will save selected items to new, or existing, groups within the Workspace. 
 * **Cancel:** Closes the pop-up window.
 
-The Comparing Protein Families Across Genomes Tutorial provides additional information and guidance in using the Protein Family Sorter.
+The [Comparative Systems Service Tutorial](../../tutorial/comparative_systems/comparative_systems.html) provides additional information and guidance in using the Protein Family Sorter.

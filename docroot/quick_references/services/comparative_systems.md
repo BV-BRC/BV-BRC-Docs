@@ -43,7 +43,7 @@ The Comparative Systems Service generates several files that are deposited in th
 * **[output_name]_subsystems.tsv** - TSV-format file containing all of the subsystems found across all the genomes in the selection.
 * **[output_name]_subsystems_tables.json.** - JSON-format file containing all of the subsystems found across all the genomes in the selection.
 
-The output from the Comparative Systems Service can be accessed and analyzed from three different BV-BRC tools: the **Protein Family Sorter**, **Pathway Comparison Tool**, and **Subsystems Data**. Each of these can be accessed by clicking the corresponding icon in the upper right corner of the results page. 
+The output from the Comparative Systems Service can be accessed and analyzed from three different BV-BRC tools: the **Pathway Comparison Tool**, **Protein Family Sorter**, and **Subsystems Data**. Each of these can be accessed by clicking the corresponding icon in the upper right corner of the results page. 
 
 ![Comparative Systems Results](../images/comparative_systems_result2.png) 
 
@@ -51,11 +51,18 @@ The output from the Comparative Systems Service can be accessed and analyzed fro
 
 ## Pathway Comparison Tool
 
-The Comparative Pathway tool is also based on the annotations. It allows researchers to identify a set of metabolic pathways based on taxonomy, EC number, pathway ID, pathway name and/or specific annotation type. The data are mapped to and summarized on pathway maps from the Kyoto Encyclopedia of Genes and Genomes, commonly known as KEGG5. This tool also provides a table of unique pathways that match the search criteria (i.e., the genomes or proteins chosen by the researcher, or at any taxonomic level) from which researchers can select specific pathways of interest and view a KEGG Map, or on a heatmap view that summarizes the data, including presence/absence of individual EC numbers within the selected genomes.
+The Comparative Pathway tool allows researchers to identify a set of metabolic pathways based on taxonomy, EC number, pathway ID, pathway name and/or specific annotation type. 
+
+ * [Pathway Comparison Tool Quick Reference Guide](../../tutorial/comparative_systems/comparative_systems.html)
+
+
+
+
+
 
 ## Protein Family Sorter
 
-The Protein Family Sorter allows users to select a set of genomes of interest  and examine distribution of protein families across the genomes, commonly referred to as the â€œpan genome,â€ which in this case refers to the superset of proteins found in all selected genomes. This tool provides various filtering options to quickly locate protein families that are conserved across all the genomes (â€œcore genomeâ€), conserved only in a subset of the selected genomes (â€œaccessory genomeâ€) or that match a specified function. A tabular view shows protein families matching filtering criteria and an interactive heatmap viewer provides a birdâ€™s-eye (â€œpan genomeâ€) view of the distribution of the protein families across multiple genomes, with clustering and anchoring functions to show relative conservation of synteny and identify areas of possible horizontal transfer.
+The Protein Family Sorter allows users to select a set of genomes of interest  and examine distribution of protein families across the genomes, commonly referred to as the "pan genome," which in this case refers to the superset of proteins found in all selected genomes. This tool provides various filtering options to quickly locate protein families that are conserved across all the genomes ("core genome"), conserved only in a subset of the selected genomes ("accessory genome") or that match a specified function. A tabular view shows protein families matching filtering criteria and an interactive heatmap viewer provides a birds-eye (pan genome) view of the distribution of the protein families across multiple genomes, with clustering and anchoring functions to show relative conservation of synteny and identify areas of possible horizontal transfer.
 
 ## Subsystems Data
 

@@ -49,9 +49,15 @@ The output from the Comparative Systems Service can be accessed and analyzed fro
 
 ![Comparative Systems Results](../images/comparative_systems_icons.png) 
 
-The Protein Family Sorter allows users to select a set of genomes of interest  and examine distribution of protein families across the genomes, commonly referred to as the â€œpan genome,â€ which in this case refers to the superset of proteins found in all selected genomes. This tool provides various filtering options to quickly locate protein families that are conserved across all the genomes (â€œcore genomeâ€), conserved only in a subset of the selected genomes (â€œaccessory genomeâ€) or that match a specified function. A tabular view shows protein families matching filtering criteria and an interactive heatmap viewer provides a birdâ€™s-eye (â€œpan genomeâ€) view of the distribution of the protein families across multiple genomes, with clustering and anchoring functions to show relative conservation of synteny and identify areas of possible horizontal transfer.
+## Pathway Comparison Tool
 
 The Comparative Pathway tool is also based on the annotations. It allows researchers to identify a set of metabolic pathways based on taxonomy, EC number, pathway ID, pathway name and/or specific annotation type. The data are mapped to and summarized on pathway maps from the Kyoto Encyclopedia of Genes and Genomes, commonly known as KEGG5. This tool also provides a table of unique pathways that match the search criteria (i.e., the genomes or proteins chosen by the researcher, or at any taxonomic level) from which researchers can select specific pathways of interest and view a KEGG Map, or on a heatmap view that summarizes the data, including presence/absence of individual EC numbers within the selected genomes.
+
+## Protein Family Sorter
+
+The Protein Family Sorter allows users to select a set of genomes of interest  and examine distribution of protein families across the genomes, commonly referred to as the â€œpan genome,â€ which in this case refers to the superset of proteins found in all selected genomes. This tool provides various filtering options to quickly locate protein families that are conserved across all the genomes (â€œcore genomeâ€), conserved only in a subset of the selected genomes (â€œaccessory genomeâ€) or that match a specified function. A tabular view shows protein families matching filtering criteria and an interactive heatmap viewer provides a birdâ€™s-eye (â€œpan genomeâ€) view of the distribution of the protein families across multiple genomes, with clustering and anchoring functions to show relative conservation of synteny and identify areas of possible horizontal transfer.
+
+## Subsystems Data
 
 Subsystems are also included in the Comparative Systems service.  This part of the service includes a distribution pie chart that summarizes the functionality and genes across all genomes selected.  It also includes a table showing the individual subsystems available.  When a subsystem is selected, researchers can see a heatmap showing the genes that are included in it and the presence and absence of those genes across all the genomes in the selection. 
 

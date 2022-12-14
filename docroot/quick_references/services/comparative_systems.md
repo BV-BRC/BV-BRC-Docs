@@ -57,12 +57,16 @@ The Comparative Pathway tool allows researchers to identify a set of metabolic p
 
 
 
+ * [Pathway Comparison Tool Quick Reference Guide](../../tutorial/comparative_systems/comparative_systems.html)
+
 
 
 
 ## Protein Family Sorter
 
 The Protein Family Sorter allows users to select a set of genomes of interest  and examine distribution of protein families across the genomes, commonly referred to as the "pan genome," which in this case refers to the superset of proteins found in all selected genomes. This tool provides various filtering options to quickly locate protein families that are conserved across all the genomes ("core genome"), conserved only in a subset of the selected genomes ("accessory genome") or that match a specified function. A tabular view shows protein families matching filtering criteria and an interactive heatmap viewer provides a birds-eye (pan genome) view of the distribution of the protein families across multiple genomes, with clustering and anchoring functions to show relative conservation of synteny and identify areas of possible horizontal transfer.
+
+ * [Protein Family Sorter Quick Reference Guide](../other/protein_family_sorter/protein_family_sorter.html)
 
 ## Subsystems Data
 

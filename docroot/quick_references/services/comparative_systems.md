@@ -37,11 +37,14 @@ This box displays the list of all of the genomes and/or genome groups selected t
 
 The Comparative Systems Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include the following, where [output_name] is replaced with the Output Name entered on the input form:
 
-* **[output_name]_pathways.tsv** - 
-* **[output_name]_pathways_tables.json** - 
-* **[output_name]_proteinfams_tables.json** - 
-* **[output_name]_subsystems.tsv** - 
-* **[output_name]_subsystems_tables.json.** - 
+* **[output_name]_pathways.tsv** - Tab-separated-value (TSV) format file containing all the pathways and genes found across all the genomes in the selection.
+* **[output_name]_pathways_tables.json** - Javascript Object Notation (JSON) format file of the pathways and genes found across the genomes in the selection. Files of this type are used by the system for structured data handling.
+* **[output_name]_proteinfams_tables.json** - JSON-format file containing all of the protein families found across all the genomes in the selection.
+* **[output_name]_subsystems.tsv** - TSV-format file containing all of the subsystems found across all the genomes in the selection.
+* **[output_name]_subsystems_tables.json.** - JSON-format file containing all of the subsystems found across all the genomes in the selection.
+
+The output from the Comparative Systems Service 
+
 
 
 ## References

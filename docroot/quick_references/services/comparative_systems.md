@@ -53,13 +53,7 @@ The output from the Comparative Systems Service can be accessed and analyzed fro
 
 The Comparative Pathway tool allows researchers to identify a set of metabolic pathways based on taxonomy, EC number, pathway ID, pathway name and/or specific annotation type. 
 
- * [Pathway Comparison Tool Quick Reference Guide](../../tutorial/comparative_systems/comparative_systems.html)
-
-
-
- * [Pathway Comparison Tool Quick Reference Guide](../../tutorial/comparative_systems/comparative_systems.html)
-
-
+ * [Pathway Comparison Tool Quick Reference Guide](../other/pathway_comparison_tool.html)
 
 
 ## Protein Family Sorter
@@ -72,6 +66,7 @@ The Protein Family Sorter allows users to select a set of genomes of interest  a
 
 Subsystems are also included in the Comparative Systems service.  This part of the service includes a distribution pie chart that summarizes the functionality and genes across all genomes selected.  It also includes a table showing the individual subsystems available.  When a subsystem is selected, researchers can see a heatmap showing the genes that are included in it and the presence and absence of those genes across all the genomes in the selection. 
 
+ * [Subystems Data Quick Reference Guide](../other/subsystems_data.html)
 
 ## References
 1. 

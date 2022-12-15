@@ -11,17 +11,17 @@ The Protein Family Sorter (PFS) allows users to select a set of genomes of inter
 ## Accessing the Protein Family Sorter
 The PFS can be accessed by clickging the **Families** icon at the top right of the results page from a [Comparative Systems Service](https://www.bv-brc.org/app/ComparativeSystems) analysis job.
 
-![Families Icon](./images/protein_families_icon.png)
+![Families Icon](../images/protein_family_sorter/protein_families_icon.png)
 
 Results are presented in tabular and heatmap views, as described below.
 
 ### Tabular View
 
-![Filter-Tabular View](./images/pfs_filter_table.png)
+![Filter-Tabular View](../images/protein_family_sorter/pfs_filter_table.png)
 
 **Dynamic Filter Panel**
 
-![Filter Panel](./images/pfs_filter_panel.png)
+![Filter Panel](../images/protein_family_sorter/pfs_filter_panel.png)
 
 The dynamic filter on the left side panel allows inclusion or exclusion of genomes based on their presence or absence in the pan genome protein families. 
 
@@ -41,7 +41,7 @@ For these options, clicking the **Filter** button applies these filter options t
 
 **Protein Family Table**
 
-![Table View](./images/pfs_table.png)
+![Table View](../images/protein_family_sorter/pfs_table.png)
 
 In the Tabular View, the right panel displays a list of the protein families based on the criteria specified in the left-hand filter panel. Fields (columns) in the table include the following:
 
@@ -77,11 +77,11 @@ More details are available in the [Action Buttons](../other/action_buttons.html)
 
 The presence and/or absence of protein families can also be seen in a heatmap view. To see the heatmap, click on the Heatmap icon above the filter. This will reload the page to show the heatmap.
  
-![Heatmap Option](./images/pfs_heatmap_option.png)
+![Heatmap Option](../images/protein_family_sorter/pfs_heatmap_option.png)
 
 The Heatmap is an interactive visualization tool that provides an overview of the distribution of genomes across the set of protein families that comprise them, subject to the applied filter criteria set by the Protein Family Filter Tool to the left of the heatmap. Patterns visible in a Heatmap can allow for many types of analysis such as a providing a bird's-eye view of the conservation (or lack thereof) of particular genes of interest, discerning how many proteins have the same function within a single genome, and identifying proteins with multiple homologs or paralogs across a set of genomes.
 
-![Protein Family Sorter Heatmap](./images/pfs_heatmap.png)
+![Protein Family Sorter Heatmap](../images/protein_family_sorter/pfs_heatmap.png)
 
 **Color Coding**  
 
@@ -112,7 +112,7 @@ In addition to the display options described above, each individual column or ro
 
 The following options may be accessed from a pop-up widow by clicking on any individual colored cell, any Protein Family label, or any Genome label within the Heatmap. The same information can be collected for a whole region of interest within the Heatmap by clicking and dragging to select a group of cells.
 
-![Accessing Heatmap Data](./images/pfs_data_select.png)
+![Accessing Heatmap Data](../images/protein_family_sorter/pfs_data_select.png)
 
 * **Download Heatmap Data:** Shows the count of proteins from each Genome assigned to each Protein Family in either a text or excel file. Note: Clicking this button from a Protein Family label will produce a file with the count for each genome assigned to that Protein Family, while clicking on this button from a Genome label will produce a file with the count for that particular genome in every Protein Family.
 * **Download Proteins:** Downloads the set of features associated with the chosen proteins.  Download available as csv, txt, or Excel file.

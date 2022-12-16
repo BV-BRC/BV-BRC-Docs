@@ -78,23 +78,30 @@ Each cell is colored according to how many genes are annotated to perform the sp
 * **Dark orange:** Three or more genes with the specific functional role
 
 ### Features and Functionality
-* Functional roles needed for an “active” subsystem are listed along the Y (vertical) axis. Note that not all functional roles are always needed for a functional variant of a subsystem. Depending on a given genome one specific functional role or another can be present (non orthologous gene displacement). Also some subsystems are collections of similar functional roles for the purpose of disambiguation of paralogous genes. 
-* The corresponding Genomes are listed along the X (horizontal) axis. The scale of these rows and columns may be controlled by sliding the x and/or y slidebars located at the axis intersection in the upper left corner of the Heatmap. The "Flip Axis" button at the top left of the heatmap will swap the positions (horizontal or vertical) of the Genomes and EC Numbers.
-* Each individual column or row within the Heatmap may be clicked and dragged to any specified position.
-* The following options may be accessed from a pop-up widow by clicking on any individual colored cell, any EC label, or any Genome label within the Heatmap. The same information can be collected for a whole region of interest within the Heatmap by clicking and dragging to select a group of cells.
-   * Download Heatmap Data: Shows the count of representative features from each genome assigned to each EC Number in either a text or excel file. Note: Clicking this button from an EC label will produce a file with the count for each genome assigned to that EC number, while clicking on this button from a Genome label will produce a file with the count for that particular genome in every EC number associated for this selected pathway.
-   * Download Proteins: Downloads the set of features associated with the chosen proteins. Download available as csv, txt, or Excel file.
-   * Show Proteins: Open a feature list table containing the features associated with the chosen proteins. This view contains the same information as any feature list: Genome Name, Genome ID, RefSeq Locus Tab, Gene Symbol, protein family information, Product, length, start/stop, etc. This view also allows access to sequences, enables building of multiple sequence alignments, map IDs, etc.
-   * Add Proteins to Group: button will save selected items to new, or existing, groups within the Workspace.
-   * Cancel: Closes the pop-up window.
+Functional roles needed for an “active” subsystem are listed along the vertical axis. Note that not all functional roles are always needed for a functional variant of a subsystem. Depending on a given genome one specific functional role or another can be present (non orthologous gene displacement). Also some subsystems are collections of similar functional roles for the purpose of disambiguation of paralogous genes.
 
-## Genes Table
-Clicking the Subsystems menu option displays a table of all the genes associated within the taxon or selected subsystem grouped by subsystem, as shown below.  
+The corresponding Genomes are listed along the horizontal axis. The scale of these rows and columns may be controlled by sliding the x and/or y slidebars located at the axis intersection in the upper left corner of the Heatmap. 
 
-![Subsystems Tab - Genes](../images/subsystems_data/subsystems_tab_genes.png)
+Buttons across the top right of the heatmap provide additional functions: 
+* **Flip Axis:** Swap the horizontal and vertical axes of the Genomes and EC Numbers.
+* **Reference Genomes:** Filters the heatmap to show only reference genomes. Can be toggled on and off. 
+* **Sorting:** Allows sorting of the genome alphabetically or taxonomically. 
+* **Cluster:** Clusters genomes based on values in the heatmap data.
+* **Save:** Saves the heatmap as an SVG image, or the underlying heatmap data as tab-separated value (TSV) or Javascript Object Notation (JSON) format. 
 
-The functionality of this table is essentially the same as for the Subsystems Table, except the resolution is down to the gene level.
+Each individual column or row within the Heatmap may be clicked and dragged to any specified position. The following options may be accessed from a pop-up widow by clicking on any individual colored cell, any EC label, or any Genome label within the Heatmap. The same information can be collected for a whole region of interest within the Heatmap by clicking and dragging to select a group of cells.
+
+* Download Heatmap Data: Shows the count of representative features from each genome assigned to each EC Number in either a text or excel file. Note: Clicking this button from an EC label will produce a file with the count for each genome assigned to that EC number, while clicking on this button from a Genome label will produce a file with the count for that particular genome in every EC number associated for this selected pathway.
+
+* Download Proteins: Downloads the set of features associated with the chosen proteins. Download available as csv, txt, or Excel file.
+
+* Show Proteins: Open a feature list table containing the features associated with the chosen proteins. This view contains the same information as any feature list: Genome Name, Genome ID, RefSeq Locus Tab, Gene Symbol, protein family information, Product, length, start/stop, etc. This view also allows access to sequences, enables building of multiple sequence alignments, map IDs, etc.
+
+* Add Proteins to Group: button will save selected items to new, or existing, groups within the Workspace.
+  
+* Cancel: Closes the pop-up window.
 
 ## References
 
+1. Overbeek, R. et al. The subsystems approach to genome annotation and its use in the project to annotate 1000 genomes. Nucleic acids research 33, 5691-5702 (2005).
 

@@ -91,15 +91,15 @@ Buttons across the top right of the heatmap provide additional functions:
 
 Each individual column or row within the Heatmap may be clicked and dragged to any specified position. The following options may be accessed from a pop-up widow by clicking on any individual colored cell, any EC label, or any Genome label within the Heatmap. The same information can be collected for a whole region of interest within the Heatmap by clicking and dragging to select a group of cells.
 
-* Download Heatmap Data: Shows the count of representative features from each genome assigned to each EC Number in either a text or excel file. Note: Clicking this button from an EC label will produce a file with the count for each genome assigned to that EC number, while clicking on this button from a Genome label will produce a file with the count for that particular genome in every EC number associated for this selected pathway.
+* **Download Heatmap Data:** Shows the count of representative features from each genome assigned to each EC Number in either a text or excel file. Note: Clicking this button from an EC label will produce a file with the count for each genome assigned to that EC number, while clicking on this button from a Genome label will produce a file with the count for that particular genome in every EC number associated for this selected pathway.
 
-* Download Proteins: Downloads the set of features associated with the chosen proteins. Download available as csv, txt, or Excel file.
+* **Download Proteins:** Downloads the set of features associated with the chosen proteins. Download available as csv, txt, or Excel file.
 
-* Show Proteins: Open a feature list table containing the features associated with the chosen proteins. This view contains the same information as any feature list: Genome Name, Genome ID, RefSeq Locus Tab, Gene Symbol, protein family information, Product, length, start/stop, etc. This view also allows access to sequences, enables building of multiple sequence alignments, map IDs, etc.
+* **Show Proteins:** Open a feature list table containing the features associated with the chosen proteins. This view contains the same information as any feature list: Genome Name, Genome ID, RefSeq Locus Tab, Gene Symbol, protein family information, Product, length, start/stop, etc. This view also allows access to sequences, enables building of multiple sequence alignments, map IDs, etc.
 
-* Add Proteins to Group: button will save selected items to new, or existing, groups within the Workspace.
+* **Add Proteins to Group:** button will save selected items to new, or existing, groups within the Workspace.
   
-* Cancel: Closes the pop-up window.
+* **Cancel:** Closes the pop-up window.
 
 ## References
 

@@ -27,7 +27,7 @@ Results are presented in tabular and heatmap views, as described below.
 
 ### Pathway Table
 Results will be shown in a Pathway table, shown below.
-![Pathway Table](../images/pathway_list.png)
+![Pathway Table](../images/pathway_comparison_tool/pathway_list.png)
 
 Pathways come from the Kyoto Encyclopedia of Genes and Genomes, commonly known as [KEGG](http://www.genome.jp/kegg/). The data in this table provides summary information regarding the pathways:
 
@@ -73,7 +73,7 @@ After selecting on of the pathways by clicking the checkbox beside the Pathway I
 Selecting a pathway in the table and then clicking the **Map** button in the vertical green Action Bar on the right side of the table opens the Pathway View for that pathway. From this page there are two view options - **KEGG Map** and **Heatmap**.
 
 ### Comparative Pathway KEGG Map
-![Pathway View - KEGG Map](../images/pathway_kegg_map.png)
+![Pathway View - KEGG Map](../images/pathway_comparison_tool/pathway_kegg_map.png)
 
 In the KEGG Map view option, there are two regions, the EC Number table and the KEGG Map itself.
 
@@ -103,7 +103,7 @@ Selecting a row in the the table causes the associated EC number to be highlight
 and are found on the KEGG Map in boxes with rounded corners. Clicking the link that appears when scrolling over one of these boxes will take you to that pathway. Alternatively, you could begin a new Comparative Pathway Tool search using the pathway name as a keyword in the initial search criteria.
 
 ### Comparative Pathway Heatmap
-![Pathway View - Heatmap](../images/pathway_heatmap.png)
+![Pathway View - Heatmap](../images/pathway_comparison_tool/pathway_heatmap.png)
 The Heatmap is an interactive visualization tool, which provides an overview of the distribution of genomes across the set of EC numbers within a selected pathway. Patterns visible in a Heatmap can allow for many types of analysis such as, a bird’s-eye view of the conservation (or lack thereof) of particular genes of interest, discerning how many
 proteins have the same function within a single genome, and identifying proteins with multiple homologs or paralogs across a set of genomes.
 

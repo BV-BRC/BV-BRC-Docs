@@ -13,7 +13,7 @@ The **Comparative Systems** submenu option under the **Services** main menu (Gen
 ![Comparative Systems Menu](../images/bv_services_menu.png)
 
 ## Options
-![Comparative Systems Input Form](../images/comparative_systems_input_form.png)
+![Comparative Systems Input Form](../images/comparative_systems/input_form.png)
 
 ## Select Genome
 The service can accept selected genomes and genome groups. To include any genome (reference, representative, other public, or private genomes), click on the filter icon in the text box in the "Select Genome" box to narrow the selection and deselect the categories that are not of interest. Typing in the text box will display a list of matching genomes. Clicking on the genome name selects it, and clicking on the arrow icon in the top right of the box adds it to the "Selected Genomes" list. Multiple genomes can be added.
@@ -33,7 +33,7 @@ This box displays the list of all of the genomes and/or genome groups selected t
 * **Submit** - Submits the analysis service job. This button is only enabled after all required fields and settings in the form are completed.
 
 ## Output Results
-![Comparative Systems Output Files](../images/comparative_systems_result.png) 
+![Comparative Systems Output Files](../images/comparative_systems/result_page.png) 
 
 The Comparative Systems Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include the following, where [output_name] is replaced with the Output Name entered on the input form:
 
@@ -45,9 +45,9 @@ The Comparative Systems Service generates several files that are deposited in th
 
 The output from the Comparative Systems Service can be accessed and analyzed from three different BV-BRC tools: the **Pathway Comparison Tool**, **Protein Family Sorter**, and **Subsystems Data**. Each of these can be accessed by clicking the corresponding icon in the upper right corner of the results page. 
 
-![Comparative Systems Results](../images/comparative_systems_result2.png) 
+![Comparative Systems Results](../images/comparative_systems/result_page_icons.png) 
 
-![Comparative Systems Results](../images/comparative_systems_icons.png) 
+![Comparative Systems Results](../images/comparative_systems/icons.png) 
 
 ## Pathway Comparison Tool
 

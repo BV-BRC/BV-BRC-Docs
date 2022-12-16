@@ -14,8 +14,10 @@ The Subsystems Data can be accessed by clickging the **Subsystems** icon at the 
 
 ![Subsystem Icon](../images/subsystems_data/subsystems_icon.png)
 
+Results are presented in pie chart,  and pathway map views, as described below.
+
 ## Subsystems Overview
-![Subsystems Tab - Overview](../images/subsystems_tab_overview.png)
+![Subsystems Tab - Overview](../images/subsystems_data/subsystems_overview.png)
 
 On the left side, a pie chart displays the subsystem superclasses asserted to taxon group (or genome group if in Genome Group View, or single genome if in Genome View). Clicking on one of the "slices" of the pie displays a table of the associated subsystems in that superclass. The Subsystems Table is described below. 
 
@@ -23,7 +25,7 @@ On the right side an interactive hierarchical display of the 11 superclasses of 
 
 ## Subsystems Table
 Clicking the Subsystems menu option displays a table of all the subsystems associated within the taxon or selected subsystem, as shown below.  
-![Subsystems Tab - Subsystems](../images/subsystems_tab_subsystems.png)
+![Subsystems Tab - Subsystems](../images/subsystems_data/subsystems_tab_subsystems.png)
 
 The columns in this table provide additional information about each of the subsystems:
 
@@ -49,7 +51,7 @@ Within this table you may do the following:
 
 As with all tables, the Filters tool is available to narrow the display of the items in the table, show below:
   
-![Subsystems Filter Panel](../images/subsystems_filter_panel.png)
+![Subsystems Filter Panel](../images/subsystems_data/subsystems_filter_panel.png)
 
 Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the genomes *displayed* in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel.  Clicking the Apply button removes the non-matching genomes and *resets the scope* in the Taxonomic View to only the genomes matching the filter criteria. More details are available in the [Filter Tool](../other/filter_tool.html) Quick Reference Guide.
 
@@ -70,7 +72,7 @@ More details are available in the [Action Buttons](../other/action_buttons.html)
 ## Comparative Subsystems Heatmap
 The Heatmap is an interactive visualization tool, which provides an overview of the distribution of genomes across the set of functional roles defined by a subsystem. Patterns visible in a Heatmap can allow for many types of analysis such as, a bird’s-eye view of the conservation (or lack thereof) of particular functional roles of interest, discerning how many proteins have the same function within a single genome, and identifying proteins with multiple homologs or paralogs across a set of genomes. The Heatmap is accessible by selecting a Subsystem or Gene in the corresponding tables (described in this Quick Reference Guide) and then clicking the Map icon in the green action bar.
 
-![Subsystems Heatmap](../images/subsystems_tab_heatmap.png)
+![Subsystems Heatmap](../images/subsystems_data/subsystems_tab_heatmap.png)
 
 ### Color Coding: 
 Each cell is colored according to how many genes are annotated to perform the specific functional role within a specific genome. Note that fragments of a gene can be presented as separate entities.
@@ -93,7 +95,11 @@ Each cell is colored according to how many genes are annotated to perform the sp
 
 ## Genes Table
 Clicking the Subsystems menu option displays a table of all the genes associated within the taxon or selected subsystem grouped by subsystem, as shown below.  
-![Subsystems Tab - Genes](../images/subsystems_tab_genes.png)
+
+![Subsystems Tab - Genes](../images/subsystems_data/subsystems_tab_genes.png)
+
 The functionality of this table is essentially the same as for the Subsystems Table, except the resolution is down to the gene level.
+
+## References
 
 

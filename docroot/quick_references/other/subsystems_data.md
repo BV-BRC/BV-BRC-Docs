@@ -17,11 +17,10 @@ The Subsystems Data can be accessed by clickging the **Subsystems** icon at the 
 Results are presented in pie chart,  and pathway map views, as described below.
 
 ## Subsystems Overview
+
 ![Subsystems Tab - Overview](../images/subsystems_data/subsystems_overview.png)
 
-On the left side, a pie chart displays the subsystem superclasses asserted to taxon group (or genome group if in Genome Group View, or single genome if in Genome View). Clicking on one of the "slices" of the pie displays a table of the associated subsystems in that superclass. The Subsystems Table is described below. 
-
-On the right side an interactive hierarchical display of the 11 superclasses of subsystems (Metabolism, Energy, Protein Processing etc.), with matching colors the corresponding slice in the pie chart. The subsystem superclasses and nested subclasses can be expanded to progressively lower levels by clicking the arrow (>) on the left side of the subsystem name. On the right side of the subsystem name, two numbers are provided in parentheses.  The first is the count of subsystems (green) and the second is the count of senes (yellow) associated with the subsystem name. Clicking on the number displays a table containing all of the associated subsystems or genes, respectively.  These tables are described below.  
+On the left side, a pie chart displays the subsystem superclasses asserted to the selected set of genomes. On the right side an interactive hierarchical display of the 11 superclasses of subsystems (Metabolism, Energy, Protein Processing etc.), with matching colors the corresponding slice in the pie chart. The subsystem superclasses and nested subclasses can be expanded to progressively lower levels by clicking the arrow (>) on the left side of the subsystem name. On the right side of the subsystem name, two numbers are provided in parentheses.  The first is the count of subsystems (green) and the second is the count of genes (yellow) associated with the subsystem name.
 
 ## Subsystems Table
 Clicking the Subsystems menu option displays a table of all the subsystems associated within the taxon or selected subsystem, as shown below.  

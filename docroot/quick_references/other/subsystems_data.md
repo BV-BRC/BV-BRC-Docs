@@ -32,7 +32,6 @@ The columns in this table provide additional information about each of the subsy
 * **Class:** Second-level grouping of subsystems
 * **Subclass:** Third-level grouping of subsystems
 * **Subsystem Name:** Name of the subsystem 
-* **Genome Count:** Total number of genomes that have been asserted to have an active or likely variant of the subsystem from the set of genomes chosen.
 * **Gene Count:** Total of number of unique genes that belong to this subsystem from the set of genomes chosen.
 * **Role Count:** Total of number of unique functional roles asserted for an active variant of the subsystem.
 
@@ -40,11 +39,6 @@ Two additional columns (hidden by default) are available by clicking the (+) at 
 * **Variant (formerly named Active):** A subsystem can be asserted to be active or likely if one or more functional roles are missing.
 * **Subsystem ID:** Unique identifier for the subsystem (usually the same as Subsystem Name by default).	
 
-### Subsystem Table Tools
-Within this table you may do the following:
-
-* **Download** the entire contents of the table in text, CSV, or Excel format by clicking the Download button above the table on the left side.
-* **Rearrange and narrow** the list of genomes in the table via sorting (using column headers), keywords (using the Keyword box), and filtering (using the Filter Tool, described below).
 
 ### Filter Tool
 
@@ -56,15 +50,17 @@ Clicking on the Filters button at the top right of the table opens the Filter Pa
 
 ### Action buttons
 
-After selecting one or more of the genomes by clicking the checkbox beside the Genomes Name in the table, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include
+After selecting one or more of the genomes by clicking the checkbox beside the Genomes Name in the table, a set of options becomes available in the vertical green Action Bar on the right side of the table. These include the following:
 
 * **Hide:** Toggles (hides) the right-hand side Details Pane.
-* **Copy:** Copies the selected items to the clipboard.
-* **FASTA:** Provides the FASTA DNA or protein sequence for the features corresponding to the selected subsystem(s).
+* **Guide:** Opens the Quick Reference Guide for the page.
+* **Copy Rows:** Copies the contents of the selected rows as text to the clipboard. Options include *All Columns (with headers), All Columns (without headers), Selected Columns (with headers),* and *Selected Columns (without headers)*. 
+* **Services:** Provides links to tools and services in BV-BRC that can accept the selected items as input.
+* **FASTA:** Provides the FASTA DNA or protein sequence for the selected item(s).
 * **Download:**  Downloads the selected items (rows).
-* **Features:** Loads the Features Table for the features corresponding to the selected subsystem(s).
-* **Group:** Opens a pop-up window to enable adding the selected subsystems to an existing or new group in the private workspace.
-* **Map:** Launches the Comparative Subsystems Heatmap, described below.
+* **Feature:** Displays the Feature Page for the selected feature. *Available only if a single feature is selected.*
+* **Features:** Displays the Features Table for the selected features. *Available only if multiple features are selected.*
+* **Map:** Opens the Subsystems heatmap, described below.
 
 More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
 

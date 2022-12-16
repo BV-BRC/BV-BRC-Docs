@@ -24,7 +24,7 @@ On the left side, a pie chart displays the subsystem superclasses asserted to th
 
 ## Subsystems Table
 Clicking the Subsystems menu option displays a table of all the subsystems associated within the taxon or selected subsystem, as shown below.  
-![Subsystems Tab - Subsystems](../images/subsystems_data/subsystems_tab_subsystems.png)
+![Subsystems Table](../images/subsystems_data/subsystems_table.png)
 
 The columns in this table provide additional information about each of the subsystems:
 

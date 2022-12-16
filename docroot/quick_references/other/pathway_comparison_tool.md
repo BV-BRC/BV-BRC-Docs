@@ -10,11 +10,11 @@ The Pathway Comparison Tool is based on the RASTtk (1) annotations. It allows re
 ## Accessing the Pathway Comparison Tool
 The Pathway Comparison Tool can be accessed by clickging the **Pathways** icon at the top right of the results page from a [Comparative Systems Service](https://www.bv-brc.org/app/ComparativeSystems) analysis job.
 
-![Pathways Icon](../images/protein_family_sorter/protein_families_icon.png)
+![Pathways Icon](../images/pathway_comparison_tool/pathways_icon.png)
 
 Results are presented in tabular and heatmap views, as described below.
 
-
+# GOT TO HERE
 
 
 

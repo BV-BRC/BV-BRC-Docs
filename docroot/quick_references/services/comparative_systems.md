@@ -6,6 +6,9 @@ The Comparative Systems Service allows users to identify a set of pathways, subs
 ### See also
   * [Comparative Systems Service](https://www.bv-brc.org/app/ComparativeSystems)
   * [Comparative Systems Service Tutorial](../../tutorial/comparative_systems/comparative_systems.html)
+  * [Pathway Comparison Tool Quick Reference Guide](../other/pathway_comparison_tool.html)
+  * [Protein Family Sorter Quick Reference Guide](../other/protein_family_sorter.html)
+  * [Subystems Data Quick Reference Guide](../other/subsystems_data.html) 
 
 ## Using the Comparative Systems Service
 The **Comparative Systems** submenu option under the **Services** main menu (Genomics category) opens the Comparative Systems input form (shown below). *Note: You must be logged into BV-BRC to use this service.*

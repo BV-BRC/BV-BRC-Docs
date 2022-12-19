@@ -22,7 +22,6 @@
 [BV-BRC Usage Metrics Report - November 2022](_static/files/metrics_reports/bv-brc-usage-metrics-report-november-2022.pdf)  
 [BV-BRC Usage Metrics Report - December 2022](_static/files/metrics_reports/bv-brc-usage-metrics-report-december-2022.pdf)  
 
-
 ## Website Statistics
 
 [BV-BRC Website Statistics](https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?config=All_BVBRC_Combined)  

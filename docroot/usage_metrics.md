@@ -19,8 +19,8 @@
 [BV-BRC Usage Metrics Report - April 2022](_static/files/metrics_reports/bv-brc-usage-metrics-report-april-2022.pdf)  
 [BV-BRC Usage Metrics Report - May 2022](_static/files/metrics_reports/bv-brc-usage-metrics-report-may-2022.pdf)  
 
-[BV-BRC Usage Metrics Report - November 2022](_static/files/metrics_reports/bv-brc-usage-metrics-report-december-2022.pdf)  
-[BV-BRC Usage Metrics Report - November 2022](_static/files/metrics_reports/bv-brc-usage-metrics-report-december-2022.pdf)  
+[BV-BRC Usage Metrics Report - November 2022](_static/files/metrics_reports/bv-brc-usage-metrics-report-november-2022.pdf)  
+[BV-BRC Usage Metrics Report - December 2022](_static/files/metrics_reports/bv-brc-usage-metrics-report-december-2022.pdf)  
 
 
 ## Website Statistics

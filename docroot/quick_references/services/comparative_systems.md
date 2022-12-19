@@ -50,29 +50,37 @@ The output from the Comparative Systems Service can be accessed and analyzed fro
 
 ![Comparative Systems Results](../images/comparative_systems/result_page_icons.png) 
 
+<hr>
+
 ## Pathway Comparison Tool
 
 ![Pathways Icon](../images/comparative_systems/pathways_icon.png) 
 
-Clicking the **Pathways** icon opens the The Pathway Comparison Tool, which allows researchers to identify a set of metabolic pathways based on taxonomy, EC number, pathway ID, pathway name and/or specific annotation type. Refer to the [Pathway Comparison Tool Quick Reference Guide](../other/pathway_comparison_tool.html) for details on how to use this tool.
+Clicking the **Pathways** icon opens the The Pathway Comparison Tool, which allows researchers to identify a set of metabolic pathways based on taxonomy, EC number, pathway ID, pathway name and/or specific annotation type. Refer to the **[Pathway Comparison Tool Quick Reference Guide](../other/pathway_comparison_tool.html)** for details on how to use this tool.
 
 ![Pathway Comparison Results Page](../images/comparative_systems/pathways_result.png) 
+
+<hr>
 
 ## Protein Family Sorter
 
 ![Families Icon](../images/comparative_systems/families_icon.png) 
 
-Clicking the **Families** icon opens the the Protein Family Sorter, which allows users to select a set of genomes of interest  and examine distribution of protein families across the genomes. Refer to the [Protein Family Sorter Quick Reference Guide](../other/protein_family_sorter.html) for details on how to use this tool.
+Clicking the **Families** icon opens the the Protein Family Sorter, which allows users to select a set of genomes of interest  and examine distribution of protein families across the genomes. Refer to the **[Protein Family Sorter Quick Reference Guide](../other/protein_family_sorter.html)** for details on how to use this tool.
 
 ![Protein Families Results Page](../images/comparative_systems/families_result.png) 
+
+<hr>
 
 ## Subsystems Data
 
 ![Subsystems Icon](../images/comparative_systems/subsystems_icon.png) 
 
-Clicking the **Subsystems** icon opens the Subsystems Data page which includes a distribution pie chart that summarizes the functionality and genes across all genomes selected and additional information.  Refer to the [Subystems Data Quick Reference Guide](../other/subsystems_data.html) for details on how to use these data.
+Clicking the **Subsystems** icon opens the Subsystems Data page which includes a distribution pie chart that summarizes the functionality and genes across all genomes selected and additional information.  Refer to the **[Subystems Data Quick Reference Guide](../other/subsystems_data.html)** for details on how to use these data.
 
 ![Subsystems Results Page](../images/comparative_systems/subsystems_result.png) 
+
+<hr>
 
 ## References
 1. Overbeek, R. et al. The subsystems approach to genome annotation and its use in the project to annotate 1000 genomes. Nucleic acids research 33, 5691-5702 (2005).

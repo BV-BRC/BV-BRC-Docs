@@ -80,4 +80,6 @@ Data Visualizations
    organisms_gene/compare_region_viewer.md
    services/archaeopteryx.md
    other/msa_viewer.md
-   other/protein_family_sorter/protein_family_sorter.md
+   other/protein_family_sorter.md
+   other/pathway_comparison_tool.md
+   other/subsystems_data.md

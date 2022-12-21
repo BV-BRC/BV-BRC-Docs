@@ -14,7 +14,7 @@ The **Annotation** submenu option under the **Services** main menu (Genomics cat
 
 *Note:* Both RASTtk and VIGOR4 also accommodates the batch submission of genomes and the ability to customize annotation protocols for batch submissions, available via the BV-BRC Command Line Interface (CLI).
 
-![Annotation Input Form](../images/annotation_input_form2.png)
+![Annotation Input Form](../images/genome_annotation_service/annotation_input_form2.png)
 
 ## Parameters
 
@@ -59,7 +59,7 @@ Once the job has completed, selecting the job by clicking on it and clicking the
 The results page will consist of a header describing the job and a list of output files,
 as shown below.
 
-![Annotation Service Results Page](../images/annotation_service_results_page.png "Annotation Service Results Page")
+![Annotation Service Results Page](../images/genome_annotation_service/annotation_service_results_page.png)
 
 The Genome Annotation Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include
 

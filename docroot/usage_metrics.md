@@ -32,5 +32,5 @@
 
 ## Website Statistics
 
-[BV-BRC Website Statistics](https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?config=All_BVBRC_Combined)  
+[BV-BRC Website Statistics](https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?config=all_bvbrc)  
 

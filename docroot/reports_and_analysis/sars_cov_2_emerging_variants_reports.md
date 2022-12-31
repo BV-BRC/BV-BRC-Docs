@@ -10,6 +10,10 @@ The reports includes preliminary/incomplete stats for the current month in order
 
 ## Variant Report Downloads
 
+**12/20/22**
+- Download [PDF](https://www.bv-brc.org/docs/downloads/sars-cov-2-emerging-variants-reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20221220.pdf) file
+- Download [Excel](https://www.bv-brc.org/docs/downloads/sars-cov-2-emerging-variants-reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20221220.xlsx) file
+
 **12/13/22**
 - Download [PDF](https://www.bv-brc.org/docs/downloads/sars-cov-2-emerging-variants-reports/pdf/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20221213.pdf) file
 - Download [Excel](https://www.bv-brc.org/docs/downloads/sars-cov-2-emerging-variants-reports/excel/BV-BRC-SARS-CoV-2-Emerging-Variant-Report-20221213.xlsx) file

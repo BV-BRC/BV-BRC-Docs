@@ -26,7 +26,7 @@ The workshop is free to attend, but participants must arrange and pay for their 
 
 * Wearing face masks is optional on UVA properties including the Biocomplexity Institute.
 
-* We will keep the seating at least 6 feet apart at the workshop venue to maintain safe physical distance.
+* We will provide seating at least 6 feet apart at the workshop venue to maintain safe physical distance.
 
 * Full information can be found in `UVA Policy SEC-045: COVID-19 Health & Safety Requirements <https://uvapolicy.virginia.edu/policy/SEC-045>`_.
 
@@ -49,7 +49,7 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
 
 **AGENDA**
 
-Day 1 - Wednesday, December 14
+Day 1 - Tuesday, April 25
 ::
 
    9:00 am   Argonne information, BV-BRC registration, Overview (www.bv-brc.org)           
@@ -114,7 +114,7 @@ Day 1 - Wednesday, December 14
 
    5:00 pm   Day 1 Adjourn
 
-Day 2 -Thursday, December 15
+Day 2 - Wednesday, April 26
 ::
 
    9:00 am   Review of Day 1
@@ -183,7 +183,7 @@ Day 2 -Thursday, December 15
 
    5:00 pm   Day 2 Adjourn
 
-Day 3 - Friday, December 16
+Day 3 - Thursday, April 27
 ::
 
    9:00 am	   Command Line Interface 
@@ -207,4 +207,3 @@ Day 3 - Friday, December 16
    4:00 pm     Final questions
 
    5:00 pm     Workshop concludes
-

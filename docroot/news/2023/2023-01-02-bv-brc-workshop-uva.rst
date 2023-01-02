@@ -52,7 +52,7 @@ The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently
 Day 1 - Tuesday, April 25
 ::
 
-   9:00 am   **Information, registration, and overview**
+   9:00 am   Information, registration, and overview
               * Welcome
               * BV-BRC registration
               * Overview (www.bv-brc.org)

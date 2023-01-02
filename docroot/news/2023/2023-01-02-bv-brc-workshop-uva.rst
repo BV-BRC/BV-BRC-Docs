@@ -26,8 +26,6 @@ The workshop is free to attend, but participants must arrange and pay for their 
 
 * Wearing face masks is optional on UVA properties including the Biocomplexity Institute.
 
-* We will provide seating at least 6 feet apart at the workshop venue to maintain safe physical distance.
-
 * Full information can be found in `UVA Policy SEC-045: COVID-19 Health & Safety Requirements <https://uvapolicy.virginia.edu/policy/SEC-045>`_.
 
 **LOCATION**

@@ -179,7 +179,7 @@ Day 2 - Wednesday, April 26
 Day 3 - Thursday, April 27
 ::
 
-   9:00 am	 Variation Service 
+   9:00 am   Variation Service 
               * Uploading reads data
               * Description of aligners
               * Description of SNP callers
@@ -187,15 +187,15 @@ Day 3 - Thursday, April 27
               * Downloading and using the data in BV-BRC
               * Interpreting results
 
-  10:00 am	 Command Line Interface 
+  10:00 am   Command Line Interface 
               * Logging in
               * Searching for data
               * Creating groups from data selections
               * Downloading data
 
-  11:00 am	 Break
+  11:00 am   Break
 
-  11:15 am	 Job submission via command line 
+  11:15 am   Job submission via command line 
               * Uploading private data (singular or batch)
               * Submitting assembly jobs (singular or batch)
               * Submitting annotation jobs (singular or batch)

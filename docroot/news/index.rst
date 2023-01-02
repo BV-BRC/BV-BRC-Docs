@@ -9,15 +9,16 @@ News and Announcements
    :description: BV-BRC News RSS feed
    :link: https://www.bv-brc.org/docs/
 
+   2023/2023-01-02-bv-brc-workshop-uva
    2022/20221122-rsv-and-influenza-webinars
    2022/20221007-bv-brc-workshop-at-anl
    2022/20220907-monkeypox-and-orthopoxvirus-symposium
-   2022/20220816-bv-brc-patric-redirect
    
 .. toctree::
    :maxdepth: 3
    :caption: News Articles Archives:
    
+   2023/index
    2022/index
    2021/index
    2020/index

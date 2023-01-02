@@ -1,5 +1,5 @@
-BV-BRC Workshop at Argonne National Laboratory, December 14-16, 2022
-=====================================================================
+BV-BRC Workshop at the University of Virginia, April 25-27, 2023
+================================================================
 
 .. feed-entry::
    :date: 2023-01-02
@@ -10,11 +10,9 @@ BV-BRC Workshop at Argonne National Laboratory, December 14-16, 2022
 
 
 
-The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a **Bioinformatics Workshop on XXXXXXXXXXXXX, at the University of Virginia (UVA)** in Charlottesville, VA. The workshop will be held at the UVA North Fork Discovery Park, approximately 10 miles north of UVA grounds. The workshop will show researchers how to analyze and explore **antimicrobial resistance data** using the BV-BRC website, which is a merger of the two long running bacterial and viral BRC resources, PATRIC and IRD/ViPR, respectively.
+The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a **Bioinformatics Workshop on April 25-27, 2023, at the University of Virginia (UVA)** in Charlottesville, VA. The workshop will be held at the UVA North Fork Discovery Park, approximately 10 miles north of UVA grounds. The workshop will show researchers how to analyze and explore **antimicrobial resistance data** using the BV-BRC website, which is a merger of the two long running bacterial and viral BRC resources, PATRIC and IRD/ViPR, respectively.
 
 The workshop will consist of interactive hands-on training sessions. During the first two days, participants will learn how to search for public datasets of interest and perform genomic, comparative genomic, metagenomic, and transcriptomic analysis using various analysis services and tools at BV-BRC. The third day of the workshop will focus on using command-line interface for programmatic search and retrieval of the data and job submissions, as well as users working with their own data and analysis problems with the help from the BV-BRC team members.
-
-The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a 3-day **Bioinformatics Workshop on August 30 - September 1, 2022, at the University of Virginia (UVA)** in Charlottesville, VA. The workshop will be held at the UVA North Fork Discovery Park, approximately 10 miles north of UVA grounds.  The workshop will show researchers how to use the new BV-BRC website, which is a merger of the two long running bacterial and viral BRC resources, PATRIC and IRD/ViPR, respectively. The workshop will consist of interactive hands-on training sessions. During the first two days, participants will learn how to search for public datasets of interest and perform genomic, comparative genomic, metagenomic, and transcriptomic analysis using various analysis services and tools at BV-BRC. The third day of the workshop will focus on using command-line interface for programmatic search and retrieval of the data and job submissions, as well as users working with their own data and analysis problems with the help from the BV-BRC team members.
 
 **REGISTRATION**
 
@@ -48,29 +46,6 @@ The workshop is free to attend, but participants must arrange and pay for their 
 There is plenty of free parking adjacent to the Biocomplexity Institute.
 
 The `Charlottesville Albemarle Airport <http://www.gocho.com/>`_ is conveniently located 2 miles south of the Biocomplexity Institute. There are several hotels and dining options nearby.
-
-
-
-
-
-**COVID-19:**
-*Please note the COVID-19 restrictions and safety guidance currently in place at the Argonne National Laboratory.*
-
-* All visitors must be fully vaccinated or provide accepted proof of negative COVID-19 test results that are less than 72 hours old.
-
-* Face coverings are required, except to the extent necessary to eat or drink when maintaining appropriate physical distance, or when an individual is isolated in an enclosed space.
-
-* We will keep the desks at least 6 feet apart from each other at the workshop venue to maintain safe physical distance.
-
-* There are outdoor seating areas with gazebos, which can be used during breaks and lunch time. Face coverings may be removed while outside and socially distancing.   
-
-
-**LOCATION**
-
-| Building 240 Conference Center - Room 1416
-| Argonne National Laboratory
-| 9700 Cass Avenue
-| Lemont, IL 60439
 
 **AGENDA**
 

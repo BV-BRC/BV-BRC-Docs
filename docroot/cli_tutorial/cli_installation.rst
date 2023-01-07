@@ -131,7 +131,7 @@ download the installer using a command line tool, and install with
 resolve dependencies (here, we are installing version 1.024)::
 
   curl -O -L https://github.com/BV-BRC/BV-BRC-CLI/releases/download/1.040/bvbrc-cli-1.040.deb
-  sudo dpkg -i patric-cli-1.040.deb
+  sudo dpkg -i bvbrc-cli-1.040.deb
   sudo sudo apt-get -f install
 
 It may be simpler to install using the ``gdebi`` tool as it handles
@@ -142,7 +142,7 @@ by default so you will need to install it first::
 
 Then to install with gdebi::
 
-   sudo gdebi patric-cli-1.040.deb
+   sudo gdebi bvbrc-cli-1.040.deb
 
 When the install has completed, the BV-BRC command line tools will be
 available for you to use. They are installed in the system binary

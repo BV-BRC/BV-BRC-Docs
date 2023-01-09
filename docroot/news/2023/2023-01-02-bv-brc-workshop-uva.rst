@@ -8,7 +8,7 @@ BV-BRC Workshop at the University of Virginia, April 25-27, 2023
   :width: 500
   :alt: BV-BRC Workshop UVA
 
-
+:notice-body:`Dear BV-BRC users, we have reached the limit for the maximum number of in-person participants for this workshop. The registration is now CLOSED. Please subscribe to the BV-BRC mailing list or follow us on social media to learn about upcoming workshops and webinars.`
 
 The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a **Bioinformatics Workshop on April 25-27, 2023, at the University of Virginia (UVA)** in Charlottesville, VA. The workshop will be held at the UVA North Fork Discovery Park, approximately 10 miles north of UVA grounds. The workshop will show researchers how to analyze and explore **antimicrobial resistance data** using the BV-BRC website, which is a merger of the two long running bacterial and viral BRC resources, PATRIC and IRD/ViPR, respectively.
 

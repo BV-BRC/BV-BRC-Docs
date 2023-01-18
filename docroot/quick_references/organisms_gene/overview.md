@@ -1,4 +1,4 @@
-# Feature (Gene) Overview Tab
+# Feature (Gene) Overview
 
 ## Overview
 The Feature Overview Tab provides summary information for the selected genomic feature including identifiers, associated Genome information, Location, Sequence, Functional Properties, Special Properties, External Identifiers, Comments, and relevant PubMed articles.  

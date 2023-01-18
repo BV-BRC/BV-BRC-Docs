@@ -1,4 +1,4 @@
-# Genome Overview Tab
+# Genome Overview
 
 ## Overview
 The Genome Overview Tab provides summary information for the selected genome including  genome sequence information, Genome Metadata, Genomic Features, Protein Features, Specialty Genes, and related PubMed Articles.  

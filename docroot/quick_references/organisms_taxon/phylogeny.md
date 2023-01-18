@@ -1,4 +1,4 @@
-# Phylogeny Tab
+# Phylogeny
 
 ## Overview
 The Phylogeny Tab and Phylogenetic Tree Viewer allow you to visualize and interact with genome trees. This tab is currently only displayed for bacterial genomes.

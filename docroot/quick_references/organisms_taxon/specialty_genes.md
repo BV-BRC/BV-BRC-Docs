@@ -1,4 +1,4 @@
-# Speciality Genes Tab
+# Speciality Genes
 
 ## Overview
 The Specialty Genes Tab provides a table of all the annotated "specialty genes" (virulence factors, antibiotic resistance genes, drug targets, human homologs, transporters, and essential genes) corresponding to the set of genomes in the selected Taxon View level or in the user-defined Genome Group.  From this page, features can be sorted, filtered, collected into groups, and downloaded. 

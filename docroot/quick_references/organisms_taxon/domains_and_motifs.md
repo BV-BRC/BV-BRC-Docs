@@ -1,3 +1,3 @@
-# Domains and Motifs Tab
+# Domains and Motifs
 
 ***Quick Reference Guide coming soon***

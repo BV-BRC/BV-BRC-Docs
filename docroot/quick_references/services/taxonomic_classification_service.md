@@ -44,7 +44,18 @@ Read files placed here will contribute to a single assembly.
 ### Database
 Reference taxonomic database used by the algorithm.
 
-* [All genomes](https://ccb.jhu.edu/software/kraken2/index.shtml?t=manual#standard-kraken-2-database) - Standard Kraken 2 database containing distinct 31-mers, based on completed microbial genomes from NCBI.
+* [All genomes](https://github.com/DerrickWood/kraken2/wiki/Manual#custom-databases) - The default Kraken 2 database at BV-BRC includes the following:
+
+  - archaea: RefSeq complete archaeal genomes/proteins
+  - bacteria: RefSeq complete bacterial genomes/proteins
+  - plasmid: RefSeq plasmid nucleotide/protein sequences
+  - viral: RefSeq complete viral genomes/proteins
+  - human: GRCh38 human genome/proteins
+  - fungi: RefSeq complete fungal genomes/proteins
+  - plant: RefSeq complete plant genomes/proteins
+  - protozoa: RefSeq complete protozoan genomes/proteins
+  - UniVec: NCBI-supplied database of vector, adapter, linker, and primer sequences that may be contaminating sequencing projects and/or assemblies
+
 * [RDP (SSU rRNA)](https://academic.oup.com/nar/article/25/1/109/1083216) - The Ribosomal Database Project (RDP), a naïve Bayesian-based classification for bacterial 16S rRNA sequences.
 * [SILVA (SSU rRNA)](https://doi.org/10.1093/nar/gkt1209) - Comprehensive database of aligned ribosomal RNA (rRNA) gene sequences from the Bacteria, Archaea and Eukaryota domains and supplementary online services. 
 

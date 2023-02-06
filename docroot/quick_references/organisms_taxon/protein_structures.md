@@ -1,4 +1,4 @@
-# Protein Structure Data
+# Protein Structures
 
 ## Overview
 Protein structure data allows users to search for 3D protein structure files obtained from the [Protein Data Bank (PDB)](https://www.rcsb.org/). Protein(s) are associated with each PDB file UniProt database. One protein structure can be assigned to multiple GenBank protein records.

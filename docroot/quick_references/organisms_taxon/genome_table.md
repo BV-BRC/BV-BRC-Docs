@@ -1,4 +1,4 @@
-# Genomes Tab
+# Genomes Table
 
 ## Overview
 The Genomes Tab provides a list of all the genomes and associated metadata in corresponding to the selected Taxon View level or for the user-defined Genome Group. From this page, genomes can be sorted, filtered, collected into groups, and downloaded. 

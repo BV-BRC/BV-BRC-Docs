@@ -1,4 +1,4 @@
-# AMR Phenotypes Tab
+# AMR Phenotypes
 
 ## Overview
 The AMR Phenotypes Tab provides a tabular view of all of the bacterial AMR phenotype data for the selected taxon level, including the resistance phenotype (Resistant, Susceptible, Intermediate) and/or the minimum inhibitory concentration (MIC) value as measured by antibiogram (AMR panel) assay.

@@ -1,4 +1,4 @@
-# Taxon Overview Tab
+# Taxonomic Overview
 
 ## Overview
 For the chosen taxon level, the Taxon Overview Tab provides summary information for corresponding data in BV-BRC, including Taxon Info, Reference/Representative Genomes, Genomes by Antimicrobial Resistance, Genomes by Metada, and relevant Recent PubMed Articles.  

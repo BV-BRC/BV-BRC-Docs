@@ -1,4 +1,4 @@
-# Transcriptomics Tab, Gene-Level
+# Transcriptomics, Gene-Level
 
 ## Overview
 The Transcriptomics Tab in the Feature View provides expression data for the selected gene from all of the transcriptomics datasets in which the gene appears, including levels of expression based on Log ratio or Z score and the strains, gene modification, or experimental conditions. 

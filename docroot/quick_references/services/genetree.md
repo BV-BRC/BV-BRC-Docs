@@ -33,12 +33,14 @@ The GeneTree Service allows selection of multiple genomes, genes, or proteins (f
 * **(And/or select) genome group:** Allow selection of a genome group from the workspace. 
 * **Selected file/feature table:** Lists all input sequences that will be included in the tree.
 
-## Alignment Parameters
+## Parameters
+
+### Alignment Parameters
 
 * **Trim ends of alignment threshold:** Sets threshold for trimming ends of the alignment.
 * **Remove gappy sequences threshold:** Sets threshold for removing gappy positions from alignment extremities. 
 
-## Tree Parameters
+### Tree Parameters
 
 * **(Tree algorithm):** Selects from among the following tree-building algorithms: RaxML, PhyML, or FastTree.
 * **Model:** Allows selection of the appropriate evolutionary model. Options will change based on whether user is aligning nucleotide or protein sequences: 

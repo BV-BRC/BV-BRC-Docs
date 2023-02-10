@@ -3,16 +3,16 @@ System Architecture
 
 Overview
 --------
-From a user's perspective, the BV-BRC systems are primarily interfaced through the BV-BRC website using a standard modern web browser. The BV-BRC website server software is designed to be hosted by industry standard application containers and is deployable in a number of different configurations. The server software, as well as the client interface (browser application) rely upon a number of additional systems in order to successfully build, deploy, and provide querying and analysis services to these applications.
+From a user’s perspective, the BV-BRC systems are primarily interfaced through the BV-BRC website using a standard modern web browser. The BV-BRC website server software is designed to be hosted by industry standard application containers and is deployable in several different configurations. The server software, as well as the client interface (browser application), rely upon several additional systems to successfully build, deploy, and provide querying and analysis services to these applications.
 
-Direct support for the website application is provided by a number of different databases and services. These services typically support the interactive capabilities of the website and its users. For example, Solr database instances provide all of the scientific querying capabilities against the BV-BRC data. The BV-BRC website and application aggregates the data and capabilities of BV-BRC services to present them interactively to the user.
+Direct support for the website application is provided by several different databases and services. These services typically support the interactive capabilities of the website and its users. For example, Solr database instances provide all the scientific querying capabilities against the BV-BRC data. The BV-BRC website and application aggregates the data and capabilities of BV-BRC services to present them interactively to the user.
 
-Several other key components are used—and are critical—to the BV-BRC project, but don't directly support the BV-BRC website itself in production. This includes data analysis services, software, and databases used to collect, analyze and annotate BV-BRC data prior to release and deployment to the production BV-BRC website. Additionally, software and/or scripts to manage the data, services, and database loading and extraction are required.
+Several other key components are used—and are critical—to the BV-BRC project, but don't directly support the BV-BRC website itself in production. Examples include data analysis services, software, and databases used to collect, analyze and annotate BV-BRC data prior to release and deployment to the production BV-BRC website. Additionally, software and scripts to manage the data, services, and database loading & extraction are required.
 
 Software Architecture
 ----------------------
 
-The Software Architecture section of this document describes the general use and interaction of the components that make up the BV-BRC website and its direct and indirect components. Some components of the architecture are third-party components and their architectures and deployment will not be detailed here except where relevant to the understanding of the overall architecture described by the BV-BRC Systems Documentation.
+The Software Architecture section of this document describes the general use and interaction of the components that make up the BV-BRC website and its direct and indirect components. Some of these components within BV-BRC's architecture are from third-party sources, so their architecture and deployment process will not be detailed here except where relevant to the understanding of the overall architecture described by the BV-BRC Systems Documentation.
 
 BV-BRC Website
 ---------------
@@ -20,38 +20,38 @@ BV-BRC Website
 The Browser Application
 ########################
 
-The user's web browser is the host of the entire BV-BRC website, which is more accurately described as a Web Application. Logically, the set of pages that the BV-BRC Web Server's provide make up the entirety of the BV-BRC Web Application. A user's state is maintained across all of these pages at any one time and from the user's perspective they are navigating through the interactive space of BV-BRC. Each page can be considered to be hosting one or more individual applications that communicate with the web server to provide an interactive experience
+The user's web browser is the host of the entire BV-BRC website and is more accurately described as a Web Application. Logically, the set of pages that the BV-BRC Web Server provides make up the entirety of the BV-BRC Web Application. A user's state is maintained across all pages at any one time, and from the user's perspective, they are navigating through the interactive space of BV-BRC. It could then be considered that each page is the host for one or more individual applications that communicate with the web server to provide an interactive experience.
 
-The browser application is written with ECMAScript (Javascript, JS) and DojoJS. It communicates with the server via HTTP Requests (AJAX). The browser application is part of the BV-BRC Server application and intermingled with other content on pages generated by the BV-BRC Server. However, browser application run in the user's web browser, on a different network endpoint from the server, may be restarted (when a page reloads) at any time, may be composed of "mashup" data from external sites, and so they require independent consideration from the server side of the BV-BRC website.
+The browser application is written with ECMAScript (Javascript, JS) and utilizes the Dojo Toolkit framework. It communicates with the server via HTTP Requests (AJAX). The browser application is part of the BV-BRC Server application and intermingled with other content on pages generated by the BV-BRC Server. However, browser application run in the user's web browser, on a different network endpoint from the server, may be restarted (when a page reloads) at any time, may be composed of "mashup" data from external sites, and so they require independent consideration from the server side of the BV-BRC website.
 
-The browser application provides full support to common modern web browsers, with support for specific UI functionalities degrading when not supported by the underlying browser. Instead of requiring all users to conform to a specific set of browsers to use the website at all, we prefer to provide the best support possible for modern browsers, and support for older browsers via fallback mechanisms or degraded functionality. Browsers known to currently work are Chrome, Firefox, Safari, and IE7+. Some applications (pages) may require Flash for fully functionality.
+The browser application is fully supported by modern, up-to-date web browsers. Support for specific UI functionalities may degrade if the underlying browser does not support it. Instead of requiring all users to conform to a specific set of browsers, we prefer to provide the best support possible for modern browsers, and aim to support older versions via fallback mechanisms or degraded functionality in certain areas of the application. Browsers that are currently known to work are Chrome, Firefox, Safari, and IE7+. Some applications (pages) may require Adobe Flash for full functionality.
 
-Source Code: https://github.com/BV-BRC/bvbrc_website
+Source Code: https://github.com/BV-BRC/BV-BRC-Web
 
 Web Application Server
 #######################
 
-This component serves the web content to client browsers. It is currently comprised an ExpressJS application running in a NodeJS webserver. It serves HTML, CSS, Javascript, and images to client browsers. The bulk of the user interface is implemented in Browser Application, which itself is built upon the Dojo javascript library.
+This component serves the web content to client browsers. It is currently comprised of an Express.js application running in a Node.js webserver. It serves HTML, CSS, JavaScript, and images to client browsers. The bulk of the user interface is implemented in the Browser Application, which itself is built upon the Dojo Toolkit framework, as well as many other libraries used to implement features and functionality. The files are stored in the BV-BRC GitHub repository linked below.
 
-Source Code: https://github.com/BV-BRC/bvbrc_website
+Source Code: https://github.com/BV-BRC/BV-BRC-Web
 
 Static Content
 ###############
 
-Static content refers to electronic documents contains website Use Case / Tutorial, command line interface Use Case / Tutorial, Quick Reference Guides and BV-BRC news. The contents of these documents are served independently of the main web server software and are publicly accessible. This site provides an RSS feed, which the main website application consumes and displays on its front page. Files are converted to html using the Python-based `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ documentation generator. The files are stored in the BV-BRC GitHub repository.
+Static content refers to electronic documents that contain the web application's main Use Case / Tutorial, command line interface Use Case / Tutorial, Quick Reference Guides, and BV-BRC news. The contents of these documents are served independently of the main web server software and are publicly accessible. This site provides an RSS feed, which the main website application consumes and displays on its front page. Files are converted to HTML using the Python-based `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ documentation generator. The files are stored in the BV-BRC GitHub repository linked below.
 
-Source Code: https://github.com/BV-BRC/bvbrc_docs
+Source Code: https://github.com/BV-BRC/BV-BRC-Docs
 
 Workspace
 ##########
 
-The Workspace is an online document-based data store where data is organized into user-owned directories, analogous to DropBox or GoogleDrive. Any top-level directory may be shared with multiple users to enable collaborative work on uploaded data (also analogous to DropBox or GoogleDrive).
+The Workspace is an online document-based data store where data is organized into user-owned directories, analogous to Dropbox or Google Drive. Any top-level directory may be shared with multiple users to enable collaborative work on uploaded data (another feature similar to Dropbox or Google Drive).
 
 Source Code: https://github.com/PATRIC3/Workspace
 
 **Workspace API:**
 
-The Workspace is connected to the rest of the BV-BRC tools and website via a programmatic JSON RPC API. 
+The Workspace is connected to the rest of the BV-BRC tools and website via a programmatic JSON-RPC API. 
 
 The API has 11 commands:
 
@@ -67,7 +67,7 @@ The API has 11 commands:
 - update_metadata: allows for the manipulation of metadata associated with an object or directory in the Workspace
 - update_auto_meta: an internal function enabling the update of automated-metadata for an object
 
-The associated resource is: https://p3.theseed.org/services/Workspace
+The associated resource is located here: https://p3.theseed.org/services/Workspace
 
 **Data formats:**
 
@@ -92,7 +92,7 @@ The data API provides access to querying, retrieval, and indexing of public BV-B
 
 Source Code: https://github.com/PATRIC3/p3_api
 
-Data API:
+**Data API:**
 
 The data API has two functions for each data type:
 
@@ -130,8 +130,7 @@ Source Code: https://github.com/PATRIC3/p3_user
 Web/Proxy Server
 #################
 
-All BV-BRC websites and web applications run behind a web server which is used to host static files, proxy requests to underlying application servers, and in some cases load balancing among web server instances. This component is not strictly required for deployment of the BV-BRC infrastructure in basic form, but greatly simplifies deployment and is the current method used for load balancing.
-`NGINX <http://nginx.org/>`_ is deployed on hosts with websites on the standard HTTP and HTTPS ports (80,443), while the underlying applications are deployed on unused ports. nginx is then configured to proxy requests to these localhosts using its Named Virtual Hosting system.
+All BV-BRC websites and web applications run behind a web server that hosts static files, proxy requests to underlying application servers, and in some cases, load balancing amongst the web server instances. This component is not a strict requirement for deployment of the BV-BRC infrastructure in its basic form, but it simplifies the deployment process and is the current method used for load balancing. `NGINX <http://nginx.org/>`_ is deployed on hosts that contain the websites on the standard HTTP and HTTPS ports (80,443), while the underlying applications deploy on unused ports. NGINX is configured to proxy requests to these localhosts using its Named Virtual Hosting system.
 
 
 App Service
@@ -141,9 +140,9 @@ The BV-BRC resource supports a number of computational services (e.g., genome as
 
 Source Code: https://github.com/PATRIC3/app_service
 
-App Service API:
+**App Service API:**
 
-The App Service is connected to the rest of the BV-BRC tools and website via a programmatic JSON RPC API. 
+The App Service is connected to the rest of the BV-BRC tools and website via a programmatic JSON-RPC API. 
 The API has 6 commands:
 
 - enumerate_apps
@@ -200,8 +199,4 @@ The hardware hosted at Argonne National Laboratory on behalf of the University o
 
   - 2 systems, each 4 CPUs, 64GB RAM, 10Gb network
 
-Storage is provided to the above systems through Fibre Channel SAN storage. The SOLR portion of BV-BRC and the FTP site are currently consuming approximately 10 TB of storage.
-
-
-
-
+Storage is provided to the above systems through Fibre Channel SAN storage. The Solr portion of BV-BRC and the FTP site are currently consuming approximately 10 TB of storage.

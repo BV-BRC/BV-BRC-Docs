@@ -7,7 +7,7 @@ The BV-BRC Phylogenetic Tree Building Service enables construction of custom phy
 
 The service returns a Newick file which can be rendered in the interactive Archaeopteryx Tree Viewer in the BV-BRC or downloaded and viewed in other software.   
 
-### See also
+## See also
 * [Gene Tree Service](https://bv-brc.org/app/GeneTree)
 * [Gene Tree Tutorial](../../tutorial/genetree/genetree.html)
 
@@ -16,11 +16,16 @@ The **Gene Tree** submenu option under the **"SERVICES"** main menu (Viral Servi
 
 ![BV-BRC Services Menu](../images/bv_services_menu.png) 
 
-## Input Options and Parameters
+## Options
 
 Several options exist for tree building. Below is a description of input, output, and parameter options. 
 
-![Figure 1](../images/genetree_Picture1.png "Figure 1")
+![GeneTree Service Input Form](../images/genetree_input_form.png)
+
+## Comparison Genomes Selection
+
+
+
 
 1. **DNA/PROTEIN:** Allows the user to select whether their phylogenetic tree is nucleotide or protein based. 
 2. **DNA/protein aligned fasta:** allows the users to upload their aligned sequences input file or select it from their workbench.

@@ -4,7 +4,7 @@ The top-level Organisms Menu provides direct access to genus-level data for bact
 
 .. image:: ./images/bv_organisms_menu.png
 
-Clicking on one of the menu items will display the corresponding taxon-level Overview page. From there, data are accessible at the taxon, genome/strain, and feature (gene, protein) levels, as described in the Quick Reference Guides below. 
+Clicking on one of the menu items will display the corresponding taxon-level Overview page. From there, data are accessible via tabs at the taxon, genome/strain, and feature (gene, protein) levels, as described in the Quick Reference Guides below. 
 
 Taxon-Level Data
 ----------------

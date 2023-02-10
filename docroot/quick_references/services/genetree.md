@@ -7,7 +7,7 @@ The BV-BRC Phylogenetic Tree Building Service enables construction of custom phy
 
 The service returns a Newick file which can be rendered in the interactive Archaeopteryx Tree Viewer in the BV-BRC or downloaded and viewed in other software.   
 
-### See also
+## See also
 * [Gene Tree Service](https://bv-brc.org/app/GeneTree)
 * [Gene Tree Tutorial](../../tutorial/genetree/genetree.html)
 
@@ -16,32 +16,46 @@ The **Gene Tree** submenu option under the **"SERVICES"** main menu (Viral Servi
 
 ![BV-BRC Services Menu](../images/bv_services_menu.png) 
 
-## Input Options and Parameters
+## Options
 
 Several options exist for tree building. Below is a description of input, output, and parameter options. 
 
-![Figure 1](../images/genetree_Picture1.png "Figure 1")
+![GeneTree Service Input Form](../images/genetree_input_form.png)
 
-1. **DNA/PROTEIN:** Allows the user to select whether their phylogenetic tree is nucleotide or protein based. 
-2. **DNA/protein aligned fasta:** allows the users to upload their aligned sequences input file or select it from their workbench.
-3. **Feature group or unaligned feature fasta:** allows the users to upload their pre-selected feature group, or unaligned feature table input file or select it from their workbench.
-4. **Selected file/feature table:** this box lists all input files that will be analyzed. 
-5. **Trim ends of alignment threshold:** allows the user to trim ends of the alignment.
-6. **Remove gappy sequences threshold:** allows the user to remove gappy positions from alignment extremities. 
-7. **Tree algorithm:** Allows the user to choose from one of the following tree-building algorithms: RaxML, PhyML, or FastTree.
-8. **Model:** Allows the user to choose the appropriate evolutionary model. Options will change based on whether user is aligning nucleotide or protein sequences (see options below). 
-Nucleotide: HKY85, JC69, K80, F81, F84, TN93, GTR
-Protein: LG, WAG, JTT, Blosum62, Dayhoff, HIVw, HIVb
-9. **Output folder:** The workspace folder where results will be placed.
-10: **Output name:** A user-specified label. This name will appear in the workspace when the annotation job is complete.
+## Comparison Genomes Selection
+
+The GeneTree Service allows selection of multiple genomes, genes, or proteins (features) for inclusion in the tree. After selection of an item in any of the boxes, clicking the "+" button adds the item to the "selected file/feature table" box below.
+
+* **DNA/PROTEIN:** Selects either nucleotide or protein-based tree construction.
+* **DNA/protein aligned fasta:** Allows upload of aligned sequence fasta file from the user's computer or workspace.
+* **Unaligned gene fasta:** Allows upload of unaligned sequence fasta file from the user's computer or workspace.
+* **Feature group:** Allow selection of a feature group from the workspace. 
+* **(And/or select) genome group:** Allow selection of a genome group from the workspace. 
+* **Selected file/feature table:** Lists all input sequences that will be included in the tree.
+
+## Parameters
+
+### Alignment Parameters
+
+* **Trim ends of alignment threshold:** Sets threshold for trimming ends of the alignment.
+* **Remove gappy sequences threshold:** Sets threshold for removing gappy positions from alignment extremities. 
+
+### Tree Parameters
+
+* **(Tree algorithm):** Selects from among the following tree-building algorithms: RaxML, PhyML, or FastTree.
+* **Model:** Allows selection of the appropriate evolutionary model. Options will change based on whether user is aligning nucleotide or protein sequences: 
+  * Nucleotide: HKY85, JC69, K80, F81, F84, TN93, GTR
+  * Protein: LG, WAG, JTT, Blosum62, Dayhoff, HIVw, HIVb
+* **Output folder:** The workspace folder where results will be placed.
+* **Output name:** User-specified label for the results of the tree-buidling analysis job. This name will appear in the workspace when the job is complete.
 
 ## Buttons
 
 ![Figure 2](../images/genetree_Picture2.png "Figure 2")
 
-**Reset:** Resets the input form to default values
+* **Reset:** Resets the input form to default values
 
-**Submit:** Launches the job. A message will appear below the box to indicate that the job is now in the queue. 
+* **Submit:** Launches the job. A message will appear below the box to indicate that the job is now in the queue. 
 
 ![Figure 3](../images/genetree_Picture3.png "Figure 3")
 

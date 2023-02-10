@@ -1,10 +1,10 @@
-# Interactions Tab, Taxon/Genome-Level
+# Interactions, Taxon/Genome-Level
 
 ## Overview
 The Interactions Tab provides experimentally and computationally derived host-pathogen protein-protein interaction data and visualizations from more than 15 public repositories, including [STRINGDB](https://string-db.org/), with a total of 55 million protein-protein interactions. Interactions are available at both the genome and gene levels, and are presented in tabular and graph format.
 
 ### See also
-  * [Interactions Tab, Gene-Level](../organisms_gene/interactions.html)
+  * [Interactions, Gene-Level](../organisms_gene/interactions.html)
 
 ## Accessing the Genome-Level Interactions Table
 Clicking the Interactions Tab in a Genome View displays the Interactions Table, listing of all of the interactions associated with the genes in that genome.

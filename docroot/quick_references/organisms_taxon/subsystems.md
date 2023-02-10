@@ -1,4 +1,4 @@
-# Subsystems
+# Subsystems Protocol
 
 Bacterial subsystems are co-curated sets of biologically related functional roles across a reference set of genomes. They are units of expert knowledge about a single biological process like a whole metabolic pathway (Glycolysis), or a piece of a pathway (L-2-amino-adipate to lysine module), the subunits of a multi-unit enzyme (Urease) or the pieces of a structural unit like the ribosome. While building a subsystem the curator becomes an expert in this process, studying the literature and encoding the variants of such processes that occur in the reference genomes. 
 
@@ -10,6 +10,6 @@ Note that not all functional roles are always needed for a functional variant of
 The functional roles curated via subsystems are used in the construction of "Local" and "Global" Protein Families. We will periodically add new subsystems, compute new Local and Global families and project them to all bacterial genomes. Those updates will also be reflected in the bacterial annotation services to support proper functionality of associated comparative genomics tools.
 
 ## See also
-  * [Subsystems Tab](../organisms_taxon/subsystems_tab.html)
+  * [Subsystems Data](../organisms_taxon/subsystems_tab.html)
   * [Protein Families](../organisms_taxon/protein_families.html)
 

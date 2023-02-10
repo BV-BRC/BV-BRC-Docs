@@ -1,4 +1,4 @@
-# Pathways Tab
+# Pathways
 
 ## Overview
 The Pathways Tab provides access to the Comparative Pathway Tool, which facilitates identification of sets of pathways based on taxonomy, EC number, pathway ID, pathway name and/or specific annotation type. The Comparative Pathway Tool displays a table of unique pathways that match the search criteria. From there, specific pathways of interest can be selected and viewed in a heatmap or KEGG map.

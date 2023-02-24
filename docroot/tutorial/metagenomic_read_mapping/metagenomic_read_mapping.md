@@ -30,8 +30,15 @@ Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assemb
 
 ## Parameters
 
-1.	Click on the down arrow at the end of the text box under Predefined Gene Set Name to see the possible selections. The Metagenomic Mapping Read service has two gene sets to choose from. The Comprehensive Antibiotic Resistance Database (**CARD**)[2] is the current gold standard for antimicrobial resistance genes. It is a manually curated resource containing high quality reference data on the molecular basis of antimicrobial resistance (AMR) that emphasizes genes, proteins and mutations that are involved in AMR. The Virulence Factor Database (**VFDB**)[3] is the current gold standard reference source for virulence factors, providing up-to-date knowledge of virulence factors from various bacterial pathogens. Select either CARD or VFDB as the gene set. 
-![Figure 4](./images/Picture4.png "Figure 4")
+1.	The default radio dial button position is Predefined Gene Set.  Select between the two available predefined gene sets, click on the down arrow at the end of the text box under Predefined Gene Set Name to see the possible selections. The Metagenomic Mapping Read service has two gene sets to choose from. The Comprehensive Antibiotic Resistance Database (**CARD**)[2] is the current gold standard for antimicrobial resistance genes. It is a manually curated resource containing high quality reference data on the molecular basis of antimicrobial resistance (AMR) that emphasizes genes, proteins and mutations that are involved in AMR. The Virulence Factor Database (**VFDB**)[3] is the current gold standard reference source for virulence factors, providing up-to-date knowledge of virulence factors from various bacterial pathogens. Select either CARD or VFDB as the gene set. 
+![Figure 4](./images/picture4_radiodials.png "Figure 4")
+
+By selecting the radio dial button: Feature Group, reads can be mapped to a previously created groups of features (genes or proteins). There are several ways to navigate to the feature group. Clicking on the drop-down box will show the feature groups, with the most recently created groups shown first. Clicking on the desired group will fill the box with that name.
+![Figure 23](./images/image_feature_group_radiobutton.png "Figure 23")
+
+By selecting the radio dial button: Fasta File, reads can be mapped to a fasta file describing an dna sequence. The file must be present in BV-BRC, which would be located by entering the name in the text box, clicking on the drop-down box, or navigating within the workspace. Inorder to select a file for this service the file type must be specified as one of our fasta types (aligned_dna_fasta, or feature_dna_fasta).
+image_fasta_file_radiobutton
+![Figure 22](./images/image_fasta_file_radiobutton.png "Figure 22")
 
 2.	A folder must be selected for the Metagenomic Read Mapping job. Begin typing a name in the text box underneath **Output Folder** will show all folders that match that text, or click on the down arrow to show recent folders, or clicking on the folder icon at the end of the text box will open a pop-up window where all folders can be viewed.  Clicking on the desired folder will populate the text box with its name. 
 ![Figure 5](./images/Picture5.png "Figure 5")

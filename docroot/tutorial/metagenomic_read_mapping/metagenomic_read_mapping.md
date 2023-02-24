@@ -34,7 +34,7 @@ Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assemb
 ![Figure 4](./images/picture4_radiodials.png "Figure 4")
 
 By selecting the radio dial button: Feature Group, reads can be mapped to a previously created groups of features (genes or proteins). There are several ways to navigate to the feature group. Clicking on the drop-down box will show the feature groups, with the most recently created groups shown first. Clicking on the desired group will fill the box with that name.
-![Figure 23](.images/image_feature_group_radiobutton.png "Figure 23")
+![Figure 23](./images/image_feature_group_radiobutton.png "Figure 23")
 
 By selecting the radio dial button: Fasta File, reads can be mapped to a fasta file describing an dna sequence. The file must be present in BV-BRC, which would be located by entering the name in the text box, clicking on the drop-down box, or navigating within the workspace. Inorder to select a file for this service the file type must be specified as one of our fasta types (aligned_dna_fasta, or feature_dna_fasta).
 image_fasta_file_radiobutton

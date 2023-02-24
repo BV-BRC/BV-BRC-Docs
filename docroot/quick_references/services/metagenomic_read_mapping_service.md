@@ -1,7 +1,7 @@
 # Metagenomic Read Mapping Service
 
 ## Overview
-The bacterial Metagenomic Read Mapping Service uses [KMA](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2336-6) to align reads against antibiotic resistance genes, virulence factors, or other custom sets of genes.
+The Metagenomic Read Mapping Service uses [KMA](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2336-6) to align reads against antibiotic resistance genes, virulence factors, or other custom sets of genes.
 
 ### See also
   * [Metagenomic Read Mapping Service](https://bv-brc.org/app/MetagenomicReadMapping)
@@ -36,6 +36,12 @@ Read files to be mapped.
 **Predefined Gene Set Name:** A pre-built set of genes against which reads are mapped.  Two options are available:
 * CARD - Antibiotic resistence gene set from the [Comprehensive Antibiotic Resistance Database](https://www.ncbi.nlm.nih.gov/pubmed/27789705)
 * VFDB - Virulence factor gene set from the [Virulence Factor Database](https://www.ncbi.nlm.nih.gov/pubmed/30395255)
+
+**Feature Group:**
+Reads can also be mapped to a previously created groups of features (genes or proteins). There are several ways to navigate to the feature group. Clicking on the drop-down box will show the feature groups, with the most recently created groups shown first. Clicking on the desired group will fill the box with that name.
+
+**Fasta File:**
+Reads can be mapped to a fasta file describing an dna sequence. The file must be present in BV-BRC, which would be located by entering the name in the text box, clicking on the drop-down box, or navigating within the workspace. Inorder to select a file for this service the file type must be specified as one of our fasta types (aligned_dna_fasta, or feature_dna_fasta).
 
 **Output Folder:** Workspace folder where the results will be saved.
 

@@ -18,13 +18,3 @@ This course was originally designed using PATRIC BRC as platform. However, all t
 Course participants will gain skills needed to do comparative analysis of bacterial genomes, starting with raw sequence data. The lessons in the first module cover genome assembly, annotation, phylogenetic tree construction, and protein family / proteome comparisons. Each lesson builds on the previous, creating a complete baseline analysis workflow.
 
 You can register for this course for free `here <https://www.coursera.org/learn/informatics#about>`_.
-
-
-.. cut::
-
-Below is a link to flyer with additional information about this course.
-
-`Bacterial Bioinformatics flyer <https://docs.bv-brc.org/_static/files/mooc-ad-oct-2020_v3.pdf>`_
-
-.. image:: ../images/mooc-ad-image.png
-   :target: https://docs.bv-brc.org/_static/files/mooc-ad-oct-2020_v3.pdf

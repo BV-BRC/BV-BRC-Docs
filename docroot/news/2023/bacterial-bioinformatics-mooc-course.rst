@@ -6,7 +6,7 @@ BV-BRC Bacterial Bioinformatics Course on Coursera
 .. feed-entry::
    :date: 2023-03-17
 
-.. image:: ../images/mooc_logo2.png
+.. image:: ../images/MOOC_Logo_3.png
   :width: 520
   :alt: Alternative text
 

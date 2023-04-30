@@ -48,7 +48,7 @@ BV-BRC has different databases to choose from for the source to search wihin:
 
 There are three database types: 
 
-* **Genome Sequences (NT)** - The genomic sequences from bacterial and viral genomes in BV-BRC, i.e. chromosomes, contigs, plasmids, segments, and partial genomic sequences 
+* **Genome Sequences (NT)** - Genomic sequences from bacterial and viral genomes in BV-BRC, i.e. chromosomes, contigs, plasmids, segments, and partial genomic sequences 
 * **Genes (NT)** - Gene sequences from bacterial and viral genomes in BV-BRC. 
 * **Proteins (AA)** - Protein sequences from bacterial and viral genomes in BV-BRC.
 

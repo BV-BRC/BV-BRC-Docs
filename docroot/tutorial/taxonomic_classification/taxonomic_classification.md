@@ -1,10 +1,8 @@
 ### "**INSERT:" for anything that needs attention
-## add snakemake icon to the workflow 
-# Nicole changes for anything I need to change further
 # ** text ** is also something that hasn't been established yet 
 # Taxonomic Classification Service
 Metagenomics is the study of genomic sequences obtained directly from an environment. For many metagenomic samples, the species, genera and even phyla present in the sample are largely unknown at the time of sequencing, and the goal of sequencing is to determine the microbial composition as precisely as possible. The BV-BRC Taxonomic Classification service can be used to identify the microbial composition of metagenomic samples. Researchers can submit metagenomic samples that are short reads (paired-or single-end) as well as the Sequence Read Archive accession numbers. This service The taxonomic classification service follows the analyses outlined in [Lu et al., 2022](https://doi.org/10.1038/s41596-022-00738-y)] for metagenomic analysis with the Kraken software suite.  There are two pipelines, one is a standard approach called ** pathogen **. The other is called ** microbiome ** which includes additional steps for microbiomeanalysis. Kraken 2[1]. Kraken, first released in 2014, has been shown to provide exceptionally fast and accurate classification for shotgun metagenomics sequencing projects. Kraken 2, which matches the accuracy and speed of Kraken 1, supports 16S rRNA databases.  Kraken uses exact-match database queries of k-mers, rather than inexact alignment of sequences.  Sequences are classified by querying the database for each k-mer in a sequence, and then using the resulting set of lowest common ancestor (LCA) taxa to determine an appropriate label for the sequence. The service uses a [Snakemake](https://snakemake.readthedocs.io/en/stable/) to manage the pipeline. **INSERT:  
-#![Figure 1](images/detailed_output_overview.png "Figure 1, a overview of the analysis pipeline") 
+#![Figure 1, a overview of the analysis pipeline](images/detailed_output_overview.png "Figure 1, a overview of the analysis pipeline") 
 
 This is an overview of the pipeline. Each sample (either a single read or paired read files) is run through the FASTQ proccessing steps pipeline. Then each kraken2 result are compared against each other.
 

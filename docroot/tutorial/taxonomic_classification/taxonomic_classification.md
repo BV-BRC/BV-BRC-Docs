@@ -1,14 +1,14 @@
 ### "**INSERT:" for anything that needs attention
 # ** text ** is also something that hasn't been established yet 
 # Taxonomic Classification Service
-Metagenomics is the study of genomic sequences obtained directly from an environment. For many metagenomic samples, the species, genera and even phyla present in the sample are largely unknown at the time of sequencing, and the goal of sequencing is to determine the microbial composition as precisely as possible. The BV-BRC Taxonomic Classification service can be used to identify the microbial composition of metagenomic samples. Researchers can submit metagenomic samples that are short reads (paired-or single-end) as well as the Sequence Read Archive accession numbers. This service The taxonomic classification service follows the analyses outlined in [Lu et al., 2022](https://doi.org/10.1038/s41596-022-00738-y)] for metagenomic analysis with the Kraken software suite.  There are two pipelines, one is a standard approach called ** pathogen **. The other is called ** microbiome ** which includes additional steps for microbiomeanalysis. Kraken 2[1]. Kraken, first released in 2014, has been shown to provide exceptionally fast and accurate classification for shotgun metagenomics sequencing projects. Kraken 2, which matches the accuracy and speed of Kraken 1, supports 16S rRNA databases.  Kraken uses exact-match database queries of k-mers, rather than inexact alignment of sequences.  Sequences are classified by querying the database for each k-mer in a sequence, and then using the resulting set of lowest common ancestor (LCA) taxa to determine an appropriate label for the sequence. The service uses a [Snakemake](https://snakemake.readthedocs.io/en/stable/) to manage the pipeline. **INSERT:  
+Metagenomics is the study of genomic sequences obtained directly from an environment. For many metagenomic samples, the species, genera and even phyla present in the sample are largely unknown at the time of sequencing, and the goal of sequencing is to determine the microbial composition as precisely as possible. The BV-BRC Taxonomic Classification service can be used to identify the microbial composition of metagenomic samples. Researchers can submit metagenomic samples that are short reads (paired-or single-end) as well as the Sequence Read Archive accession numbers. This service The taxonomic classification service follows the analyses outlined in [Lu et al., 2022](https://doi.org/10.1038/s41596-022-00738-y) for metagenomic analysis with the Kraken software suite.  There are two pipelines, one is a standard approach called ** pathogen **. The other is called ** microbiome ** which includes additional steps for microbiomeanalysis. Kraken 2[1]. Kraken, first released in 2014, has been shown to provide exceptionally fast and accurate classification for shotgun metagenomics sequencing projects. Kraken 2, which matches the accuracy and speed of Kraken 1, supports 16S rRNA databases.  Kraken uses exact-match database queries of k-mers, rather than inexact alignment of sequences.  Sequences are classified by querying the database for each k-mer in a sequence, and then using the resulting set of lowest common ancestor (LCA) taxa to determine an appropriate label for the sequence. The service uses a [Snakemake](https://snakemake.readthedocs.io/en/stable/) to manage the pipeline. **INSERT:  
 #![Figure 1, a overview of the analysis pipeline](images/detailed_output_overview.png "Figure 1, a overview of the analysis pipeline") 
 
 This is an overview of the pipeline. Each sample (either a single read or paired read files) is run through the FASTQ proccessing steps pipeline. Then each kraken2 result are compared against each other.
 
 The steps of the pipeline are as follows:
 1\. User input: If users submit Sequence Read Archive values (SRAs) and the BV-BRC will input the corresponding FASTQ files to the service.  Users can also submit short reads (paired or single end) to the service. Users can input multiple read files in the same job. If only one sample is submitted to the job any multisample comparison outputs will not be available.  The pipeline begins with FASTQ processing. The single and paired samples are run seperately but go though the same steps. **INSERT:  
-![Figure 2](./images/fastq_processing_overview.png "Figure 2, a schematic of FASTQ processing") 
+![Figure 2, a schematic of FASTQ processing](./images/fastq_processing_overview.png "Figure 2, a schematic of FASTQ processing") 
 
 2\. Hisat2 aligns reads
 
@@ -107,9 +107,10 @@ Paired read libraries are usually given as file pairs, with each file containing
 
 ## IV. Selecting parameters
 
+![final step options](./images/final_step_processing_overview.png "final step options")
+
 Parameters must be selected prior to job submission. The algorithm used for Taxonomic Classification is Kraken2, which uses exact alignment of k-mers for classification accuracy. The Kraken2 software package was downloaded from the developer source: https://ccb.jhu.edu/software/kraken2/
 ![Figure 25](./images/parameters_box.png "Figure 25")  
-
 
 1\. An analysis type must be selected for the Taxonomic Classification job. Click on the Analysis Type drop down arrow to choose between Species Identification or Microbiome Analysis. For a detailed description of both outlines please review the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html).
 ![Figure 26](./images/select_analysis_type.png "Figure 26")

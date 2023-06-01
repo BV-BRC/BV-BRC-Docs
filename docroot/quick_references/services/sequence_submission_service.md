@@ -19,7 +19,7 @@ The **Seqeuence Submission** submenu option under the **"TOOLS & SERVICES"** mai
 
 Below is a screenshot of the Sequence Submission input form, as well as a summary of customizable parameters.  
 
-![Sequence Submission Input Form](../images/seuquence_submission/Picture2.png "Input Form") 
+![Sequence Submission Input Form](../images/sequence_submission/Picture2.png "Input Form") 
 
 
 

@@ -62,6 +62,23 @@ Name you provide to identify the results in the Workspace.
 
 ## Output Results
 
+Clicking on the Jobs indicator at the bottom of the BV-BRC page open the Jobs Status page that displays all current and previous service jobs and their status.
+
+![Job Indicator](../images/sequence_submission/Picture5.png "Job Indicator")
+
+Once the job has completed, selecting the job by clicking on it and clicking the “View” button on the green vertical Action Bar on the right-hand side of the page displays the results files (red box).
+
+![Job List](../images/sequence_submission/Picture6.png "Job List")
+
+## Results Page
+
+The results page will consist of a header describing the job and a list of output files, as shown below.
+
+![Job Results](../images/sequence_submission/Picture7.png "Job Results")
+
+
+
+
 
 
 

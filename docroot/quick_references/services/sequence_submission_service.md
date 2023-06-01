@@ -54,5 +54,14 @@ Name you provide to identify the results in the Workspace.
 * **Annotate and Validate Sequence(s):** 
   * Validates input data and launches the job if there is no error. A message will appear below the box to indicate that the job is now in the queue.
 
+![Success Message](../images/sequence_submission/Picture3.png "Success Message")
+
+  * Validates input data and warns the user if there are error(s). A message will appear below the box to indicate that there are error(s).
+
+![Error Message](../images/sequence_submission/Picture4.png "Error Message")
+
+## Output Results
+
+
 
 

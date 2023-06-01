@@ -40,19 +40,19 @@ Below is a screenshot of the Sequence Submission input form, as well as a summar
 
 Choose Metadata file (CSV Format) that has been uploaded to the Workspace.
 
-Output Folder
+## Output Folder
 
 Folder in the Workspace where you want the results stored.
-Output Name
+
+## Output Name
 
 Name you provide to identify the results in the Workspace.
 
+## Buttons
 
-Buttons
+* **Reset:** Resets the input form to default values
+* **Annotate and Validate Sequence(s):** 
+  * Validates input data and launches the job if there is no error. A message will appear below the box to indicate that the job is now in the queue.
 
-Reset: Resets the input form to default values
 
-Annotate and Validate Sequence(s): 
-•	Validates input data and launches the job if there is no error. A message will appear below the box to indicate that the job is now in the queue.
 
-![image](https://github.com/rkenyon/bvbrc_docs/assets/3188570/ae235993-5db3-4646-a0a2-cf6278df4068)

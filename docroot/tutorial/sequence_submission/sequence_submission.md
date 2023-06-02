@@ -9,4 +9,9 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
  
 ![Figure 1](./images/fig1.png "Figure 1")
 
+2\. In the drop-down box, underneath Genomics, click on Sequence Submission.
+
+![Figure 2](./images/fig2.png "Figure 3")
+
+
 

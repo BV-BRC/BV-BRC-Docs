@@ -3,12 +3,6 @@ The Sequence Submission service allows user to validate and submit virus sequenc
 
 Note: Current pipeline only supports Influenza A, B, or C virus family.
 
-More details coming soon. 
-
-## Creating a folder to hold the BLAST job and related data
-Please refer to the [Assembly Service Tutorial](../genome_assembly/assembly.html) for instructions on creating a folder in the BV-BRC.
-
-## Locating the BLAST Service App
 
 1\. Click on the Services tab at the top of the page, and then click on BLAST. 
 

@@ -3,9 +3,10 @@ The Sequence Submission service allows user to validate and submit virus sequenc
 
 Note: Current pipeline only supports Influenza A, B, or C virus family.
 
+## Locating the Sequence Submission Service
 
-1\. Click on the Services tab at the top of the page, and then click on BLAST. 
-
+1\. 1.	At the top of any BV-BRC page, find the Tools & Services tab and click on it.
+ 
 ![Figure 1](./images/fig1.png "Figure 1")
 
 

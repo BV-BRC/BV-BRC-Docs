@@ -59,15 +59,13 @@ If there is a problem with the An error message will appear below the box to ind
 
 ## Checking the status of the job
 
-1\. 1.	Click on the Jobs indicator at the bottom of the BV-BRC page.
+1\. Click on the Jobs indicator at the bottom of the BV-BRC page.
 
 ![Figure 12](./images/fig12.png "Figure 12")
 
 2\.	This will open the Jobs Status page which displays the status of the job. The status of all the service jobs that have been submitted to BV-BRC are also available.
 
 3\.	Once the job is completed, you can select the job by clicking on it and click the “View” button on the right-hand bar to see the results.
-
-![image](https://github.com/rkenyon/bvbrc_docs/assets/3188570/66671b27-ad3c-472d-a651-ec154edeb5a2)
 
 
 ![Figure 13](./images/fig13.png "Figure 13")

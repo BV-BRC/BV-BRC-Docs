@@ -13,7 +13,13 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
 
 ![Figure 2](./images/fig2.png "Figure 2")
 
+3\. This will open the Sequence Submission landing page where researchers can submit submitter information, sequence data or FASTA file and metadata file.
+
 ![Figure 3](./images/fig3.png "Figure 3")
+
+## Specifying Sequence Submission Parameters
+
+1\. Provide submitter information. All fields marked with asterisks are required.
 
 ![Figure 4](./images/fig4.png "Figure 4")
 

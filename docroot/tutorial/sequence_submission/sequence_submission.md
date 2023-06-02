@@ -67,14 +67,13 @@ If there is a problem with the An error message will appear below the box to ind
 
 3\.	Once the job is completed, you can select the job by clicking on it and click the “View” button on the right-hand bar to see the results.
 
-
 ![Figure 13](./images/fig13.png "Figure 13")
 
-
+4\.	The results page will consist of a header describing the job and a list of output files.
 
 ![Figure 14](./images/fig14.png "Figure 14")
 
-
+5\. The Sequence Submission Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include the following:
 
 ![Figure 15](./images/fig15.png "Figure 15")
 

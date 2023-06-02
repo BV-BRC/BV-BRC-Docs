@@ -27,7 +27,21 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
 
 ![Figure 9](./images/fig9.png "Figure 9")
 
-![Figure 1](./images/fig1.png "Figure 1")
+![Figure 10](./images/fig10.png "Figure 10")
+
+![Figure 11](./images/fig11.png "Figure 11")
+
+![Figure 12](./images/fig12.png "Figure 12")
+
+![Figure 13](./images/fig13.png "Figure 13")
+
+![Figure 14](./images/fig14.png "Figure 14")
+
+![Figure 15](./images/fig15.png "Figure 15")
+
+![Figure 16](./images/fig16.png "Figure 16")
+
+![Figure 17](./images/fig17.png "Figure 17")
 
 
 

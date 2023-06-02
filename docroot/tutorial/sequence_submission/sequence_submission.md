@@ -106,9 +106,10 @@ After selecting the files, you can choose to either download (red box below) or 
 
 ![Figure 16](./images/fig16.png "Figure 16")
 
+## Notifying the BV-BRC team for the Submission 
 
+**Submit Sequence** - On the right-hand side of header in the results page there is a “Submit Sequence” (red box) button which notifies the BV-BRC team that the submission is ready for GenBank submission.
 
 ![Figure 17](./images/fig17.png "Figure 17")
 
-
-
+A BV-BRC team member will reach out to you via email once the GenBank submission is completed.

@@ -13,7 +13,7 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
 
 ![Figure 2](./images/fig2.png "Figure 2")
 
-3\. This will open the Sequence Submission landing page where researchers can submit submitter information, sequence data or FASTA file and metadata file.
+3\. This will open the Sequence Submission landing page for entering submitter information, sequence data or FASTA file, and a metadata file.
 
 ![Figure 3](./images/fig3.png "Figure 3")
 
@@ -27,19 +27,19 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
 Example defline: “>Unique_Sample_Identifier: yourSampleID| Unique_Sequence_Identifier: yourSampleID-segmentNumber”
 
 There are two ways to select input sequences for analysis: 
-* Use Enter Sequence option to paste one or more protein sequence in FASTA format.
+* Use the Enter Sequence option to paste one or more protein sequence in FASTA format.
 
 ![Figure 5](./images/fig5.png "Figure 5")
 
-* Select FASTA File: This option allows users to select custom sequence(s) file in a FASTA format. Users can select FASTA files which are already uploaded in the workspace [2a] or they can upload their own [2b].
+* Select FASTA File: This option allows selection of custom sequence(s) file in a FASTA format. Also, you can select FASTA files which are already uploaded in the workspace [2a] or upload your own [2b].
 
 ![Figure 6](./images/fig6.png "Figure 6")
 
 ![Figure 7](./images/fig7.png "Figure 7")
 
-3\. Provide a metadata file in CSV format. You can find the metadata template, field definitions, data types and formats [here](https://www.bv-brc.org/workspace/mkuscuog@bvbrc/BV-BRC Templates/).
+3\. Provide a metadata file in CSV format. The metadata template, field definitions, data types and formats are available [here](https://www.bv-brc.org/workspace/mkuscuog@bvbrc/BV-BRC Templates/).
 
-4\. To specify output parameters, select an output folder in their workbench or create one if an appropriate folder is not available (red arrow). Users will also be prompted to specify an “Output Name” (red box) for the job result, before the job can be submitted.
+4\. To specify output parameters, select an output folder in their workbench or create one if an appropriate folder is not available (red arrow). You will also be prompted to specify an “Output Name” (red box) for the job result, before the job can be submitted.
 
 ![Figure 8](./images/fig8.png "Figure 8")
 

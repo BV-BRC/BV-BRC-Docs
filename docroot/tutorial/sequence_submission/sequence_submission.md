@@ -5,7 +5,7 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
 
 ## Locating the Sequence Submission Service
 
-1\. 1.	At the top of any BV-BRC page, find the Tools & Services tab and click on it.
+1\. At the top of any BV-BRC page, find the Tools & Services tab and click on it.
  
 ![Figure 1](./images/fig1.png "Figure 1")
 

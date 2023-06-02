@@ -23,29 +23,60 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
 
 ![Figure 4](./images/fig4.png "Figure 4")
 
+2\. select their desired input files/sequences in FASTA format. FASTA definition line must begin with a carat (“>”), followed by a unique sample identifier (Unique_Sample_Identifier) and a unique sequence identifier (Unique_Sequence_Identifier) separated by a pipe (“|”). 
+Example defline: “>Unique_Sample_Identifier: yourSampleID| Unique_Sequence_Identifier: yourSampleID-segmentNumber”
+
+There are two ways to select input sequences for analysis: 
+* Use Enter Sequence option to paste one or more protein sequence in FASTA format.
+
 ![Figure 5](./images/fig5.png "Figure 5")
+
+* Select FASTA File: This option allows users to select custom sequence(s) file in a FASTA format. Users can select FASTA files which are already uploaded in the workspace [2a] or they can upload their own [2b].
+
 
 ![Figure 6](./images/fig6.png "Figure 6")
 
+
+
 ![Figure 7](./images/fig7.png "Figure 7")
+
+
 
 ![Figure 8](./images/fig8.png "Figure 8")
 
+
+
 ![Figure 9](./images/fig9.png "Figure 9")
+
+
 
 ![Figure 10](./images/fig10.png "Figure 10")
 
+
+
 ![Figure 11](./images/fig11.png "Figure 11")
+
+
 
 ![Figure 12](./images/fig12.png "Figure 12")
 
+
+
 ![Figure 13](./images/fig13.png "Figure 13")
+
+
 
 ![Figure 14](./images/fig14.png "Figure 14")
 
+
+
 ![Figure 15](./images/fig15.png "Figure 15")
 
+
+
 ![Figure 16](./images/fig16.png "Figure 16")
+
+
 
 ![Figure 17](./images/fig17.png "Figure 17")
 

@@ -49,19 +49,17 @@ After the parameters and input file selections have been made, the “Annotate a
 
 ![Figure 9](./images/fig9.png "Figure 9")
 
-
+After clicking the button, a message will appear below the box to indicate that the job is now in the queue.
 
 ![Figure 10](./images/fig10.png "Figure 10")
 
-
+If there is a problem with the An error message will appear below the box to indicate that the validation has failed. The details of the validation error(s) can be accessed by [1] by either downloading the error report [2a] or viewing on the browser [2b].
 
 ![Figure 11](./images/fig11.png "Figure 11")
 
-
-
 ![Figure 12](./images/fig12.png "Figure 12")
 
-
+## Checking the status of the job
 
 ![Figure 13](./images/fig13.png "Figure 13")
 

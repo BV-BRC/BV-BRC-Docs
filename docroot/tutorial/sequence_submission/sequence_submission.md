@@ -23,7 +23,7 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
 
 ![Figure 4](./images/fig4.png "Figure 4")
 
-2\. select their desired input files/sequences in FASTA format. FASTA definition line must begin with a carat (“>”), followed by a unique sample identifier (Unique_Sample_Identifier) and a unique sequence identifier (Unique_Sequence_Identifier) separated by a pipe (“|”). 
+2\. Select the desired input files/sequences in FASTA format. FASTA definition line must begin with a carat (“>”), followed by a unique sample identifier (Unique_Sample_Identifier) and a unique sequence identifier (Unique_Sequence_Identifier) separated by a pipe (“|”). 
 Example defline: “>Unique_Sample_Identifier: yourSampleID| Unique_Sequence_Identifier: yourSampleID-segmentNumber”
 
 There are two ways to select input sequences for analysis: 
@@ -33,14 +33,11 @@ There are two ways to select input sequences for analysis:
 
 * Select FASTA File: This option allows users to select custom sequence(s) file in a FASTA format. Users can select FASTA files which are already uploaded in the workspace [2a] or they can upload their own [2b].
 
-
 ![Figure 6](./images/fig6.png "Figure 6")
-
-
 
 ![Figure 7](./images/fig7.png "Figure 7")
 
-
+3\. Provide a metadata file in CSV format. You can find the metadata template, field definitions, data types and formats [here](https://www.bv-brc.org/workspace/mkuscuog@bvbrc/BV-BRC Templates/).
 
 ![Figure 8](./images/fig8.png "Figure 8")
 

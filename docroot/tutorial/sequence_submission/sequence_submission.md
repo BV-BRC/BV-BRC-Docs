@@ -39,9 +39,13 @@ There are two ways to select input sequences for analysis:
 
 3\. Provide a metadata file in CSV format. You can find the metadata template, field definitions, data types and formats [here](https://www.bv-brc.org/workspace/mkuscuog@bvbrc/BV-BRC Templates/).
 
+4\. To specify output parameters, select an output folder in their workbench or create one if an appropriate folder is not available (red arrow). Users will also be prompted to specify an “Output Name” (red box) for the job result, before the job can be submitted.
+
 ![Figure 8](./images/fig8.png "Figure 8")
 
+## Submitting a job for Sequence Submission
 
+After the parameters and input file selections have been made, the “Annotate and Validate Sequence(s)” button will become available.
 
 ![Figure 9](./images/fig9.png "Figure 9")
 

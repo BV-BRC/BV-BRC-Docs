@@ -45,10 +45,11 @@ The HA Subtype Numbering Conversion tool takes influenza HA protein sequence(s) 
 
 ![HA Subtype Numbering Conversion Menu](../images/bv_services_menu.png)
 
-
 ## Options
 
-![Genome Alignment Submission Form](../images/genome_alignment_input_form.png)
+Below is a screenshot of the job input form landing page, as well as a summary of customizable parameters.
+
+![HA Subtype Numbering Conversion Form](../images/ha_numbering_input_form.png)
 
 
 

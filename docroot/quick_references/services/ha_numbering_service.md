@@ -65,28 +65,28 @@ Below is a screenshot of the job landing page, as well as a summary of customiza
 
 ### Buttons
 
-![](../images/ha_numbering/.png)
+![Buttons](../images/ha_numbering/buttons.png)
 
 Reset: Resets the input form to default values
 Submit: Launches the job. A message will appear below the box to indicate that the job is now in the queue.
 
-![](../images/ha_numbering/.png)
+![Job Submitted](../images/ha_numbering/job_submitted.png)
 
 ### Output Results
  
 Clicking on the Jobs indicator at the bottom of the BV-BRC page open the Jobs Status page that displays all current and previous service jobs and their status.
 
-![](../images/ha_numbering/.png)
+![Job Monitor](../images/ha_numbering/job_monitor.png)
 
 Once the job has completed, selecting the job by clicking on it and clicking the “View” button on the green vertical Action Bar on the right-hand side of the page displays the results files (red box).
 
-![](../images/ha_numbering/.png)
+![Job List](../images/ha_numbering/job_list.png)
 
 ## Results Page
  
 The results page will consist of a header describing the job and a list of output files, as shown below.
 
-![](../images/ha_numbering/.png)
+![Job Result](../images/ha_numbering/job_result.png)
 
 The HA Subtype Numbering Conversion Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include:
  
@@ -114,19 +114,19 @@ After selecting one of the output files by clicking it, a set of options becomes
  
 On the right-hand side of header in the results page there is a “View report” option which opens a consolidated report for the job.
 
-![](../images/ha_numbering/.png)
+![View Report](../images/ha_numbering/view_report.png)
 
 For each Query, the result of the analysis is reported in two forms: 
 • A simple multiple sequence alignment format that includes the query sequence on top and then the reference sequence of the same subtype as the query sequence, and then reference sequences for all other chosen subtypes.  It will be displayed using the alignment viewer.
 • A table with the mapping coordinating positions in one group of columns and the residue per subtype in the second group of columns
 
-![](../images/ha_numbering/.png)
+![Report](../images/ha_numbering/report.png)
 
 ### Action Buttons 
  
 ·      ID TYPE - The user can change the sequence ID in the displayed alignment by selecting query and using the “ID TYPE” option. The user can view the alignment with simplified common name or strain name.
 
-![](../images/ha_numbering/.png)
+![ID Type Button](../images/ha_numbering/id_type.png)
 
 ·      Download- Users can select a query sequence to download–
 ·      MSA in text format
@@ -134,4 +134,4 @@ For each Query, the result of the analysis is reported in two forms:
 ·      Numbering Conversion Table in excel format.
 ·      MSA Image
 
-![](../images/ha_numbering/.png)
+![Download Button](../images/ha_numbering/download.png)

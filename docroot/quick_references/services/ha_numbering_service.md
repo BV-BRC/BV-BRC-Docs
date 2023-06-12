@@ -11,9 +11,9 @@ The HA Subtype Numbering Conversion tool takes influenza HA protein sequence(s) 
 | H1_PR34             | A/Puerto/Rico/8/34 |
 | H1_1993             | A/United/Kingdom/1/1933 |
 | H1post1995          | A/NewCaledonia/20/1999 |
-H1pdm	A/California/04/2009
-H2	A/Singapore/1/1957
-H5mEA-nonGsGD	A/mallard/Italy/3401/2005 (LPAI)
+| H1pdm | A/California/04/2009 |
+| H2	| A/Singapore/1/1957 |
+| H5mEA-nonGsGD	| A/mallard/Italy/3401/2005 (LPAI) |
 H5	A/Vietnam/1203/04 (HPAI)
 H5c221	A/chicken/Egypt/0915-NLQP/2009 (HPAI)
 H6	A/chicken/Taiwan/0705/99

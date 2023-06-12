@@ -90,25 +90,25 @@ The results page will consist of a header describing the job and a list of outpu
 
 The HA Subtype Numbering Conversion Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include:
  
-* **blast.fasta** contains the query sequences where the fasta headers are replaced with ‘queryN’.
-* **blast.out** is the output from blast to identify the closest Burke reference sequence.
-* **input.fasta** is the input sequences from the users or selected by users.
-* **queryN.muscle.in** input file for MUSCLE to align Nth query to its closest Burke reference sequence.
-* **queryN.muscle.out** output file from MUSCLE for Nth Query
-* **queryN_result.fasta** alignment of the query, its closest Burke reference and the selected subtypes for Numbering conversion.
-* **Sequence_annotation.tsv** tabular summary of blast results for all the query sequences to determine the best reference subtype to use in the HA numbering pipeline.
+* **blast.fasta** - contains the query sequences where the fasta headers are replaced with ‘queryN’.
+* **blast.out** - output from blast to identify the closest Burke reference sequence.
+* **input.fasta** - input sequences from the users or selected by users.
+* **queryN.muscle.in** - input file for MUSCLE to align Nth query to its closest Burke reference sequence.
+* **queryN.muscle.out** - output file from MUSCLE for Nth Query
+* **queryN_result.fasta** - alignment of the query, its closest Burke reference and the selected subtypes for Numbering conversion.
+* **Sequence_annotation.tsv** - tabular summary of blast results for all the query sequences to determine the best reference subtype to use in the HA numbering pipeline.
  
 ### Action buttons
  
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table. These include:
-·      Hide/Show: Toggles (hides) the right-hand side Details Pane.
-·      Guide Link: to the corresponding Quick Reference.
-·      Download: Downloads the selected item.
-·      View: Displays the content of the file, typically as plain text or rendered html, depending on filetype.
-·      Delete: Deletes the file.
-·      Rename: Allows renaming of the file.
-·      Copy: Copies the selected items to the clipboard.
-·      Move: Allows moving of the file to another folder.
+* **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
+* **Guide Link:** to the corresponding Quick Reference.
+* **Download:** Downloads the selected item.
+* **View:** Displays the content of the file, typically as plain text or rendered html, depending on filetype.
+* **Delete:** Deletes the file.
+* **Rename:** Allows renaming of the file.
+* **Copy:** Copies the selected items to the clipboard.
+* **Move:** Allows moving of the file to another folder.
  
 ### Report 
  

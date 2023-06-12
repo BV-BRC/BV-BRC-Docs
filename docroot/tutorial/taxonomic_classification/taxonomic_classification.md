@@ -1,24 +1,23 @@
-### "**INSERT:" for anything that needs attention
 # ** text ** is also something that hasn't been established yet 
 # Taxonomic Classification Service
-Metagenomics is the study of genomic sequences obtained directly from an environment. For many metagenomic samples, the species, genera and even phyla present in the sample are largely unknown at the time of sequencing, and the goal of sequencing is to determine the microbial composition as precisely as possible. The BV-BRC Taxonomic Classification service can be used to identify the microbial composition of metagenomic samples. Researchers can submit metagenomic samples that are short reads (paired-or single-end) as well as the Sequence Read Archive accession numbers. This service The taxonomic classification service follows the analyses outlined in [Lu et al., 2022](https://doi.org/10.1038/s41596-022-00738-y) for metagenomic analysis with the Kraken software suite.  There are two pipelines, one is a standard approach called ** pathogen **. The other is called ** microbiome ** which includes additional steps for microbiome analysis. Kraken 2[1]. Kraken, first released in 2014, has been shown to provide exceptionally fast and accurate classification for shotgun metagenomics sequencing projects. Kraken 2, which matches the accuracy and speed of Kraken 1, supports 16S rRNA databases.  Kraken uses exact-match database queries of k-mers, rather than inexact alignment of sequences.  Sequences are classified by querying the database for each k-mer in a sequence, and then using the resulting set of lowest common ancestor (LCA) taxa to determine an appropriate label for the sequence. The service uses a [Snakemake](https://snakemake.readthedocs.io/en/stable/) to manage the pipeline. **INSERT:  
-#![Figure 1, a overview of the analysis pipeline](images/detailed_output_overview.png "Figure 1, a overview of the analysis pipeline") 
+Metagenomics is the study of genomic sequences obtained directly from an environment. For many metagenomic samples, the species, genera and even phyla present in the sample are largely unknown at the time of sequencing, and the goal of sequencing is to determine the microbial composition as precisely as possible. The BV-BRC Taxonomic Classification service can be used to identify the microbial composition of metagenomic samples. Researchers can submit metagenomic samples that are short reads (paired end or single end) as well as submissions to the Sequence Read Archive via accession numbers. This service follows the analyses outlined in [Lu et al., 2022](https://doi.org/10.1038/s41596-022-00738-y) for metagenomic analysis with the Kraken software suite.  There are two pipelines, one is a standard approach called ** species identification **. The other is called ** microbiome analysis ** which includes additional steps specifically for microbiome samples. Kraken [1], first released in 2014, has been shown to provide exceptionally fast and accurate classification for shotgun metagenomics sequencing projects. Kraken 2, which matches the accuracy and speed of Kraken 1, supports 16S rRNA databases.  Kraken2 uses exact-match database queries of k-mers, rather than inexact alignment of sequences.  Sequences are classified by querying the database for each k-mer in a sequence, and then using the resulting set of lowest common ancestor (LCA) taxa to determine an appropriate label for the sequence. The service uses a [Snakemake](https://snakemake.readthedocs.io/en/stable/) to manage the pipeline.
+![Figure 1, a overview of the analysis pipeline](images/detailed_output_overview.png "Figure 1, a overview of the analysis pipeline") 
 
-This is an overview of the pipeline. Each sample (either a single read or paired read files) is run through the FASTQ processing steps pipeline. Then each kraken2 result are compared against each other.
+This is an overview of the FASTQ processing steps. Each sample (either a single read or paired read files) is run through the pipeline. Then the kraken2 results for each sample are compared against each other.
 
 The steps of the pipeline are as follows:
-1\. User input: If users submit Sequence Read Archive values (SRAs) and the BV-BRC will input the corresponding FASTQ files to the service.  Users can also submit short reads (paired or single end) to the service. Users can input multiple read files in the same job. If only one sample is submitted to the job any multisample comparison outputs will not be available.  The pipeline begins with FASTQ processing. The single and paired samples are run separately but go though the same steps. **INSERT:  
+1\. User input: If users submit Sequence Read Archive values (SRAs) and the BV-BRC will input the corresponding FASTQ files to the service.  Users can also submit short reads (paired or single end) to the service. Users can input multiple read files in the same job. If only one sample is submitted to the job any multisample comparison outputs will not be available.  The pipeline begins with FASTQ processing. The single and paired samples are run separately but go though the same steps. 
 ![Figure 2, a schematic of FASTQ processing](./images/fastq_processing_overview.png "Figure 2, a schematic of FASTQ processing") 
 
 2\. Hisat2 aligns reads
 
-3\. FastQC is run on both the raw files and host removed files. These results are available in the output directory, in each sample directory under FastQC_results. These results are also available in the multiQC.HTML report in output directory.
+3\. FastQC is run on both the raw files and host removed files. These results are available in the output directory, in each sample directory under FastQC_results. These results are also available in the multiQC.HTML report in landing output directory.
 
-4\. The reads are classified with Kraken2. The minimum hit threshold is set to 3. This requires that overlapping k-mers share a common minimizer before a sequence is classified. Kraken 2 uses minimizers to compress the input genomic sequences, thereby reducing storage memory needed and run time [3]. This is the last step in FASTQ processing. 
+4\. The reads are classified with Kraken2. The minimum hit groups threshold is set to 3. The confidence interval is set to 0.1. We also use the 16 threads.  This requires that overlapping k-mers share a common minimizer before a sequence is classified. Kraken 2 uses minimizers to compress the input genomic sequences, thereby reducing storage memory needed and run time [3]. This is the last step in FASTQ processing. 
 
-5\. The Kraken results for all samples, regardless of single and paired input files are analyzed in the remainder of the pipeline. Users can either select pathogen or microbiome. The microbiome pipeline includes the steps of the pathogen pipeline with additional microbiome specific steps (Bracken abundance, alpha diversity and beta diversity). 
-**INSERT: 
-![Figure 3](./images/final_step_processing_overview.png "Figure 3, a schematic of microbiome and pathogen processing"). 
+5\. The Kraken results for all samples, regardless of single and paired input files are analyzed in the remainder of the pipeline. Users can either select pathogen or microbiome. The microbiome pipeline includes the steps of the species identification pipeline with additional microbiome specific steps (Bracken abundance, alpha diversity and beta diversity). 
+
+![Figure 3](./images/final_step_processing_overview.png "Figure 3, a schematic of the microbiome analysis  and and species identification pipelines"). 
 
 6\. Sunburst plots displaying every taxa level are created using [kreport2krona](https://github.com/jenniferlu717/KrakenTools/blob/master/kreport2krona.py) and [Krona](https://github.com/marbl/Krona/wiki). A plot containing all samples in your analysis is available in the output directory. Individual plots are available in each sample directory.
 
@@ -28,7 +27,7 @@ The steps of the pipeline are as follows:
 
 9\. Results are compiled into a [MultiQC](https://multiqc.info/docs/) report.
 
-10\. If microbiome analysis is selected, a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Bracken recreates the report file using the new Bracken numbers. This is available in the [*analysis sample name*] subdirectory under bracken outputs Levels below the estimated level are not printed. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.
+10\. If microbiome analysis is selected, a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Bracken recreates the report file using the new Bracken numbers. This is available in the user input sample id subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.
 
 11\. Bracken functions calculate alpha and beta diversity. 
 
@@ -156,7 +155,6 @@ The bottom of each BV-BRC page has an indicator that shows the number of jobs th
 5\. A job that has been successfully completed can be viewed by clicking on the row (which will turn the row blue) and then clicking on the View icon in the vertical green bar.
 ![Figure 39](./images/view_job_button.png "Figure 39") 
 
-###"**INSERT:"
 6\. This will open a page for the selected job. The top box has the job ID number and gives pertinent information about the time it took to complete and the selected parameters. The lower table has five output files, but if the classified an/or unclassified reads are selected when the job was submitted, it will have one or two additional rows.
 ![Figure 38](./images/Picture38.png "Figure 38") 
 
@@ -221,11 +219,9 @@ The bottom of each BV-BRC page has an indicator that shows the number of jobs th
 
 31\. Click the back arrow at the top of the page to return to the sample specific subdirectory.
 
-32\. Click the [*analysis sample name*]_sankey.html to view a Sankey diagram of the taxa. If features are overlapping, click and drag bars up and down. Specifically, the archaea feature may populate over the sample name. Simply click and drag down to view. 
+32\. Click the [*user sample id*]_sankey.html to view a Sankey diagram of the taxa. If features are overlapping, click and drag bars up and down. Specifically, the archaea feature may populate over the sample name. Simply click and drag down to view. 
 
 ## References
 1. Lu, J. & Salzberg, S. L. Ultrafast and accurate 16S rRNA microbial community analysis using Kraken 2. Microbiome 8, 1-11 (2020).
 2. Ondov, B. D., Bergman, N. H. & Phillippy, A. M. Interactive metagenomic visualization in a Web browser. BMC bioinformatics 12, 385 (2011).
 3. Lu, J., Rincon, N., Wood, D. E., Breitwieser, F. P., Pockrandt, C., Langmead, B., Salzberg, S. L., &amp; Steinegger, M. (2022). Metagenome analysis using the Kraken Software Suite. Nature Protocols, 17(12), 2815–2839. https://doi.org/10.1038/s41596-022-00738-y
-![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/17b3a1aa-1dc6-49b3-a1ed-bbbbe2368e9c)
-

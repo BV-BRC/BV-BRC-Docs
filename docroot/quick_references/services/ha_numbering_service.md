@@ -124,13 +124,14 @@ For each Query, the result of the analysis is reported in two forms:
 
 ### Action Buttons 
  
-* **ID TYPE - The user can change the sequence ID in the displayed alignment by selecting query and using the “ID TYPE” option. The user can view the alignment with simplified common name or strain name.
+* **ID TYPE** - Changes the sequence ID in the displayed alignment by selecting query and using the “ID TYPE” option. Then the alignment can be viewed with a simplified common name or strain name.
 
 ![ID Type Button](../images/ha_numbering/id_type.png)
 
-* **MSA in text format
-·      MSA in aligned fasta format
-·      Numbering Conversion Table in excel format.
-·      MSA Image
+* **Download** - Downloads query sequences, availabel in several formats:
+  * MSA in text format
+  * MSA in aligned fasta format
+  * Numbering Conversion Table in excel format.
+  * MSA Image
 
 ![Download Button](../images/ha_numbering/download.png)

@@ -44,8 +44,13 @@ The HA Subtype Numbering Conversion tool takes influenza HA protein sequence(s) 
 
 1\. At the top of any BV-BRC page, find the **TOOLS SERVICES** tab and then click on **HA Subtype Numbering Conversion**. 
  
-![Figure 0](./images/Picture0.png "Figure 0")
+![Figure 1](./images/img1.png "Figure 1")
 
 2\. This will open up the input form landing page. 
 
-![Figure 1](./images/Picture1.png "Figure 1")
+![Figure 2](./images/img2.png "Figure 2")
+
+
+
+
+

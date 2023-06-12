@@ -52,15 +52,16 @@ Below is a screenshot of the job landing page, as well as a summary of customiza
 
 ![HA Subtype Numbering Conversion Input Form](../images/ha_numbering/ha_numbering_input_form.png)
 
+**Input sequence:** Input sequences can be either a feature group, selected fasta sequence(s), or user-supplied sequence in fasta format.
+* **Feature Groups:** Allows selection of previously identified groups of sequences saved in the workspace.
+* **Select FASTA File:** Allows selection of custom sequence(s) saved in the workspace.
+* **Enter Sequence:** Allows pasting of a custom sequence in fasta format.
+
+**Conversion Sequence Numbering Scheme:** Selects the subtype(s) (one or more) to which numbering scheme conversion is desired.
+
 **Output Folder:** The workspace folder where results will be placed.
 
 **Output Name:** A user-specified label. This name will appear in the workspace when the analysis job is complete.
 
-**Conversion Sequence Numbering Scheme:** The user will also need to select the subtypes (one or more) for which the user needs the numbering scheme.
-
-**Input sequence:** The user can start the analysis with a feature group, select fasta sequence(s) or the user can input their own sequence in fasta format.
-* Feature Groups: This option allows users to select previously identified groups of sequences saved to their workspace.
-* Select FASTA File: This option allows users to select custom sequence(s) saved in their workspace.
-* Enter Sequence: The user can paste their custom sequence in fasta format.
 
 

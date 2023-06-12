@@ -9,11 +9,8 @@ The HA Subtype Numbering Conversion tool takes influenza HA protein sequence(s) 
 | Subtype Common Name | Strain Name        |
 | ------------------- | ------------------ |
 | H1_PR34             | A/Puerto/Rico/8/34 |
-
-
-	
-H1_1993	A/United/Kingdom/1/1933
-H1post1995	A/NewCaledonia/20/1999
+| H1_1993             | A/United/Kingdom/1/1933 |
+| H1post1995          | A/NewCaledonia/20/1999 |
 H1pdm	A/California/04/2009
 H2	A/Singapore/1/1957
 H5mEA-nonGsGD	A/mallard/Italy/3401/2005 (LPAI)

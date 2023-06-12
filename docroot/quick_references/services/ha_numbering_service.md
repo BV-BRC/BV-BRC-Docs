@@ -118,7 +118,7 @@ On the right-hand side of header in the results page there is a “View report�
 
 For each Query, the result of the analysis is reported in two forms: 
 * A simple multiple sequence alignment format that includes the query sequence on top and then the reference sequence of the same subtype as the query sequence, and then reference sequences for all other chosen subtypes.  It will be displayed using the alignment viewer.
-* A table with the mapping coordinating positions in one group of columns and the residue per subtype in the second group of columns
+* A table with the mapping coordinating positions in one group of columns and the residue per subtype in the second group of columns.
 
 ![Report](../images/ha_numbering/report.png)
 
@@ -131,7 +131,7 @@ For each Query, the result of the analysis is reported in two forms:
 * **Download** - Downloads query sequences, availabel in several formats:
   * MSA in text format
   * MSA in aligned fasta format
-  * Numbering Conversion Table in excel format.
+  * Numbering Conversion Table in excel format
   * MSA Image
 
 ![Download Button](../images/ha_numbering/download.png)

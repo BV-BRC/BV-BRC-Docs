@@ -117,19 +117,18 @@ On the right-hand side of header in the results page there is a “View report�
 ![View Report](../images/ha_numbering/view_report.png)
 
 For each Query, the result of the analysis is reported in two forms: 
-• A simple multiple sequence alignment format that includes the query sequence on top and then the reference sequence of the same subtype as the query sequence, and then reference sequences for all other chosen subtypes.  It will be displayed using the alignment viewer.
-• A table with the mapping coordinating positions in one group of columns and the residue per subtype in the second group of columns
+* A simple multiple sequence alignment format that includes the query sequence on top and then the reference sequence of the same subtype as the query sequence, and then reference sequences for all other chosen subtypes.  It will be displayed using the alignment viewer.
+* A table with the mapping coordinating positions in one group of columns and the residue per subtype in the second group of columns
 
 ![Report](../images/ha_numbering/report.png)
 
 ### Action Buttons 
  
-·      ID TYPE - The user can change the sequence ID in the displayed alignment by selecting query and using the “ID TYPE” option. The user can view the alignment with simplified common name or strain name.
+* **ID TYPE - The user can change the sequence ID in the displayed alignment by selecting query and using the “ID TYPE” option. The user can view the alignment with simplified common name or strain name.
 
 ![ID Type Button](../images/ha_numbering/id_type.png)
 
-·      Download- Users can select a query sequence to download–
-·      MSA in text format
+* **MSA in text format
 ·      MSA in aligned fasta format
 ·      Numbering Conversion Table in excel format.
 ·      MSA Image

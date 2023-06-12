@@ -48,13 +48,19 @@ The **“HA Subtype Numbering Conversion”** submenu under the **“TOOLS & SER
 
 ## Options
 
-Below is a screenshot of the job input form landing page, as well as a summary of customizable parameters.
+Below is a screenshot of the job landing page, as well as a summary of customizable parameters.
 
-![HA Subtype Numbering Conversion Form](../images/ha_numbering/ha_numbering_input_form.png)
+![HA Subtype Numbering Conversion Input Form](../images/ha_numbering/ha_numbering_input_form.png)
+
+**Output Folder:** The workspace folder where results will be placed.
+
+**Output Name:** A user-specified label. This name will appear in the workspace when the analysis job is complete.
+
+**Conversion Sequence Numbering Scheme:** The user will also need to select the subtypes (one or more) for which the user needs the numbering scheme.
+
+**Input sequence:** The user can start the analysis with a feature group, select fasta sequence(s) or the user can input their own sequence in fasta format.
+* Feature Groups: This option allows users to select previously identified groups of sequences saved to their workspace.
+* Select FASTA File: This option allows users to select custom sequence(s) saved in their workspace.
+* Enter Sequence: The user can paste their custom sequence in fasta format.
 
 
-
-
-
-
- 

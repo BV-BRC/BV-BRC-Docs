@@ -10,6 +10,6 @@ The HA Subtype Numbering Conversion tool takes influenza HA protein sequence(s) 
   * [HA Subtype Numbering Conversion Tutorial](../../tutorial/ha_numbering/ha_numbering.html)
 
   ## Using the HA Subtype Numbering Conversion Service
-  The **“HA Subtype Numbering Conversion”** submenu under the **“SERVICES”** main menu (Protein Tools category) opens the input form.
+  The **“HA Subtype Numbering Conversion”** submenu under the **“TOOLS & SERVICES”** main menu (Protein Tools category) opens the input form.
 
   * *Note: You must be logged into BV-BRC to use this service.*

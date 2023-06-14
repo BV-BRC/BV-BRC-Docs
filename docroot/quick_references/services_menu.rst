@@ -71,7 +71,7 @@ Transcriptomics Services
 
 
 Utilities Services
--------------
+------------------
 
 .. toctree::
    :maxdepth: 1

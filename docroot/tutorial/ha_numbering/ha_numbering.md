@@ -51,6 +51,48 @@ This will open up the HA Subtype Numbering Conversion job landing page.
 ![Figure 2](./images/img2.png "Figure 2")
 
 
+![Figure 3](./images/img3.png "Figure 3")
 
+
+![Figure 4](./images/img4.png "Figure 4")
+
+
+![Figure 5](./images/img5.png "Figure 5")
+
+
+![Figure 6](./images/img6.png "Figure 6")
+
+
+![Figure 7](./images/img7.png "Figure 7")
+
+
+![Figure 8](./images/img8.png "Figure 8")
+
+
+![Figure 9](./images/img9.png "Figure 9")
+
+
+![Figure 10](./images/img10.png "Figure 10")
+
+
+![Figure 11](./images/img11.png "Figure 11")
+
+
+![Figure 12](./images/img12.png "Figure 12")
+
+
+![Figure 13](./images/img13.png "Figure 13")
+
+
+![Figure 14](./images/img14.png "Figure 14")
+
+
+![Figure 15](./images/img15.png "Figure 15")
+
+
+![Figure 16](./images/img16.png "Figure 16")
+
+
+![Figure 17](./images/img17.png "Figure 17")
 
 

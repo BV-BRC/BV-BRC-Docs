@@ -17,18 +17,26 @@ Genomics Services
 
    services/genome_assembly_service.md
    services/genome_annotation_service.md
-   services/comparative_systems.md
    services/comprehensive_genome_analysis_service.md
-   services/blast.md
    services/sars_cov_2_assembly_annotation_service.md
-   services/similar_genome_finder_service.md
-   services/metacats.md
-   services/phylogenetic_tree_building_service.md
-   services/genome_alignment_service.md
+   services/blast.md
    services/primer_design_service.md
+   services/similar_genome_finder_service.md
+   services/genome_alignment_service.md
    services/variation_analysis_service.md
    services/tn_seq_analysis_service.md
    services/subspecies_classification_service.md
+   services/sequence_submission_service.md
+
+
+Phylogenomics Services
+----------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   services/phylogenetic_tree_building_service.md
+   services/genetree.md
 
 
 Protein Tools Services
@@ -36,9 +44,11 @@ Protein Tools Services
 .. toctree::
    :maxdepth: 1
 
-   services/genetree.md
    services/msa_snp_variation_service.md
+   services/metacats.md
    services/proteome_comparison_service.md
+   services/comparative_systems.md
+   services/ha_numbering_service.md
 
 
 Metagenomics Services
@@ -60,7 +70,7 @@ Transcriptomics Services
    services/rna_seq_analysis_service.md
 
 
-Data Services
+Utilities Services
 -------------
 
 .. toctree::

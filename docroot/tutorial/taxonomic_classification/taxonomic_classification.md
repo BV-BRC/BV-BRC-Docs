@@ -9,7 +9,7 @@ The steps of the pipeline are as follows:
 1\. User input: If users submit Sequence Read Archive values (SRAs) and the BV-BRC will input the corresponding FASTQ files to the service.  Users can also submit short reads (paired or single end) to the service. Users can input multiple read files in the same job. If only one sample is submitted to the job any multisample comparison outputs will not be available.  The pipeline begins with FASTQ processing. The single and paired samples are run separately but go though the same steps. 
 ![Figure 2, a schematic of FASTQ processing](./images/fastq_processing_overview.png "Figure 2, a schematic of FASTQ processing") 
 
-2\. Hisat2 aligns reads
+2\. The aim of this step is to align reads to the host genome and remove them from the sample [Hisat2] (http://daehwankimlab.github.io/hisat2/) is a fast and sensitive alignment program for mapping next-generation sequencing reads.
 
 3\. FastQC is run on both the raw files and host removed files. These results are available in the output directory, in each sample directory under FastQC_results. These results are also available in the multiQC.HTML report in landing output directory.
 
@@ -29,7 +29,7 @@ The steps of the pipeline are as follows:
 
 10\. If microbiome analysis is selected, a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Bracken recreates the report file using the new Bracken numbers. This is available in the user input sample id subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.
 
-11\. Bracken functions calculate alpha and beta diversity. 
+11\. Bracken functions calculate alpha and beta diversity. The statstics displayed with plotly in .HTML files as well as for downstream analysis as .CSV.
 
 ## I. Locating the Taxonomic Classification Service App
 
@@ -159,31 +159,39 @@ The bottom of each BV-BRC page has an indicator that shows the number of jobs th
 ![Figure 38](./images/Picture38.png "Figure 38") 
 
 # Nicole start of changes
-7\. Click on the sample_key.csv. This will display the sample key. In order to process multiple inputs, this service will rename your output files with *'paired_sample_#'* and *'single_sample_#'*. These names are used throughout the analysis documents.
+7\. The landing directory will have files and sub directories for each sample. A summary_table.csv provides a summary for the Kraken2 results. The MultiQC report contains the FastQC, Kraken The sample_key.csv displays the user input file names and the sample ids. A Sankey diagram for each sample.  Click on the sample_key.csv. 
 
-8\. multiqc_report.html This will display a compilation of sample results from various analyses into one place. If you are new to MultiQC, an introductory video walkthough is available above General Statistics. ## Insert screen capture. Use the toolbox to interact with the contents of the report. ![Figure 39!](./images/MultiQC_video_walkthrough.png "MultiQC video walkthrough") 
+A subdirectory is available for each sample. The contents are described below.
+
+For *(microbiome analyses)* alpha diversity results for each sample are collated as .CSV and .HTML. 
+*(If multiple samples were run)* the beta diversity results as .CSV and .HTML.
+![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/72908645-2b67-494d-921c-9d543a65af7d)
+
+8\. multiqc_report.html will display a compilation of sample results from various analyses into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. ## Insert screen capture. Use the toolbox to interact with the contents of the report. ![Figure 39!](./images/MultiQC_video_walkthrough.png "MultiQC video walkthrough")![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/3861e33f-fced-4da1-9f5b-4033bba8152d)
 
 9\. multisample_comparison.html *(This file is only generated if multiple samples are submitted with this job)* Click to view a table of the taxa compared across samples according to z-score Note: this information is also available in multisample_comparison.csv for convient use in downstream analysis and visualzation.
 
-10\. multisample_krona.html *(This file is only generated if multiple samples are submitted with this job)* Click to view krona plots of each sample included in your analysis. Toggle between all the samples included in your analysis by clicking on the sample names or up and down arrows in the upper left hand corner of the report underneath the Krona logo. For more details about interacting with the Krona chart please view the sample level details at number 20 in this list.
+10\. multisample_krona.html *(This file is only generated if multiple samples are submitted with this job)* Click to view krona plots of each sample included in your analysis. Toggle between all the samples included in your analysis by clicking on the sample names or up and down arrows in the upper left hand corner of the report underneath the Krona logo. For more details about interacting with the Krona chart please view the sample level details at number 20 in this list.![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/b0770ccf-74ea-4c21-949a-0907245cdb03)
 
 11\. summary_table.csv *(This file is only generated if multiple samples are submitted with this job)* Click to view a summary of kraken results across all the samples submitted in this job.
 
-12\. Sample level files for each sample are availabe in subdirectories named according to th eanalysis sample name. Or, if only one sample is uploaded, there will only be one subdirectory in the output folder. Click on the subdirectory. All subdirectories will follow the same structure.
+12\. summary_table.csv *(This file is only generated if multiple samples are submitted with this job)* Click to view a summary of kraken results across all the samples submitted in this job.![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/ad2c2b87-a72e-416a-a478-cd80b0be3343)
 
-13\. Click the Hisat2_results subdirectory to view the contents.
+13\. Click into a sample specific subdirectory. Each sample directory is formatted the same way and contains files for an individual sample.
 
-14\. This folder contains the host removed FASTQ read files. A SAM file with the aligned reads is also located in this directory 
+14\.	Click FASTQC_results directory. This directory contains two subdirectories, host_removed_reads and raw_reads. Click into a subdirectory to view here is FastQC reports and directory with related files for each sample.  If you are unfamiliar with reviewing FastQC report review this [detailed video walkthrough](https://www.youtube.com/watch?v=bz93ReOv87Y) from the creators of FastQC at [Babraham Bioinformatics](https://www.bioinformatics.babraham.ac.uk/).  Note: These results are also available in the MultiQC report which contains these files for every sample included in this job. The files that support the FastQC report are available zipped into fastqc.zip for the specific FASTQ (or both read one and read two FASTQs). Click the up arrow next to *parent folder* to return to the sample specific subdirectory.
 
-15\. Click the up arrow next to *parent folder* to return to the sample specific subdirectory.
+15\. Click the Hisat2_results subdirectory to view the contents. This folder contains the host removed FASTQ read files. A SAM file with the aligned reads is also located in this directory.Click the up arrow next to *parent folder* once to return to the sample specific subdirectory.
 
-16\. Click FASTQC_results directory. This directory contains two subdirectories, host_removed_reads and raw_reads. Click into a subdirectory to view here is FastQC reports and directory with related files for each sample.  If you are unfamiliar with reviewing FastQC report review this [detailed video walkthough](https://www.youtube.com/watch?v=bz93ReOv87Y) from the creaters of FastQC at [Babraham Biofinformatics](https://www.bioinformatics.babraham.ac.uk/).  Note: These results are also available in the MultiQC report which contains these files for every sample included in this job.
+16\. Click kraken_output directory to find the standard Kraken2 result report and output files. These are text files that can be viewed by clicking on them. Click the up arrow next to *parent folder* once to return to the sample specific subdirectory.
+ 
 
-17\. Click the up arrow next to *parent folder* twice to return to the sample specific subdirectory.
+17\. Sankey diagram This is another view of the taxa across every domain level at the same time.
 
-18\. Click kraken_output directory to find the standard Kraken2 result report and output files. These are text files that can be viewed by clicking on them.
+18\. 
 
-19\. Click the up arrow next to *parent folder* to return to the sample specific subdirectory.
+
+19\. 
 
 20\. Click the [*analysis sample name*]_krona.html to view an interactive display of the taxa and their domain level.
 

@@ -166,7 +166,7 @@ The bottom of each BV-BRC page has an indicator that shows the number of jobs th
 ![Figure 38](./images/Picture38.png "Figure 38") 
 
 # Nicole start of changes
-7\. The landing directory will have files and sub directories for each sample. A summary_table.csv provides a summary for the Kraken2 results. The MultiQC report contains the FastQC, Kraken The sample_key.csv displays the user input file names and the sample ids. A Sankey diagram for each sample.  Click on the sample_key.csv. 
+7\. The landing directory will have files and sub directories for each sample. A summary_table.csv provides a summary for the Kraken2 results. The MultiQC report contains the FastQC, Kraken The sample_key.csv displays the user input file names and the sample ids. A Sankey diagram for each sample.
 
 A subdirectory is available for each sample. The contents are described below.
 
@@ -192,7 +192,7 @@ For *microbiome analyses* alpha diversity results for each sample are collated a
 16\. Click kraken_output directory to find the standard Kraken2 result report and output files. These are text files that can be viewed by clicking on them. Click the up arrow next to *parent folder* once to return to the sample specific subdirectory.
  
 
-17\. Sankey diagram This is another view of the taxa across every domain level at the same time.
+17\. [*user sample id*]_sankey.html Sankey diagram This is another view of the taxa across every domain level at the same time. The key to reading and interpreting Sankey Diagrams is remembering that the width is proportional to the quantity represented. If features are overlapping, click and drag bars up and down. Specifically, the archaea feature may populate over the sample name. Simply click and drag down to view. 
 
 18\. 
 
@@ -231,9 +231,6 @@ For *microbiome analyses* alpha diversity results for each sample are collated a
 30\. A link to the Krona documentation can be viewed by clicking on the question mark (?) icon.
 ![Figure 54](./images/Picture54.png "Figure 54") 
 
-31\. Click the back arrow at the top of the page to return to the sample specific subdirectory.
-
-32\. Click the [*user sample id*]_sankey.html to view a Sankey diagram of the taxa. If features are overlapping, click and drag bars up and down. Specifically, the archaea feature may populate over the sample name. Simply click and drag down to view. 
 
 ## References
 1. Lu, J. & Salzberg, S. L. Ultrafast and accurate 16S rRNA microbial community analysis using Kraken 2. Microbiome 8, 1-11 (2020).

@@ -3,7 +3,7 @@
 ## Overview
 The Genome Overview Tab provides summary information for the selected genome including  genome sequence information, Genome Metadata, Genomic Features, Protein Features, Specialty Genes, and related PubMed Articles.  
 
-### See also
+## See also
   * [Genome Metadata](../organisms_taxon/genome_metadata.html) 
   * [Genome Annotations](../organisms_taxon/genome_annotations.html)
   * [Protein Families Tab](../organisms_taxon/protein_families.html)  

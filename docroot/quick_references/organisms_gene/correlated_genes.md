@@ -3,7 +3,7 @@
 ## Overview
 The Correlated Genes Tab shows the genes that are either up or down-regulated with respect to selected gene in the Feature View. The values are based on the public transcriptomics data that are available in BV-BRC. 
 
-### See also
+## See also
   * Examining Transcriptomics Data Tutorial
   * [Transcriptomics Gene List](../organisms_taxon/transcriptomics_gene_list.html)
   * [Transcriptomics Gene List Heatmap](../organisms_taxon/transcriptomics_gene_heatmap.html)

@@ -3,7 +3,7 @@
 ## Overview
 The Subsystems Tab provides access to a graphical display (pie chart) of subsystem superclasses asserted to a genome or a genome group. Each of the 11 superclasses of subsystems (Metabolism, Energy, Protein Processing etc.) can be expanded to their class and subclass levels. The Subsystems (green)- and Gene (yellow) counts provided in parenthesis link to tabular representations of the appropriate data.  
 
-### See also
+## See also
   * [Subsystems](../organisms_taxon/subsystems.html)
 
 ## Accessing Subsystems

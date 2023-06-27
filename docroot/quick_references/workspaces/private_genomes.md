@@ -3,7 +3,7 @@
 ## Overview
 BV-BRC allows users to have their own private genomes stored in the workspace and also available integrated with the rest of the BV-BRC public genome data to enable comparative analysis.
 
-### See also:
+## See also:
   * [Genome Annotation Service Quick Reference Guide](../services/genome_annotation_service.html)
   * [Genome Annotation Service Tutorial](../../tutorial/genome_annotation/annotation.html)
   * [Private Workspace](../workspaces/workspace.html)

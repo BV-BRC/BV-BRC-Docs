@@ -3,7 +3,7 @@
 ## Overview
 The AMR Phenotypes Tab provides a tabular view of all of the bacterial AMR phenotype data for the selected taxon level, including the resistance phenotype (Resistant, Susceptible, Intermediate) and/or the minimum inhibitory concentration (MIC) value as measured by antibiogram (AMR panel) assay.
 
-### See also
+## See also
 
 ## Accessing AMR Phenotypes
 Clicking the AMR Phenotypes Tab in a Taxon View displays a table with rows for each genome/antibiotic combination for which there is an AMR phenotype designation or MIC value in that taxonomic level, as shown below:

@@ -3,7 +3,7 @@
 ## Overview
 In order to use your own private data with the BV-BRC analysis services and tools requires uploading the data into the Workspace. Each analysisservice that accepts external data (e.g., Assembly, Annotation, RNA-Seq, etc.) provides a means for uploading the required data files for that service. However, sometimes it is desirable to upload files into the Workspace independent of a particular service or in bulk.  The Workspace Upload functionality provides this capability. *
 
-### See also:
+## See also:
   * [Workspace](../workspaces/workspace.html)
   * [Registration](../registration.html)
   * [Services and Tools](../services_tab.html)

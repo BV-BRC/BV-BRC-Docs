@@ -4,7 +4,7 @@
 The Circular Genome Viewer provides a circular interactive graphical representation of the
 alignment of genes and other genomic data.
 
-### See also
+## See also
   * [Genome Annotations](../organisms_taxon/genome_annotations.html)
   * Exploring a (private) genome Tutorial
 

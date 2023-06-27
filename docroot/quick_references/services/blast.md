@@ -3,7 +3,7 @@
 ## Overview
 The BLAST service integrates the BLAST (Basic Local Aligment Search Tool) algorithms to perform searches against against public or private genomes in BV-BRC or other reference databases using a DNA or protein sequence and find matching genomes, genes, RNAs, or proteins.  
 
-### See also
+## See also
 * [BLAST Service](https://www.bv-brc.org/app/Homology)
 * [BLAST Service Tutorial](../../tutorial/blast/blast.html)
 

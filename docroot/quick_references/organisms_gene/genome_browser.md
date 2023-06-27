@@ -3,7 +3,7 @@
 ## Overview
 The Genome Browser provides an interactive graphical representation of the alignment of genes and other genomic features depicted along a horizontal axis of genome coordinates.
 
-### See also
+## See also
   * [Genome Browser](../organisms_genome/genome_browser.html)
 
 ## Accessing the Genome Browser

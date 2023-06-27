@@ -3,7 +3,7 @@
 ## Overview
 The meta-CATS metadata genome comparison tool takes sequence data and determines the aligned positions that significantly differ between two (or more) user-specified groups. Once an analysis is started, a multiple sequence alignment is performed if the input was unaligned (such as from a database query). A chi-square test of independence is then performed on each non-conserved column of the alignment, to identify those that have a non-random distribution of bases. A quantitative statistical value of variation is computed for all positions. Columns that are perfectly conserved will not be identified as statistically significant. All other non-conserved columns will be evaluated to determine whether the p-value is lower than the specified threshold value. Terminal gaps flanking the aligned sequences will not be taken into account for the analysis.  
 
-### See also
+## See also
 * [Metadata-driven Comparative Analysis Tool (meta-CATS)](https://bv-brc.org/app/MetaCATS)
 * [Metadata-driven Comparative Analysis Tool (meta-CATS) Tutorial](../../tutorial/metacats/metacats.html)
 

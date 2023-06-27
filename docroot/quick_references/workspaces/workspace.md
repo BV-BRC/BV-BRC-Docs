@@ -3,7 +3,7 @@
 ## Overview
 The private Workspace provides a private area in the website for uploading data, running analysis services on the data, storing the analysis results, and managing groups of data created within the website.
 
-### See also:
+## See also:
   * [Groups](../workspaces/groups.html)
   * [Data Upload](../workspaces/data_upload.html)
   * [Registration](../registration.html)

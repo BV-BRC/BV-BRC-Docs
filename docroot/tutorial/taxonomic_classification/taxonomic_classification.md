@@ -75,7 +75,9 @@ To initiate the upload, first click on the folder icon.
 9\. Repeat steps 2-5 to upload the second pair of reads.
 ![Figure 15](./images/upload_file_2.png "Figure 15") 
 
-10\. To finish the upload, click on the icon of an arrow within a circle. This will move your file into the Selected libraries box.
+10\. The SAMPLE IDENTIFER Field will auto populate with the file name. Edit the field by clicking into the text box. The text entered to this text box will be used throughout the output files for the service. This documentation refers to this field as a sample id.
+
+11\. To finish the upload, click on the icon of an arrow within a circle. This will move your file into the Selected libraries box.
 ![Figure 16](./images/libaries_box_button.png "Figure 16") 
 
 ## III. Uploading single reads
@@ -92,7 +94,9 @@ To initiate the upload, first click on the folder icon.
 4\. This will auto-fill the name of the document into the text box as seen below.
 ![Figure 20](./images/single_read_autofill.png "Figure 20") 
 
-5\. To finish the upload, click on the icon of an arrow within a circle. This will move your file into the Selected libraries box.
+5\. The SAMPLE IDENTIFER Field will auto populate with the file name. Edit the field by clicking into the text box. The text entered to this text box will be used throughout the output files for the service. This documentation refers to this field as a sample id.
+
+6\. To finish the upload, click on the icon of an arrow within a circle. This will move your file into the Selected libraries box.
 ![Figure 21](./images/single_read_selected_libaries.png "Figure 21") 
 
 ## IV. Submitting reads that are present at the Sequence Read Archive (SRA)
@@ -102,7 +106,9 @@ To initiate the upload, first click on the folder icon.
 2\. Paste the copied accession number in the text box underneath SRA Run Accession, then click on the icon of an arrow within a circle.
 ![Figure 23](./images/sra_box.png "Figure 23") 
 
-3\. This will move the file into the Selected libraries box.
+3\. The SAMPLE IDENTIFER Field will auto populate with the SRA value. Edit the field by clicking into the text box. The text entered to this text box will be used throughout the output files for the service. This documentation refers to this field as a sample id.
+
+4\. This will move the file into the Selected libraries box.
 ![Figure 24](./images/SRA_selected_libaries.png "Figure 24") 
 
 ## IV. Selecting parameters
@@ -115,7 +121,7 @@ Parameters must be selected prior to job submission. The algorithm used for Taxo
 1\. An analysis type must be selected for the Taxonomic Classification job. Click on the Analysis Type drop down arrow to choose between Species Identification or Microbiome Analysis. For a detailed description of both outlines please review the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html).
 ![Figure 26](./images/select_analysis_type.png "Figure 26")
 
-2\. A reference database must be selected for the Taxonomic Classification job.  Click on the Database dropdown arrow to choose between **INSERT:names of databases. For a detailed description of both the databases please review the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html).
+2\. A reference database must be selected for the Taxonomic Classification job.  Click on the Database dropdown arrow to choose between Kraken2 Standard Database and the BV-BRC Database. For a detailed description of both the databases please review the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html).
 ![Figure 27](./images/select_database.png "Figure 27")
 
 3\. Choose the host genome that will be removed from the reads. Click on the Host Genome dropdown arrow to and click on the host genome for your samples. For metagenomic samples, homo sapiens is the most common host genome.

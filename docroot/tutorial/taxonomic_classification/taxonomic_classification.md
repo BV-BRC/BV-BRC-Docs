@@ -1,4 +1,3 @@
-# ** text ** is also something that hasn't been established yet 
 # Taxonomic Classification Service
 Metagenomics is the study of genomic sequences obtained directly from an environment. For many metagenomic samples, the species, genera and even phyla present in the sample are largely unknown at the time of sequencing, and the goal of sequencing is to determine the microbial composition as precisely as possible. The BV-BRC Taxonomic Classification service can be used to identify the microbial composition of metagenomic samples. Researchers can submit metagenomic samples that are short reads (paired end or single end) as well as submissions to the Sequence Read Archive via accession numbers. This service follows the analyses outlined in [Lu et al., 2022](https://doi.org/10.1038/s41596-022-00738-y) for metagenomic analysis with the Kraken software suite.  There are two pipelines, one is a standard approach called ** species identification **. The other is called ** microbiome analysis ** which includes additional steps specifically for microbiome samples. Kraken [1], first released in 2014, has been shown to provide exceptionally fast and accurate classification for shotgun metagenomics sequencing projects. Kraken 2, which matches the accuracy and speed of Kraken 1, supports 16S rRNA databases.  Kraken2 uses exact-match database queries of k-mers, rather than inexact alignment of sequences.  Sequences are classified by querying the database for each k-mer in a sequence, and then using the resulting set of lowest common ancestor (LCA) taxa to determine an appropriate label for the sequence. The service uses a [Snakemake](https://snakemake.readthedocs.io/en/stable/) to manage the pipeline.
 ![Figure 1, a overview of the analysis pipeline](images/detailed_output_overview.png "Figure 1, a overview of the analysis pipeline") 
@@ -17,7 +16,7 @@ The steps of the pipeline are as follows:
 
 5\. The Kraken results for all samples, regardless of single and paired input files are analyzed in the remainder of the pipeline. Users can either select pathogen or microbiome. The microbiome pipeline includes the steps of the species identification pipeline with additional microbiome specific steps (Bracken abundance, alpha diversity and beta diversity). 
 
-![Figure 3](./images/final_step_processing_overview.png "Figure 3, a schematic of the microbiome analysis  and and species identification pipelines"). 
+![Figure 3](./images/final_step_processing_overview.png "Figure 3, a schematic of the microbiome analysis  and and species identification pipelines")
 
 6\. Sunburst plots displaying every taxa level are created using [kreport2krona](https://github.com/jenniferlu717/KrakenTools/blob/master/kreport2krona.py) and [Krona](https://github.com/marbl/Krona/wiki). A plot containing all samples in your analysis is available in the output directory. Individual plots are available in each sample directory.
 
@@ -50,7 +49,8 @@ Paired read libraries are usually given as file pairs, with each file containing
 1\. To upload a FASTQ file that contains paired reads, locate the box called “Paired read library.” 
 ![Figure 7](./images/paired_reads_input.png "Figure 7") 
 
-2\. The reads must be saved in the workspace as file type reads to submit them to a BV-BRC service.  To initiate the upload, first click on the folder icon. 
+2\. The reads must be saved in the workspace as file type reads to submit them to a BV-BRC service.
+To initiate the upload, first click on the folder icon. 
 ![Figure 8](./images/paired_input_read_1.png "Figure 8") 
 
 3\. This opens a pop-up window where the files for upload can be selected.  Click on the icon with the arrow pointing up.  
@@ -69,6 +69,7 @@ Paired read libraries are usually given as file pairs, with each file containing
 ![Figure 13](./images/upload_file_1.png "Figure 13") 
 
 8\. Pay attention to the upload monitor in the lower right corner of the BV-BRC page. It will show the progress of the upload. Do not submit the job until the upload is 100% complete. 
+
 ![Figure 14](./images/file_uploading.png "Figure 14") 
 
 9\. Repeat steps 2-5 to upload the second pair of reads.
@@ -163,19 +164,18 @@ The bottom of each BV-BRC page has an indicator that shows the number of jobs th
 
 A subdirectory is available for each sample. The contents are described below.
 
-For *(microbiome analyses)* alpha diversity results for each sample are collated as .CSV and .HTML. 
-*(If multiple samples were run)* the beta diversity results as .CSV and .HTML.
-![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/72908645-2b67-494d-921c-9d543a65af7d)
+For *microbiome analyses* alpha diversity results for each sample are collated as .CSV and .HTML. 
+*If multiple samples were run* the beta diversity results as .CSV and .HTML.
 
 8\. multiqc_report.html will display a compilation of sample results from various analyses into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. ## Insert screen capture. Use the toolbox to interact with the contents of the report. ![Figure 39!](./images/MultiQC_video_walkthrough.png "MultiQC video walkthrough")![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/3861e33f-fced-4da1-9f5b-4033bba8152d)
 
-9\. multisample_comparison.html *(This file is only generated if multiple samples are submitted with this job)* Click to view a table of the taxa compared across samples according to z-score Note: this information is also available in multisample_comparison.csv for convient use in downstream analysis and visualzation.
+9\. multisample_comparison.html *This file is only generated if multiple samples are submitted with this job* Click to view a table of the taxa compared across samples according to z-score Note: this information is also available in multisample_comparison.csv for convient use in downstream analysis and visualzation.
 
-10\. multisample_krona.html *(This file is only generated if multiple samples are submitted with this job)* Click to view krona plots of each sample included in your analysis. Toggle between all the samples included in your analysis by clicking on the sample names or up and down arrows in the upper left hand corner of the report underneath the Krona logo. For more details about interacting with the Krona chart please view the sample level details at number 20 in this list.![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/b0770ccf-74ea-4c21-949a-0907245cdb03)
+10\. multisample_krona.html *This file is only generated if multiple samples are submitted with this job* Click to view krona plots of each sample included in your analysis. Toggle between all the samples included in your analysis by clicking on the sample names or up and down arrows in the upper left hand corner of the report underneath the Krona logo. For more details about interacting with the Krona chart please view the sample level details at number 20 in this list.![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/b0770ccf-74ea-4c21-949a-0907245cdb03)
 
-11\. summary_table.csv *(This file is only generated if multiple samples are submitted with this job)* Click to view a summary of kraken results across all the samples submitted in this job.
+11\. summary_table.csv *This file is only generated if multiple samples are submitted with this job* Click to view a summary of kraken results across all the samples submitted in this job.
 
-12\. summary_table.csv *(This file is only generated if multiple samples are submitted with this job)* Click to view a summary of kraken results across all the samples submitted in this job.![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/ad2c2b87-a72e-416a-a478-cd80b0be3343)
+12\. summary_table.csv *This file is only generated if multiple samples are submitted with this job* Click to view a summary of kraken results across all the samples submitted in this job.![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/ad2c2b87-a72e-416a-a478-cd80b0be3343)
 
 13\. Click into a sample specific subdirectory. Each sample directory is formatted the same way and contains files for an individual sample.
 

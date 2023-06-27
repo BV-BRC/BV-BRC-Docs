@@ -173,15 +173,15 @@ A subdirectory is available for each sample. The contents are described below.
 For *microbiome analyses* alpha diversity results for each sample are collated as .CSV and .HTML. 
 *If multiple samples were run* the beta diversity results as .CSV and .HTML.
 
-8\. multiqc_report.html will display a compilation of sample results from various analyses into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. ## Insert screen capture. Use the toolbox to interact with the contents of the report. ![Figure 39!](./images/MultiQC_video_walkthrough.png "MultiQC video walkthrough")![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/3861e33f-fced-4da1-9f5b-4033bba8152d)
+8\. multiqc_report.html will display a compilation of sample results from various analyses into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. ## Insert screen capture. Use the toolbox to interact with the contents of the report. ![Figure 39!](./images/MultiQC_video_walkthrough.png "MultiQC video walkthrough")
 
 9\. multisample_comparison.html *This file is only generated if multiple samples are submitted with this job* Click to view a table of the taxa compared across samples according to z-score Note: this information is also available in multisample_comparison.csv for convient use in downstream analysis and visualzation.
 
-10\. multisample_krona.html *This file is only generated if multiple samples are submitted with this job* Click to view krona plots of each sample included in your analysis. Toggle between all the samples included in your analysis by clicking on the sample names or up and down arrows in the upper left hand corner of the report underneath the Krona logo. For more details about interacting with the Krona chart please view the sample level details at number 20 in this list.![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/b0770ccf-74ea-4c21-949a-0907245cdb03)
+10\. multisample_krona.html *This file is only generated if multiple samples are submitted with this job* Click to view krona plots of each sample included in your analysis. Toggle between all the samples included in your analysis by clicking on the sample names or up and down arrows in the upper left hand corner of the report underneath the Krona logo. For more details about interacting with the Krona chart please view the sample level details at number 20 in this list.
 
 11\. summary_table.csv *This file is only generated if multiple samples are submitted with this job* Click to view a summary of kraken results across all the samples submitted in this job.
 
-12\. summary_table.csv *This file is only generated if multiple samples are submitted with this job* Click to view a summary of kraken results across all the samples submitted in this job.![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/ad2c2b87-a72e-416a-a478-cd80b0be3343)
+12\. summary_table.csv *This file is only generated if multiple samples are submitted with this job* Click to view a summary of kraken results across all the samples submitted in this job.
 
 13\. Click into a sample specific subdirectory. Each sample directory is formatted the same way and contains files for an individual sample.
 

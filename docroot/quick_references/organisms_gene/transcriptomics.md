@@ -3,7 +3,7 @@
 ## Overview
 The Transcriptomics Tab in the Feature View provides expression data for the selected gene from all of the transcriptomics datasets in which the gene appears, including levels of expression based on Log ratio or Z score and the strains, gene modification, or experimental conditions. 
 
-### See also
+## See also
   * [xamining Transcriptomics Data Tutorial
   * [Transcriptomics Gene List](../organisms_taxon/transcriptomics_gene_list.html)
   * [Transcriptomics Gene List Heatmap](../organisms_taxon/transcriptomics_gene_heatmap.html)

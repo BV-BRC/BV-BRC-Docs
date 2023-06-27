@@ -3,7 +3,7 @@
 ## Overview
 The Gene List Heatmap visually displays expression levels of all the genes in a Gene List across all selected comparisons using a heatmap viewer where coloring is based on the log ratio value of a gene in a given comparison. It allows quick visual identification of genes with similar expression patterns across one or more comparisons, including clustering and other options.
 
-### See also
+## See also
   * Examining Transcriptomics Data Tutorial
   * [Transcriptomics Experiments and Comparisons](../organisms_taxon/experiments_comparisons_tables.html)
   * [Transcriptomics Gene Page](../organisms_gene/transcriptomics.html)

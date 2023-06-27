@@ -5,7 +5,7 @@ The Sequence Submission service allows user to validate and submit virus sequenc
 
 Note: Current pipeline only supports Influenza A, B, or C virus family.
 
-### See also
+## See also
   * [Sequence Submission Service](https://bv-brc.org/app/SequenceSubmission)
   * [Sequence Submission Service Tutorial](../../tutorial/sequence_submission/sequence_submission.html)
 

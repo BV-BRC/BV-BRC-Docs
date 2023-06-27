@@ -3,7 +3,7 @@
 ## Overview
 The bacterial Phylogenetic Tree Service enables construction of custom phylogenetic trees built from user-selected genomes. The **Codon Tree** method selects single-copy BV-BRC PGFams and analyzes aligned proteins and coding DNA from single-copy genes using the program RAxML. The service returns a Scaled Vector Graphics (SVG) image of the final tree, as well as a Newick file which can be rendered in the interactive Phylogenetic Tree Viewer in BV-BRC or downloaded and viewed in FigTree or other software.
 
-### See also
+## See also
 * [Phylogenetic Tree Service](https://bv-brc.org/app/PhylogeneticTree)
 * [Phylogenetic Tree Service Tutorial](../../tutorial/phylogenetic_tree/phylogenetic_tree.html)
 * [Phylogeny Tab Quick Reference Guide](../organisms_taxon/phylogeny.html)

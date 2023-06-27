@@ -3,7 +3,7 @@
 ## Overview
 The Features Tab provides a table of all the annotated genomic features (gene, CDS, mRNA, proteins, etc.) corresponding to the set of genomes in the selected Taxon View level or in the user-defined Genome Group.  From this page, features can be sorted, filtered, collected into groups, and downloaded. 
 
-### See also
+## See also
   * [Genome Annotations](../organisms_taxon/genome_annotations.html)
   * [Genome Page Overview](../organisms_genome/overview.html)
   * [Multiple Sequence Alignment Viewer](../other/msa_viewer.html)

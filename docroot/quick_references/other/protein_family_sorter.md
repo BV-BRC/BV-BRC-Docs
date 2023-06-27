@@ -3,7 +3,7 @@
 ## Overview
 The Protein Family Sorter (PFS) allows users to select a set of genomes of interest and examine distribution of the superset of protein families across the genomes, commonly referred to as the “pan genome." The PFS provides various filtering options to quickly locate protein families that are conserved across all the genomes (“core genome”), conserved only in asubset of the selected genomes (“accessory genome”) or that match a specified function. A tabular view shows protein families matching filtering criteria and an interactive heatmap viewer provides a bird’s-eye (“pan genome”) view of the distribution of the protein families across multiple genomes, with clustering andanchoring functions to show relative conservation of synteny and identify areas of possible horizontal transfer. 
 
-### See also
+## See also
   * [Comparative Systems Service](https://www.bv-brc.org/app/ComparativeSystems)
   * [Comparative Systems Service Tutorial](../../tutorial/comparative_systems/comparative_systems.html)
   * [Protein Families]

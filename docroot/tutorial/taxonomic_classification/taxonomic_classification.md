@@ -75,7 +75,7 @@ To initiate the upload, first click on the folder icon.
 9\. Repeat steps 2-5 to upload the second pair of reads.
 ![Figure 15](./images/upload_file_2.png "Figure 15") 
 
-10\. The SAMPLE IDENTIFER Field will auto populate with the file name. Edit the field by clicking into the text box. The text entered to this text box will be used throughout the output files for the service. This documentation refers to this field as a sample id.
+10\. The SAMPLE ![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/d02a1000-66c4-4118-9536-0c2f59aa921b) Field will auto populate with the file name. Edit the field by clicking into the text box. The text entered to this text box will be used throughout the output files for the service. This documentation refers to this field as a sample id.
 
 11\. To finish the upload, click on the icon of an arrow within a circle. This will move your file into the Selected libraries box.
 ![Figure 16](./images/libaries_box_button.png "Figure 16") 
@@ -94,7 +94,7 @@ To initiate the upload, first click on the folder icon.
 4\. This will auto-fill the name of the document into the text box as seen below.
 ![Figure 20](./images/single_read_autofill.png "Figure 20") 
 
-5\. The SAMPLE IDENTIFER Field will auto populate with the file name. Edit the field by clicking into the text box. The text entered to this text box will be used throughout the output files for the service. This documentation refers to this field as a sample id.
+5\. The SAMPLE IDENTIFIER Field will auto populate with the file name. Edit the field by clicking into the text box. The text entered to this text box will be used throughout the output files for the service. This documentation refers to this field as a sample id.
 
 6\. To finish the upload, click on the icon of an arrow within a circle. This will move your file into the Selected libraries box.
 ![Figure 21](./images/single_read_selected_libaries.png "Figure 21") 
@@ -106,7 +106,7 @@ To initiate the upload, first click on the folder icon.
 2\. Paste the copied accession number in the text box underneath SRA Run Accession, then click on the icon of an arrow within a circle.
 ![Figure 23](./images/sra_box.png "Figure 23") 
 
-3\. The SAMPLE IDENTIFER Field will auto populate with the SRA value. Edit the field by clicking into the text box. The text entered to this text box will be used throughout the output files for the service. This documentation refers to this field as a sample id.
+3\. The SAMPLE IDENTIFIER Field will auto populate with the SRA value. Edit the field by clicking into the text box. The text entered to this text box will be used throughout the output files for the service. This documentation refers to this field as a sample id.
 
 4\. This will move the file into the Selected libraries box.
 ![Figure 24](./images/SRA_selected_libaries.png "Figure 24") 

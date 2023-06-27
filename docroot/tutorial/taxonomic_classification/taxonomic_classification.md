@@ -8,7 +8,7 @@ The steps of the pipeline are as follows:
 1\. User input: If users submit Sequence Read Archive values (SRAs) and the BV-BRC will input the corresponding FASTQ files to the service.  Users can also submit short reads (paired or single end) to the service. Users can input multiple read files in the same job. If only one sample is submitted to the job any multisample comparison outputs will not be available.  The pipeline begins with FASTQ processing. The single and paired samples are run separately but go though the same steps. 
 ![Figure 2, a schematic of FASTQ processing](./images/fastq_processing_overview.png "Figure 2, a schematic of FASTQ processing") 
 
-2\. The aim of this step is to align reads to the host genome and remove them from the sample [Hisat2] (http://daehwankimlab.github.io/hisat2/) is a fast and sensitive alignment program for mapping next-generation sequencing reads.
+2\. The aim of this step is to align reads to the host genome and remove them from the sample [Hisat2](http://daehwankimlab.github.io/hisat2/) is a fast and sensitive alignment program for mapping next-generation sequencing reads.
 
 3\. FastQC is run on both the raw files and host removed files. These results are available in the output directory, in each sample directory under FastQC_results. These results are also available in the multiQC.HTML report in landing output directory.
 

@@ -173,7 +173,7 @@ A subdirectory is available for each sample. The contents are described below.
 For *microbiome analyses* alpha diversity results for each sample are collated as .CSV and .HTML. 
 *If multiple samples were run* the beta diversity results as .CSV and .HTML.
 
-8\. multiqc_report.html will display a compilation of sample results from various analyses into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. ## Insert screen capture. Use the toolbox to interact with the contents of the report. ![Figure 39!](./images/MultiQC_video_walkthrough.png "MultiQC video walkthrough")
+8\. multiqc_report.html will display a compilation of sample results from various analyses into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. Use the toolbox to interact with the contents of the report. ![Figure 39!](./images/MultiQC_video_walkthrough.png "MultiQC video walkthrough")
 
 9\. multisample_comparison.html *This file is only generated if multiple samples are submitted with this job* Click to view a table of the taxa compared across samples according to z-score Note: this information is also available in multisample_comparison.csv for convient use in downstream analysis and visualzation.
 

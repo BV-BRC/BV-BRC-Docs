@@ -181,7 +181,7 @@ For *microbiome analyses* alpha diversity results for each sample are collated a
 
 11\. summary_table.csv *This file is only generated if multiple samples are submitted with this job* Click to view a summary of kraken results across all the samples submitted in this job.
 
-12\. summary_table.csv *This file is only generated if multiple samples are submitted with this job* Click to view a summary of kraken results across all the samples submitted in this job.
+12\. sample_key.csv Click to view the user input SAMPLE IDENTIFIER used in the output files and the user input fille name..
 
 13\. Click into a sample specific subdirectory. Each sample directory is formatted the same way and contains files for an individual sample.
 

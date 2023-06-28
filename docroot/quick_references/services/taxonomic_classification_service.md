@@ -71,7 +71,7 @@ The workspace folder where results will be placed.
 Name used to uniquely identify results.
 
 ## Output Results
-![Taxonomic Classification Output Files](../images/output_results.png)
+![Taxonomic Classification Output Files](../../../images/output_results.png)
 
 The Taxonomic Classification Service generates several files that are deposited in the Private Workspace in the designated Output Folder. To reivThese include
 
@@ -130,28 +130,28 @@ The intensity of the red for each cell is calculated by putting the read scores 
 
 Alpha-diversity is measured as the observed richness (number of taxa) or evenness (the relative abundances of those taxa) of an average sample within one sample. (Anderson et al., 2006) These are calculated with the [KrakenTools](https://ccb.jhu.edu/software/krakentools/) alpha_diversity.py script. Each column of the table displays one sample at each alpha diversity level. Alpha results are available for individual samples at the sample level directory. The data displayed in the .HTML file is also available as .CSV
 
- ![Shannon Diversity](./images/shannon_diversity.png) 
+ ![Shannon Diversity](../images/shannon_diversity.png) 
 Shannon's diversity index quantifies the uncertainty in predicting the species identity of an individual that is taken at random from the dataset. ACE Index. (Shannon, 1948)
 
-![Berger and Parker Diversity](./images/berger_and_parker_diversity.png) 
+![Berger and Parker Diversity](../images/berger_and_parker_diversity.png) 
 Berger-Parker’s The Berger-Parker index (Berger and Parker 1970) expresses the proportional importance of the most abundant type. This metric is highly biased by sample size and richness, moreover it does not make use of all the information available from sample. (Berger & Parker, 1970)
 
-![Simpson's Index](./images/simpsons_index.png) 
+![Simpson's Index](../images/simpsons_index.png) 
 Simpson’s index is a measure of diversity which takes into account the number of species present, as well as the relative abundance of each species. As species richness and evenness increase, so diversity increases. (Simpson, 1949). The Simpson-based metrics are that they do not tend to be as affected by sampling effort as the Shannon’s index. 
 
-![Simpson's Reciprocal Index](./images/simpsons_reciprocal_index.png) 
+![Simpson's Reciprocal Index](../images/simpsons_reciprocal_index.png) 
 Inverse Simpson’s: Simpson’s reciprocal index quantifies biodiversity by taking into account the richness and evenness. The greater the biodiversity in an area, the higher the value of D. The lowest possible defined value of D is 1and would occur if the
 community contained only one species. The maximum value would occur if there
 was perfect evenness and would be equal to the number of species.
 (Simpson, 1949)
 
-![Fisher's Index](./images/fisher_index.png) 
+![Fisher's Index](../images/fisher_index.png) 
 Fisher’s represented the first attempt to describe mathematically the relationship between the number of species and the number of individuals in those species. This index is most applicable when a sample has a small number of abundant species and the large proportion of 'rare' species (the class containing one individual is always the largest) predicted by the log series model. (Fisher et al., 1943)
 
 ### Beta Diversity Heatmap
 Beta-diversity is quantified as the variability in community composition (the identity of taxa observed) between samples within a group of samples (Anderson et al., 2006). The data displayed in the .HTML file is also available as .CSV
 
-![Bray-Curtis](./images/bray_curtis.png) 
+![Bray-Curtis](../../images/bray_curtis.png) 
 Beta diversity is calculated with the [KrakenTools](https://ccb.jhu.edu/software/krakentools/) beta_diversity.py script to compute the Bray-Curtis dissimilarity matrix for pairwise dissimilalarities among three mircrobiome asmples. In this matrix, a 0 means the two samples were exactly the same and a 1 means they are maximally divergent. (Bray & Curtis, 1957).
 
 ### Action buttons

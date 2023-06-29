@@ -231,6 +231,15 @@ For *microbiome analyses* alpha diversity results for each sample are collated a
 30\. A link to the Krona documentation can be viewed by clicking on the question mark (?) icon.
 ![Figure 54](./images/Picture54.png "Figure 54") 
 
+Multiple Sample Comparison
+![Example Muliple Sample Comparison Table](../images/taxonomic_classification_service_2_images/multi_cmp.png)
+
+Alpha Diversity
+![Example Alpha Diversity Table](../images/taxonomic_classification_service_2_images/alpha_stats_table.png)
+
+Beta Diversity Heatmap
+![Beta Diversity Heatmap](../images/taxonomic_classification_service_2_images/beta_diversity.png) 
+
 
 ## References
 1. Anderson MJ, Ellingsen KE, McArdle BH. Multivariate dispersion as a measure of beta diversity. Ecol Lett. 2006. June;9(6):683–93. 10.1111/j.1461-0248.2006.00926.

@@ -15,7 +15,7 @@ The **Taxonomic Classification** submenu option under the **Services** main menu
 ![Taxonomic Classification Menu](../images/bv_services_menu.png)
 
 ## Options
-![Taxonomic Classification Input Form](../images/taxonomic_classification_input_form_v2.png)
+![Taxonomic Classification Input Form](../images/taxonomic_classification_input_form_v3.png)
 
 ## Input File
 This service is designed to process short reads. This can be via single read files, paired read files or the SRA run accession. 
@@ -101,7 +101,21 @@ Single sample Krona plots are available in the sample level directories. Multisa
 
 ### MultiQC Report
 ![interactive MultiQC Report](../images/taxonomic_classification_service_2_images/MultiQC_toolbox.png)
-will display a compilation of sample results from FastQC and Kraken2 into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. Use the toolbox to interact with the contents of the report.
+will display a compilation of sample results from FastQC and Kraken2 into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. Use the toolbox to interact with the contents of the report. There are multiple ways to interac with this report. Subsection most plots by clicking to highlight a portion of the plot or clicking and dragging a subsection of the plot.  
+
+To export an individual plot (before or after manipulations) use the "Export Plot" button in the upper right hand corner of the individual plot.
+
+The Multiqc Toolbox is a very powerful aspect of the report. To itneract with the MultiQC report Toolbox, click the icons along the right hand side.  
+ * The "Pin" icon called "highlight" allows you to highlight specific text in the report. 
+ * The "A" icon called "rename" allows you to rename samples in the report. You could also paste the columns of a tab-deliminated table here (for example, the sample_key.CSV from the job output)
+ * The "Eye" with a strike through called "hide" allows you to show or hide specific samples.
+ * The "Download" icon called "export" in the Images tab, alows you manipulate the plots within the report and export selected plots. Plots can be manipulated in the following ways: 
+   * Size changes the number of pixels.
+   * Use the dropdown to selet .PNG, .JPEG, .SGV for the output image of the plot.
+   * Plot scaling allows you to change the scale of your plot.
+Click in the check box to select the images for output. Then, at the bottom of this list, select "Download Plot Image" to save these images
+
+Under the Data tab you are able to download the exact raw data used to create the plots. Click in the check box to select which plot(s) to download the data from. Then, at the bottom of the list, select "Download Plot Data"
 
 ### Sample Key
 ![Sample Key for Sample IDs and User input](../images/taxonomic_classification_service_2_images/sample_key.png) 
@@ -113,6 +127,8 @@ This is another interactive view of the taxa across every domain level at the sa
 ### Multiple Sample Comparison
 ![Example Muliple Sample Comparison Table](../images/taxonomic_classification_service_2_images/multi_cmp.png)
 The goal of this table is to identify which microbes are unique within each sample and which are common among all samples. When intpreting this table it is important to consider the if a value is positive or negative, the mangitude of the value and the color of the value calculated from from the Kraken2 report. 
+
+Interact with the table by clicking the up and and down arrows next to the sample ID. This will sort the results for the taxa with the highest z-score at the. top of the table. Set a range for the values in  a column inthe "All" text box. Click the "Prev", "Next", and page numbers to sort through pages of the table.
 
 The robust z-score is the median absolute deviation. This method is chosen to reduce impact from outliers in the data, providing a more reliable measure of relative position within the data distribution. 
 

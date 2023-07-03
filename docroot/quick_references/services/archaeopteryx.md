@@ -3,7 +3,7 @@
 ## Overview
 Archaeopteryx.js provides an interactive display of phylogenetic trees, with the ability to adjust many parameters of the display, download images in multiple formats, and search within the tree.
 
-### See also
+## See also
   * [Gene Tree Service](https://www.bv-brc.org/app/GeneTree)
   * [Gene Tree Quick Reference Guide](./genetree.html)
   * [Gene Tree Tutorial](../../tutorial/genetree/genetree.html)

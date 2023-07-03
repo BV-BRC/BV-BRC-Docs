@@ -4,7 +4,7 @@
 
 Genome Metadata is additional information about genomes beyond the genome sequence and annotations linked to the sequence. Genome metadata on consists of dozens of metadata fields, called attributes, which are organized into the following seven broad categories: Organism Info, Isolate Info, Host Info, Sequence Info, Phenotype Info, Project Info, and Other.
 
-### See also
+## See also
 * [Genome Page Overview](../organisms_genome/overview.html)
 * [Genome Table](../organisms_taxon/genome_table.html)
 * [Genome Annotations](../organisms_taxon/genome_annotations.html)

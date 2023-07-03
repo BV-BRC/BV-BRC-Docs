@@ -5,7 +5,7 @@ The Experiments Tab provides a table of all the publicly available transcriptomi
 
 Some transcriptomics data has been curated from published gene expression datasets related to bacterial pathogens in [NCBI's GEO database](http://www.ncbi.nlm.nih.gov/geo/). Some additional data sets have been incorporated from the NIAID-funded [Systems Biology and Functional Genomics Centers.
 
-### See also
+## See also
   * Examining Transcriptomics Data Tutorial
   * [Transcriptomics Gene List](../organisms_taxon/transcriptomics_gene_list.html)
   * [Transcriptomics Gene List Heatmap](../organisms_taxon/transcriptomics_gene_heatmap.html)

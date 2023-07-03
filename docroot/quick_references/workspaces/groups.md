@@ -3,7 +3,7 @@
 ## Overview
 In BV-BRC, "Groups" are custom collections of selected genomes or features. They are particularly useful for organizing and managing data sets of interest for further exploration and analysis.
 
-### See also:
+## See also:
   * [Workspace](../workspaces/workspace.html)
   * [Tables](../tables.html)
   * [Action Bar](../action_bar.html)

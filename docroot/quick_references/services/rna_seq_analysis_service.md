@@ -5,7 +5,7 @@ The RNA-Seq Analysis Service provides services for aligning, assembling, and tes
 
 The RNA-Seq Service can be accessed from the Services Menu at the top of the BV-BRC website page and via the Command Line Interface (CLI).
 
-### See also
+## See also
 * [RNA-Seq Analysis Service](https://bv-brc.org/app/Rnaseq)
 * [RNA-Seq Analysis Service Tutorial](../../tutorial/rna_seq_submission/submitting_rna_seq_job.html)
 

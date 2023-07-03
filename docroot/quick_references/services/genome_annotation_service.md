@@ -3,7 +3,7 @@
 ## Overview
 The Genome Annotation Service uses the RAST tool kit, [RASTtk](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4322359/), for bacteria and the [Viral Genome ORF Reader (VIGOR4)](https://github.com/JCVenterInstitute/VIGOR4) for viruses. The service accepts a FASTA formatted contig file and an annotation recipe based on taxonomy to provide an annotated genome, to provide annotation of genomic features. Once the annotation process has started by clicking the “Annotate” button, the genome is queued as a “job” for the Annotation Service to process, and will increment the count in the Jobs information box on the bottom right of the page. Once the annotation job has successfully completed, the output file will appear in the workspace, available for use in the BV-BRC comparative tools and/or can be downloaded if desired.
 
-### See also
+## See also
 * [Genome Annotation Service](https://bv-brc.org/app/Annotation)
 * [Genome Annotation Service Tutorial](../../tutorial/genome_annotation/genome_annotation.html)
 
@@ -14,7 +14,7 @@ The **Annotation** submenu option under the **Services** main menu (Genomics cat
 
 *Note:* Both RASTtk and VIGOR4 also accommodates the batch submission of genomes and the ability to customize annotation protocols for batch submissions, available via the BV-BRC Command Line Interface (CLI).
 
-![Annotation Input Form](../images/annotation_input_form2.png)
+![Annotation Input Form](../images/genome_annotation_service/annotation_input_form2.png)
 
 ## Parameters
 
@@ -59,7 +59,7 @@ Once the job has completed, selecting the job by clicking on it and clicking the
 The results page will consist of a header describing the job and a list of output files,
 as shown below.
 
-![Annotation Service Results Page](../images/annotation_service_results_page.png "Annotation Service Results Page")
+![Annotation Service Results Page](../images/genome_annotation_service/annotation_service_results_page.png)
 
 The Genome Annotation Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include
 

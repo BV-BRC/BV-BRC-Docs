@@ -1,9 +1,9 @@
-# Sequences Tab
+# Sequences
 
 ## Overview
 The Sequences Tab provides a table of all the contiguous sequences (chromosome, contig, plasmid) that comprise the set of genomes corresponding to the selected Taxon View level or for the user-defined Genome Group. From this page, sequences can be sorted, filtered, collected into groups, and downloaded. 
 
-### See also
+## See also
   * [Genome Page Overview](../organisms_genome/overview.html)
   * [Genomes Table](../organisms_taxon/genome_table.html)
   * [Genome Browser](../organisms_genome/genome_browser.html)

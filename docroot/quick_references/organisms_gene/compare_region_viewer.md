@@ -3,7 +3,7 @@
 ## Overview
 The Compare Region Viewer tool uses protein families to identify proteins in other genomes from the same family as the protein associated with the feature.  It displays the feature along with the other proteins in the same family with flanking regions for the corresponding genomes.
 
-### See also
+## See also
   * [Protein Families](../organisms_taxon/protein_families.html)
   * [Genome Annotations](../organisms_taxon/genome_annotations.html)
   * [Feature Overview Tab](../organisms_gene/overview.html)

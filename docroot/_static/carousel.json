@@ -1,38 +1,26 @@
 [   
     {
-        "title": "Upcoming BV-BRC Online Webinars: RSV and Influenza: November 29 and December 13, 2022",
-        "desc": "The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering ...",
-        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/rsv-and-influenza-webinars.png",
-        "link": "https://www.bv-brc.org/docs/news/2022/20221122-rsv-and-influenza-webinars.html"   
-    },  
+        "title": "BV-BRC Workshop at Argonne National Laboratory, June 26-30, 2023",
+        "desc": "The BV-BRC team will be offering a Bioinformatics Workshop on June 26-30, 2023, at Argonne National Laboratory in the suburbs of Chicago, IL.",
+        "img": "https://www.bv-brc.org/docs/_images/bv-brc-jun-workshop-anl.jpg",
+        "link": "https://www.bv-brc.org/docs/news/2023/2023-03-02-bv-brc-workshop-anl.html"   
+    },       
     {
-        "title": "Update: Registration Full --- BV-BRC Workshop at Argonne National Laboratory, December 14-16, 2022",
-        "desc": "The BV-BRC team will be offering a Bioinformatics Workshop that show researchers how to...",
-        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bv-brc-dec-workshop-anl.jpg",
-        "link": "https://www.bv-brc.org/docs/news/2022/20221007-bv-brc-workshop-at-anl.html"   
-    },  
-    {
-        "title": "Monkeypox and Orthopoxvirus Mini-Symposium",
-        "desc": "Discussion of bioinformatic resources and tools available and in development for the purpose of studying monkeypox virus. Will also include a brief primer on monkeypox virus, as well as research presentations focusing on the recent outbreak.",
-        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/monkeypox-symposium.png",
-        "link": "https://www.bv-brc.org/docs/news/2022/20220907-monkeypox-and-orthopoxvirus-symposium.html"   
-    },      
-    {
-        "title": "PATRIC to BV-BRC Final Transition Schedule",
-        "desc": "We are now in the final phase of transitioning PATRIC to the Bacterial and Viral Bioinformatics Resource Center (BV-BRC). Website redirects will start in mid-September, and PATRIC will go offline by mid-December of this year. Here is what you need to know.",
-        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/patric-to-bvbrc-transition.png",
-        "link": "https://www.bv-brc.org/docs/news/2022/20220816-bv-brc-patric-redirect.html"   
+        "title": "FULL: BV-BRC Workshop at the University of Virginia, April 25-27, 2023",
+        "desc": "The BV-BRC team will be offering a Bioinformatics Workshop on April 25-27, 2023, at the University of Virginia (UVA) in Charlottesville, VA.",
+        "img": "https://www.bv-brc.org/docs/_images/bv-brc-workshop-uva-20221.gif",
+        "link": "https://www.bv-brc.org/docs/news/2023/2023-01-02-bv-brc-workshop-uva.html"   
     },
     {
-        "title": "Ticks and Tick-Borne Pathogens Webinar Series",
-        "desc": "This webinar series is geared towards researchers working on ticks and the bacterial, viral or eukaryotic pathogens they transmit.",
-        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/tick-webinar-series.png",
-        "link": "https://www.bv-brc.org/docs/news/2022/20220228-tick-borne-pathogens.html"   
+        "title": "BV-BRC Quick Start Guides",
+        "desc": "Quick start guides and short video tutorials designed to orient new users as well as users from the legacy PATRIC, IRD and ViPR resources to the new BV-BRC Resource.",
+        "img": "https://www.bv-brc.org/docs/_images/bv_organisms_menu_virus2.png",
+        "link": "https://www.bv-brc.org/docs/quick_start/index.html"   
     },
     {
-        "title": "Introduction to BV-BRC Webinar Series",
-        "desc": "As part of the launch of the new BV-BRC Beta website, we are offering a webinar series to help new users, as well as PATRIC and IRD/ViPR users, become acquainted with the new website.",
-        "img": "https://www.bv-brc.org/docs/_static/announcements/2022/bv-brc-intro-webinars-v2.png",
-        "link": "https://www.bv-brc.org/docs/news/2022/20220223-bv-brc-intro-webinars.html"   
+        "title": "Bacterial Bioinformatics Course on Coursera",
+        "desc": "The BV-BRC offers an online Bacterial Bioinformatics course, freely available through Coursera. This course provides demonstrations and exercises for performing common genomics-based analysis tasks of bacterial sequence data.",
+        "img": "https://www.bv-brc.org/docs/_images/MOOC_Logo_3.png",
+        "link": "https://www.bv-brc.org/docs/news/2023/bacterial-bioinformatics-mooc-course.html"   
     }
 ]

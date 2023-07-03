@@ -1,9 +1,9 @@
-# Protein Families Tab
+# Protein Families
 
 ## Overview
 The Protein Families Tab provides access to the Protein Family Sorter, which enables examination of the distribution of computed protein families across sets of genomes. Filters for present, absent, or mixed can be used to refine the selection and an interactive heatmap provides a visual overview of the distribution.
 
-### See also
+## See also
   * Comparing Protein Families Across Genomes Tutorial
   * [Protein Family Sorter Service](../services/protein_family_service.html)
 

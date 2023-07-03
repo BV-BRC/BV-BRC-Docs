@@ -7,7 +7,7 @@ FTP Site
 The BV-BRC FTP site provides bulk access to all the public genomes and other related data in 
 various standard file formats. 
 
-BV-BRC FTP Site: ` ftp://ftp.bvbrc.org < ftp://ftp.bvbrc.org>`_
+BV-BRC FTP Site: `ftp://ftp.bvbrc.org <ftp://ftp.bvbrc.org>`_
 
 Below is the description of primary data directories on the FTP site and their content. 
 
@@ -83,7 +83,7 @@ Uploading/Downloading Data From Your Private Workspace using FTP Client
 
   ::
   
-    Host: workspace.bvbrc.org
+    Host: workspace.patricbrc.org
     User name: your BV-BRC user name
     Password: your BV-BRC password
   

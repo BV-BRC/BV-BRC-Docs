@@ -3,7 +3,7 @@
 ## Overview
 The Metagenomic Read Mapping Service uses [KMA](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2336-6) to align reads against antibiotic resistance genes, virulence factors, or other custom sets of genes.
 
-### See also
+## See also
   * [Metagenomic Read Mapping Service](https://bv-brc.org/app/MetagenomicReadMapping)
   * [Metagenomic Read Mapping Service Tutorial](../../tutorial/metagenomic_read_mapping/metagenomic_read_mapping.html)
 
@@ -70,9 +70,9 @@ This page is a web-friendly report that summarizes the output of MKA. It provide
 * Function - Template gene function.
 * Genome: Genome that contains template gene. Clicking on the name in the Genome column will open a new tab that shows the Genome List view, which shows all the genomes in BV-BRC that fall under the same taxonomy of the selected name.
 * Score - Global alignment score of the template.
-* Expected - Expected alignment score if all mapping reads where smeared over all templates in the database.
+* Expected - Expected alignment score if all mapping reads were smeared over all templates in the database.
 * Template_length - Template gene length in nucleotides.
-* Template_Identity - Percent identity between the query and template sequence, over the length of the matching query sequence
+* Template_Identity - Percent identity between the query and template sequence, divided the length of the matching template sequence
 * Template_Coverage - Percent of the template that is covered by the query
 * Query_Identity - Percent identity between the query and template sequence, over the length of the matching query sequence
 * Query_Coverage - Length of the matching query sequnce divided by the template length

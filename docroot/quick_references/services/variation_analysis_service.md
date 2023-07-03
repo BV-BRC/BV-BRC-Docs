@@ -3,7 +3,7 @@
 ## Overview
 The Variation Analysis Service can be used to identify and annotate sequence variations. The service enables users to upload one or multiple short read samples and compare them to a closely related reference genome. For each sample, the service computes the variations against the reference and presents a detailed list of SNPs, MNPs, insertions and deletions with confidence scores and effects such as "synonymous mutation" and "frameshift." High confidence variations are downloadable in the standard VCF format augmented by SNP annotation. A summary table illustrating how the variations are shared across the samples is also available.
 
-### See also
+## See also
 * [Variation Analysis Service](https://bv-brc.org/app/Variation)
 * [Variation Analysis Service Tutorial](../../tutorial/variation_analysis/variation_analysis.html)
 

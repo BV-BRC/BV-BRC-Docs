@@ -1,13 +1,13 @@
-Organisms
-=========
+Organisms and Data Types
+========================
 The top-level Organisms Menu provides direct access to genus-level data for bacteria and viruses in BV-BRC corresponding to `NIAID's Priority Pathogens <https://www.niaid.nih.gov/research/emerging-infectious-diseases-pathogens>`_. It also provides direct access to summary-level data for all bacteria, viruses, archaea, phages, and eukaryotic hosts in BV-BRC.
 
 .. image:: ./images/bv_organisms_menu.png
 
-Clicking on one of the menu items will display the corresponding taxon-level Overview page. From there, data are accessible at the taxon, genome/strain, and feature (gene, protein) levels, as described in the Quick Reference Guides below. 
+Clicking on one of the menu items will display the corresponding taxon-level Overview page. From there, data are accessible via tabs at the taxon, genome/strain, and feature (gene, protein) levels, as described in the Quick Reference Guides below. 
 
-Browsing BV-BRC by Taxon
--------------------------
+Taxon-Level Data
+----------------
 
 .. toctree::
    :maxdepth: 1
@@ -25,7 +25,6 @@ Browsing BV-BRC by Taxon
    organisms_taxon/specialty_genes
    organisms_taxon/domains_and_motifs
    organisms_taxon/epitopes
-   organisms_taxon/protein_families
    organisms_taxon/pathways
    organisms_taxon/subsystems_tab
    organisms_taxon/experiments
@@ -34,8 +33,8 @@ Browsing BV-BRC by Taxon
    organisms_taxon/serology_data
 
 
-Browsing BV-BRC by Genome/Strain
---------------------------------
+Genome/Strain-Level Data
+------------------------
 
 .. toctree::
    :maxdepth: 1
@@ -45,8 +44,8 @@ Browsing BV-BRC by Genome/Strain
    organisms_genome/circular_genome_viewer
 
 
-Browsing BV-BRC by Gene/Protein
--------------------------------
+Gene/Protein-Level Data
+-----------------------
 
 .. toctree::
    :maxdepth: 1

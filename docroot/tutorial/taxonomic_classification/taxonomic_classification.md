@@ -75,7 +75,7 @@ To initiate the upload, first click on the folder icon.
 9\. Repeat steps 2-5 to upload the second pair of reads.
 ![Figure 15](./images/upload_file_2.png "Figure 15") 
 
-10\. The SAMPLE ![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/d02a1000-66c4-4118-9536-0c2f59aa921b) Field will auto populate with the file name. Edit the field by clicking into the text box. The text entered to this text box will be used throughout the output files for the service. This documentation refers to this field as a sample id.
+10\. The SAMPLE ID field will auto populate with the file name. Edit the field by clicking into the text box. The text entered to this text box will be used to identify this sample throughout the output files for the service. This documentation refers to this field as a sample id.
 
 11\. To finish the upload, click on the icon of an arrow within a circle. This will move your file into the Selected libraries box.
 ![Figure 16](./images/libaries_box_button.png "Figure 16") 
@@ -191,43 +191,50 @@ For *microbiome analyses* alpha diversity results for each sample are collated a
 16\. Click kraken_output directory to find the standard Kraken2 result report and output files. These are text files that can be viewed by clicking on them. Click the up arrow next to *parent folder* once to return to the sample specific subdirectory.
 
 17\. [*user sample id*]_sankey.html Sankey diagram This is another view of the taxa across every domain level at the same time. The key to reading and interpreting Sankey Diagrams is remembering that the width is proportional to the quantity represented. If features are overlapping, click and drag bars up and down. Specifically, the archaea feature may populate over the sample name. Simply click and drag down to view. 
-![Sankey Diagram](../images/dankey_diagram.png "Sankey Diagram")
+![Sankey Diagram](../images/sankey_diagram.png "Sankey Diagram")
 
-18\. 
+18\. Click the [*analysis sample name*]_krona.html to view an interactive display of the taxa and their domain level.
+
+19\. This view has a search box at the top left of the page.  Entering any text will search the graph results for text that matches the entry.
+![Krona Search Box](./images/search_box_krona_plot.png "Krona Search Box") 
+
+20\. Click on a section of interest. Note that the breakdown along the righthand side changes.
+![subsection krona plot](./images/subsection_krona_plot.png "subsection krona plot") 
+
+21\. Double click on the exterior of the section to show only that section.
+![subsection view krona plot](./images/subsection_view_krona_plot.png "subsection view krona plot") 
+
+20\. At the top of the view, there are several controls that can be used to change the visualization. For a detailed explaination of viewing, interpreting and interacting with Krona plots please visit the [developer's guide](https://github.com/marbl/Krona/wiki/Browsing%20Krona%20charts).
+  * Max depth changes the phylogeny levels shown
+  * Font size changes the size of the font
+  * Chart size will zoom in the plotin and out
+  * Collapse removes the other phylogeny levels from view and only shows the current phylogeny level
+  * Link and snapshot are not supported
+  * The "?" question mark icon will take you to the Krona plot [developer's guide](https://github.com/marbl/Krona/wiki/Browsing%20Krona%20charts) to browsing Krona charts.
 
 
-19\. 
-
-20\. Click the [*analysis sample name*]_krona.html to view an interactive display of the taxa and their domain level.
-
-21\. This view has a search box at the top left of the page.  Entering any text will search the graph results for text that matches the entry.
-![Figure 45](./images/Picture45.png "Figure 45") 
-
-22\. At the top of the view, there are several controls that can be used to change the visualization or download the data.
-![Figure 46](./images/Picture46.png "Figure 46")  
-
-23\. The image can be downloaded by clicking on the Download icon at the top of this page.
+21\. The image can be downloaded by clicking on the Download icon at the top of this page.
 ![Figure 47](./images/Picture47.png "Figure 47") 
 
-24\. The phylogeny level, represented by each circle shown in the graph can be changed by increasing the number (+) or decreasing the number (-) using the Max depth function.
+22\. The phylogeny level, represented by each circle shown in the graph can be changed by increasing the number (+) or decreasing the number (-) using the Max depth function.
 ![Figure 48](./images/Picture48.png "Figure 48") 
 
-25\. The font size in the visualization can be changed by using the buttons to decrease (-) or increase (+) it in front of the words Font size.
+23\. The font size in the visualization can be changed by using the buttons to decrease (-) or increase (+) it in front of the words Font size.
 ![Figure 49](./images/Picture49.png "Figure 49") 
 
-26\. Change the chart size.
+24\. Change the chart size.
 ![Figure 50](./images/Picture50.png "Figure 50") 
 
-27\. You can see the taxonomy spectrum by clicking on a region of interest in the Krona chart.  This will rewrite the view to show how the data mapped within the selected taxon.
+25\. You can see the taxonomy spectrum by clicking on a region of interest in the Krona chart.  This will rewrite the view to show how the data mapped within the selected taxon.
 ![Figure 51](./images/Picture51.png "Figure 51") 
 
-28\. Following any changes, a snapshot of the new image can be downloaded by clicking on Snapshot.
+26\. Following any changes, a snapshot of the new image can be downloaded by clicking on Snapshot.
 ![Figure 52](./images/Picture52.png "Figure 52") 
 
-29\. A shareable link will also be generated if Link is clicked.
+27\. A shareable link will also be generated if Link is clicked.
 ![Figure 53](./images/Picture53.png "Figure 53") 
 
-30\. A link to the Krona documentation can be viewed by clicking on the question mark (?) icon.
+38\. A link to the Krona documentation can be viewed by clicking on the question mark (?) icon.
 ![Figure 54](./images/Picture54.png "Figure 54") 
 
 Multiple Sample Comparison

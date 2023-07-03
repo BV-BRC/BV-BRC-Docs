@@ -228,16 +228,16 @@ The magnitude (represented as the value of the z-score) indicates the distance o
 
 The intensity of the red for each cell is calculated by putting the read scores into quantiles probabilites ranging from 0.05 to 0.95 with an increment of 0.05. This means that the intensity of the color represents the relative position in the datasets disribution for that datapoint. A darker color indicates that value is more likely to be an outlier.
 
-![Example Muliple Sample Comparison Table](../images/multi_cmp.png)
+![Example Muliple Sample Comparison Table](./images/multi_cmp.png "Example Muliple Sample Comparison Table")
 
 ### Microbiome Analysis specific outputs
 #### Alpha Diversity
 This is a table with the various measures of output diveristy. For a detailed explaination about each alpha diversity please review the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html). The data displayed in the .HTML file is also available as .CSV.
-![Example Alpha Diversity Table](../images/alpha_stats_table.png)
+![Example Alpha Diversity Table](./images/alpha_stats_table.png "Example Alpha Diversity Table")
 
 #### Beta Diversity Heatmap
 This is a heatmap displaying the beta-diversity value between each sample. Beta-diversity is quantified as the variability in community composition (the identity of taxa observed) between samples within a group of samples (Anderson et al., 2006). The data displayed in the .HTML file is also available as .CSV. For a detailed explaination about how this is calculcated, please, review the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html).
-![Beta Diversity Heatmap](../images/beta_diversity.png) 
+![Beta Diversity Heatmap](./images/beta_diversity.png "Beta Diversity Heatmap") 
 
 
 ## References

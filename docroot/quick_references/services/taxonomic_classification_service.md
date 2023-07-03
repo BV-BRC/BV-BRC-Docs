@@ -91,15 +91,18 @@ The Taxonomic Classification Service generates several files that are deposited 
 * **beta_stats_heatmap.html** - A heatmap with diversity statistics between each sample
 
 ### Krona Chart and Multiple Sample Krona
+
 ![Krona-based interactive Taxonomic Classification Chart](../images/taxonomic_classification_service_2_images/individual_krona_plot.png)
 
 This interactive chart provides a visual representation of the reads mapping to each taxon. Clicking on a taxon within the pie chart will provide a summary of the reads mapping to that specific selection on the upper right corner. Double clicking with a section will open that specific section to view. It is possible to change the maximum depth, font size and chart size by clicking the plus and minus buttons. Clicking the colapse check box will detemrine if you show every taxa level that is currently selected. The sanpshot button will capture an image of the krona plot at the current.
 
-Single sample Krona plots are available in the sample level directories. Multisample Krona plots are available in the landing page for the job. Navigating the multisample Krona plot is the same as navigating an indvidual Krona plot. To toggle between samples select the SAMPLE ID.b.krona in the box below the Krona logo. This is the name of the file used to create the plot. Thes start of the file name will be the SAMPLE ID.
+Single sample Krona plots are available in the sample level directories. Multisample Krona plots are available in the landing page for the job. Navigating the multisample Krona plot is the same as navigating an indvidual Krona plot. To toggle between samples select the SAMPLE ID.b.krona in the box below the Krona logo. This is the name of the file used to create the plot. The start of the file name will be the user entered SAMPLE ID.
 
 ### MultiQC Report
+
 ![interactive MultiQC Report](../images/taxonomic_classification_service_2_images/MultiQC_toolbox.png)
-will display a compilation of sample results from FastQC and Kraken2 into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. Use the toolbox to interact with the contents of the report. There are multiple ways to interac with this report. Subsection most plots by clicking to highlight a portion of the plot or clicking and dragging a subsection of the plot.  
+
+The MultiQC Report will display a compilation of sample results from FastQC and Kraken2 into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. Use the toolbox to interact with the contents of the report. There are multiple ways to interac with this report. Subsection most plots by clicking to highlight a portion of the plot or clicking and dragging a subsection of the plot.  
 
 To export an individual plot (before or after manipulations) use the "Export Plot" button in the upper right hand corner of the individual plot.
 
@@ -116,13 +119,16 @@ Click in the check box to select the images for output. Then, at the bottom of t
 Under the Data tab you are able to download the exact raw data used to create the plots. Click in the check box to select which plot(s) to download the data from. Then, at the bottom of the list, select "Download Plot Data"
 
 ### Sample Key
+
 ![Sample Key for Sample IDs and User input](../images/taxonomic_classification_service_2_images/sample_key.png) 
 
 ### Sankey Diagram
+
 ![Example Sankey Diagram](../images/taxonomic_classification_service_2_images/sankey_diagram.png)
 This is another interactive view of the taxa across every domain level at the same time. The key to reading and interpreting Sankey Diagrams is remembering that the width is proportional to the quantity represented. If features are overlapping, click and drag bars up and down. Specifically, the archaea feature may populate over the sample name. Simply click and drag down to view. 
 
 ### Multiple Sample Comparison
+
 ![Example Muliple Sample Comparison Table](../images/taxonomic_classification_service_2_images/multi_cmp.png)
 The goal of this table is to identify which microbes are unique within each sample and which are common among all samples. When intpreting this table it is important to consider the if a value is positive or negative, the mangitude of the value and the color of the value calculated from from the Kraken2 report. 
 
@@ -140,6 +146,7 @@ The intensity of the red for each cell is calculated by putting the read scores 
 
 
 ### Alpha Diversity
+
 ![Example Alpha Diversity Table](../images/taxonomic_classification_service_2_images/alpha_stats_table.png)
 
 Alpha-diversity is measured as the observed richness (number of taxa) or evenness (the relative abundances of those taxa) of an average sample within one sample. (Anderson et al., 2006) These are calculated with the [KrakenTools](https://ccb.jhu.edu/software/krakentools/) alpha_diversity.py script. Each column of the table displays one sample at each alpha diversity level. Alpha results are available for individual samples at the sample level directory. The data displayed in the .HTML file is also available as .CSV
@@ -168,6 +175,7 @@ was perfect evenness and would be equal to the number of species.
 Fisher’s represented the first attempt to describe mathematically the relationship between the number of species and the number of individuals in those species. This index is most applicable when a sample has a small number of abundant species and the large proportion of 'rare' species (the class containing one individual is always the largest) predicted by the log series model. (Fisher et al., 1943)
 
 ### Beta Diversity Heatmap
+
 Beta-diversity is quantified as the variability in community composition (the identity of taxa observed) between samples within a group of samples (Anderson et al., 2006). The data displayed in the .HTML file is also available as .CSV
 
 ![Bray-Curtis](../images/taxonomic_classification_service_2_images/bray_curtis.png)
@@ -177,6 +185,7 @@ Beta diversity is calculated with the [KrakenTools](https://ccb.jhu.edu/software
 ![Beta Diversity Heatmap](../images/taxonomic_classification_service_2_images/beta_diversity.png) 
 
 ### Action buttons
+
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table. These include
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.

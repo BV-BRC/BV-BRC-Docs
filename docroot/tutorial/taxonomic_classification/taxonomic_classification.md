@@ -162,22 +162,21 @@ The bottom of each BV-BRC page has an indicator that shows the number of jobs th
 5\. A job that has been successfully completed can be viewed by clicking on the row (which will turn the row blue) and then clicking on the View icon in the vertical green bar.
 ![Figure 39](./images/view_job_button.png "Figure 39") 
 
-6\. This will open a page for the selected job. The top box has the job ID number and gives pertinent information about the time it took to complete and the selected parameters. The lower table has five output files, but if the classified an/or unclassified reads are selected when the job was submitted, it will have one or two additional rows.
-![Figure 38](./images/Picture38.png "Figure 38") 
+6\. This will open a page for the selected job. The top box has the job ID number and gives pertinent information about the time it took to complete and the selected parameters. The lower table will have the output files. The landing directory will have files and sub directories for each sample. A summary_table.csv provides a summary for the Kraken2 results. The MultiQC report contains the FastQC, Kraken The sample_key.csv displays the user input file names and the sample ids. A Sankey diagram for each sample.  If multiple samples were run there will be a multisample table, multisample krona file, and summary table.
+![Taxonomic Classification Output Files](../images/output_results.png)
 
-# Nicole start of changes
-7\. The landing directory will have files and sub directories for each sample. A summary_table.csv provides a summary for the Kraken2 results. The MultiQC report contains the FastQC, Kraken The sample_key.csv displays the user input file names and the sample ids. A Sankey diagram for each sample.
-
-A subdirectory is available for each sample. The contents are described below.
+7\. A subdirectory is available for each sample. The contents are described below at step 13.
 
 For *microbiome analyses* alpha diversity results for each sample are collated as .CSV and .HTML. 
 *If multiple samples were run* the beta diversity results as .CSV and .HTML.
 
-8\. multiqc_report.html will display a compilation of sample results from various analyses into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. Use the toolbox to interact with the contents of the report. ![Figure 39!](./images/MultiQC_video_walkthrough.png "MultiQC video walkthrough")
+8\. multiqc_report.html will display a compilation of sample results from various analyses into one place. If you are new to MultiQC, an introductory [video walkthrough](https://www.youtube.com/watch?v=BbScv9TcaMg) also available above General Statistics. Use the toolbox to interact with the contents of the report. ![MultiQC video walkthrough](./images/MultiQC_video_walkthrough.png "MultiQC video walkthrough")
 
 9\. multisample_comparison.html *This file is only generated if multiple samples are submitted with this job* Click to view a table of the taxa compared across samples according to z-score Note: this information is also available in multisample_comparison.csv for convient use in downstream analysis and visualzation. Refer to the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html) for a detailed explaination of how to interpret the data.
+![Multicomparison table](./images/multi_cmp.png "Multicomparison table")
 
 10\. multisample_krona.html *This file is only generated if multiple samples are submitted with this job* Click to view krona plots of each sample included in your analysis. Toggle between all the samples included in your analysis by clicking on the sample names or up and down arrows in the upper left hand corner of the report underneath the Krona logo. For more details about interacting with the Krona chart please view the sample level details at number 20 in this list.
+![multisample krona plot toggle](./images/multisample_krona_plot_toggle.png "multisample krona plot toggle")
 
 11\. summary_table.csv *This file is only generated if multiple samples are submitted with this job* Click to view a summary of kraken results across all the samples submitted in this job.
 
@@ -190,9 +189,9 @@ For *microbiome analyses* alpha diversity results for each sample are collated a
 15\. Click the Hisat2_results subdirectory to view the contents. This folder contains the host removed FASTQ read files. A SAM file with the aligned reads is also located in this directory.Click the up arrow next to *parent folder* once to return to the sample specific subdirectory.
 
 16\. Click kraken_output directory to find the standard Kraken2 result report and output files. These are text files that can be viewed by clicking on them. Click the up arrow next to *parent folder* once to return to the sample specific subdirectory.
- 
 
 17\. [*user sample id*]_sankey.html Sankey diagram This is another view of the taxa across every domain level at the same time. The key to reading and interpreting Sankey Diagrams is remembering that the width is proportional to the quantity represented. If features are overlapping, click and drag bars up and down. Specifically, the archaea feature may populate over the sample name. Simply click and drag down to view. 
+![Sankey Diagram](../images/dankey_diagram.png "Sankey Diagram")
 
 18\. 
 

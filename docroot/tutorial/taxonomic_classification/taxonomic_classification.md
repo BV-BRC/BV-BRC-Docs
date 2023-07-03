@@ -199,12 +199,12 @@ For *microbiome analyses* alpha diversity results for each sample are collated a
 ![Krona Search Box](./images/search_box_krona_plot.png "Krona Search Box") 
 
 20\. Click on a section of interest. Note that the breakdown along the righthand side changes.
-![subsection krona plot](./images/subsection_krona_plot.png "subsection krona plot") 
+![subsection stats krona plot](./images/subsection_stats.png "subsection stats krona plot") 
 
 21\. Double click on the exterior of the section to show only that section.
-![subsection view krona plot](./images/subsection_view_krona_plot.png "subsection view krona plot") 
+![subsection view krona plot](./images/subsection_view_krona_plot_action.png "subsection view krona plot") 
 
-20\. At the top of the view, there are several controls that can be used to change the visualization. For a detailed explaination of viewing, interpreting and interacting with Krona plots please visit the [developer's guide](https://github.com/marbl/Krona/wiki/Browsing%20Krona%20charts).
+22\. At the top of the view, there are several controls that can be used to change the visualization. For a detailed explaination of viewing, interpreting and interacting with Krona plots please visit the [developer's guide](https://github.com/marbl/Krona/wiki/Browsing%20Krona%20charts).
   * Max depth changes the phylogeny levels shown
   * Font size changes the size of the font
   * Chart size will zoom in the plotin and out
@@ -212,39 +212,32 @@ For *microbiome analyses* alpha diversity results for each sample are collated a
   * Link and snapshot are not supported
   * The "?" question mark icon will take you to the Krona plot [developer's guide](https://github.com/marbl/Krona/wiki/Browsing%20Krona%20charts) to browsing Krona charts.
 
-
-21\. The image can be downloaded by clicking on the Download icon at the top of this page.
+23\. The entire report can be downloaded by clicking on the Download icon at the top of this page.
 ![Figure 47](./images/Picture47.png "Figure 47") 
 
-22\. The phylogeny level, represented by each circle shown in the graph can be changed by increasing the number (+) or decreasing the number (-) using the Max depth function.
-![Figure 48](./images/Picture48.png "Figure 48") 
+24\. Navigate to landing directory for the job output.  Click the file, multisample_comparison.html.
+Interact with the table by clicking the up and and down arrows next to the sample ID. This will sort the results for the taxa with the highest z-score at the. top of the table. Set a range for the values in  a column inthe "All" text box. Click the "Prev", "Next", and page numbers to sort through pages of the table.
 
-23\. The font size in the visualization can be changed by using the buttons to decrease (-) or increase (+) it in front of the words Font size.
-![Figure 49](./images/Picture49.png "Figure 49") 
+The robust z-score is the median absolute deviation. This method is chosen to reduce impact from outliers in the data, providing a more reliable measure of relative position within the data distribution. 
 
-24\. Change the chart size.
-![Figure 50](./images/Picture50.png "Figure 50") 
+If the positive robust z-score indicates that t the number of fragments assigned to that taxa was above the median or central tendancy of the data. 
 
-25\. You can see the taxonomy spectrum by clicking on a region of interest in the Krona chart.  This will rewrite the view to show how the data mapped within the selected taxon.
-![Figure 51](./images/Picture51.png "Figure 51") 
+Conversly, a negitive robust z-score indicates that the number of fragments assigned to that taxa was below the median or central tendancy of the data. 
 
-26\. Following any changes, a snapshot of the new image can be downloaded by clicking on Snapshot.
-![Figure 52](./images/Picture52.png "Figure 52") 
+The magnitude (represented as the value of the z-score) indicates the distance of the data point from the central tendency in terms of the robust measure of dispersion. 
 
-27\. A shareable link will also be generated if Link is clicked.
-![Figure 53](./images/Picture53.png "Figure 53") 
+The intensity of the red for each cell is calculated by putting the read scores into quantiles probabilites ranging from 0.05 to 0.95 with an increment of 0.05. This means that the intensity of the color represents the relative position in the datasets disribution for that datapoint. A darker color indicates that value is more likely to be an outlier.
 
-38\. A link to the Krona documentation can be viewed by clicking on the question mark (?) icon.
-![Figure 54](./images/Picture54.png "Figure 54") 
+![Example Muliple Sample Comparison Table](../images/multi_cmp.png)
 
-Multiple Sample Comparison
-![Example Muliple Sample Comparison Table](../images/taxonomic_classification_service_2_images/multi_cmp.png)
+### Microbiome Analysis specific outputs
+#### Alpha Diversity
+This is a table with the various measures of output diveristy. For a detailed explaination about each alpha diversity please review the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html). The data displayed in the .HTML file is also available as .CSV.
+![Example Alpha Diversity Table](../images/alpha_stats_table.png)
 
-Alpha Diversity
-![Example Alpha Diversity Table](../images/taxonomic_classification_service_2_images/alpha_stats_table.png)
-
-Beta Diversity Heatmap
-![Beta Diversity Heatmap](../images/taxonomic_classification_service_2_images/beta_diversity.png) 
+#### Beta Diversity Heatmap
+This is a heatmap displaying the beta-diversity value between each sample. Beta-diversity is quantified as the variability in community composition (the identity of taxa observed) between samples within a group of samples (Anderson et al., 2006). The data displayed in the .HTML file is also available as .CSV. For a detailed explaination about how this is calculcated, please, review the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html).
+![Beta Diversity Heatmap](../images/beta_diversity.png) 
 
 
 ## References

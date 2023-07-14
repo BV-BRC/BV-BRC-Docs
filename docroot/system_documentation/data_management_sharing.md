@@ -1,6 +1,6 @@
 # Data Management and Sharing 
 
-As a NIAID-funded resource, BV-BRC complies with the NIH Policy for Data Management and Sharing (Notice Number: NOT-OD-21-013), which promotes the management and sharing of scientific data generated from NIH-funded or conducted research. 
+As a NIAID-funded resource, BV-BRC complies with the [NIH Policy for Data Management and Sharing](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html) (Notice Number: NOT-OD-21-013), which promotes the management and sharing of scientific data generated from NIH-funded or conducted research. 
 
 ## Data Types
 BV-BRC is an integrated data and analysis resource designed to support genomic and related infectious disease research for viral and bacterial pathogens. As such, the primary data type is genomic sequences, primarily ingested from public repositories such as NCBI GenBank. BV-BRC reannotates genomes with curated subsystem data for consistency, curates and standardizes metadata, and formats the data to enable the integrated tools to perform comparative analysis computations. BV-BRC also annotates genomes from assembled reads collected from SRA for specialized phenotypic characteristics, such as antimicrobial resistance (AMR). Annotations may be derived from computations such as gene and other feature prediction algorithms, subsystem and other functional groupings, and phenotype prediction such as AMR. Appropriate references to the computations performed are available in the user documentation.
@@ -96,7 +96,7 @@ The table below summarizes the BV-BRC data types and their primary sources.
 In addition to ingested and processed data, users may elect to assemble and annotate their own sequenced genomes and make them publicly available through the BV-BRC resource. In these cases, BV-BRC team members work with the user to assess genome quality, verify metadata, and include appropriate attribution.
 
 Related Tools, Software and/or Code
-The data in BV-BRC are available through the website user interface and integrated searches and tools (bv-brc.org), through the command line interface (CLI), data API, and from the FTP site. These are all provided freely to all users. All software developed by the project team in the system is available as open source in the BV-BRC GitHub repository. 
+The data in BV-BRC are available through the website user interface and integrated searches and tools [BV-BRC website](https://www.bv-brc.org/), through the [command line interface (CLI)](https://www.bv-brc.org/docs/cli_tutorial/index.html), [data API](https://www.bv-brc.org/api/doc/), and from the [FTP site](ftp://ftp.bvbrc.org/). These are all provided freely to all users. All software developed by the project team in the system is available as open source in the [BV-BRC GitHub repository](https://github.com/BV-BRC). 
 
 In the event of discontinuation of the resource, the databases, systems, and software code will be archived and transferred to NIAID or its designee. 
 
@@ -119,5 +119,3 @@ All public data in BV-BRC is freely available without restriction on its use. Th
 
 ## Oversight of Data Management and Sharing
 The BV-BRC Principal Investigators have primary responsibility for data management and sharing. Their designees, including Systems Leads and Database Administrators, perform the day-to-day maintenance and monitoring of the data stores and their content. All data integrated into the resource are stored and backed up on hardware and associated systems at the Argonne National Laboratory (ANL) facility. ANL has established and NIAID-approved procedures for data storage, backup, recovery, and security.  
-
-

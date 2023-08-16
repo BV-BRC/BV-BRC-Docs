@@ -15,39 +15,16 @@ The **Assembly** submenu option under the **Services** main menu (Genomics categ
 ## Options
 ![Assembly Input Form](../images/assembly2_input_form.png) 
 
-## Selected libraries
-Read files placed here will contribute to a single assembly.
+## Read Input File
 
-## Paired read library
-
+### Paired read library
 **Read File 1 & 2:**  Many paired read libraries are given as file pairs, with each file containing half of each read pair. Paired read files are expected to be sorted such that each read in a pair occurs in the same Nth position as its mate in their respective files. These files are specified as READ FILE 1 and READ FILE 2. For a given file pair, the selection of which file is READ 1 and which is READ 2 does not matter.
 
-**Advanced:**
-  * File 1 Interleaved - Some paired libraries are available in a single file where each read in a pair occurs in succession. To specify such a file set this parameter to 'True'.
-  
-  * Mate Paired- Defines the orientation of read pairs. Setting Mate Paired to true indicates that the sequencing direction of the two reads in each pair is outward facing.
-  
-  * Platform - The sequencing platform used for each library.
-    * Infer Platform: Infer sequencing platform from read files
-    * Illumina: Illumina short reads
-    * Ion Torrent: Ion Torrent short reads
+### Single read library
+**Read File:** The fastq file containing the reads.
 
-## Single read library
-
-**Read File:**
-The fastq file containing the reads
-
-**Advanced:**
-
-  * Platform - The sequencing platform used for each library.
-    * Infer Platform: Infer sequencing platform from read files
-    * Illumina: Illumina short reads
-    * Ion Torrent: Ion Torrent short reads
-    * PacBio: PacBio long reads
-    * Nanopore: MinION long reads
-
-## SRA run accession
-Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the BV-BRC Assembly Service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly. 
+### SRA run accession
+Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the BV-BRC Assembly Service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly.
 
 ## Parameters
 
@@ -73,7 +50,7 @@ Allows direct upload of read files from the [NCBI Sequence Read Archive](https:/
 
 **Benchmark Contigs:** This optional parameter can be used to specify a FASTA contigs file to evaluate the assembly against.
 
-## Advanced
+### Advanced
 
 **Trim reads before assembly:** Trim reads using TrimGalore (True/False)
 

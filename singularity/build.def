@@ -1,0 +1,26 @@
+Bootstrap: docker
+From: python:3.11.5-slim-bookworm
+
+%setup
+	mkdir -p $SINGULARITY_ROOTFS/doc_repo
+
+%files
+ nginx.conf.template /nginx.conf.template
+
+%post
+  apt update
+	apt-get -o DPkg::Options::="--force-confold" install nginx -y 
+	apt install -y make libenchant-2-2
+  pip install Sphinx==5.3.0 recommonmark sphinx_rtd_theme sphinxcontrib-newsfeed sphinxcontrib-spelling sphinxcontrib.httpdomain
+
+%apprun build
+	cd /doc_repo/docroot
+	rm -rf /doc_repo/docroot/_build
+	make html
+
+%apprun webserver 
+  PORT=$1
+	PORT=${PORT:-8080}
+	echo "Launching NGINX on port $PORT"
+	cat /nginx.conf.template | sed -e "s/HTTP_PORT/${PORT}/g" > /tmp/nginx/nginx.conf 
+	nginx -c /tmp/nginx/nginx.conf

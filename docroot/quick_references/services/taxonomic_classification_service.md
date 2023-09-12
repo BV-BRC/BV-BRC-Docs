@@ -1,7 +1,7 @@
 # Taxonomic Classification Service
 
 ## Overview
-The Taxonomic Classification Service accepts reads or contigs from sequencing of a metagenomic sample and uses [Kraken 2](http://genomebiology.com/2014/15/3/R46) to assign the reads to taxonomic bins, providing an initial profile of the possible constituent organisms present in the sample.
+The Taxonomic Classification Service accepts reads or SRR values from sequencing of a metagenomic sample and uses [Kraken 2](http://genomebiology.com/2014/15/3/R46) to assign the reads to taxonomic bins, providing an initial profile of the possible constituent organisms present in the sample. We support taxonomic classification for whole genome wequencing data (WGS) and for 16s rRNA sequencing. It is important that you select the analysis option and database option that support your sequence type.
 
 ## See also
   * [Taxonomic Classification Service](https://bv-brc.org/app/TaxonomicClassification)
@@ -41,6 +41,7 @@ Read files placed here will be submited to the service.
 ### Database
 Reference taxonomic database used by the algorithm.
 
+__Whole genome sequencing databases (WGS)__
 * [Kraken2 Standard Database](https://ccb.jhu.edu/software/kraken2/index.shtml?t=manual#standard-kraken-2-database) - Standard Kraken 2 database containing distinct 31-mers, based on completed microbial genomes from NCBI.
 * [BV-BRC Database]( https://github.com/DerrickWood/kraken2/wiki/Manual#custom-databases) - The default Kraken 2 database at BV-BRC includes the following:
 
@@ -61,6 +62,11 @@ Reference taxonomic database used by the algorithm.
   * protozoa: RefSeq complete protozoan genomes/proteins
 
   * UniVec: NCBI-supplied database of vector, adapter, linker, and primer sequences that may be contaminating sequencing projects and/or assemblies
+
+ __16s Analysis databases__
+* [SILVA](https://www.arb-silva.de/) - The SILVA Database, short for "SILVA rRNA database project," is a widely recognized and meticulously curated resource for ribosomal RNA (rRNA) gene sequences. It covers rRNA genes from bacteria, archaea, and eukaryotes, offering high-quality data with taxonomic classifications. SILVA is an essential tool for researchers in molecular biology and microbiology, aiding in phylogenetic analysis, taxonomic identification, and the study of microbial communities in diverse environments. With its constant updates and comprehensive coverage, SILVA plays a crucial role in advancing our understanding of microbial diversity and evolution.
+
+* [Greengenes](https://greengenes.lbl.gov/Download/) - Greengenes is a prominent 16S rRNA gene sequence database designed for microbiologists and microbial ecologists. This database contains curated and annotated 16S rRNA gene sequences primarily from bacteria and archaea. Greengenes is a valuable resource for researchers studying microbial communities in various environments. It enables taxonomic classification, comparative analyses, and metagenomic studies by providing a standardized and well-maintained collection of sequences. Whether you're investigating the human microbiome or exploring microbial diversity in natural ecosystems, Greengenes is a go-to resource for characterizing and understanding microorganisms and their roles in different ecosystems. Greengenes includes species level annotations
 
 ### Output Folder
 The workspace folder where results will be placed.

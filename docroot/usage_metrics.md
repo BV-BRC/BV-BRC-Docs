@@ -13,7 +13,7 @@
 [BV-BRC Performance Metrics Report - September 2022](_static/files/metrics_reports/bv-brc-performance-metrics-report-september-2022.pdf)  
 [BV-BRC Performance Metrics Report - October 2022](_static/files/metrics_reports/bv-brc-performance-metrics-report-october-2022.pdf)  
 [BV-BRC Performance Metrics Report - November 2022](_static/files/metrics_reports/bv-brc-performance-metrics-report-november-2022.pdf)  
-[BV-BRC Performance Metrics Report - December 2022](_static/files/metrics_reports/bv-brc-performance-metrics-report-december-2022.pdf) 
+[BV-BRC Performance Metrics Report - December 2022](_static/files/metrics_reports/bv-brc-performance-metrics-report-december-2022.pdf)   
 [BV-BRC Performance Metrics Report - January 2023](_static/files/metrics_reports/bv-brc-performance-metrics-report-january-2023.pdf)  
 [BV-BRC Performance Metrics Report - February 2023](_static/files/metrics_reports/bv-brc-performance-metrics-report-february-2023.pdf)  
 [BV-BRC Performance Metrics Report - March 2023](_static/files/metrics_reports/bv-brc-performance-metrics-report-march-2023.pdf)  

@@ -60,6 +60,9 @@ Allows direct upload of read files from the [NCBI Sequence Read Archive](https:/
 
 **Minimal output contig coverage:** Filter out contigs with low read depth in final assembly
 
+## Selected Libraries
+Read files placed here will contribute to a single analysis.
+
 ## Buttons
 
 **Reset:** Clicking this button resets the input form to default values

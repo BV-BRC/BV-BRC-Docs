@@ -34,9 +34,46 @@ Read files placed here will be submited to the service.
 
 ## Parameters
 
-### Algorithm
+### Sequencing Type
+We now suppot 16S and Whole Genome Sequencing (WGS). The Analysis type and database options will change according to which sequencing type is chosen.  16S sequencing is less read-intensive as it consumes fewer sequencing resources and allows you to run more samples per sequencing run. Although it allows for less multiplexing of samples due to a higher read budget, WGS provides more valuable metagenomic data from your samples.
 
- * [Kraken 2](http://genomebiology.com/2014/15/3/R46) - Assigns taxonomic labels to metagenomic DNA sequences using exact alignmnet of k-mers. [Kraken 2 source code](https://ccb.jhu.edu/software/kraken2/)
+### Analysis Type 
+#### Whole Genome Sequencing (WGS) Analysis Types
+![WGS pipeline options](../images/taxonomic_classification_service_2_images/whole_genome_sequencing_analysis_options_overview.png)
+
+The WGS pipelines are described in [Lu et al., 2022](https://doi.org/10.1038/s41596-022-00738-y). 
+
+#### WGS FASTQ Processing
+![WGS FASTQ processing](../images/taxonomic_classification_service_2_images/whole_genome_sequencing_fastq_processing_overview.png)
+The FASTQ processing is the same for both the Species Identification adn Microbiome Pipeline. FastQC is preformed on the raw FASTQ files. 
+
+If a host is chosen in the Filter Host Reads dropdown, [Hisat2](http://daehwankimlab.github.io/hisat2/) will align the reads to the host genome then remove any aligned reads that aligned to the host genome from the sample.  FastQC will run on the host removed reads.  Then the host removed reads are used in thee Kraken2 command.
+
+[Hisat2](http://daehwankimlab.github.io/hisat2/) is a fast and sensitive alignment program for mapping next-generation sequencing reads. The FastQC resuls are avaialble under the sample directory in the FastQC_results directory. The results are also compiled into a MultiQC report. If the default parameter, 'None' is selected, this step is not run and the raw reads are used in the Kraken2 command. 
+
+#### Species Identification
+![WGS Species Identification](../images/taxonomic_classification_service_2_images/whole_genome_sequencing_sepecies_identification_analysis_overview.png)
+
+The Species identification is an end to end pipeline that runs Kraken2Uniq to identify taxa at the species level.  The Kraken results are used in the analysis results. This analysis outputs Krona and Sankey plots. A MultiQC report will generate with the FastQC results and kraken results. If multiple samples are submitted, an interactive multisample comparison table is generated from the Kraken results.
+
+#### Microbiome Analysis
+![WGS Microbiome Analysis](../images/taxonomic_classification_service_2_images/whole_genome_sequencing_microbiome_analysis_overview.png)
+
+The Microbiome analysis is an end to end pipeline that is similar to the Species Identification Pipeline.  This pipeline uses Kraken2 to identify taxa a the species level. However, this pipeline uses a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Braken is run at the species level with the flag '-S'.  Bracken recreates the report file using the values from the Bracken recalculation. This is available in the user input sample id subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.  The Bracken results are used the Krona and Sankey plots. Bracken functions calculate alpha and beta diversity. The statstics displayed with plotly in .HTML files as well as as .CSV for downstream analysis.  A MultiQC report will generate with the FastQC results and kraken rseults. If multiple samples are submitted, an interactive multisample comparison table is generated from the Braken results.
+
+#### 16S rRNA Analysis
+16S rRNA Analysis with Kraken2 is described in [Lu et al., 2020]( https://doi.org/10.1186/s40168-020-00900-2). At this time we only offer one analysis type for 16S that is very similar to the WGS microbiome analysis with a few differences. The most important differences are the database options.
+
+#### 16S rRNA FastQ Processing
+![16S FASTQ processing](../images/taxonomic_classification_service_2_images/16s_fastq_processing_overview.png)
+The FASTQ processing begins with FastQC on the raw FASTQ files. Then the reads are trimmed with [Trim Galore](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/).  Trim Galore is a wrapper around the tool cutadapt and FastQC to apply quality and adapter trimming of FASTQ files. FastQC results will be available for the trimmed reads. The FastQC resuls are avaialble under the sample directory in the FastQC_results directory. The results are also compiled into a MultiQC report. The trimmed reads are used in the Kraken2 command.
+
+#### 16S rRNA Default Analysis
+![16S default Analyis Type](../images/taxonomic_classification_service_2_images/16s_default_analysis_overview.png)
+
+This pipeline uses a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Braken is run at the genus level with the flag '-G'. The SILVA and GreenGrenes database offer reliable results to the genus level. The databases offer some taxa at lower taxonomy levels. But, too few to reliably generate the Braken report. Bracken recreates the report file using the values from the Bracken recalculation. This is available in the user input sample id subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.  The Bracken results are used the Krona and Sankey plots. Bracken functions calculate alpha and beta diversity. The statstics displayed with plotly in .HTML files as well as as .CSV for downstream analysis.  A MultiQC report will generate with the FastQC results and kraken rseults. If multiple samples are submitted, an interactive multisample comparison table is generated from the Braken results.
+
+ * All analysis types use [Kraken 2](http://genomebiology.com/2014/15/3/R46) - Assigns taxonomic labels to metagenomic DNA sequences using exact alignmnet of k-mers. [Kraken 2 source code](https://ccb.jhu.edu/software/kraken2/)
 
 ### Database
 Reference taxonomic database used by the algorithm.

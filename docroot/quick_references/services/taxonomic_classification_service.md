@@ -1,7 +1,7 @@
 # Taxonomic Classification Service
 
 ## Overview
-The Taxonomic Classification Service accepts reads or SRR values from sequencing of a metagenomic sample and uses [Kraken 2](http://genomebiology.com/2014/15/3/R46) to assign the reads to taxonomic bins, providing an initial profile of the possible constituent organisms present in the sample. We support taxonomic classification for whole genome wequencing data (WGS) and for 16s rRNA sequencing. It is important that you select the analysis option and database option that support your sequence type.
+The Taxonomic Classification Service accepts reads or SRR values from sequencing of a metagenomic sample and uses [Kraken 2](http://genomebiology.com/2014/15/3/R46) to assign the reads to taxonomic bins, providing an initial profile of the possible constituent organisms present in the sample. We support taxonomic classification for whole genome wequencing data (WGS) and for 16s rRNA sequencing. It is important that you select the sequence type. Then the analysis options and database options will change support your sequence type.
 
 ## See also
   * [Taxonomic Classification Service](https://bv-brc.org/app/TaxonomicClassification)

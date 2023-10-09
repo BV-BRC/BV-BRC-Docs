@@ -259,4 +259,4 @@ More details are available in the [Action Bar](../action_bar.html) Quick Referen
  * Shannon, C. E. A mathematical theory of communication. Bell Syst. Tech. J. 27, 379–423 (1948).
  * Simpson, E. H. Measurement of diversity. Nature 163, 688–688 (1949)
  * Yilmaz P, Parfrey LW, Yarza P, Gerken J, Pruesse E, Quast C, Schweer T, Peplies J, Ludwig W, Glöckner FO. The SILVA and “All-species Living Tree Project (LTP)” taxonomic frameworks. Nucleic Acids Res. 2014; 42(Database issue):643–8.
-![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/3fbb41cf-d408-4bb7-a53e-37a6b4a4b56c)
+

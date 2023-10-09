@@ -1,7 +1,7 @@
 # Taxonomic Classification Service
 
 ## Overview
-The Taxonomic Classification Service accepts reads or SRR values from sequencing of a metagenomic sample and uses [Kraken 2](http://genomebiology.com/2014/15/3/R46) to assign the reads to taxonomic bins, providing an initial profile of the possible constituent organisms present in the sample. We support taxonomic classification for whole genome wequencing data (WGS) and for 16s rRNA sequencing. It is important that you select the sequence type. Then the analysis options and database options will change support your sequence type.
+The Taxonomic Classification Service accepts reads or SRR values from sequencing of a metagenomic sample and uses [Kraken 2](http://genomebiology.com/2014/15/3/R46) to assign the reads to taxonomic bins, providing an initial profile of the possible constituent organisms present in the sample. We support taxonomic classification for whole genome sequencing data (WGS) and for 16s rRNA sequencing. It is important that you select the sequence type. Then the analysis options and database options will change support your sequence type.
 
 ## See also
   * [Taxonomic Classification Service](https://bv-brc.org/app/TaxonomicClassification)
@@ -27,15 +27,15 @@ The SAMPLE IDENTIFIER Field will auto populate with the file name. Edit the fiel
 **Read File:** The FASTQ file containing the reads.
 
 ### SRA run accession
-Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the ervice. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly.
+Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the assembly.
 
 ## Selected libraries
-Read files placed here will be submited to the service.
+Read files placed here will be submitted to the service.
 
 ## Parameters
 
 ### Sequencing Type
-We now suppot 16S and Whole Genome Sequencing (WGS). The Analysis type and database options will change according to which sequencing type is chosen.  16S sequencing is less read-intensive as it consumes fewer sequencing resources and allows you to run more samples per sequencing run. Although it allows for less multiplexing of samples due to a higher read budget, WGS provides more valuable metagenomic data from your samples.
+We now support 16S and Whole Genome Sequencing (WGS). The Analysis type and database options will change according to which sequencing type is chosen.  16S sequencing is less read-intensive as it consumes fewer sequencing resources and allows you to run more samples per sequencing run. Although it allows for less multiplexing of samples due to a higher read budget, WGS provides more valuable metagenomic data from your samples.
 
 ### Analysis Type 
 #### Whole Genome Sequencing (WGS) Analysis Types
@@ -45,35 +45,35 @@ The WGS pipelines are described in [Lu et al., 2022](https://doi.org/10.1038/s41
 
 #### WGS FASTQ Processing
 ![WGS FASTQ processing](../images/taxonomic_classification_service_2_images/whole_genome_sequencing_fastq_processing_overview.png)
-The FASTQ processing is the same for both the Species Identification adn Microbiome Pipeline. FastQC is preformed on the raw FASTQ files. 
+The FASTQ processing is the same for both the Species Identification and Microbiome Pipeline. FastQC is performed on the raw FASTQ files. 
 
 If a host is chosen in the Filter Host Reads dropdown, [Hisat2](http://daehwankimlab.github.io/hisat2/) will align the reads to the host genome then remove any aligned reads that aligned to the host genome from the sample.  FastQC will run on the host removed reads.  Then the host removed reads are used in thee Kraken2 command.
 
-[Hisat2](http://daehwankimlab.github.io/hisat2/) is a fast and sensitive alignment program for mapping next-generation sequencing reads. The FastQC resuls are avaialble under the sample directory in the FastQC_results directory. The results are also compiled into a MultiQC report. If the default parameter, 'None' is selected, this step is not run and the raw reads are used in the Kraken2 command. 
+[Hisat2](http://daehwankimlab.github.io/hisat2/) is a fast and sensitive alignment program for mapping next-generation sequencing reads. The FastQC results are available under the sample directory in the FastQC_results directory. The results are also compiled into a MultiQC report. If the default parameter, 'None' is selected, this step is not run, and the raw reads are used in the Kraken2 command. 
 
 #### Species Identification
 ![WGS Species Identification](../images/taxonomic_classification_service_2_images/whole_genome_sequencing_sepecies_identification_analysis_overview.png)
 
-The Species identification is an end to end pipeline that runs Kraken2Uniq to identify taxa at the species level.  The Kraken results are used in the analysis results. This analysis outputs Krona and Sankey plots. A MultiQC report will generate with the FastQC results and kraken results. If multiple samples are submitted, an interactive multisample comparison table is generated from the Kraken results.
+The Species identification is an end-to-end pipeline that runs Kraken2Uniq to identify taxa at the species level.  The Kraken results are used in the analysis results. This analysis outputs Krona and Sankey plots. A MultiQC report will generate with the FastQC results and kraken results. If multiple samples are submitted, an interactive multisample comparison table is generated from the Kraken results.
 
 #### Microbiome Analysis
 ![WGS Microbiome Analysis](../images/taxonomic_classification_service_2_images/whole_genome_sequencing_microbiome_analysis_overview.png)
 
-The Microbiome analysis is an end to end pipeline that is similar to the Species Identification Pipeline.  This pipeline uses Kraken2 to identify taxa a the species level. However, this pipeline uses a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Braken is run at the species level with the flag '-S'.  Bracken recreates the report file using the values from the Bracken recalculation. This is available in the user input sample id subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.  The Bracken results are used the Krona and Sankey plots. Bracken functions calculate alpha and beta diversity. The statstics displayed with plotly in .HTML files as well as as .CSV for downstream analysis.  A MultiQC report will generate with the FastQC results and kraken rseults. If multiple samples are submitted, an interactive multisample comparison table is generated from the Braken results.
+The Microbiome analysis is an end-to-end pipeline that is similar to the Species Identification Pipeline.  This pipeline uses Kraken2 to identify taxa the species level. However, this pipeline uses a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Bracken is run at the species level with the flag '-S'.  Bracken recreates the report file using the values from the Bracken recalculation. This is available in the user input sample id subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.  The Bracken results are used the Krona and Sankey plots. Bracken functions calculate alpha and beta diversity. The statistics displayed with plotly in .HTML files as well as .CSV for downstream analysis.  A MultiQC report will generate with the FastQC results and kraken results. If multiple samples are submitted, an interactive multisample comparison table is generated from the Bracken results.
 
 #### 16S rRNA Analysis
-16S rRNA Analysis with Kraken2 is described in [Lu et al., 2020]( https://doi.org/10.1186/s40168-020-00900-2). At this time we only offer one analysis type for 16S that is very similar to the WGS microbiome analysis with a few differences. The most important differences are the database options.
+16S rRNA Analysis with Kraken2 is described in [Lu et al., 2020]( https://doi.org/10.1186/s40168-020-00900-2). Currently, we offer one analysis type for 16S that is very similar to the WGS microbiome analysis with a few differences. The most important differences are the database options.
 
-#### 16S rRNA FastQ Processing
+#### 16S rRNA FASTQ Processing
 ![16S FASTQ processing](../images/taxonomic_classification_service_2_images/16s_fastq_processing_overview.png)
-The FASTQ processing begins with FastQC on the raw FASTQ files. Then the reads are trimmed with [Trim Galore](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/).  Trim Galore is a wrapper around the tool cutadapt and FastQC to apply quality and adapter trimming of FASTQ files. FastQC results will be available for the trimmed reads. The FastQC resuls are avaialble under the sample directory in the FastQC_results directory. The results are also compiled into a MultiQC report. The trimmed reads are used in the Kraken2 command.
+The FASTQ processing begins with FastQC on the raw FASTQ files. Then the reads are trimmed with [Trim Galore](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/).  Trim Galore is a wrapper around the tool [Cutadapt]( https://cutadapt.readthedocs.io/en/stable/) and FastQC to apply quality and adapter trimming of FASTQ files. FastQC results will be available for the trimmed reads. The FastQC results are available under the sample directory in the FastQC_results directory. The results are also compiled into a MultiQC report. The trimmed reads are used in the Kraken2 command.
 
 #### 16S rRNA Default Analysis
-![16S default Analyis Type](../images/taxonomic_classification_service_2_images/16s_default_analysis_overview.png)
+![16S default Analysis Type](../images/taxonomic_classification_service_2_images/16s_default_analysis_overview.png)
 
-This pipeline uses a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Braken is run at the genus level with the flag '-G'. The SILVA and GreenGrenes database offer reliable results to the genus level. The databases offer some taxa at lower taxonomy levels. But, too few to reliably generate the Braken report. Bracken recreates the report file using the values from the Bracken recalculation. This is available in the user input sample id subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.  The Bracken results are used the Krona and Sankey plots. Bracken functions calculate alpha and beta diversity. The statstics displayed with plotly in .HTML files as well as as .CSV for downstream analysis.  A MultiQC report will generate with the FastQC results and kraken rseults. If multiple samples are submitted, an interactive multisample comparison table is generated from the Braken results.
+This pipeline uses a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Bracken is run at the genus level with the flag '-G'. The SILVA and Greengenes database offer reliable results to the genus level. The databases offer some taxa at lower taxonomy levels. But too few to reliably generate the Bracken report. Bracken recreates the report file using the values from the Bracken recalculation. This is available in the user input sample id subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.  The Bracken results are used the Krona and Sankey plots. Bracken functions calculate alpha and beta diversity. The statistics displayed with plotly in .HTML files as well as .CSV for downstream analysis.  A MultiQC report will generate with the FastQC results and kraken results. If multiple samples are submitted, an interactive multisample comparison table is generated from the Bracken results.
 
- * All analysis types use [Kraken 2](http://genomebiology.com/2014/15/3/R46) - Assigns taxonomic labels to metagenomic DNA sequences using exact alignmnet of k-mers. [Kraken 2 source code](https://ccb.jhu.edu/software/kraken2/)
+ * All analysis types use [Kraken 2](http://genomebiology.com/2014/15/3/R46) - Assigns taxonomic labels to metagenomic DNA sequences using exact alignment of k-mers. [Kraken 2 source code](https://ccb.jhu.edu/software/kraken2/)
 
 ### Database
 Reference taxonomic database used by the algorithm.
@@ -82,28 +82,28 @@ __Whole genome sequencing databases (WGS)__
 * [Kraken2 Standard Database](https://ccb.jhu.edu/software/kraken2/index.shtml?t=manual#standard-kraken-2-database) - Standard Kraken 2 database containing distinct 31-mers, based on completed microbial genomes from NCBI.
 * [BV-BRC Database]( https://github.com/DerrickWood/kraken2/wiki/Manual#custom-databases) - The default Kraken 2 database at BV-BRC includes the following:
 
-  * archaea: RefSeq complete archaeal genomes/proteins
+  * Archaea: RefSeq complete archaeal genomes/proteins
 
-  * bacteria: RefSeq complete bacterial genomes/proteins
+  * Bacteria: RefSeq complete bacterial genomes/proteins
 
-  * plasmid: RefSeq plasmid nucleotide/protein sequences
+  * Plasmid: RefSeq plasmid nucleotide/protein sequences
 
-  * viral: RefSeq complete viral genomes/proteins
+  * Viral: RefSeq complete viral genomes/proteins
 
-  * human: GRCh38 human genome/proteins
+  * Human: GRCh38 human genome/proteins
 
-  * fungi: RefSeq complete fungal genomes/proteins
+  * Fungi: RefSeq complete fungal genomes/proteins
 
-  * plant: RefSeq complete plant genomes/proteins
+  * Plant: RefSeq complete plant genomes/proteins
 
-  * protozoa: RefSeq complete protozoan genomes/proteins
+  * Protozoa: RefSeq complete protozoan genomes/proteins
 
   * UniVec: NCBI-supplied database of vector, adapter, linker, and primer sequences that may be contaminating sequencing projects and/or assemblies
 
  __16s Analysis databases__
 * [SILVA](https://www.arb-silva.de/) - The SILVA Database, short for "SILVA rRNA database project," is a widely recognized and meticulously curated resource for ribosomal RNA (rRNA) gene sequences. It covers rRNA genes from bacteria, archaea, and eukaryotes, offering high-quality data with taxonomic classifications. SILVA is an essential tool for researchers in molecular biology and microbiology, aiding in phylogenetic analysis, taxonomic identification, and the study of microbial communities in diverse environments. With its constant updates and comprehensive coverage, SILVA plays a crucial role in advancing our understanding of microbial diversity and evolution.
 
-* [Greengenes](https://greengenes.lbl.gov/Download/) - Greengenes is a prominent 16S rRNA gene sequence database designed for microbiologists and microbial ecologists. This database contains curated and annotated 16S rRNA gene sequences primarily from bacteria and archaea. Greengenes is a valuable resource for researchers studying microbial communities in various environments. It enables taxonomic classification, comparative analyses, and metagenomic studies by providing a standardized and well-maintained collection of sequences. Whether you're investigating the human microbiome or exploring microbial diversity in natural ecosystems, Greengenes is a go-to resource for characterizing and understanding microorganisms and their roles in different ecosystems. Greengenes includes species level annotations
+* [Greengenes](https://greengenes.lbl.gov/Download/) - Greengenes is a prominent 16S rRNA gene sequence database designed for microbiologists and microbial ecologists. This database contains curated and annotated 16S rRNA gene sequences primarily from bacteria and archaea. Greengenes is a valuable resource for researchers studying microbial communities in various environments. It enables taxonomic classification, comparative analyses, and metagenomic studies by providing a standardized and well-maintained collection of sequences. Whether you're investigating the human microbiome or exploring microbial diversity in natural ecosystems, Greengenes is a go-to resource for characterizing and understanding microorganisms and their roles in different ecosystems. Greengenes includes species level annotations.
 
 ### Output Folder
 The workspace folder where results will be placed.
@@ -137,29 +137,29 @@ The Taxonomic Classification Service generates several files that are deposited 
 
 ![Krona-based interactive Taxonomic Classification Chart](../images/taxonomic_classification_service_2_images/individual_krona_plot.png)
 
-This interactive chart provides a visual representation of the reads mapping to each taxon. Clicking on a taxon within the pie chart will provide a summary of the reads mapping to that specific selection on the upper right corner. Double clicking with a section will open that specific section to view. It is possible to change the maximum depth, font size and chart size by clicking the plus and minus buttons. Clicking the colapse check box will detemrine if you show every taxa level that is currently selected. The sanpshot button will capture an image of the krona plot at the current.
+This interactive chart provides a visual representation of the reads mapping to each taxon. Clicking on a taxon within the pie chart will provide a summary of the reads mapping to that specific selection on the upper right corner. Double clicking with a section will open that specific section to view. It is possible to change the maximum depth, font size and chart size by clicking the plus and minus buttons. Clicking the collapse check box will determine if you show every taxa level that is currently selected. The snapshot button will capture an image of the krona plot at the current.
 
-Single sample Krona plots are available in the sample level directories. Multisample Krona plots are available in the landing page for the job. Navigating the multisample Krona plot is the same as navigating an indvidual Krona plot. To toggle between samples select the SAMPLE ID.b.krona in the box below the Krona logo. This is the name of the file used to create the plot. The start of the file name will be the user entered SAMPLE ID.
+Single sample Krona plots are available in the sample level directories. Multisample Krona plots are available in the landing page for the job. Navigating the multisample Krona plot is the same as navigating an individual Krona plot. To toggle between samples, select the “SAMPLE ID.b.krona” in the box below the Krona logo. This is the name of the file used to create the plot. The start of the file name will be the user entered SAMPLE ID. Or use the arrow buttons on the right-hand side. 
 
 ### MultiQC Report
 
 ![interactive MultiQC Report](../images/taxonomic_classification_service_2_images/MultiQC_toolbox.png)
 
-The MultiQC Report will display a compilation of sample results from FastQC and Kraken2 into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. Use the toolbox to interact with the contents of the report. There are multiple ways to interac with this report. Subsection most plots by clicking to highlight a portion of the plot or clicking and dragging a subsection of the plot.  
+The MultiQC Report will display a compilation of sample results from FastQC and Kraken2 into one place. If you are new to MultiQC, an introductory video walkthrough is available above General Statistics. Use the toolbox to interact with the contents of the report. There are multiple ways to interact with this report. Subsection most plots by clicking to highlight a portion of the plot or clicking and dragging a subsection of the plot.  
 
-To export an individual plot (before or after manipulations) use the "Export Plot" button in the upper right hand corner of the individual plot.
+To export an individual plot (before or after manipulations) use the "Export Plot" button in the upper right-hand corner of the individual plot.
 
-The Multiqc Toolbox is a very powerful aspect of the report. To itneract with the MultiQC report Toolbox, click the icons along the right hand side.  
+The MultiQC Toolbox is a very powerful aspect of the report. To interact with the MultiQC report Toolbox, click the icons along the right-hand side.  
  * The "Pin" icon called "highlight" allows you to highlight specific text in the report. 
- * The "A" icon called "rename" allows you to rename samples in the report. You could also paste the columns of a tab-deliminated table here (for example, the sample_key.CSV from the job output)
+ * The "A" icon called "rename" allows you to rename samples in the report. You could also paste the columns of a tab-delaminated table here (for example, the sample_key.CSV from the job output)
  * The "Eye" with a strike through called "hide" allows you to show or hide specific samples.
- * The "Download" icon called "export" in the Images tab, alows you manipulate the plots within the report and export selected plots. Plots can be manipulated in the following ways: 
+ * The "Download" icon called "export" in the Images tab, allows you manipulate the plots within the report and export selected plots. Plots can be manipulated in the following ways: 
    * Size changes the number of pixels.
-   * Use the dropdown to selet .PNG, .JPEG, .SGV for the output image of the plot.
+   * Use the dropdown to select  .PNG, .JPEG, .SGV for the output image of the plot.
    * Plot scaling allows you to change the scale of your plot.
-Click in the check box to select the images for output. Then, at the bottom of this list, select "Download Plot Image" to save these images
+Click in the check box to select the images for output. Then, at the bottom of this list, select "Download Plot Image" to save these images.
 
-Under the Data tab you are able to download the exact raw data used to create the plots. Click in the check box to select which plot(s) to download the data from. Then, at the bottom of the list, select "Download Plot Data"
+Under the Data tab you can download the exact raw data used to create the plots. Click in the check box to select which plot(s) to download the data from. Then, at the bottom of the list, select "Download Plot Data"
 
 ### Sample Key
 
@@ -172,20 +172,22 @@ This is another interactive view of the taxa across every domain level at the sa
 
 ### Multiple Sample Comparison
 
-![Example Muliple Sample Comparison Table](../images/taxonomic_classification_service_2_images/multi_cmp.png)
-The goal of this table is to identify which microbes are unique within each sample and which are common among all samples. When intpreting this table it is important to consider the if a value is positive or negative, the mangitude of the value and the color of the value calculated from from the Kraken2 report. 
+![Example Multiple Sample Comparison Table](../images/taxonomic_classification_service_2_images/multi_cmp.png)
+The goal of this table is to identify which microbes are unique within each sample and which are common among all samples. When interesting this table, it is important to consider the if a value is positive or negative, the magnitude of the value and the color of the value calculated from the Kraken2 report. Note, this table shows the taxa at the species level for WGS results and at the genus level for 16S rRNA results.
 
-Interact with the table by clicking the up and and down arrows next to the sample ID. This will sort the results for the taxa with the highest z-score at the. top of the table. Set a range for the values in  a column inthe "All" text box. Click the "Prev", "Next", and page numbers to sort through pages of the table.
+Interact with the table by clicking the up and down arrows next to the sample ID. This will sort the results for the taxa with the highest z-score at the. top of the table. Set a range for the values in  a column in the "All" text box. Click the "Prev", "Next", and page numbers to sort through pages of the table.
+
+Search for a specific taxa by typing in box that says "All" in the "name" column.
 
 The robust z-score is the median absolute deviation. This method is chosen to reduce impact from outliers in the data, providing a more reliable measure of relative position within the data distribution. 
 
-If the positive robust z-score indicates that t the number of fragments assigned to that taxa was above the median or central tendancy of the data. 
+If the positive robust z-score indicates that t the number of fragments assigned to that taxon was above the median or central tendency of the data. 
 
-Conversly, a negitive robust z-score indicates that the number of fragments assigned to that taxa was below the median or central tendancy of the data. 
+Conversely, a negative robust z-score indicates that the number of fragments assigned to that taxon was below the median or central tendency of the data. 
 
 The magnitude (represented as the value of the z-score) indicates the distance of the data point from the central tendency in terms of the robust measure of dispersion. 
 
-The intensity of the red for each cell is calculated by putting the read scores into quantiles probabilites ranging from 0.05 to 0.95 with an increment of 0.05. This means that the intensity of the color represents the relative position in the datasets disribution for that datapoint. A darker color indicates that value is more likely to be an outlier.
+The intensity of the red for each cell is calculated by putting the read scores into quantiles probabilities ranging from 0.05 to 0.95 with an increment of 0.05. This means that the intensity of the color represents the relative position in the dataset’s distribution for that datapoint. A darker color indicates that value is more likely to be an outlier.
 
 
 ### Alpha Diversity
@@ -204,11 +206,11 @@ Berger-Parker’s The Berger-Parker index (Berger and Parker 1970) expresses the
 
 ![Simpson's Index](../images/taxonomic_classification_service_2_images/simpsons_index.png) 
 
-Simpson’s index is a measure of diversity which takes into account the number of species present, as well as the relative abundance of each species. As species richness and evenness increase, so diversity increases. (Simpson, 1949). The Simpson-based metrics are that they do not tend to be as affected by sampling effort as the Shannon’s index. 
+Simpson’s index is a measure of diversity which considers the number of species present, as well as the relative abundance of each species. As species richness and evenness increase, so diversity increases. (Simpson, 1949). The Simpson-based metrics are that they do not tend to be as affected by sampling effort as the Shannon’s index. 
 
 ![Simpson's Reciprocal Index](../images/taxonomic_classification_service_2_images/simpsons_reciprocal_index.png) 
 
-Inverse Simpson’s: Simpson’s reciprocal index quantifies biodiversity by taking into account the richness and evenness. The greater the biodiversity in an area, the higher the value of D. The lowest possible defined value of D is 1and would occur if the
+Inverse Simpson’s: Simpson’s reciprocal index quantifies biodiversity by considering the richness and evenness. The greater the biodiversity in an area, the higher the value of D. The lowest possible defined value of D is 1and would occur if the
 community contained only one species. The maximum value would occur if there
 was perfect evenness and would be equal to the number of species.
 (Simpson, 1949)
@@ -223,7 +225,7 @@ Beta-diversity is quantified as the variability in community composition (the id
 
 ![Bray-Curtis](../images/taxonomic_classification_service_2_images/bray_curtis.png)
 
-Beta diversity is calculated with the [KrakenTools](https://ccb.jhu.edu/software/krakentools/) beta_diversity.py script to compute the Bray-Curtis dissimilarity matrix for pairwise dissimilalarities among three mircrobiome asmples. In this matrix, a 0 means the two samples were exactly the same and a 1 means they are maximally divergent. (Bray & Curtis, 1957).
+Beta diversity is calculated with the [KrakenTools](https://ccb.jhu.edu/software/krakentools/) beta_diversity.py script to compute the Bray-Curtis dissimilarity matrix for pairwise dissimilarities among three microbiome samples. In this matrix, a 0 means the two samples were _exactly_ the same and a 1 means they are maximally divergent. (Bray & Curtis, 1957).
 
 ![Beta Diversity Heatmap](../images/taxonomic_classification_service_2_images/beta_diversity.png) 
 
@@ -245,10 +247,10 @@ More details are available in the [Action Bar](../action_bar.html) Quick Referen
 ## References
  * Anderson MJ, Ellingsen KE, McArdle BH. Multivariate dispersion as a measure of beta diversity. Ecol Lett. 2006. June;9(6):683–93. 10.1111/j.1461-0248.2006.00926.
  * Andrews, S. (2010). FastQC:  A Quality Control Tool for High Throughput Sequence Data [Online]. Available online at: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
- * Breitwieser FP, Salzberg SL. Pavian: interactive analysis of metagenomics data for microbiome studies and pathogen identification. Bioinformatics. 2020 Feb 15;36(4):1303-1304. doi: 10.1093/bioinformatics/btz715. PMID: 31553437; PMCID: PMC8215911.
+ * Breitwieser FP, Salzberg SL. Pavian: interactive analysis of metagenomics data for microbiome studies and pathogen identification. Bioinformatics. 2020 Feb 15;36(4):1303-1304. DOI: 10.1093/bioinformatics/btz715. PMID: 31553437; PMCID: PMC8215911.
  * Ewels, P., Magnusson, M., Lundin, S., &amp; Käller, M. (2016). MultiQC: Summarize analysis results for multiple tools and samples in a single report. Bioinformatics, 32(19), 3047–3048. https://doi.org/10.1093/bioinformatics/btw354 
  * Fisher, R. A., Corbet, A. S. & Williams, C. B. The relation between the number of species and the number of individuals in a random sample of an animal population. J. Anim. Ecol. 12, 42–58 (1943)
- * Kim, D., Langmead, B., & Salzberg, S.L. (2015). HISAT: A afstq spliced aligner with low memory requirements. Nature Methods, 12(4), 357-360. https://doi.org/10.1038/nmeth.3317
+ * Kim, D., Langmead, B., & Salzberg, S.L. (2015). HISAT: A fastq spliced aligner with low memory requirements. Nature Methods, 12(4), 357-360. https://doi.org/10.1038/nmeth.3317
  * Lu, J. & Salzberg, S. L. Ultrafast and accurate 16S rRNA microbial community analysis using Kraken 2. Microbiome 8, 1-11 (2020).
  * Lu, J., Rincon, N., Wood, D. E., Breitwieser, F. P., Pockrandt, C., Langmead, B., Salzberg, S. L., &amp; Steinegger, M. (2022). Metagenome analysis using the Kraken Software Suite. Nature Protocols, 17(12), 2815–2839. https://doi.org/10.1038/s41596-022-00738-y 
  * Maidak, Bonnie L., et al. "The RDP (ribosomal database project)." Nucleic acids research 25.1 (1997): 109-110.
@@ -257,5 +259,4 @@ More details are available in the [Action Bar](../action_bar.html) Quick Referen
  * Shannon, C. E. A mathematical theory of communication. Bell Syst. Tech. J. 27, 379–423 (1948).
  * Simpson, E. H. Measurement of diversity. Nature 163, 688–688 (1949)
  * Yilmaz P, Parfrey LW, Yarza P, Gerken J, Pruesse E, Quast C, Schweer T, Peplies J, Ludwig W, Glöckner FO. The SILVA and “All-species Living Tree Project (LTP)” taxonomic frameworks. Nucleic Acids Res. 2014; 42(Database issue):643–8.
- 
- 
+![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/3fbb41cf-d408-4bb7-a53e-37a6b4a4b56c)

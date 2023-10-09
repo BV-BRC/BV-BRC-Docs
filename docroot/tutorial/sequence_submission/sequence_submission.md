@@ -15,13 +15,30 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
 
 3\. This will open the Sequence Submission landing page for entering submitter information, sequence data or FASTA file, and a metadata file.
 
-![Figure 3](./images/fig3.png "Figure 3")
+![Figure 3](./images/fig3c.png "Figure 3")
 
 ## Specifying Sequence Submission Parameters
 
 1\. Provide submitter information. All fields marked with asterisks are required.
 
 ![Figure 4](./images/fig4.png "Figure 4")
+
+* **First Name:** The first name of the submitter (Required)
+*	**Last Name:** The last name of the submitter (Required)
+* **Email:** The email id of the submitter (Required)
+* **Phone Number:** The phone number of the submitter
+* **Institution/Affiliation:** The institution/affiliation information of the submitter (Required)
+* **Consortium:** The consortium information of the submitter
+* **Street:** The street information for the institution/affiliation of the submitter
+* **Postal Code:** The postal code for the institution/affiliation of the submitter
+* **City:** The city for the institution/affiliation of the submitter
+* **State:** The state for the institution/affiliation of the submitter
+* **Country:** The country information of the submitter (Required)
+
+
+
+
+
 
 2\. Select the desired input files/sequences in FASTA format. FASTA definition line must begin with a carat (“>”), followed by a unique sample identifier (Unique_Sample_Identifier) and a unique sequence identifier (Unique_Sequence_Identifier) separated by a pipe (“|”). 
 Example defline: “>Unique_Sample_Identifier: yourSampleID| Unique_Sequence_Identifier: yourSampleID-segmentNumber”

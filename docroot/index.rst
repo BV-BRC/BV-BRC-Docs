@@ -29,6 +29,7 @@ BV-BRC Documentation
    :maxdepth: 2
    :caption: System Documentation:
 
+   system_documentation/data_management_sharing.md
    system_documentation/system_architecture
    test_procedures/index
    usage_metrics.md

@@ -6,35 +6,120 @@ The HA Subtype Numbering Conversion tool takes influenza HA protein sequence(s) 
 
 ### Burke Reference Sequences
 
-| Subtype Common Name | Strain Name        |
-| ------------------- | ------------------ |
-| H1_PR34             | A/Puerto/Rico/8/34 |
-| H1_1993             | A/United/Kingdom/1/1933 |
-| H1post1995          | A/NewCaledonia/20/1999 |
-| H1pdm | A/California/04/2009 |
-| H2	| A/Singapore/1/1957 |
-| H5mEA-nonGsGD	| A/mallard/Italy/3401/2005 (LPAI) |
-| H5	| A/Vietnam/1203/04 (HPAI) |
-| H5c221	| A/chicken/Egypt/0915-NLQP/2009 (HPAI) |
-| H6	| A/chicken/Taiwan/0705/99 |
-| H8	| A/turkey/Ontario/6118/1968 |
-| H9	| A/Swine/HK/9/98 |
-| H11	| A/duck/England/1/1956 |
-| H12	| A/Duck/Alberta/60/1976 |
-| H13	| A/gull/Maryland/704/1977 |
-| H16	| A/black-headedgull/Turkmenistan/13/76 |
-| B/Hong Kong/8/73	| B/HONGKONG/8/73 |
-| B/Florida/4/2006	| B/FLORIDA/4/2006 |
-| B/Human/Brisbane/60/2008	| B/HUMAN/BRISBANE/60/2008 |
-| H3	| A/AICHI/2/68 |
-| H14	| A/mallard/Astrakhan/263/1982 |
-| H15	| A/duck/Australia/341/1983 |
-| H10	| A/mallard/bavaria/3/2006 |
-| H4	| A/swine/Ontario/01911-1/99 |
-| H7N3	| A/Turkey/Italy/220158/02/H7N3 |
-| H7N7	| A/Netherlands/219/03/H7N7 |
-| H17	| A/little-yellowshoulderedbat/Guatemala/060/2010 |
-| H18	| A/flat-faced/bat/Peru/033/2010 |
+<table>
+  <tr>
+    <th>Subtype Common Name</th>
+    <th>Strain Name</th>
+  </tr>
+  <tr>
+    <td>H1_PR34</td>
+    <td>A/Puerto/Rico/8/34</td>
+  </tr>
+  <tr>
+    <td>H1_1993</td>
+    <td>A/United/Kingdom/1/1933</td>
+  </tr>
+<tr>
+    <td>H1post1995</td>
+    <td>A/NewCaledonia/20/1999</td>
+  </tr>
+  <tr>
+    <td>H1pdm</td>
+    <td>A/California/04/2009</td>
+  </tr>
+  <tr>
+    <td>H2</td>
+    <td>A/Singapore/1/1957</td>
+  </tr>
+  <tr>
+    <td>H5mEA-nonGsGD</td>
+    <td>A/mallard/Italy/3401/2005 (LPAI)</td>
+  </tr>
+  <tr>
+    <td>H5</td>
+    <td>A/Vietnam/1203/04 (HPAI)</td>
+  </tr>
+  <tr>
+    <td>H5c221</td>
+    <td>A/chicken/Egypt/0915-NLQP/2009 (HPAI)</td>
+  </tr>
+  <tr>
+    <td>H6</td>
+    <td>A/chicken/Taiwan/0705/99</td>
+  </tr>
+  <tr>
+    <td>H8</td>
+    <td>A/turkey/Ontario/6118/1968</td>
+  </tr>
+  <tr>
+    <td>H9</td>
+    <td>A/Swine/HK/9/98</td>
+  </tr>
+  <tr>
+    <td>H11</td>
+    <td>A/duck/England/1/1956</td>
+  </tr>
+  <tr>
+    <td>H12</td>
+    <td>A/Duck/Alberta/60/1976</td>
+  </tr>
+  <tr>
+    <td>H13</td>
+    <td>A/gull/Maryland/704/1977</td>
+  </tr>
+  <tr>
+    <td>H16</td>
+    <td>A/black-headedgull/Turkmenistan/13/76</td>
+  </tr>
+  <tr>
+    <td>B/Hong Kong/8/73</td>
+    <td>B/HONGKONG/8/73</td>
+  </tr>
+  <tr>
+    <td>B/Florida/4/2006</td>
+    <td>B/FLORIDA/4/2006</td>
+  </tr>
+  <tr>
+    <td>B/Human/Brisbane/60/2008</td>
+    <td>B/HUMAN/BRISBANE/60/2008</td>
+  </tr>
+  <tr>
+    <td>H3</td>
+    <td>A/AICHI/2/68</td>
+  </tr>
+  <tr>
+    <td>H14</td>
+    <td>A/mallard/Astrakhan/263/1982</td>
+  </tr>
+  <tr>
+    <td>H15</td>
+    <td>A/duck/Australia/341/1983</td>
+  </tr>
+  <tr>
+    <td>H10</td>
+    <td>A/mallard/bavaria/3/2006</td>
+  </tr>
+  <tr>
+    <td>H4</td>
+    <td>A/swine/Ontario/01911-1/99</td>
+  </tr>
+  <tr>
+    <td>H7N3</td>
+    <td>A/Turkey/Italy/220158/02/H7N3</td>
+  </tr>
+  <tr>
+    <td>H7N7</td>
+    <td>A/Netherlands/219/03/H7N7</td>
+  </tr>
+  <tr>
+    <td>H17</td>
+    <td>A/little-yellowshoulderedbat/Guatemala/060/2010</td>
+  </tr>
+  <tr>
+    <td>H18</td>
+    <td>A/flat-faced/bat/Peru/033/2010</td>
+  </tr>
+</table>
 
 ### See Also
   * [HA Subtype Numbering Conversion Service](https://www.bv-brc.org/app/HASubtypeNumberingConversion)

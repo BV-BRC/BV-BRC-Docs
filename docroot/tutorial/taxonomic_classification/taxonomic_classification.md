@@ -206,8 +206,21 @@ For *microbiome analyses* alpha diversity results for each sample are collated a
 
 8\. multiqc_report.html will display a compilation of sample results from various analyses into one place. If you are new to MultiQC, an introductory [video walkthrough](https://www.youtube.com/watch?v=BbScv9TcaMg) also available above General Statistics. Use the toolbox to interact with the contents of the report. ![MultiQC video walkthrough](./images/MultiQC_video_walkthrough.png "MultiQC video walkthrough")
 
-9\. multisample_comparison.html *This file is only generated if multiple samples are submitted with this job* Click to view a table of the taxa compared across samples according to z-score Note: this information is also available in multisample_comparison.csv for coinvent use in downstream analysis and visualization. Refer to the [quick reference guide](https://www.bv-brc.org/docs/quick_references/services/taxonomic_classification_service.html) for a detailed explanation of how to interpret the data.
-![Multisample comparison table](./images/multi_cmp.png "Multisample comparison table")
+9\. Navigate to landing directory for the job output.  Click the file, multisample_comparison.html.
+
+Interact with the table by clicking the up and down arrows next to the sample ID. This will sort the results for the taxa with the highest z-score at the. top of the table. Set a range for the values in  a column in the "All" text box. Click the "Prev", "Next", and page numbers to sort through pages of the table.
+
+The robust z-score is the median absolute deviation. This method is chosen to reduce impact from outliers in the data, providing a more reliable measure of relative position within the data distribution. 
+
+If the positive robust z-score indicates that t the number of fragments assigned to that taxon was above the median or central tendency of the data. 
+
+Conversely, a negative robust z-score indicates that the number of fragments assigned to that taxon was below the median or central tendency of the data. 
+
+The magnitude (represented as the value of the z-score) indicates the distance of the data point from the central tendency in terms of the robust measure of dispersion. 
+
+The intensity of the red for each cell is calculated by putting the read scores into quantiles probabilities ranging from 0.05 to 0.95 with an increment of 0.05. This means that the intensity of the color represents the relative position in the dataset’s distribution for that datapoint. A darker color indicates that value is more likely to be an outlier.
+
+![Example Multiple Sample Comparison Table](./images/multi_cmp.png "Example Multiple Sample Comparison Table")
 
 10\. multisample_krona.html *This file is only generated if multiple samples are submitted with this job* Click to view krona plots of each sample included in your analysis. Toggle between all the samples included in your analysis by clicking on the sample names or up and down arrows in the upper left-hand corner of the report underneath the Krona logo. For more details about interacting with the Krona chart please view the sample level details at number 20 in this list.
 ![multisample krona plot toggle](./images/multisample_krona_plot_toggle.png "multisample krona plot toggle")
@@ -249,20 +262,6 @@ For *microbiome analyses* alpha diversity results for each sample are collated a
 23\. The entire report can be downloaded by clicking on the Download icon at the top of this page.
 ![Figure 47](./images/Picture47.png "Figure 47") 
 
-24\. Navigate to landing directory for the job output.  Click the file, multisample_comparison.html.
-Interact with the table by clicking the up and down arrows next to the sample ID. This will sort the results for the taxa with the highest z-score at the. top of the table. Set a range for the values in  a column in the "All" text box. Click the "Prev", "Next", and page numbers to sort through pages of the table.
-
-The robust z-score is the median absolute deviation. This method is chosen to reduce impact from outliers in the data, providing a more reliable measure of relative position within the data distribution. 
-
-If the positive robust z-score indicates that t the number of fragments assigned to that taxon was above the median or central tendency of the data. 
-
-Conversely, a negative robust z-score indicates that the number of fragments assigned to that taxon was below the median or central tendency of the data. 
-
-The magnitude (represented as the value of the z-score) indicates the distance of the data point from the central tendency in terms of the robust measure of dispersion. 
-
-The intensity of the red for each cell is calculated by putting the read scores into quantiles probabilities ranging from 0.05 to 0.95 with an increment of 0.05. This means that the intensity of the color represents the relative position in the dataset’s distribution for that datapoint. A darker color indicates that value is more likely to be an outlier.
-
-![Example Multiple Sample Comparison Table](./images/multi_cmp.png "Example Multiple Sample Comparison Table")
 
 ### Microbiome Analysis specific outputs
 #### Alpha Diversity
@@ -289,4 +288,3 @@ This is a heatmap displaying the beta-diversity value between each sample. Beta-
 12. Shannon, C. E. A mathematical theory of communication. Bell Syst. Tech. J. 27, 379–423 (1948).
 13. Simpson, E. H. Measurement of diversity. Nature 163, 688–688 (1949)
 14. Yilmaz P, Parfrey LW, Yarza P, Gerken J, Pruesse E, Quast C, Schweer T, Peplies J, Ludwig W, Glöckner FO. The SILVA and “All-species Living Tree Project (LTP)” taxonomic frameworks. Nucleic Acids Res. 2014; 42(Database issue):643–8.
-![image](https://github.com/nicolegobo/BV-BRC-Docs/assets/54408219/cc76dc5c-96f3-49fb-95b2-54305ed4a269)

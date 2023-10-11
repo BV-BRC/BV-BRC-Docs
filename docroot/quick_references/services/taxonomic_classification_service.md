@@ -38,73 +38,54 @@ We now support 16S and Whole Genome Sequencing (WGS). The Analysis type and data
 ## Sequencing Type
 Please select the sequencing type according to your input reads or SRA run accession.
 
-## Analysis Type 
-### Whole Genome Sequencing (WGS) Analysis Types
-![WGS pipeline options](../images/taxonomic_classification_service_2_images/whole_genome_sequencing_analysis_options_overview.png)
+## Analysis Type
 
+See tutorial for a detailed explaination of each analysis type.  
+<br>
+__Whole Genome Sequencing (WGS) Analysis Types__
 The WGS pipelines are described in [Lu et al., 2022](https://doi.org/10.1038/s41596-022-00738-y). 
-
-### WGS FASTQ Processing
-![WGS FASTQ processing](../images/taxonomic_classification_service_2_images/whole_genome_sequencing_fastq_processing_overview.png)
-The FASTQ processing is the same for both the Species Identification and Microbiome Pipeline. FastQC is performed on the raw FASTQ files. 
-
-If a host is chosen in the Filter Host Reads dropdown, [Hisat2](http://daehwankimlab.github.io/hisat2/) will align the reads to the host genome then remove any aligned reads that aligned to the host genome from the sample.  FastQC will run on the host removed reads.  Then the host removed reads are used in thee Kraken2 command.
-
-[Hisat2](http://daehwankimlab.github.io/hisat2/) is a fast and sensitive alignment program for mapping next-generation sequencing reads. The FastQC results are available under the sample directory in the FastQC_results directory. The results are also compiled into a MultiQC report. If the default parameter, 'None' is selected, this step is not run, and the raw reads are used in the Kraken2 command. 
-
-### Species Identification (WGS)
-![WGS Species Identification](../images/taxonomic_classification_service_2_images/whole_genome_sequencing_sepecies_identification_analysis_overview.png)
-
-The Species identification is an end-to-end pipeline that runs Kraken2Uniq to identify taxa at the species level.  The Kraken results are used in the analysis results. This analysis outputs Krona and Sankey plots. A MultiQC report will generate with the FastQC results and kraken results. If multiple samples are submitted, an interactive multisample comparison table is generated from the Kraken results.
-
-### Microbiome Analysis (WGS)
-![WGS Microbiome Analysis](../images/taxonomic_classification_service_2_images/whole_genome_sequencing_microbiome_analysis_overview.png)
-
-The Microbiome analysis is an end-to-end pipeline that is similar to the Species Identification Pipeline.  This pipeline uses Kraken2 to identify taxa the species level. However, this pipeline uses a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Bracken is run at the species level with the flag '-S'.  Bracken recreates the report file using the values from the Bracken recalculation. This is available in the user input sample id subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.  The Bracken results are used the Krona and Sankey plots. Bracken functions calculate alpha and beta diversity. The statistics displayed with plotly in .HTML files as well as .CSV for downstream analysis.  A MultiQC report will generate with the FastQC results and kraken results. If multiple samples are submitted, an interactive multisample comparison table is generated from the Bracken results.
-
-###  16S rRNA Analysis
-16S rRNA Analysis with Kraken2 is described in [Lu et al., 2020]( https://doi.org/10.1186/s40168-020-00900-2). Currently, we offer one analysis type for 16S that is very similar to the WGS microbiome analysis with a few differences. The most important differences are the database options.
-
-### 16S rRNA FASTQ Processing
-![16S FASTQ processing](../images/taxonomic_classification_service_2_images/16s_fastq_processing_overview.png)
-The FASTQ processing begins with FastQC on the raw FASTQ files. Then the reads are trimmed with [Trim Galore](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/).  Trim Galore is a wrapper around the tool [Cutadapt]( https://cutadapt.readthedocs.io/en/stable/) and FastQC to apply quality and adapter trimming of FASTQ files. FastQC results will be available for the trimmed reads. The FastQC results are available under the sample directory in the FastQC_results directory. The results are also compiled into a MultiQC report. The trimmed reads are used in the Kraken2 command.
-
-### 16S rRNA Default Analysis
-![16S default Analysis Type](../images/taxonomic_classification_service_2_images/16s_default_analysis_overview.png)
-
-This pipeline uses a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Bracken is run at the genus level with the flag '-G'. The SILVA and Greengenes database offer reliable results to the genus level. The databases offer some taxa at lower taxonomy levels. But too few to reliably generate the Bracken report. Bracken recreates the report file using the values from the Bracken recalculation. This is available in the user input sample id subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.  The Bracken results are used the Krona and Sankey plots. Bracken functions calculate alpha and beta diversity. The statistics displayed with plotly in .HTML files as well as .CSV for downstream analysis.  A MultiQC report will generate with the FastQC results and kraken results. If multiple samples are submitted, an interactive multisample comparison table is generated from the Bracken results.
-
- * All analysis types use [Kraken 2](http://genomebiology.com/2014/15/3/R46) - Assigns taxonomic labels to metagenomic DNA sequences using exact alignment of k-mers. [Kraken 2 source code](https://ccb.jhu.edu/software/kraken2/)
-
+The FASTQ processing is the same for both the Species Identification and Microbiome Pipeline. FastQC is performed on the raw FASTQ files.  
+<br>
+If a host is chosen in the Filter Host Reads dropdown, [Hisat2](http://daehwankimlab.github.io/hisat2/) will align the reads to the host genome then remove any aligned reads that aligned to the host genome from the sample.  FastQC will run on the host removed reads.  Then the host removed reads are used in the Kraken2 command.  
+<br>
+__Species Identification (WGS)__
+The Species identification is an end-to-end pipeline that runs Kraken2Uniq to identify taxa at the species level.  The Kraken results are used in the analysis results.  
+<br>
+__Microbiome Analysis (WGS)__
+The Microbiome analysis is an end-to-end pipeline that is similar to the Species Identification Pipeline.  This pipeline uses Kraken2 to identify taxa the species level. However, this pipeline uses a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Bracken is run at the species level with the flag '-S'.  Bracken recreates the report file using the values from the Bracken recalculation.  
+<br>
+__16S rRNA Analysis__
+16S rRNA Analysis with Kraken2 is described in [Lu et al., 2020]( https://doi.org/10.1186/s40168-020-00900-2). Currently, we offer one analysis type for 16S that is very similar to the WGS microbiome analysis with a few differences. The most important differences are the database options.  
+<br>
+__16S rRNA FASTQ Processing__
+The FASTQ processing begins with FastQC on the raw FASTQ files. Then the reads are trimmed with [Trim Galore](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/).  Trim Galore is a wrapper around the tool [Cutadapt]( https://cutadapt.readthedocs.io/en/stable/) and FastQC to apply quality and adapter trimming of FASTQ files. FastQC results will be available for the trimmed reads. The FastQC results are available under the sample directory in the FastQC_results directory. The results are also compiled into a MultiQC report. The trimmed reads are used in the Kraken2 command.  
+<br>
+__16S rRNA Default Analysis__
+This pipeline uses a companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Bracken is run at the genus level with the flag '-G'. The SILVA and Greengenes database offer reliable results to the genus level. The databases offer some taxa at lower taxonomy levels. But too few to reliably generate the Bracken report. Bracken recreates the report file using the values from the Bracken recalculation. This is available in the user input sample id subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.  The Bracken results are used the Krona and Sankey plots. Bracken functions calculate alpha and beta diversity.  
+<br>
+__All analysis types use [Kraken 2](http://genomebiology.com/2014/15/3/R46)__ assigns taxonomic labels to metagenomic DNA sequences using exact alignment of k-mers. [Kraken 2 source code](https://ccb.jhu.edu/software/kraken2/) A MultiQC report will generate with the FastQC results and kraken results. If multiple samples are submitted, an interactive multisample comparison table is generated from the Kraken results.  
+<br>
 ## Database
-Reference taxonomic database used by the algorithm.
-
+Reference taxonomic database used by the Kraken2.
+<br>
 __Whole genome sequencing databases (WGS)__
-* [Kraken2 Standard Database](https://ccb.jhu.edu/software/kraken2/index.shtml?t=manual#standard-kraken-2-database) - Standard Kraken 2 database containing distinct 31-mers, based on completed microbial genomes from NCBI.
-* [BV-BRC Database]( https://github.com/DerrickWood/kraken2/wiki/Manual#custom-databases) - The default Kraken 2 database at BV-BRC includes the following:
-
-  * Archaea: RefSeq complete archaeal genomes/proteins
-
-  * Bacteria: RefSeq complete bacterial genomes/proteins
-
-  * Plasmid: RefSeq plasmid nucleotide/protein sequences
-
-  * Viral: RefSeq complete viral genomes/proteins
-
-  * Human: GRCh38 human genome/proteins
-
-  * Fungi: RefSeq complete fungal genomes/proteins
-
-  * Plant: RefSeq complete plant genomes/proteins
-
-  * Protozoa: RefSeq complete protozoan genomes/proteins
-
-  * UniVec: NCBI-supplied database of vector, adapter, linker, and primer sequences that may be contaminating sequencing projects and/or assemblies
-
+__[Kraken2 Standard Database](https://ccb.jhu.edu/software/kraken2/index.shtml?t=manual#standard-kraken-2-database)__ - Standard Kraken 2 database containing distinct 31-mers, based on completed microbial genomes from NCBI.
+<br>
+__[BV-BRC Database]( https://github.com/DerrickWood/kraken2/wiki/Manual#custom-databases)__ - The default Kraken 2 database at BV-BRC includes the RefSeq complete genomes and protein/nucleotide sequences for the following:
+Archaea  
+Bacteria  
+Plasmid  
+Viral  
+Human GRCh38  
+Fungi  
+Plant  
+Protozoa  
+UniVec: NCBI-supplied database of vector, adapter, linker, and primer sequences that may be contaminating sequencing projects and/or assemblies.
+<br>
  __16s Analysis databases__
-* [SILVA](https://www.arb-silva.de/) - The SILVA Database, short for "SILVA rRNA database project," is a widely recognized and meticulously curated resource for ribosomal RNA (rRNA) gene sequences. It covers rRNA genes from bacteria, archaea, and eukaryotes, offering high-quality data with taxonomic classifications. SILVA is an essential tool for researchers in molecular biology and microbiology, aiding in phylogenetic analysis, taxonomic identification, and the study of microbial communities in diverse environments. With its constant updates and comprehensive coverage, SILVA plays a crucial role in advancing our understanding of microbial diversity and evolution.
-
-* [Greengenes](https://greengenes.lbl.gov/Download/) - Greengenes is a prominent 16S rRNA gene sequence database designed for microbiologists and microbial ecologists. This database contains curated and annotated 16S rRNA gene sequences primarily from bacteria and archaea. Greengenes is a valuable resource for researchers studying microbial communities in various environments. It enables taxonomic classification, comparative analyses, and metagenomic studies by providing a standardized and well-maintained collection of sequences. Whether you're investigating the human microbiome or exploring microbial diversity in natural ecosystems, Greengenes is a go-to resource for characterizing and understanding microorganisms and their roles in different ecosystems. Greengenes includes species level annotations.
+__[SILVA](https://www.arb-silva.de/)__ - The SILVA Database includes 16S rRNA genes sequences from bacteria, archaea, and eukaryotes.  
+<br>
+__[Greengenes](https://greengenes.lbl.gov/Download/)__ - Greengenes includes 16S rRNA gene sequences from bacteria and archaea.  
 
 ## Filter Host Reads
 If a host is chosen in the Filter Host Reads dropdown, [Hisat2](http://daehwankimlab.github.io/hisat2/) will align the reads to the host genome then remove any aligned reads that aligned to the host genome from the sample.  FastQC will run on the host removed reads.  Then the host removed reads are used in thee Kraken2 command.
@@ -112,10 +93,10 @@ If a host is chosen in the Filter Host Reads dropdown, [Hisat2](http://daehwanki
 ## Confidence Interval
 The default confidence interval is 0.1.  The classifier then will adjust labels up the tree until the label's score meets or exceeds that threshold.
 
-### Output Folder
+## Output Folder
 The workspace folder where results will be placed.
 
-### Output Name
+## Output Name
 Name used to uniquely identify results.
 
 ## Output Results
@@ -266,4 +247,5 @@ More details are available in the [Action Bar](../action_bar.html) Quick Referen
  * Shannon, C. E. A mathematical theory of communication. Bell Syst. Tech. J. 27, 379–423 (1948).
  * Simpson, E. H. Measurement of diversity. Nature 163, 688–688 (1949)
  * Yilmaz P, Parfrey LW, Yarza P, Gerken J, Pruesse E, Quast C, Schweer T, Peplies J, Ludwig W, Glöckner FO. The SILVA and “All-species Living Tree Project (LTP)” taxonomic frameworks. Nucleic Acids Res. 2014; 42(Database issue):643–8.
+
 

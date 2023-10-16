@@ -9,6 +9,7 @@ News and Announcements
    :description: BV-BRC News RSS feed
    :link: https://www.bv-brc.org/docs/
 
+   2023/2023-10-16-viral-data-webinar-series.rst
    2023/2023-03-02-bv-brc-workshop-anl
    2023/2023-01-02-bv-brc-workshop-uva
    2022/20221122-rsv-and-influenza-webinars

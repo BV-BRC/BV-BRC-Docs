@@ -49,6 +49,8 @@ If you would like to design a hybridization probe to detect the PCR product afte
 
 **Primer Overlap Positions:** Values should be space separated list of positions, The forward OR reverse primer will overlap one of these positions. These values will be denoted with “-” symbol. 
 
+### Output
+
 *Output options can be specified using the parameters shown below:*  
 
 ![Figure 5](../images/primer_Picture5.png "Figure 5")

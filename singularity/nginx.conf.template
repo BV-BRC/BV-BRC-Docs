@@ -1,0 +1,56 @@
+# nginx conf
+
+user www-data;
+worker_processes auto;
+daemon off;
+pid /tmp/nginx/nginx.pid;
+error_log /dev/stdout info;
+
+events {
+  worker_connections 1024;
+}
+
+include /etc/nginx/modules-enabled/*.conf;
+
+http {
+
+	##
+  # Basic Settings
+	##
+
+  sendfile on;
+	tcp_nopush on;
+	types_hash_max_size 2048;
+	include /etc/nginx/mime.types;
+	default_type application/octet-stream;
+	ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3; # Dropping SSLv3, ref: POODLE
+	ssl_prefer_server_ciphers on;
+  client_body_temp_path /tmp/nginx;
+  proxy_temp_path /tmp/nginx/proxy;
+	fastcgi_temp_path /tmp/nginx/fastcgi;
+	scgi_temp_path /tmp/nginx/scgi;
+  uwsgi_temp_path /tmp/nginx/uwsgi;
+
+	access_log /dev/stdout;
+
+	gzip on;
+  server {
+		listen HTTP_PORT;
+		server_name _;
+		root /doc_repo/docroot/_build/html;
+
+		# to avoid Cross-Origin Request Blocked error
+		location / { 
+			if ($request_method = 'OPTIONS') {
+				add_header 'Access-Control-Allow-Origin' '*';
+				add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+				add_header 'Access-Control-Allow-Headers' 'Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range';
+				return 204;
+			}
+			if ($request_method = 'GET') {
+				add_header 'Access-Control-Allow-Origin' '*';
+				add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+			}
+		}
+	}
+}

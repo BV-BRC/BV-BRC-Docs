@@ -75,6 +75,22 @@ On occastion, especially with heavy TOC changes and/or static files added you ma
 rm -rf _build && make html
 ```
 
+## Sphinx Container
+We have created a singularity container containing all of the sphinx dependencies as well as an appropriately configured nginx server for hosting the documentation for local development/updates.  There are two applications within the singularity container: ```build``` and ```webserver```.  Developers can clone the bv-brc documentation repository and then bind that folder to /doc_repo within the container. 
+
+### To build the docs:
+Running this command will do the sphinx build.  Developers should clone the repository first and then include it in the --bind parameter below.
+```
+singularity run --app build --bind /path/to/clone/of/BV-BRC-Docs:/doc_repo /path/to/singularity/image/sphinx.sif
+```
+After the build is completed, it is still the developers responsiblity to commit their changes to the doc repo.
+
+### Hosting the docs for development
+Once the documentation has been rebuilt, the webserver can be launched to allow review of the documentation:
+```
+singularity run --app webserver --writable-tmpfs  --bind /path/to/clone/of/BV-BRC-Docs:/doc_repo /path/to/singularity/image/sphinx.sif <PORT TO LISTEN ON, Defaults to 8080>
+```
+
 ## Resources
 We write our documentation pages in both Markdown (.md) and reStructuredText (.rst). Sphinx uses the CommonMark version of Markdown when it builds the documentation site. It is slightly different than the GitHub Flavored MarkDown used by GitHub so make sure to take note of any subtle differences. Use these resources to write and develop documentation for BV-BRC without causing warnings or failures. There is only one flavor of reStructuredText.
 

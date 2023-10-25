@@ -4,7 +4,7 @@ BV-BRC Viral Pathogen Data Webinar Series
 .. feed-entry::
    :date: 2023-10-16
 
-.. image:: ../images/2023/viral_pathogen_webinars.png
+.. image:: ../images/2023/viral_pathogen_webinars2.png
    :width: 500
    :alt: BV-BRC Viral Pathogen Data Webinar Series
 

@@ -43,7 +43,7 @@ The fastq file containing the reads
 Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the service. 
 
 ## Selected libraries
-Read files placed here will be submitted to the service.
+Read files placed here will be submitted to the service and contribute to a single analysis.
 
 ## Buttons
 

@@ -44,9 +44,6 @@ Read files placed here will contribute to a single assembly.
 
 **ARTIC-Nanopore:** Implements the ARTICnetwork-prescribed [protocol for nCoV-19 genome sequences](https://artic.network/ncov-2019/ncov2019-bioinformatics-sop.html) for Nanopore-generated sequences. 
 
-### Taxonomy Name
-Pre-populated with the appropriate taxonomy name for SARS-CoV-2. 
-
 ### Taxonomy ID
 Pre-populated with the appropriate taxonomy ID for SARS-CoV-2.
 
@@ -58,6 +55,9 @@ User-selected workspace folder where results will be placed.
 
 ### Output Name
 Auto-generated name for the results (Taxonomy Name + My Label)
+
+## Taxonomy Name
+Pre-populated with the appropriate taxonomy name for SARS-CoV-2. 
 
 ## Output Results
 ![SARS-CoV-2 Output Files](../images/sars-cov-2_service_output_files.png)

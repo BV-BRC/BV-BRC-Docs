@@ -75,10 +75,6 @@ The assembly service also provides the ability to change the minimum contig leng
 ### Domain
 The taxonomic domain of the target organism: bacteria or archaea.
 
-### Taxonomy Name
-Taxon must be specified at the genus level or below to get the latest
-protein family predictions.
-
 ### Taxonomy ID
 Auto-populated after entering Taxonomy Name. If a Taxonomy ID is entered, auto-populates the Taxonomy Name
 
@@ -90,6 +86,10 @@ The workspace folder where results will be placed.
 
 ### Output Name
 Name used to uniquely identify results.
+
+## Taxonomy Name
+Taxon must be specified at the genus level or below to get the latest
+protein family predictions.
 
 ## Output Results
 ![Comprehensive Genome Analysis Output Files](../images/cga_service_output_files.png)

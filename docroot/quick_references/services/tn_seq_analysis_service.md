@@ -32,6 +32,9 @@ software. With this strategy selected TRANSIT will calculate the probability of 
 [TRANSIT](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004401)
 software. With this strategy selected TRANSIT will operate in "resampling" mode and use the difference between the sum of read-counts in each condition to calculate the probability of being essential.
 
+### Primer Sequence 
+This must be a DNA string. It is used for trimming reads.
+
 ### Target Genome
 A target genome to align the reads against. If this genome is a private genome, the search can be narrowed by clicking on the filter icon under the words Target Genome.
 

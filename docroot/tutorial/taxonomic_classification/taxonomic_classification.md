@@ -47,18 +47,15 @@ If 16S ribosomal RNA is selected:
 
 The Following tools are used for both 16S ribosomal RNA and Whole Genome Sequencing (WGS): 
 
-1\.  Sunburst plots displaying every taxon level are created using [kreport2krona](https://github.com/jenniferlu717/KrakenTools/blob/master/kreport2krona.py) and [Krona](https://github.com/marbl/Krona/wiki). A plot containing all samples in your analysis is available in the output directory. Individual plots are available in each sample directory.
+1\. Sankey plots are created for each sample using functions from [Pavian](https://rdrr.io/github/fbreitwieser/pavian/).
 
-2\. Sankey plots are created for each sample using functions from [Pavian](https://rdrr.io/github/fbreitwieser/pavian/).
+2\. If multiple samples are submitted, functions from [Pavian](https://rdrr.io/github/fbreitwieser/pavian/) create an interactive multisample comparison table.
 
-3\. If multiple samples are submitted, functions from [Pavian](https://rdrr.io/github/fbreitwieser/pavian/) create an interactive multisample comparison table.
+3\. Results are compiled into a [MultiQC](https://multiqc.info/docs/) report.
 
-4\. Results are compiled into a [MultiQC](https://multiqc.info/docs/) report.
+4\. A companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Bracken regenerates the report file using the new values calculated by Bracken. The Bracken results are used in the output files. The raw result files are available in the sample subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.
 
-5\. A companion program to Kraken2 and the other tools in the Kraken suite, [Bracken](https://github.com/jenniferlu717/Bracken).  Bracken regenerates the report file using the new values calculated by Bracken. The Bracken results are used in the output files. The raw result files are available in the sample subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.
-
-6\. Bracken functions calculate alpha and beta diversity. The statistics displayed with plotly in .HTML files as well as a .CSV for downstream analysis.
-
+5\. Bracken functions calculate alpha and beta diversity. The statistics displayed with plotly in .HTML files as well as a .CSV for downstream analysis. 
 
 ## I. Locating the Taxonomic Classification Service App
 

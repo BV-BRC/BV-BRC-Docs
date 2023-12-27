@@ -3,6 +3,15 @@ Webinars
 
 BV-BRC periodically offers live instructional webinars where users can participate and ask questions along the way. The webinars are recorded and made available for viewing afterward from the `BV-BRC YouTube Channel <https://www.youtube.com/channel/UCDkT2ZCWhK3GBtm5R-o1J4A>`_.
 
+Back to Basics Virus Series
+---------------------------
+**October 11 through December 6th, 2023** The BV-BRC offered a Bioinformatics Webinar Series on October 11, 25, November 8, 29th, and December 6th. The webinars showed researchers how to analyze and explore viral pathogen data using the BV-BRC website. The first webinar focused on an overview of the BV-BRC and showed tips and tricks for searching for data, creating a workspace, and sharing private data with collaborators. The second focused on the annotation tools within the BV-BRC—the third focused on the phylogenetic tree tools and ways to visualize metadata on those trees. The fourth showcased our sequence submission tool and other influenza tools. Finally, we finished up with our protein tools. All recordings will be posted on YouTube. 
+
+* `How to Search for Data in the BV-BRC <https://www.youtube.com/watch?v=FCjAQPBG4po&list=PLWfOyhOW_OasplFHZWMZ_N4xDgZfA_EXi>`_
+* `How to Annotate Viral Genomes in BV-BRC <https://youtu.be/Qt78mzeG64E>`_
+* `How to Build Viral Phylogenetic Trees in the BV-BRC <https://youtu.be/14_8h0MkrvQ>`_
+* The final two will be posted soon.
+
 Finding and Analyzing RSV and Influenza Data in the BV-BRC
 ----------------------------------------------------------
 **November 29 and December 13, 2022** The BV-BRC team offered two Bioinformatics webinars covering the data types available for Respiratory Syncytial Virus (RSV) and Influenza Virus that can be found in the Bacterial and Viral Bioinformatics Research Center (BV-BRC) database. Several tools and services that can be used for RSV bioinformatic analysis were demonstrated. (Click `here <https://www.bv-brc.org/docs/news/2022/20221122-rsv-and-influenza-webinars.html>`_ to see the original webinar announcement and schedule).

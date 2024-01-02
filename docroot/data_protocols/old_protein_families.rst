@@ -1,3 +1,4 @@
+:orphan:
 Protein Families
 ================
 

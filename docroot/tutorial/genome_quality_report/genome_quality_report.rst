@@ -6,7 +6,7 @@ Introduction
 ============
 
 Genome quality analysis is automatically performed when :doc:`/tutorial/metagenomic_binning/metagenomic_binning`
-or :doc:`/tutorial/genome_annotation/annotation`.
+or :doc:`/tutorial/genome_annotation/genome_annotation`.
 
 The genome quality tools look at the functional roles present in an annotated genome to determine if the genome looks correct.
 A functional role is an atomic part of a functional annotation (the **Product** column in the list of CDS features).
@@ -59,7 +59,7 @@ Summary Section
 The summary section at the top of the page contains basic information about the whole genome. The following information is presented.
 
 Genome ID:
-    This is the PATRIC ID number of the genome being analyzed. The link takes you to the main :doc:`/user_guides/organisms_genome/overview`
+    This is the PATRIC ID number of the genome being analyzed. The link takes you to the main :doc:`/quick_references/organisms_genome/overview`
     for the genome.
 
 Genome Name:
@@ -154,7 +154,7 @@ The report has five columns.
 
 Role:
     The description of the functional role that is potentially problematic. This corresponds to the value of the *Product* column on the
-    :doc:`/user_guides/organisms_taxon/features`.
+    :doc:`/quick_references/organisms_taxon/features`.
 
 Predicted Count:
     The number of features implementing the role, as predicted by the quality tools.
@@ -164,8 +164,8 @@ Annotated Count:
 
 Feature Link:
     A link for viewing the features implementing the role. If there are no such features, no link will be present. If there is a single feature implementing the role,
-    the link will go to that feature's :doc:`/user_guides/organisms_gene/overview`. If there are multiple feature's implementing the role, the link will
-    go to a :doc:`/user_guides/organisms_taxon/features` listing all the features.
+    the link will go to that feature's :doc:`/quick_references/organisms_gene/overview`. If there are multiple feature's implementing the role, the link will
+    go to a :doc:`/quick_references/organisms_taxon/features` listing all the features.
 
 Comment:
     The comment contains text designed to help you determine why the role is problematic. There are numerous items that can appear in here, and they will be
@@ -187,8 +187,8 @@ If a feature is present in the genome, a comment will tell you about the contig 
 
 .. image:: images/simple_feature.JPG
 
-The link on the feature ID takes you to the :doc:`/user_guides/organisms_gene/compare_region_viewer` for the feature, which allows you to see the feature in
-context and how that context compares to other genomes that have similar proteins. The link on the contig ID takes you to a :doc:`/user_guides/organisms_gene/compare_region_viewer`
+The link on the feature ID takes you to the :doc:`/quick_references/organisms_gene/compare_region_viewer` for the feature, which allows you to see the feature in
+context and how that context compares to other genomes that have similar proteins. The link on the contig ID takes you to a :doc:`/quick_references/organisms_gene/compare_region_viewer`
 for all the features in the contig.
 
 Short features sometimes indicate that the feature was incorrectly called. If the feature is 180 base pairs or less in length, this fact will be noted as shown below.
@@ -246,7 +246,7 @@ is close to one of the features.
 
 .. image:: images/split_feature.JPG
 
-If you click on the feature links, you will be taken to the :doc:`/user_guides/organisms_gene/compare_region_viewer` for each feature, where the nature of the split is
+If you click on the feature links, you will be taken to the :doc:`/quick_references/organisms_gene/compare_region_viewer` for each feature, where the nature of the split is
 obvious. ``fig|85569.206.peg.350`` matches the beginning of the protein, while ``fig|85569.206.peg.4875`` matches the end.
 
 .. image:: images/compare_regions2.JPG
@@ -273,7 +273,7 @@ Good Features:
     genome, good features are considered an indication that the contig was correctly placed.
 
 Feature Link:
-    Indicates the number of features implementing problematic roles. If there is only one, the link will take you to the feature's :doc:`/user_guides/organisms_gene/overview`.
-    If there is more than one, the link will take you to the :doc:`/user_guides/organisms_taxon/features` for the features in question.
+    Indicates the number of features implementing problematic roles. If there is only one, the link will take you to the feature's :doc:`/quick_references/organisms_gene/overview`.
+    If there is more than one, the link will take you to the :doc:`/quick_references/organisms_taxon/features` for the features in question.
 
 

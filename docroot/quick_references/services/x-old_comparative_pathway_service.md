@@ -5,8 +5,8 @@ The bacterial Comparative Pathway Service allows users to identify a set of path
 
 ### See also
 * [Comparative Pathway Service](https://bv-brc.org/app/ComparativePathway)
-* [Comparing Pathways Across Genomes Tutorial](../../tutorial/comparative_pathways/comparative_pathways.html)
-* [Comparative Pathway Tool Quick Reference Guide](../organisms_taxon/pathways.html)
+* [Comparing Pathways Across Genomes Tutorial](/tutorial/comparative_pathways/comparative_pathways)
+* [Comparative Pathway Tool Quick Reference Guide](/quick_references/organisms_taxon/pathways)
 
 ## Using the Comparative Pathway Service
 The **Comparative Pathway** submenu option under the **Services** main menu (Metabolomics category) opens the Comparative Pathway input form (*shown below*).
@@ -36,7 +36,7 @@ Dropdown list of filter options to use refine the results. A specific keyword, P
 Launches the Comparative Pathway Service and, upon completion, displays a page showing all the pathways that have any genes assigned to them from the genomes that have been chosen.
 
 ## Output Results
-Results from the service will be shown in a table in the Pathways Tab, shown below. See [Pathways Tab](../organisms_taxon/pathways.html) for a detailed description of how to use the Pathway filters, KEGG maps, and heatmap.
+Results from the service will be shown in a table in the Pathways Tab, shown below. See [Pathways Tab](/quick_references/organisms_taxon/pathways) for a detailed description of how to use the Pathway filters, KEGG maps, and heatmap.
 
 ![Pathway Table](../images/pathway_list.png)
 

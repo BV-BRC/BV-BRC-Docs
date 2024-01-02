@@ -5,7 +5,7 @@ The Metagenomic Read Mapping Service uses [KMA](https://bmcbioinformatics.biomed
 
 ## See also
   * [Metagenomic Read Mapping Service](https://bv-brc.org/app/MetagenomicReadMapping)
-  * [Metagenomic Read Mapping Service Tutorial](../../tutorial/metagenomic_read_mapping/metagenomic_read_mapping.html)
+  * [Metagenomic Read Mapping Service Tutorial](/tutorial/metagenomic_read_mapping/metagenomic_read_mapping)
 
 ## Using the Metagenomic Read Mapping Service
 The **Metagenomic Read Mapping** submenu option under the **Services** main menu (Metagenomics category) opens the Metagenomic Read Mapping Service input form (shown below). *Note: You must be logged into BV-BRC to use this service.*
@@ -92,7 +92,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Copy:** Copies the selected items to the clipboard.
 * **Move** Allows moving of the file to another folder.
 
-More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
 * Kent, W. James. "BLAT—the BLAST-like alignment tool." Genome research 12.4 (2002): 656-664.

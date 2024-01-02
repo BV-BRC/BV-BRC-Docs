@@ -1,3 +1,4 @@
+:orphan:
 :github_url: https://github.com/BV-BRC/bvbrc_docs/edit/develop/docroot/index.rst
 
 BV-BRC Documentation

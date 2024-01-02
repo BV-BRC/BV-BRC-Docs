@@ -1,3 +1,4 @@
+:orphan:
 :github_url: https://github.com/PATRIC3/p3_docs/blob/master/docroot/news/2020/20200331-patric-jan-mar-2020-release.rst
 
 PATRIC Data and Website Releases, January – March 2020

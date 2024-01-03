@@ -6,8 +6,8 @@ The Subsystems Data page includes a distribution pie chart that summarizes the f
 
 ## See also
   * [Comparative Systems Service](https://www.bv-brc.org/app/ComparativeSystems)
-  * [Comparative Systems Service Tutorial](../../tutorial/comparative_systems/comparative_systems.html)
-  * [Subsystems](../organisms_taxon/subsystems.html)
+  * [Comparative Systems Service Tutorial](/tutorial/comparative_systems/comparative_systems)
+  * [Subsystems](/quick_references/organisms_taxon/subsystems)
 
 ## Accessing the Subsystems Data
 The Subsystems Data can be accessed by clickging the **Subsystems** icon at the top right of the results page from a [Comparative Systems Service](https://www.bv-brc.org/app/ComparativeSystems) analysis job.
@@ -62,7 +62,7 @@ After selecting one or more of the genomes by clicking the checkbox beside the G
 * **Features:** Displays the Features Table for the selected features. *Available only if multiple features are selected.*
 * **Map:** Opens the Subsystems heatmap, described below.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.
 
 ## Heatmap
 The Heatmap is an interactive visualization tool, which provides an overview of the distribution of genomes across the set of functional roles defined by a subsystem. Patterns visible in a Heatmap can allow for many types of analysis such as, a bird’s-eye view of the conservation (or lack thereof) of particular functional roles of interest, discerning how many proteins have the same function within a single genome, and identifying proteins with multiple homologs or paralogs across a set of genomes. The Heatmap is accessible by selecting a Subsystem or Gene in the corresponding tables (described in this Quick Reference Guide) and then clicking the Map icon in the green action bar.

@@ -11,11 +11,11 @@ Source code for algorithms
 
 ### See also
 * [Phylogenetic Tree Service](https://bv-brc.org/app/PhylogeneticTree)
-* [Phylogenetic Tree Service Quick Reference Guide](../../quick_references/services/phylogenetic_tree_building_service.html)
+* [Phylogenetic Tree Service Quick Reference Guide](/quick_references/services/phylogenetic_tree_building_service)
 
 ## Creating a folder to hold the phylogenetic tree job and related data
 
-Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on creating a folder in the workspace.
+Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly/assembly) for instructions on creating a folder in the workspace.
 
 ## Locating the Phylogenetic Tree App
 
@@ -121,7 +121,7 @@ The resulting tree can be viewed in the BV-BRC interactive Archaeopteryx.js Tree
 (Example Archaeopteryx.js image)
 ![Figure 27b](./images/Picture27b.png "Figure 27b")
 
-The [Archaeopteryx.js Tree Viewer Quick Reference Guide](../../quick_references/services/archaeopteryx.html) provides detailed information about its features and options. 
+The [Archaeopteryx.js Tree Viewer Quick Reference Guide](/quick_references/services/archaeopteryx) provides detailed information about its features and options. 
 
 3.	The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the Parameters row. 
 ![Figure 28](./images/Picture28.png "Figure 28")

@@ -5,7 +5,7 @@ The bacterial Genome Assembly Service allows single or multiple assemblers to be
 
 ## See also
 * [Genome Assembly Service](https://bv-brc.org/app/Assembly2)
-* [Genome Assembly Service Tutorial](../../tutorial/genome_assembly/assembly.html)
+* [Genome Assembly Service Tutorial](/tutorial/genome_assembly/assembly)
 
 ## Using the Genome Assembly Service
 The **Assembly** submenu option under the **Services** main menu (Genomics category) opens the Genome Assembly input form, shown below. *Note: You must be logged into BV-BRC to use this service.*
@@ -99,7 +99,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Move:** Allows moving of the file to another folder.
 * **Edit Type:** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
 1.	Wick, R.R., et al., Unicycler: resolving bacterial genome assemblies from short and long sequencing reads. PLoS computational biology, 2017. 13(6): p. e1005595.

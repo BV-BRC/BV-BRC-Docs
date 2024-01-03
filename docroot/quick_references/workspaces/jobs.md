@@ -4,8 +4,8 @@
 For most BV-BRC analysis services, when the service starts, it creates a computational "job" that runs on back-end high-performance computing (HPC) systems which perform the analysis and return the results back to the user via the website or command line interface. The reason for this is that many services, such as Genome Annotation and Genome Assembly, require a significant amount of computational power and time to complete. The job display provides information on the status of the computation: queued, running, completed, or failed. 
 
 ## See also:
-  * [Services and Tools](../services/services_tab.html.html)
-  * [Private Workspace](../workspaces/workspace.html)
+  * [Services and Tools](/quick_references/services_menu)
+  * [Private Workspace](/quick_references/workspaces/workspace)
 
 ## Accessing Job Status Information and Results
 If a user is logged in, a small Jobs Indicator box is always displayed at the bottom right of the website.  
@@ -33,7 +33,7 @@ Double-clicking a job name or selecting it and clicking the **View** button in t
 
 ![View Job Results](../images/job_status_page_view.png)
 
-The nature of the results of the job depends on the type of analysis service that initiated the job.  For descriptions of the various services and their results, see [Services and Tools](../services/services_tab.html.html).  
+The nature of the results of the job depends on the type of analysis service that initiated the job.  For descriptions of the various services and their results, see [Services and Tools](/quick_references/services_menu).  
 
 If a job seems to be running unusually long, or if it is known that something was wrong with the input, the job can be stopped using the **Kill Job** button in the Action Bar.  Note that this option is only available while the job is still running.
 

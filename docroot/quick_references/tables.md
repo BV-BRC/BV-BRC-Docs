@@ -4,8 +4,8 @@
 Interactive Tables are used throughout the website to present and provide access to collections or lists of data items such as genomes, features, protein families, experiment data, interactions, and so on. The tables provide the ability to sort, filter, page through, and search the items in the table.
 
 ### See also:
-  * [Website Views](./website_views.html)
-  * [Selection Action Bar](./action_bar.html)
+  * [Website Views](/quick_references/website_views)
+  * [Selection Action Bar](/quick_references/action_bar)
 
 ## Accessing Tables
 Tables are used throughout the website where lists of data items are presented, for example, in data tabs such as Genomes, Features, Protein Families, Pathways, Transcriptomics, Interactions, etc. The example below shows a table listing a set of genomes in a particular taxon.
@@ -35,7 +35,7 @@ Tables include a variety of tools for accessing, filtering, sorting, and arrangi
 
 10. **Row Selector** in the left-most column of the table provides checkboxes for selecting items (rows) in the table. The options in the Selection Action Bar and data displayed in the Information Panel (both described below) on the right side of the table are updated based on the rows selected. Clicking the top checkbox in the Column Header row selects/de-selects all of the rows in the table, including those on other pages.
 
-11. **Selection Action Bar** along the right side of the table (vertical green bar) display buttons that provide access to related data or tools to operate on the data corresponding to the selected row(s). See [Select Action Bar](./action_bar.html) for more information.
+11. **Selection Action Bar** along the right side of the table (vertical green bar) display buttons that provide access to related data or tools to operate on the data corresponding to the selected row(s). See [Select Action Bar](/quick_references/action_bar) for more information.
 
 12. **Information Panel** provides details on the selected item(s).  If a single item (row) is selected, it provides a listing of the column (category) and the corresponding value for that item.  If mutiple items (rows) are selected, it provides a summary of the number of items selected.
 

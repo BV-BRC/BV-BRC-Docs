@@ -5,7 +5,7 @@ The Protein Families Tab provides access to the Protein Family Sorter, which ena
 
 ## See also
   * Comparing Protein Families Across Genomes Tutorial
-  * [Protein Family Sorter Service](../services/protein_family_service.html)
+  * [Protein Family Sorter Service](/quick_references/services/protein_family_service)
 
 ## Accessing the Protein Family Sorter
 The Protein Family Sorter can be accessed by either of the following:

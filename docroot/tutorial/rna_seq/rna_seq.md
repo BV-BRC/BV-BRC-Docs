@@ -151,7 +151,7 @@ http://www.nonlinear.com/support/progenesis/comet/faq/v2.0/pq-values.aspx
 ![Step 37](./images/image37.png)
 
 ## Other output files
-Descriptions of the other output files can be found in the [RNA-Seq Analyis Service Quick Reference Guide](../../services/rna_seq_analysis_service.html).
+Descriptions of the other output files can be found in the [RNA-Seq Analyis Service Quick Reference Guide](/quick_references/services/rna_seq_analysis_service).
 
 
 ## References

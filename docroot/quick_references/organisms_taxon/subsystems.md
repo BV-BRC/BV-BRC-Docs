@@ -10,6 +10,6 @@ Note that not all functional roles are always needed for a functional variant of
 The functional roles curated via subsystems are used in the construction of "Local" and "Global" Protein Families. We will periodically add new subsystems, compute new Local and Global families and project them to all bacterial genomes. Those updates will also be reflected in the bacterial annotation services to support proper functionality of associated comparative genomics tools.
 
 ## See also
-  * [Subsystems Data](../organisms_taxon/subsystems_tab.html)
-  * [Protein Families](../organisms_taxon/protein_families.html)
+  * [Subsystems Data](/quick_references/organisms_taxon/subsystems_tab)
+  * [Protein Families](/quick_references/organisms_taxon/protein_families)
 

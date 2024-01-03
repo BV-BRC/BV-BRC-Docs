@@ -71,4 +71,4 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Copy:** Copies the selected items to the clipboard.
 * **Serology:** Opens a new window and displays the selected serology record.
 
-More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference Guide. 
+More details are available in the [Selection Action Bar](/quick_references/action_bar) Quick Reference Guide. 

@@ -5,10 +5,10 @@ The Correlated Genes Tab shows the genes that are either up or down-regulated wi
 
 ## See also
   * Examining Transcriptomics Data Tutorial
-  * [Transcriptomics Gene List](../organisms_taxon/transcriptomics_gene_list.html)
-  * [Transcriptomics Gene List Heatmap](../organisms_taxon/transcriptomics_gene_heatmap.html)
-  * [Transcriptomcs Tab, Gene-Level](../organisms_gene/transcriptomics.html)
-  * [Expression Data Import Service](../services/expression_data_import_service.html)
+  * [Transcriptomics Gene List](/quick_references/organisms_taxon/transcriptomics_gene_list)
+  * [Transcriptomics Gene List Heatmap](/quick_references/organisms_taxon/transcriptomics_gene_heatmap)
+  * [Transcriptomcs Tab, Gene-Level](/quick_references/organisms_gene/transcriptomics)
+  * [Expression Data Import Service](/quick_references/services/expression_data_import_service)
 
 Most of the Ptranscriptomics data have been curated from published gene expression datasets related to bacterial pathogens in [NCBI's GEO database](http://www.ncbi.nlm.nih.gov/geo/). Some additional data sets have been incorporated from the NIAID-funded [Systems Biology and Functional Genomics Centers and other sources.
 

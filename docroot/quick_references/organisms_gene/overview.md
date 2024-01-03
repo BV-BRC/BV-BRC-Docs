@@ -4,9 +4,9 @@
 The Feature Overview Tab provides summary information for the selected genomic feature including identifiers, associated Genome information, Location, Sequence, Functional Properties, Special Properties, External Identifiers, Comments, and relevant PubMed articles.  
 
 ## See also
-  * [Genome Annotations](../organisms_taxon/genome_annotations.html)
-  * [Protein Families Tab](../organisms_taxon/protein_families.html)  
-  * [Data, Specialty Genes](../data.html#data-types)
+  * [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
+  * [Protein Families Tab](/quick_references/organisms_taxon/protein_families)
+  * [Data, Specialty Genes](/system_documentation/data)
 
 ## Accessing the Feature Overview
 Clicking the Overview Tab in a Feature View displays the Feature Overview Page, shown below. 

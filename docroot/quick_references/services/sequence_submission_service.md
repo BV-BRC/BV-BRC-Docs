@@ -7,7 +7,7 @@ Note: Current pipeline only supports Influenza A, B, or C virus family.
 
 ## See also
   * [Sequence Submission Service](https://bv-brc.org/app/SequenceSubmission)
-  * [Sequence Submission Service Tutorial](../../tutorial/sequence_submission/sequence_submission.html)
+  * [Sequence Submission Service Tutorial](/tutorial/sequence_submission/sequence_submission)
 
 ## Using the Sequence Submission Service
 

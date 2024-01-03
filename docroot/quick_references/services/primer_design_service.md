@@ -5,7 +5,7 @@ The Primer Design Service utilizes Primer3[1-5] to design primers from a given i
 
 ## See also
 * [Primer Design Service](https://bv-brc.org/app/PrimerDesign)
-* [Primer Design Service Tutorial](../../tutorial/primer_design/primer_design.html)
+* [Primer Design Service Tutorial](/tutorial/primer_design/primer_design)
 
 ## Using the Primer Design Service
 
@@ -157,7 +157,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 
 * **Move:** Allows moving of the file to another folder.
 
-More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Selection Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
 

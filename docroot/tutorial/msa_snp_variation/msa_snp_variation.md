@@ -8,8 +8,8 @@ MSA, multiple sequence alignment, mafft, muscle, progressiveMauve, SNP, variatio
 
 ### See also
 * [MSA and SNP/Variation Analysis Service](https://bv-brc.org/app/MSA)
-* [MSA and SNP/Variation Analysis Service Quick Reference Guide](../../quick_references/services/msa_snp_variation_service.html)
-* [MSA Viewer](../../quick_references/other/msa_viewer.html)
+* [MSA and SNP/Variation Analysis Service Quick Reference Guide](/quick_references/services/msa_snp_variation_service)
+* [MSA Viewer](/quick_references/other/msa_viewer)
 
 ## Locating the MSA and Variation Analysis App
 
@@ -95,7 +95,7 @@ A message will appear below the box to indicate that the job is now in the queue
 
 ![Figure 14](./images/Picture14.png "Figure 14")
 
-2.	If users select to view their file, a MSA viewer application will be opened in a new window (see below). To learn more about the MSA viewer options, please see [MSA Viewer](../../other/msa_viewer.html) documentation. 
+2.	If users select to view their file, a MSA viewer application will be opened in a new window (see below). To learn more about the MSA viewer options, please see [MSA Viewer](/quick_references/other/msa_viewer) documentation. 
 
 ![Figure 15](./images/Picture15.png "Figure 15")
 

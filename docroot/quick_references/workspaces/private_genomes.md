@@ -4,14 +4,14 @@
 BV-BRC allows users to have their own private genomes stored in the workspace and also available integrated with the rest of the BV-BRC public genome data to enable comparative analysis.
 
 ## See also:
-  * [Genome Annotation Service Quick Reference Guide](../services/genome_annotation_service.html)
-  * [Genome Annotation Service Tutorial](../../tutorial/genome_annotation/annotation.html)
-  * [Private Workspace](../workspaces/workspace.html)
-  * [Genomes Tab](../organisms_taxon/genomes.html)
-  * [Genome Overview Tab](../organisms_genome/overview.html)
+  * [Genome Annotation Service Quick Reference Guide](/quick_references/services/genome_annotation_service)
+  * [Genome Annotation Service Tutorial](/tutorial/genome_annotation/genome_annotation)
+  * [Private Workspace](/quick_references/workspaces/workspace)
+  * [Genomes Tab](/quick_references/organisms_taxon/genomes)
+  * [Genome Overview Tab](/quick_references/organisms_gene/overview)
 
 ## Creating Private Genomes
-A private genome is automatically created as a result of running the Genome Annotation Service. See the [Genome Annotation Service Quick Reference Guide](../services/genome_annotation_service.html) for details.
+A private genome is automatically created as a result of running the Genome Annotation Service. See the [Genome Annotation Service Quick Reference Guide](/quick_references/services/genome_annotation_service) for details.
 
 ## Accessing and Using Private Genomes
 Upon successful completion of an annotation job, the resulting annotated genome is integrated into the other genome data in the website, but is only viewable by the owner (submitter) of the annotation job. This integration allows use of all the BV-BRC genome display and analysis tools, including comparisons with other public genomes.
@@ -40,7 +40,7 @@ The Filters option in the Genomes Tab allows quick access to private genomes in 
 
 ![Genomes Filtered to Private](../images/filtered_private_genomes.png)
 
-From the Genomes Tab, Private and public genomes can be grouped together for further comparative tools and services, such as [Variation Analysis](../services/variation_analysis_service.html), [Phylogenetic Tree](../services/phylogenetic_tree_building_service.html), [Genome Alignment](../services/genome_alignment_service.html), [Protein Family Sorter](../services/protein_family_service.html), and [Proteome Comparison](../services/proteome_comparison_service.html). 
+From the Genomes Tab, Private and public genomes can be grouped together for further comparative tools and services, such as [Variation Analysis](/quick_references/services/variation_analysis_service), [Phylogenetic Tree](/quick_references/services/phylogenetic_tree_building_service), [Genome Alignment](/quick_references/services/genome_alignment_service), [Protein Family Sorter](/quick_references/services/protein_family_service), and [Proteome Comparison](/quick_references/services/proteome_comparison_service). 
 
 ## Genome Sharing
 It is possible to share a genome annoted using the Genome Annotation Service with specified other registered BV-BRC users. This allows these other users to interact with the genome in the website in the same way as the user who originally annotated the genome. Selecting one or more of the genomes in the table enables the "Share" button in the vertical green Action Bar on the right side of the table. Clicking the Share button opens a dialog box for selecting other users with whom to share the genome.

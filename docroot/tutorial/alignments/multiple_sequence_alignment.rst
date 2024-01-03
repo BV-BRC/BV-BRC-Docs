@@ -30,7 +30,7 @@ red arrow.
 .. image:: images/feature_list.png
 
 There are any number of ways to get a suitable feature list.  In addition to searching for eligible features, you can create
-a feature group in your workspace and list it from there (see :doc:`/user_guides/workspaces/groups`).
+a feature group in your workspace and list it from there (see :doc:`/quick_references/workspaces/groups`).
 
 Invoke the Multiple-Sequence Alignment Tool
 --------------------------------------------

@@ -4,9 +4,9 @@
 The Proteins Tab provides a table of all the annotated genomic features (gene, CDS, mRNA, proteins, etc.) corresponding to the set of genomes in the selected Taxon View level or in the user-defined Genome Group.  From this page, proteins can be sorted, filtered, collected into groups, and downloaded. 
 
 ## See also
-  * [Genome Annotations](../organisms_taxon/genome_annotations.html)
-  * [Genome Page Overview](../organisms_genome/overview.html)
-  * [Multiple Sequence Alignment Viewer](../other/msa_viewer.html)
+  * [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
+  * [Genome Page Overview](/quick_references/organisms_gene/overview)
+  * [Multiple Sequence Alignment Viewer](/quick_references/other/msa_viewer)
 
 ## Accessing the Proteins Table
 Clicking the Proteins Tab in a Taxon View displays the Proteins Table (shown below), listing all the annotated proteins and other genomic features corresponding to the set of genomes in the selected taxon level.
@@ -47,4 +47,4 @@ After selecting one or more of the proteins by clicking the checkbox beside the 
 * **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in which the selected proteins/features are found.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
-More details are available in the [Action Buttons](../action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.

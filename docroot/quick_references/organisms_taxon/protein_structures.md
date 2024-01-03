@@ -79,7 +79,7 @@ Options include:
 * **Genome:** Displays the Genome View Overview page corresponding to the selected genome/feature. Available only if a single feature is selected.
 * **Structure:** Displays the Protein Structure View Overview page corresponding to the selected genome/feature. Available only if a single feature is selected.  
 
-More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference.
+More details are available in the [Selection Action Bar](/quick_references/action_bar) Quick Reference.
 
 ## Using the Structure Viewer
 

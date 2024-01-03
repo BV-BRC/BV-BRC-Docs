@@ -5,10 +5,10 @@ The bacterial Comprehensive Genome Analysis Service provides a streamlined analy
 
 ## See also
   * [Comprehensive Genome Analysis Service](https://bv-brc.org/app/ComprehensiveGenomeAnalysis)
-  * [Comprehensive Genome Analysis Service Tutorial](../../tutorial/comprehensive_genome_analysis/comprehensive_genome_analysis.html)
-  * [Genome Assembly Service Quick Reference Guide](./genome_assembly_service.html)
-  * [Genome Annotation Service Quick Reference Guide](./genome_annotation_service.html)
-  * [Phylogenetic Tree Building Service Quick Reference Guide](./phylogenetic_tree_building_service.html)
+  * [Comprehensive Genome Analysis Service Tutorial](/tutorial/comprehensive_genome_analysis/comprehensive_genome_analysis)
+  * [Genome Assembly Service Quick Reference Guide](/quick_references/services/genome_assembly_service)
+  * [Genome Annotation Service Quick Reference Guide](/quick_references/services/genome_annotation_service)
+  * [Phylogenetic Tree Building Service Quick Reference Guide](/quick_references/services/phylogenetic_tree_building_service)
 
 
 ## Using the Comprehensive Genome Analysis Service

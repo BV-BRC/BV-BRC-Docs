@@ -5,7 +5,7 @@ The bacterial Similar Genome Finder Service will find similar public genomes in 
 
 ## See also
 * [Similar Genome Finder Service](https://bv-brc.org/app/GenomeDistance)
-* [Similar Genome Finder Service Tutorial](../../tutorial/similar_genome_finder/similar_genome_finder.html)
+* [Similar Genome Finder Service Tutorial](/tutorial/similar_genome_finder/similar_genome_finder)
 
 ## Using the Similar Genome Finder Service
 The **Similar Genome Finder** submenu option under the **Services** main menu (Genomics category) opens the Similar Genome Finder input form (*shown below*).
@@ -54,7 +54,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Genome:** Loads the Genome View Overview page corresponding to the selected feature.  *Available only if a single feature is selected.*
 * **Genomes:** Loads the Genomes Table, listing the genomes that correspond to the selected features. *Available only if multiple features are selected.*
 
-More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
 1.	Ondov BD, Treangen TJ, Melsted P et al. Mash: fast genome and metagenome distance estimation using MinHash, Genome biology 2016;17:132.

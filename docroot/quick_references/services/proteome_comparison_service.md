@@ -5,7 +5,7 @@ The bacterial Proteome Comparison Service performs protein sequence-based genome
 
 ## See also
 * [Proteome Comparison Service](https://bv-brc.org/app/SeqComparison)
-* [Proteome Comparison Tutorial](../../tutorial/proteome_comparison/proteome_comparison.html)
+* [Proteome Comparison Tutorial](/tutorial/proteome_comparison/proteome_comparison)
 
 ## Using the Proteome Comparison Service
 The **Proteome Comparison** submenu option under the **Services** main menu (Protein Tools category) opens the Proteome Comparison input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
@@ -104,7 +104,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Move:** Allows moving of the file to another folder.
 * **Edit Type:** Allows changing of the type of the file in terms of how the content is interpreted and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ### Proteome Comparison Viewer
 ![Proteome Comparison Service View Icon](../images/proteome_comparison_view_icon.png)

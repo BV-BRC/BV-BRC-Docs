@@ -5,7 +5,7 @@ The Fastq Utilities Service makes available common operations for FASTQ files fr
 
 ## See also
 * [Fastq Utilities Service](https://bv-brc.org/app/FastqUtil)
-* [Fastq Utilities Service Tutorial](../../tutorial/fastq-utilities/fastq-utilities.html)
+* [Fastq Utilities Service Tutorial](/tutorial/fastq_utilities/fastq_utilities)
 
 ## Using the Fastq Utilities Service
 The **Fastq Utilities** submenu option under the **Services** main menu (Genomics category) opens the Fastq Utilities input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
@@ -100,7 +100,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Move** Allows moving of the file to another folder.
 * **Edit Type** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
 

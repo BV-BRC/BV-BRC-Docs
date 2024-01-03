@@ -58,10 +58,10 @@ is from Helicobacter.
 A Visual Comparison Using the Protein Family Sorter
 ---------------------------------------------------
 
-We would now like to compare the genome directly to its close neighbors using the :doc:`/user_guides/services/protein_family_service`.
+We would now like to compare the genome directly to its close neighbors using the :doc:`/quick_references/services/protein_family_service`.
 The Protein Family Sorter requires you to enter genomes one at a time unless they are already in a genome group.  First we need to
 find the closest neighbors in PATRIC.  The Comprehensive Genome Analysis found a set suitable for generating a phylogenetic tree,
-but these are not necessarily the closest.  Using the :doc:`/user_guides/services/similar_genome_finder_service`, we can get a list
+but these are not necessarily the closest.  Using the :doc:`/quick_references/services/similar_genome_finder_service`, we can get a list
 of the 50 or so closest genomes.  We will select the first 10 and put them into a genome group using the **Group** icon.
 
 .. image:: images/selected_similar_genomes.png

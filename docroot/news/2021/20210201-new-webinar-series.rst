@@ -69,7 +69,7 @@ Enterovirus, Picornaviridae & ViPR
 | **Additional Details:** This webinar will focus on respiratory pathogens and introduce users to bioinformatic resources available at the Virus Pathogen Resource.
 
 Bacterial Respiratory Pathogens & PATRIC
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 | **Date:** Tuesday June 1st, 2021
 | **Time:** 11AM US Eastern Time
 | **Registration:** https://jcvi.webex.com/jcvi/j.php?RGID=re7dd05381f96e50405e90793bae8f838

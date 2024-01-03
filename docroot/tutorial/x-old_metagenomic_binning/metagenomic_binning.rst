@@ -21,7 +21,7 @@ Basic Steps
 Log in to the PATRIC Website
 ----------------------------
 
-See :doc:`Registration Quick Reference Guide </user_guides/registration>` for information on logging in to the PATRIC website.
+See :doc:`Registration Quick Reference Guide </quick_references/registration>` for information on logging in to the PATRIC website.
 Once you are registered and logged in, you should see something like this:
 
 .. image:: images/website.png
@@ -31,7 +31,7 @@ Provide an input file
 
 Input to the Binning Service must be found in a PATRIC workspace. You
 can upload files or use pre-existing files in your Workspace or
-in other Workspaces available to you. See :doc:`Workspace Quick Reference Guide </user_guides/workspaces/workspace>` for
+in other Workspaces available to you. See :doc:`Workspace Quick Reference Guide </quick_references/workspaces/workspace>` for
 more information about using the PATRIC Workspaces.
 
 You can supply paired reads for assembly,

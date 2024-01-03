@@ -1,0 +1,854 @@
+std:cmdoption
+	--attr                                   cli_tutorial/command_list/common_options.html#cmdoption-attr
+	--batchSize                              cli_tutorial/command_list/common_options.html#cmdoption-batchSize
+	--col                                    cli_tutorial/command_list/common_options.html#cmdoption-col
+	--count                                  cli_tutorial/command_list/common_options.html#cmdoption-count
+	--delim                                  cli_tutorial/command_list/common_options.html#cmdoption-delim
+	--equal                                  cli_tutorial/command_list/common_options.html#cmdoption-equal
+	--ge                                     cli_tutorial/command_list/common_options.html#cmdoption-ge
+	--gt                                     cli_tutorial/command_list/common_options.html#cmdoption-gt
+	--in                                     cli_tutorial/command_list/common_options.html#cmdoption-in
+	--input                                  cli_tutorial/command_list/common_options.html#cmdoption-input
+	--le                                     cli_tutorial/command_list/common_options.html#cmdoption-le
+	--lt                                     cli_tutorial/command_list/common_options.html#cmdoption-lt
+	--ne                                     cli_tutorial/command_list/common_options.html#cmdoption-ne
+	--nohead                                 cli_tutorial/command_list/common_options.html#cmdoption-nohead
+	--required                               cli_tutorial/command_list/common_options.html#cmdoption-required
+std:doc
+	about                                    About Us                                : about.html
+	acknowledgements                         Acknowledgements                        : acknowledgements.html
+	brochure                                 Brochure                                : brochure.html
+	cite_patric                              Citing PATRIC                           : cite_patric.html
+	cli_tutorial/cli_clustering              Looking for Hypothetical Proteins in Clusters of Related Features: cli_tutorial/cli_clustering.html
+	cli_tutorial/cli_common_tasks            Common Tasks With P3 Scripts            : cli_tutorial/cli_common_tasks.html
+	cli_tutorial/cli_getting_started         Using the BV-BRC Command-line Interface : cli_tutorial/cli_getting_started.html
+	cli_tutorial/cli_installation            Installing the BV-BRC Command Line Interface: cli_tutorial/cli_installation.html
+	cli_tutorial/cli_services                Using BV-BRC Services from the Command Line: cli_tutorial/cli_services.html
+	cli_tutorial/cli_signature_clusters      Computing Signature Clusters: an Application of the Command-Line Tools: cli_tutorial/cli_signature_clusters.html
+	cli_tutorial/command_list/GenomeTypeObject GenomeTypeObject                        : cli_tutorial/command_list/GenomeTypeObject.html
+	cli_tutorial/command_list/Hsp            Hsp                                     : cli_tutorial/command_list/Hsp.html
+	cli_tutorial/command_list/P3DataAPI      P3DataAPI                               : cli_tutorial/command_list/P3DataAPI.html
+	cli_tutorial/command_list/P3Utils        P3Utils                                 : cli_tutorial/command_list/P3Utils.html
+	cli_tutorial/command_list/Sim            Sim                                     : cli_tutorial/command_list/Sim.html
+	cli_tutorial/command_list/appserv-enumerate-apps appserv-enumerate-apps                  : cli_tutorial/command_list/appserv-enumerate-apps.html
+	cli_tutorial/command_list/appserv-enumerate-tasks appserv-enumerate-tasks                 : cli_tutorial/command_list/appserv-enumerate-tasks.html
+	cli_tutorial/command_list/appserv-kill-task appserv-kill-task                       : cli_tutorial/command_list/appserv-kill-task.html
+	cli_tutorial/command_list/appserv-query-task appserv-query-task                      : cli_tutorial/command_list/appserv-query-task.html
+	cli_tutorial/command_list/appserv-rerun-task appserv-rerun-task                      : cli_tutorial/command_list/appserv-rerun-task.html
+	cli_tutorial/command_list/appserv-start-app appserv-start-app                       : cli_tutorial/command_list/appserv-start-app.html
+	cli_tutorial/command_list/common_options Common Options to Command Line Programs : cli_tutorial/command_list/common_options.html
+	cli_tutorial/command_list/index          BV-BRC Command Line Program Reference   : cli_tutorial/command_list/index.html
+	cli_tutorial/command_list/p3-aggregates-to-html p3-aggregates-to-html                   : cli_tutorial/command_list/p3-aggregates-to-html.html
+	cli_tutorial/command_list/p3-all-contigs p3-all-contigs                          : cli_tutorial/command_list/p3-all-contigs.html
+	cli_tutorial/command_list/p3-all-drugs   p3-all-drugs                            : cli_tutorial/command_list/p3-all-drugs.html
+	cli_tutorial/command_list/p3-all-genomes p3-all-genomes                          : cli_tutorial/command_list/p3-all-genomes.html
+	cli_tutorial/command_list/p3-all-subsystem-roles p3-all-subsystem-roles                  : cli_tutorial/command_list/p3-all-subsystem-roles.html
+	cli_tutorial/command_list/p3-all-subsystems p3-all-subsystems                       : cli_tutorial/command_list/p3-all-subsystems.html
+	cli_tutorial/command_list/p3-all-taxonomies p3-all-taxonomies                       : cli_tutorial/command_list/p3-all-taxonomies.html
+	cli_tutorial/command_list/p3-blast       p3-blast                                : cli_tutorial/command_list/p3-blast.html
+	cli_tutorial/command_list/p3-build-kmer-db p3-build-kmer-db                        : cli_tutorial/command_list/p3-build-kmer-db.html
+	cli_tutorial/command_list/p3-cat         p3-cat                                  : cli_tutorial/command_list/p3-cat.html
+	cli_tutorial/command_list/p3-closest-seqs p3-closest-seqs                         : cli_tutorial/command_list/p3-closest-seqs.html
+	cli_tutorial/command_list/p3-co-occur    p3-co-occur                             : cli_tutorial/command_list/p3-co-occur.html
+	cli_tutorial/command_list/p3-collate     p3-collate                              : cli_tutorial/command_list/p3-collate.html
+	cli_tutorial/command_list/p3-compare-cols p3-compare-cols                         : cli_tutorial/command_list/p3-compare-cols.html
+	cli_tutorial/command_list/p3-count       p3-count                                : cli_tutorial/command_list/p3-count.html
+	cli_tutorial/command_list/p3-count-families p3-count-families                       : cli_tutorial/command_list/p3-count-families.html
+	cli_tutorial/command_list/p3-cp          p3-cp                                   : cli_tutorial/command_list/p3-cp.html
+	cli_tutorial/command_list/p3-discriminating-kmers p3-discriminating-kmers                 : cli_tutorial/command_list/p3-discriminating-kmers.html
+	cli_tutorial/command_list/p3-dump-genomes p3-dump-genomes                         : cli_tutorial/command_list/p3-dump-genomes.html
+	cli_tutorial/command_list/p3-echo        p3-echo                                 : cli_tutorial/command_list/p3-echo.html
+	cli_tutorial/command_list/p3-extract     p3-extract                              : cli_tutorial/command_list/p3-extract.html
+	cli_tutorial/command_list/p3-fasta-md5   p3-fasta-md5                            : cli_tutorial/command_list/p3-fasta-md5.html
+	cli_tutorial/command_list/p3-feature-gap p3-feature-gap                          : cli_tutorial/command_list/p3-feature-gap.html
+	cli_tutorial/command_list/p3-feature-upstream p3-feature-upstream                     : cli_tutorial/command_list/p3-feature-upstream.html
+	cli_tutorial/command_list/p3-file-filter p3-file-filter                          : cli_tutorial/command_list/p3-file-filter.html
+	cli_tutorial/command_list/p3-find-couples p3-find-couples                         : cli_tutorial/command_list/p3-find-couples.html
+	cli_tutorial/command_list/p3-find-features p3-find-features                        : cli_tutorial/command_list/p3-find-features.html
+	cli_tutorial/command_list/p3-find-in-clusters p3-find-in-clusters                     : cli_tutorial/command_list/p3-find-in-clusters.html
+	cli_tutorial/command_list/p3-find-serology-data p3-find-serology-data                   : cli_tutorial/command_list/p3-find-serology-data.html
+	cli_tutorial/command_list/p3-find-surveillance-data p3-find-surveillance-data               : cli_tutorial/command_list/p3-find-surveillance-data.html
+	cli_tutorial/command_list/p3-format-results p3-format-results                       : cli_tutorial/command_list/p3-format-results.html
+	cli_tutorial/command_list/p3-function-parse p3-function-parse                       : cli_tutorial/command_list/p3-function-parse.html
+	cli_tutorial/command_list/p3-function-to-role p3-function-to-role                     : cli_tutorial/command_list/p3-function-to-role.html
+	cli_tutorial/command_list/p3-generate-close-roles p3-generate-close-roles                 : cli_tutorial/command_list/p3-generate-close-roles.html
+	cli_tutorial/command_list/p3-generate-clusters p3-generate-clusters                    : cli_tutorial/command_list/p3-generate-clusters.html
+	cli_tutorial/command_list/p3-genome-distance p3-genome-distance                      : cli_tutorial/command_list/p3-genome-distance.html
+	cli_tutorial/command_list/p3-genome-fasta p3-genome-fasta                         : cli_tutorial/command_list/p3-genome-fasta.html
+	cli_tutorial/command_list/p3-genome-kmer-hits p3-genome-kmer-hits                     : cli_tutorial/command_list/p3-genome-kmer-hits.html
+	cli_tutorial/command_list/p3-genome-md5  p3-genome-md5                           : cli_tutorial/command_list/p3-genome-md5.html
+	cli_tutorial/command_list/p3-genus-species p3-genus-species                        : cli_tutorial/command_list/p3-genus-species.html
+	cli_tutorial/command_list/p3-get-drug-genomes p3-get-drug-genomes                     : cli_tutorial/command_list/p3-get-drug-genomes.html
+	cli_tutorial/command_list/p3-get-family-data p3-get-family-data                      : cli_tutorial/command_list/p3-get-family-data.html
+	cli_tutorial/command_list/p3-get-family-features p3-get-family-features                  : cli_tutorial/command_list/p3-get-family-features.html
+	cli_tutorial/command_list/p3-get-feature-data p3-get-feature-data                     : cli_tutorial/command_list/p3-get-feature-data.html
+	cli_tutorial/command_list/p3-get-feature-group p3-get-feature-group                    : cli_tutorial/command_list/p3-get-feature-group.html
+	cli_tutorial/command_list/p3-get-feature-protein-regions p3-get-feature-protein-regions          : cli_tutorial/command_list/p3-get-feature-protein-regions.html
+	cli_tutorial/command_list/p3-get-feature-protein-structures p3-get-feature-protein-structures       : cli_tutorial/command_list/p3-get-feature-protein-structures.html
+	cli_tutorial/command_list/p3-get-feature-regions p3-get-feature-regions                  : cli_tutorial/command_list/p3-get-feature-regions.html
+	cli_tutorial/command_list/p3-get-feature-sequence p3-get-feature-sequence                 : cli_tutorial/command_list/p3-get-feature-sequence.html
+	cli_tutorial/command_list/p3-get-feature-subsystems p3-get-feature-subsystems               : cli_tutorial/command_list/p3-get-feature-subsystems.html
+	cli_tutorial/command_list/p3-get-features-by-sequence p3-get-features-by-sequence             : cli_tutorial/command_list/p3-get-features-by-sequence.html
+	cli_tutorial/command_list/p3-get-features-in-regions p3-get-features-in-regions              : cli_tutorial/command_list/p3-get-features-in-regions.html
+	cli_tutorial/command_list/p3-get-genome-contigs p3-get-genome-contigs                   : cli_tutorial/command_list/p3-get-genome-contigs.html
+	cli_tutorial/command_list/p3-get-genome-data p3-get-genome-data                      : cli_tutorial/command_list/p3-get-genome-data.html
+	cli_tutorial/command_list/p3-get-genome-drugs p3-get-genome-drugs                     : cli_tutorial/command_list/p3-get-genome-drugs.html
+	cli_tutorial/command_list/p3-get-genome-expression p3-get-genome-expression                : cli_tutorial/command_list/p3-get-genome-expression.html
+	cli_tutorial/command_list/p3-get-genome-features p3-get-genome-features                  : cli_tutorial/command_list/p3-get-genome-features.html
+	cli_tutorial/command_list/p3-get-genome-group p3-get-genome-group                     : cli_tutorial/command_list/p3-get-genome-group.html
+	cli_tutorial/command_list/p3-get-genome-protein-regions p3-get-genome-protein-regions           : cli_tutorial/command_list/p3-get-genome-protein-regions.html
+	cli_tutorial/command_list/p3-get-genome-protein-structures p3-get-genome-protein-structures        : cli_tutorial/command_list/p3-get-genome-protein-structures.html
+	cli_tutorial/command_list/p3-get-genome-refseq-features p3-get-genome-refseq-features           : cli_tutorial/command_list/p3-get-genome-refseq-features.html
+	cli_tutorial/command_list/p3-get-genome-sp-genes p3-get-genome-sp-genes                  : cli_tutorial/command_list/p3-get-genome-sp-genes.html
+	cli_tutorial/command_list/p3-get-genome-subsystems p3-get-genome-subsystems                : cli_tutorial/command_list/p3-get-genome-subsystems.html
+	cli_tutorial/command_list/p3-get-subsystem-features p3-get-subsystem-features               : cli_tutorial/command_list/p3-get-subsystem-features.html
+	cli_tutorial/command_list/p3-get-subsystem-roles p3-get-subsystem-roles                  : cli_tutorial/command_list/p3-get-subsystem-roles.html
+	cli_tutorial/command_list/p3-get-taxonomy-data p3-get-taxonomy-data                    : cli_tutorial/command_list/p3-get-taxonomy-data.html
+	cli_tutorial/command_list/p3-gto         p3-gto                                  : cli_tutorial/command_list/p3-gto.html
+	cli_tutorial/command_list/p3-gto-dna     p3-gto-dna                              : cli_tutorial/command_list/p3-gto-dna.html
+	cli_tutorial/command_list/p3-gto-fasta   p3-gto-fasta                            : cli_tutorial/command_list/p3-gto-fasta.html
+	cli_tutorial/command_list/p3-gto-fetch   p3-gto-fetch                            : cli_tutorial/command_list/p3-gto-fetch.html
+	cli_tutorial/command_list/p3-gto-scan    p3-gto-scan                             : cli_tutorial/command_list/p3-gto-scan.html
+	cli_tutorial/command_list/p3-head        p3-head                                 : cli_tutorial/command_list/p3-head.html
+	cli_tutorial/command_list/p3-identify-clusters p3-identify-clusters                    : cli_tutorial/command_list/p3-identify-clusters.html
+	cli_tutorial/command_list/p3-job-status  p3-job-status                           : cli_tutorial/command_list/p3-job-status.html
+	cli_tutorial/command_list/p3-join        p3-join                                 : cli_tutorial/command_list/p3-join.html
+	cli_tutorial/command_list/p3-kmer-compare p3-kmer-compare                         : cli_tutorial/command_list/p3-kmer-compare.html
+	cli_tutorial/command_list/p3-less        p3-less                                 : cli_tutorial/command_list/p3-less.html
+	cli_tutorial/command_list/p3-list-feature-groups p3-list-feature-groups                  : cli_tutorial/command_list/p3-list-feature-groups.html
+	cli_tutorial/command_list/p3-list-genome-groups p3-list-genome-groups                   : cli_tutorial/command_list/p3-list-genome-groups.html
+	cli_tutorial/command_list/p3-login       p3-login                                : cli_tutorial/command_list/p3-login.html
+	cli_tutorial/command_list/p3-logout      p3-logout                               : cli_tutorial/command_list/p3-logout.html
+	cli_tutorial/command_list/p3-ls          p3-ls                                   : cli_tutorial/command_list/p3-ls.html
+	cli_tutorial/command_list/p3-mass-cluster-run p3-mass-cluster-run                     : cli_tutorial/command_list/p3-mass-cluster-run.html
+	cli_tutorial/command_list/p3-match       p3-match                                : cli_tutorial/command_list/p3-match.html
+	cli_tutorial/command_list/p3-merge       p3-merge                                : cli_tutorial/command_list/p3-merge.html
+	cli_tutorial/command_list/p3-mkdir       p3-mkdir                                : cli_tutorial/command_list/p3-mkdir.html
+	cli_tutorial/command_list/p3-nucleon-runs p3-nucleon-runs                         : cli_tutorial/command_list/p3-nucleon-runs.html
+	cli_tutorial/command_list/p3-peg-kmer-hits p3-peg-kmer-hits                        : cli_tutorial/command_list/p3-peg-kmer-hits.html
+	cli_tutorial/command_list/p3-pick        p3-pick                                 : cli_tutorial/command_list/p3-pick.html
+	cli_tutorial/command_list/p3-pick-by-class p3-pick-by-class                        : cli_tutorial/command_list/p3-pick-by-class.html
+	cli_tutorial/command_list/p3-pivot       p3-pivot                                : cli_tutorial/command_list/p3-pivot.html
+	cli_tutorial/command_list/p3-project-subsystems p3-project-subsystems                   : cli_tutorial/command_list/p3-project-subsystems.html
+	cli_tutorial/command_list/p3-put-feature-group p3-put-feature-group                    : cli_tutorial/command_list/p3-put-feature-group.html
+	cli_tutorial/command_list/p3-put-genome-group p3-put-genome-group                     : cli_tutorial/command_list/p3-put-genome-group.html
+	cli_tutorial/command_list/p3-qstat       p3-qstat                                : cli_tutorial/command_list/p3-qstat.html
+	cli_tutorial/command_list/p3-rast        p3-rast                                 : cli_tutorial/command_list/p3-rast.html
+	cli_tutorial/command_list/p3-related-by-clusters p3-related-by-clusters                  : cli_tutorial/command_list/p3-related-by-clusters.html
+	cli_tutorial/command_list/p3-rep-prots   p3-rep-prots                            : cli_tutorial/command_list/p3-rep-prots.html
+	cli_tutorial/command_list/p3-rm          p3-rm                                   : cli_tutorial/command_list/p3-rm.html
+	cli_tutorial/command_list/p3-rmdir       p3-rmdir                                : cli_tutorial/command_list/p3-rmdir.html
+	cli_tutorial/command_list/p3-role-fasta  p3-role-fasta                           : cli_tutorial/command_list/p3-role-fasta.html
+	cli_tutorial/command_list/p3-role-features p3-role-features                        : cli_tutorial/command_list/p3-role-features.html
+	cli_tutorial/command_list/p3-role-matrix p3-role-matrix                          : cli_tutorial/command_list/p3-role-matrix.html
+	cli_tutorial/command_list/p3-sequence-profile p3-sequence-profile                     : cli_tutorial/command_list/p3-sequence-profile.html
+	cli_tutorial/command_list/p3-set-to-relation p3-set-to-relation                      : cli_tutorial/command_list/p3-set-to-relation.html
+	cli_tutorial/command_list/p3-shuffle     p3-shuffle                              : cli_tutorial/command_list/p3-shuffle.html
+	cli_tutorial/command_list/p3-signature-clusters p3-signature-clusters                   : cli_tutorial/command_list/p3-signature-clusters.html
+	cli_tutorial/command_list/p3-signature-families p3-signature-families                   : cli_tutorial/command_list/p3-signature-families.html
+	cli_tutorial/command_list/p3-signature-peginfo p3-signature-peginfo                    : cli_tutorial/command_list/p3-signature-peginfo.html
+	cli_tutorial/command_list/p3-sort        p3-sort                                 : cli_tutorial/command_list/p3-sort.html
+	cli_tutorial/command_list/p3-stats       p3-stats                                : cli_tutorial/command_list/p3-stats.html
+	cli_tutorial/command_list/p3-submit-BLAST p3-submit-BLAST                         : cli_tutorial/command_list/p3-submit-BLAST.html
+	cli_tutorial/command_list/p3-submit-CGA  p3-submit-CGA                           : cli_tutorial/command_list/p3-submit-CGA.html
+	cli_tutorial/command_list/p3-submit-MSA  p3-submit-MSA                           : cli_tutorial/command_list/p3-submit-MSA.html
+	cli_tutorial/command_list/p3-submit-codon-tree p3-submit-codon-tree                    : cli_tutorial/command_list/p3-submit-codon-tree.html
+	cli_tutorial/command_list/p3-submit-fastqutils p3-submit-fastqutils                    : cli_tutorial/command_list/p3-submit-fastqutils.html
+	cli_tutorial/command_list/p3-submit-gene-tree p3-submit-gene-tree                     : cli_tutorial/command_list/p3-submit-gene-tree.html
+	cli_tutorial/command_list/p3-submit-genome-annotation p3-submit-genome-annotation             : cli_tutorial/command_list/p3-submit-genome-annotation.html
+	cli_tutorial/command_list/p3-submit-genome-assembly p3-submit-genome-assembly               : cli_tutorial/command_list/p3-submit-genome-assembly.html
+	cli_tutorial/command_list/p3-submit-metagenome-binning p3-submit-metagenome-binning            : cli_tutorial/command_list/p3-submit-metagenome-binning.html
+	cli_tutorial/command_list/p3-submit-metagenomic-read-mapping p3-submit-metagenomic-read-mapping      : cli_tutorial/command_list/p3-submit-metagenomic-read-mapping.html
+	cli_tutorial/command_list/p3-submit-proteome-comparison p3-submit-proteome-comparison           : cli_tutorial/command_list/p3-submit-proteome-comparison.html
+	cli_tutorial/command_list/p3-submit-rnaseq p3-submit-rnaseq                        : cli_tutorial/command_list/p3-submit-rnaseq.html
+	cli_tutorial/command_list/p3-submit-sars2-analysis p3-submit-sars2-analysis                : cli_tutorial/command_list/p3-submit-sars2-analysis.html
+	cli_tutorial/command_list/p3-submit-sars2-assembly p3-submit-sars2-assembly                : cli_tutorial/command_list/p3-submit-sars2-assembly.html
+	cli_tutorial/command_list/p3-submit-taxonomic-classification p3-submit-taxonomic-classification      : cli_tutorial/command_list/p3-submit-taxonomic-classification.html
+	cli_tutorial/command_list/p3-submit-variation-analysis p3-submit-variation-analysis            : cli_tutorial/command_list/p3-submit-variation-analysis.html
+	cli_tutorial/command_list/p3-subsys-roles p3-subsys-roles                         : cli_tutorial/command_list/p3-subsys-roles.html
+	cli_tutorial/command_list/p3-tail        p3-tail                                 : cli_tutorial/command_list/p3-tail.html
+	cli_tutorial/command_list/p3-tbl-to-fasta p3-tbl-to-fasta                         : cli_tutorial/command_list/p3-tbl-to-fasta.html
+	cli_tutorial/command_list/p3-tbl-to-html p3-tbl-to-html                          : cli_tutorial/command_list/p3-tbl-to-html.html
+	cli_tutorial/command_list/p3-tests       p3-tests                                : cli_tutorial/command_list/p3-tests.html
+	cli_tutorial/command_list/p3-uni-roles   p3-uni-roles                            : cli_tutorial/command_list/p3-uni-roles.html
+	cli_tutorial/command_list/p3-user-subsystem p3-user-subsystem                       : cli_tutorial/command_list/p3-user-subsystem.html
+	cli_tutorial/command_list/p3-whoami      p3-whoami                               : cli_tutorial/command_list/p3-whoami.html
+	cli_tutorial/command_list/p3-write-kmers p3-write-kmers                          : cli_tutorial/command_list/p3-write-kmers.html
+	cli_tutorial/command_list/submit-patric-annotation submit-patric-annotation                : cli_tutorial/command_list/submit-patric-annotation.html
+	cli_tutorial/command_list/submit-patric-genbank submit-patric-genbank                   : cli_tutorial/command_list/submit-patric-genbank.html
+	cli_tutorial/index                       Command Line Interface                  : cli_tutorial/index.html
+	cli_tutorial/rasttk_getting_started      RASTtk: Getting Started With The Default Pipeline: cli_tutorial/rasttk_getting_started.html
+	cli_tutorial/rasttk_incremental_commands RASTtk, The Incremental Commands        : cli_tutorial/rasttk_incremental_commands.html
+	common_tasks/gui_tasks                   Common Tasks Using the Web Interface    : common_tasks/gui_tasks.html
+	common_tasks/index                       Common Tasks in BV-BRC                  : common_tasks/index.html
+	data_protocols/antimicrobial_resistance  Antimicrobial Resistance (AMR)          : data_protocols/antimicrobial_resistance.html
+	data_protocols/bacterial_genomes         Bacterial Genomes                       : data_protocols/bacterial_genomes.html
+	data_protocols/genome_annotation         Genome Annotation Protocol              : data_protocols/genome_annotation.html
+	data_protocols/genome_metadata           Genome Metadata                         : data_protocols/genome_metadata.html
+	data_protocols/index                     Data Sources and Protocols              : data_protocols/index.html
+	data_protocols/old_antimicrobial_resistance Antimicrobial Resistance (AMR)          : data_protocols/old_antimicrobial_resistance.html
+	data_protocols/old_genomes               Genomes                                 : data_protocols/old_genomes.html
+	data_protocols/old_genomic_features      Genomic Features                        : data_protocols/old_genomic_features.html
+	data_protocols/old_pathways              Pathways                                : data_protocols/old_pathways.html
+	data_protocols/old_protein_families      Protein Families                        : data_protocols/old_protein_families.html
+	data_protocols/old_specialty_genes       Specialty Genes                         : data_protocols/old_specialty_genes.html
+	data_protocols/old_transcriptomics       Transcriptomics                         : data_protocols/old_transcriptomics.html
+	data_protocols/specialty_data_collections/index Specialty Data Collections              : data_protocols/specialty_data_collections/index.html
+	data_protocols/specialty_data_collections/niaid_clinical_proteomics NIAID Clinical Proteomics               : data_protocols/specialty_data_collections/niaid_clinical_proteomics.html
+	data_protocols/specialty_data_collections/niaid_functional_genomics NIAID Functional Genomics               : data_protocols/specialty_data_collections/niaid_functional_genomics.html
+	data_protocols/specialty_data_collections/niaid_genome_sequencing NIAID Genome Sequencing                 : data_protocols/specialty_data_collections/niaid_genome_sequencing.html
+	data_protocols/specialty_data_collections/niaid_structural_genomics NIAID Structural Genomics               : data_protocols/specialty_data_collections/niaid_structural_genomics.html
+	data_protocols/specialty_data_collections/niaid_systems_biology NIAID Systems Biology                   : data_protocols/specialty_data_collections/niaid_systems_biology.html
+	data_protocols/specialty_data_collections/patric_collaborations PATRIC Collaborations                   : data_protocols/specialty_data_collections/patric_collaborations.html
+	data_protocols/specialty_data_collections/patric_dbps PATRIC DBPs                             : data_protocols/specialty_data_collections/patric_dbps.html
+	data_protocols/viral_genome_annotations  Viral Genome Annotations                : data_protocols/viral_genome_annotations.html
+	data_protocols/viral_genomes             Viral Genomes                           : data_protocols/viral_genomes.html
+	faqs_common_tasks/index                  Frequently Asked Questions (FAQs) and Common Tasks: faqs_common_tasks/index.html
+	github                                   GitHub                                  : github.html
+	index                                    BV-BRC Documentation                    : index.html
+	news/2010/20070130-drs-sobral-and-snyder-publish-on-the-patric-a-pathosystems-resource-integration-center Drs. Snyder and Sobral Publish on PATRIC: a PathoSystems Resource Integration Center: news/2010/20070130-drs-sobral-and-snyder-publish-on-the-patric-a-pathosystems-resource-integration-center.html
+	news/2010/20080830-bioinformatics-resource-centers-for-infectious-diseases Bioinformatics Resource Centers for Infectious Diseases: news/2010/20080830-bioinformatics-resource-centers-for-infectious-diseases.html
+	news/2010/20091012-vbi-awarded-27m-from-nih-to-support-infectious-disease-research VBI Awarded $27M from NIH to Support Infectious Disease Research: news/2010/20091012-vbi-awarded-27m-from-nih-to-support-infectious-disease-research.html
+	news/2010/20091209-patric-launches-initial-website-for-all-baterial-bioinformatics-resource-center PATRIC Launches Initial Website for All-Baterial Bioinformatics Resource Center: news/2010/20091209-patric-launches-initial-website-for-all-baterial-bioinformatics-resource-center.html
+	news/2010/20091230-additional-genome-data-added-from-refseq Additional Genome Data Added From RefSeq: news/2010/20091230-additional-genome-data-added-from-refseq.html
+	news/2010/20091230-drs-azad-and-sobral-publish-on-typhus-group-specific-protease-in-rickettsiae Drs. Azad and Sobral Publish on Typhus Group-specific Protease in Rickettsiae: news/2010/20091230-drs-azad-and-sobral-publish-on-typhus-group-specific-protease-in-rickettsiae.html
+	news/2010/20100310-dr-kelly-williams-publishes-paper-on-phylogeny-of-gammaproteobacteria Drs. Williams and Dickerman Publish Paper on Phylogeny of Gammaproteobacteria: news/2010/20100310-dr-kelly-williams-publishes-paper-on-phylogeny-of-gammaproteobacteria.html
+	news/2010/20100330-dr-joe-gillsepie-and-colleagues-publish-paper-on-anaplasma-marginale-type-iv-secretion-system-proteins-virb2-virb7-virb11-and-vird4 PATRIC Collaborators Publish Paper on Anaplasma Marginale Type IV Secretion System Proteins VirB2, VirB7, VirB11, and VirD4: news/2010/20100330-dr-joe-gillsepie-and-colleagues-publish-paper-on-anaplasma-marginale-type-iv-secretion-system-proteins-virb2-virb7-virb11-and-vird4.html
+	news/2010/20100405-patric-website-offers-new-annotation-types-genome-browser-protein-family-sorter-and-more PATRIC Website Offers New Annotation Types, Genome Browser, Protein Family Sorter and More: news/2010/20100405-patric-website-offers-new-annotation-types-genome-browser-protein-family-sorter-and-more.html
+	news/2010/20100430-patric-collaborators-publish-an-analysis-of-rickettsia-typhi-infected-and-uninfected-cat-flea-midgut-cdna-libraries PATRIC Collaborators Publish an Analysis of Rickettsia Typhi-infected and Uninfected Cat Flea Midgut cDNA Libraries: news/2010/20100430-patric-collaborators-publish-an-analysis-of-rickettsia-typhi-infected-and-uninfected-cat-flea-midgut-cdna-libraries.html
+	news/2010/20100503-dan-sullivan-publishes-paper-on-patric-data-integration Mr. Dan Sullivan Publishes Paper on PATRIC Data Integration: news/2010/20100503-dan-sullivan-publishes-paper-on-patric-data-integration.html
+	news/2010/20100510-dr-joe-gillespie-reveals-diverse-rickettsiales-type-iv-secretion-system Drs. Gillespie and Sobral Reveal Diverse Rickettsiales Type IV Secretion System: news/2010/20100510-dr-joe-gillespie-reveals-diverse-rickettsiales-type-iv-secretion-system.html
+	news/2010/20100517-tree-of-life-featured-in-science-daily PATRIC’s “Tree of Life” for Gamma-proteobacteria Featured in Science Daily: news/2010/20100517-tree-of-life-featured-in-science-daily.html
+	news/2010/20100527-new-genome-data-from-refseq-new-annotations-via-rast New Genome Data from RefSeq & Genbank; New Annotations via RAST: news/2010/20100527-new-genome-data-from-refseq-new-annotations-via-rast.html
+	news/2010/20100806-dr-bruno-sobral-and-collaborators-publish-paper-on-infectious-disease-text-mining Dr. Bruno Sobral and Collaborators Publish Paper on Infectious Disease Text Mining: news/2010/20100806-dr-bruno-sobral-and-collaborators-publish-paper-on-infectious-disease-text-mining.html
+	news/2010/20100810-patric-website-introduces-new-look-features-and-data-improvements PATRIC Website Introduces New Look, Enhanced Tools and Additional Data: news/2010/20100810-patric-website-introduces-new-look-features-and-data-improvements.html
+	news/2010/20100928-dr-dyer-and-collaborators-publish-on-human-bacterial-pathogen-protein-interaction-networks Dr. Dyer and Collaborators publish on human-bacterial pathogen protein interaction networks.: news/2010/20100928-dr-dyer-and-collaborators-publish-on-human-bacterial-pathogen-protein-interaction-networks.html
+	news/2010/20101029-patric-driving-biological-projects-awarded PATRIC Driving Biological Projects Awarded: news/2010/20101029-patric-driving-biological-projects-awarded.html
+	news/2010/20101210-patric-december-2010-release-offers-scores-of-new-and-improved-website-features-and-data PATRIC December 2010 Release Offers Scores of New and Improved Website Features and Data: news/2010/20101210-patric-december-2010-release-offers-scores-of-new-and-improved-website-features-and-data.html
+	news/2010/index                          Archives 2010 and earlier               : news/2010/index.html
+	news/2011/20110218-feb-18-data-release   New Genome Data from RefSeq & Genbank; New Annotations via RAST: news/2011/20110218-feb-18-data-release.html
+	news/2011/20110330-patric-team-publishes-text-mining-type-iv-secretion-systems PATRIC Team Publishes Paper on Text Mining for Type IV Secretion Systems.: news/2011/20110330-patric-team-publishes-text-mining-type-iv-secretion-systems.html
+	news/2011/20110422-patric-april-2011-release-offers-an-abundance-of-new-and-enhanced-website-features-tools-and-data PATRIC April 2011 Release Offers an Abundance of New and Enhanced Website Features, Tools, and Data: news/2011/20110422-patric-april-2011-release-offers-an-abundance-of-new-and-enhanced-website-features-tools-and-data.html
+	news/2011/20110502-drs-sobral-and-wattam-author-a-chapter-in-brucella Drs. Sobral and Wattam Author a Chapter in “Brucella: Molecular Microbiology and Genetics”.: news/2011/20110502-drs-sobral-and-wattam-author-a-chapter-in-brucella.html
+	news/2011/20110608-e-coli-outbreak-new-comprehensive-comparisons E. coli outbreak: New Comprehensive Comparisons: news/2011/20110608-e-coli-outbreak-new-comprehensive-comparisons.html
+	news/2011/20110613-unique-and-divergent-proteins-in-e-coli-outbreak-strains Unique and Divergent Proteins in E. coli Outbreak Strains: news/2011/20110613-unique-and-divergent-proteins-in-e-coli-outbreak-strains.html
+	news/2011/20110627-driscoll-mao-and-gabbard-publish-work-on-patrics-host-pathogen-data-and-visualizations Driscoll, Mao and Gabbard Publish Work on PATRIC’s Host-Pathogen Data and Visualizations: news/2011/20110627-driscoll-mao-and-gabbard-publish-work-on-patrics-host-pathogen-data-and-visualizations.html
+	news/2011/20110708-e-coli-outbreak-updated-analysis-of-unique-and-divergent-proteins E. coli Outbreak: Updated Analysis of Unique and Divergent Proteins: news/2011/20110708-e-coli-outbreak-updated-analysis-of-unique-and-divergent-proteins.html
+	news/2011/20110801-patric-july-2011-release PATRIC July 2011 Release Features Integration of Genome Metadata: news/2011/20110801-patric-july-2011-release.html
+	news/2011/20110907-patric-the-comprehensive-bacterial-bioinformatics-resource-with-a-focus-on-human-pathogenic-species PATRIC: The Comprehensive Bacterial Bioinformatics Resource with a Focus on Human Pathogenic Species: news/2011/20110907-patric-the-comprehensive-bacterial-bioinformatics-resource-with-a-focus-on-human-pathogenic-species.html
+	news/2011/20111013-rast-german-e-coli-strain-annotation-using-cloud-computing RAST German E. coli Strain Annotation Using Cloud Computing.: news/2011/20111013-rast-german-e-coli-strain-annotation-using-cloud-computing.html
+	news/2011/20111201-patric-november-2011-release-highlights-new-global-search-and-enhanced-personal-workspace PATRIC November 2011 Release Highlights New Global Search and Enhanced Personal Workspace: news/2011/20111201-patric-november-2011-release-highlights-new-global-search-and-enhanced-personal-workspace.html
+	news/2011/index                          Archives 2011                           : news/2011/index.html
+	news/2012/20120201-website-improvements-new-genome-data-from-refseq-new-annotations-via-rast Website Improvements; New Genome Data from RefSeq & Genbank; New Annotations via RAST.: news/2012/20120201-website-improvements-new-genome-data-from-refseq-new-annotations-via-rast.html
+	news/2012/20120210-a-rickettsia-genome-overrun-by-mobile-genetic-elements-provides-insight-into-the-acquisition-of-genes-characteristic-of-an-obligate-intracellular-lifestyle A Rickettsia genome overrun by mobile genetic elements provides insight into the acquisition of genes characteristic of an obligate intracellular lifestyle.: news/2012/20120210-a-rickettsia-genome-overrun-by-mobile-genetic-elements-provides-insight-into-the-acquisition-of-genes-characteristic-of-an-obligate-intracellular-lifestyle.html
+	news/2012/20120224-tuberculosis-community-annotation-project-tbcap-jamboree Tuberculosis Community Annotation Project (TBCAP) Jamboree: news/2012/20120224-tuberculosis-community-annotation-project-tbcap-jamboree.html
+	news/2012/20120229-dr-bruno-sobral-named-as-a-2012-benjamin-franklin-award-finalist Dr. Bruno Sobral Named as a 2012 Benjamin Franklin Award Finalist: news/2012/20120229-dr-bruno-sobral-named-as-a-2012-benjamin-franklin-award-finalist.html
+	news/2012/20120301-patric-special-data-release-featuring-12-new-mycobacterium-tuberculosis-genomes PATRIC Special Data Release Featuring 12 New Mycobacterium tuberculosis Genomes: news/2012/20120301-patric-special-data-release-featuring-12-new-mycobacterium-tuberculosis-genomes.html
+	news/2012/20120326-argo-an-integrative-interactive-text-mining-based-workbench-supporting-curation Argo: an integrative, interactive, text mining-based workbench supporting curation: news/2012/20120326-argo-an-integrative-interactive-text-mining-based-workbench-supporting-curation.html
+	news/2012/20120412-pathogen-portal-releases-mouse-model-strain-selection-guide Pathogen Portal releases Mouse Model Strain Selection Guide: news/2012/20120412-pathogen-portal-releases-mouse-model-strain-selection-guide.html
+	news/2012/20120531-patric-may-2012-release-introduces-new-homepage-workflow-pages-over-1200-new-genomes-and-more PATRIC May 2012 Release Introduces New Homepage, Workflow Pages, over 1200 New Genomes and More: news/2012/20120531-patric-may-2012-release-introduces-new-homepage-workflow-pages-over-1200-new-genomes-and-more.html
+	news/2012/20120912-patric-september-2012-data-release-includes-750-new-genomes-and-updated-figfam-annotations PATRIC September 2012 Data Release Includes 750 New Genomes and Updated Figfam Annotations: news/2012/20120912-patric-september-2012-data-release-includes-750-new-genomes-and-updated-figfam-annotations.html
+	news/2012/20120924-tolc-dependent-secretion-of-an-ankyrin-repeat-containing-protein-of-rickettsia-typhi TolC-Dependent Secretion of an Ankyrin Repeat-Containing Protein of Rickettsia typhi.: news/2012/20120924-tolc-dependent-secretion-of-an-ankyrin-repeat-containing-protein-of-rickettsia-typhi.html
+	news/2012/20121010-patric-october-2012-data-release-adds-741-new-genomes PATRIC October 2012 Data Release Adds 741 New Genomes: news/2012/20121010-patric-october-2012-data-release-adds-741-new-genomes.html
+	news/2012/20121011-patric-team-presents-workshop-at-duke-and-unc PATRIC Team Presents Workshop at Duke and UNC: news/2012/20121011-patric-team-presents-workshop-at-duke-and-unc.html
+	news/2012/20121024-seed-servers-high-performance-access-to-the-seed-genomes-annotations-and-metabolic-models SEED Servers: High-Performance Access to the SEED Genomes, Annotations, and Metabolic Models: news/2012/20121024-seed-servers-high-performance-access-to-the-seed-genomes-annotations-and-metabolic-models.html
+	news/2012/20121109-dr-rick-stevens-showcases-patric-at-the-4th-annual-systems-biology-programmatic-meeting Dr. Rick Stevens Showcases PATRIC at The 4th Annual Systems Biology Programmatic Meeting: news/2012/20121109-dr-rick-stevens-showcases-patric-at-the-4th-annual-systems-biology-programmatic-meeting.html
+	news/2012/20121210-patric-november-2012-release-introduces-new-transcriptomics-data-and-analysis-tools-and-over-370-new-genomes PATRIC November 2012 Release Introduces New Transcriptomics Data and Analysis Tools and over 370 New Genomes: news/2012/20121210-patric-november-2012-release-introduces-new-transcriptomics-data-and-analysis-tools-and-over-370-new-genomes.html
+	news/2012/index                          Archives 2012                           : news/2012/index.html
+	news/2013/20130104-patric-december-2012-release-provides-enhanced-support-for-refseq-names-and-gene-symbols PATRIC December 2012 Release Provides Enhanced Support for RefSeq Names and Gene Symbols: news/2013/20130104-patric-december-2012-release-provides-enhanced-support-for-refseq-names-and-gene-symbols.html
+	news/2013/20130116-peptide-nucleic-acids-inhibit-growth-of-brucella-suis-in-pure-culture-and-in-infected-murine-macrophages Peptide nucleic acids inhibit growth of Brucella suis in pure culture and in infected murine macrophages: news/2013/20130116-peptide-nucleic-acids-inhibit-growth-of-brucella-suis-in-pure-culture-and-in-infected-murine-macrophages.html
+	news/2013/20130227-dr-bruno-sobral-attends-5th-meeting-on-global-microbial-identifier Dr. Bruno Sobral Attends 5th Meeting on Global Microbial Identifier: news/2013/20130227-dr-bruno-sobral-attends-5th-meeting-on-global-microbial-identifier.html
+	news/2013/20130326-bacterial-dna-sifted-from-the-trichoplax-adhaerens-animaliaplacozoa-genome-project-reveals-a-putative-rickettsial-endosymbiont Bacterial DNA sifted from the Trichoplax adhaerens (Animalia:Placozoa) genome project reveals a putative rickettsial endosymbiont: news/2013/20130326-bacterial-dna-sifted-from-the-trichoplax-adhaerens-animaliaplacozoa-genome-project-reveals-a-putative-rickettsial-endosymbiont.html
+	news/2013/20130402-patric-march-2013-release-offers-multiple-website-enhancements-new-features-and-new-data PATRIC March 2013 Release Offers Multiple Website Enhancements, New Features, and New Data: news/2013/20130402-patric-march-2013-release-offers-multiple-website-enhancements-new-features-and-new-data.html
+	news/2013/20130510-new-upload-your-own-transcriptomics-data-tutorial New “Upload Your Own Transcriptomics Data” Tutorial: news/2013/20130510-new-upload-your-own-transcriptomics-data-tutorial.html
+	news/2013/20130601-patric-may-2013-release-features-new-data-improved-metadata-site-integration-and-updated-kegg-maps PATRIC May 2013 Release Features New Data, Improved Metadata-Site Integration and Updated KEGG Maps: news/2013/20130601-patric-may-2013-release-features-new-data-improved-metadata-site-integration-and-updated-kegg-maps.html
+	news/2013/20130828-new-transcriptomics-data-at-patric-tutorial New “Transcriptomics Data at PATRIC” Tutorial: news/2013/20130828-new-transcriptomics-data-at-patric-tutorial.html
+	news/2013/20130920-patric-september-2013-release-highlights-multiple-analysis-tool-enhancements-new-tutorials-page-and-new-genomic-and-transcriptomic-data PATRIC September 2013 Release Highlights Multiple Analysis Tool Enhancements, New Tutorials Page, and New Genomic and Transcriptomic Data: news/2013/20130920-patric-september-2013-release-highlights-multiple-analysis-tool-enhancements-new-tutorials-page-and-new-genomic-and-transcriptomic-data.html
+	news/2013/20131010-new-protein-family-sorter-and-heatmap-video-tutorial New Protein Family Sorter and Heatmap Video Tutorial: news/2013/20131010-new-protein-family-sorter-and-heatmap-video-tutorial.html
+	news/2013/20131120-patric-the-bacterial-bioinformatics-database-and-analysis-resource PATRIC, the bacterial bioinformatics database and analysis resource: news/2013/20131120-patric-the-bacterial-bioinformatics-database-and-analysis-resource.html
+	news/2013/index                          Archives 2013                           : news/2013/index.html
+	news/2014/20140103-patric-december-2013-data-and-metadata-release PATRIC December 2013 Data and Metadata Release: news/2014/20140103-patric-december-2013-data-and-metadata-release.html
+	news/2014/20140124-local-news-story-about-patric-entitled-virginia-tech-disease-resource-goes-global Local News Story About PATRIC Entitled Virginia Tech Disease Resource Goes Global: news/2014/20140124-local-news-story-about-patric-entitled-virginia-tech-disease-resource-goes-global.html
+	news/2014/20140227-patric-now-has-over-15000-consistently-annotated-genomes PATRIC Now Has Over 15,000 Consistently Annotated Genomes!: news/2014/20140227-patric-now-has-over-15000-consistently-annotated-genomes.html
+	news/2014/20140305-comparative-phylogenomics-and-evolution-of-the-brucellae-reveal-a-path-to-virulence Comparative phylogenomics and evolution of the Brucellae reveal a path to virulence.: news/2014/20140305-comparative-phylogenomics-and-evolution-of-the-brucellae-reveal-a-path-to-virulence.html
+	news/2014/20140307-body-weight-selection-affects-quantitative-genetic-correlated-responses-in-gut-microbiota Body Weight Selection Affects Quantitative Genetic Correlated Responses in Gut Microbiota: news/2014/20140307-body-weight-selection-affects-quantitative-genetic-correlated-responses-in-gut-microbiota.html
+	news/2014/20140308-enabling-comparative-modeling-of-closely-related-genomes-example-genus-brucella Enabling comparative modeling of closely related genomes: example genus Brucella: news/2014/20140308-enabling-comparative-modeling-of-closely-related-genomes-example-genus-brucella.html
+	news/2014/20140402-patric-april-2014-release-new-data-summary-and-special-collections-pages PATRIC April 2014 Release: New Data Summary and Special Collections Pages: news/2014/20140402-patric-april-2014-release-new-data-summary-and-special-collections-pages.html
+	news/2014/20140523-dr-bruno-sobral-gives-presentation-at-the-universidade-federal-de-minas-gerais-brazil Dr. Bruno Sobral Gives Presentation at the Universidade Federal de Minas Gerais, Brazil: news/2014/20140523-dr-bruno-sobral-gives-presentation-at-the-universidade-federal-de-minas-gerais-brazil.html
+	news/2014/20140523-patric-may-2014-release-new-easily-accessible-and-manually-curated-specialty-genes-data PATRIC May 2014 Release: New Easily Accessible and Manually Curated Specialty Genes Data: news/2014/20140523-patric-may-2014-release-new-easily-accessible-and-manually-curated-specialty-genes-data.html
+	news/2014/20140620-standardized-metadata-for-human-pathogenvector-genomic-sequences Standardized metadata for human pathogen/vector genomic sequences: news/2014/20140620-standardized-metadata-for-human-pathogenvector-genomic-sequences.html
+	news/2014/20140711-patric-july-2014-release-features-new-circular-genome-viewer-group-explorer-integration-of-protein-protein-interaction-data-and-new-genomic-and-transcriptomic-data PATRIC July 2014 Release Features New Circular Genome Viewer, Group Explorer, Integration of Protein-Protein Interaction Data, and New Genomic and Transcriptomic Data: news/2014/20140711-patric-july-2014-release-features-new-circular-genome-viewer-group-explorer-integration-of-protein-protein-interaction-data-and-new-genomic-and-transcriptomic-data.html
+	news/2014/20140801-dr-rebecca-wattam-presents-microbiology-in-the-post-genome-era-as-part-of-a-research-experience-for-undergrads Dr. Rebecca Wattam Presents “Microbiology in the Post-Genome Era” as part of a Research Experience for Undergrads: news/2014/20140801-dr-rebecca-wattam-presents-microbiology-in-the-post-genome-era-as-part-of-a-research-experience-for-undergrads.html
+	news/2014/20140803-dr-bruno-sobral-to-give-presentation-at-the-ilsi-iafp-2014-conferencein-indianapolis-indiana-on-august-4-2014 Dr. Bruno Sobral Gives Presentation at the ILSI IAFP 2014 Conference in Indianapolis, Indiana on August 4, 2014.: news/2014/20140803-dr-bruno-sobral-to-give-presentation-at-the-ilsi-iafp-2014-conferencein-indianapolis-indiana-on-august-4-2014.html
+	news/2014/20140911-comparative-genomic-analysis-at-patric-a-bioinformatic-resource-center-book-chapter-in-host-bacterial-infections-methods-in-molecular-microbiology Comparative Genomic Analysis at PATRIC, A Bioinformatic Resource Center. Book chapter in Host Bacterial Infections, Methods in Molecular Microbiology.: news/2014/20140911-comparative-genomic-analysis-at-patric-a-bioinformatic-resource-center-book-chapter-in-host-bacterial-infections-methods-in-molecular-microbiology.html
+	news/2014/20141004-dr-bruno-sobral-gives-presentation-at-institut-pasteur-on-october-1-2014 Dr. Bruno Sobral Gives Presentation at Institut Pasteur on October 1, 2014: news/2014/20141004-dr-bruno-sobral-gives-presentation-at-institut-pasteur-on-october-1-2014.html
+	news/2014/20141031-patric-october-2014-release-features-new-special-data-sets-and-updated-project-information PATRIC October 2014 Release Features New Special Data Sets and Updated Project Information: news/2014/20141031-patric-october-2014-release-features-new-special-data-sets-and-updated-project-information.html
+	news/2014/20141222-patric-december-2014-release-features-additional-support-and-data-for-antimicrobial-resistance-and-over-5000-new-genomes-including-archaea PATRIC December 2014 Release Features Additional Support and Data for Antimicrobial Resistance and over 5,000 New Genomes, Including Archaea: news/2014/20141222-patric-december-2014-release-features-additional-support-and-data-for-antimicrobial-resistance-and-over-5000-new-genomes-including-archaea.html
+	news/2014/index                          Archives 2014                           : news/2014/index.html
+	news/2015/20150204-maulik-shukla-presents-patric-at-the-university-of-pune-india-december-24-2014 Maulik Shukla Presents PATRIC at the University of Pune, India December 24, 2014: news/2015/20150204-maulik-shukla-presents-patric-at-the-university-of-pune-india-december-24-2014.html
+	news/2015/20150327-patric-march-2015-release-features-genome-assembly-and-annotation-services-and-over-6000-new-genomes PATRIC March 2015 Release Features Genome Assembly and Annotation Services and over 6,000 New Genomes: news/2015/20150327-patric-march-2015-release-features-genome-assembly-and-annotation-services-and-over-6000-new-genomes.html
+	news/2015/20150331-4433                  PATRIC/RAST Tutorial Workshop, June 15-17, 2015: news/2015/20150331-4433.html
+	news/2015/20150427-patric-workshop-at-arlington-research-center-may-2 PATRIC Workshop at Arlington Research Center, May 2: news/2015/20150427-patric-workshop-at-arlington-research-center-may-2.html
+	news/2015/20150616-patric-june-2015-release-features-integrated-comparative-analysis-capabilities-with-user-supplied-genomes-sequence-based-comparison-service-rna-seq-analysis-service-and-metabolic-model-reconstructi PATRIC June 2015 Release Features Integrated Comparative Analysis Capabilities with User-Supplied Genomes and New Services for Protein-Based Genome Comparison, RNA-Seq Analysis, and Metabolic Modeling: news/2015/20150616-patric-june-2015-release-features-integrated-comparative-analysis-capabilities-with-user-supplied-genomes-sequence-based-comparison-service-rna-seq-analysis-service-and-metabolic-model-reconstructi.html
+	news/2015/20150710-patric-workshop-agenda-university-of-florida PATRIC Workshop Agenda – University of Florida: news/2015/20150710-patric-workshop-agenda-university-of-florida.html
+	news/2015/20150714-patric-workshop-san-diego-state-university PATRIC Workshop – San Diego State University: news/2015/20150714-patric-workshop-san-diego-state-university.html
+	news/2015/20151001-patric-september-2015-release-features-updated-protein-functions PATRIC September 2015 Data and Website Release: news/2015/20151001-patric-september-2015-release-features-updated-protein-functions.html
+	news/2015/20151207-patric-workshop-chicago PATRIC Workshop – Chicago               : news/2015/20151207-patric-workshop-chicago.html
+	news/2015/20151222-patric-december-2015-release-features-over-20000-new-genomes-and-pacbio-assembly-support PATRIC December 2015 Release Features over 20,000 New Genomes and PacBio Assembly Support: news/2015/20151222-patric-december-2015-release-features-over-20000-new-genomes-and-pacbio-assembly-support.html
+	news/2015/index                          Archives 2015                           : news/2015/index.html
+	news/2016/20160121-flute-experiment-2    FLUTE Experiment 2                      : news/2016/20160121-flute-experiment-2.html
+	news/2016/20160202-patric-january-2016-release-features-3000-new-genomes PATRIC January 2016 Release Features Over 2400 New Genomes: news/2016/20160202-patric-january-2016-release-features-3000-new-genomes.html
+	news/2016/20160318-gunk-experiment-1     GUNK Experiment 1                       : news/2016/20160318-gunk-experiment-1.html
+	news/2016/20160331-omics4tb-chip-seq-experiments Omics4TB ChIP-Seq Experiments           : news/2016/20160331-omics4tb-chip-seq-experiments.html
+	news/2016/20160331-omics4tb-tfoe-expression-experiments Omics4TB TFOE Expression Experiments    : news/2016/20160331-omics4tb-tfoe-expression-experiments.html
+	news/2016/20160331-patric-antimicrobial-resistance-amr-gene-curation PATRIC Antimicrobial Resistance (AMR) Gene Curation: news/2016/20160331-patric-antimicrobial-resistance-amr-gene-curation.html
+	news/2016/20160405-patric-march-2016-release-features-a-new-variation-analysis-service-annotation-and-proteome-comparison-service-enhancements-curated-amr-related-genes-new-data-from-functional-genomics-and-systems-b PATRIC March 2016 Release Features a New Variation Analysis Service, Service Enhancements, New AMR and other Data, and over 9000 New Genomes: news/2016/20160405-patric-march-2016-release-features-a-new-variation-analysis-service-annotation-and-proteome-comparison-service-enhancements-curated-amr-related-genes-new-data-from-functional-genomics-and-systems-b.html
+	news/2016/20160428-patric-rast-tutorial-workshop-agenda PATRIC / RAST Tutorial Workshop Agenda  : news/2016/20160428-patric-rast-tutorial-workshop-agenda.html
+	news/2016/20160428-patricrast-tutorial-workshop-july-26-28-2016 PATRIC/RAST Tutorial Workshop, July 26-28, 2016: news/2016/20160428-patricrast-tutorial-workshop-july-26-28-2016.html
+	news/2016/20160527-first-u-s-case-of-e-coli-resistant-to-colistin First U.S. Case of E. coli Resistant to Colistin: news/2016/20160527-first-u-s-case-of-e-coli-resistant-to-colistin.html
+	news/2016/20160601-patric-may-2016-release-features-over-700-new-genomes-and-amr-panel-data-for-approximately-1800-genomes PATRIC May 2016 Release Features Over 700 New Genomes and AMR Panel Data for Approximately 1800 Genomes: news/2016/20160601-patric-may-2016-release-features-over-700-new-genomes-and-amr-panel-data-for-approximately-1800-genomes.html
+	news/2016/20160731-patric-july-2016-release-features-over-7600-new-genomes-and-amr-panel-data-for-approximately-5400-genomes PATRIC July 2016 Release Features Over 7600 New Genomes and AMR Panel Data for Approximately 5400 Genomes. PATRIC Also Releases Alpha Version of New Website Design.: news/2016/20160731-patric-july-2016-release-features-over-7600-new-genomes-and-amr-panel-data-for-approximately-5400-genomes.html
+	news/2016/20160914-patricrast-workshop-november-9-11-2016 PATRIC/RAST Workshop, November 9-11, 2016: news/2016/20160914-patricrast-workshop-november-9-11-2016.html
+	news/2016/20160930-patric-september-release-features-over-4500-new-genomes-literature-feferences-and-assembly-service-enhancements PATRIC September Release features over 4500 New Genomes, Literature Feferences, and Assembly Service Enhancements: news/2016/20160930-patric-september-release-features-over-4500-new-genomes-literature-feferences-and-assembly-service-enhancements.html
+	news/2016/20161011-update-patricrast-tutorial-workshop-nov-9-11-2016 PATRIC/RAST Tutorial Workshop December 12-14, 2016: news/2016/20161011-update-patricrast-tutorial-workshop-nov-9-11-2016.html
+	news/2016/20161020-patric-workshop-at-glbio-2017 PATRIC Workshop at GLBIO 2017 in Chicago, May 17, 2017: news/2016/20161020-patric-workshop-at-glbio-2017.html
+	news/2016/20161202-patric-november-release-features-over-9000-new-genomes-host-genomes-and-annotations-essential-gene-predictions-command-line-interface-rna-seq-service-enhancements-and-other-updates PATRIC November Release features over 9000 New Genomes, Host Genomes and Annotations, Essential Gene Predictions, Command Line Interface, RNA-Seq Service Enhancements and Other Updates.: news/2016/20161202-patric-november-release-features-over-9000-new-genomes-host-genomes-and-annotations-essential-gene-predictions-command-line-interface-rna-seq-service-enhancements-and-other-updates.html
+	news/2016/index                          Archives 2016                           : news/2016/index.html
+	news/2017/20170131-patric-january-2017-release-features-5938-new-genomes-and-new-amr-phenotype-data PATRIC January 2017 Release features 5938 new genomes and new AMR phenotype data: news/2017/20170131-patric-january-2017-release-features-5938-new-genomes-and-new-amr-phenotype-data.html
+	news/2017/20170308-patric-workshop-at-glbio-2017-in-chicago-may-17-2017 PATRIC Workshop at GLBIO 2017 in Chicago, May 17, 2017: news/2017/20170308-patric-workshop-at-glbio-2017-in-chicago-may-17-2017.html
+	news/2017/20170325-patric-march-2017-release-features-over-3600-new-genomes-and-new-functionality-and-data-including-an-antibiotics-database-amr-phenotype-information-a-close-genome-finder-service-hpippi-data-and-v PATRIC March 2017 Release Features over 3600 New Genomes, and New Functionality and Data Including an Antibiotics Database, AMR Phenotype Information, a Close Genome Finder Service, HPI/PPI Data and Visualization, a Compare Region Viewer, an ID-Mapping Tool, and Enhanced Global Search.: news/2017/20170325-patric-march-2017-release-features-over-3600-new-genomes-and-new-functionality-and-data-including-an-antibiotics-database-amr-phenotype-information-a-close-genome-finder-service-hpippi-data-and-v.html
+	news/2017/20170523-patric-workshop-at-iscb-2017-at-virginia-tech-august-6-2017 PATRIC Workshop at ICSB 2017 at Virginia Tech, August 6, 2017: news/2017/20170523-patric-workshop-at-iscb-2017-at-virginia-tech-august-6-2017.html
+	news/2017/20170531-patric-may-2017-release-brings-total-genomes-to-over-100000-and-includes-21-host-response-data-sets PATRIC May 2017 Release brings total genomes to over 100,000 and includes 21 host response data sets: news/2017/20170531-patric-may-2017-release-brings-total-genomes-to-over-100000-and-includes-21-host-response-data-sets.html
+	news/2017/20170609-patric-rast-workshop-at-argonne-national-laboratory PATRIC/RAST Workshop at Argonne National Laboratory, August 14-16, 2017: news/2017/20170609-patric-rast-workshop-at-argonne-national-laboratory.html
+	news/2017/20170731-patric-july-2017-release PATRIC July 2017 Data and Website Release: news/2017/20170731-patric-july-2017-release.html
+	news/2017/20170908-patric-workshop-at-argonne-national-lab PATRIC/RAST Workshop at Argonne National Laboratory, November 14-16, 2017: news/2017/20170908-patric-workshop-at-argonne-national-lab.html
+	news/2017/20170930-patric-september-2017-data-release PATRIC September 2017 Data Release      : news/2017/20170930-patric-september-2017-data-release.html
+	news/2017/20171122-patric-webinar        PATRIC Webinar – Phylogenetic Tree Builder, November 30, 2017, 3:00pm EST: news/2017/20171122-patric-webinar.html
+	news/2017/20171130-patric-november-2017-release PATRIC November 2017 Data and Website Release: news/2017/20171130-patric-november-2017-release.html
+	news/2017/20171220-phylogenetic-tree-video-tutorial PATRIC Video Tutorial – Phylogenetic Tree Builder: news/2017/20171220-phylogenetic-tree-video-tutorial.html
+	news/2017/index                          Archives 2017                           : news/2017/index.html
+	news/2018/20180122-patric-workshop-at-argonne-national-lab PATRIC/RAST Workshop at Argonne National Laboratory, May 7-9, 2018: news/2018/20180122-patric-workshop-at-argonne-national-lab.html
+	news/2018/20180125-proteome-comparison-webinar PATRIC Webinar – Proteome Comparison Service, January 30, 2018, 4:00pm EST: news/2018/20180125-proteome-comparison-webinar.html
+	news/2018/20180131-patric-january-2018-release PATRIC January 2018 Data and Website Release: news/2018/20180131-patric-january-2018-release.html
+	news/2018/20180206-proteome-comparison-video-tutorial PATRIC Video Tutorial – Proteome Comparison: news/2018/20180206-proteome-comparison-video-tutorial.html
+	news/2018/20180213-metagenomic-binning-webinar PATRIC Webinar – Metagenomic Binning Service, Wednesday February 28, 2018, 3:00pm EST (20:00 GMT): news/2018/20180213-metagenomic-binning-webinar.html
+	news/2018/20180331-patric-march-2018-release PATRIC March 2018 Data and Website Release: news/2018/20180331-patric-march-2018-release.html
+	news/2018/20180404-patric-workshop-at-asm-2018 PATRIC/RAST Workshop at ASM Microbe, June 7, 2018, Atlanta, GA: news/2018/20180404-patric-workshop-at-asm-2018.html
+	news/2018/20180531-patric-may-2018-release PATRIC May 2018 Data and Website Release: news/2018/20180531-patric-may-2018-release.html
+	news/2018/20180628-assembly-cli-webinar  PATRIC Webinar – Genome Assembly via Command Line Interface, July 19, 2018, 3:00pm EDT: news/2018/20180628-assembly-cli-webinar.html
+	news/2018/20180803-patric-july-2018-release PATRIC July 2018 Data and Website Release: news/2018/20180803-patric-july-2018-release.html
+	news/2018/20180808-comprehensive-genome-analysis-webinar PATRIC Webinar – Comprehensive Genome Analysis Service, August 8, 2018, 2:00pm ET: news/2018/20180808-comprehensive-genome-analysis-webinar.html
+	news/2018/20180815-patric-workshop-at-argonne-national-lab PATRIC/RAST Workshop at Argonne National Laboratory, October 23-25, 2018: news/2018/20180815-patric-workshop-at-argonne-national-lab.html
+	news/2018/20181023-patric-september-2018-release PATRIC September 2018 Data Release      : news/2018/20181023-patric-september-2018-release.html
+	news/2018/20181120-genome-annotation-webinar PATRIC Webinar – Genome Annotation Service, November 20, 2018, 11:00am EST: news/2018/20181120-genome-annotation-webinar.html
+	news/2018/20181130-patric-office-hours   PATRIC Office Hours, November 30, 2018, 11:00am EST: news/2018/20181130-patric-office-hours.html
+	news/2018/20181204-instructional-videos  PATRIC Instructional Videos             : news/2018/20181204-instructional-videos.html
+	news/2018/20181207-patric-november-2018-release PATRIC November 2018 Data and Website Release: news/2018/20181207-patric-november-2018-release.html
+	news/2018/index                          Archives 2018                           : news/2018/index.html
+	news/2019/20190201-patric-january-2019-release PATRIC January 2019 Data Release        : news/2019/20190201-patric-january-2019-release.html
+	news/2019/20190206-patric-workshop-at-argonne-national-lab PATRIC/RAST Workshop at Argonne National Laboratory, April 16-18, 2019: news/2019/20190206-patric-workshop-at-argonne-national-lab.html
+	news/2019/20190405-patric-march-2019-release PATRIC March 2019 Data and Website Release: news/2019/20190405-patric-march-2019-release.html
+	news/2019/20190530-patric-may-2019-release PATRIC May 2019 Website Release         : news/2019/20190530-patric-may-2019-release.html
+	news/2019/20190731-patric-july-2019-release PATRIC July 2019 Data and Website Release: news/2019/20190731-patric-july-2019-release.html
+	news/2019/20191213-patric-sep-dec-2019-release PATRIC Data and Website Releases, September – December 2019: news/2019/20191213-patric-sep-dec-2019-release.html
+	news/2019/index                          Archives 2019                           : news/2019/index.html
+	news/2020/2020/20200331-patric-jan-mar-2020-release PATRIC Data and Website Releases, January – March 2020: news/2020/2020/20200331-patric-jan-mar-2020-release.html
+	news/2020/20200130-bv-brc-workshop-at-argonne-national-lab CANCELED: PATRIC/RAST Bacterial and IRD/ViPR Viral Workshops at Argonne National Laboratory: news/2020/20200130-bv-brc-workshop-at-argonne-national-lab.html
+	news/2020/20200331-patric-jan-mar-2020-release PATRIC Data and Website Releases, January – March 2020: news/2020/20200331-patric-jan-mar-2020-release.html
+	news/2020/20200701-new-video-tutorials   New PATRIC Video Tutorial Series        : news/2020/20200701-new-video-tutorials.html
+	news/2020/20201022-mooc-release          New PATRIC Online Bacterial Bioinformatics Course: news/2020/20201022-mooc-release.html
+	news/2020/index                          Archives 2020                           : news/2020/index.html
+	news/2021/20210201-new-webinar-series    Bioinformatics Resource Center Webinar Series: news/2021/20210201-new-webinar-series.html
+	news/2021/20210513-brc-impact-survey     Bioinformatics Resource Center Impact Survey: news/2021/20210513-brc-impact-survey.html
+	news/2021/20211222-bv-brc-beta-release   BV-BRC Beta Release                     : news/2021/20211222-bv-brc-beta-release.html
+	news/2021/index                          Archives 2021                           : news/2021/index.html
+	news/2022/20220215-bv-brc-public-beta    BV-BRC Public Beta Release              : news/2022/20220215-bv-brc-public-beta.html
+	news/2022/20220223-bv-brc-intro-webinars Introduction to BV-BRC Webinar Series   : news/2022/20220223-bv-brc-intro-webinars.html
+	news/2022/20220228-tick-borne-pathogens  Ticks and Tick-Borne Pathogens Webinar Series: news/2022/20220228-tick-borne-pathogens.html
+	news/2022/20220422-bv-brc-workshop-asm-microbe BV-BRC (PATRIC) Workshop at ASM Microbe : news/2022/20220422-bv-brc-workshop-asm-microbe.html
+	news/2022/20220606-bv-brc-patric-workshop BV-BRC (PATRIC & IRD/ViPR) Workshop at Argonne National Laboratory, July 19-21, 2022: news/2022/20220606-bv-brc-patric-workshop.html
+	news/2022/20220713-bv-brc-workshop-uva   BV-BRC (PATRIC & IRD/ViPR) Workshop at the University of Virginia, August 30 - September 1, 2022: news/2022/20220713-bv-brc-workshop-uva.html
+	news/2022/20220816-bv-brc-patric-redirect PATRIC to BV-BRC Final Transition Schedule: news/2022/20220816-bv-brc-patric-redirect.html
+	news/2022/20220907-monkeypox-and-orthopoxvirus-symposium Monkeypox and Orthopoxvirus Mini-Symposium: news/2022/20220907-monkeypox-and-orthopoxvirus-symposium.html
+	news/2022/20221007-bv-brc-workshop-at-anl BV-BRC Workshop at Argonne National Laboratory, December 14-16, 2022: news/2022/20221007-bv-brc-workshop-at-anl.html
+	news/2022/20221122-rsv-and-influenza-webinars Upcoming BV-BRC Online Webinars: RSV and Influenza: Nov 29 and Dec 13, 2022: news/2022/20221122-rsv-and-influenza-webinars.html
+	news/2022/index                          Archives 2022                           : news/2022/index.html
+	news/2023/2023-01-02-bv-brc-workshop-uva BV-BRC Workshop at the University of Virginia, April 25-27, 2023: news/2023/2023-01-02-bv-brc-workshop-uva.html
+	news/2023/2023-03-02-bv-brc-workshop-anl BV-BRC Workshop at Argonne National Laboratory, June 26-30, 2023: news/2023/2023-03-02-bv-brc-workshop-anl.html
+	news/2023/2023-10-16-viral-data-webinar-series BV-BRC Viral Pathogen Data Webinar Series: news/2023/2023-10-16-viral-data-webinar-series.html
+	news/2023/bacterial-bioinformatics-mooc-course BV-BRC Bacterial Bioinformatics Course on Coursera: news/2023/bacterial-bioinformatics-mooc-course.html
+	news/2023/index                          Archives 2023                           : news/2023/index.html
+	news/index                               News and Announcements                  : news/index.html
+	overview                                 Overview                                : overview.html
+	privacy_policy                           Privacy Policy                          : privacy_policy.html
+	publications                             Publications by PATRIC                  : publications.html
+	quick_references/action_bar              Selection Action Bar                    : quick_references/action_bar.html
+	quick_references/data_submission_to_patric Data Submission in PATRIC               : quick_references/data_submission_to_patric.html
+	quick_references/ftp                     FTP Site                                : quick_references/ftp.html
+	quick_references/global_search           Global Search                           : quick_references/global_search.html
+	quick_references/images/sequence_submission/nothing <no title>                              : quick_references/images/sequence_submission/nothing.html
+	quick_references/index                   Quick Reference Guides                  : quick_references/index.html
+	quick_references/organisms_gene/compare_region_viewer Compare Region Viewer                   : quick_references/organisms_gene/compare_region_viewer.html
+	quick_references/organisms_gene/correlated_genes Correlated Genes                        : quick_references/organisms_gene/correlated_genes.html
+	quick_references/organisms_gene/genome_browser Genome Browser, Feature View            : quick_references/organisms_gene/genome_browser.html
+	quick_references/organisms_gene/interactions Interactions, Feature-Level             : quick_references/organisms_gene/interactions.html
+	quick_references/organisms_gene/overview Feature (Gene) Overview                 : quick_references/organisms_gene/overview.html
+	quick_references/organisms_gene/transcriptomics Transcriptomics, Gene-Level             : quick_references/organisms_gene/transcriptomics.html
+	quick_references/organisms_genome/circular_genome_viewer Circular Genome Viewer                  : quick_references/organisms_genome/circular_genome_viewer.html
+	quick_references/organisms_genome/genome_browser Genome Browser                          : quick_references/organisms_genome/genome_browser.html
+	quick_references/organisms_genome/overview Genome Overview                         : quick_references/organisms_genome/overview.html
+	quick_references/organisms_menu          Organisms and Data Types                : quick_references/organisms_menu.html
+	quick_references/organisms_taxon/amr_phenotypes AMR Phenotypes                          : quick_references/organisms_taxon/amr_phenotypes.html
+	quick_references/organisms_taxon/antimicrobial_resistance Antimicrobial Resistance Metadata       : quick_references/organisms_taxon/antimicrobial_resistance.html
+	quick_references/organisms_taxon/domains_and_motifs Domains and Motifs                      : quick_references/organisms_taxon/domains_and_motifs.html
+	quick_references/organisms_taxon/epitopes Epitopes                                : quick_references/organisms_taxon/epitopes.html
+	quick_references/organisms_taxon/experiments Experiments                             : quick_references/organisms_taxon/experiments.html
+	quick_references/organisms_taxon/experiments_comparisons_tables Experiments and Comparisons Tables      : quick_references/organisms_taxon/experiments_comparisons_tables.html
+	quick_references/organisms_taxon/features Features                                : quick_references/organisms_taxon/features.html
+	quick_references/organisms_taxon/genome_annotations Genome Annotations                      : quick_references/organisms_taxon/genome_annotations.html
+	quick_references/organisms_taxon/genome_metadata Genome Metadata                         : quick_references/organisms_taxon/genome_metadata.html
+	quick_references/organisms_taxon/genome_table Genomes Table                           : quick_references/organisms_taxon/genome_table.html
+	quick_references/organisms_taxon/genomes Genomes                                 : quick_references/organisms_taxon/genomes.html
+	quick_references/organisms_taxon/interactions Interactions, Taxon/Genome-Level        : quick_references/organisms_taxon/interactions.html
+	quick_references/organisms_taxon/overview Taxonomic Overview                      : quick_references/organisms_taxon/overview.html
+	quick_references/organisms_taxon/pathways Pathways                                : quick_references/organisms_taxon/pathways.html
+	quick_references/organisms_taxon/phylogeny Phylogeny                               : quick_references/organisms_taxon/phylogeny.html
+	quick_references/organisms_taxon/protein_families Protein Families                        : quick_references/organisms_taxon/protein_families.html
+	quick_references/organisms_taxon/protein_structures Protein Structures                      : quick_references/organisms_taxon/protein_structures.html
+	quick_references/organisms_taxon/proteins Proteins                                : quick_references/organisms_taxon/proteins.html
+	quick_references/organisms_taxon/sequences Sequences                               : quick_references/organisms_taxon/sequences.html
+	quick_references/organisms_taxon/serology_data Serology Data                           : quick_references/organisms_taxon/serology_data.html
+	quick_references/organisms_taxon/specialty_genes Speciality Genes                        : quick_references/organisms_taxon/specialty_genes.html
+	quick_references/organisms_taxon/strains Strains                                 : quick_references/organisms_taxon/strains.html
+	quick_references/organisms_taxon/subsystems Subsystems Protocol                     : quick_references/organisms_taxon/subsystems.html
+	quick_references/organisms_taxon/subsystems_tab Subsystems                              : quick_references/organisms_taxon/subsystems_tab.html
+	quick_references/organisms_taxon/surveillance_data Surveillance Data                       : quick_references/organisms_taxon/surveillance_data.html
+	quick_references/organisms_taxon/taxonomy Taxonomy                                : quick_references/organisms_taxon/taxonomy.html
+	quick_references/organisms_taxon/transcriptomics_gene_heatmap Gene List Heatmap                       : quick_references/organisms_taxon/transcriptomics_gene_heatmap.html
+	quick_references/organisms_taxon/transcriptomics_gene_list Gene List Table                         : quick_references/organisms_taxon/transcriptomics_gene_list.html
+	quick_references/other/msa_viewer        Mulitiple Sequence Alignment Viewer     : quick_references/other/msa_viewer.html
+	quick_references/other/pathway_comparison_tool Pathway Comparison Tool                 : quick_references/other/pathway_comparison_tool.html
+	quick_references/other/protein_family_sorter Protein Family Sorter                   : quick_references/other/protein_family_sorter.html
+	quick_references/other/subsystems_data   Subsystems Data and Viewer              : quick_references/other/subsystems_data.html
+	quick_references/registration            Registration and Sign In                : quick_references/registration.html
+	quick_references/searches_menu           Advanced Searches                       : quick_references/searches_menu.html
+	quick_references/services/archaeopteryx  Archaeopteryx.js Phylogenetic Tree Viewer: quick_references/services/archaeopteryx.html
+	quick_references/services/blast          BLAST Service                           : quick_references/services/blast.html
+	quick_references/services/comparative_systems Comparative Systems Service             : quick_references/services/comparative_systems.html
+	quick_references/services/comprehensive_genome_analysis_service Comprehensive Genome Analysis Service   : quick_references/services/comprehensive_genome_analysis_service.html
+	quick_references/services/expression_data_import_service Expression Import Service               : quick_references/services/expression_data_import_service.html
+	quick_references/services/fastq_utilities_service Fastq Utilities Service                 : quick_references/services/fastq_utilities_service.html
+	quick_references/services/genetree       Gene Tree Service                       : quick_references/services/genetree.html
+	quick_references/services/genome_alignment_service Genome Alignment Service                : quick_references/services/genome_alignment_service.html
+	quick_references/services/genome_annotation_service Genome Annotation Service               : quick_references/services/genome_annotation_service.html
+	quick_references/services/genome_assembly_service Genome Assembly Service                 : quick_references/services/genome_assembly_service.html
+	quick_references/services/ha_numbering_service HA Subtype Numbering Conversion Service : quick_references/services/ha_numbering_service.html
+	quick_references/services/id_mapper      ID Mapper Tool                          : quick_references/services/id_mapper.html
+	quick_references/services/metacats       Metadata-driven Comparative Analysis Tool (meta-CATS): quick_references/services/metacats.html
+	quick_references/services/metagenomic_binning_service Metagenomic Binning Service             : quick_references/services/metagenomic_binning_service.html
+	quick_references/services/metagenomic_read_mapping_service Metagenomic Read Mapping Service        : quick_references/services/metagenomic_read_mapping_service.html
+	quick_references/services/model_reconstruction_service Model Reconstruction Service            : quick_references/services/model_reconstruction_service.html
+	quick_references/services/msa_snp_variation_service MSA and SNP/Variation Analysis Service  : quick_references/services/msa_snp_variation_service.html
+	quick_references/services/phylogenetic_tree_building_service Phylogenetic Tree Service               : quick_references/services/phylogenetic_tree_building_service.html
+	quick_references/services/primer_design_service Primer Design Service                   : quick_references/services/primer_design_service.html
+	quick_references/services/protein_family_service Protein Family Sorter Service           : quick_references/services/protein_family_service.html
+	quick_references/services/proteome_comparison_service Proteome Comparison Service             : quick_references/services/proteome_comparison_service.html
+	quick_references/services/rna_seq_analysis_service RNA-Seq Analysis Service                : quick_references/services/rna_seq_analysis_service.html
+	quick_references/services/sars_cov_2_assembly_annotation_service SARS-CoV-2 Genome Assembly and Annotation Service: quick_references/services/sars_cov_2_assembly_annotation_service.html
+	quick_references/services/sequence_submission_service Sequence Submission Service             : quick_references/services/sequence_submission_service.html
+	quick_references/services/similar_genome_finder_service Similar Genome Finder Service           : quick_references/services/similar_genome_finder_service.html
+	quick_references/services/subspecies_classification_service Subspecies Classification Service       : quick_references/services/subspecies_classification_service.html
+	quick_references/services/taxonomic_classification_service Taxonomic Classification Service        : quick_references/services/taxonomic_classification_service.html
+	quick_references/services/tn_seq_analysis_service Tn-Seq Analysis Service                 : quick_references/services/tn_seq_analysis_service.html
+	quick_references/services/variation_analysis_service Variation Analysis Service              : quick_references/services/variation_analysis_service.html
+	quick_references/services/x-old_comparative_pathway_service Comparative Pathway Service             : quick_references/services/x-old_comparative_pathway_service.html
+	quick_references/services_menu           Tools & Services                        : quick_references/services_menu.html
+	quick_references/system_requirements     System Requirements                     : quick_references/system_requirements.html
+	quick_references/tables                  Tables and Filters                      : quick_references/tables.html
+	quick_references/views_tables_action-bar Website Views, Tables, Filters, Action Bar: quick_references/views_tables_action-bar.html
+	quick_references/website_views           Website Views                           : quick_references/website_views.html
+	quick_references/workspace_groups_upload Workspaces and Groups                   : quick_references/workspace_groups_upload.html
+	quick_references/workspaces/data_upload  Uploading Data                          : quick_references/workspaces/data_upload.html
+	quick_references/workspaces/groups       Data Groups                             : quick_references/workspaces/groups.html
+	quick_references/workspaces/jobs         Analysis Service Jobs                   : quick_references/workspaces/jobs.html
+	quick_references/workspaces/private_genomes Private Genomes                         : quick_references/workspaces/private_genomes.html
+	quick_references/workspaces/workspace    Private Workspace                       : quick_references/workspaces/workspace.html
+	quick_references/x-old_data_menu/data_types/antimicrobial_resistance Antimicrobial Resistance (AMR)          : quick_references/x-old_data_menu/data_types/antimicrobial_resistance.html
+	quick_references/x-old_data_menu/data_types/genomes Genomes                                 : quick_references/x-old_data_menu/data_types/genomes.html
+	quick_references/x-old_data_menu/data_types/genomic_features Genomic Features                        : quick_references/x-old_data_menu/data_types/genomic_features.html
+	quick_references/x-old_data_menu/data_types/index Data Types                              : quick_references/x-old_data_menu/data_types/index.html
+	quick_references/x-old_data_menu/data_types/pathways Pathways                                : quick_references/x-old_data_menu/data_types/pathways.html
+	quick_references/x-old_data_menu/data_types/protein_families Protein Families                        : quick_references/x-old_data_menu/data_types/protein_families.html
+	quick_references/x-old_data_menu/data_types/specialty_genes Specialty Genes                         : quick_references/x-old_data_menu/data_types/specialty_genes.html
+	quick_references/x-old_data_menu/data_types/transcriptomics Transcriptomics                         : quick_references/x-old_data_menu/data_types/transcriptomics.html
+	quick_references/x-old_data_menu/index   Data                                    : quick_references/x-old_data_menu/index.html
+	quick_references/x-old_data_menu/specialty_data_collections/index Specialty Data Collections              : quick_references/x-old_data_menu/specialty_data_collections/index.html
+	quick_references/x-old_data_menu/specialty_data_collections/niaid_clinical_proteomics NIAID Clinical Proteomics               : quick_references/x-old_data_menu/specialty_data_collections/niaid_clinical_proteomics.html
+	quick_references/x-old_data_menu/specialty_data_collections/niaid_functional_genomics NIAID Functional Genomics               : quick_references/x-old_data_menu/specialty_data_collections/niaid_functional_genomics.html
+	quick_references/x-old_data_menu/specialty_data_collections/niaid_genome_sequencing NIAID Genome Sequencing                 : quick_references/x-old_data_menu/specialty_data_collections/niaid_genome_sequencing.html
+	quick_references/x-old_data_menu/specialty_data_collections/niaid_structural_genomics NIAID Structural Genomics               : quick_references/x-old_data_menu/specialty_data_collections/niaid_structural_genomics.html
+	quick_references/x-old_data_menu/specialty_data_collections/niaid_systems_biology NIAID Systems Biology                   : quick_references/x-old_data_menu/specialty_data_collections/niaid_systems_biology.html
+	quick_references/x-old_data_menu/specialty_data_collections/patric_collaborations PATRIC Collaborations                   : quick_references/x-old_data_menu/specialty_data_collections/patric_collaborations.html
+	quick_references/x-old_data_menu/specialty_data_collections/patric_dbps PATRIC DBPs                             : quick_references/x-old_data_menu/specialty_data_collections/patric_dbps.html
+	quick_start/common_tasks                 Viral Data Searches and Analyses (for IRD/ViPR Users): quick_start/common_tasks.html
+	quick_start/data_functionality_overview  Data and Functionality Overview (for PATRIC Users): quick_start/data_functionality_overview.html
+	quick_start/index                        Quick Start                             : quick_start/index.html
+	quick_start/ird-vipr_bv-brc_mapping      Terminology and Features (for IRD/ViPR Users): quick_start/ird-vipr_bv-brc_mapping.html
+	quick_start/quick_start                  Quick Start Videos                      : quick_start/quick_start.html
+	quickstart_video                         Quickstart Video                        : quickstart_video.html
+	related_sites                            Related Sites                           : related_sites.html
+	reports_and_analysis/index               Reports and Analysis                    : reports_and_analysis/index.html
+	reports_and_analysis/sars_cov_2_analysis_reports SARS-CoV-2 Analysis Reports             : reports_and_analysis/sars_cov_2_analysis_reports.html
+	reports_and_analysis/sars_cov_2_emerging_variants_reports SARS-CoV-2 Emerging Variants Reports    : reports_and_analysis/sars_cov_2_emerging_variants_reports.html
+	system_documentation                     System Documentation                    : system_documentation.html
+	system_documentation/accounts            Accounts                                : system_documentation/accounts.html
+	system_documentation/capabilities_and_functionality Capabilities And Functionality          : system_documentation/capabilities_and_functionality.html
+	system_documentation/data                Data                                    : system_documentation/data.html
+	system_documentation/data_dictionaries   Data Dictionaries                       : system_documentation/data_dictionaries.html
+	system_documentation/data_management_sharing Data Management and Sharing             : system_documentation/data_management_sharing.html
+	system_documentation/database            Database                                : system_documentation/database.html
+	system_documentation/documentation       Documentation                           : system_documentation/documentation.html
+	system_documentation/genome_assembly_service Genome Assembly Service                 : system_documentation/genome_assembly_service.html
+	system_documentation/id_mapper           ID Mapper                               : system_documentation/id_mapper.html
+	system_documentation/metagenomic_read_mapping_service Metagenomic Read Mapping Service        : system_documentation/metagenomic_read_mapping_service.html
+	system_documentation/software_tools_and_code Software Tools And Code                 : system_documentation/software_tools_and_code.html
+	system_documentation/system_architecture System Architecture                     : system_documentation/system_architecture.html
+	test_procedures/index                    Test Procedures                         : test_procedures/index.html
+	test_procedures/x-old_genome_assembly    Genome Assembly Service Test Procedure  : test_procedures/x-old_genome_assembly.html
+	test_procedures/x-old_template           [Component Name] Test Procedure         : test_procedures/x-old_template.html
+	tutorial/alignments/multiple_sequence_alignment Creating a Multiple-Sequence Alignment  : tutorial/alignments/multiple_sequence_alignment.html
+	tutorial/amr/amr                         Examining Antimicrobial Resistance (AMR): tutorial/amr/amr.html
+	tutorial/binning_overview                Reconstructing Genomes from Metagenomic Samples Using the RAST Binning Service (RBS): tutorial/binning_overview.html
+	tutorial/blast/blast                     BLAST Service                           : tutorial/blast/blast.html
+	tutorial/building_cli                    Building the Mac CLI Release            : tutorial/building_cli.html
+	tutorial/comparative_pathways/comparative_pathways Comparing Pathways Across Genomes Or Genome Groups: tutorial/comparative_pathways/comparative_pathways.html
+	tutorial/comparative_systems/comparative_systems Comparative Systems Service             : tutorial/comparative_systems/comparative_systems.html
+	tutorial/comprehensive_genome_analysis/comprehensive_genome_analysis Comprehensive Genome Analysis (CGA) Service: tutorial/comprehensive_genome_analysis/comprehensive_genome_analysis.html
+	tutorial/dev_at_argonne                  Developing PATRIC Code at Argonne       : tutorial/dev_at_argonne.html
+	tutorial/enabling_flash/enabling_flash   How to enable Adobe Flash Player        : tutorial/enabling_flash/enabling_flash.html
+	tutorial/examining_transcriptomics_data/examining_transcriptomics_data Examining Transcriptomics Data          : tutorial/examining_transcriptomics_data/examining_transcriptomics_data.html
+	tutorial/excel_formatting/excel_formatting Proteome Comparison: Formatting an Excel File To Scan Comparison Genomes: tutorial/excel_formatting/excel_formatting.html
+	tutorial/expression_import/expression_import Expression Import Service               : tutorial/expression_import/expression_import.html
+	tutorial/fastq_utilities/fastq_utilities Fastq Utilities Service                 : tutorial/fastq_utilities/fastq_utilities.html
+	tutorial/genetree/genetree               Gene Tree Service                       : tutorial/genetree/genetree.html
+	tutorial/genome_alignment/genome_alignment Genome Alignment Service                : tutorial/genome_alignment/genome_alignment.html
+	tutorial/genome_annotation/genome_annotation Genome Annotation Service               : tutorial/genome_annotation/genome_annotation.html
+	tutorial/genome_assembly/assembly        Genome Assembly Service                 : tutorial/genome_assembly/assembly.html
+	tutorial/genome_groups/creating_genome_groups Creating Genome Groups                  : tutorial/genome_groups/creating_genome_groups.html
+	tutorial/genome_quality_report/genome_quality_report Analyzing Genome Quality                : tutorial/genome_quality_report/genome_quality_report.html
+	tutorial/ha_numbering/ha_numbering       HA Subtype Numbering Conversion Service : tutorial/ha_numbering/ha_numbering.html
+	tutorial/ha_numbering/images/null        <no title>                              : tutorial/ha_numbering/images/null.html
+	tutorial/id_mapper/id_mapper             ID Mapper Tool                          : tutorial/id_mapper/id_mapper.html
+	tutorial/index                           Tutorials                               : tutorial/index.html
+	tutorial/metabolic_model_reconstruction/metabolic_model_reconstruction Metabolic Model Reconstruction          : tutorial/metabolic_model_reconstruction/metabolic_model_reconstruction.html
+	tutorial/metacats/metacats               Metadata-driven Comparative Analysis Tool (Meta-CATS): tutorial/metacats/metacats.html
+	tutorial/metagenomic_binning/metagenomic_binning Metagenomic Binning Service             : tutorial/metagenomic_binning/metagenomic_binning.html
+	tutorial/metagenomic_read_mapping/metagenomic_read_mapping Metagenomic Read Mapping                : tutorial/metagenomic_read_mapping/metagenomic_read_mapping.html
+	tutorial/msa_snp_variation/msa_snp_variation MSA and SNP/Variation Analysis Service  : tutorial/msa_snp_variation/msa_snp_variation.html
+	tutorial/phylogenetic_tree/phylogenetic_tree Phylogenetic Tree Service               : tutorial/phylogenetic_tree/phylogenetic_tree.html
+	tutorial/primer_design/primer_design     Primer Design Service                   : tutorial/primer_design/primer_design.html
+	tutorial/private_genome/private_genome   Exploring a Private Genome              : tutorial/private_genome/private_genome.html
+	tutorial/protein_family_sorter/protein_family_sorter Protein Family Sorter Tool              : tutorial/protein_family_sorter/protein_family_sorter.html
+	tutorial/proteome_comparison/proteome_comparison Proteome Comparison Service             : tutorial/proteome_comparison/proteome_comparison.html
+	tutorial/rna_seq/rna_seq                 RNA-Seq Analysis Service                : tutorial/rna_seq/rna_seq.html
+	tutorial/sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation SARS-CoV-2 Genome Assembly and Annotation Service: tutorial/sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.html
+	tutorial/searching_and_sorting/features_with_roles Finding the Roles in a Genome           : tutorial/searching_and_sorting/features_with_roles.html
+	tutorial/searching_and_sorting/genomes_by_taxonomy Locating All Genomes for a Taxonomic Group: tutorial/searching_and_sorting/genomes_by_taxonomy.html
+	tutorial/searching_and_sorting/protein_family_features Searching for Features by Protein Family: tutorial/searching_and_sorting/protein_family_features.html
+	tutorial/sequence_submission/images/stub <no title>                              : tutorial/sequence_submission/images/stub.html
+	tutorial/sequence_submission/sequence_submission Sequence Submission Service             : tutorial/sequence_submission/sequence_submission.html
+	tutorial/sharing-a-private-genome-in-patric/sharing-a-private-genome-in-patric Sharing a Private Genome                : tutorial/sharing-a-private-genome-in-patric/sharing-a-private-genome-in-patric.html
+	tutorial/sharing_data_in_the_workplace/sharing_data_in_the_workplace Sharing Data in the Workplace           : tutorial/sharing_data_in_the_workplace/sharing_data_in_the_workplace.html
+	tutorial/similar_genome_finder/similar_genome_finder Similar Genome Finder Service           : tutorial/similar_genome_finder/similar_genome_finder.html
+	tutorial/subspecies_classification/subspecies_classification Subspecies Classification Service       : tutorial/subspecies_classification/subspecies_classification.html
+	tutorial/taxonomic_classification/taxonomic_classification Taxonomic Classification Service        : tutorial/taxonomic_classification/taxonomic_classification.html
+	tutorial/tn-seq/tn-seq                   Tn-Seq Analysis Service                 : tutorial/tn-seq/tn-seq.html
+	tutorial/variation_analysis/variation_analysis Variation - SNP Analysis Service        : tutorial/variation_analysis/variation_analysis.html
+	tutorial/x-old_codon_tree_building/codon_tree_building Building Phylogenetic Trees - Codon Trees: tutorial/x-old_codon_tree_building/codon_tree_building.html
+	tutorial/x-old_comprehensive-genome-analysis/cga-results Comparing Your New Genome to Existing Neighbors: tutorial/x-old_comprehensive-genome-analysis/cga-results.html
+	tutorial/x-old_comprehensive-genome-analysis/comprehensive-genome-analysis Comprehensive Genome Analysis Service   : tutorial/x-old_comprehensive-genome-analysis/comprehensive-genome-analysis.html
+	tutorial/x-old_comprehensive-genome-analysis/comprehensive-genome-analysis2 Comprehensive Genome Analysis Service   : tutorial/x-old_comprehensive-genome-analysis/comprehensive-genome-analysis2.html
+	tutorial/x-old_fastq-utilities/fastq-utilities Fastq Utilities                         : tutorial/x-old_fastq-utilities/fastq-utilities.html
+	tutorial/x-old_genome_annotation/annotation Genome Annotation                       : tutorial/x-old_genome_annotation/annotation.html
+	tutorial/x-old_genome_assembly/assembly  Assembling a Genome                     : tutorial/x-old_genome_assembly/assembly.html
+	tutorial/x-old_genome_assembly/assembly2 Assembling a Genome                     : tutorial/x-old_genome_assembly/assembly2.html
+	tutorial/x-old_index                     Tutorials                               : tutorial/x-old_index.html
+	tutorial/x-old_metagenomic_binning/metagenomic_binning Using the PATRIC Metagenomic Binning Service: tutorial/x-old_metagenomic_binning/metagenomic_binning.html
+	tutorial/x-old_metagenomic_binning/metagenomic_output Analyzing Your Metagenomic Bins         : tutorial/x-old_metagenomic_binning/metagenomic_output.html
+	tutorial/x-old_metagenomic_read_mapping/metagenomic_read_mapping Metagenomic Read Mapping                : tutorial/x-old_metagenomic_read_mapping/metagenomic_read_mapping.html
+	tutorial/x-old_protein_family_sorter/protein_family_sorter Comparing Protein Families Across Individual Genomes and Genome Groups: tutorial/x-old_protein_family_sorter/protein_family_sorter.html
+	tutorial/x-old_proteome_comparison/proteome_comparison Proteome Comparison: Comparing Annotated Proteins Across Genomes.: tutorial/x-old_proteome_comparison/proteome_comparison.html
+	tutorial/x-old_similar_genome_finder/similar_genome_finder Similar Genome Finder                   : tutorial/x-old_similar_genome_finder/similar_genome_finder.html
+	tutorial/x-old_submitting-the-comprehensive-genome-analysis-job/comprehensive-genome-analysis Submitting the Comprehensive Genome Analysis Job: tutorial/x-old_submitting-the-comprehensive-genome-analysis-job/comprehensive-genome-analysis.html
+	tutorial/x-old_taxonomic_classification/taxonomic_classification_old Taxonomic Classification                : tutorial/x-old_taxonomic_classification/taxonomic_classification_old.html
+	tutorial/x-old_variation_analysis_service/variation_analysis_service Submitting a Variant Analysis Job       : tutorial/x-old_variation_analysis_service/variation_analysis_service.html
+	usage_metrics                            Usage Metrics                           : usage_metrics.html
+	videos/index                             Instructional Videos                    : videos/index.html
+	videos/x_old/are_genomes_treeable        Check if genome set is “tree-able” (15:04): videos/x_old/are_genomes_treeable.html
+	videos/x_old/circular_genome_viewer      Add track to Circular Genome Viewer (6:31): videos/x_old/circular_genome_viewer.html
+	videos/x_old/codon_tree                  Building codon trees (23:43)            : videos/x_old/codon_tree.html
+	videos/x_old/comprehensive_genome_analysis_service Tutorial: Comprehensive Genome Analysis Service: videos/x_old/comprehensive_genome_analysis_service.html
+	videos/x_old/create_genome_group         Create a Genome Group (9:08)            : videos/x_old/create_genome_group.html
+	videos/x_old/download_private_genomes    Downloading data for private genomes (5:10): videos/x_old/download_private_genomes.html
+	videos/x_old/genome_annotation_service   Tutorial: Genome Annotation Service     : videos/x_old/genome_annotation_service.html
+	videos/x_old/genome_assembly_service     Tutorial: Genome Assembly Service       : videos/x_old/genome_assembly_service.html
+	videos/x_old/id_mapper                   ID Mapping - finding genes (11:01)      : videos/x_old/id_mapper.html
+	videos/x_old/index-old                   Instructional Videos                    : videos/x_old/index-old.html
+	videos/x_old/metagenomic_read_mapping_service Metagenomic Read Mapping Service - Looking for AMR or virulence genes in metagenomic data (5:17): videos/x_old/metagenomic_read_mapping_service.html
+	videos/x_old/multiple_sequence_alignment Generate a Mulitple Sequence Alignment (3:51): videos/x_old/multiple_sequence_alignment.html
+	videos/x_old/phylogenetic_codon_tree     Tutorial: Phylogenetic Codon Tree Service: videos/x_old/phylogenetic_codon_tree.html
+	videos/x_old/protein_family_sorter       Tutorial: Protein Family Sorter Service : videos/x_old/protein_family_sorter.html
+	videos/x_old/proteome_comparison_service Tutorial: Proteome Comparison Service   : videos/x_old/proteome_comparison_service.html
+	videos/x_old/set_upload_type             I can’t see my reads - tagging uploaded data for analysis in PATRIC (4:50): videos/x_old/set_upload_type.html
+	videos/x_old/similar_genome_finder_service Tutorial: Similar Genome Finder Service : videos/x_old/similar_genome_finder_service.html
+	videos/x_old/taxonomic_classification_service Taxonomic Classification Service (17:20): videos/x_old/taxonomic_classification_service.html
+	videos/x_old/upload_file                 Uploading files to the workspace (14:51): videos/x_old/upload_file.html
+	videos/x_old/using_genome_group          Finding genes in a Genome Group (11:32) : videos/x_old/using_genome_group.html
+	videos/x_old/venn_diagram                Comparing PATRIC groups with the Venn Diagram Tool (8:01): videos/x_old/venn_diagram.html
+	webinar/bv-brc_intro                     Introduction to BV-BRC Webinar Series   : webinar/bv-brc_intro.html
+	webinar/comprehensive_genome_analysis    Comprehensive Genome Analysis Service   : webinar/comprehensive_genome_analysis.html
+	webinar/index                            Webinars                                : webinar/index.html
+	webinar/metagenomic_binning              Metagenomic Binning Service             : webinar/metagenomic_binning.html
+	webinar/phylogenetic_tree_builder        Phylogenetic Tree Builder               : webinar/phylogenetic_tree_builder.html
+	webinar/protein_family_sorter            Protein Family Sorter                   : webinar/protein_family_sorter.html
+	webinar/proteome_comparison              Proteome Comparison Service             : webinar/proteome_comparison.html
+	webinar/tick-borne_pathogens             Ticks and Tick-Borne Pathogens Webinar Series: webinar/tick-borne_pathogens.html
+	webinar/x-old_index                      Webinars                                : webinar/x-old_index.html
+	website/data_collections/content/SysBio_Baylor_College Decoding Antibiotic-induced Susceptibility To Clostridium difficile Infection: website/data_collections/content/SysBio_Baylor_College.html
+	website/data_collections/content/SysBio_HPMI HPMI: Host Pathogen Mapping Initiative  : website/data_collections/content/SysBio_HPMI.html
+	website/data_collections/content/SysBio_SCRIPT Successful Clinical Response in Pneumonia Therapy (SCRIPT) Systems Biology: website/data_collections/content/SysBio_SCRIPT.html
+	website/data_collections/content/burkholderia_pseudomallei_transcriptome_compendium Burkholderia Pseudomallei Transcriptome Compendium: website/data_collections/content/burkholderia_pseudomallei_transcriptome_compendium.html
+	website/data_collections/content/ccfa    The Chicago Center for Functional Annotation (CCFA): website/data_collections/content/ccfa.html
+	website/data_collections/content/center_for_systems_biology_enteropathogens_sysbep Center For Systems Biology of Enteropathogens Sysbep: website/data_collections/content/center_for_systems_biology_enteropathogens_sysbep.html
+	website/data_collections/content/flute   Functionalizing Lists of Unknown TB Entitites (FLUTE): website/data_collections/content/flute.html
+	website/data_collections/content/flute-experiment-1 Flute Experiment 1                      : website/data_collections/content/flute-experiment-1.html
+	website/data_collections/content/flute-experiment-2 Flute Experiment 2                      : website/data_collections/content/flute-experiment-2.html
+	website/data_collections/content/flute-experiment-3 Flute Experiment 3                      : website/data_collections/content/flute-experiment-3.html
+	website/data_collections/content/flute-experiment-4 Flute Experiment 4                      : website/data_collections/content/flute-experiment-4.html
+	website/data_collections/content/flute-experiment-5 Flute Experiment 5                      : website/data_collections/content/flute-experiment-5.html
+	website/data_collections/content/gunk    Genes Unknown in Acintetobacter Baumannii (GUNK): website/data_collections/content/gunk.html
+	website/data_collections/content/gunk-experiment-1 Resources for Genetic and Genomic Analysis of Emerging Pathogen Acinetobacter baumannii: website/data_collections/content/gunk-experiment-1.html
+	website/data_collections/content/gunk-experiment-2 Host-Microbe Protein Interactions during Bacterial Infection: website/data_collections/content/gunk-experiment-2.html
+	website/data_collections/content/index   PATRIC Content Pages                    : website/data_collections/content/index.html
+	website/data_collections/content/niaid_antimicrobial_resistance_sequencing_projects NIAID Antimicrobial Resistance Sequencing Projects: website/data_collections/content/niaid_antimicrobial_resistance_sequencing_projects.html
+	website/data_collections/content/omics4tb Omics4TB                                : website/data_collections/content/omics4tb.html
+	website/data_collections/content/omics4tb_bedaquiline_tolerance Omics4TB: Network analysis identifies Rv0324 and Rv0880 as regulators of bedaquiline tolerance in Mycobacterium tuberculosis.: website/data_collections/content/omics4tb_bedaquiline_tolerance.html
+	website/data_collections/content/omics4tb_chip_seq_experiments Omics4TB ChIP-Seq Experiments           : website/data_collections/content/omics4tb_chip_seq_experiments.html
+	website/data_collections/content/omics4tb_macrophage_mtb_infection Omics4TB: MiR-155-regulated molecular network orchestrates cell fate in the innate and adaptive immune response to Mycobacterium tuberculosis.: website/data_collections/content/omics4tb_macrophage_mtb_infection.html
+	website/data_collections/content/omics4tb_tfoe_expression_experiments Omics4TB TFOE Expression Experiments    : website/data_collections/content/omics4tb_tfoe_expression_experiments.html
+	website/data_collections/content/patric_dbp_mcclelland PATRIC DBP - McClelland                 : website/data_collections/content/patric_dbp_mcclelland.html
+	website/data_collections/content/predicting_the_emergence_antibiotic_resistance Predicting the Emergence of Antibiotic Resistance Through Multi-Omics Approaches and Immune System-Surveillance: website/data_collections/content/predicting_the_emergence_antibiotic_resistance.html
+	website/data_collections/content/s_enterica_cyt Salmonella enterica Cytoplasmic Identified Proteins: website/data_collections/content/s_enterica_cyt.html
+	website/data_collections/content/s_enterica_effector Salmonella enterica Novel Secreted Effectors Identified: website/data_collections/content/s_enterica_effector.html
+	website/data_collections/content/s_enterica_im Salmonella enterica Inner Membrane Identified Proteins: website/data_collections/content/s_enterica_im.html
+	website/data_collections/content/s_enterica_moonlighting Salmonella enterica Moonlighting Identified Proteins: website/data_collections/content/s_enterica_moonlighting.html
+	website/data_collections/content/s_enterica_om Salmonella enterica Outer Membrane Identified Proteins: website/data_collections/content/s_enterica_om.html
+	website/data_collections/content/s_enterica_pathogenesis Salmonella enterica Pathogenesis Related Proteins: website/data_collections/content/s_enterica_pathogenesis.html
+	website/data_collections/content/s_enterica_peri Salmonella enterica Periplasmic Identified Proteins: website/data_collections/content/s_enterica_peri.html
+	website/data_collections/content/s_enterica_spi2_effector Salmonella enterica Known SPI-2 effectors identified: website/data_collections/content/s_enterica_spi2_effector.html
+	website/data_collections/content/s_enterica_spi2_ttss Salmonella enterica Protein Co-regulated with SPI-2 TTSS: website/data_collections/content/s_enterica_spi2_ttss.html
+	website/data_collections/content/scientific_working_group Scientific Working Group                : website/data_collections/content/scientific_working_group.html
+	website/data_collections/content/systems_biology_approach Systems Biology Approach to Redefine Susceptibility Testing and Treatment of MDR Pathogens in the Context of Host Immunity: website/data_collections/content/systems_biology_approach.html
+	website/data_collections/content/systems_biology_of_clostridium_difficile_infection Systems Biology of Clostridium Difficile Infection: website/data_collections/content/systems_biology_of_clostridium_difficile_infection.html
+	website/data_collections/content/systems_biology_of_microbiome_mediated_resilence Systems Biology of Microbiome-Mediated Resilience to Antibiotic-Resistant Pathogens: website/data_collections/content/systems_biology_of_microbiome_mediated_resilence.html
+	website/data_collections/content/systems_immunolobiology Systems Immunolobiology of Antibiotic-Persistent MRSA Infection: website/data_collections/content/systems_immunolobiology.html
+	website/data_collections/content/tb_arc_antibiotic_resistance_catalog TB-ARC Antibiotic Resistance Catalog    : website/data_collections/content/tb_arc_antibiotic_resistance_catalog.html
+	website/data_collections/content/tb_arc_belarus TB-ARC Belarus                          : website/data_collections/content/tb_arc_belarus.html
+	website/data_collections/content/tb_arc_cdrc TB-ARC CDRC                             : website/data_collections/content/tb_arc_cdrc.html
+	website/data_collections/content/tb_arc_india TB-ARC India                            : website/data_collections/content/tb_arc_india.html
+	website/data_collections/content/tb_arc_iran TB-ARC Iran                             : website/data_collections/content/tb_arc_iran.html
+	website/data_collections/content/tb_arc_krith_2 TB-ARC K-RITH II                        : website/data_collections/content/tb_arc_krith_2.html
+	website/data_collections/content/tb_arc_krith_kwazulu_natal TB-ARC K-RITH KwaZulu-Natal             : website/data_collections/content/tb_arc_krith_kwazulu_natal.html
+	website/data_collections/content/tb_arc_m_bovis TB-ARC M. bovis                         : website/data_collections/content/tb_arc_m_bovis.html
+	website/data_collections/content/tb_arc_mali TB-ARC Mali                             : website/data_collections/content/tb_arc_mali.html
+	website/data_collections/content/tb_arc_moldova TB-ARC Moldova                          : website/data_collections/content/tb_arc_moldova.html
+	website/data_collections/content/tb_arc_mrc_sa TB-ARC MRC SA                           : website/data_collections/content/tb_arc_mrc_sa.html
+	website/data_collections/content/tb_arc_ntu_taiwan TB-ARC NTU Taiwan                       : website/data_collections/content/tb_arc_ntu_taiwan.html
+	website/data_collections/content/tb_arc_romania TB-ARC Romania                          : website/data_collections/content/tb_arc_romania.html
+	website/data_collections/content/tb_arc_sweden TB-ARC Sweden                           : website/data_collections/content/tb_arc_sweden.html
+	website/data_collections/content/tb_systems_biology TB Systems Biology                      : website/data_collections/content/tb_systems_biology.html
+	workshop_slides/workshop_Aug_2017        PATRIC/RAST Workshop at Argonne National Laboratory, August 14-16, 2017: workshop_slides/workshop_Aug_2017.html
+	workshop_slides/workshop_May_2018        PATRIC/RAST Workshop at Argonne National Laboratory, May 7-9, 2018: workshop_slides/workshop_May_2018.html
+	workshops/2022-Aug-21-26_veme            26th International Bioinformatics Workshop on Virus Evolution and Molecular Epidemiology (VEME): workshops/2022-Aug-21-26_veme.html
+	workshops/index                          Workshops                               : workshops/index.html
+	x-old-index                              BV-BRC Documentation                    : x-old-index.html
+	x-old-workshops                          Workshops                               : x-old-workshops.html
+	x-old_cientific_working_group            Scientific Working Group                : x-old_cientific_working_group.html
+	x-old_contact                            Contact Us                              : x-old_contact.html
+	x-old_personnel                          Personnel                               : x-old_personnel.html
+	x-old_presentations                      Presentations                           : x-old_presentations.html
+std:label
+	cli-clustering                           Looking for Hypothetical Proteins in Clusters of Related Features: cli_tutorial/cli_clustering.html#cli-clustering
+	cli-column-options                       Column Options                          : cli_tutorial/command_list/common_options.html#cli-column-options
+	cli-common-options                       Common Options to Command Line Programs : cli_tutorial/command_list/common_options.html#cli-common-options
+	cli-common-tasks                         Common Tasks With P3 Scripts            : cli_tutorial/cli_common_tasks.html#cli-common-tasks
+	cli-data-options                         Data Options                            : cli_tutorial/command_list/common_options.html#cli-data-options
+	cli-delimiter-options                    Delimiter Options                       : cli_tutorial/command_list/common_options.html#cli-delimiter-options
+	cli-getting-started                      Using the BV-BRC Command-line Interface : cli_tutorial/cli_getting_started.html#cli-getting-started
+	cli-input-options                        Input Options                           : cli_tutorial/command_list/common_options.html#cli-input-options
+	cli-installation                         Installing the BV-BRC Command Line Interface: cli_tutorial/cli_installation.html#cli-installation
+	cli-services                             Using BV-BRC Services from the Command Line: cli_tutorial/cli_services.html#cli-services
+	cli-signature-clusters                   Computing Signature Clusters: an Application of the Command-Line Tools: cli_tutorial/cli_signature_clusters.html#cli-signature-clusters
+	cli::appserv-enumerate-apps              appserv-enumerate-apps                  : cli_tutorial/command_list/appserv-enumerate-apps.html#cli-appserv-enumerate-apps
+	cli::appserv-enumerate-tasks             appserv-enumerate-tasks                 : cli_tutorial/command_list/appserv-enumerate-tasks.html#cli-appserv-enumerate-tasks
+	cli::appserv-kill-task                   appserv-kill-task                       : cli_tutorial/command_list/appserv-kill-task.html#cli-appserv-kill-task
+	cli::appserv-query-task                  appserv-query-task                      : cli_tutorial/command_list/appserv-query-task.html#cli-appserv-query-task
+	cli::appserv-rerun-task                  appserv-rerun-task                      : cli_tutorial/command_list/appserv-rerun-task.html#cli-appserv-rerun-task
+	cli::appserv-start-app                   appserv-start-app                       : cli_tutorial/command_list/appserv-start-app.html#cli-appserv-start-app
+	cli::genometypeobject                    GenomeTypeObject                        : cli_tutorial/command_list/GenomeTypeObject.html#cli-genometypeobject
+	cli::hsp                                 Hsp                                     : cli_tutorial/command_list/Hsp.html#cli-hsp
+	cli::p3-aggregates-to-html               p3-aggregates-to-html                   : cli_tutorial/command_list/p3-aggregates-to-html.html#cli-p3-aggregates-to-html
+	cli::p3-all-contigs                      p3-all-contigs                          : cli_tutorial/command_list/p3-all-contigs.html#cli-p3-all-contigs
+	cli::p3-all-drugs                        p3-all-drugs                            : cli_tutorial/command_list/p3-all-drugs.html#cli-p3-all-drugs
+	cli::p3-all-genomes                      p3-all-genomes                          : cli_tutorial/command_list/p3-all-genomes.html#cli-p3-all-genomes
+	cli::p3-all-subsystem-roles              p3-all-subsystem-roles                  : cli_tutorial/command_list/p3-all-subsystem-roles.html#cli-p3-all-subsystem-roles
+	cli::p3-all-subsystems                   p3-all-subsystems                       : cli_tutorial/command_list/p3-all-subsystems.html#cli-p3-all-subsystems
+	cli::p3-all-taxonomies                   p3-all-taxonomies                       : cli_tutorial/command_list/p3-all-taxonomies.html#cli-p3-all-taxonomies
+	cli::p3-blast                            p3-blast                                : cli_tutorial/command_list/p3-blast.html#cli-p3-blast
+	cli::p3-build-kmer-db                    p3-build-kmer-db                        : cli_tutorial/command_list/p3-build-kmer-db.html#cli-p3-build-kmer-db
+	cli::p3-cat                              p3-cat                                  : cli_tutorial/command_list/p3-cat.html#cli-p3-cat
+	cli::p3-closest-seqs                     p3-closest-seqs                         : cli_tutorial/command_list/p3-closest-seqs.html#cli-p3-closest-seqs
+	cli::p3-co-occur                         p3-co-occur                             : cli_tutorial/command_list/p3-co-occur.html#cli-p3-co-occur
+	cli::p3-collate                          p3-collate                              : cli_tutorial/command_list/p3-collate.html#cli-p3-collate
+	cli::p3-compare-cols                     p3-compare-cols                         : cli_tutorial/command_list/p3-compare-cols.html#cli-p3-compare-cols
+	cli::p3-count                            p3-count                                : cli_tutorial/command_list/p3-count.html#cli-p3-count
+	cli::p3-count-families                   p3-count-families                       : cli_tutorial/command_list/p3-count-families.html#cli-p3-count-families
+	cli::p3-cp                               p3-cp                                   : cli_tutorial/command_list/p3-cp.html#cli-p3-cp
+	cli::p3-discriminating-kmers             p3-discriminating-kmers                 : cli_tutorial/command_list/p3-discriminating-kmers.html#cli-p3-discriminating-kmers
+	cli::p3-dump-genomes                     p3-dump-genomes                         : cli_tutorial/command_list/p3-dump-genomes.html#cli-p3-dump-genomes
+	cli::p3-echo                             p3-echo                                 : cli_tutorial/command_list/p3-echo.html#cli-p3-echo
+	cli::p3-extract                          p3-extract                              : cli_tutorial/command_list/p3-extract.html#cli-p3-extract
+	cli::p3-fasta-md5                        p3-fasta-md5                            : cli_tutorial/command_list/p3-fasta-md5.html#cli-p3-fasta-md5
+	cli::p3-feature-gap                      p3-feature-gap                          : cli_tutorial/command_list/p3-feature-gap.html#cli-p3-feature-gap
+	cli::p3-feature-upstream                 p3-feature-upstream                     : cli_tutorial/command_list/p3-feature-upstream.html#cli-p3-feature-upstream
+	cli::p3-file-filter                      p3-file-filter                          : cli_tutorial/command_list/p3-file-filter.html#cli-p3-file-filter
+	cli::p3-find-couples                     p3-find-couples                         : cli_tutorial/command_list/p3-find-couples.html#cli-p3-find-couples
+	cli::p3-find-features                    p3-find-features                        : cli_tutorial/command_list/p3-find-features.html#cli-p3-find-features
+	cli::p3-find-in-clusters                 p3-find-in-clusters                     : cli_tutorial/command_list/p3-find-in-clusters.html#cli-p3-find-in-clusters
+	cli::p3-find-serology-data               p3-find-serology-data                   : cli_tutorial/command_list/p3-find-serology-data.html#cli-p3-find-serology-data
+	cli::p3-find-surveillance-data           p3-find-surveillance-data               : cli_tutorial/command_list/p3-find-surveillance-data.html#cli-p3-find-surveillance-data
+	cli::p3-format-results                   p3-format-results                       : cli_tutorial/command_list/p3-format-results.html#cli-p3-format-results
+	cli::p3-function-parse                   p3-function-parse                       : cli_tutorial/command_list/p3-function-parse.html#cli-p3-function-parse
+	cli::p3-function-to-role                 p3-function-to-role                     : cli_tutorial/command_list/p3-function-to-role.html#cli-p3-function-to-role
+	cli::p3-generate-close-roles             p3-generate-close-roles                 : cli_tutorial/command_list/p3-generate-close-roles.html#cli-p3-generate-close-roles
+	cli::p3-generate-clusters                p3-generate-clusters                    : cli_tutorial/command_list/p3-generate-clusters.html#cli-p3-generate-clusters
+	cli::p3-genome-distance                  p3-genome-distance                      : cli_tutorial/command_list/p3-genome-distance.html#cli-p3-genome-distance
+	cli::p3-genome-fasta                     p3-genome-fasta                         : cli_tutorial/command_list/p3-genome-fasta.html#cli-p3-genome-fasta
+	cli::p3-genome-kmer-hits                 p3-genome-kmer-hits                     : cli_tutorial/command_list/p3-genome-kmer-hits.html#cli-p3-genome-kmer-hits
+	cli::p3-genome-md5                       p3-genome-md5                           : cli_tutorial/command_list/p3-genome-md5.html#cli-p3-genome-md5
+	cli::p3-genus-species                    p3-genus-species                        : cli_tutorial/command_list/p3-genus-species.html#cli-p3-genus-species
+	cli::p3-get-drug-genomes                 p3-get-drug-genomes                     : cli_tutorial/command_list/p3-get-drug-genomes.html#cli-p3-get-drug-genomes
+	cli::p3-get-family-data                  p3-get-family-data                      : cli_tutorial/command_list/p3-get-family-data.html#cli-p3-get-family-data
+	cli::p3-get-family-features              p3-get-family-features                  : cli_tutorial/command_list/p3-get-family-features.html#cli-p3-get-family-features
+	cli::p3-get-feature-data                 p3-get-feature-data                     : cli_tutorial/command_list/p3-get-feature-data.html#cli-p3-get-feature-data
+	cli::p3-get-feature-group                p3-get-feature-group                    : cli_tutorial/command_list/p3-get-feature-group.html#cli-p3-get-feature-group
+	cli::p3-get-feature-protein-regions      p3-get-feature-protein-regions          : cli_tutorial/command_list/p3-get-feature-protein-regions.html#cli-p3-get-feature-protein-regions
+	cli::p3-get-feature-protein-structures   p3-get-feature-protein-structures       : cli_tutorial/command_list/p3-get-feature-protein-structures.html#cli-p3-get-feature-protein-structures
+	cli::p3-get-feature-regions              p3-get-feature-regions                  : cli_tutorial/command_list/p3-get-feature-regions.html#cli-p3-get-feature-regions
+	cli::p3-get-feature-sequence             p3-get-feature-sequence                 : cli_tutorial/command_list/p3-get-feature-sequence.html#cli-p3-get-feature-sequence
+	cli::p3-get-feature-subsystems           p3-get-feature-subsystems               : cli_tutorial/command_list/p3-get-feature-subsystems.html#cli-p3-get-feature-subsystems
+	cli::p3-get-features-by-sequence         p3-get-features-by-sequence             : cli_tutorial/command_list/p3-get-features-by-sequence.html#cli-p3-get-features-by-sequence
+	cli::p3-get-features-in-regions          p3-get-features-in-regions              : cli_tutorial/command_list/p3-get-features-in-regions.html#cli-p3-get-features-in-regions
+	cli::p3-get-genome-contigs               p3-get-genome-contigs                   : cli_tutorial/command_list/p3-get-genome-contigs.html#cli-p3-get-genome-contigs
+	cli::p3-get-genome-data                  p3-get-genome-data                      : cli_tutorial/command_list/p3-get-genome-data.html#cli-p3-get-genome-data
+	cli::p3-get-genome-drugs                 p3-get-genome-drugs                     : cli_tutorial/command_list/p3-get-genome-drugs.html#cli-p3-get-genome-drugs
+	cli::p3-get-genome-expression            p3-get-genome-expression                : cli_tutorial/command_list/p3-get-genome-expression.html#cli-p3-get-genome-expression
+	cli::p3-get-genome-features              p3-get-genome-features                  : cli_tutorial/command_list/p3-get-genome-features.html#cli-p3-get-genome-features
+	cli::p3-get-genome-group                 p3-get-genome-group                     : cli_tutorial/command_list/p3-get-genome-group.html#cli-p3-get-genome-group
+	cli::p3-get-genome-protein-regions       p3-get-genome-protein-regions           : cli_tutorial/command_list/p3-get-genome-protein-regions.html#cli-p3-get-genome-protein-regions
+	cli::p3-get-genome-protein-structures    p3-get-genome-protein-structures        : cli_tutorial/command_list/p3-get-genome-protein-structures.html#cli-p3-get-genome-protein-structures
+	cli::p3-get-genome-refseq-features       p3-get-genome-refseq-features           : cli_tutorial/command_list/p3-get-genome-refseq-features.html#cli-p3-get-genome-refseq-features
+	cli::p3-get-genome-sp-genes              p3-get-genome-sp-genes                  : cli_tutorial/command_list/p3-get-genome-sp-genes.html#cli-p3-get-genome-sp-genes
+	cli::p3-get-genome-subsystems            p3-get-genome-subsystems                : cli_tutorial/command_list/p3-get-genome-subsystems.html#cli-p3-get-genome-subsystems
+	cli::p3-get-subsystem-features           p3-get-subsystem-features               : cli_tutorial/command_list/p3-get-subsystem-features.html#cli-p3-get-subsystem-features
+	cli::p3-get-subsystem-roles              p3-get-subsystem-roles                  : cli_tutorial/command_list/p3-get-subsystem-roles.html#cli-p3-get-subsystem-roles
+	cli::p3-get-taxonomy-data                p3-get-taxonomy-data                    : cli_tutorial/command_list/p3-get-taxonomy-data.html#cli-p3-get-taxonomy-data
+	cli::p3-gto                              p3-gto                                  : cli_tutorial/command_list/p3-gto.html#cli-p3-gto
+	cli::p3-gto-dna                          p3-gto-dna                              : cli_tutorial/command_list/p3-gto-dna.html#cli-p3-gto-dna
+	cli::p3-gto-fasta                        p3-gto-fasta                            : cli_tutorial/command_list/p3-gto-fasta.html#cli-p3-gto-fasta
+	cli::p3-gto-fetch                        p3-gto-fetch                            : cli_tutorial/command_list/p3-gto-fetch.html#cli-p3-gto-fetch
+	cli::p3-gto-scan                         p3-gto-scan                             : cli_tutorial/command_list/p3-gto-scan.html#cli-p3-gto-scan
+	cli::p3-head                             p3-head                                 : cli_tutorial/command_list/p3-head.html#cli-p3-head
+	cli::p3-identify-clusters                p3-identify-clusters                    : cli_tutorial/command_list/p3-identify-clusters.html#cli-p3-identify-clusters
+	cli::p3-job-status                       p3-job-status                           : cli_tutorial/command_list/p3-job-status.html#cli-p3-job-status
+	cli::p3-join                             p3-join                                 : cli_tutorial/command_list/p3-join.html#cli-p3-join
+	cli::p3-kmer-compare                     p3-kmer-compare                         : cli_tutorial/command_list/p3-kmer-compare.html#cli-p3-kmer-compare
+	cli::p3-less                             p3-less                                 : cli_tutorial/command_list/p3-less.html#cli-p3-less
+	cli::p3-list-feature-groups              p3-list-feature-groups                  : cli_tutorial/command_list/p3-list-feature-groups.html#cli-p3-list-feature-groups
+	cli::p3-list-genome-groups               p3-list-genome-groups                   : cli_tutorial/command_list/p3-list-genome-groups.html#cli-p3-list-genome-groups
+	cli::p3-login                            p3-login                                : cli_tutorial/command_list/p3-login.html#cli-p3-login
+	cli::p3-logout                           p3-logout                               : cli_tutorial/command_list/p3-logout.html#cli-p3-logout
+	cli::p3-ls                               p3-ls                                   : cli_tutorial/command_list/p3-ls.html#cli-p3-ls
+	cli::p3-mass-cluster-run                 p3-mass-cluster-run                     : cli_tutorial/command_list/p3-mass-cluster-run.html#cli-p3-mass-cluster-run
+	cli::p3-match                            p3-match                                : cli_tutorial/command_list/p3-match.html#cli-p3-match
+	cli::p3-merge                            p3-merge                                : cli_tutorial/command_list/p3-merge.html#cli-p3-merge
+	cli::p3-mkdir                            p3-mkdir                                : cli_tutorial/command_list/p3-mkdir.html#cli-p3-mkdir
+	cli::p3-nucleon-runs                     p3-nucleon-runs                         : cli_tutorial/command_list/p3-nucleon-runs.html#cli-p3-nucleon-runs
+	cli::p3-peg-kmer-hits                    p3-peg-kmer-hits                        : cli_tutorial/command_list/p3-peg-kmer-hits.html#cli-p3-peg-kmer-hits
+	cli::p3-pick                             p3-pick                                 : cli_tutorial/command_list/p3-pick.html#cli-p3-pick
+	cli::p3-pick-by-class                    p3-pick-by-class                        : cli_tutorial/command_list/p3-pick-by-class.html#cli-p3-pick-by-class
+	cli::p3-pivot                            p3-pivot                                : cli_tutorial/command_list/p3-pivot.html#cli-p3-pivot
+	cli::p3-project-subsystems               p3-project-subsystems                   : cli_tutorial/command_list/p3-project-subsystems.html#cli-p3-project-subsystems
+	cli::p3-put-feature-group                p3-put-feature-group                    : cli_tutorial/command_list/p3-put-feature-group.html#cli-p3-put-feature-group
+	cli::p3-put-genome-group                 p3-put-genome-group                     : cli_tutorial/command_list/p3-put-genome-group.html#cli-p3-put-genome-group
+	cli::p3-qstat                            p3-qstat                                : cli_tutorial/command_list/p3-qstat.html#cli-p3-qstat
+	cli::p3-rast                             p3-rast                                 : cli_tutorial/command_list/p3-rast.html#cli-p3-rast
+	cli::p3-related-by-clusters              p3-related-by-clusters                  : cli_tutorial/command_list/p3-related-by-clusters.html#cli-p3-related-by-clusters
+	cli::p3-rep-prots                        p3-rep-prots                            : cli_tutorial/command_list/p3-rep-prots.html#cli-p3-rep-prots
+	cli::p3-rm                               p3-rm                                   : cli_tutorial/command_list/p3-rm.html#cli-p3-rm
+	cli::p3-rmdir                            p3-rmdir                                : cli_tutorial/command_list/p3-rmdir.html#cli-p3-rmdir
+	cli::p3-role-fasta                       p3-role-fasta                           : cli_tutorial/command_list/p3-role-fasta.html#cli-p3-role-fasta
+	cli::p3-role-features                    p3-role-features                        : cli_tutorial/command_list/p3-role-features.html#cli-p3-role-features
+	cli::p3-role-matrix                      p3-role-matrix                          : cli_tutorial/command_list/p3-role-matrix.html#cli-p3-role-matrix
+	cli::p3-sequence-profile                 p3-sequence-profile                     : cli_tutorial/command_list/p3-sequence-profile.html#cli-p3-sequence-profile
+	cli::p3-set-to-relation                  p3-set-to-relation                      : cli_tutorial/command_list/p3-set-to-relation.html#cli-p3-set-to-relation
+	cli::p3-shuffle                          p3-shuffle                              : cli_tutorial/command_list/p3-shuffle.html#cli-p3-shuffle
+	cli::p3-signature-clusters               p3-signature-clusters                   : cli_tutorial/command_list/p3-signature-clusters.html#cli-p3-signature-clusters
+	cli::p3-signature-families               p3-signature-families                   : cli_tutorial/command_list/p3-signature-families.html#cli-p3-signature-families
+	cli::p3-signature-peginfo                p3-signature-peginfo                    : cli_tutorial/command_list/p3-signature-peginfo.html#cli-p3-signature-peginfo
+	cli::p3-sort                             p3-sort                                 : cli_tutorial/command_list/p3-sort.html#cli-p3-sort
+	cli::p3-stats                            p3-stats                                : cli_tutorial/command_list/p3-stats.html#cli-p3-stats
+	cli::p3-submit-blast                     p3-submit-BLAST                         : cli_tutorial/command_list/p3-submit-BLAST.html#cli-p3-submit-blast
+	cli::p3-submit-cga                       p3-submit-CGA                           : cli_tutorial/command_list/p3-submit-CGA.html#cli-p3-submit-cga
+	cli::p3-submit-codon-tree                p3-submit-codon-tree                    : cli_tutorial/command_list/p3-submit-codon-tree.html#cli-p3-submit-codon-tree
+	cli::p3-submit-fastqutils                p3-submit-fastqutils                    : cli_tutorial/command_list/p3-submit-fastqutils.html#cli-p3-submit-fastqutils
+	cli::p3-submit-gene-tree                 p3-submit-gene-tree                     : cli_tutorial/command_list/p3-submit-gene-tree.html#cli-p3-submit-gene-tree
+	cli::p3-submit-genome-annotation         p3-submit-genome-annotation             : cli_tutorial/command_list/p3-submit-genome-annotation.html#cli-p3-submit-genome-annotation
+	cli::p3-submit-genome-assembly           p3-submit-genome-assembly               : cli_tutorial/command_list/p3-submit-genome-assembly.html#cli-p3-submit-genome-assembly
+	cli::p3-submit-metagenome-binning        p3-submit-metagenome-binning            : cli_tutorial/command_list/p3-submit-metagenome-binning.html#cli-p3-submit-metagenome-binning
+	cli::p3-submit-metagenomic-read-mapping  p3-submit-metagenomic-read-mapping      : cli_tutorial/command_list/p3-submit-metagenomic-read-mapping.html#cli-p3-submit-metagenomic-read-mapping
+	cli::p3-submit-msa                       p3-submit-MSA                           : cli_tutorial/command_list/p3-submit-MSA.html#cli-p3-submit-msa
+	cli::p3-submit-proteome-comparison       p3-submit-proteome-comparison           : cli_tutorial/command_list/p3-submit-proteome-comparison.html#cli-p3-submit-proteome-comparison
+	cli::p3-submit-rnaseq                    p3-submit-rnaseq                        : cli_tutorial/command_list/p3-submit-rnaseq.html#cli-p3-submit-rnaseq
+	cli::p3-submit-sars2-analysis            p3-submit-sars2-analysis                : cli_tutorial/command_list/p3-submit-sars2-analysis.html#cli-p3-submit-sars2-analysis
+	cli::p3-submit-sars2-assembly            p3-submit-sars2-assembly                : cli_tutorial/command_list/p3-submit-sars2-assembly.html#cli-p3-submit-sars2-assembly
+	cli::p3-submit-taxonomic-classification  p3-submit-taxonomic-classification      : cli_tutorial/command_list/p3-submit-taxonomic-classification.html#cli-p3-submit-taxonomic-classification
+	cli::p3-submit-variation-analysis        p3-submit-variation-analysis            : cli_tutorial/command_list/p3-submit-variation-analysis.html#cli-p3-submit-variation-analysis
+	cli::p3-subsys-roles                     p3-subsys-roles                         : cli_tutorial/command_list/p3-subsys-roles.html#cli-p3-subsys-roles
+	cli::p3-tail                             p3-tail                                 : cli_tutorial/command_list/p3-tail.html#cli-p3-tail
+	cli::p3-tbl-to-fasta                     p3-tbl-to-fasta                         : cli_tutorial/command_list/p3-tbl-to-fasta.html#cli-p3-tbl-to-fasta
+	cli::p3-tbl-to-html                      p3-tbl-to-html                          : cli_tutorial/command_list/p3-tbl-to-html.html#cli-p3-tbl-to-html
+	cli::p3-tests                            p3-tests                                : cli_tutorial/command_list/p3-tests.html#cli-p3-tests
+	cli::p3-uni-roles                        p3-uni-roles                            : cli_tutorial/command_list/p3-uni-roles.html#cli-p3-uni-roles
+	cli::p3-user-subsystem                   p3-user-subsystem                       : cli_tutorial/command_list/p3-user-subsystem.html#cli-p3-user-subsystem
+	cli::p3-whoami                           p3-whoami                               : cli_tutorial/command_list/p3-whoami.html#cli-p3-whoami
+	cli::p3-write-kmers                      p3-write-kmers                          : cli_tutorial/command_list/p3-write-kmers.html#cli-p3-write-kmers
+	cli::p3dataapi                           P3DataAPI                               : cli_tutorial/command_list/P3DataAPI.html#cli-p3dataapi
+	cli::p3utils                             P3Utils                                 : cli_tutorial/command_list/P3Utils.html#cli-p3utils
+	cli::sim                                 Sim                                     : cli_tutorial/command_list/Sim.html#cli-sim
+	cli::submit-patric-annotation            submit-patric-annotation                : cli_tutorial/command_list/submit-patric-annotation.html#cli-submit-patric-annotation
+	cli::submit-patric-genbank               submit-patric-genbank                   : cli_tutorial/command_list/submit-patric-genbank.html#cli-submit-patric-genbank
+	feature-protein-family-function          Finding the Protein Family Function     : tutorial/searching_and_sorting/protein_family_features.html#feature-protein-family-function
+	feature-protein-family-id                Finding a Protein Family by ID          : tutorial/searching_and_sorting/protein_family_features.html#feature-protein-family-id
+	feature-protein-family-list              Finding a Feature’s Protein Family      : tutorial/searching_and_sorting/protein_family_features.html#feature-protein-family-list
+	genindex                                 Index                                   : genindex.html
+	gui-tasks                                Common Tasks Using the Web Interface    : common_tasks/gui_tasks.html#gui-tasks
+	http-routingtable                        HTTP Routing Table                      : http-routingtable.html
+	modindex                                 Module Index                            : py-modindex.html
+	py-modindex                              Python Module Index                     : py-modindex.html
+	rasttk-getting-started                   RASTtk: Getting Started With The Default Pipeline: cli_tutorial/rasttk_getting_started.html#rasttk-getting-started
+	rasttk-incremental-commands              RASTtk, The Incremental Commands        : cli_tutorial/rasttk_incremental_commands.html#rasttk-incremental-commands
+	rep-ref-taxon-section                    Finding the Representative and Reference Genomes: tutorial/searching_and_sorting/genomes_by_taxonomy.html#rep-ref-taxon-section
+	routingtable                             HTTP Routing Table                      : http-routingtable.html
+	search                                   Search Page                             : search.html
+	taxon-exotic-filtering-section           Filtering the Genomes                   : tutorial/searching_and_sorting/genomes_by_taxonomy.html#taxon-exotic-filtering-section

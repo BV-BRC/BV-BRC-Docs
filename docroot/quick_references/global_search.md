@@ -1,7 +1,6 @@
 # Global Search
 
 ## Overview
---------
 
 BV-BRC provides a Global Search capability to quickly locate data of interest. Searches return top matches grouped by data type. Searches can be restricted to specific data types and combinations of search terms
 

@@ -1,5 +1,6 @@
 .. Common tasks index file
 
+:orphan:
 :github_url: https://github.com/PATRIC3/p3_docs/blob/master/docroot/common_tasks/index.rst
 
 Common Tasks in BV-BRC

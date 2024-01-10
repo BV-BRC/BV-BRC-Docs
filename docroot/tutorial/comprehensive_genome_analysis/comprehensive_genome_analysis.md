@@ -3,7 +3,7 @@
 One of the most common use cases for analysis of private genomes at BV-BRC is for researchers to assemble and then annotate their genome sequences using two separate services. The streamlined Comprehensive Genome Analysis ‘meta-service’ addresses this need by accepting sequencing reads, computing the assembly and annotation, and providing a user-friendly description of the genome. The output includes a genome quality assessment, AMR genes and phenotype predictions, specialty genes, subsystem overview, identification of the closest genome sequences, a phylogenetic tree and a list of features that distinguish the genome from its nearest neighbors. The Comprehensive Genome Analysis Service has quickly risen to be one of the most popular services[1].
 
 Creating a folder to hold the assembly job and related data
-Please refer to the [Genome Assembly Service Tutorial](../genome_assembly/assembly.html) for instructions on creating a folder in the BV-BRC or PATRIC .
+Please refer to the [Genome Assembly Service Tutorial](/tutorial/genome_assembly/assembly) for instructions on creating a folder in the BV-BRC or PATRIC .
 
 ## Locating the Comprehensive Genome Analysis Service
 
@@ -15,15 +15,15 @@ Please refer to the [Genome Assembly Service Tutorial](../genome_assembly/assemb
 
 ### Uploading paired end reads
 
-Please refer to the [Genome Assembly Service Tutorial](../genome_assembly/assembly.html) for instructions on uploading paired-end reads.
+Please refer to the [Genome Assembly Service Tutorial](/tutorial/genome_assembly/assembly) for instructions on uploading paired-end reads.
 
 ### Uploading single reads
 
-Please refer to the [Genome Assembly Service Tutorial](../genome_assembly/assembly.html) for instructions on uploading single-end reads.
+Please refer to the [Genome Assembly Service Tutorial](/tutorial/genome_assembly/assembly) for instructions on uploading single-end reads.
 
 ### Submitting reads that are present at the Sequence Read Archive (SRA)
 
-Please refer to the [Genome Assembly Service Tutorial](../genome_assembly/assembly.html) for instructions on submitting reads from the SRA.
+Please refer to the [Genome Assembly Service Tutorial](/tutorial/genome_assembly/assembly) for instructions on submitting reads from the SRA.
 
 ## Selecting a contig file interface for CGA
 
@@ -35,11 +35,11 @@ Please refer to the [Genome Assembly Service Tutorial](../genome_assembly/assemb
 
 ## Selecting a contig file interface for CGA
 
-Please refer to the [Genome Annotation Service Tutorial](../genome_annotation/genome_annotation.html) for instructions on selecting contigs for annotation.
+Please refer to the [Genome Annotation Service Tutorial](/tutorial/genome_annotation/genome_annotation) for instructions on selecting contigs for annotation.
 
 ## Setting Parameters for the Annotation part of the CGA
 
-Please refer to the [Genome Annotation Service Tutorial](../genome_annotation/genome_annotation.html) for instructions on selecting annotation parameters.
+Please refer to the [Genome Annotation Service Tutorial](/tutorial/genome_annotation/genome_annotation) for instructions on selecting annotation parameters.
 
 ## Submitting the CGA job
 
@@ -48,7 +48,7 @@ Please refer to the [Genome Annotation Service Tutorial](../genome_annotation/ge
 
 ## Finding the CGA job
 
-Please refer to the [Genome Annotation Service Tutorial](../genome_annotation/genome_annotation.html) for instructions on finding completed jobs.
+Please refer to the [Genome Annotation Service Tutorial](/tutorial/genome_annotation/genome_annotation) for instructions on finding completed jobs.
 
 ## CGA job results-Full Genome Report
 
@@ -87,7 +87,7 @@ Please refer to the [Genome Annotation Service Tutorial](../genome_annotation/ge
 
 ## Viewing the genome 
 
-Private genomes that have been annotated in BV-BRC or PATRIC can be viewed directly from the annotation job, or through the workspace, or by using the Global Search function. Please refer to the [Genome Annotation Service Tutorial](../genome_annotation/genome_annotation.html) for instructions on viewing the genome using the View, CDS or Browser icons.
+Private genomes that have been annotated in BV-BRC or PATRIC can be viewed directly from the annotation job, or through the workspace, or by using the Global Search function. Please refer to the [Genome Annotation Service Tutorial](/tutorial/genome_annotation/genome_annotation) for instructions on viewing the genome using the View, CDS or Browser icons.
 
 ## CGA job results-download files
 
@@ -134,7 +134,7 @@ The CGA service provides downloadable files and statistics for the assembly port
 1.	To view those files, double click on the row that has a checkered flag followed by the word assembly.
 ![Figure 29](./images/Picture29.png "Figure 29")
 
-2.	Additional details on the assembly results are available under “Viewing the Assembly job results” in the [Genome Assembly Service Tutorial](../genome_assembly/assembly.html).
+2.	Additional details on the assembly results are available under “Viewing the Assembly job results” in the [Genome Assembly Service Tutorial](/tutorial/genome_assembly/assembly).
 
 ## CGA job results-Annotation job
 
@@ -143,7 +143,7 @@ The CGA service provides downloadable files and statistics for the assembly port
 1.	To view those files, double click on the row that has a checkered flag followed by the word **annotation**.
 ![Figure 30](./images/Picture30.png "Figure 30")
 
-2.	Additional details on the annotation results are available under “Annotation job results” in the [Genome Annotation Service Tutorial](../genome_annotation/genome_annotation.html).
+2.	Additional details on the annotation results are available under “Annotation job results” in the [Genome Annotation Service Tutorial](/tutorial/genome_annotation/genome_annotation).
 
 ## References
 

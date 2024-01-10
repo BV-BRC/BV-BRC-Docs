@@ -8,8 +8,8 @@ The service returns a Newick file which can be rendered in the interactive Archa
 
 ### See also
 * [Gene Tree Service](https://bv-brc.org/app/GeneTree)
-* [Gene Tree Service Quick Reference Guide](../../quick_references/services/genetree.html)
-* [Archaeopteryx.js Tree Viewer Quick Reference Guide](../../quick_references/services/archaeopteryx.html)
+* [Gene Tree Service Quick Reference Guide](/quick_references/services/genetree)
+* [Archaeopteryx.js Tree Viewer Quick Reference Guide](/quick_references/services/archaeopteryx)
 
 ## Locating the service
 
@@ -108,7 +108,7 @@ Protein: LG, WAG, JTT, Blosum62, Dayhoff, HIVw, HIVb
 (Example Archaeopteryx.js image)
 ![Figure 19b](./images/Picture19b.png "Figure 19b")
 
-The [Archaeopteryx.js Tree Viewer Quick Reference Guide](../../quick_references/services/archaeopteryx.html) provides detailed information about its features and options. 
+The [Archaeopteryx.js Tree Viewer Quick Reference Guide](/quick_references/services/archaeopteryx) provides detailed information about its features and options. 
 
 7\.	Click on the tree_report.html file. This will populate the vertical green bar with several icons for downloading the data, viewing it, deleting or renaming the file, copying or sharing with another BV-BRC user, moving it to a different directory, or changing the type tagged to the file. To examine the tree_report.html, click on the View icon. 
 

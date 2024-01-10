@@ -4,7 +4,7 @@
 The Subsystems Tab provides access to a graphical display (pie chart) of subsystem superclasses asserted to a genome or a genome group. Each of the 11 superclasses of subsystems (Metabolism, Energy, Protein Processing etc.) can be expanded to their class and subclass levels. The Subsystems (green)- and Gene (yellow) counts provided in parenthesis link to tabular representations of the appropriate data.  
 
 ## See also
-  * [Subsystems](../organisms_taxon/subsystems.html)
+  * [Subsystems](/quick_references/organisms_taxon/subsystems)
 
 ## Accessing Subsystems
 The Subsystems Overview can be accessed by
@@ -62,7 +62,7 @@ After selecting one or more of the genomes by clicking the checkbox beside the G
 * **Group:** Opens a pop-up window to enable adding the selected subsystems to an existing or new group in the private workspace.
 * **Map:** Launches the Comparative Subsystems Heatmap, described below.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.
 
 ## Comparative Subsystems Heatmap
 The Heatmap is an interactive visualization tool, which provides an overview of the distribution of genomes across the set of functional roles defined by a subsystem. Patterns visible in a Heatmap can allow for many types of analysis such as, a bird’s-eye view of the conservation (or lack thereof) of particular functional roles of interest, discerning how many proteins have the same function within a single genome, and identifying proteins with multiple homologs or paralogs across a set of genomes. The Heatmap is accessible by selecting a Subsystem or Gene in the corresponding tables (described in this Quick Reference Guide) and then clicking the Map icon in the green action bar.

@@ -1039,6 +1039,8 @@ would see the following.
 
     resist_fids
 
+.. _cli_extracting_and_mining:
+
 Extracting and Mining Genome Typed Objects (GTOs)
 -------------------------------------------------
 

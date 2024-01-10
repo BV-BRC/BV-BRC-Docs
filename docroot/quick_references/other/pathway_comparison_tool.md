@@ -5,7 +5,7 @@ The Pathway Comparison Tool is based on the RASTtk (1) annotations. It allows re
 
 ## See also
   * [Comparative Systems Service](https://www.bv-brc.org/app/ComparativeSystems)
-  * [Comparative Systems Service Tutorial](../../tutorial/comparative_systems/comparative_systems.html)
+  * [Comparative Systems Service Tutorial](/tutorial/comparative_systems/comparative_systems)
 
 ## Accessing the Pathway Comparison Tool
 The Pathway Comparison Tool can be accessed by clickging the **Pathways** icon at the top right of the results page from a [Comparative Systems Service](https://www.bv-brc.org/app/ComparativeSystems) analysis job.
@@ -49,7 +49,7 @@ After selecting one or more of the rows in the table by clicking the checkbox on
 * **Features:** Displays the Features Table for the selected features. *Available only if multiple features are selected.*
 * **Map:** Opens the Pathway View, which includes an EC table and the corresponding KEGG pathway map.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.
 
 ## Pathway Viewers
 Selecting a pathway in the table and then clicking the **Map** button in the vertical green Action Bar on the right side of the table opens the Pathway View for that pathway. From this page there are two view options - **KEGG Map** and **Heatmap**.

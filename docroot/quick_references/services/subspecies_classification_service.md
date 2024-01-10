@@ -6,7 +6,7 @@ The subspecies classification tool assigns the genotype/subtype of a virus, base
 
 ## See Also
   * [Subspecies Classification Service](https://www.bv-brc.org/app/SubspeciesClassification)
-  * [Subspecies Classification Tutorial](../../tutorial/subspecies_classification/subspecies_classification.html)
+  * [Subspecies Classification Tutorial](/tutorial/subspecies_classification/subspecies_classification)
 
   ## Using the Subspecies Classification Service
   The **“Subspecies classification”** submenu (red arrow) under the **“SERVICES”** main menu (Viral Services category) opens the input form.

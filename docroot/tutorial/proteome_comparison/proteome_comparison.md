@@ -6,7 +6,7 @@ The Proteome Comparison service is based on the original Sequence-based Comparis
 
 ## Creating a folder to hold the Proteome Comparison job and related data
 
-Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on creating a folder in the workspace.
+Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly/assembly) for instructions on creating a folder in the workspace.
 
 ## Locating the Proteome Comparison App
 

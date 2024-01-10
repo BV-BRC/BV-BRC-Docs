@@ -4,9 +4,9 @@
 The Specialty Genes Tab provides a table of all the annotated "specialty genes" (virulence factors, antibiotic resistance genes, drug targets, human homologs, transporters, and essential genes) corresponding to the set of genomes in the selected Taxon View level or in the user-defined Genome Group.  From this page, features can be sorted, filtered, collected into groups, and downloaded. 
 
 ## See also
-  * [Specialty Genes](../data/data_types/specialty_genes.html)
-  * [Genome Annotations](../organisms_taxon/genome_annotations.html)
-  * [Features Tab](../organisms_taxon/features.html)
+  * [Specialty Genes](/quick_references/organisms_taxon/specialty_genes)
+  * [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
+  * [Features Tab](/quick_references/organisms_taxon/features)
 
 ## Accessing the Specialty Genes Table
 Clicking the Specialty Genes Tab in a Taxon View displays the Specialty  table (shown below), listing all the features annotated as Specialty Genes corresponding to the set of genomes in the selected taxon level.
@@ -26,7 +26,7 @@ BV-BRC identifies features as Specialty Genes via BLASTP-based sequence similari
 
 * **Essential Genes:** Mapped to essential genes (using flux-balance for Reference and Representative genomes, predicted using [flux-balance analysis](http://www.nature.com/nbt/journal/v28/n3/abs/nbt.1614.html).
 
-See [Specialty Genes](../data/data_types/specialty_genes.html) for additional information.
+See [Specialty Genes](/quick_references/organisms_taxon/specialty_genes) for additional information.
 
 
 ### Specialty Gene Table Tools
@@ -42,7 +42,7 @@ As with all tables, the Filters tool is available to narrow the display of the i
   
 ![Specialty Genes Filter Panel](../images/specialty_genes_filter_panel.png)
 
-Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the features displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel. More details are available in the [Tables and Filters](../tables.html) .
+Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurence.  Clicking on the filter values narrows the features displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel. More details are available in the [Tables and Filters](/quick_references/tables) .
 
 ### Action buttons
 
@@ -61,4 +61,4 @@ After selecting one or more of the features by clicking the checkbox beside the 
 * **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in which the selected features are found.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
-More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Selection Action Bar](/quick_references/action_bar) Quick Reference Guide.

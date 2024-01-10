@@ -5,8 +5,8 @@ The bacterial Protein Family Sorter Service tool enables researchers to examine 
 
 ## See also
 * [Protein Family Sorter Service](https://bv-brc.org/app/ProteinFamily)
-* [Comparing Protein Families Across Genomes Tutorial](../../tutorial/protein_family_sorter/protein_family_sorter.html)
-* [Protein Families Tab Quick Reference Guide](../organisms_taxon/protein_families.html)
+* [Comparing Protein Families Across Genomes Tutorial](/tutorial/protein_family_sorter/protein_family_sorter)
+* [Protein Families Tab Quick Reference Guide](/quick_references/organisms_taxon/protein_families)
 
 ## Using the Protein Family Sorter Service
 The **Protein Family Sorter** submenu option under the **Services** main menu (Protein Tools category) opens the Protein Family Sorter input form (*shown below*).
@@ -43,6 +43,6 @@ strains.
 Launches the Protein Family Sorter Service 
 
 ## Output Results
-Results from the service will be shown in a Protein Families Filter Tool and Table, shown below. See [Protein Families Tab](../organisms_taxon/protein_families.html) for a detailed description of how to use the Protein Family Sorter filters and heatmap.
+Results from the service will be shown in a Protein Families Filter Tool and Table, shown below. See [Protein Families Tab](/quick_references/organisms_taxon/protein_families) for a detailed description of how to use the Protein Family Sorter filters and heatmap.
 
 ![Protein Families Tab](../images/protein_families_tab.png)

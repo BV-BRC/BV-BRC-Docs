@@ -1,3 +1,5 @@
+:orphan:
+
 =========================
  Analyzing Genome Quality
 =========================
@@ -249,7 +251,7 @@ is close to one of the features.
 If you click on the feature links, you will be taken to the :doc:`/quick_references/organisms_gene/compare_region_viewer` for each feature, where the nature of the split is
 obvious. ``fig|85569.206.peg.350`` matches the beginning of the protein, while ``fig|85569.206.peg.4875`` matches the end.
 
-.. image:: images/compare_regions2.JPG
+.. image:: images/compare_regions2.jpg
 
 
 Contig Report

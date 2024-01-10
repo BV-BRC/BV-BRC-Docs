@@ -5,7 +5,7 @@ The Variation Analysis Service can be used to identify and annotate sequence var
 
 ## See also
 * [Variation Analysis Service](https://bv-brc.org/app/Variation)
-* [Variation Analysis Service Tutorial](../../tutorial/variation_analysis/variation_analysis.html)
+* [Variation Analysis Service Tutorial](/tutorial/variation_analysis/variation_analysis)
 
 ## Using the Variation Analysis Service
 The **Variation** submenu option under the **Services** main menu (Genomics category) opens the Variation Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
@@ -113,7 +113,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Move:** Allows moving of the file to another folder.
 * **Edit Type:** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
 1. Li, H. (2014) Towards better understanding of artifacts in variant calling from high-coverage samples. Bioinformatics, btu356.

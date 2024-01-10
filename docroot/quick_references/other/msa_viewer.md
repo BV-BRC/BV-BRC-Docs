@@ -4,8 +4,8 @@
 The Multiple Sequence Alignment (MSA) Viewer provides an interactive visualization of a nucleic acid or amino acid multiple sequence alignment with a linked interactive tree viewer. 
 
 ## See also
-  * [Features Tab](../organisms_taxon/features.html)
-  * [MSA and SNP/Variation Service Tutorial](../../tutorial/msa_snp_variation/msa_snp_variation.html)
+  * [Features Tab](/quick_references/organisms_taxon/features)
+  * [MSA and SNP/Variation Service Tutorial](/tutorial/msa_snp_variation/msa_snp_variation)
 
 ## Accessing the MSA Viewer
 The MSA Viewer can be accessed in two different ways:

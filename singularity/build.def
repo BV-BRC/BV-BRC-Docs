@@ -11,7 +11,7 @@ From: python:3.11.5-slim-bookworm
   apt update
 	apt-get -o DPkg::Options::="--force-confold" install nginx -y 
 	apt install -y make libenchant-2-2
-  pip install Sphinx==5.3.0 recommonmark sphinx_rtd_theme sphinxcontrib-newsfeed sphinxcontrib-spelling sphinxcontrib.httpdomain
+  pip install Sphinx==5.3.0 recommonmark sphinx_rtd_theme sphinxcontrib-newsfeed sphinxcontrib-spelling sphinxcontrib.httpdomain myst-parser
 
 %apprun build
 	cd /doc_repo/docroot

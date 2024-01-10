@@ -19,7 +19,7 @@ Additional details are presented below.
 
 <hr>
 
-<a name="data"></a>
+(data)=
 ## Viral Data
 
 As in ViPR, viral data in BV-BRC are organized by families, with additional links to subsets of featured viruses including Influenza A (focus of IRD), Dengue, Ebolavirus, Enterovirus, Hepatitis C, Lassa mammarenavirus, SARS-CoV-2, Zika, and bacteriophages.
@@ -60,11 +60,11 @@ Clicking on the Data Tabs (e.g., "Genomes") will display a list of all of the da
 
 ![Coronaviridae Genomes tab](./images/bv_coronaviridae_genomes_tab.png)
 
-Detailed instructions for using the Taxon-level data pages is available from the [BV-BRC Organisms Quick Reference Guide](../quick_references/organisms_menu.html).
+Detailed instructions for using the Taxon-level data pages is available from the [BV-BRC Organisms Quick Reference Guide](/quick_references/organisms_menu).
 
 <hr>
 
-<a name="searches"></a>
+(searches)=
 ## Searches
 
 Similar to IRD and ViPR, BV-BRC provides searches to facilitate rapide direct access to viral data of interest. Two types of searches are provided: **Global Search** and **Advanced Searches**.
@@ -84,7 +84,7 @@ The Global Search provides optional filters for data types and search term optio
 
 ![Global Search Options](./images/bv_global_search_options.png)
 
-Detailed instructions for using the Global Search are available from the [BV-BRC Global Search Quick Reference Guide](../quick_references/global_search.html).
+Detailed instructions for using the Global Search are available from the [BV-BRC Global Search Quick Reference Guide](/quick_references/global_search).
 
 ### Advanced Searches
 The *BV-BRC* **Advanced Searches** provide fine-grained searches based on data type and metadata values, similar to the *IRD/ViPR* **Search Tools** (available from the [IRD/ViPR Search Tools page](https://www.fludb.org/brc/search_landing.spg?decorator=influenza), below). Some searches have been deprecated based on limited usage and available data.
@@ -105,7 +105,7 @@ Clicking on one of the Advanced Searches (e.g., "Strains") opens a search form w
 
 ![Strain Advanced Search](./images/bv_strain_search.png)
 
-Detailed instructions for using the Advanced Searches are available from the [BV-BRC Advanced Searches Quick Reference Guide](../quick_references/advanced_searches.html).
+Detailed instructions for using the Advanced Searches are available from the [BV-BRC Advanced Searches Quick Reference Guide](/quick_references/searches_menu).
 
 The table below provides a mapping of the IRD/ViPR Search Tools to corresponding BV-BRC Advanced Searches. 
 
@@ -174,7 +174,7 @@ The table below provides a mapping of the IRD/ViPR Search Tools to corresponding
 
 <hr>
 
-<a name="tools"></a>
+(tools)=
 ## Analysis Tools
 
 Similar to IRD and ViPR, BV-BRC provides tools and visualizations to enable  researchers to perform in-depth analyses and exploration of their own data and in combination with BV-BRC data. BV-BRC integrates the most used analysis tools In *IRD/ViPR* (available from the [IRD/ViPR Analysis Tools page](https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza), below).
@@ -199,7 +199,7 @@ Most analysis tools in BV-BRC are implemented as computational "services" that u
 
 ![Job Status Page](./images/bv_job_status_page.png)
 
-The [Tools & Services Quick Reference Guide](../quick_references/services_menu.html) provides an overview available tools. The table below provides a mapping of the IRD/ViPR Search Tools to corresponding BV-BRC Advanced Searches. 
+The [Tools & Services Quick Reference Guide](/quick_references/services_menu) provides an overview available tools. The table below provides a mapping of the IRD/ViPR Search Tools to corresponding BV-BRC Advanced Searches. 
 
 <table style="width:100%">
   <tr>
@@ -273,7 +273,7 @@ The [Tools & Services Quick Reference Guide](../quick_references/services_menu.h
 
 <hr>
 
-<a name="workbench"></a>
+(workbench)=
 ## Workbench
 
 Similar to the [IRD/ViPR Workbench](https://www.fludb.org/brc/workbench_landing.spg?decorator=influenza&method=WorkbenchDetail) (shown below), BV-BRC provides a private **Workspace**, where users can upload their own data, perform analyses with BV-BRC Tools, compare their data with other data in BV-BRC, and share their data via shared and public workspaces. 
@@ -302,4 +302,4 @@ Also, users can create **Groups** of genomes, features (genes), and other data t
 
 ![BV-BRC Workspace](./images/bv_workspace_groups.png)
 
-Detailed information on using the BV-BRC Workspace can be found in the [Workspace, Private Data, Groups, Jobs Quick Reference Guides](../quick_references/workspace_groups_upload.html).
+Detailed information on using the BV-BRC Workspace can be found in the [Workspace, Private Data, Groups, Jobs Quick Reference Guides](/quick_references/workspace_groups_upload).

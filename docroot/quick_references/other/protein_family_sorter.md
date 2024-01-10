@@ -5,7 +5,7 @@ The Protein Family Sorter (PFS) allows users to select a set of genomes of inter
 
 ## See also
   * [Comparative Systems Service](https://www.bv-brc.org/app/ComparativeSystems)
-  * [Comparative Systems Service Tutorial](../../tutorial/comparative_systems/comparative_systems.html)
+  * [Comparative Systems Service Tutorial](/tutorial/comparative_systems/comparative_systems)
   * [Protein Families]
 
 ## Accessing the Protein Family Sorter
@@ -71,7 +71,7 @@ After selecting one or more of the protein families by clicking the checkbox bes
 * **Members:** Displays a list of all of the features in the selected protein family within the current genome or taxonomic level.
 * **Group:** Opens a pop-up window to enable adding the selected genomes or features to an existing or new group in the private workspace.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.
 
 ### Heatmap View
 
@@ -120,4 +120,4 @@ The following options may be accessed from a pop-up widow by clicking on any ind
 * **Add Proteins to Group:** button will save selected items to new, or existing, groups within the Workspace. 
 * **Cancel:** Closes the pop-up window.
 
-The [Comparative Systems Service Tutorial](../../tutorial/comparative_systems/comparative_systems.html) provides additional information and guidance in using the Protein Family Sorter.
+The [Comparative Systems Service Tutorial](/tutorial/comparative_systems/comparative_systems) provides additional information and guidance in using the Protein Family Sorter.

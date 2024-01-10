@@ -7,11 +7,11 @@ Some transcriptomics data has been curated from published gene expression datase
 
 ## See also
   * Examining Transcriptomics Data Tutorial
-  * [Transcriptomics Gene List](../organisms_taxon/transcriptomics_gene_list.html)
-  * [Transcriptomics Gene List Heatmap](../organisms_taxon/transcriptomics_gene_heatmap.html)
-  * [Transcriptomics Gene Page](../organisms_gene/transcriptomics.html)
-  * [Correlated Genes](../organisms_gene/correlated_genes.html)
-  * [Expression Data Import Service](../services/expression_data_import_service.html)
+  * [Transcriptomics Gene List](/quick_references/organisms_taxon/transcriptomics_gene_list)
+  * [Transcriptomics Gene List Heatmap](/quick_references/organisms_taxon/transcriptomics_gene_heatmap)
+  * [Transcriptomics Gene Page](/quick_references/organisms_gene/transcriptomics)
+  * [Correlated Genes](/quick_references/organisms_gene/correlated_genes)
+  * [Expression Data Import Service](/quick_references/services/expression_data_import_service)
 
 ## Accessing the Experiments and Conditions Tables
 Clicking the Transcriptomics Tab in a Taxon View displays the Experiments Table (shown below), listing all the studies or datasets that contain one or more samples or experimental conditions corresponding to the selected taxon level.
@@ -46,10 +46,10 @@ After selecting one or more of the experiments by clicking the checkbox beside t
 * **Copy:** Copies the selected items to the clipboard.
 * **Experiment:** Opens the Experiment Overview page that provides a detailed description of the experiment. *Available only if one experiment is selected.*  Also provides a tab for accessing the associated Comparisons.
 * **Experiments:** Opens the Experiments Table, containing the selected Experiments.  *Available only if more than one sequence is selected.*  Also provides a tab for accessing the associated Comparisons.
-* **Genes:** Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page.  See [Transcriptomics Genes](../organisms_gene/transcriptomics.html) Quick Reference Guide for information on this page.
+* **Genes:** Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page.  See [Transcriptomics Genes](/quick_references/organisms_gene/transcriptomics) Quick Reference Guide for information on this page.
 * **Group:** Opens a pop-up window to enable adding the selected experiments to an existing or new group in the private workspace.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.
 
 ### Comparisons Table
 
@@ -73,4 +73,4 @@ After selecting one or more of the experiments by clicking the checkbox beside t
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
 * **Download:**  Downloads the selected items (rows).
 * **Copy:** Copies the selected items to the clipboard.
-* **Genes:** Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page.  See [Transcriptomics Gene List](../organisms_taxon/transcriptomics_gene_list.html) Quick Reference Guide for information on this page.
+* **Genes:** Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page.  See [Transcriptomics Gene List](/quick_references/organisms_taxon/transcriptomics_gene_list) Quick Reference Guide for information on this page.

@@ -5,8 +5,8 @@ The bacterial Phylogenetic Tree Service enables construction of custom phylogene
 
 ## See also
 * [Phylogenetic Tree Service](https://bv-brc.org/app/PhylogeneticTree)
-* [Phylogenetic Tree Service Tutorial](../../tutorial/phylogenetic_tree/phylogenetic_tree.html)
-* [Phylogeny Tab Quick Reference Guide](../organisms_taxon/phylogeny.html)
+* [Phylogenetic Tree Service Tutorial](/tutorial/phylogenetic_tree/phylogenetic_tree)
+* [Phylogeny Tab Quick Reference Guide](/quick_references/organisms_taxon/phylogeny)
 
 ## Using the Phylogenetic Tree Building Service
 The **Phylogenetic Tree** submenu option under the **Services** main menu (Genomics category) opens the Phylogenetic Tree input form (shown below). *Note: You must be logged in to use this service.*
@@ -15,7 +15,7 @@ The **Phylogenetic Tree** submenu option under the **Services** main menu (Genom
 
 ## Method: Codon Tree
 
-The **Codon Tree** method utilizes BV-BRC [PGFams](../organisms_taxon/protein_families.html) as homology groups and analyzes aligned proteins and coding DNA from single-copy genes using the program [RAxML](https://academic.oup.com/bioinformatics/article/22/21/2688/251208). Up to 100 genomes can be analyzed.
+The **Codon Tree** method utilizes BV-BRC [PGFams](/quick_references/organisms_taxon/protein_families) as homology groups and analyzes aligned proteins and coding DNA from single-copy genes using the program [RAxML](https://academic.oup.com/bioinformatics/article/22/21/2688/251208). Up to 100 genomes can be analyzed.
 
 ![Phylogenetic Tree Input Form - Codon Tree](../images/phylogenetic_tree_input_form_codon_v3.png)
 
@@ -42,7 +42,7 @@ The selection of “single-copy” genes can be made more lenient by allowing on
 
 ![Phylogenetic Tree View Icon](../images/phylogenetic_tree_view_icon.png)
 
-Clicking on the View icon at the upper right portion of the job result page will display the Phylogenetic Tree Viewer. See the [Phylogeny Tab Quick Reference Guide](../organisms_taxon/phylogeny.html) for details about this viewer.  
+Clicking on the View icon at the upper right portion of the job result page will display the Phylogenetic Tree Viewer. See the [Phylogeny Tab Quick Reference Guide](/quick_references/organisms_taxon/phylogeny) for details about this viewer.  
 
 ### Codon Tree Method
 
@@ -89,7 +89,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Move** Allows moving of the file to another folder.
 * **Edit Type** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
 

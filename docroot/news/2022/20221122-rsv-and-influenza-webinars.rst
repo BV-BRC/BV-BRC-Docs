@@ -24,8 +24,8 @@ Registration is free and open to all.
 
 | **November 29, 2022** (8:30 AM - 10:00 AM (UTC-08:00) Pacific Time)
 | *Finding and Analyzing RSV Data in the BV-BRC*
-| `Registration <https://teams.microsoft.com/registration/8WfZJNg-SES6plYOxXKssw,AJkK0CmkKEGUEXKyRbCvQg,TYu45NWMGk2twb7xvkq5yA,b_MrO8f2F0SQlFbu8OU0dA,xfV2vcX8BUS5fnuYBYpdbA,VTPoSsuVLkmKnY50HK9Osw?mode=read&tenantId=24d967f1-3ed8-4448-baa6-560ec572acb3>`_
+| `Registration <https://teams.microsoft.com/registration/8WfZJNg-SES6plYOxXKssw,AJkK0CmkKEGUEXKyRbCvQg,TYu45NWMGk2twb7xvkq5yA,b_MrO8f2F0SQlFbu8OU0dA,xfV2vcX8BUS5fnuYBYpdbA,VTPoSsuVLkmKnY50HK9Osw?mode=read&tenantId=24d967f1-3ed8-4448-baa6-560ec572acb3>`__
 
 | **December 13, 2022** (8:30 AM - 10:00 AM (UTC-08:00) Pacific Time)
 | *Finding and Analyzing Influenza Data in the BV-BRC*
-| `Registration <https://teams.microsoft.com/registration/8WfZJNg-SES6plYOxXKssw,AJkK0CmkKEGUEXKyRbCvQg,TYu45NWMGk2twb7xvkq5yA,FemxHCDcmk-SfG8FFIAfnw,8pexGm8LWEaowJbk_e8Yeg,yQnoJy9T00a7Pf5xdrIh5w?mode=read&tenantId=24d967f1-3ed8-4448-baa6-560ec572acb3>`_
+| `Registration <https://teams.microsoft.com/registration/8WfZJNg-SES6plYOxXKssw,AJkK0CmkKEGUEXKyRbCvQg,TYu45NWMGk2twb7xvkq5yA,FemxHCDcmk-SfG8FFIAfnw,8pexGm8LWEaowJbk_e8Yeg,yQnoJy9T00a7Pf5xdrIh5w?mode=read&tenantId=24d967f1-3ed8-4448-baa6-560ec572acb3>`__

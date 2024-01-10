@@ -1,7 +1,7 @@
 Acknowledgements
 ================
 
-This page lists the data sources and third party software tools used in PATRIC. Click [here](./publications.html) for a list of PATRIC joint publications with other Scientific Collaborators.
+This page lists the data sources and third party software tools used in PATRIC. Click [here](publications) for a list of PATRIC joint publications with other Scientific Collaborators.
 
 ## Data Sources Used by PATRIC
 
@@ -106,5 +106,3 @@ Expectation)](http://www.ebi.ac.uk/Tools/msa/muscle/)
 
 [OrthoMCL](http://www.orthomcl.org/)
 
-
-[PATRIC Data Release Policy](./data_release_policy.html)

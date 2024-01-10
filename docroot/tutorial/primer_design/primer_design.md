@@ -8,7 +8,7 @@ The Primer Design Service in the Bacterial and Viral Bioinformatics Resource Cen
  
 ### See also
 * [Primer Design Service](https://bv-brc.org/app/PrimerDesign)
-* [Primer Design Service Quick Reference Guide](../../quick_references/services/primer_design_service.html)
+* [Primer Design Service Quick Reference Guide](/quick_references/services/primer_design_service)
 
 ## Locating the service
 
@@ -32,7 +32,7 @@ Users have the option to input files either through pasting in a relevant nuclei
 
 ![Figure 3](./images/Picture3.png "Figure 3")
 
-If users would like to upload a file to their workspace, they can select the **“Workspace FASTA”** option, and click on the file folder icon to select their file for upload (red arrow below). For more information on how to upload files, please see the [Uploading Data](../../quick_references/workspaces/data_upload.html) documentation. 
+If users would like to upload a file to their workspace, they can select the **“Workspace FASTA”** option, and click on the file folder icon to select their file for upload (red arrow below). For more information on how to upload files, please see the [Uploading Data](/quick_references/workspaces/data_upload) documentation. 
 
 ![Figure 4](./images/Picture4.png "Figure 4")
 

@@ -4,8 +4,8 @@
 On the right side of all tables, there is a vertical, green-colored Selection Action Bar, with buttons that provide a set of available "actions" (data links, tools, etc.) that can be performed on the item or items selected in the table.
 
 ## See also:
-  * [Website Views](./website_views.html)
-  * [Tables](./tables.html)
+  * [Website Views](/quick_references/website_views)
+  * [Tables](/quick_references/tables)
 
 ## Accessing the Selection Action Bar
 The Selection Action Bar appears on the right side of all tables.  

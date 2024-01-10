@@ -5,8 +5,8 @@ The Multiple Sequence Alignment (MSA) and Single Nucleotide Polymorphism (SNP)/V
 
 ## See also
 * [MSA and SNP/Variation Analysis Service](https://bv-brc.org/app/MSA)
-* [MSA and SNP/Variation Analysis Service Tutorial](../../tutorial/msa_snp_variation/msa_snp_variation.html)
-* [MSA Viewer](../other/msa_viewer.html)
+* [MSA and SNP/Variation Analysis Service Tutorial](/tutorial/msa_snp_variation/msa_snp_variation)
+* [MSA Viewer](/quick_references/other/msa_viewer)
 
 ## Using the Multiple Sequence Alignment and Variation/SNP Analysis Service
 The **Multiple Sequence Alignment** submenu option under the **"SERVICES"** main menu (Viral Services category) opens the MSA and SNP/Variation Service input form. *Note: You must be logged into BV-BRC to use this service.*
@@ -77,14 +77,14 @@ After selecting one of the output files by clicking it, a set of options becomes
   - **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
   - **Guide:** Links to the corresponding Quick Reference guide
   - **Download:** Downloads the selected item.
-  - **MSA:** Displays the aligned FASTA directly on the BV-BRC site with the [MSA Viewer](../other/msa_viewer.html).  
+  - **MSA:** Displays the aligned FASTA directly on the BV-BRC site with the [MSA Viewer](/quick_references/other/msa_viewer).  
   - **View:** Displays the content of the file, typically as plain text or rendered html, depending on filetype.
   - **Delete:** Deletes the file.
   - **Rename:** Allows renaming of the file.
   - **Copy:** Copies the selected items to the clipboard.
   - **Move:** Allows moving of the file to another folder.
   
-More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Selection Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
 1.	 Katoh K., Misawa K., Kuma K., Miyata T. MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform. Nucleic Acids Res. 2002;30:3059–3066. 

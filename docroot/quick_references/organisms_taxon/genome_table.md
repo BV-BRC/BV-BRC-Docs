@@ -4,15 +4,15 @@
 The Genomes Tab provides a list of all the genomes and associated metadata in corresponding to the selected Taxon View level or for the user-defined Genome Group. From this page, genomes can be sorted, filtered, collected into groups, and downloaded. 
 
 ## See also
-  * [Genome Annotations](../organisms_taxon/genome_annotations.html)
-  * [Genome Metadata](../organisms_taxon/genome_metadata.html)
+  * [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
+  * [Genome Metadata](/quick_references/organisms_taxon/genome_metadata)
 
 ## Accessing the Genomes Tab
 Clicking the Genomes Tab in a Taxon View displays the Genome Table, listing of all of the genomes and associated metadata in corresponding to the selected Taxon View level or for the user-defined Genome Group. 
 
 ![Genomes Table](../images/genomes_list.png)
 
-The genomes in the table include associated metadata information regarding the organism, isolate, host, sequence, phenotype, project, and other.  A complete description of the metadata fields is available in the [Genome Metadata](../organisms_taxon/genome_metadata.html) Quick Reference Guide.
+The genomes in the table include associated metadata information regarding the organism, isolate, host, sequence, phenotype, project, and other.  A complete description of the metadata fields is available in the [Genome Metadata](/quick_references/organisms_taxon/genome_metadata) Quick Reference Guide.
 
 ### Genomes Table Tools
 Within this table you may do the following:
@@ -40,4 +40,4 @@ After selecting one or more of the genomes by clicking the checkbox beside the G
 * **Genomes:** Reloads the Genomes Table in the Genome List View, listing only the genomes that were selected.
 * **Group:** Opens a pop-up window to enable adding the selected genomes to an existing or new group in the private workspace.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.

@@ -1,9 +1,11 @@
+:orphan:
+
 ===============================
  Finding the Roles in a Genome
 ===============================
 
 In this tutorial, we will show how to isolate the functional assignments for a particular genome.
-To begin, select the desired genome and navigate to the :doc:`/user_guides/organisms_genome/overview`.
+To begin, select the desired genome and navigate to the :doc:`/quick_references/organisms_genome/overview`.
 
 We want to eliminate hypothetical proteins from consideration, so we want a list of the features with
 functional assignments.  To get that list, click on the number next to *Proteins with functional assignments*

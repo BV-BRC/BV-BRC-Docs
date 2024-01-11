@@ -4,10 +4,10 @@
 The private Workspace provides a private area in the website for uploading data, running analysis services on the data, storing the analysis results, and managing groups of data created within the website.
 
 ## See also:
-  * [Groups](../workspaces/groups.html)
-  * [Data Upload](../workspaces/data_upload.html)
-  * [Registration](../registration.html)
-  * [Services and Tools](../services_tab.html)
+  * [Groups](/quick_references/workspaces/groups)
+  * [Data Upload](/quick_references/workspaces/data_upload)
+  * [Registration](/quick_references/registration)
+  * [Services and Tools](/quick_references/services_menu)
 
 ## Accessing the Workspace
 Registration is required to use the Workspace. The registration link is at the top right corner of the website. If you have already registered, clicking the Login button beside the registration link will display the Login page. 
@@ -30,7 +30,7 @@ Generally, within the Workspace, you can Upload files, Add Folders, and Show Hid
 ![Workspace Tools](../images/workspace_tools.png)
 
 ### Upload
-See [Data Upload](../workspaces/data_upload.html) for details.
+See [Data Upload](/quick_references/workspaces/data_upload) for details.
 
 ### Add Folder
 Initially, the home Workspace is pre-populated with several folders that correspond to common data types and are the default locations for data of those type, listed below. Additional custom folders can be created using the Add Folder button at the top right of the workspace table.

@@ -5,10 +5,10 @@ The bacterial Comprehensive Genome Analysis Service provides a streamlined analy
 
 ## See also
   * [Comprehensive Genome Analysis Service](https://bv-brc.org/app/ComprehensiveGenomeAnalysis)
-  * [Comprehensive Genome Analysis Service Tutorial](../../tutorial/comprehensive_genome_analysis/comprehensive_genome_analysis.html)
-  * [Genome Assembly Service Quick Reference Guide](./genome_assembly_service.html)
-  * [Genome Annotation Service Quick Reference Guide](./genome_annotation_service.html)
-  * [Phylogenetic Tree Building Service Quick Reference Guide](./phylogenetic_tree_building_service.html)
+  * [Comprehensive Genome Analysis Service Tutorial](/tutorial/comprehensive_genome_analysis/comprehensive_genome_analysis)
+  * [Genome Assembly Service Quick Reference Guide](/quick_references/services/genome_assembly_service)
+  * [Genome Annotation Service Quick Reference Guide](/quick_references/services/genome_annotation_service)
+  * [Phylogenetic Tree Building Service Quick Reference Guide](/quick_references/services/phylogenetic_tree_building_service)
 
 
 ## Using the Comprehensive Genome Analysis Service
@@ -75,10 +75,6 @@ The assembly service also provides the ability to change the minimum contig leng
 ### Domain
 The taxonomic domain of the target organism: bacteria or archaea.
 
-### Taxonomy Name
-Taxon must be specified at the genus level or below to get the latest
-protein family predictions.
-
 ### Taxonomy ID
 Auto-populated after entering Taxonomy Name. If a Taxonomy ID is entered, auto-populates the Taxonomy Name
 
@@ -90,6 +86,10 @@ The workspace folder where results will be placed.
 
 ### Output Name
 Name used to uniquely identify results.
+
+## Taxonomy Name
+Taxon must be specified at the genus level or below to get the latest
+protein family predictions.
 
 ## Output Results
 ![Comprehensive Genome Analysis Output Files](../images/cga_service_output_files.png)

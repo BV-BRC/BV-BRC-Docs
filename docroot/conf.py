@@ -31,7 +31,10 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark', 'sphinxcontrib.newsfeed', 'sphinxcontrib.spelling', 'sphinxcontrib.httpdomain']
+extensions = ['myst_parser', 'sphinxcontrib.newsfeed', 'sphinxcontrib.spelling', 'sphinxcontrib.httpdomain']
+#extensions = ['recommonmark', 'sphinxcontrib.newsfeed', 'sphinxcontrib.spelling', 'sphinxcontrib.httpdomain']
+
+myst_heading_anchors = 2
 
 # spelling check extension
 spelling_lang='en_US'
@@ -72,7 +75,7 @@ release = ''
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = "en"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -91,7 +94,7 @@ todo_include_todos = False
 # Custom Theme styles to match BV-BRC main styles
 
 def setup(app):
-    app.add_stylesheet('css/custom.css')
+    app.add_css_file('css/custom.css')
 
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -185,4 +188,20 @@ texinfo_documents = [
 ]
 
 
+
+
+#
+# Workaround for warnings seen on build
+# cf https://github.com/mitre/fieldmanual/pull/37
+#
+
+from recommonmark.parser import CommonMarkParser
+def visit_document(*_):
+     pass
+
+
+# Removes irrelevant warning messages during md file parsing.
+# REF: https://github.com/readthedocs/recommonmark/issues/177
+# Hopefully will be unnecessary in the future (when recommonmark > 0.6.0 exists)
+setattr(CommonMarkParser, 'visit_document', visit_document)
 

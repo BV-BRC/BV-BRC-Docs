@@ -5,7 +5,7 @@ The Primer Design Service utilizes Primer3[1-5] to design primers from a given i
 
 ## See also
 * [Primer Design Service](https://bv-brc.org/app/PrimerDesign)
-* [Primer Design Service Tutorial](../../tutorial/primer_design/primer_design.html)
+* [Primer Design Service Tutorial](/tutorial/primer_design/primer_design)
 
 ## Using the Primer Design Service
 
@@ -13,7 +13,7 @@ The **Primer Design** submenu option under the **"SERVICES"** main menu (Viral S
 
 ![Primer design menu option](../images/bv_services_menu.png) 
 
-### Parameters
+## Parameters
 
 Once the primer design service has been selected, users will be directed to the Primer Design landing page as shown below. 
 
@@ -49,7 +49,27 @@ If you would like to design a hybridization probe to detect the PCR product afte
 
 **Primer Overlap Positions:** Values should be space separated list of positions, The forward OR reverse primer will overlap one of these positions. These values will be denoted with “-” symbol. 
 
-### Output
+## Product Size Ranges
+
+Minimum, Optimum, and Maximum lengths (in bases) of the PCR product. Primer3 will not generate primers with products shorter than Min or longer than Max, and with default arguments Primer3 will attempt to pick primers producing products close to the Optimum length.
+
+## Primer Size
+
+Minimum, Optimum, and Maximum lengths (in bases) of a primer oligo. Primer3 will not pick primers shorter than Min or longer than Max, and with default arguments will attempt to pick primers close with size close to Opt. Min cannot be smaller than 1. Max cannot be larger than 36. (This limit is governed by maximum oligo size for which melting-temperature calculations are valid.) Min cannot be greater than Max.
+
+## Excluded Regions
+
+OR: mark the source sequence with < and >: e.g. ...ATCT<CCCC>TCAT.. forbids primers in the central CCCC.
+
+## Target Region
+
+OR: mark the source sequence with [ and ]: e.g. ...ATCT[CCCC]TCAT.. means that primers must flank the central CCCC
+
+## Included Regions
+
+OR: use { and } in the source sequence to mark the beginning and end of the included region: e.g. in ATC{TTC...TCT}AT the included region is TTC...TCT
+
+## Output
 
 *Output options can be specified using the parameters shown below:*  
 
@@ -137,7 +157,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 
 * **Move:** Allows moving of the file to another folder.
 
-More details are available in the [Selection Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Selection Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
 

@@ -5,7 +5,7 @@ The Taxonomic Classification Service accepts reads or SRR values from sequencing
 
 ## See also
   * [Taxonomic Classification Service](https://bv-brc.org/app/TaxonomicClassification)
-  * [Taxonomic Classification Service Tutorial](../../tutorial/taxonomic_classification/taxonomic_classification.html)
+  * [Taxonomic Classification Service Tutorial](/tutorial/taxonomic_classification/taxonomic_classification)
 
 ## Using the Taxonomic Classification Service
 The **Taxonomic Classification** submenu option under the **Services** main menu (Metagenomics category) opens the Taxonomic Classification input form (shown below). *Note: You must be logged into BV-BRC to use this service.*
@@ -230,7 +230,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Copy:** Copies the selected items to the clipboard.
 * **Move** Allows moving of the file to another folder.
 
-More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
  * Anderson MJ, Ellingsen KE, McArdle BH. Multivariate dispersion as a measure of beta diversity. Ecol Lett. 2006. June;9(6):683–93. 10.1111/j.1461-0248.2006.00926.

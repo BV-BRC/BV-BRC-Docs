@@ -1,3 +1,5 @@
+:orphan:
+
 Reconstructing Genomes from Metagenomic Samples Using the RAST Binning Service (RBS)
 ====================================================================================
 

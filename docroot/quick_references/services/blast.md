@@ -5,7 +5,7 @@ The BLAST service integrates the BLAST (Basic Local Aligment Search Tool) algori
 
 ## See also
 * [BLAST Service](https://www.bv-brc.org/app/Homology)
-* [BLAST Service Tutorial](../../tutorial/blast/blast.html)
+* [BLAST Service Tutorial](/tutorial/blast/blast)
 
 ## Using the BLAST Service
 The **BLAST** submenu option under the **Services** main menu (Genomics category) opens the BLAST input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
@@ -121,7 +121,7 @@ After selecting one of the output files by clicking it, or selecting a set of re
 * **Genome:** Loads the Genome View Overview page corresponding to the selected feature.  *Available only if a single feature is selected.*
 * **Genomes:** Loads the Genomes Table, listing the genomes that correspond to the selected features. *Available only if multiple features are selected.*
 
-More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
 

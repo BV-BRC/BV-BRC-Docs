@@ -5,7 +5,7 @@ The bacterial Model Reconstruction Service integrates and augments technologies 
 
 ## See also
 * [Model Reconstruction Service](https://bv-brc.org/app/Reconstruct)
-* [Metabolic Model Reconstruction Service Tutorial](../../tutorial/metabolic_model_reconstruction/metabolic_model_reconstruction.html)
+* [Metabolic Model Reconstruction Service Tutorial](/tutorial/metabolic_model_reconstruction/metabolic_model_reconstruction)
 
 ## Using the Model Reconstruction Service
 The **Model Reconstruction** submenu option under the **Services** main menu (Metabolomics category) opens the Reconstruct Metabolic Model input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.* The Model Reconstruction service is also available via the BV-BRC Command Line Interface (CLI).
@@ -58,7 +58,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Guide:** Link to the corresponding Quick Reference Guide.
 * **Download:**  Downloads the selected item.
 
-More details are available in the [Action Buttons](../action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.
 
 ### ModelSEED Model Viewer
 ![Model Reconstruction Service View Icon](../images/model_reconstruction_view_icon.png)

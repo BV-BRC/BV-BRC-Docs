@@ -11,8 +11,7 @@ The following short videos provide a brief overview of the BV-BRC website and ho
 
 **All videos are also availble on the [BV-BRC YouTube Channel](https://www.youtube.com/channel/UCDkT2ZCWhK3GBtm5R-o1J4A).**
 
-
-<a name="intro"></a>
+(intro)=
 ## Introduction
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rb3d6fJ1Yxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -20,7 +19,7 @@ The following short videos provide a brief overview of the BV-BRC website and ho
 **BV-BRC Introduction (6:15)** - Brief introduction to the BV-BRC and overview of key features.
 
 
-<a name="search"></a>
+(search)=
 ## Searching for Data
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NB5tvu1YDkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -28,7 +27,7 @@ The following short videos provide a brief overview of the BV-BRC website and ho
 **Searching for Data in BV-BRC (5:15)** - Demo using Global and Advanced Search in BV-BRC to find data of interest.
 
 
-<a name="filters"></a>
+(filters)=
 ## Filtering Data
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q-UBdYnizN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -36,7 +35,7 @@ The following short videos provide a brief overview of the BV-BRC website and ho
 **Filtering on Tabular Results in BV-BRC (5:00)** - Overview of using filters to narrow down to data of interest in BV-BRC.
 
 
-<a name="jobs"></a>
+(jobs)=
 ## Submitting Analysis Jobs
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fxDgVQ8h_Ic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -44,7 +43,7 @@ The following short videos provide a brief overview of the BV-BRC website and ho
 **Submitting a Job to BV-BRC Annotation Service (6:40)** - Quick demo of how to annotate a bacterial genome using BV-BRC.
 
 
-<a name="results"></a>
+(results)=
 ## Viewing Results of Analysis Jobs
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ye3P02qZZU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -52,7 +51,7 @@ The following short videos provide a brief overview of the BV-BRC website and ho
 **Viewing a Completed Annotation Job in BV-BRC (5:41)** - Demo of reviewing the results of performing bacterial genome annotation in BV-BRC.
 
 
-<a name="workspace"></a>
+(workspace)=
 ## Workspace and Sharing
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7-ypDbAhqiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

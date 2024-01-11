@@ -1,16 +1,10 @@
 [   
     {
-        "title": "BV-BRC Workshop at Argonne National Laboratory, June 26-30, 2023",
-        "desc": "The BV-BRC team will be offering a Bioinformatics Workshop on June 26-30, 2023, at Argonne National Laboratory in the suburbs of Chicago, IL.",
-        "img": "https://www.bv-brc.org/docs/_images/bv-brc-jun-workshop-anl.jpg",
-        "link": "https://www.bv-brc.org/docs/news/2023/2023-03-02-bv-brc-workshop-anl.html"   
+        "title": "BV-BRC Viral Pathogen Data Webinar Series",
+        "desc": "The BV-BRC team will be offering a bi-weekly Bioinformatics Webinar Series, showing how to explore and analyze viral pathogen data using BV-BRC.",
+        "img": "https://www.bv-brc.org/docs/_images/viral_pathogen_webinars.png",
+        "link": "https://www.bv-brc.org/docs/news/2023/2023-10-16-viral-data-webinar-series.html"   
     },       
-    {
-        "title": "FULL: BV-BRC Workshop at the University of Virginia, April 25-27, 2023",
-        "desc": "The BV-BRC team will be offering a Bioinformatics Workshop on April 25-27, 2023, at the University of Virginia (UVA) in Charlottesville, VA.",
-        "img": "https://www.bv-brc.org/docs/_images/bv-brc-workshop-uva-20221.gif",
-        "link": "https://www.bv-brc.org/docs/news/2023/2023-01-02-bv-brc-workshop-uva.html"   
-    },
     {
         "title": "BV-BRC Quick Start Guides",
         "desc": "Quick start guides and short video tutorials designed to orient new users as well as users from the legacy PATRIC, IRD and ViPR resources to the new BV-BRC Resource.",

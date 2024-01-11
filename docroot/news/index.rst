@@ -10,6 +10,8 @@ News and Announcements
    :link: https://www.bv-brc.org/docs/
 
    2023/2023-10-16-viral-data-webinar-series   
+   2023/2023-03-02-bv-brc-workshop-anl
+   2023/2023-01-02-bv-brc-workshop-uva
    
 .. toctree::
    :maxdepth: 3

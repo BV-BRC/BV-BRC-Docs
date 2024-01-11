@@ -5,18 +5,18 @@ A Gene List is a custom user-created list of genes based on the transcriptomics 
 
 ## See also
   * Examining Transcriptomics Data Tutorial
-  * [Transcriptomics Experiments and Comparisons](../organisms_taxon/experiments_comparisons_tables.html)
-  * [Transcriptomics Gene List Heatmap](../organisms_taxon/transcriptomics_gene_heatmap.html)
-  * [Transcriptomics Gene Page](../organisms_gene/transcriptomics.html)
-  * [Correlated Genes](../organisms_gene/correlated_genes.html)
-  * [Expression Data Import Service](../services/expression_data_import_service.html)
+  * [Transcriptomics Experiments and Comparisons](/quick_references/organisms_taxon/experiments_comparisons_tables)
+  * [Transcriptomics Gene List Heatmap](/quick_references/organisms_taxon/transcriptomics_gene_heatmap)
+  * [Transcriptomics Gene Page](/quick_references/organisms_gene/transcriptomics)
+  * [Correlated Genes](/quick_references/organisms_gene/correlated_genes)
+  * [Expression Data Import Service](/quick_references/services/expression_data_import_service)
 
 ## Accessing/Creating Transcriptomics Gene List Table
 A Gene List may be accessed while under the Transcriptomics Tab (available on any Taxonomy or Genome level landing page) in the following ways:
 
-* **Clicking the Genes Action Button with one or more rows selected in the Experiments Table:* Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page, loaded with the genes corresponding to the selected experiments. See [Transcriptomics Experiments and Comparisons](../organisms_taxon/experiments_comparisons_tables.html) for more information.
+* **Clicking the Genes Action Button with one or more rows selected in the Experiments Table:* Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page, loaded with the genes corresponding to the selected experiments. See [Transcriptomics Experiments and Comparisons](/quick_references/organisms_taxon/experiments_comparisons_tables) for more information.
 
-* **Clicking the Genes Action Button with one or more rows selected in the Comparisons Table:* Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page, loaded with the genes corresponding to the selected comparisons. See [Transcriptomics Experiments and Comparisons](../organisms_taxon/experiments_comparisons_tables.html) for more information.
+* **Clicking the Genes Action Button with one or more rows selected in the Comparisons Table:* Opens the Transcriptomics Genes Filter Tool and Table/Heatmap page, loaded with the genes corresponding to the selected comparisons. See [Transcriptomics Experiments and Comparisons](/quick_references/organisms_taxon/experiments_comparisons_tables) for more information.
 
 ### Gene List Table and Filter
 Results will be shown in a Gene List Table and Filter, shown below.
@@ -62,4 +62,4 @@ After selecting one or more of the genes by clicking the checkbox beside the Gen
 * **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in which the selected features are found.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.

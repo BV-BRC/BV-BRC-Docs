@@ -4,11 +4,11 @@
 The Transcriptomics Tab in the Feature View provides expression data for the selected gene from all of the transcriptomics datasets in which the gene appears, including levels of expression based on Log ratio or Z score and the strains, gene modification, or experimental conditions. 
 
 ## See also
-  * [xamining Transcriptomics Data Tutorial
-  * [Transcriptomics Gene List](../organisms_taxon/transcriptomics_gene_list.html)
-  * [Transcriptomics Gene List Heatmap](../organisms_taxon/transcriptomics_gene_heatmap.html)
-  * [Correlated Genes](../organisms_gene/correlated_genes.html)
-  * [Expression Data Import Service](../services/expression_data_import_service.html)
+  * [Examining Transcriptomics Data Tutorial](/tutorial/examining_transcriptomics_data/examining_transcriptomics_data)
+  * [Transcriptomics Gene List](/quick_references/organisms_taxon/transcriptomics_gene_list)
+  * [Transcriptomics Gene List Heatmap](/quick_references/organisms_taxon/transcriptomics_gene_heatmap)
+  * [Correlated Genes](/quick_references/organisms_gene/correlated_genes)
+  * [Expression Data Import Service](/quick_references/services/expression_data_import_service)
 
 Most of the transcriptomics data have been curated from published gene expression datasets related to bacterial pathogens in [NCBI's GEO database](http://www.ncbi.nlm.nih.gov/geo/). Some additional data sets have been incorporated from the NIAID-funded Systems Biology and Functional Genomics Centers and other sources.
 

@@ -9,7 +9,7 @@ The Tn-Seq Analysis Service facilitates determination of essential and condition
 
 ## See also
 * [Tn-Seq Analysis Service](https://bv-brc.org/app/Tnseq)
-* [Tn-Seq Analysis Service Tutorial](../../tutorial/tn-seq/tn-seq.html)
+* [Tn-Seq Analysis Service Tutorial](/tutorial/tn-seq/tn-seq)
 
 ## Using the Tn-Seq Service
 The **Tn-Seq Analysis** submenu option under the **Services** main menu (Genomics category) opens the Tn-Seq Analysis input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
@@ -40,6 +40,9 @@ The workspace folder where results will be placed.
 
 ### Output Name
 Name used to uniquely identify results.
+
+## Primer Sequence 
+This must be a DNA string. It is used for trimming reads.
 
 ## Paired read library
 

@@ -5,7 +5,7 @@ The Fastq Utilities Service makes available common operations for FASTQ files fr
 
 ## See also
 * [Fastq Utilities Service](https://bv-brc.org/app/FastqUtil)
-* [Fastq Utilities Service Tutorial](../../tutorial/fastq-utilities/fastq-utilities.html)
+* [Fastq Utilities Service Tutorial](/tutorial/fastq_utilities/fastq_utilities)
 
 ## Using the Fastq Utilities Service
 The **Fastq Utilities** submenu option under the **Services** main menu (Genomics category) opens the Fastq Utilities input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
@@ -28,6 +28,7 @@ The **Fastq Utilities** submenu option under the **Services** main menu (Genomic
   * Trim - Uses Trim Galore to find and remove adapters, leaving the relevant part of the read.
   * Fastqc - Uses FastQC to do quality checks on the raw sequence data.
   * Align - Aligns genomes using Bowtie2 to generate BAM files, saving unmapped reads, and generating SamStat reports of the amount and quality of alignments.
+  * Paired Filter - Many downstream bioinformatics manipulations break the one-to-one correspondence between reads, and paired-end sequence files loose synchronicity, and contain either unordered sequences or sequences in one or other file without a mate. The Paired Filter will ensure the reads being evenly matched, so the FASTQ Utilities service now offers a pipeline that ensures that all paired-end reads have a match. The pipeline uses Fastq-Pair[4]. The code for Fastq-Pair is available here: https://github.com/linsalrob/fastq-pair.
 
 ## Paired read library
 
@@ -42,7 +43,7 @@ The fastq file containing the reads
 Allows direct upload of read files from the [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) to the service. Entering the SRR accession number and clicking the arrow will add the file to the selected libraries box for use in the service. 
 
 ## Selected libraries
-Read files placed here will contribute to a single assembly.
+Read files placed here will be submitted to the service and contribute to a single analysis.
 
 ## Buttons
 
@@ -79,6 +80,12 @@ The Align option generates several files that are deposited in the Private Works
 * **xxx.bam.samstat.html** - Web-friendly SAMStat report for the alignment job with the MAPQ statistics.
 * **xxx.unmapped#.fq.gz** - File containing all the reads from each read file that did not map to aligned to the target genome.
 
+### Paired Filter
+Paired end reads are usually provided as two fastq-format files, with each file representing one end of the read. Many commonly used downstream tools require that the sequence reads appear in each file in the same order and reads that do not have a pair in the corresponding file are placed in a separate file of singletons. Although most sequencing instruments capable of generating paired end reads produce files where each read has a corresponding mate, many downstream bioinformatics manipulations break the one-to-one correspondence between reads, and paired-end sequence files loose synchronicity, and contain either unordered sequences or sequences in one or other file without a mate. Assembly jobs often fail in the BV-BRC service due to the paired reads not being evenly matched, so the FASTQ Utilities service now offers a pipeline that ensures that all paired-end reads have a match. The pipeline uses Fastq-Pair[4]. The code for Fastq-Pair is available here: https://github.com/linsalrob/fastq-pair.
+
+The Paired Filter option generates three files that are deposited in the Private Workspace in the designated Output Folder. These include:
+* **xxx_1.paired.fq.gz and xxx_2.paired.fq.gz** The fastq.paired.fq.gz file contains the paired read file and should be used for downstream analyses. It can be downloaded by clicking on the Download icon.
+* **xxx_meta.txt** Report file with information on parameters used, adaptor sequences found, reads / base pairs processed, removed sequences, and statistics.
 
 ### Action buttons
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include 
@@ -93,7 +100,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Move** Allows moving of the file to another folder.
 * **Edit Type** Allows changing of the type of the file in terms of how BV-BRC interprets the content and uses it in other services or parts of the website.  Allowable types include unspecified, contigs, nwk, reads, differential expression input data, and differential expression input metadata.
 
-More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
 

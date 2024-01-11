@@ -5,18 +5,18 @@
 Genome Metadata is additional information about genomes beyond the genome sequence and annotations linked to the sequence. Genome metadata on consists of dozens of metadata fields, called attributes, which are organized into the following seven broad categories: Organism Info, Isolate Info, Host Info, Sequence Info, Phenotype Info, Project Info, and Other.
 
 ## See also
-* [Genome Page Overview](../organisms_genome/overview.html)
-* [Genome Table](../organisms_taxon/genome_table.html)
-* [Genome Annotations](../organisms_taxon/genome_annotations.html)
+* [Genome Page Overview](/quick_references/organisms_gene/overview)
+* [Genome Table](/quick_references/organisms_taxon/genome_table)
+* [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
 
 ### Accessing Genome Metadata
 Genome metadata can be accessed in multiple ways:
 
-* **Clicking the Overview Tab in Genome View:** Displays summary information about the genome, including associated metadata. Note that metadata fields that do not contain values are not displayed. See [Genome Page Overview](../organisms_genome/overview.html).
+* **Clicking the Overview Tab in Genome View:** Displays summary information about the genome, including associated metadata. Note that metadata fields that do not contain values are not displayed. See [Genome Page Overview](/quick_references/organisms_gene/overview).
 
-* **Clicking the Filter Button above the Genome Table on the Genomes Tab in the Taxon View:** Opens a filter panel above the genome list, displaying column names (metadata attributes) from the table and values for those columns with counts of occurence. See [Genome Table](../organisms_taxon/genome_table.html).
+* **Clicking the Filter Button above the Genome Table on the Genomes Tab in the Taxon View:** Opens a filter panel above the genome list, displaying column names (metadata attributes) from the table and values for those columns with counts of occurence. See [Genome Table](/quick_references/organisms_taxon/genome_table).
 
-* **Using metadata values in the Global Search:** Displays search results of genomes, and other data, containing the terms specified in the search. See [Global Search](../global_search.html).
+* **Using metadata values in the Global Search:** Displays search results of genomes, and other data, containing the terms specified in the search. See [Global Search](/quick_references/global_search).
 
 * **Useing the column Show/Hide button (+) on top right of the table:**  opens a selection box for choosing which metadata fields to display in the main table. (*shown below*). The information is also available on the left-hand side of each Genome Overview tab. When a list of genomes is downloaded, all of the metadata fields are included.
 

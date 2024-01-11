@@ -5,7 +5,7 @@ The Metagenomic Binning Service accepts either reads or contigs, and attempts to
 
 ## See also
 * [Metagenomic Binning Service](https://bv-brc.org/app/MetagenomicBinning)
-* [Metagenomic Binning Service Tutorial](../../tutorial/metagenomic_binning/metagenomic_binning.html)
+* [Metagenomic Binning Service Tutorial](/tutorial/metagenomic_binning/metagenomic_binning)
 
 ## Using the Metagenomic Binning Service
 The **Metagenomic Binning** submenu option under the **Services** main menu (Metagenomics category) opens the Metagenomic Binning Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
@@ -17,10 +17,10 @@ The **Metagenomic Binning** submenu option under the **Services** main menu (Met
 ## Start With
 The service supports input of read files or assembled contigs. This selection changes the options in the Input File box on the form. 
 
-### Read File Option
+## Read File Option
 ![Metagenomic Binning Input Form](../images/metagenomic_binning_input_form_reads.png) 
 
-### Assembled Contigs Option
+## Assembled Contigs Option
 ![Metagenomic Binning Input Form](../images/metagenomic_binning_input_form_contigs.png) 
 
 ## Input File
@@ -67,6 +67,9 @@ User-defined name used to uniquely identify results.
 
 ### Genome Group Name
 Name used to create genome group with identified genomes.
+
+## Selected libraries
+Read files placed here will be submitted to the service.
 
 ## Buttons
 * **Reset** - clears the form and resets all default values

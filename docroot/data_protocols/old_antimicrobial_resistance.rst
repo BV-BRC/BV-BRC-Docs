@@ -1,3 +1,5 @@
+:orphan:
+
 Antimicrobial Resistance (AMR)
 ===============================
 

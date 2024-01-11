@@ -4,11 +4,11 @@ SNP genotyping is the measurement of genetic variations of single nucleotide pol
 
 ### See also
 * [Variation Analysis Service](https://bv-brc.org/app/Variation)
-* [Variation Analysis Service Quick Reference Guide](../../quick_references/services/variation_analysis_service.html)
+* [Variation Analysis Service Quick Reference Guide](/quick_references/services/variation_analysis_service)
 
 ## Creating a folder to hold the variation job and related data
 
-Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on creating a folder in the BV-BRC or PATRIC.
+Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly/assembly) for instructions on creating a folder in the BV-BRC or PATRIC.
 
 ## Locating the Variation Analysis Service
 
@@ -22,15 +22,15 @@ Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assemb
 
 ### Uploading paired end reads
 
-Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on uploading paired-end reads in the BV-BRC or PATRIC.
+Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly/assembly) for instructions on uploading paired-end reads in the BV-BRC or PATRIC.
 
 ### Uploading single reads
 
-Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on uploading single-end reads in the BV-BRC or PATRIC.
+Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly/assembly) for instructions on uploading single-end reads in the BV-BRC or PATRIC.
 
 ### Submitting reads that are present at the Sequence Read Archive (SRA)
 
-Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on submitting reads from the SRA.
+Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly/assembly) for instructions on submitting reads from the SRA.
 
 ## Setting Parameters 
 

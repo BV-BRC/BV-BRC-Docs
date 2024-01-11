@@ -1,3 +1,5 @@
+:orphan:
+
 PATRIC Content Pages
 ==================================
 

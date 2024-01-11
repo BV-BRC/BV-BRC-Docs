@@ -8,7 +8,7 @@ metadata, variation analysis, comparative analysis.
 
 ### See also
 * [Meta-CATS Analysis Service](https://bv-brc.org/app/MetaCATS)
-* [Meta-CATS Analysis Service Quick Reference Guide](../../quick_references/services/metacats.html)
+* [Meta-CATS Analysis Service Quick Reference Guide](/quick_references/services/metacats)
 
 ## Locating the meta-CATS App
 

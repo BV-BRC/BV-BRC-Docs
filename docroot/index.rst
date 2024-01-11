@@ -23,7 +23,8 @@ BV-BRC Documentation
    videos/index
    webinar/index
    workshops/index
-   .. faqs_common_tasks/index
+
+.. faqs_common_tasks/index
 
 .. toctree::
    :maxdepth: 2

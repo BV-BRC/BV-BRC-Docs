@@ -4,7 +4,7 @@
 The Interactions Tab provides experimentally and computationally derived host-pathogen protein-protein interaction data and visualizations from more than 15 public repositories, including [STRINGDB](https://string-db.org/), with a total of 55 million protein-protein interactions. Interactions are available at both the genome and feature levels, and are presented in tabular and graph format.
 
 ## See also
-  * [Interactions Tab, Taxon/Genome-Level](../organisms_taxon/interactions.html)
+  * [Interactions Tab, Taxon/Genome-Level](/quick_references/organisms_taxon/interactions)
 
 ## Accessing the Feature-Level Interactions Table
 Clicking the Interactions Tab in a Feature View displays the Interactions Table, listing of all of the interactions associated with that feature.
@@ -41,7 +41,7 @@ After selecting a feature by clicking the checkbox beside row on the left side o
 * **FASTA:** Provides the FASTA DNA or protein sequence for the selected feature(s).
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.
 
 ## Interactions Viewer
 Clicking the **Graph** option at the top left of the table displays the [Cytoscape](http://www.cytoscape.org/)-based Interactions Viewer. 
@@ -69,4 +69,4 @@ After selecting one or more of the nodes by clicking it (ctrl-clicking to select
 * **MSA:** Launches the Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
-More details are available in the [Action Buttons](../other/action_buttons.html) Quick Reference Guide.
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.

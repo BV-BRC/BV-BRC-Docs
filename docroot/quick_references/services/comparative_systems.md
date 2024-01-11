@@ -5,10 +5,10 @@ The Comparative Systems Service combines together functionality from three diffe
 
 ## See also
   * [Comparative Systems Service](https://www.bv-brc.org/app/ComparativeSystems)
-  * [Comparative Systems Service Tutorial](../../tutorial/comparative_systems/comparative_systems.html)
-  * [Pathway Comparison Tool Quick Reference Guide](../other/pathway_comparison_tool.html)
-  * [Protein Family Sorter Quick Reference Guide](../other/protein_family_sorter.html)
-  * [Subystems Data Quick Reference Guide](../other/subsystems_data.html) 
+  * [Comparative Systems Service Tutorial](/tutorial/comparative_systems/comparative_systems)
+  * [Pathway Comparison Tool Quick Reference Guide](/quick_references/other/pathway_comparison_tool)
+  * [Protein Family Sorter Quick Reference Guide](/quick_references/other/protein_family_sorter)
+  * [Subystems Data Quick Reference Guide](/quick_references/other/subsystems_data) 
 
 ## Using the Comparative Systems Service
 The **Comparative Systems** submenu option under the **Services** main menu (Genomics category) opens the Comparative Systems input form (shown below). *Note: You must be logged into BV-BRC to use this service.*
@@ -56,7 +56,7 @@ The output from the Comparative Systems Service can be accessed and analyzed fro
 
 ![Pathways Icon](../images/comparative_systems/pathways_icon.png) 
 
-Clicking the **Pathways** icon opens the The Pathway Comparison Tool, which allows researchers to identify a set of metabolic pathways based on taxonomy, EC number, pathway ID, pathway name and/or specific annotation type. Refer to the **[Pathway Comparison Tool Quick Reference Guide](../other/pathway_comparison_tool.html)** for details on how to use this tool.
+Clicking the **Pathways** icon opens the The Pathway Comparison Tool, which allows researchers to identify a set of metabolic pathways based on taxonomy, EC number, pathway ID, pathway name and/or specific annotation type. Refer to the **[Pathway Comparison Tool Quick Reference Guide](/quick_references/other/pathway_comparison_tool)** for details on how to use this tool.
 
 ![Pathway Comparison Results Page](../images/comparative_systems/pathways_result.png) 
 
@@ -66,7 +66,7 @@ Clicking the **Pathways** icon opens the The Pathway Comparison Tool, which allo
 
 ![Families Icon](../images/comparative_systems/families_icon.png) 
 
-Clicking the **Families** icon opens the the Protein Family Sorter, which allows users to select a set of genomes of interest  and examine distribution of protein families across the genomes. Refer to the **[Protein Family Sorter Quick Reference Guide](../other/protein_family_sorter.html)** for details on how to use this tool.
+Clicking the **Families** icon opens the the Protein Family Sorter, which allows users to select a set of genomes of interest  and examine distribution of protein families across the genomes. Refer to the **[Protein Family Sorter Quick Reference Guide](/quick_references/other/protein_family_sorter)** for details on how to use this tool.
 
 ![Protein Families Results Page](../images/comparative_systems/families_result.png) 
 
@@ -76,7 +76,7 @@ Clicking the **Families** icon opens the the Protein Family Sorter, which allows
 
 ![Subsystems Icon](../images/comparative_systems/subsystems_icon.png) 
 
-Clicking the **Subsystems** icon opens the Subsystems Data page which includes a distribution pie chart that summarizes the functionality and genes across all genomes selected and additional information.  Refer to the **[Subystems Data Quick Reference Guide](../other/subsystems_data.html)** for details on how to use these data.
+Clicking the **Subsystems** icon opens the Subsystems Data page which includes a distribution pie chart that summarizes the functionality and genes across all genomes selected and additional information.  Refer to the **[Subystems Data Quick Reference Guide](/quick_references/other/subsystems_data)** for details on how to use these data.
 
 ![Subsystems Results Page](../images/comparative_systems/subsystems_result.png) 
 

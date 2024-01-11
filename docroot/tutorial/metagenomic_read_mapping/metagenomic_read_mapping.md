@@ -4,7 +4,7 @@ The Metagenomic Read Mapping Service uses KMA (k-mer alignment[1]), to align rea
 
 ## Creating a folder to hold the Metagenomic Read Mapping job and related data
 
-Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on creating a folder in the workspace.
+Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly/assembly) for instructions on creating a folder in the workspace.
 
 ## Locating the Metagenomic Read Mapping App
 
@@ -17,13 +17,13 @@ Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assemb
 ## Input File
 
 **Uploading paired end reads**
-Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on uploading paired-end reads. 
+Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly/assembly) for instructions on uploading paired-end reads. 
 
 **Uploading single reads**
-Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on uploading single reads. 
+Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly/assembly) for instructions on uploading single reads. 
 
 **Submitting reads that are present at the Sequence Read Archive (SRA)**
-Please refer to the [Genome Assembly Service tutorial](../genome_assembly/assembly.html) for instructions on submitting reads from the Sequence Read Archive. 
+Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly/assembly) for instructions on submitting reads from the Sequence Read Archive. 
 
 1.	Once read files have been uploaded or located, the files must be transferred prior to the job beginning.  Click on the icon of an arrow within a circle. This will move your file into the **Selected libraries** box. 
 ![Figure 3](./images/Picture3.png "Figure 3")

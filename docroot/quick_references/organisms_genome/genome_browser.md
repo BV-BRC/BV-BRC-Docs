@@ -4,7 +4,7 @@
 The Genome Browser provides an interactive graphical representation of the alignment of genes and other genomic features depicted along a horizontal axis of genome coordinates.
 
 ## See also
-  * [Genome Annotations](../organisms_taxon/genome_annotations.html)
+  * [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
   * Exploring a (private) genome tutorial
 
 ## Accessing the Genome Browser

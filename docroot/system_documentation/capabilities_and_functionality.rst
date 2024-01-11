@@ -411,7 +411,7 @@ From Help Menu: Short video that provides an overview of the PATRIC website and 
 Source Code: https://github.com/PATRIC3/p3_docs/blob/master/docroot/quickstart_video.md
 
 `Quick Reference Guides <https://docs.bv-brc.org/user_guides/index.html>`_
-###################################################################
+##########################################################################
 
 Contains complete listing of all user documentation. Quick Reference Guides are available for all major PATRIC features.
 

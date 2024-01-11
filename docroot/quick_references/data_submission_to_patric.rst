@@ -1,3 +1,5 @@
+:orphan:
+
 Data Submission in PATRIC
 --------------------------
 

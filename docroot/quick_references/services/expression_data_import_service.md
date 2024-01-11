@@ -5,7 +5,7 @@ The Differential Expression Import Service facilitates upload of user-provided, 
 
 ## See also
   * [Expression Import Service](https://bv-brc.org/app/Expression)
-  * [Expression Import Service Tutorial](../../tutorial/expression_import/expression_import.html)
+  * [Expression Import Service Tutorial](/tutorial/expression_import/expression_import)
 
 ## Using the Expression Import Service
 The **Expression Import** submenu option under the **Services** main menu (Transcriptomics category) opens the Expression Import input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.* The Expression Data Import Service can also be accessed via the Command Line Interface (CLI).
@@ -96,7 +96,7 @@ Clicking on the View icon at the top right of the page will display a page with 
 
 ![Expression Import Conditions Table](../images/expression_import_conditions_table.png)
 
-Selecting one of the Conditions and clicking the Genes icon in the vertical green Action Bar on the right side of the table will display a table of the genes and how they are regulated for that condition. See [Transcriptomics Tab](../organisms_taxon/transcriptomics.html) for more information on how to use this table and the associated heatmap.
+Selecting one of the Conditions and clicking the Genes icon in the vertical green Action Bar on the right side of the table will display a table of the genes and how they are regulated for that condition. See [Transcriptomics Tab](/quick_references/organisms_taxon/transcriptomics_gene_list) for more information on how to use this table and the associated heatmap.
 
 ### View Experiment Results Across All Conditions
 ![Expression Import Experiment Icon](../images/expression_import_experiment_icon.png) 
@@ -105,7 +105,7 @@ Clicking on the Experiment icon at the top right of the page will display a page
 
 ![Expression Import Genes Table](../images/expression_import_genes_table.png)
 
-See [Transcriptomics Tab](../organisms_taxon/transcriptomics.html) for more information on how to use this table and the associated heatmap.
+See [Transcriptomics Tab](/quick_references/organisms_taxon/transcriptomics_gene_list) for more information on how to use this table and the associated heatmap.
 
 
 
@@ -118,4 +118,4 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **View** Displays the content of the file, typically as plain text or rendered html, depending on filetype.
 * **Copy:** Copies the selected items to the clipboard.
 
-More details are available in the [Action Bar](../action_bar.html) Quick Reference Guide.
+More details are available in the [Action Bar](/quick_references/action_bar) Quick Reference Guide.

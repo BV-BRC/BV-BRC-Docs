@@ -1,3 +1,5 @@
+:orphan:
+
 ============================================
  Locating All Genomes for a Taxonomic Group
 ============================================
@@ -11,12 +13,12 @@ The taxonomic groupings are sorted by the number of genomes, from biggest to sma
 want is usually the first one in the list.  If you check its checkbox, the **Taxonomy** button will
 appear on the green control bar (see red arrow).  Click it to get the taxonomy page.
 
-The taxonomy page is described in detail under *Taxon View* at :doc:`/user_guides/website_views`. The
+The taxonomy page is described in detail under *Taxon View* at :doc:`/quick_references/website_views`. The
 genome list is available on the **Genomes** tab.
 
 .. image:: images/genome_list.png
 
-Once you have your genome list, you can filter it at will using :doc:`/user_guides/tables`.
+Once you have your genome list, you can filter it at will using :doc:`/quick_references/tables`.
 
 .. _rep-ref-taxon-section:
 

@@ -7,7 +7,7 @@ The RNA-Seq Service can be accessed from the Services Menu at the top of the BV-
 
 ## See also
 * [RNA-Seq Analysis Service](https://bv-brc.org/app/Rnaseq)
-* [RNA-Seq Analysis Service Tutorial](../../tutorial/rna_seq_submission/submitting_rna_seq_job.html)
+* [RNA-Seq Analysis Service Tutorial](/tutorial/rna_seq/rna_seq)
 
 ## Using the RNA-Seq Analysis Service
 The **RNA-Seq Analysis** submenu option under the **Services** main menu (Transcriptomics category) opens the RNA-Seq Analysis input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*

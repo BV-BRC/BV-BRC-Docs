@@ -5,35 +5,36 @@ The Phylogeny Tab and Phylogenetic Tree Viewer allow you to visualize and intera
 
 ## See also
 * [Phylogenetic Tree Service](https://bv-brc.org/app/PhylogeneticTree)
-* [Phylogenetic Tree Service Tutorial](/tutorial/phylogenetic_tree/phylogenetic_tree)
-* [Phylogenetic Tree Service Quick Reference Guide](../services/phylogenetic_tree_building_service.md)
+* [Phylogenetic Tree Service Tutorial](/tutorial/phylogenetic_tree/phylogenetic_tree.html)
+* [Phylogenetic Tree Service Quick Reference Guide](/services/phylogenetic_tree_building_service)
+* [Archaeopteryx.js Phylogenetic Tree Viewer Quick Reference Guide](/services/archaeopteryx)
+
 
 ## Accessing Phylogenetic Trees 
-Phylogenetic trees can be viewed by either 
+Phylogenetic trees can be viewed by either of the following methods:
 
 * **Clicking the Phylogeny Tab in a Taxon View:** Displays an interactive tree corresponding to the *order* in which the taxon or genome exists.
 
 * **Launching the Phylogenetic Tree Building Service:** Returns, among other files, a Newick file for the tree.  Clicking on the (tree) View button opens the tree in the Phylogenetic Tree Viewer.
 
 ### Phylogenetic Tree Viewer
-![Phylogenetic Tree Viewer](../images/phylogeny_viewer_page.png)
+![Phylogenetic Tree Viewer](../images/phylogeny_viewer_page2.png)
 
-### Phylogenetic Tree Viewer Features and Functionality
+Phylogenetic trees in BV-BRC are rendered using Archaeopteryx.js (Zmasek and Eddy, 2001). By default, the trees are presented in a Phylogram view with genome names as node labels. Archaeopteryx provides controls for changing node labels, node appearance, alternate views, zooming, and others. A detailed description of all features and functionality is provided in the [Archaeopteryx.js Phylogenetic Tree Viewer Quick Reference Guide](/services/archaeopteryx).  
 
-**Color Scheme:** The phylogenetic tree branch color scheme is based on genus. Any genera that occur more than once in the tree are assigned a color and every taxon label within that genus is drawn in the genus color. There are a total of 28 colors that may be used. If more than 28 genera are represented multiple times in the tree, then the most common genera will be assigned colors first. Colors are not re-used therefore any additional taxa will be labeled in black.
+## Phylogenetic Tree Construction
+The trees are obtained by extracting subtrees from the global phylogenetic tree of bacteria provided by the Genome Taxonomy Database project (GTDB, https://gtdb.ecogenomic.org).
+Version 214 of this tree (available at https://data.gtdb.ecogenomic.org/releases/) contains 80,789 genomes. The tree is built on a concatenated alignment of 120 conserved proteins using maximum likelihood described by (Parks et al., 2018) and here with additional methods described here: https://gtdb.ecogenomic.org/methods.
 
-**Phylogram/Cladogram View:** Trees can be displayed in either phylogram or cladogram view. In the phylogram view, the tree branches are drawn with lengths based upon the branch lengths in the tree. In the cladogram view, the tree branch lengths are disregarded and branches are drawn so that all branch labels line up on the right side of the display. The phylogram view conveys additional information about the evolutionary divergence, while the cladogram view allows better visual resolution of the branching pattern for very closely related taxa (where the branch lengths are too small to allow the branching pattern to be distinguished in the phylogram view).
+The python module DendroPy (https://dendropy.org/) was used to write to extract subtrees of the overall GTDB bacterial tree as described below. Of the 80789 genomes on the GTDB tree, 60746 could be matched to bacterial genomes in BVBRC by joining on the assembly accession field. This subset was drawn on for taxon trees. 
 
-**Support Values:** Branch support values below 100% are shown. Support values of 100% are not shown.
+To extract a representative tree for a given NCBI taxon, we identified all BVBRC genomes classified as that taxon (using the NCBI taxonomy fields of the GTDB metadata table). Then we followed the path toward the root for all such genomes on the BVBRC subset of the GTDB tree to find where they converge, yielding the most recent common ancestor (mrca). We then extract all genomes descended from this mrca, which can include genomes not classified within the target taxon (due to the NCBI taxonomy being imperfectly phylogenetic). We consider displaying such deviations between taxonomy and phylogeny, however rare, to be useful. 
 
-**Taxon Labels:** The taxon labels in the trees (leaf nodes) are the names of genomes. Clicking the ID Type Button in the vertical green Action Bar enables toggling the labels from genome name to genome ID.
+Because the number of genomes identified by this approach for a given taxon is frequently too large for convenient display, we impose an upper limit and filter out genomes to reach it, typically limiting to 40 genomes. For the filtering process, we eliminate tips in approximately the order of their branch lengths to the immediate ancestral node. This results in trees with fewer nearly identical tips and better representation of diversity.
 
-**Accessing Genomes in the Tree:** Clicking on the genome name will add the Genome button to the vertical green Action Bar on the right side of the tree.  Clicking the Genome Button will open the corresponding Genome Page.  If multiple genomes are selected (using ctrl-click), clicking the Genome Button will open a Genome List page. The selected genome(s) can also be added to a group by clicking the Group Button in the Action Bar.
+To provide phylogenetic context for the taxon being illustrated, outgroups are selected from deeper nodes in the tree. For a selected number of nodes (typically 3) immediately ancestral to the mrca, a given number of descendant tips are selected (typically 2). This provides a reasonable chance of obtaining context to appreciate the ingroup taxon. The ingroup/outgroup identities are stored in the phyloxml format (Han and Zmasek, 2009) to allow them to be visualized in the Archaeopteryx.js tree viewer (Zmasek and Eddy, 2001).
 
-**Downloading Trees:** Clicking the Download Button in the Action Bar will allow downloading the tree as either an SVG (Scalable Vector Graphics) file or a Newick file.
 
-### Phylogenetic Tree Construction
-The order-level pre-built trees are constructed by an automated pipeline that begins with amino acid sequence files for each genome. For each order-level tree the genomes from that order are used along with a small set of potential outgroup genomes. Sets of homologous proteins are identified in a two round processes. In the first round, a single genome from each distinct species is selected and these are searched against each other using [BLAT](http://genome.ucsc.edu/FAQ/FAQblat.html). The top scoring hits are clustered with [MCL](http://www.micans.org/mcl/) and these clusters define the initial seed sets for the homology groups. In the second round, the seed sets are aligned using
-[MUSCLE](http://www.ebi.ac.uk/Tools/msa/muscle/) and HMMs are built with [hmmbuild](http://www.csb.yale.edu/userguides/seq/hmmer/docs/node19.html). All genomes (including the outgroup pool) are searched with [hmmsearch](http://www.csb.yale.edu/userguides/seq/hmmer/docs/node26.html). The top hits from hmmsearch are used to define the homology groups. Two outgroup genomes are selected from the pool of outgroup candidates based on total hmmsearch score.
+1.	Parks, DH; Chuvochina, M; Waite, DW; Rinke, C; Skarshewski, A; Chaumeil, PA; Hugenholtz, P (November 2018). "A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life". Nature Biotechnology. 36 (10): 996–1004. bioRxiv 10.1101/256800. doi:10.1038/nbt.4229. PMID 30148503. S2CID 52093100.
 
-Homology groups are filtered for taxon coverage. Groups are aligned using MUSCLE. Poorly aligned, or noisy regions, are removed with [Gblocks](http://molevol.cmima.csic.es/castresana/Gblocks.html). Especially noisy or phylogenetically discordant homology groups are removed and the remaining groups are concatenated into a single long alignment. The main tree is estimated from the concatenated alignment with [FastTree](http://www.microbesonline.org/fasttree/). Branch support values are not standard bootstrap values, which can be overly optimistic for very long alignments. Instead of bootstraps, trees are built from random samples of 50% of the homology groups used for the main tree, in a process referred to as gene-wise jackknifing. 100 of these 50% gene-wise jackknife trees are made using FastTree, and the support values shown indicate the number of times a particular branch was observed in the support trees.
+2.	Han, Mira V.; Zmasek, Christian M. (2009). "phyloXML: XML for evolutionary biology and comparative genomics". BMC Bioinformatics. United Kingdom: BioMed Central. 10: 356. doi:10.1186/1471-2105-10-356. PMC 2774328. PMID 19860910.

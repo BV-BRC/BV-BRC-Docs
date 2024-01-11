@@ -5,9 +5,9 @@ The Phylogeny Tab and Phylogenetic Tree Viewer allow you to visualize and intera
 
 ## See also
 * [Phylogenetic Tree Service](https://bv-brc.org/app/PhylogeneticTree)
-* [Phylogenetic Tree Service Tutorial](/tutorial/phylogenetic_tree/phylogenetic_tree.html)
-* [Phylogenetic Tree Service Quick Reference Guide](/services/phylogenetic_tree_building_service)
-* [Archaeopteryx.js Phylogenetic Tree Viewer Quick Reference Guide](/services/archaeopteryx)
+* [Phylogenetic Tree Service Tutorial](/tutorial/phylogenetic_tree/phylogenetic_tree)
+* [Phylogenetic Tree Service Quick Reference Guide](/quick_references/services/phylogenetic_tree_building_service)
+* [Archaeopteryx.js Phylogenetic Tree Viewer Quick Reference Guide](/quick_references/services/archaeopteryx)
 
 
 ## Accessing Phylogenetic Trees 
@@ -20,7 +20,7 @@ Phylogenetic trees can be viewed by either of the following methods:
 ### Phylogenetic Tree Viewer
 ![Phylogenetic Tree Viewer](../images/phylogeny_viewer_page2.png)
 
-Phylogenetic trees in BV-BRC are rendered using Archaeopteryx.js (Zmasek and Eddy, 2001). By default, the trees are presented in a Phylogram view with genome names as node labels. Archaeopteryx provides controls for changing node labels, node appearance, alternate views, zooming, and others. A detailed description of all features and functionality is provided in the [Archaeopteryx.js Phylogenetic Tree Viewer Quick Reference Guide](/services/archaeopteryx).  
+Phylogenetic trees in BV-BRC are rendered using Archaeopteryx.js (Zmasek and Eddy, 2001). By default, the trees are presented in a Phylogram view with genome names as node labels. Archaeopteryx provides controls for changing node labels, node appearance, alternate views, zooming, and others. A detailed description of all features and functionality is provided in the [Archaeopteryx.js Phylogenetic Tree Viewer Quick Reference Guide](/quick_references/services/archaeopteryx).  
 
 ## Phylogenetic Tree Construction
 The trees are obtained by extracting subtrees from the global phylogenetic tree of bacteria provided by the Genome Taxonomy Database project (GTDB, https://gtdb.ecogenomic.org).

@@ -1,10 +1,4 @@
-[   
-    {
-        "title": "BV-BRC Viral Pathogen Data Webinar Series",
-        "desc": "The BV-BRC team will be offering a bi-weekly Bioinformatics Webinar Series, showing how to explore and analyze viral pathogen data using BV-BRC.",
-        "img": "https://www.bv-brc.org/docs/_images/viral_pathogen_webinars.png",
-        "link": "https://www.bv-brc.org/docs/news/2023/2023-10-16-viral-data-webinar-series.html"   
-    },       
+[    
     {
         "title": "BV-BRC Quick Start Guides",
         "desc": "Quick start guides and short video tutorials designed to orient new users as well as users from the legacy PATRIC, IRD and ViPR resources to the new BV-BRC Resource.",

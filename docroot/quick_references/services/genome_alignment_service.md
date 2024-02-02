@@ -38,23 +38,9 @@ Name used to uniquely identify results.
 
 ### Advanced Options
 
-**Manually set seed weight:** The seed size parameter sets the minimum weight of the seed pattern used to generate local multiple alignments (matches) during the first pass of anchoring the alignment. When aligning divergent genomes or aligning more genomes simultaneously, lower seed weights may provide better sensitivity. However, because Mauve also requires the matching seeds must to be unique in each genome, setting this value too low will reduce sensitivity.
+**Manually set seed weight:** The seed size parameter sets the minimum weight of the seed pattern used to generate local multiple alignments (matches) during the first pass of anchoring the alignment. When aligning divergent genomes or aligning more genomes simultaneously, lower seed weights may provide better sensitivity. However, because Mauve also requires the matching seeds must to be unique in each genome, setting this value too low will reduce sensitivity. 
 
-**Max gapped aligner length:**  Maximum number of base pairs to attempt aligning with the gapped aligner
-
-**Max breakpoint distance scale:**  Set the maximum weight scaling by breakpoint distance. Defaults to 0.9
-
-**Conservation distance:**  Scale conservation distances by this amount. Defaults to 1
-
-**Weight:**  Minimum pairwise LCB score
-
-**Min scaled penalty:** Minimum breakpoint penalty after scaling the penalty by expected divergence
-
-**hmm-p-go-homologous:**  Probability of transitioning from the unrelated to the homologous state.  Default is 0.0001
-
-**hmm-p-go-unrelated:**  Probability of transitioning from the homologous to the unrelated state.  Default is 0.000001
-
-
+**Weight:**  Minimum pairwise LCB score, refers to the minimum score for Locally Collinear Blocks (LCBs) to be considered in the alignment. The LCB weight sets the minimum number of matching nucleotides identified in a collinear region for that region to be considered true homology versus random similarity. Mauve uses an algorithm called greedy breakpoint elimination to compute a set of Locally Collinear Blocks (LCBs) that have the given minimum weight. By default an LCB weight of 3 times the seed size will be used. The default value is often too low, however, and this value should be set manually. 
 
 ## Output Results
 ![Genome Alignment Service Output Files](../images/genome_alignment_result.png)

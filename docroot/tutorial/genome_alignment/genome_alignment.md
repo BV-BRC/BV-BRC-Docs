@@ -25,79 +25,79 @@ https://github.com/PATRIC3/p3_mauve
 ![Figure 5](./images/Picture5.png "Figure 5")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 6](./images/Picture6.png "Figure 6")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 7](./images/Picture7.png "Figure 7")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 8](./images/Picture8.png "Figure 8")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 9](./images/Picture9.png "Figure 9")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 10](./images/Picture10.png "Figure 10")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 11](./images/Picture11.png "Figure 11")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 12](./images/Picture12.png "Figure 12")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 13](./images/Picture13.png "Figure 13")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 14](./images/Picture14.png "Figure 14")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 15](./images/Picture15.png "Figure 15")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 16](./images/Picture16.png "Figure 16")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 17](./images/Picture17.png "Figure 17")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 18](./images/Picture18.png "Figure 18")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 19](./images/Picture19.png "Figure 19")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 20](./images/Picture20.png "Figure 20")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 21](./images/Picture21.png "Figure 21")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 22](./images/Picture22.png "Figure 22")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 23](./images/Picture23.png "Figure 23")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 24](./images/Picture24.png "Figure 24")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 25](./images/Picture25.png "Figure 25")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 26](./images/Picture26.png "Figure 26")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 27](./images/Picture27.png "Figure 27")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 28](./images/Picture28.png "Figure 28")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 29](./images/Picture29.png "Figure 29")
 
 
-![Figure ](./images/Picture.png "Figure ")
+![Figure 30](./images/Picture30.png "Figure 30")
 
 
 

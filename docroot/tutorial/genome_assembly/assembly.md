@@ -17,3 +17,8 @@ FASTQ is a text-based format for storing both a nucleotide sequence and its corr
 •	Line 2 is the raw sequence letters.
 •	Line 3 begins with a ‘+’ character and is optionally followed by the same sequence identifier (and any description) again.
 •	Line 4 encodes the quality values for the sequence in Line 2 and must contain the same number of symbols as letters in the sequence.
+
+1. At the top of any BV-BRC page, find the Services tab and click on it
+![Figure 1](./images/Picture1.png)
+
+

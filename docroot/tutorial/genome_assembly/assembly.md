@@ -94,61 +94,90 @@ What follows below is a tutorial showing how to submit reads of various types fo
 1.	To upload a fastq file that contains single reads, locate the text box called “Single read library.” If the reads have previously been uploaded, click the down arrow next to the text box below Read File. 
 ![Figure 21](./images/Picture21.png)
 
-
+2.	This opens up a drop-down box that shows the all the reads that have been previously uploaded into the user account. Click on the name of the reads of interest.
 ![Figure 22](./images/Picture22.png)
 
-
+3.	This will auto-fill the name of the file into the text box.
 ![Figure 23](./images/Picture23.png)
 
-
+4.	To finish the upload, click on the icon of an arrow within a circle. This will move the file into the Selected libraries box.
 ![Figure 24](./images/Picture24.png)
 
+### Submitting reads that are present at the Sequence Read Archive (SRA)
+
+1.	BV-BRC also supports analysis of existing datasets from SRA. To submit this type of data, locate the Run Accession number that you will find at SRA and copy it.
 
 ![Figure 25](./images/Picture25.png)
 
-
+2.	Paste the copied accession number in the text box underneath SRA Run Accession, then click on the icon of an arrow within a circle.  This will move the file into the Selected libraries box.
 ![Figure 26](./images/Picture26.png)
 
+## Setting Parameters
 
+1.	The assembly strategy for the reads must be selected.  Clicking on the down arrow that follows the text box under Assembly Strategy will open a drop-down box that shows all the strategies that BV-BRC offers.  A description of each strategy is listed below. Clicking on one of the strategies will autofill the text box with that selection: 
+
+* **Unicycler** [1] is an assembly pipeline that can assemble Illumina-only read sets where it functions as a SPAdes-optimizer. It can also assembly long-read-only sets (PacBio or Nanopore) where it runs a miniasm plus Racon pipeline. For the best possible assemblies, give it both Illumina reads and long reads, and it will conduct a hybrid assembly.  Unicycler builds an initial assembly graph from short reads using the de novo assembler and then uses a novel semi-global aligner to align long reads to it. The latest version of Unicycler is available here (https://github.com/rrwick/Unicycler).
+
+* **SPAdes** [2] is an assembler that is designed to assemble small genomes, such as those from bacteria, and uses a multi-sized De Bruijn graph to guide assembly. The latest version of the SPAdes toolkit is available here (http://cab.spbu.ru/software/spades/).
+
+* **Canu**[3] is a long-read assembler which works on both third and fourth generation reads. It is a successor of the old Celera Assembler that is specifically designed for noisy single-molecule sequences. It supports nanopore sequencing, halves depth-of-coverage requirements, and improves assembly continuity. It was designed for high-noise single-molecule sequencing (such as the PacBio RS II/Sequel or Oxford Nanopore MinION).  The algorithm is available here (https://github.com/marbl/canu).
+
+* **The metaSPAdes** [4] software combines new algorithmic ideas with proven solutions from the SPAdes toolkit to address various challenges of metagenomic assembly.  The latest version of the SPAdes toolkit that includes metaSPAdes is available here (http://cab.spbu.ru/software/spades/).
+
+* The **plasmidSPAdes** [5] algorithm and software tool for assembling plasmids from whole genome sequencing data and benchmark its performance on a diverse set of bacterial genomes. Plasmids are stably maintained extra-chromosomal genetic elements that replicate independently from the host cell's chromosomes. The latest version of the SPAdes toolkit that includes plasmidSPAdes is available here (http://cab.spbu.ru/software/spades/).
+
+* **Single-cell SPAdes** [2] is a new assembler for both single-cell and standard (multicell) assembly, and it improves on the recently released E+V−SC assembler (specialized for single-cell data). The latest version of the SPAdes toolkit that includes the assembly algorithm for reads from single cell is available here (http://cab.spbu.ru/software/spades/).
+
+* **Flye** [6] is a long-read assembler.  Kolmogorov et al. say that “Flye initially generates disjointigs that represent concatenations of multiple disjoint genomic segments, concatenates all error-prone disjointigs into a single string (in an arbitrary order), constructs an accurate assembly graph from the resulting concatenate, uses reads to untangle this graph, and resolves bridged repeats (which are bridged by some reads in the repeat graph). Afterwards, it uses the repeat graph to resolve unbridged repeats (which are not bridged by any reads) using small differences between repeat copies and then outputs accurate contigs formed by paths in this graph.” [6] The algorithm is available here (http://github.com/fenderglass/Flye).
+
+* Selecting **Auto** will use Flye if only long reads are submitted. If long and short reads, as or short reads alone are submitted, Unicycler is selected. 
 ![Figure 27](./images/Picture27.png)
 
-
+2.	An output folder must be selected for the assembly job.  Typing the name of the folder in the text box underneath the words Output Folder will show a drop-down box that shows close hits to the name, and clicking on the arrow at the end of the box will open a drop-down box that shows the most recently created folders.  To find a previously created folder, or to create a new one, click on the folder icon at the end of the text box.  This will open a pop-up window that shows all the previously created folder.
 ![Figure 28](./images/Picture28.png)
 
-
+3.	Click on the desired folder, and then click the OK button in the lower right corner of the window.
 ![Figure 29](./images/Picture29.png)
 
-
+4.	A name for the job must be included prior to submitting the job.  Enter the name in the text box underneath the words Output Name.
 ![Figure 30](./images/Picture30.png)
 
+5.	The BV-BRC assembly service also has options to trim the reads using TrimGalore[7], correct assembly errors (or “polish) using Racon[8] and/or Pilon[9], and also provides the ability to change the minimum contig length and coverage.  Adjusting these parameters can be accomplished by clicking on the down arrow next to the word “Advanced” in the Parameters box.
 
+Both Racon and Pilon take the contigs and the reads mapped to those contigs and look for discrepancies between the assembly and the majority of the reads.  Where there is a discrepancy, Racon or Pilon will correct the assembly if the majority of the reads call for that.  Racon is for long reads (PacBio or Nanopore) and Pilon is for shorter reads (Illumina or Ion Torrent).  Once the assembly has been corrected with the reads, it is still possible to do another iteration to further improve the assembly, but each one takes time.  BV-BRC allows for 0 to 4 racon or pilon iterations. 
 ![Figure 31](./images/Picture31.png)
 
+## Submitting the Assembly Job
 
+1.	Once reads are in the Selected libraries and all the parameters have been selected, the Assemble button at the bottom of the page will turn blue.  The assembly will be submitted once this button is clicked.
 ![Figure 32](./images/Picture32.png)
 
-
+2.	A message will appear at the bottom of the page, indicating that the submitted job has entered the BV-BRC queue.
 ![Figure 33](./images/Picture33.png)
 
-
+### Monitoring progress on the Jobs page
+1.	Clicking on the Jobs box at the bottom right of any BV-BRC page/
 ![Figure 34](./images/Picture34.png)
 
-
+2.	This will open the Jobs Landing page where the status of submitted jobs is displayed.
 ![Figure 35](./images/Picture35.png)
 
-
+## Viewing and Interpreting the Assembly Job Results
+1.	On the jobs page, click on the row that has the assembly of interest. This will populate the vertical green bar on the right with possible downstream steps, which include viewing the results of the job, or reporting an issue that was experienced (like a job failure).  Click on the View icon.
 ![Figure 36](./images/Picture36.png)
 
-
+2.	This will rewrite the page to show the information about the assembly job, and all of the files that are produced when the pipeline runs.  
 ![Figure 37](./images/Picture37.png)
 
-
+3.	The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the Parameters row.
 ![Figure 38](./images/Picture38.png)
 
-
+4.	This will show the information on what was selected when the job was originally submitted.
 ![Figure 39](./images/Picture39.png)
 
+### Genome Assembly Report
 
+1.	The Genome Assembly report contains valuable information about the assembly, including the number of contigs. Clicking on the row that contains the number of contigs, depth and coverage.  **AssemblyReport.html** will highlight it in blue and populate the action bar with possible downstream steps.  Click on the View icon.
 ![Figure 40](./images/Picture40.png)
 
 

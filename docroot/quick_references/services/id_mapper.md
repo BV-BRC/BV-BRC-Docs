@@ -25,13 +25,16 @@ The **ID Mapper** submenu option under the **Services** main menu (Data category
 ## Options
 ![ID Mapper Input Form](../images/id_mapper_input_form.png) 
 
-**From:** Dropdown list for electing which ID type (BV-BRC, RefSeq, Uniprot-KB, etc.) to map from (source).
+## From 
+Dropdown list for electing which ID type (BV-BRC, RefSeq, Uniprot-KB, etc.) to map from (source).
 
-**To:** Dropdown list for selecting which ID type (BV-BRC, RefSeq, Uniprot-KB, etc.) to map to (target). 
+## To 
+Dropdown list for selecting which ID type (BV-BRC, RefSeq, Uniprot-KB, etc.) to map to (target). 
 
-**IDs:** Input box for specifying the IDs to map.  The IDs can be specified in a comma-separated or one-per-line list.
+## IDs
+Input box for specifying the IDs to map.  The IDs can be specified in a comma-separated or one-per-line list.
 
-### Feature Strategy 
+## Feature Strategy 
 This tool uses the Uniprot-KB mapping table to map external IDs to BV-BRC. This is done using NCBI IDs. Due to updates over time some NCBI IDs may achieve better mapping results than others. 
 
 ## Buttons

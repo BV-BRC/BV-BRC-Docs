@@ -28,8 +28,8 @@ To include a genome group in the analysis, click on the down arrow in the text b
 This box displays the list of all of the genomes and/or genome groups selected to be included in the analysis.
 
 ## Parameters
-* **Output folder** - The workspace folder where results will be placed.
-* **Output name** - A user-specified label. This name will appear in the workspace when the annotation job is complete.
+**Output folder** - The workspace folder where results will be placed.
+**Output name** - A user-specified label. This name will appear in the workspace when the annotation job is complete.
 
 ## Buttons
 * **Reset** - clears the form and resets all default values

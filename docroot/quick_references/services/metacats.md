@@ -12,11 +12,11 @@ The **Meta-CATS** submenu option under the **"SERVICES"** main menu (Viral Servi
 
 ![Meta-CATS menu option](../images/bv_services_menu.png) 
 
-## Parameters
-
 Below is a screenshot of the Meta-CATS landing page, as well as a summary of customizable parameters.  
 
 ![Figure 1](../images/metacats_Picture1.png "Figure 1") 
+
+## Parameters
 
 **P-value:** the probability of the observed data given that the null hypothesis is true. 
 
@@ -26,7 +26,7 @@ Below is a screenshot of the Meta-CATS landing page, as well as a summary of cus
 
 **Fasta Text Input:** Users may enter custom sequences here by pasting in FASTA formatted sequences. 
 
-### *Input Options*
+## Input Options
 
 **Auto Grouping:** Allows users to group sequences by available metadata such as: host, country, year, virus type, host age, host gender, etc. The appropriate metadata field may be selected from the “METADATA” drop-down menu. 
 

@@ -1,5 +1,7 @@
 # Genome Alignment Service
 
+*Revised: February 12, 2024*
+
 DNA sequence alignment is a prerequisite to many comparative genomic analyses.
 For longer genomic DNA, it helps to identify medium and large-scale rearrangements, as well as insertions and deletions. The BV-BRC Genome Alignment service uses progressiveMauve[1] which constructs positional homology multiple genome alignments to align regions conserved in subsets of the genomes.  The service uses genomes that are annotated within the BV-BRC resource (they can be private or public genomes), and up to 20 genomes can be compared.
 

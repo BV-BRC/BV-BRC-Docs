@@ -137,18 +137,22 @@ Below is a screenshot of the job landing page, as well as a summary of customiza
 
 ![HA Subtype Numbering Conversion Input Form](../images/ha_numbering/ha_numbering_input_form.png)
 
-**Input sequence:** Input sequences can be either a feature group, selected fasta sequence(s), or user-supplied sequence in fasta format.
-* **Feature Groups:** Allows selection of previously identified groups of sequences saved in the workspace.
-* **Select FASTA File:** Allows selection of custom sequence(s) saved in the workspace.
-* **Enter Sequence:** Allows pasting of a custom sequence in fasta format.
+## Input sequence
+Input sequences can be either a feature group, selected fasta sequence(s), or user-supplied sequence in fasta format.
+**Feature Groups:** Allows selection of previously identified groups of sequences saved in the workspace.
+**Select FASTA File:** Allows selection of custom sequence(s) saved in the workspace.
+**Enter Sequence:** Allows pasting of a custom sequence in fasta format.
 
-**Conversion Sequence Numbering Scheme:** Selects the subtype(s) (one or more) to which numbering scheme conversion is desired.
+## Conversion Sequence Numbering Scheme
+Selects the subtype(s) (one or more) to which numbering scheme conversion is desired.
 
-**Output Folder:** The workspace folder where results will be placed.
+## Output Folder
+The workspace folder where results will be placed.
 
-**Output Name:** A user-specified label. This name will appear in the workspace when the analysis job is complete.
+## Output Name
+A user-specified label. This name will appear in the workspace when the analysis job is complete.
 
-### Buttons
+## Buttons
 
 ![Buttons](../images/ha_numbering/buttons.png)
 
@@ -157,7 +161,7 @@ Submit: Launches the job. A message will appear below the box to indicate that 
 
 ![Job Submitted](../images/ha_numbering/job_submitted.png)
 
-### Output Results
+## Output Results
  
 Clicking on the Jobs indicator at the bottom of the BV-BRC page open the Jobs Status page that displays all current and previous service jobs and their status.
 
@@ -183,7 +187,7 @@ The HA Subtype Numbering Conversion Service generates several files that are dep
 * **queryN_result.fasta** - alignment of the query, its closest Burke reference and the selected subtypes for Numbering conversion.
 * **Sequence_annotation.tsv** - tabular summary of blast results for all the query sequences to determine the best reference subtype to use in the HA numbering pipeline.
  
-### Action buttons
+## Action buttons
  
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table. These include:
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
@@ -195,7 +199,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Copy:** Copies the selected items to the clipboard.
 * **Move:** Allows moving of the file to another folder.
  
-### Report 
+## Report 
  
 On the right-hand side of header in the results page there is a “View report” option which opens a consolidated report for the job.
 
@@ -207,7 +211,7 @@ For each Query, the result of the analysis is reported in two forms:
 
 ![Report](../images/ha_numbering/report.png)
 
-### Action Buttons 
+## Action Buttons 
  
 * **ID TYPE** - Changes the sequence ID in the displayed alignment by selecting query and using the “ID TYPE” option. Then the alignment can be viewed with a simplified common name or strain name.
 

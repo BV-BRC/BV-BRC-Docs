@@ -97,7 +97,7 @@ Output options can be specified using the parameters shown below:
 
 **Output Name:** The name users specify for the completed job. 
 
-### Buttons
+## Buttons
 
 ![Figure 7](../images/primer_Picture7.png "Figure 7")
 

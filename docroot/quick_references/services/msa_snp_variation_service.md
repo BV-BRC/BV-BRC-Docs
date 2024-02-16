@@ -18,30 +18,26 @@ The **Multiple Sequence Alignment** submenu option under the **"SERVICES"** main
 ![Figure 1](../images/msa_Picture1.png "Figure 1") 
 
 ## Start with
-
 Choose either
-* **Unaligned sequences** - Set of sequences, not previously aligned.
-* **Aligned sequences** - Pre-aligned set of sequences
+**Unaligned sequences** - Set of sequences, not previously aligned.
+**Aligned sequences** - Pre-aligned set of sequences
 
 ## Comparison sequences
-
 Choose one of the following options: 
-* **Select Feature Group:** Users may input a nucleic acid or protein FASTA file containing a previously selected “Feature Group” (eg. CDS, tRNA etc.) from their workspace here, either in addition to the FASTA text input, or as an alternative. Choose either DNA or protein sequences.
+**Select Feature Group:** Users may input a nucleic acid or protein FASTA file containing a previously selected “Feature Group” (eg. CDS, tRNA etc.) from their workspace here, either in addition to the FASTA text input, or as an alternative. Choose either DNA or protein sequences.
+**Select DNA or Protein FASTA File:** Users may input a nucleic acid or protein FASTA file from their workspace or upload their own data here, either in addition to the FASTA text input, or as an alternative. 
+**Input FASTA sequence** Users may enter custom sequences here by pasting in FASTA formatted sequences. 
 
-* **Select DNA or Protein FASTA File:** Users may input a nucleic acid or protein FASTA file from their workspace or upload their own data here, either in addition to the FASTA text input, or as an alternative. 
+## Aligner 
+Choose one of the aligmnent algorithm options:  
+**Mafft (default)**
+**MUSCLE**
 
-* **Input FASTA sequence** Users may enter custom sequences here by pasting in FASTA formatted sequences. 
+## Output Folder
+The workspace folder where results will be placed.
 
-**Aligner** - Choose one of the aligmnent algorithm options:  
-* Mafft [1,2] (default)
-* MUSCLE [3,4]
-* progressiveMauve [5]. 
-
-## Output Results
-
-**Output Folder:** The workspace folder where results will be placed.
-
-**Output Name:** A user-specified label. This name will appear in the workspace when the annotation job is complete.
+## Output Name
+A user-specified label. This name will appear in the workspace when the annotation job is complete.
 
 ## Buttons
 ![Figure 2](../images/msa_Picture2.png "Figure 2") 

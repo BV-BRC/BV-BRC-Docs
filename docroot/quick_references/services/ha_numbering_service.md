@@ -139,8 +139,11 @@ Below is a screenshot of the job landing page, as well as a summary of customiza
 
 ## Input sequence
 Input sequences can be either a feature group, selected fasta sequence(s), or user-supplied sequence in fasta format.
+
 **Feature Groups:** Allows selection of previously identified groups of sequences saved in the workspace.
+
 **Select FASTA File:** Allows selection of custom sequence(s) saved in the workspace.
+
 **Enter Sequence:** Allows pasting of a custom sequence in fasta format.
 
 ## Conversion Sequence Numbering Scheme

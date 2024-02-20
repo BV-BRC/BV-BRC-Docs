@@ -28,11 +28,13 @@ Users may enter their input sequence in this box, either by  directly pasting in
 ## Species
 Select the viral species desired for classification. Current species available for subspecies classification include: Hepatitis C Virus (HCV), Dengue Virus, Saint Louis Encephalitis Virus, West Nile Virus, Japanese Encephalitis Virus, tickborne Encephalitis Virus, Yellow Fever virus, Bovine diarrheal virus 1, Murray Valley Encephalitis virus, and Zika virus.
 
-**Output Folder:** The workspace folder where results will be placed.
+## Output Folder
+The workspace folder where results will be placed.
 
-**Output Name:** A user-specified label. This name will appear in the workspace when the annotation job is complete.
+## Output Name
+A user-specified label. This name will appear in the workspace when the annotation job is complete.
 
-![Submit Buttons](../images/subspecies-3.png)
+## Buttons
 
 **Reset:** Resets the input form to default values
 

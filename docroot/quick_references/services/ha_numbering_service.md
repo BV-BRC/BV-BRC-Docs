@@ -1,6 +1,6 @@
 # HA Subtype Numbering Conversion Service
 
-*Revised February 22, 2024*
+*Revised: February 22, 2024*
 
 ## Overview
 

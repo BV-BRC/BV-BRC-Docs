@@ -1,6 +1,6 @@
 # Subspecies Classification Service
 
-*Revised February 22, 2024*
+*Revised: February 22, 2024*
 
 ## Overview
 

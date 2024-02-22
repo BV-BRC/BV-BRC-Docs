@@ -1,5 +1,7 @@
 # Comparative Systems Service
 
+*Revised: 11/22/2022*
+
 The new Comparative Systems service at BV-BRC combines two tools that were part of the PATRIC resource (Protein Family Sorter and Comparative Pathways Viewer) and also includes subsystems1,2, a set of functional roles that together implement a specific biological process or structural complex and can also be generalized as pathways.   Up to 500 genomes can be compared.  All of the three systems use the two protein families (PATtyFams3) that are assigned in the BV-BRC annotation process known as RASTtk4.  The global families, known as PGFams, can be used for cross genus comparisons.  The local families (PLFams) are for intra genus comparisons.
 
 The Protein Family Sorter allows users to select a set of genomes of interest  and examine distribution of protein families across the genomes, commonly referred to as the “pan genome,” which in this case refers to the superset of proteins found in all selected genomes. This tool provides various filtering options to quickly locate protein families that are conserved across all the genomes (“core genome”), conserved only in a subset of the selected genomes (“accessory genome”) or that match a specified function. A tabular view shows protein families matching filtering criteria and an interactive heatmap viewer provides a bird’s-eye (“pan genome”) view of the distribution of the protein families across multiple genomes, with clustering and anchoring functions to show relative conservation of synteny and identify areas of possible horizontal transfer.

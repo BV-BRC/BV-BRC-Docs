@@ -23,18 +23,25 @@ Below is a screenshot of the Sequence Submission input form, as well as a summar
 
 ## Submitter Information
 
-* **First Name:** The first name of the submitter (Required)
-* **Last Name:** The last name of the submitter (Required)
-* **Email:** The email id of the submitter (Required)
-* **Institution/Affiliation:** The institution/affiliation information of the submitter (Required)
-* **Country:** The country information of the submitter (Required)
-* **Phone Number:** The phone number of the submitter
-* **Consortium:** The consortium information of the submitter
+**First Name:** The first name of the submitter (Required)
+
+**Last Name:** The last name of the submitter (Required)
+
+**Email:** The email id of the submitter (Required)
+
+**Institution/Affiliation:** The institution/affiliation information of the submitter (Required)
+
+**Country:** The country information of the submitter (Required)
+
+**Phone Number:** The phone number of the submitter
+
+**Consortium:** The consortium information of the submitter
 
 ## Sequence FASTA File
 
-* **Enter Sequence:** Paste the custom sequence in FASTA format.
-* **Select FASTA File:** Choose FASTA file that has been uploaded to the Workspace.
+**Enter Sequence:** Paste the custom sequence in FASTA format.
+
+**Select FASTA File:** Choose FASTA file that has been uploaded to the Workspace.
 
 ## Metadata File
 

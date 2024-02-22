@@ -1,5 +1,7 @@
 # SARS-CoV-2 Genome Assembly and Annotation Service
 
+*Revised: 8/25/2021*
+
 The SARS-CoV-2 Genome Assembly and Annotation Service provides a streamlined "meta- service" that accepts raw reads and performs genome assembly, annotation, and variation analysis.
 
 A genome assembly is the sequence produced after chromosomes from the organism have been fragmented, those fragments have been sequenced, and the resulting sequences have been put back together. This is currently needed as DNA sequencing technology cannot read whole genomes in one go, but rather can read small pieces of between 20 and 30,000 bases, depending on the technology used. Typically, the short fragments, called reads, result from shotgun (random) sequencing of genomic DNA. In some cases, microbes such as certain virus species with RNA genomes may first have to be reverse transcribed into DNA before they can be sequenced.

@@ -1,5 +1,7 @@
 # Primer Design Service
 
+*Revised: 1/24/2022*
+
 ## Overview
 
 The Primer Design Service in the Bacterial and Viral Bioinformatics Resource Center uses the Primer3 tool [1-4] to provide users with the ability to design primers from a given input sequence under a variety of temperature, size, and concentration constraints. Primer3 can be used to design primers for several uses including, PCR primers (PCR = "Polymerase Chain Reaction"), hybridization probes and sequencing primers. 

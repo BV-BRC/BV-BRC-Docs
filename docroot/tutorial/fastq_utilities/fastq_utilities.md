@@ -1,5 +1,7 @@
 # Fastq Utilities Service
 
+*Revised: 1/25/2021*
+
 ## Determining/Improving Read Quality
 
 FASTQ is a text-based format for storing both a nucleotide sequence and its corresponding quality scores. Both the sequence letter and quality score are each encoded with a single ASCII character.

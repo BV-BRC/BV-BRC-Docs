@@ -1,5 +1,7 @@
 # MSA and SNP/Variation Analysis Service
 
+*Revised: February 22, 2024*
+
 ## Overview
 The Multiple Sequence Alignment (MSA) and Single Nucleotide Polymorphism (SNP)/Variation Analysis Service allows users to choose an alignment algorithm to align sequences selected from: a search result, a FASTA file saved to the workspace, or through simply cutting and pasting. The service can also be used for variation and SNP analysis with feature groups, FASTA files, aligned FASTA files, and user input FASTA records. If a single alignment file is given, then only the variation analysis is run. If multiple inputs are given, the program concatenates all sequence records and aligns them. If a mixture of protein and nucleotides are given, then nucleotides are converted to proteins. 
 
@@ -18,30 +20,35 @@ The **Multiple Sequence Alignment** submenu option under the **"SERVICES"** main
 ![Figure 1](../images/msa_Picture1.png "Figure 1") 
 
 ## Start with
-
 Choose either
-* **Unaligned sequences** - Set of sequences, not previously aligned.
-* **Aligned sequences** - Pre-aligned set of sequences
+
+**Unaligned sequences** - Set of sequences, not previously aligned.
+
+**Aligned sequences** - Pre-aligned set of sequences
 
 ## Comparison sequences
-
 Choose one of the following options: 
-* **Select Feature Group:** Users may input a nucleic acid or protein FASTA file containing a previously selected “Feature Group” (eg. CDS, tRNA etc.) from their workspace here, either in addition to the FASTA text input, or as an alternative. Choose either DNA or protein sequences.
 
-* **Select DNA or Protein FASTA File:** Users may input a nucleic acid or protein FASTA file from their workspace or upload their own data here, either in addition to the FASTA text input, or as an alternative. 
+**Select Feature Group:** Users may input a nucleic acid or protein FASTA file containing a previously selected “Feature Group” (eg. CDS, tRNA etc.) from their workspace here, either in addition to the FASTA text input, or as an alternative. Choose either DNA or protein sequences.
 
-* **Input FASTA sequence** Users may enter custom sequences here by pasting in FASTA formatted sequences. 
+**Select DNA or Protein FASTA File:** Users may input a nucleic acid or protein FASTA file from their workspace or upload their own data here, either in addition to the FASTA text input, or as an alternative. 
 
-**Aligner** - Choose one of the aligmnent algorithm options:  
-* Mafft [1,2] (default)
-* MUSCLE [3,4]
-* progressiveMauve [5]. 
+**Input FASTA sequence** Users may enter custom sequences here by pasting in FASTA formatted sequences. 
 
-## Output Results
+## Parameters
 
-**Output Folder:** The workspace folder where results will be placed.
+### Aligner 
+Choose one of the aligmnent algorithm options:  
 
-**Output Name:** A user-specified label. This name will appear in the workspace when the annotation job is complete.
+**Mafft (default)**
+
+**MUSCLE**
+
+### Output Folder
+The workspace folder where results will be placed.
+
+### Output Name
+A user-specified label. This name will appear in the workspace when the annotation job is complete.
 
 ## Buttons
 ![Figure 2](../images/msa_Picture2.png "Figure 2") 
@@ -87,7 +94,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 More details are available in the [Selection Action Bar](/quick_references/action_bar) Quick Reference Guide.
 
 ## References
-1.	 Katoh K., Misawa K., Kuma K., Miyata T. MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform. Nucleic Acids Res. 2002;30:3059–3066. 
+1.	Katoh K., Misawa K., Kuma K., Miyata T. MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform. Nucleic Acids Res. 2002;30:3059–3066. 
 2.	Katoh K, Rozewicki J, Yamada KD. MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization. Brief Bioinform. 2019 Jul 19;20(4):1160-1166. doi: 10.1093/bib/bbx108. PMID: 28968734; PMCID: PMC6781576.
 3.	Edgar, Robert C. (2004), MUSCLE: multiple sequence alignment with high accuracy and high throughput, Nucleic Acids Research 32(5), 1792-97. 
 4.	Edgar, Robert C (2004), MUSCLE: a multiple sequence alignment method with reduced time and space complexity. BMC Bioinformatics, 5(1):113.

@@ -1,5 +1,7 @@
 # Metadata-driven Comparative Analysis Tool (meta-CATS)
 
+*Revised: February 22, 2024*
+
 ## Overview
 The meta-CATS metadata genome comparison tool takes sequence data and determines the aligned positions that significantly differ between two (or more) user-specified groups. Once an analysis is started, a multiple sequence alignment is performed if the input was unaligned (such as from a database query). A chi-square test of independence is then performed on each non-conserved column of the alignment, to identify those that have a non-random distribution of bases. A quantitative statistical value of variation is computed for all positions. Columns that are perfectly conserved will not be identified as statistically significant. All other non-conserved columns will be evaluated to determine whether the p-value is lower than the specified threshold value. Terminal gaps flanking the aligned sequences will not be taken into account for the analysis.  
 
@@ -12,11 +14,11 @@ The **Meta-CATS** submenu option under the **"SERVICES"** main menu (Viral Servi
 
 ![Meta-CATS menu option](../images/bv_services_menu.png) 
 
-## Parameters
-
 Below is a screenshot of the Meta-CATS landing page, as well as a summary of customizable parameters.  
 
 ![Figure 1](../images/metacats_Picture1.png "Figure 1") 
+
+## Parameters
 
 **P-value:** the probability of the observed data given that the null hypothesis is true. 
 
@@ -26,7 +28,7 @@ Below is a screenshot of the Meta-CATS landing page, as well as a summary of cus
 
 **Fasta Text Input:** Users may enter custom sequences here by pasting in FASTA formatted sequences. 
 
-### *Input Options*
+## Input Options
 
 **Auto Grouping:** Allows users to group sequences by available metadata such as: host, country, year, virus type, host age, host gender, etc. The appropriate metadata field may be selected from the “METADATA” drop-down menu. 
 

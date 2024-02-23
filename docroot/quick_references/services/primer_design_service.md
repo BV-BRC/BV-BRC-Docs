@@ -1,5 +1,7 @@
 # Primer Design Service
 
+*Revised: February 22, 2024*
+
 ## Overview
 The Primer Design Service utilizes Primer3[1-5] to design primers from a given input sequence under a variety of temperature, size, and concentration constraints. Primer3 can be used to design primers for several uses including, PCR (Polymerase Chain Reaction) primers, hybridization probes, and sequencing primers. The service accepts a nucleotide sequence (pasted in, or select a FASTA formatted file from the workspace) and allows users to specify design. After specifying an appropriate output folder and clicking “submit”, the primer design is queued as a “job” to process in the Jobs information box on the bottom right of the page. Once the job has successfully completed, the output file will appear in the workspace, allowing the user to choose from a list of appropriate primers. 
 
@@ -19,6 +21,8 @@ Once the primer design service has been selected, users will be directed to the 
 
 ![Figure 1](../images/primer_Picture1.png "Figure 1") 
 
+## Input Sequence
+
 Users may select one of two input options. 
 
 *1\) Pasting in a relevant sequence:* 
@@ -27,17 +31,11 @@ Users may select one of two input options.
 
 **Paste Sequence:** Choosing this option allows users to paste in an input sequence. 
 
-![Figure 2](../images/primer_Picture2.png "Figure 2")
-
 *2\) Choosing a workspace sequence:*
 
 **Workspace FASTA:** Choosing this option allows users to specify the FASTA file from their workspace. 
 
-![Figure 3](../images/primer_Picture3.png "Figure 3")
-
 *Users will also need to select appropriate target, inclusion and exclusion positions using options shown below. Selections can either be denoted by highlighting the desired regions and clicking the appropriate buttons (red box), or by manually typing in a list of coordinates in the appropriate boxes below.* 
-
-![Figure 4](../images/primer_Picture4.png "Figure 4")
 
 If you would like to design a hybridization probe to detect the PCR product after amplification (real-time PCR applications) you may select the “PICK INTERNAL OLIGO” option as shown above. 
 
@@ -69,19 +67,9 @@ OR: mark the source sequence with [ and ]: e.g. ...ATCT[CCCC]TCAT.. means that p
 
 OR: use { and } in the source sequence to mark the beginning and end of the included region: e.g. in ATC{TTC...TCT}AT the included region is TTC...TCT
 
-## Output
+## Advanced Options
 
-*Output options can be specified using the parameters shown below:*  
-
-![Figure 5](../images/primer_Picture5.png "Figure 5")
-
-**Output Folder:** The workspace folder where results will be placed.
-
-**Output Name:** The name users specify for the completed job. 
-
-  *Users may also choose to specify one or more primer properties by selecting “Advanced Options,” as shown below.*
-
-![Figure 6](../images/primer_Picture6.png "Figure 6")
+Users may also choose to specify one or more primer properties by selecting “Advanced Options,” as shown below.
 
 **Number to Return:** number of primers/primer pairs to return.
 
@@ -103,7 +91,15 @@ OR: use { and } in the source sequence to mark the beginning and end of the incl
 
 *More details on primer3 settings can be found on the [primer3 manual page [5]](https://primer3.org/manual.html#PRIMER_DNA_CONC).* 
 
-### Buttons
+## Output
+
+Output options can be specified using the parameters shown below: 
+
+**Output Folder:** The workspace folder where results will be placed.
+
+**Output Name:** The name users specify for the completed job. 
+
+## Buttons
 
 ![Figure 7](../images/primer_Picture7.png "Figure 7")
 

@@ -2,6 +2,8 @@
 
 ***This tutorial is outdated and requires work. It will be updated soon***
 
+*Revised 1/24/2022*
+
 ### See also
   * [Expression Import Service](https://bv-brc.org/app/Expression)
   * [Expression Import Service Quick Reference Guide](/quick_references/services/expression_data_import_service)

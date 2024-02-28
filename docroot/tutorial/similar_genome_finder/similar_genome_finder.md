@@ -1,5 +1,7 @@
 # Similar Genome Finder Service
 
+*Revised: 1/25/2022*
+
 When a researcher has a new genome sequence, one of the first things they want to identify is the closest relatives of their genome. BV-BRC provides a new service that allows researchers to do this using Mash/MinHash[1]. Mash reduces large sequences and sequence-sets to small, representative sketches, from which global mutation distances can be rapidly estimated. The MinHash dimensionality-reduction technique to include a pairwise mutation distance and P value significance test, enabling the efficient clustering and search of massive sequence collections.
 
 1.	At the top of any BV-BRC page, find the Services tab. Click on Similar Genome Finder. 

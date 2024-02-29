@@ -185,3 +185,6 @@ Detailed workshop agenda will be released soon.
 
 .. image:: ../images/2024/logo-bvbrc.png
    :height: 0
+
+.. image:: ../images/2024/bv-brc-subspecies-workshop_thumb.png
+   :height: 0

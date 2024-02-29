@@ -182,3 +182,6 @@ Workshop Agenda
 ---------------------
 
 Detailed workshop agenda will be released soon.
+
+.. image:: ../images/2024/logo-bvbrc.png
+   :height: 0

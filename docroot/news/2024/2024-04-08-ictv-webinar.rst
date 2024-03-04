@@ -12,6 +12,8 @@ If you are curious about the ICTV, their website, and the tools and features the
 
 **REGISTRATION**
 
+March 21, 2024 10:00 AM - 12:00 noon CDT
+
 More information about the Webinar Here: https://ictv.global/news/webinar_032124
 
 Sign up for the Webinar Here: https://uab.zoom.us/webinar/register/WN_t4jT-mCVQoCNVmO4zi-svw#/registration

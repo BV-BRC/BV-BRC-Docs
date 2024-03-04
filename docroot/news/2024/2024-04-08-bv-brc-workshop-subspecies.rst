@@ -152,8 +152,6 @@ Workshop Speakers
      - University of Basel, Switzerland
    * - **Njau, Emma Peter**
      - Sokoine University of Agriculture, Tanzania
-   * - **Parker, Edyth**
-     - Harvard, Redeemer's University, Nigeria
    * - **Rachel Colquhoun**
      - University of Edinburgh, U.K.
    * - **Roemer, Cornelius**

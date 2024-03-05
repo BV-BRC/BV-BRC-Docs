@@ -1,7 +1,7 @@
 ICTV Live Webinar: Learn about the ICTV and how to use our website
 =========================================
 
-.. image:: ../news/images/2024/ICTV-Logo-Large.png
+.. image:: ../images/2024/ICTV-Logo-Large.png
    :width: 500
    :alt: ICTV Logo
 

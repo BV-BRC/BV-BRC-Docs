@@ -5,6 +5,12 @@
         "img": "https://bv-brc.org/docs/_images/bv-brc-subspecies-workshop_thumb.png",
         "link": "https://bv-brc.org/docs/news/2024/2024-04-08-bv-brc-workshop-subspecies.html"
     },
+        {
+        "title": "ICTV Live Webinar: Learn about the ICTV and how to use our website",
+        "desc": "Join the Webinar Hosted by ICTV to learn more about how to use this resource.",
+        "img": "https://bv-brc.org/docs/_images/ICTV-Logo-Large.png",
+        "link": "https://bv-brc.org/docs/news/2024/2024-03-21-ictv-webinar.html"
+    },
     {
         "title": "BV-BRC Quick Start Guides",
         "desc": "Quick start guides and short video tutorials designed to orient new users as well as users from the legacy PATRIC, IRD and ViPR resources to the new BV-BRC Resource.",

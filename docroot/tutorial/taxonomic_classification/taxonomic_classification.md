@@ -200,14 +200,37 @@ The intensity of the red for each cell is calculated by putting the read scores 
 21.	The **multisample_krona.html** file is only generated if multiple samples are submitted with this job.  First select the row that contains this file, and then click on the **View** icon. Click to view krona plots of each sample included in your analysis. Toggle between all the samples included in your analysis by clicking on the sample names or up and down arrows in the upper left-hand corner of the report underneath the Krona logo. 
 ![Figure 50](./images/Picture50.png "Figure 50")
 
+Sample Information
+1.	The Taxonomic Classification pipeline also provides information on the samples submitted, and the identifiers that were originally included when the job was submitted.  The **sample_key.csv** shows this information, including the number of reads per sample submitted.
 
 ![Figure 51](./images/Picture51.png "Figure 51")
 
-
+2.	The **summary_table.csv** file shows information about the reads per sample submitted.  It includes the total number of reads and those that were classified and unclassified.  It also shows the number of reads that mapped to the highest taxonomic levels, as well as an artificial read.  
 ![Figure 52](./images/Picture52.png "Figure 52")
 
+## Reporting problems
+1.	This will open a pop-up window where issues with particular jobs can be reported. A description of the particular problem can be provided and clicking the submission button will generate a message to BV-BRC team members, notifying them that there has been a problem. We encourage researchers to report all failed jobs, or those that have results that are confusing. In addition, researchers should report long waits that they are experiencing in the queue.
 
 ![Figure 53](./images/Picture53.png "Figure 53")
 
+Pipelines
+* Pavian software: https://github.com/fbreitwieser/pavian
+* Kraken2 software: https://github.com/DerrickWood/kraken2/
+* Bracken software: https://github.com/jenniferlu717/Bracken
+* HISAT2 software: https://github.com/DaehwanKimLab/hisat2
 
-
+References
+1. Andrews, S.  FastQC: a quality control tool for high throughput sequence data.  (2010). http://www.bioinformatics.babraham.ac.uk/projects/fastqc
+2. Lu, J. et al. Metagenome analysis using the Kraken software suite. Nature protocols 17, 2815-2839 (2022).
+3. Kim, D., Paggi, J. M., Park, C., Bennett, C. & Salzberg, S. L. Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype. Nature biotechnology 37, 907-915 (2019).
+4. Wood, D. E., Lu, J. & Langmead, B. Improved metagenomic analysis with Kraken 2. Genome biology 20, 257 (2019).
+5. Ondov, B. D., Bergman, N. H. & Phillippy, A. M. Interactive metagenomic visualization in a Web browser. BMC bioinformatics 12, 385 (2011).
+6. Breitwieser, F. P. & Salzberg, S. L. Pavian: Interactive analysis of metagenomics data for microbiomics and pathogen identification. bioRxiv, 084715, doi:10.1101/084715 (2016).
+7. Lu, J., Breitwieser, F. P., Thielen, P. & Salzberg, S. L. Bracken: estimating species abundance in metagenomics data. PeerJ Computer Science 3, e104 (2017).
+8. Ewels, P., Magnusson, M., Lundin, S. & Käller, M. MultiQC: summarize analysis results for multiple tools and samples in a single report. Bioinformatics 32, 3047-3048 (2016).
+9. Krueger, F. Trim Galore: a wrapper tool around Cutadapt and FastQC to consistently apply quality and adapter trimming to FastQ files, with some extra functionality for MspI-digested RRBS-type (Reduced Representation Bisufite-Seq) libraries. URL http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/. (Date of access: 28/04/2016) (2012).
+10. O'Leary, N. A. et al. Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic acids research 44, D733-D745 (2016).
+11. Quast, C. et al. The SILVA ribosomal RNA gene database project: improved data processing and web-based tools. Nucleic acids research 41, D590-D596 (2012).
+12. DeSantis, T. Z. et al. Greengenes, a chimera-checked 16S rRNA gene database and workbench compatible with ARB. Applied and environmental microbiology 72, 5069-5072 (2006).
+13. Anderson, M. J., Ellingsen, K. E. & McArdle, B. H. Multivariate dispersion as a measure of beta diversity. Ecology letters 9, 683-693 (2006).
+14. Bray, J. R. & Curtis, J. T. An ordination of the upland forest communities of southern Wisconsin. Ecological monographs 27, 326-349 (1957).

@@ -180,7 +180,6 @@ If **16S** was originally selected, the two database selections are SILVA [11] (
 ![Figure 45](./images/Picture45.png "Figure 45")
 
 17.	It is possible to filter the **multi_sample_table.csv**.  If a particular taxon is of interest, the name can be entered into the text box at the top of the page, followed by clicking on the **Apply** button.  This will rewrite the table to show the results that match that name.
-
 ![Figure 46](./images/Picture46.png "Figure 46")
 
 18.	Results are compiled into a MultiQC report.  The **multiqc_report.html** can be viewed by selecting the row that contains it, and then clicking on the **View** icon.
@@ -194,7 +193,6 @@ If **16S** was originally selected, the two database selections are SILVA [11] (
 The robust z-score is the median absolute deviation. This method is chosen to reduce impact from outliers in the data, providing a more reliable measure of relative position within the data distribution.  A positive robust z-score indicates that the number of fragments assigned to that taxon was above the median or central tendency of the data.  Conversely, a negative robust z-score indicates that the number of fragments assigned to that taxon was below the median or central tendency of the data.  The magnitude (represented as the value of the z-score) indicates the distance of the data point from the central tendency in terms of the robust measure of dispersion.
 
 The intensity of the red for each cell is calculated by putting the read scores into quantiles probabilities ranging from 0.05 to 0.95 with an increment of 0.05. This means that the intensity of the color represents the relative position in the dataset’s distribution for that datapoint. A darker color indicates that value is more likely to be an outlier.
-
 ![Figure 49](./images/Picture49.png "Figure 49")
 
 21.	The **multisample_krona.html** file is only generated if multiple samples are submitted with this job.  First select the row that contains this file, and then click on the **View** icon. Click to view krona plots of each sample included in your analysis. Toggle between all the samples included in your analysis by clicking on the sample names or up and down arrows in the upper left-hand corner of the report underneath the Krona logo. 
@@ -202,7 +200,6 @@ The intensity of the red for each cell is calculated by putting the read scores 
 
 Sample Information
 1.	The Taxonomic Classification pipeline also provides information on the samples submitted, and the identifiers that were originally included when the job was submitted.  The **sample_key.csv** shows this information, including the number of reads per sample submitted.
-
 ![Figure 51](./images/Picture51.png "Figure 51")
 
 2.	The **summary_table.csv** file shows information about the reads per sample submitted.  It includes the total number of reads and those that were classified and unclassified.  It also shows the number of reads that mapped to the highest taxonomic levels, as well as an artificial read.  
@@ -210,7 +207,6 @@ Sample Information
 
 ## Reporting problems
 1.	This will open a pop-up window where issues with particular jobs can be reported. A description of the particular problem can be provided and clicking the submission button will generate a message to BV-BRC team members, notifying them that there has been a problem. We encourage researchers to report all failed jobs, or those that have results that are confusing. In addition, researchers should report long waits that they are experiencing in the queue.
-
 ![Figure 53](./images/Picture53.png "Figure 53")
 
 Pipelines

@@ -1,5 +1,7 @@
 # Sequence Submission Service
 
+*Revised: February 22, 2024*
+
 ## Overview
 The Sequence Submission service allows user to validate and submit virus sequences to NCBI Genbank. User-provided metadata and FASTA sequences are validated against the Genbank data submission standards to identify any sequence errors before submission. Sequences are also annotated using the VIGOR4 and FLAN annotation tools for internal use by users. The Sequence Submission service provides a validation report that should be reviewed by the user before submitting the sequences to the Genbank. 
 
@@ -23,18 +25,25 @@ Below is a screenshot of the Sequence Submission input form, as well as a summar
 
 ## Submitter Information
 
-* **First Name:** The first name of the submitter (Required)
-* **Last Name:** The last name of the submitter (Required)
-* **Email:** The email id of the submitter (Required)
-* **Institution/Affiliation:** The institution/affiliation information of the submitter (Required)
-* **Country:** The country information of the submitter (Required)
-* **Phone Number:** The phone number of the submitter
-* **Consortium:** The consortium information of the submitter
+**First Name:** The first name of the submitter (Required)
+
+**Last Name:** The last name of the submitter (Required)
+
+**Email:** The email id of the submitter (Required)
+
+**Institution/Affiliation:** The institution/affiliation information of the submitter (Required)
+
+**Country:** The country information of the submitter (Required)
+
+**Phone Number:** The phone number of the submitter
+
+**Consortium:** The consortium information of the submitter
 
 ## Sequence FASTA File
 
-* **Enter Sequence:** Paste the custom sequence in FASTA format.
-* **Select FASTA File:** Choose FASTA file that has been uploaded to the Workspace.
+**Enter Sequence:** Paste the custom sequence in FASTA format.
+
+**Select FASTA File:** Choose FASTA file that has been uploaded to the Workspace.
 
 ## Metadata File
 

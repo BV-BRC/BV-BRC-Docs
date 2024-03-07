@@ -1,20 +1,26 @@
-[   
+[
     {
-        "title": "BV-BRC Viral Pathogen Data Webinar Series",
-        "desc": "The BV-BRC team will be offering a bi-weekly Bioinformatics Webinar Series, showing how to explore and analyze viral pathogen data using BV-BRC.",
-        "img": "https://www.bv-brc.org/docs/_images/viral_pathogen_webinars.png",
-        "link": "https://www.bv-brc.org/docs/news/2023/2023-10-16-viral-data-webinar-series.html"   
-    },       
+        "title": "BV-BRC Viral Sub-species Classification Workshop",
+        "desc": "BV-BRC, CDC, NCBI, & NIAID hosting a hybrid workshop. Join us! Register!",
+        "img": "https://bv-brc.org/docs/_images/bv-brc-subspecies-workshop_thumb.png",
+        "link": "https://bv-brc.org/docs/news/2024/2024-04-08-bv-brc-workshop-subspecies.html"
+    },
+        {
+        "title": "ICTV Live Webinar: Learn about the ICTV and how to use our website",
+        "desc": "Join the Webinar Hosted by ICTV to learn more about how to use this resource.",
+        "img": "https://bv-brc.org/docs/_images/ICTV-Logo-Large.png",
+        "link": "https://bv-brc.org/docs/news/2024/2024-03-21-ictv-webinar.html"
+    },
     {
         "title": "BV-BRC Quick Start Guides",
         "desc": "Quick start guides and short video tutorials designed to orient new users as well as users from the legacy PATRIC, IRD and ViPR resources to the new BV-BRC Resource.",
         "img": "https://www.bv-brc.org/docs/_images/bv_organisms_menu_virus2.png",
-        "link": "https://www.bv-brc.org/docs/quick_start/index.html"   
+        "link": "https://www.bv-brc.org/docs/quick_start/index.html"
     },
     {
         "title": "Bacterial Bioinformatics Course on Coursera",
         "desc": "The BV-BRC offers an online Bacterial Bioinformatics course, freely available through Coursera. This course provides demonstrations and exercises for performing common genomics-based analysis tasks of bacterial sequence data.",
         "img": "https://www.bv-brc.org/docs/_images/MOOC_Logo_3.png",
-        "link": "https://www.bv-brc.org/docs/news/2023/bacterial-bioinformatics-mooc-course.html"   
+        "link": "https://www.bv-brc.org/docs/news/2023/bacterial-bioinformatics-mooc-course.html"
     }
 ]

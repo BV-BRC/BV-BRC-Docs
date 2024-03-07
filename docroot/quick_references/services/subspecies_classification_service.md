@@ -1,5 +1,7 @@
 # Subspecies Classification Service
 
+*Revised: February 22, 2024*
+
 ## Overview
 
 The subspecies classification tool assigns the genotype/subtype of a virus, based on the genotype/subtype assignments maintained by the International Committee on Taxonomy of Viruses (ICTV). This tool infers the genotype/subtype for a query sequence from its position within a reference tree (using the [pplacer](https://matsen.fhcrc.org/pplacer) tool with a reference tree and reference alignment, including the query sequence as input, interpretation of the [pplacer](https://matsen.fhcrc.org/pplacer) result is handled by [Cladinator](https://github.com/cmzmasek/forester/blob/master/forester/java/src/org/forester/application/cladinator.java)).
@@ -18,19 +20,23 @@ The subspecies classification tool assigns the genotype/subtype of a virus, base
 ## Parameters
 ![Subspecies Parameters](../images/subspecies-2.png)
 
-**Query source:** Users may enter their input sequence in this box, either by  directly pasting in a nucleotide sequence, or by selecting a FASTA file from the BV-BRC or uploading it to the site.
+## Query source
+Users may enter their input sequence in this box, either by  directly pasting in a nucleotide sequence, or by selecting a FASTA file from the BV-BRC or uploading it to the site.
 
 **Enter Sequence:** Users may enter custom sequences here by pasting in FASTA formatted sequences.
 
 **Select FASTA file:** Choose FASTA file that has been uploaded to the Workspace.
 
-**Species:** Select the viral species desired for classification. Current species available for subspecies classification include: Hepatitis C Virus (HCV), Dengue Virus, Saint Louis Encephalitis Virus, West Nile Virus, Japanese Encephalitis Virus, tickborne Encephalitis Virus, Yellow Fever virus, Bovine diarrheal virus 1, Murray Valley Encephalitis virus, and Zika virus.
+## Species
+Select the viral species desired for classification. Current species available for subspecies classification include: Hepatitis C Virus (HCV), Dengue Virus, Saint Louis Encephalitis Virus, West Nile Virus, Japanese Encephalitis Virus, tickborne Encephalitis Virus, Yellow Fever virus, Bovine diarrheal virus 1, Murray Valley Encephalitis virus, and Zika virus.
 
-**Output Folder:** The workspace folder where results will be placed.
+## Output Folder
+The workspace folder where results will be placed.
 
-**Output Name:** A user-specified label. This name will appear in the workspace when the annotation job is complete.
+## Output Name
+A user-specified label. This name will appear in the workspace when the annotation job is complete.
 
-![Submit Buttons](../images/subspecies-3.png)
+## Buttons
 
 **Reset:** Resets the input form to default values
 

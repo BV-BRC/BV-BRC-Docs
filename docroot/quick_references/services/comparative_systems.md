@@ -1,5 +1,7 @@
 # Comparative Systems Service
 
+*Revised: February 22, 2024*
+
 ## Overview
 The Comparative Systems Service combines together functionality from three different tools and data from the legacy PATRIC system: the **Protein Family Sorter**, **Pathway Comparison Tool**, and **Subsystems Data**. and also includes subsystems (1,2), a set of functional roles that together implement a specific biological process or structural complex and can also be generalized as pathways. Up to 500 genomes can be compared. All three tools use the two protein families, PATtyFams (3), that are assigned in the BV-BRC annotation process known as RASTtk (4). The global families, known as PGFams, can be used for cross genus comparisons. The local families, PLFams, are for intra-genus comparisons. Pathway maps are represented using KEGG (5).
 
@@ -19,7 +21,7 @@ The **Comparative Systems** submenu option under the **Services** main menu (Gen
 ![Comparative Systems Input Form](../images/comparative_systems/input_form.png)
 
 ## Select Genome
-The service can accept selected genomes and genome groups. To include any genome (reference, representative, other public, or private genomes), click on the filter icon in the text box in the "Select Genome" box to narrow the selection and deselect the categories that are not of interest. Typing in the text box will display a list of matching genomes. Clicking on the genome name selects it, and clicking on the arrow icon in the top right of the box adds it to the "Selected Genomes" list. Multiple genomes can be added.
+The service can accept selected genomes and genome groups. To include any genome (reference, representative, other public, or private genomes), click on the filter icon in the text box in the "Select Genome" box to narrow the selection and deselect the categories that are not of interest. Typing in the text box will display a list of matching genomes. Clicking on the genome name selects it, and clicking on the arrow icon in the top right of the box adds it to the "Selected Genomes" list. Multiple genomes can be added. This service uses genomes that are annotated within the BV-BRC resource (they can be private or public genomes).  You can annotate your contig files using the Annotation (https://www.bv-brc.org/app/Annotation), Comprehensive Genomic Analysis (https://www.bv-brc.org/app/ComprehensiveGenomeAnalysis) or Metagenomic Binning (https://www.bv-brc.org/app/MetagenomicBinning) services.
 
 ## Select Genome Group
 To include a genome group in the analysis, click on the down arrow in the text box in the "Select Genome Group" box. This will display a list of all the genome groups, with the most recently created appearing at the top of the list. Selecting a group and clicking on the arrow icon in the top right of the box adds it to the "Selected Genomes" list. Multiple genome groups can be added.
@@ -28,8 +30,10 @@ To include a genome group in the analysis, click on the down arrow in the text b
 This box displays the list of all of the genomes and/or genome groups selected to be included in the analysis.
 
 ## Parameters
-* **Output folder** - The workspace folder where results will be placed.
-* **Output name** - A user-specified label. This name will appear in the workspace when the annotation job is complete.
+
+**Output Folder:** The workspace folder where results will be placed.
+
+**Output Name:** The name users specify for the completed job. 
 
 ## Buttons
 * **Reset** - clears the form and resets all default values

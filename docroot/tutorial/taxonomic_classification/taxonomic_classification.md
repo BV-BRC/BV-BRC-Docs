@@ -164,31 +164,40 @@ If **16S** was originally selected, the two database selections are SILVA [11] (
 * Indented scientific name.
 ![Figure 41](./images/Picture41.png "Figure 41")
 
-
+## Diversity Statistics
+1.	Bracken is a companion program to Kraken2 and the other tools in the Kraken suite. It regenerates the report file using the new values calculated by Bracken. The Bracken results are used in the output files. The raw result files are available in the sample subdirectory under bracken_output. Any levels whose reads were below the threshold of 10 are not included. Percentages will be re-calculated for the remaining levels. Unclassified reads are not included in the report.  Bracken functions calculate alpha and beta diversity. The statistics displayed in .HTML files as well as a .CSV for downstream analysis. Selecting the **alpha_diversity.csv** row followed by the **View** icon will open the alpha diversity table. 
 ![Figure 42](./images/Picture42.png "Figure 42")
 
-
+2.	Clicking on the **alpha_diversity.html** row, followed by the **View** icon, opens the **Alpha Statistics** file.  This is similar to the alpha_diversity.csv file but includes explanations of the different diversity statistics at the bottom of the file.
 ![Figure 43](./images/Picture43.png "Figure 43")
 
-
+3.	Beta diversity statistics are also provided. The **beta_diversity.csv** file should be downloaded, but the **beta_stats_heatmap.html** file is available for viewing.  This is a heatmap displaying the beta-diversity value between each sample. Beta-diversity is quantified as the variability in community composition (the identity of taxa observed) between samples within a group of samples [13].  It is calculated by the KrakenTools beta_diversity.py script to compute the Bray-Curtis dissimilarity matrix [14] for pairwise dissimilarities among the samples. In this matrix, a 0 means the two samples were exactly the same and a 1 means they are maximally divergent.
 ![Figure 44](./images/Picture44.png "Figure 44")
 
+## Multisample reports
 
+16.	If multiple samples are submitted, functions from Pavian create an interactive multisample comparison table.  Clicking on the **multi_sample_table.csv** row and then clicking on the **View** icon in the green action bar will open this an interactive view of this table.
 ![Figure 45](./images/Picture45.png "Figure 45")
 
+17.	It is possible to filter the **multi_sample_table.csv**.  If a particular taxon is of interest, the name can be entered into the text box at the top of the page, followed by clicking on the **Apply** button.  This will rewrite the table to show the results that match that name.
 
 ![Figure 46](./images/Picture46.png "Figure 46")
 
-
+18.	Results are compiled into a MultiQC report.  The **multiqc_report.html** can be viewed by selecting the row that contains it, and then clicking on the **View** icon.
 ![Figure 47](./images/Picture47.png "Figure 47")
 
-
+19.	Scroll down the **multiqc_report.html** to see additional comparisons across the samples.
 ![Figure 48](./images/Picture48.png "Figure 48")
 
+20.	Select the row that contains the **multisample_comparison.html** table and click on the **View** icon in the green action bar.  Interact with the table by clicking the up and down arrows next to the sample ID. This will sort the results for the taxa with the highest z-score at the. top of the table. Set a range for the values in a column in the “All” text box. Click the “Prev”, “Next”, and page numbers to sort through pages of the table. Note that there are usually many pages of data.
+
+The robust z-score is the median absolute deviation. This method is chosen to reduce impact from outliers in the data, providing a more reliable measure of relative position within the data distribution.  A positive robust z-score indicates that the number of fragments assigned to that taxon was above the median or central tendency of the data.  Conversely, a negative robust z-score indicates that the number of fragments assigned to that taxon was below the median or central tendency of the data.  The magnitude (represented as the value of the z-score) indicates the distance of the data point from the central tendency in terms of the robust measure of dispersion.
+
+The intensity of the red for each cell is calculated by putting the read scores into quantiles probabilities ranging from 0.05 to 0.95 with an increment of 0.05. This means that the intensity of the color represents the relative position in the dataset’s distribution for that datapoint. A darker color indicates that value is more likely to be an outlier.
 
 ![Figure 49](./images/Picture49.png "Figure 49")
 
-
+21.	The **multisample_krona.html** file is only generated if multiple samples are submitted with this job.  First select the row that contains this file, and then click on the **View** icon. Click to view krona plots of each sample included in your analysis. Toggle between all the samples included in your analysis by clicking on the sample names or up and down arrows in the upper left-hand corner of the report underneath the Krona logo. 
 ![Figure 50](./images/Picture50.png "Figure 50")
 
 

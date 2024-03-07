@@ -3,11 +3,12 @@
 Accounts
 ========
 
-List of external system and social media accounts used by PATRIC: 
+List of external system and social media accounts used by BV-BRC: 
 
-- GitHub: https://github.com/PATRIC3/
-- Facebook: https://www.facebook.com/patricbrc/
-- Twitter: https://twitter.com/PATRICBRC
-- LinkedIn: https://www.linkedin.com/company/patricbrc/
-- YouTube: https://www.youtube.com/user/PATRICBRC
-- Google Analytics: https://analytics.google.com/analytics/web/?authuser=0#/report-home/a11736060w124923404p129251014
+- GitHub: https://github.com/BV-BRC
+- Facebook: https://www.facebook.com/BVBRC19
+- X/Twitter: https://twitter.com/BVBRC_DB
+- LinkedIn: https://www.linkedin.com/company/bv-brc/
+- YouTube: https://www.youtube.com/c/BVBRC
+- Reddit: https://www.reddit.com/r/BRC_users/
+- Coursera: https://www.coursera.org/learn/informatics

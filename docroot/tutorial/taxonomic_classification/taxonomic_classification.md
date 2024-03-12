@@ -209,13 +209,13 @@ Sample Information
 1.	This will open a pop-up window where issues with particular jobs can be reported. A description of the particular problem can be provided and clicking the submission button will generate a message to BV-BRC team members, notifying them that there has been a problem. We encourage researchers to report all failed jobs, or those that have results that are confusing. In addition, researchers should report long waits that they are experiencing in the queue.
 ![Figure 53](./images/Picture53.png "Figure 53")
 
-Pipelines
+## Pipelines
 * Pavian software: https://github.com/fbreitwieser/pavian
 * Kraken2 software: https://github.com/DerrickWood/kraken2/
 * Bracken software: https://github.com/jenniferlu717/Bracken
 * HISAT2 software: https://github.com/DaehwanKimLab/hisat2
 
-References
+## References
 1. Andrews, S.  FastQC: a quality control tool for high throughput sequence data.  (2010). http://www.bioinformatics.babraham.ac.uk/projects/fastqc
 2. Lu, J. et al. Metagenome analysis using the Kraken software suite. Nature protocols 17, 2815-2839 (2022).
 3. Kim, D., Paggi, J. M., Park, C., Bennett, C. & Salzberg, S. L. Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype. Nature biotechnology 37, 907-915 (2019).

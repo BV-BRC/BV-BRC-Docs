@@ -134,6 +134,10 @@ Workshop Speakers
      - U.S. Department of Agriculture
    * - **Bahl, Justin**
      - University of Georgia, U.S.
+   * - **Beck, Andy**
+     - CDC
+   * - **Colquhoun, Rachel**
+     - University of Edinburgh, U.K.
    * - **Donato, Celeste**
      - Monash University, Murdoch Children's Research Institute, Australia
    * - **Hatcher, Eneida**
@@ -142,23 +146,23 @@ Workshop Speakers
      - University of California Santa Cruz, U.S.
    * - **Korber, Bette**
      - Los Alamos National Labs, U.S.
-   * - **Kuhn, Jens**
+   * - **Kuhn, Jens H.**
      - NIH/NIAID Integrated Research Facility, U.S.
    * - **Le Mercier, Philippe**
      - Swiss-Prot group, Swiss Institute of Bioinformatics, Switzerland
    * - **Lefkowitz, Elliot**
      - University of Alabama at Birmingham, U.S.
+   * - **Lewis, Rosamund**
+     - University of Alabama at Birmingham, U.S.
    * - **Neher, Richard**
      - University of Basel, Switzerland
-   * - **Njau, Emma Peter**
-     - Sokoine University of Agriculture, Tanzania
-   * - **Rachel Colquhoun**
+   * - **O'Toole, Áine**
      - University of Edinburgh, U.K.
+   * - **Queen, Krista**
+     - LSU Health Shreveport, U.S.
    * - **Roemer, Cornelius**
      - University of Basel, Switzerland
-   * - **Rota, Paul**
-     - U.S. Centers of Disease Control and Prevention
-   * - **Seto, Don**
+   * - **Seto, Donald**
      - George Mason University
    * - **Simmonds, Peter**
      - University of Oxford, U.K.
@@ -179,7 +183,426 @@ Workshop Agenda
 
 ---------------------
 
-Detailed workshop agenda will be released soon.
+.. raw:: html
+
+    <style>
+      .workshop-agenda td {padding-left: 5.4pt !important;vertical-align: top !important;}
+      .workshop-agenda ul {margin-bottom: 0 !important;}
+      ul.no-bullets li {list-style-type: none !important;}
+    </style>
+
+    <p style="margin-bottom:3.0pt;"><strong>April 8, Day 1: Virus Sub-species Classification: What and Why</strong></p>
+    <table class="docutils align-default workshop-agenda">
+        <colgroup>
+            <col style="width: 23.0%">
+            <col style="width: 17.0%">
+            <col style="width: 30.0%">
+            <col style="width: 30.0%">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Topic</th>
+                <th>Title</th>
+                <th>Presenter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:30 AM - 9:45 AM</td>
+                <td>Welcome</td>
+                <td>Introduction; Workshop format; Questions to guide the discussions</td>
+                <td>Lefkowitz</td>
+            </tr>
+            <tr>
+                <td>9:45 AM - 10:00 AM</td>
+                <td>Introduction</td>
+                <td>Setting the Stage: virus sub-species Classification for Research Response and Informing Public Health Strategies</td>
+                <td>NIAID Representative</td>
+            </tr>
+            <tr>
+                <td>10:00 AM - 12:00 PM</td>
+                <td colspan="3">
+                    <p><strong>Session I: Tracking virus evolution through sub-species classification</strong></p>
+                    <p style="margin:3.0pt 0;"><em>The evolution of viruses during disease outbreaks and the impact this process has on sub-species classification, especially considering rapid rates of virus evolution.</em></p>
+                    <br>
+                    <p><strong>Moderator</strong></p>
+                    <ul class="no-bullets"><li>Elliot Lefkowitz, PhD, University of Alabama at Birmingham</li></ul>
+                    <br>
+                    <p><strong>Panel and Session Topics</strong> [30-minute talks]</p>
+                    <ul class="no-bullets">
+                        <li><strong><em>Tracking and predicting the spread and evolution of RNA viruses</em></strong></li>
+                        <li>Richard Neher, PhD, University of Basel, Switzerland</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>SARS-CoV-2 and HIV variant evolution</em></strong></li>
+                        <li>Bette Korber, PhD, Los Alamos National Labs, U.S.</li>
+                    </ul>
+                    <br>
+                    <p><strong>Break</strong> [15 minutes]</p>
+                    <br>
+                    <p><strong>Q&A Panel Discussions</strong> [45 Minutes]</p>
+                    <ul>
+                        <li>How are viruses classified below the level of species?</li>
+                        <li>How does virus evolution impact outbreak response?</li>
+                        <li>How have past outbreaks challenged traditional/current virus classification?</li>
+                        <li>What are the implications of these findings for future outbreak preparedness and response?</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>12:00 PM - 1:00 PM</td>
+                <td colspan="3">Lunch</td>
+            </tr>
+            <tr>
+                <td>1:00 PM - 3:00 PM</td>
+                <td colspan="3">
+                    <p><strong>Session II: Unraveling the complexities of RNA and DNA viruses</strong></p>
+                    <p style="margin:3.0pt 0;"><em>Examples of the evolution of virus disease, the impact of lineage evolution on &nbsp;pathogenicity, and the consequences for classifying and responding to particular virus threats.</em></p>
+                    <br>
+                    <p><strong>Moderator</strong></p>
+                    <ul class="no-bullets"><li>TBD</li></ul>
+                    <br>
+                    <p><strong>Panel and Session Topics</strong> [15-minute talks]</p>
+                    <ul class="no-bullets">
+                        <li><strong><em>Evolution, epidemiology, and RNA virus disease</em></strong></li>
+                        <li>Justin Bahl, PhD, University of Georgia</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>Influenza virus lineage evolution</em></strong></li>
+                        <li>Tavis Anderson, PhD, U.S. Department of Agriculture</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>Filovirus sub-species nomenclature</em></strong></li>
+                        <li>Jens H. Kuhn, PhD, NIH/NIAID/DCR Integrated Research Facility at Fort Detrick</li>
+                        <li>&nbsp;</p>
+                        <li><strong><em>Rotavirus diversity, evolution, and lineage classification</em></strong></li>
+                        <li>Celeste Donato, PhD, Monash University, Murdoch Children's Research Institute</li>
+                    </ul>
+                    <br>
+                    <p><strong>Break</strong></p>
+                    <br>
+                    <ul class="no-bullets">
+                        <li><strong><em>Update on Human Adenoviruses</em></strong></li>
+                        <li>Donald Seto, PhD, George Mason University</p>
+                        <li>&nbsp;</p>
+                        <li><strong><em>Monkeypox sub-species evolution</em></strong></li>
+                        <li>Elliot Lefkowitz, PhD, University of Alabama at Birmingham</li>
+                    </ul>
+                    <br>
+                    <p><strong>Q&A Panel Discussions</strong> [15 Minutes]</p>
+                    <ul>
+                        <li>How are viruses classified?</li>
+                        <li style="list-style-type: none !important;">
+                            <ul>
+                                <li>What biological and genetic features are used to support classification?</li>
+                                <li>Are complete genomic sequences required to support classification or are specific subgenomic regions sufficient?</li>
+                                <li>Are there common characteristics that can be used to classify all viruses or do distinguishing characteristics require multiple classification schemes?</li>
+                            </ul>
+                        </li>
+                        <li>Is the current sub-species classification system for each virus sufficient to capture the relevant genetic diversity now and in the future?</li>
+                        <li>During disease outbreaks, are there specific mutations or common patterns of genetic variation observed in RNA or DNA viruses that impact pathogenesis?</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>3:45 PM - 4:00 PM</td>
+                <td colspan="3">Break</td>
+            </tr>
+            <tr>
+                <td>4:00 PM - 5:00 PM</td>
+                <td colspan="3">
+                    <p><strong>White Board Brainstorming Session</strong></p>
+                    <br>
+                    <ul class="no-bullets">
+                        <li><strong>Moderators:</strong></li>
+                        <li>Liliana Brown, PhD, NIAID</p>
+                        <li>Session Moderators</li>
+                    </ul>
+                    <br>
+                    <p><strong>Questions:</strong></p>
+                    <ul>
+                        <li>To what extent can we leverage our understanding of virus evolution to improve classification, predict novel, impactful strains, develop more effective diagnostics and vaccines, and ultimately inform control and response strategies?</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="margin-bottom:3.0pt;"><strong>April 9, Day 2: Virus Sub-species Classification: How</strong></p>
+    <table class="docutils align-default workshop-agenda">
+        <colgroup>
+            <col style="width: 23.0%">
+            <col style="width: 77.0%">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td>9:30 AM - 9:35 AM</td>
+                <td><strong>Welcome back and Recap of Day 1</strong></td>
+            </tr>
+            <tr>
+                <td>9:35 AM - 10:45 AM</td>
+                <td>
+                    <p><strong>Session III: Diverse Viewpoints: Exploring Classification from Different Perspectives</strong></p>
+                    <p style="margin:3.0pt 0;"><em>Exploring and understanding different virus classification systems and how they impact our responses to disease outbreaks.</em></p>
+                    <br>
+                    <p><strong>Moderator</strong></p>
+                    <ul class="no-bullets"><li>Conrad Schoch, PhD, NCBI</li></ul>
+                    <br>
+                    <p><strong>Panel and Session Topics</strong> [30-minute talks]</p>
+                    <ul class="no-bullets">
+                        <li><strong><em>Evolution, immunity, and surveillance</em></strong></li>
+                        <li>Derek Smith, PhD,  University of Cambridge</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>Virus classification and support for different stakeholders</em></strong></li>
+                        <li>Peter Simmonds, PhD, University of Oxford</li>
+                    </ul>
+                    <br>
+                    <p><strong>Q&A Panel Discussions</strong> [30 Minutes]</p>
+                    <ul>
+                        <li>Can virus classification systems be designed to be both clear and adaptable, allowing for consistent communication while effectively tracking virus evolution?</li>
+                        <li style="list-style-type: none !important;">
+                            <ul>
+                                <li>Can these sometimes conflicting goals be effectively addressed, especially during a disease outbreak?</li>
+                            </ul>
+                        </li>
+                        <li>How does rapid virus evolution during outbreaks hinder current sub-species classification methods? Are there alternative approaches better suited for tracking these dynamic changes?</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>10:45 AM - 11:00 AM</td>
+                <td>Break</td>
+            </tr>
+            <tr>
+                <td>11:00 AM - 12:15 PM</td>
+                <td>
+                    <p><strong>Session IV: Virus classification schemes</strong></p>
+                    <p style="margin:3.0pt 0;"><em>Species and sub-species: Different approaches and schemes for the classification of viruses.</em></p>
+                    <br>
+                    <p><strong>Moderator</strong></p>
+                    <ul class="no-bullets"><li>Richard Scheuermann, PhD, National Library of Medicine (NLM)</li></ul>
+                    <br>
+                    <p><strong>Panel and Session Topics</strong> [15-minute talks]</p>
+                    <ul class="no-bullets">
+                        <li><strong><em>The ICTV taxonomy: Classification and nomenclature</em></strong></li>
+                        <li>Jens H. Kuhn, PhD, NIH/NIAID/DCR Integrated Research Facility at Fort Detrick</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>GISAID classification</em></strong></li>
+                        <li>Krista Queen, PhD, LSU Health Shreveport (remote)</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>Perspectives on the development of the Pango system and software</em></strong></li>
+                        <li>Áine O'Toole, PhD, The University of Edinburgh</li>
+                        <li>&nbsp;</p>
+                        <li><strong><em>Pango beyond the SARS-CoV-2 pandemic</em></strong></li>
+                        <li>Rachel Colquhoun, PhD, The University of Edinburgh</li>
+                    </ul>
+                    <br>
+                    <p><strong>Q&A Panel Discussion</strong> [15 Minutes]</p>
+                    <ul>
+                        <li>How do the existing classification schemes impact our ability to track and respond to virus outbreaks?</li>
+                        <li>In what ways do these classification schemes influence public health interventions and vaccine development?</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>12:15 PM - 1:15 PM</td>
+                <td>Lunch</td>
+            </tr>
+            <tr>
+                <td>1:15 PM - 2:30 PM</td>
+                <td>
+                    <p><strong>Session V: Virus classification tools</strong></p>
+                    <p style="margin:3.0pt 0;"><em>Tools to explore virus evolution and their classification.</em></p>
+                    <br>
+                    <p><strong>Moderator</strong></p>
+                    <ul class="no-bullets"><li>Brandon Hatcher, PhD, CDC</li></ul>
+                    <br>
+                    <p><strong>Panel and Session Topics</strong> [20-minute talks]</p>
+                    <ul class="no-bullets">
+                        <li><strong><em>Nextstrain</em></strong></li>
+                        <li>Cornelius Roemer, PhD, University of Basel, Switzerland</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>UShER and autolin: Identifying virus lineages</em></strong></li>
+                        <li>Angie Hinrichs, University of California Santa Cruz</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>BV-BRC sub-species classification tools</em></strong></li>
+                        <li>Christian Zmasek, J. Craig Venter Institute, BV-BRC</li>
+                    </ul>
+                    <br>
+                    <p><strong>Q&A Panel Discussion</strong> [15 Minutes]</p>
+                    <ul>
+                        <li>How do different classification systems impact our understanding of virus evolution and disease emergence?</li>
+                        <li>Do current classification systems capture sufficient genetic variation and associated phenotypic impact to support prediction of future disease outcomes?</li>
+                        <li>Are there emerging classification approaches that hold promise for improved prediction, control and response to virus disease?</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>2:30 PM - 2:45 PM</td>
+                <td>Break</td>
+            </tr>
+            <tr>
+                <td>2:45 PM - 4:00 PM</td>
+                <td>
+                    <p><strong>Session VI: Analytical and visualization tools</strong></p>
+                    <p style="margin:3.0pt 0;"><em>User tools and platforms available to study virus evolution during an outbreak.</em></p>
+                    <br>
+                    <p><strong>Moderator</strong></p>
+                    <ul class="no-bullets"><li>Indresh Singh, J. Craig Venter Institute, BV-BRC</li></ul>
+                    <br>
+                    <p><strong>Panel and Session Topics</strong> [20-minute talks]</p>
+                    <ul class="no-bullets">
+                        <li><strong><em>NCBI Virus / Taxonomy</em></strong></li>
+                        <li>Eneida Hatcher, PhD, NCBI</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>Virus sub-species in ViralZone and UniProtKB</em></strong></li>
+                        <li>Philippe Le Mercier, PhD, Swiss-Prot group, Swiss Institute of Bioinformatics, Switzerland</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>Thinking about virus mutational spectra through visualization</em></strong></li>
+                        <li>Andrew Warren, PhD, University of Virginia, BV-BRC</li>
+                    </ul>
+                    <br>
+                    <p><strong>Q&A Panel Discussion</strong> [15 Minutes]</p>
+                    <ul>
+                        <li>What role do data repository and analytical platforms provide to support basic research and outbreak response?</li>
+                        <li>Are there research and response needs not supported by these platforms?</li>
+                        <li>How can these platforms be extended to provide a more  complete spectrum of biomedical data and analytical tools?</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>4:00 PM - 4:15 PM</td>
+                <td>Break</td>
+            </tr>
+            <tr>
+                <td>4:15 PM - 5:15 PM</td>
+                <td colspan="3">
+                    <p><strong>White Board Brainstorming Session</strong> [60 minutes]</p>
+                    <br>
+                    <ul class="no-bullets">
+                        <li><strong>Moderators:</strong></li>
+                        <li>Wiriya Rutvisuttinunt (NIAID)</p>
+                        <li>Session Moderators</li>
+                    </ul>
+                    <br>
+                    <p><strong>Questions:</strong></p>
+                    <ul>
+                        <li>What are the limitations of current classification systems?</li>
+                        <li style="list-style-type: none !important;">
+                            <ul>
+                                <li>Are they able to track rapidly evolving viruses?</li>
+                                <li>Are they able to track associated phenotypic changes?</li>
+                                <li>Can they be used to effectively model future genotypic and phenotypic changes are their impact on disease?</li>
+                            </ul>
+                        </li>
+                        <li>Can we use an existing classification approach for all viruses?</li>
+                        <li style="list-style-type: none !important;">
+                            <ul>
+                                <li>If not, how many unique approaches need to be provided/supported?</li>
+                                <li>What new tools need to be developed to support classification of all human disease-causing viruses?</li>
+                                <li>To what extent can classification be automated and support large volumes of data?</li>
+                            </ul>
+                        </li>
+                        <li>Do we need a standardized nomenclature for evolving lineages?</li>
+                        <li style="list-style-type: none !important;">
+                            <ul>
+                                <li>How do we implement a standardized scheme?</li>
+                            </ul>
+                        </li>
+                        <li>In what ways do these classification schemes influence the public health response?</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="margin-bottom:3.0pt;"><strong>April 10, Day 3: Responding to Public Health Needs</strong></p>
+    <table class="docutils align-default workshop-agenda">
+        <colgroup>
+            <col style="width: 23.0%">
+            <col style="width: 77.0%">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td>9:00 AM - 9:05 AM</td>
+                <td><strong>Welcome back and Recap of Day 1 & 2</strong></td>
+            </tr>
+            <tr>
+                <td>9:05 AM - 10:40 AM</td>
+                <td>
+                    <p><strong>Session VII: The Public Health Impact, Challenges and the Path Forward</strong></p>
+                    <p style="margin:3.0pt 0;"><em>The role of virus classification to support the  public health response to disease and how that classifications helps us identify new threats, track outbreaks, and develop targeted interventions.</em></p>
+                    <br>
+                    <p><strong>Moderator</strong></p>
+                    <ul class="no-bullets"><li>Alison St John, PhD, CDC</li></ul>
+                    <br>
+                    <p><strong>Panel and Session Topics</strong> [20-minute talks]</p>
+                    <ul class="no-bullets">
+                        <li><strong><em>NIAID: To better understand, treat, and ultimately prevent infectious diseases</em></strong></li>
+                        <li>TBD</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>CDC: Public Health Perspective: Federal Level</em></strong></li>
+                        <li>Andy Beck, PhD, CDC</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>WHO Global Program</em></strong> (remote)</li>
+                        <li>Rosamund Lewis, PhD, WHO</li>
+                        <li>&nbsp;</li>
+                        <li><strong><em>Boots on the ground: State public health laboratory’s perspective on virus pathogen surveillance</em></strong></li>
+                        <li>Sean Wang, Minnesota Department of Public Health</li>
+                    </ul>
+                    <br>
+                    <p><strong>Q&A Panel Discussions</strong> [15 Minutes]</p>
+                    <ul>
+                        <li>How does an  understanding of virus evolution during outbreaks improve and/or complicate outbreak preparedness and response?</li>
+                        <li>How can we improve our understanding of virus evolution to inform the development of more effective vaccines and treatments?</li>
+                        <li>Are there any ethical considerations related to the classification and naming of evolving virus lineages with respect to the public health response and the development of interventions?</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>10:40 AM - 10:55 AM</td>
+                <td>Break</td>
+            </tr>
+            <tr>
+                <td>10:55 AM - 12:00 PM</td>
+                <td colspan="3">
+                    <p><strong>White Board Brainstorming Session</strong> [65 minutes]</p>
+                    <br>
+                    <ul class="no-bullets">
+                        <li><strong>Moderator:</strong></li>
+                        <li>Duncan MacCannnell, PhD, CDC</p>
+                    </ul>
+                    <br>
+                    <p><strong>Panel discussion</strong></p>
+                    <ul>
+                        <li>What are the needs of the Public Health community?</li>
+                        <li style="list-style-type: none !important;">
+                            <ul>
+                                <li>How do we best meet those needs</li>
+                            </ul>
+                        </li>
+                        <li>Who should develop, implement,  and maintain the classification system(s)?</li>
+                        <li style="list-style-type: none !important;">
+                            <ul>
+                                <li>Will one approach/system suffice, or do multiple systems need to be developed and supported?</li>
+                                <li>What other responsibilities need to be supported (e.g., making the tools available along with outreach efforts to publicize the system and train people in their use.)?</li>
+                            </ul>
+                        </li>
+                        <li>Preparing for the next pandemic</li>
+                        <li style="list-style-type: none !important;">
+                            <ul>
+                                <li>How do we bring all of this together in a timely manner?</li>
+                                <li>How do we test the proposed response?</li>
+                                <li>How will this effort be supported?</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <br>
+                    <p><strong>Meeting outcomes and next steps</strong></p>
+                    <br>
+                    <p><strong>Conclusion</strong></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
 .. image:: ../images/2024/logo-bvbrc.png
    :height: 0

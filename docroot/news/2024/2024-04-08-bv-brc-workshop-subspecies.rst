@@ -136,6 +136,8 @@ Workshop Speakers
      - University of Georgia, U.S.
    * - **Beck, Andy**
      - CDC
+   * - **Brown, Liliana**
+     - NIH/NIAID
    * - **Colquhoun, Rachel**
      - University of Edinburgh, U.K.
    * - **Donato, Celeste**
@@ -212,13 +214,13 @@ Workshop Agenda
                 <td>9:30 AM - 9:45 AM</td>
                 <td>Welcome</td>
                 <td>Introduction; Workshop format; Questions to guide the discussions</td>
-                <td>Lefkowitz</td>
+                <td>Elliot Lefkowitz</td>
             </tr>
             <tr>
                 <td>9:45 AM - 10:00 AM</td>
                 <td>Introduction</td>
                 <td>Setting the Stage: virus sub-species Classification for Research Response and Informing Public Health Strategies</td>
-                <td>NIAID Representative</td>
+                <td>Wiriya Rutvisuttinunt</td>
             </tr>
             <tr>
                 <td>10:00 AM - 12:00 PM</td>
@@ -247,6 +249,8 @@ Workshop Agenda
                         <li>How have past outbreaks challenged traditional/current virus classification?</li>
                         <li>What are the implications of these findings for future outbreak preparedness and response?</li>
                     </ul>
+                    <br>
+                    <p>Use Reddit for questions and discussions <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">here</a>.
                 </td>
             </tr>
             <tr>
@@ -260,7 +264,7 @@ Workshop Agenda
                     <p style="margin:3.0pt 0;"><em>Examples of the evolution of virus disease, the impact of lineage evolution on &nbsp;pathogenicity, and the consequences for classifying and responding to particular virus threats.</em></p>
                     <br>
                     <p><strong>Moderator</strong></p>
-                    <ul class="no-bullets"><li>TBD</li></ul>
+                    <ul class="no-bullets"><li>Leah Katzelnick, PhD, NIAID</li></ul>
                     <br>
                     <p><strong>Panel and Session Topics</strong> [15-minute talks]</p>
                     <ul class="no-bullets">
@@ -274,7 +278,7 @@ Workshop Agenda
                         <li>Jens H. Kuhn, PhD, NIH/NIAID/DCR Integrated Research Facility at Fort Detrick</li>
                         <li>&nbsp;</p>
                         <li><strong><em>Rotavirus diversity, evolution, and lineage classification</em></strong></li>
-                        <li>Celeste Donato, PhD, Monash University, Murdoch Children's Research Institute</li>
+                        <li>Celeste Donato, PhD, Murdoch Children's Research Institute</li>
                     </ul>
                     <br>
                     <p><strong>Break</strong></p>
@@ -300,6 +304,8 @@ Workshop Agenda
                         <li>Is the current sub-species classification system for each virus sufficient to capture the relevant genetic diversity now and in the future?</li>
                         <li>During disease outbreaks, are there specific mutations or common patterns of genetic variation observed in RNA or DNA viruses that impact pathogenesis?</li>
                     </ul>
+                    <br>
+                    <p>Use Reddit for questions and discussions <a href="https://www.reddit.com/r/BRC_users/comments/1bu54kq/feedback_requested_session_ii_unraveling_the" target="_blank">here</a>.
                 </td>
             </tr>
             <tr>
@@ -314,6 +320,7 @@ Workshop Agenda
                     <ul class="no-bullets">
                         <li><strong>Moderators:</strong></li>
                         <li>Liliana Brown, PhD, NIAID</p>
+                        <li>Wiriya Rutvisuttinunt, NIAID</p>
                         <li>Session Moderators</li>
                     </ul>
                     <br>
@@ -365,6 +372,8 @@ Workshop Agenda
                         </li>
                         <li>How does rapid virus evolution during outbreaks hinder current sub-species classification methods? Are there alternative approaches better suited for tracking these dynamic changes?</li>
                     </ul>
+                    <br>
+                    <p>Use Reddit for questions and discussions <a href="https://www.reddit.com/r/BRC_users/comments/1bu5avt/feedback_requested_session_iii_diverse_viewpoints" target="_blank">here</a>.
                 </td>
             </tr>
             <tr>
@@ -400,6 +409,8 @@ Workshop Agenda
                         <li>How do the existing classification schemes impact our ability to track and respond to virus outbreaks?</li>
                         <li>In what ways do these classification schemes influence public health interventions and vaccine development?</li>
                     </ul>
+                    <br>
+                    <p>Use Reddit for questions and discussions <a href="https://www.reddit.com/r/BRC_users/comments/1bu5ct3/feedback_requested_session_iv_virus" target="_blank">here</a>.
                 </td>
             </tr>
             <tr>
@@ -413,7 +424,7 @@ Workshop Agenda
                     <p style="margin:3.0pt 0;"><em>Tools to explore virus evolution and their classification.</em></p>
                     <br>
                     <p><strong>Moderator</strong></p>
-                    <ul class="no-bullets"><li>Brandon Hatcher, PhD, CDC</li></ul>
+                    <ul class="no-bullets"><li>Eneida Hatcher, PhD, NCBI</li></ul>
                     <br>
                     <p><strong>Panel and Session Topics</strong> [20-minute talks]</p>
                     <ul class="no-bullets">
@@ -433,6 +444,8 @@ Workshop Agenda
                         <li>Do current classification systems capture sufficient genetic variation and associated phenotypic impact to support prediction of future disease outcomes?</li>
                         <li>Are there emerging classification approaches that hold promise for improved prediction, control and response to virus disease?</li>
                     </ul>
+                    <br>
+                    <p>Use Reddit for questions and discussions <a href="https://www.reddit.com/r/BRC_users/comments/1bu5ek5/feedback_requested_session_v_virus_classification" target="_blank">here</a>.
                 </td>
             </tr>
             <tr>
@@ -466,6 +479,8 @@ Workshop Agenda
                         <li>Are there research and response needs not supported by these platforms?</li>
                         <li>How can these platforms be extended to provide a more  complete spectrum of biomedical data and analytical tools?</li>
                     </ul>
+                    <br>
+                    <p>Use Reddit for questions and discussions <a href="https://www.reddit.com/r/BRC_users/comments/1bu5gnv/feedback_requested_session_vi_analytical_and" target="_blank">here</a>.
                 </td>
             </tr>
             <tr>
@@ -479,7 +494,8 @@ Workshop Agenda
                     <br>
                     <ul class="no-bullets">
                         <li><strong>Moderators:</strong></li>
-                        <li>Wiriya Rutvisuttinunt (NIAID)</p>
+                        <li>Wiriya Rutvisuttinunt, NIAID</p>
+                        <li>Liliana Brown, NIAID</p>
                         <li>Session Moderators</li>
                     </ul>
                     <br>
@@ -532,15 +548,15 @@ Workshop Agenda
                     <p style="margin:3.0pt 0;"><em>The role of virus classification to support the  public health response to disease and how that classifications helps us identify new threats, track outbreaks, and develop targeted interventions.</em></p>
                     <br>
                     <p><strong>Moderator</strong></p>
-                    <ul class="no-bullets"><li>Alison St John, PhD, CDC</li></ul>
+                    <ul class="no-bullets"><li>Paul Eder, PhD, NIAID</li></ul>
                     <br>
                     <p><strong>Panel and Session Topics</strong> [20-minute talks]</p>
                     <ul class="no-bullets">
                         <li><strong><em>NIAID: To better understand, treat, and ultimately prevent infectious diseases</em></strong></li>
-                        <li>TBD</li>
+                        <li>Liliana Brown, NIAID</li>
                         <li>&nbsp;</li>
                         <li><strong><em>CDC: Public Health Perspective: Federal Level</em></strong></li>
-                        <li>Andy Beck, PhD, CDC</li>
+                        <li>Andrew Beck, PhD, U.S. Centers for Disease Control and Prevention</li>
                         <li>&nbsp;</li>
                         <li><strong><em>WHO Global Program</em></strong> (remote)</li>
                         <li>Rosamund Lewis, PhD, WHO</li>
@@ -555,6 +571,8 @@ Workshop Agenda
                         <li>How can we improve our understanding of virus evolution to inform the development of more effective vaccines and treatments?</li>
                         <li>Are there any ethical considerations related to the classification and naming of evolving virus lineages with respect to the public health response and the development of interventions?</li>
                     </ul>
+                    <br>
+                    <p>Use Reddit for questions and discussions <a href="https://www.reddit.com/r/BRC_users/comments/1bu5im7/feedback_requested_session_vii_the_public_health" target="_blank">here</a>.
                 </td>
             </tr>
             <tr>
@@ -568,7 +586,7 @@ Workshop Agenda
                     <br>
                     <ul class="no-bullets">
                         <li><strong>Moderator:</strong></li>
-                        <li>Duncan MacCannnell, PhD, CDC</p>
+                        <li>Alison St John, PhD, CDC</p>
                     </ul>
                     <br>
                     <p><strong>Panel discussion</strong></p>

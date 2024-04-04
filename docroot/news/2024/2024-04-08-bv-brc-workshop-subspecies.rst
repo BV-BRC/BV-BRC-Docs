@@ -214,7 +214,7 @@ Workshop Agenda
                 <td>9:30 AM - 10:00 AM</td>
                 <td>Welcome and Introduction</td>
                 <td>Goals, Expectations, and Logistics</td>
-                <td><ul class="no-bullets"><li style="margin-left: 0px;">Elliot Lefkowitz (UAB)</li><li style="margin-left: 0px;">Organizing Committee</li></ul></td>
+                <td><ul class="no-bullets"><li style="margin-left: 0px;">Elliot Lefkowitz (UAB)</li><li style="margin-left: 0px;">Wiriya Rutvisuttinunt (NIAID) on behalf of the Organizing Committee</li></ul></td>
             </tr>
             <tr>
                 <td>10:00 AM - 12:00 PM</td>
@@ -258,7 +258,7 @@ Workshop Agenda
                     <p style="margin:3.0pt 0;"><em>Examples of the evolution of virus disease, the impact of lineage evolution on pathogenicity, and the consequences for classifying and responding to particular virus threats.</em></p>
                     <br>
                     <p><strong>Moderator</strong></p>
-                    <ul class="no-bullets"><li>Rodney James Brister, PhD, NCBI</li></ul>
+                    <ul class="no-bullets"><li>James Rodney Brister, PhD, NCBI</li></ul>
                     <br>
                     <p><strong>Panel and Session Topics</strong> [15-minute talks]</p>
                     <ul class="no-bullets">

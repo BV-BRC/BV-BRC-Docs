@@ -214,7 +214,7 @@ Workshop Agenda
                 <td>9:30 AM - 10:00 AM</td>
                 <td>Welcome and Introduction</td>
                 <td>Goals, Expectations, and Logistics</td>
-                <td><ul class="no-bullets"><li style="margin-left: 0px;">Elliot Lefkowitz (UAB)</li><li style="margin-left: 0px;">Wiriya Rutvisuttinunt (NIAID) on behalf of the Organizing Committee</li></ul></td>
+                <td><ul class="no-bullets"><li style="margin-left: 0px;">Elliot Lefkowitz (UAB)</li><li style="margin-left: 0px; line-height: 1.2;">Wiriya Rutvisuttinunt (NIAID) on behalf of the Organizing Committee</li></ul></td>
             </tr>
             <tr>
                 <td>10:00 AM - 12:00 PM</td>

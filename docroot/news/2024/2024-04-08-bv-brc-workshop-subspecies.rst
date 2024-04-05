@@ -4,7 +4,7 @@ BV-BRC Viral Sub-species Classification Workshop at NIAID Rockville, MD, April 8
 .. raw:: html
 
     <p class="feed-meta" style="margin-bottom: 0;">Published on <em class="feed-date">2024-02-23 00:00:00</em></p>
-    <p class="feed-meta">Updated on <em class="feed-date">2024-04-04 00:00:00</em></p>
+    <p class="feed-meta">Updated on <em class="feed-date">2024-04-05 00:00:00</em></p>
 
 .. image:: ../images/2024/bv-brc-subspecies-workshop.png
    :width: 500
@@ -193,8 +193,9 @@ Workshop Agenda
       ul.no-bullets li {list-style-type: none !important;}
     </style>
 
+    <p style="margin-bottom:3.0pt;">Agenda, Questions and Discussions at Reddit <a href="https://www.reddit.com/r/BRC_users/" target="_blank">here</a></strong></p>
     <p style="margin-bottom:3.0pt;"><strong>April 8, Day 1: Virus Sub-species Classification: What and Why</strong></p>
-    <table class="docutils align-default workshop-agenda">
+    <table class="docutils align-default workshop-agenda citation">
         <colgroup>
             <col style="width: 23.0%">
             <col style="width: 17.0%">
@@ -327,7 +328,7 @@ Workshop Agenda
     </table>
 
     <p style="margin-bottom:3.0pt;"><strong>April 9, Day 2: Virus Sub-species Classification: How</strong></p>
-    <table class="docutils align-default workshop-agenda">
+    <table class="docutils align-default workshop-agenda citation">
         <colgroup>
             <col style="width: 23.0%">
             <col style="width: 77.0%">
@@ -421,8 +422,8 @@ Workshop Agenda
                     <br>
                     <p><strong>Panel and Session Topics</strong> [20-minute talks]</p>
                     <ul class="no-bullets">
-                        <li><strong><em>Nextstrain</em></strong></li>
-                        <li>Cornelius Roemer, PhD, University of Basel, Switzerland</li>
+                        <li><strong><em>Clade and lineage assignment with Nextclade</em></strong></li>
+                        <li>Cornelius Roemer, University of Basel, Switzerland</li>
                         <li>&nbsp;</li>
                         <li><strong><em>UShER and autolin: Identifying virus lineages</em></strong></li>
                         <li>Angie Hinrichs, University of California Santa Cruz</li>
@@ -523,7 +524,7 @@ Workshop Agenda
     </table>
 
     <p style="margin-bottom:3.0pt;"><strong>April 10, Day 3: Responding to Public Health Needs</strong></p>
-    <table class="docutils align-default workshop-agenda">
+    <table class="docutils align-default workshop-agenda citation">
         <colgroup>
             <col style="width: 23.0%">
             <col style="width: 77.0%">

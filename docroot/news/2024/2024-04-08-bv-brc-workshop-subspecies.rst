@@ -4,7 +4,7 @@ BV-BRC Viral Sub-species Classification Workshop at NIAID Rockville, MD, April 8
 .. raw:: html
 
     <p class="feed-meta" style="margin-bottom: 0;">Published on <em class="feed-date">2024-02-23 00:00:00</em></p>
-    <p class="feed-meta">Updated on <em class="feed-date">2024-02-27 00:00:00</em></p>
+    <p class="feed-meta">Updated on <em class="feed-date">2024-04-04 00:00:00</em></p>
 
 .. image:: ../images/2024/bv-brc-subspecies-workshop.png
    :width: 500
@@ -134,28 +134,28 @@ Workshop Speakers
      - U.S. Department of Agriculture
    * - **Bahl, Justin**
      - University of Georgia, U.S.
-   * - **Beck, Andy**
-     - CDC
+   * - **Beck, Andrew**
+     - U.S. Centers for Disease Control and Prevention (CDC)
    * - **Brown, Liliana**
      - NIH/NIAID
    * - **Colquhoun, Rachel**
      - University of Edinburgh, U.K.
    * - **Donato, Celeste**
-     - Monash University, Murdoch Children's Research Institute, Australia
+     - Murdoch Children's Research Institute, Australia
    * - **Hatcher, Eneida**
-     - National Center for Biotechnology Information, U.S.
+     - National Center for Biotechnology Information (NCBI), U.S.
    * - **Hinrichs, Angie**
      - University of California Santa Cruz, U.S.
    * - **Korber, Bette**
      - Los Alamos National Labs, U.S.
    * - **Kuhn, Jens H.**
-     - NIH/NIAID Integrated Research Facility, U.S.
+     - NIH/NIAID/DCR Integrated Research Facility at Fort Detrick, U.S.
    * - **Le Mercier, Philippe**
      - Swiss-Prot group, Swiss Institute of Bioinformatics, Switzerland
    * - **Lefkowitz, Elliot**
-     - University of Alabama at Birmingham, U.S.
+     - University of Alabama at Birmingham (UAB), U.S.
    * - **Lewis, Rosamund**
-     - University of Alabama at Birmingham, U.S.
+     - World Health Organization
    * - **Neher, Richard**
      - University of Basel, Switzerland
    * - **O'Toole, Áine**
@@ -165,7 +165,7 @@ Workshop Speakers
    * - **Roemer, Cornelius**
      - University of Basel, Switzerland
    * - **Seto, Donald**
-     - George Mason University
+     - George Mason University, U.S.
    * - **Simmonds, Peter**
      - University of Oxford, U.K.
    * - **Smith, Derek J**
@@ -211,16 +211,10 @@ Workshop Agenda
         </thead>
         <tbody>
             <tr>
-                <td>9:30 AM - 9:45 AM</td>
-                <td>Welcome</td>
-                <td>Introduction; Workshop format; Questions to guide the discussions</td>
-                <td>Elliot Lefkowitz</td>
-            </tr>
-            <tr>
-                <td>9:45 AM - 10:00 AM</td>
-                <td>Introduction</td>
-                <td>Setting the Stage: virus sub-species Classification for Research Response and Informing Public Health Strategies</td>
-                <td>Wiriya Rutvisuttinunt</td>
+                <td>9:30 AM - 10:00 AM</td>
+                <td>Welcome and Introduction</td>
+                <td>Goals, Expectations, and Logistics</td>
+                <td><ul class="no-bullets"><li style="margin-left: 0px;">Elliot Lefkowitz (UAB)</li><li style="margin-left: 0px; line-height: 1.2;">Wiriya Rutvisuttinunt (NIAID) on behalf of the Organizing Committee</li></ul></td>
             </tr>
             <tr>
                 <td>10:00 AM - 12:00 PM</td>
@@ -258,20 +252,20 @@ Workshop Agenda
                 <td colspan="3">Lunch</td>
             </tr>
             <tr>
-                <td>1:00 PM - 3:00 PM</td>
+                <td>1:00 PM - 3:05 PM</td>
                 <td colspan="3">
                     <p><strong>Session II: Unraveling the complexities of RNA and DNA viruses</strong></p>
-                    <p style="margin:3.0pt 0;"><em>Examples of the evolution of virus disease, the impact of lineage evolution on &nbsp;pathogenicity, and the consequences for classifying and responding to particular virus threats.</em></p>
+                    <p style="margin:3.0pt 0;"><em>Examples of the evolution of virus disease, the impact of lineage evolution on pathogenicity, and the consequences for classifying and responding to particular virus threats.</em></p>
                     <br>
                     <p><strong>Moderator</strong></p>
-                    <ul class="no-bullets"><li>Leah Katzelnick, PhD, NIAID</li></ul>
+                    <ul class="no-bullets"><li>James Rodney Brister, PhD, NCBI</li></ul>
                     <br>
                     <p><strong>Panel and Session Topics</strong> [15-minute talks]</p>
                     <ul class="no-bullets">
                         <li><strong><em>Evolution, epidemiology, and RNA virus disease</em></strong></li>
                         <li>Justin Bahl, PhD, University of Georgia</li>
                         <li>&nbsp;</li>
-                        <li><strong><em>Influenza virus lineage evolution</em></strong></li>
+                        <li><strong><em>The evolution of influenza A virus at the human-animal interface</em></strong></li>
                         <li>Tavis Anderson, PhD, U.S. Department of Agriculture</li>
                         <li>&nbsp;</li>
                         <li><strong><em>Filovirus sub-species nomenclature</em></strong></li>
@@ -287,11 +281,11 @@ Workshop Agenda
                         <li><strong><em>Update on Human Adenoviruses</em></strong></li>
                         <li>Donald Seto, PhD, George Mason University</p>
                         <li>&nbsp;</p>
-                        <li><strong><em>Monkeypox sub-species evolution</em></strong></li>
+                        <li><strong><em>Monkeypox virus sub-species evolution</em></strong></li>
                         <li>Elliot Lefkowitz, PhD, University of Alabama at Birmingham</li>
                     </ul>
                     <br>
-                    <p><strong>Q&A Panel Discussions</strong> [15 Minutes]</p>
+                    <p><strong>Q&A Panel Discussions</strong> [20 Minutes]</p>
                     <ul>
                         <li>How are viruses classified?</li>
                         <li style="list-style-type: none !important;">
@@ -309,18 +303,17 @@ Workshop Agenda
                 </td>
             </tr>
             <tr>
-                <td>3:45 PM - 4:00 PM</td>
-                <td colspan="3">Break</td>
+                <td>3:05 PM - 3:45 PM</td>
+                <td colspan="3">Break <em>Darkness descends on us all; big and small. Alive? Not necessarily all.</em></td>
             </tr>
             <tr>
-                <td>4:00 PM - 5:00 PM</td>
+                <td>3:45 PM - 5:00 PM</td>
                 <td colspan="3">
                     <p><strong>White Board Brainstorming Session</strong></p>
                     <br>
+                    <p><strong>Moderators:</strong></p>
                     <ul class="no-bullets">
-                        <li><strong>Moderators:</strong></li>
-                        <li>Liliana Brown, PhD, NIAID</p>
-                        <li>Wiriya Rutvisuttinunt, NIAID</p>
+                        <li>Elodie Ghedin, PhD, NIAID</p>
                         <li>Session Moderators</li>
                     </ul>
                     <br>
@@ -353,9 +346,9 @@ Workshop Agenda
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Conrad Schoch, PhD, NCBI</li></ul>
                     <br>
-                    <p><strong>Panel and Session Topics</strong> [30-minute talks]</p>
+                    <p><strong>Panel and Session Topics</strong> [20-minute talks]</p>
                     <ul class="no-bullets">
-                        <li><strong><em>Evolution, immunity, and surveillance</em></strong></li>
+                        <li><strong><em>Influenza and SARS-CoV-2: Evolution, Immunity, and Surveillance</em></strong></li>
                         <li>Derek Smith, PhD,  University of Cambridge</li>
                         <li>&nbsp;</li>
                         <li><strong><em>Virus classification and support for different stakeholders</em></strong></li>
@@ -494,8 +487,7 @@ Workshop Agenda
                     <br>
                     <ul class="no-bullets">
                         <li><strong>Moderators:</strong></li>
-                        <li>Wiriya Rutvisuttinunt, NIAID</p>
-                        <li>Liliana Brown, NIAID</p>
+                        <li>Wiriya Rutvisuttinunt, PhD, NIAID</p>
                         <li>Session Moderators</li>
                     </ul>
                     <br>
@@ -553,7 +545,7 @@ Workshop Agenda
                     <p><strong>Panel and Session Topics</strong> [20-minute talks]</p>
                     <ul class="no-bullets">
                         <li><strong><em>NIAID: To better understand, treat, and ultimately prevent infectious diseases</em></strong></li>
-                        <li>Liliana Brown, NIAID</li>
+                        <li>Liliana Brown, Ph.D. NIAID</li>
                         <li>&nbsp;</li>
                         <li><strong><em>CDC: Public Health Perspective: Federal Level</em></strong></li>
                         <li>Andrew Beck, PhD, U.S. Centers for Disease Control and Prevention</li>

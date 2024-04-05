@@ -195,7 +195,7 @@ Workshop Agenda
 
     <p style="margin-bottom:3.0pt;">Agenda, Questions and Discussions at Reddit <a href="https://www.reddit.com/r/BRC_users/" target="_blank">here</a></strong></p>
     <p style="margin-bottom:3.0pt;"><strong>April 8, Day 1: Virus Sub-species Classification: What and Why</strong></p>
-    <table class="docutils align-default workshop-agenda citation">
+    <table class="docutils align-default workshop-agenda">
         <colgroup>
             <col style="width: 23.0%">
             <col style="width: 17.0%">
@@ -328,7 +328,7 @@ Workshop Agenda
     </table>
 
     <p style="margin-bottom:3.0pt;"><strong>April 9, Day 2: Virus Sub-species Classification: How</strong></p>
-    <table class="docutils align-default workshop-agenda citation">
+    <table class="docutils align-default workshop-agenda">
         <colgroup>
             <col style="width: 23.0%">
             <col style="width: 77.0%">
@@ -524,7 +524,7 @@ Workshop Agenda
     </table>
 
     <p style="margin-bottom:3.0pt;"><strong>April 10, Day 3: Responding to Public Health Needs</strong></p>
-    <table class="docutils align-default workshop-agenda citation">
+    <table class="docutils align-default workshop-agenda">
         <colgroup>
             <col style="width: 23.0%">
             <col style="width: 77.0%">

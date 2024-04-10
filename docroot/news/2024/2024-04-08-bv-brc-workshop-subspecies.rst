@@ -4,7 +4,7 @@ BV-BRC Viral Sub-species Classification Workshop at NIAID Rockville, MD, April 8
 .. raw:: html
 
     <p class="feed-meta" style="margin-bottom: 0;">Published on <em class="feed-date">2024-02-23 00:00:00</em></p>
-    <p class="feed-meta">Updated on <em class="feed-date">2024-04-05 00:00:00</em></p>
+    <p class="feed-meta">Updated on <em class="feed-date">2024-04-10 00:00:00</em></p>
 
 .. image:: ../images/2024/bv-brc-subspecies-workshop.png
    :width: 500
@@ -45,6 +45,9 @@ BV-BRC Viral Sub-species Classification Workshop at NIAID Rockville, MD, April 8
 
     <p style="font-size: 10px">Workshop is funded in part by National Institute of Allergy and Infectious Diseases, National Institutes of Health, Department of Health and Human Services, under Contract No. 75N93019C00076, in collaboration with the Centers for Disease Control and Prevention (CDC) and
           The National Center for Biotechnology Information, National Library of Medicine.</p>
+
+    <p style="margin-bottom: 15px"><strong>Community Forum for follow up discussions and feedback:</strong></p>
+    <p>Please visit the following <a href="https://www.reddit.com/r/BRC_users/comments/1bfqjlg/viral_subspecies_classification_workshop/" target="blank_">reddit thread <i class="fa fa-external-link" aria-hidden="true"></i></a> for follow up discussions on viral sub-species classification and share your suggestions and/or feedback with the workshop committee.</p>
 
 
 - `Introduction <#introduction-section>`_

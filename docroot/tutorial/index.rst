@@ -13,6 +13,7 @@ Genomics
 
    genome_assembly/assembly.md
    genome_annotation/genome_annotation.md
+   compare_region_viewer/compare_region_viewer.md
    comparative_systems/comparative_systems.md
    comprehensive_genome_analysis/comprehensive_genome_analysis.md
    blast/blast.md

@@ -22,5 +22,8 @@ The Compare Region Viewer was designed to show the genomic neighborhood of a pro
 ![Gene Mouseover](./images/Figure_5a-Gene_mouseover.png "Gene Mouseover.")
 
 7.	Double-clicking on a gene will redraw the display with the clicked-on gene being the new focus.
+![Double click](./images/Figure_X-Double_click.png "Double click.")
+
+8.	Moreover, mousing over features that are not genes will also open a pop-up window with information on that feature.
 ![Operon](./images/Figure_5b-Operon.png "Operon.")
 

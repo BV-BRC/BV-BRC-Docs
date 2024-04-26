@@ -15,4 +15,9 @@ The Compare Region Viewer was designed to show the genomic neighborhood of a pro
 4.	There is a distinct anatomy to the viewer.  The reference genome is the first row, and all subsequent rows are comparison genomes.  Every view has genes upstream and downstream of the reference gene, which is colored red.  The box directly underneath it is a visual representation of the strength and length of the BLAST hits, with dark red showing a stronger hit, and lesser shades of red indicating a weaker red color.  The genomes are place depending on the strength of the BLAST hit to the reference gene, with the strongest hit being in the genome directly underneath the reference.  If the BLAST hit is only to a part of the gene, the length of the BLAST hit will not extend the length of the gene.  Genes in the same protein family are indicated by a similar color, and they have a number over the arrow as a second way to indicate the same family.
 ![Viewer Anatomy](./images/Figure_4_Anatomy_of_Viewer.png "Viewer Anatomy.")
 
+5.	The viewer can also indicate possible pseudogenes.  Any gene above or below the other genes is an indication of an overlapping gene.
+![Gene Overlap](./images/Figure_5-Gene_overlap.png "Gene Overlap.")
+
+6.	Mousing over a gene will open a pop-up window that shows the unique identifier, the name/function of the gene, and its location in the genome.  Clicking on that pop-up window will open more details on another pop-up window about the gene, including other identifiers in different databases.  The unique gene ID at the top of this window is a hyperlink that, if clicked on, will rewrite the page to open the landing page for that gene.
+
 

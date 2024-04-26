@@ -1,5 +1,7 @@
 # Metagenomic Read Mapping
 
+*Revised: 2/24/2023*
+
 The Metagenomic Read Mapping Service uses KMA (k-mer alignment[1]), to align reads against antibiotic resistance genes or virulence factors. KMA maps raw reads directly against these databases and uses k-mer seeding to speed up mapping and the Needleman-Wunsch algorithm to accurately align extensions from k-mer seeds. Software for KMA was downloaded at the following location: https://bitbucket.org/genomicepidemiology/kma.
 
 ## Creating a folder to hold the Metagenomic Read Mapping job and related data

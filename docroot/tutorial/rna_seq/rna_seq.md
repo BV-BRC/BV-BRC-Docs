@@ -2,6 +2,8 @@
 
 ***This tutorial is outdated and requires work. It will be updated soon***
 
+*Revised: 1/24/22*
+
 ## I. Locating the RNA-Seq Service App.
 1. At the top of any BV-BRC page, find the Services tab. Click on RNA-Seq Analysis.
 ![Step 1](./images/image1.png)

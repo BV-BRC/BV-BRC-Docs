@@ -4,5 +4,5 @@ The Compare Region Viewer was designed to show the genomic neighborhood of a pro
 
 ## Finding, viewing and manipulating the Compare Region Viewer
 1.	From any protein encoding gene landing page, click on the Compare Region Viewer tab.
-
+![Compare Region View tab on the Feature Landing page](./images/Figure_1_CRV_tab.png "Compare Region Viewer tab.")
 

@@ -1,0 +1,5 @@
+# SARS-Cov-2 Wastewater Analysis Service
+
+The SARS-CoV-2 Wastewater Analysis service is a comprehensive analysis of wastewater aimed at detecting and quantifying lineages and variants of concern (VOC) of the SARS-CoV-2 virus. 
+
+The service analyzes raw short amplicon reads by aligning them to the reference genome (Wuhan-Hu-1) and then performs variant analysis using Freyja.  Freyja is a tool to identify and recover relative lineage abundances from mixed SARS-CoV-2 samples from a sequencing dataset (BAM aligned to the Hu-1 reference).  The method uses lineage-determining mutational "barcodes” with information from the UShER global phylogenetic tree.  We manage updating the barcodes to provide you up to date variant and lineage assignments. The results of this analysis workflow include sample processing status, key variant calling and alignment statistics, and sequencing depth coverage plots. It also provides lineage and VOC abundance plots by sample, date, week, and month for tracking the prevalence and distribution of different variants over time to aid public health response.

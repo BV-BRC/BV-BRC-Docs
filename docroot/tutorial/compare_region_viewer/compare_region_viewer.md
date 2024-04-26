@@ -27,3 +27,11 @@ The Compare Region Viewer was designed to show the genomic neighborhood of a pro
 8.	Moreover, mousing over features that are not genes will also open a pop-up window with information on that feature.
 ![Operon](./images/Figure_5b-Operon.png "Operon.")
 
+9.	The **Region Size** depicted in the viewer can be adjusted by clicking on the down arrow at the end of the text box.  This will open a drop-down box where a different size will appear.  The **Update** button must be clicked before the view changes to show the different size.
+![Region Size](./images/Figure_6-Region_size.png "Region size.")
+
+10.	The **Number of genomes** displayed can also be changed by clicking on the down arrow at the end of the text box, and then clicking on 5, 10, 15, 20 or 50.  The **Update** button must be clicked before the view changes to show the selected number of genomes.
+![Genome Number](./images/Figure_7-Genome_Number.png "Genome number.")
+
+11. The view can also be changed to show the genomes visualized.  Clicking on the down arrow at the end of the text box after the word Genomes will open a drop-down box that contains the ability to look across all public genomes (**All genomes**), a **Selected genome group**, or a **Selected feature group**.
+![Changing Genomes](./images/Figure_8-Changing_genomes.png "Changing genomes.")

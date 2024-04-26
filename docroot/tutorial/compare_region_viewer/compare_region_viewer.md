@@ -36,7 +36,19 @@ The Compare Region Viewer was designed to show the genomic neighborhood of a pro
 11. The view can also be changed to show the genomes visualized.  Clicking on the down arrow at the end of the text box after the word Genomes will open a drop-down box that contains the ability to look across all public genomes (**All genomes**), a **Selected genome group**, or a **Selected feature group**.
 ![Changing Genomes](./images/Figure_8-Changing_genomes.png "Changing genomes.")
 
-12.	 To select a genome group, first click on the down arrow at the end of the text box following Genomes and then click on Selected genome group in the drop-down box. Click on the down arrow at the end of the text box underneath the word Region Size to see genome groups that have been created.  Click on the group of interest.  This will autofill the text box with the name of that group.  Then click on the Update button at the  bottom of the filter.
+12.	 To select a genome group, first click on the down arrow at the end of the text box following Genomes and then click on **Selected genome group** in the drop-down box. Click on the down arrow at the end of the text box underneath the word Region Size to see genome groups that have been created.  Click on the group of interest.  This will autofill the text box with the name of that group.  Then click on the **Update** button at the  bottom of the filter.
 ![Select Genome Group](./images/Figure_9-Select_genome_group.png "Select Genome Group.")
 
 13.	This will change the view to show the genomes that were in that group.  Note that differences in the different regions of the view are clearly discernable.![Genome Group Display](./images/Figure_10-Genome_group_display.png "Genome Group Display.")
+
+14.	 Likewise, a Feature Group can be selected by clicking on **Selected feature group**. Then click on the **Update** button at the  bottom of the filter.
+![Feature Group](./images/Figure_11_Feature_group.png "Feature Group.")
+
+16.	BV-BRC also provides a downloadable scaled vector graph (svg) of the image that can be used in presentation and publications.  Clicking on the **Export** button will download a svg to your computer.![Export](./images/Figure_12_Export.png "Export.")
+
+##References
+1.	Olson, R.D., et al., Introducing the Bacterial and Viral Bioinformatics Resource Center (BV-BRC): a resource combining PATRIC, IRD and ViPR. Nucleic acids research, 2023. **51**(D1): p. D678-D689.
+2.	Overbeek, R., et al., The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST). 2013. **42**(D1): p. D206-D214.
+3.	Davis, J.J., et al., PATtyFams: Protein families for the microbial genomes in the PATRIC database. 2016. **7**: p. 118.
+4.	Altschul, S.F., et al., Basic local alignment search tool. Journal of molecular biology, 1990. **215**(3): p. 403-410.
+

@@ -19,5 +19,8 @@ The Compare Region Viewer was designed to show the genomic neighborhood of a pro
 ![Gene Overlap](./images/Figure_5-Gene_overlap.png "Gene Overlap.")
 
 6.	Mousing over a gene will open a pop-up window that shows the unique identifier, the name/function of the gene, and its location in the genome.  Clicking on that pop-up window will open more details on another pop-up window about the gene, including other identifiers in different databases.  The unique gene ID at the top of this window is a hyperlink that, if clicked on, will rewrite the page to open the landing page for that gene.
+![Gene Mouseover](./images/Figure_5a-Gene_mouseover.png "Gene Mouseover.")
 
+7.	Double-clicking on a gene will redraw the display with the clicked-on gene being the new focus.
+![Operon](./images/Figure_5b-Operon.png "Operon.")
 

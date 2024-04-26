@@ -35,3 +35,8 @@ The Compare Region Viewer was designed to show the genomic neighborhood of a pro
 
 11. The view can also be changed to show the genomes visualized.  Clicking on the down arrow at the end of the text box after the word Genomes will open a drop-down box that contains the ability to look across all public genomes (**All genomes**), a **Selected genome group**, or a **Selected feature group**.
 ![Changing Genomes](./images/Figure_8-Changing_genomes.png "Changing genomes.")
+
+12.	 To select a genome group, first click on the down arrow at the end of the text box following Genomes and then click on Selected genome group in the drop-down box. Click on the down arrow at the end of the text box underneath the word Region Size to see genome groups that have been created.  Click on the group of interest.  This will autofill the text box with the name of that group.  Then click on the Update button at the  bottom of the filter.
+![Select Genome Group](./images/Figure_9-Select_genome_group.png "Select Genome Group.")
+
+13.	This will change the view to show the genomes that were in that group.  Note that differences in the different regions of the view are clearly discernable.![Genome Group Display](./images/Figure_10-Genome_group_display.png "Genome Group Display.")

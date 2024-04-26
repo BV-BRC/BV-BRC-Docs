@@ -53,11 +53,11 @@ The text entered here will be used to create the job results directory.
 The following results are available in the landing directory on the results page:
 *	SARS2Wastewater_report.html
 *	Freyja_result.tsv - The relative variant and lineage abundances created from VARIANTS and DEPTHS files using the Freyja “demix” command. The file Freyja_result.tsv has these results from each sample compiled into one report. The columns are as follows:
-o	Summarized – Describes the variants and the percentage of the assigned to those variants in the sample.
-o	Lineages - Describes the variants and the percentage of the assigned to those variants in the sample.
-o	Abundances
-o	Resid – Corresponds to the residual of the weighted abundances.
-o	Coverage – Provides the 10x coverage estimate (percent of sites with 10 or greater reads.
+    o	Summarized – Describes the variants and the percentage of the assigned to those variants in the sample.
+    o	Lineages - Describes the variants and the percentage of the assigned to those variants in the sample.
+    o	Abundances - The corresponding abundance estimate.
+    o	Resid – Corresponds to the residual of the weighted abundances.
+    o	Coverage – Provides the 10x coverage estimate (percent of sites with 10 or greater reads.
 *	Job_stats.tsv - The table below tracks the progress of each sample through three main stages of analysis workflow: aligning the reads and variant calling, Freyja - Analysis, and Freyja - Visualization. If a sample is labeled as incomplete for any of the stages, please refer to the assembly and alignment statistics table in the SARS2Wastewater_report.html or the warnings at the end of the report.
 *	Multiqc_report.html – An interactive report with the FastQC results and SAMtools flagstats compiled into one location.
 *	Plots directory – A directory with the Freyja plots. The depth plots are available for download inside the report just right click on the image and save.

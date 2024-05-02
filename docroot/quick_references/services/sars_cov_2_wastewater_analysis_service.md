@@ -61,7 +61,6 @@ The following results are available in the landing directory on the results page
     o	Coverage – Provides the 10x coverage estimate (percent of sites with 10 or greater reads.
 *	Job_stats.tsv - The table below tracks the progress of each sample through three main stages of analysis workflow: aligning the reads and variant calling, Freyja - Analysis, and Freyja - Visualization. If a sample is labeled as incomplete for any of the stages, please refer to the assembly and alignment statistics table in the SARS2Wastewater_report.html or the warnings at the end of the report.
 *	Multiqc_report.html – An interactive report with the FastQC results and SAMtools flagstats compiled into one location.
-*	Plots directory – A directory with the Freyja plots. The depth plots are available for download inside the report just right click on the image and save.
 *	Sample_key.csv - An Excel compatible file displaying the user input SAMPLE IDENTIFIER used in the output files and the user input fille name.
 *	Version_log.txt
 

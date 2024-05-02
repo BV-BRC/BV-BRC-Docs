@@ -95,8 +95,6 @@ Data Visualizations
    :maxdepth: 1
 
    compare_region_viewer/compare_region_viewer.md
-   protein_family_sorter/protein_family_sorter.md
-   comparative_pathways/comparative_pathways.md
 
 
    

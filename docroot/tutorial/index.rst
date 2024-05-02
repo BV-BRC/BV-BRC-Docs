@@ -18,6 +18,7 @@ Genomics
    comprehensive_genome_analysis/comprehensive_genome_analysis.md
    blast/blast.md
    sars_cov_2_assembly_annotation/sars_cov_2_assembly_annotation.md
+   sars_cov_2_wastewater/sars_cov_2_wastewater.md
    similar_genome_finder/similar_genome_finder.md
    metacats/metacats.md
    phylogenetic_tree/phylogenetic_tree.md

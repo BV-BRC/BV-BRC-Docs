@@ -75,29 +75,49 @@ The landing page for the SARS-CoV-2 Wastewater Analysis service has two parts. S
 ![An image of the stats table in the report.](images/image_32_report_3.png "An image of the stats table in the report.")
 10. Coverage plots are available for each sample. Graph that shows the coverage depth for the assembly at the specific positions in the genome. The plots in the report are all capped at the depth of 250. Each sample has sample specific directory with files that support the reports in the landing directory. Inside each sample specific directory is a sub directory, ‘assembly’. The ‘assembly’ directory will have two more views of this data. One, <sample_id>.png will show the same information without capping the y-axis. <sample_id>.log.png will display the same data with the where the depth has undergone a long transformation. If you want to save these plots, right click the plot inside of the report and click ‘save as’.
 ![An image of the coverage plots.](images/image_33.png "An image of the coverage plots.") 
-11. The Lineage and Variant Abundance by Sample section displays all the samples. The graphs on the left show the data at the variant level and the graphs on the right shows the data at the linage level. These plots cannot be saved from the report. Instead, they are available in the ‘plots’ directory.
-![An image of the lineage and variant plots.](images/image_34.png "An image of the lineage and variant plots.") 
-12.The time series plots are only generated if dates are provided. The Lineage and Variant Abundance by date  show the data smoothed and ordered by date.
-![An image of the date plots.](images/image_35.png "An image of the date plots.")
-13.Lineage and Variant Abundance by Week will show the data compiled into weeks. This table shows the dates according to epiweek.  An "epiweek," short for epidemiological week, is a standard method of grouping days into weeks for the purposes of public health and epidemiological tracking.
-![An image of the date plots.](images/image_36.png "An image of the date plots.")
-14. As the week above does, Lineage and Variant Abundance by Month shows the data compiled by month.
-![An image of the month plots.](images/image_37.png "An image of the month plots.")
-15. Your results will be impacted by the barcodes. As described above, the method uses lineage-determining mutational "barcodes” with information from the UShER global phylogenetic tree. As the barcodes are updated the variants and linages are updated . If you were to rerun the samples, your results might be impacted. For this reason it is important for you to be familiar with the barcode version.
+11. The Lineage and Variant Abundance by Sample section displays all the samples. The graphs on the left show the data at the variant level and the graphs on the right shows the data at the linage level.
+![An image of the lineage and variant plots.](images/image_30_report_1_sample_plot.png "An image of the lineage and variant plots.")
+
+12. The stacked bar plots in this report are interactive. To interact with the plot hover over the stacked bar plot to view the exact percentage, sample, and variant or lineage classification.
+![An image of the saple plots.](images/Image_31_report_2_hover.png "An image of the sample plots.")
+13.	This plot, made with Plotly, offers many ways to interact with the plot.  Display the options by hovering over the right hand corner.
+![An image of the report tools.](images/Image_32_report_3_tools.png "An image of the report tools.")
+14. The first icon with a camera will capture the plot as a .PNG file. Note: if you have manipulated the plot (zoom, pan, etc.) the .PNG will capture the manipulations.
+![An image of the camera icon.](images/Image_33_report_4_download_image.png "An image of the camera icon.")
+15.	The second icon, a magnifying glass, allows you to zoom in on the plot. Note: double click within the plot to reset the plot. To zoom: click the magnifying glass. Then your cursor will turn into crosshairs. From there, click drag and drop to create a box where you would like to zoom in.
+![An image of the zoom icon.](images/Image_34_report_5_zoom.png "An image of the zoom icon.")
+16. The third icon is a picture of four lines with arrows pointing up, down, left and right. This will allow you to move the plot around.
+![An image of the pan icon.](images/Image_35_report_6_pan.png "An image of the pan icon.")
+17.	The fourth icon will allow you to select a small box and then zoom.
+![An image of the plotly select box icon.](images/Image_36_report_7_box_select.png "An image of the plotly select box icon.")
+18.	The fifth icon, a lasso will allow you to freeform select portions of the plot. This will allow you to enable and disable specific parts of the plot.
+![An image of the plotly lasso icon.](images/Image_37_report_8_lasso.png "An image of the plotly lasso icon .")
+19.	The sixth and seventh icons, a plus icon and a minus icon. This will zoom in or out focusing on the middle of the plot – rather than the magnifying glass which allows you to zoom to a desired focal point.
+![An image of the plotly zoom in and out icons.](images/Image_37_report_8_zoom_in_zoom_out.png "An image of the plotly zoom in and out icons.")
+20. The eighth icon with four arrows pointing to the corner and ninth icon of a house, will allow you to return the lot to its initial settings. You can also double click within the plot.
+![An image of the plotly reset icons.](images/Image_38_report_8_reset.png "An image of the plotly reset icons.")
+21.	The remaining icons are not relevant to this plot. They are toggle spike lines, show closest data on hover, compare data on hover and the Plotly logo which will take you to their homepage.
+22.	The time series plots are only generated if dates are provided. The Lineage and Variant Abundance by date  show the data smoothed and ordered by date.
+![An image of the samples plotted by date.](images/image_39_date.png "An image of the samples plotted by date.")
+23.	Lineage and Variant Abundance by Week will show the data compiled into weeks. This table shows the dates according to epiweek.  An "epiweek," short for epidemiological week, is a standard method of grouping days into weeks for the purposes of public health and epidemiological tracking.
+![An image of of the samples plotted by week.](images/image_40_weeks.png "An image of of the samples plotted by week.")
+24.	As the week above does, Lineage and Variant Abundance by Month shows the data compiled by month.
+![An image of the samples plotted by month.](images/image_41_months.png "An image of the samples plotted by month.")
+25. Your results will be impacted by the barcodes. As described above, the method uses lineage-determining mutational "barcodes” with information from the UShER global phylogenetic tree. As the barcodes are updated the variants and linages are updated . If you were to rerun the samples, your results might be impacted. For this reason it is important for you to be familiar with the barcode version.
 ![An image of the where to find the barcode version.](images/image_38.png "An image of the where to find the barcode version.")
-16.	The analysis warnings field will populate with warnings from the analysis. Warnings are captured when a sample fails analysis step which will be displayed in the sample processing table above.
+26.	The analysis warnings field will populate with warnings from the analysis. Warnings are captured when a sample fails analysis step which will be displayed in the sample processing table above.
 ![An image of the warnings header.](images/image_39.png "An image of the warnings header.")
-17.	Please remember to cite the BV-BRC and  the authors of the tools we host.
+27.	Please remember to cite the BV-BRC and  the authors of the tools we host.
 ![An image of the reference section. Please remember to include us in your citations!](images/image_40.png "An image of the reference section. Please remember to include us in your citations!")
-18. Return to the job landing page by clicking on your job name in the file path at the top of the page.
-19. View the raw Freyja results by highlight the file ‘freyja_results.tsv’ and click the ‘view’ eye icon on the green action bar.
+28. Return to the job landing page by clicking on your job name in the file path at the top of the page.
+29. View the raw Freyja results by highlight the file ‘freyja_results.tsv’ and click the ‘view’ eye icon on the green action bar.
 ![An image of the job results with the raw Freyja results selected.](images/image_41_select_raw_freyja_results.png "An image of the job results with the raw Freyja results selected.")
-20.	The relative variant and lineage abundances created from VARIANTS and DEPTHS files using the Freyja demix command. The file Freyja_result.tsv has these results from each sample compiled into one report. The columns are as follows:
+30.	The relative variant and lineage abundances created from VARIANTS and DEPTHS files using the Freyja demix command. The file Freyja_result.tsv has these results from each sample compiled into one report. The columns are as follows:
 * Summarized – Describes the variants and the percentage of the assigned to those variants in the sample.
 * Lineages - Describes the variants and the percentage of the assigned to those variants in the sample.
 * Abundances - the abundances that correspodn to the lineages listed in the lineages column.
 * Resid – Corresponds to the **residual** of the weighted abundances.
 * Coverage – Provides the 10x coverage estimate (percent of sites with 10 or greater reads).
 ![An image of raw Freyja results.](images/image_42_raw_freyja_results.png "An image of raw Freyja results.")
-21. The MultiQC report provides the compiled FastQC statistics  for the FASTQ and BAM files. Note: as this service is designed for short amplicon reads which are designed to capture a target sequence multiple times, these reports will show a high number of duplicates. For this sequencing type you can ignore these warnings.
+31. The MultiQC report provides the compiled FastQC statistics  for the FASTQ and BAM files. Note: as this service is designed for short amplicon reads which are designed to capture a target sequence multiple times, these reports will show a high number of duplicates. For this sequencing type you can ignore these warnings.
 ![An image of MultiQC report.](images/image_43_multiqc.png "An image of MultiQC report.")

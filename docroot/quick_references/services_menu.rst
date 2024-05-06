@@ -18,15 +18,12 @@ Genomics Services
    services/genome_assembly_service.md
    services/genome_annotation_service.md
    services/comprehensive_genome_analysis_service.md
-   services/sars_cov_2_assembly_annotation_service.md
    services/blast.md
    services/primer_design_service.md
    services/similar_genome_finder_service.md
    services/genome_alignment_service.md
    services/variation_analysis_service.md
    services/tn_seq_analysis_service.md
-   services/subspecies_classification_service.md
-   services/sequence_submission_service.md
 
 
 Phylogenomics Services
@@ -48,7 +45,6 @@ Protein Tools Services
    services/metacats.md
    services/proteome_comparison_service.md
    services/comparative_systems.md
-   services/ha_numbering_service.md
 
 
 Metagenomics Services
@@ -56,9 +52,9 @@ Metagenomics Services
 .. toctree::
    :maxdepth: 1
    
-   services/metagenomic_read_mapping_service.md
    services/taxonomic_classification_service.md
    services/metagenomic_binning_service.md
+   services/metagenomic_read_mapping_service.md
 
 
 Transcriptomics Services
@@ -66,8 +62,8 @@ Transcriptomics Services
 .. toctree::
    :maxdepth: 1
 
-   services/expression_data_import_service.md
    services/rna_seq_analysis_service.md
+   services/expression_data_import_service.md
 
 
 Utilities Services
@@ -76,8 +72,20 @@ Utilities Services
 .. toctree::
    :maxdepth: 1
 
-   services/id_mapper.md
    services/fastq_utilities_service.md
+   services/id_mapper.md
+
+Viral Services
+--------------
+
+.. toctree::
+   :maxdepth: 1
+
+   services/sars_cov_2_assembly_annotation_service.md
+   services/sars_cov_2_wastewater_analysis_service.md
+   services/sequence_submission_service.md
+   services/ha_numbering_service.md
+   services/subspecies_classification_service.md
 
 Data Visualizations
 -------------------

@@ -1,7 +1,7 @@
 H5N1 Webinar: All things H5N1
 =========================================
 
-.. image:: ../images/2024/h5n1-webinar-logo.png
+.. image:: ../images/2024/h5n1-2024-webinar-logo.png
    :width: 500
    :alt: H5N1 Information
 

@@ -1,6 +1,6 @@
 # Genome Annotation Service
 
-*Revised 11/23/21*
+*Revised 5/23/24*
 
 Genome annotation is the process of identifying functional elements along the sequence of a genome.  The Genome Annotation Service in BV-BRC uses the RAST tool kit (RASTtk)[1] to annotate genomic features in bacteria, the Viral Genome ORF Reader (VIGOR4)[2] to annotate viruses, and PHANOTATE[3,4] to annotate bacteriophages. All public genomes in BV-BRC have been consistently annotated with these services. Researchers can also submit their own private genome to the annotation service, where it will be deposited into their private workspace for their perusal and comparison with other BV-BRC genomes using BV-BRC analysis tools and services, e.g., Phylogenetic Tree, Genome Alignment, Protein Family Sorter, Comparative Pathway Viewer, Similar Genome Finder. 
 
@@ -17,15 +17,22 @@ The source code for RASTtk is available on Github (https://github.com/SEEDtk/RAS
 ## VIGOR4 Annotation of Viruses
 VIGOR4 (Viral Genome ORF Reader) is a Java application to predict protein sequences encoded in viral genomes developed by the J Craig Venter Institute (JCVI). VIGOR4 determines the protein coding sequences by sequence similarity searching against curated viral protein databases. VIGOR4 uses the VIGOR_DB project which currently has databases for the following viruses:
 * Influenza (A & B for human, avian, and swine, and C for human)
-* SARS-CoV-2
-* West Nile Virus
-* Zika Virus
+* SARS-CoV-2, Sarbecovirus, Nobecovirus, Hibecovirus, Embecovirus, Merbecovirus, Wuhivirus
+* West Nile Virus Lineage I/II, Zika Virus, Dengue Virus
 * Chikungunya Virus
-* Eastern Equine Encephalitis Virus
+* Alphaviruses: Eastern Equine Encephalitis Virus, Venezuelan Equine Encephalitis Virus
 * Respiratory Syncytial Virus
-* Rotavirus
-* Enterovirus
-* Lassa Mammarenavirus
+* Rotavirus A/B/C/F/G
+* Enterovirus, Entovirus, Goukovirus, Horwuvirus, Hudivirus, Hudovirus, Ixovirus, Laulavirus, Lentinuvirus, Mobuvirus, Phasivirus, Pidchovirus, Rubodvirus, Tenuivirus, Uukuvirus, Wenrivirus
+* Lassa Mammarenavirus, Antennavirus, Bandavirus, Reptarenavirus
+* Hantaviridae, Nairoviridae, Peribunyaviridae, Phlebovirus
+* Sapovirus
+* Monkeypox Virus
+* Beidivirus
+* Feravirus, Hartmanivirus, Inshuvirus, Jonvirus, Sawastrivirus
+* Coguvirus, Cicadellivirus, Orthophasmavirus
+
+
 
 For other viruses, the original GenBank annotations are propagated. The source code for VIGOR4 is available on GitHub (https://github.com/JCVenterInstitute/VIGOR4).
 

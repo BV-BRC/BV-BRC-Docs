@@ -1,0 +1,27 @@
+BV-BRC at ASV: Stop by our booth at ASV to see what is new at the BV-BRC
+=========================================
+
+.. image:: ../images/2024/ASV-2024.png
+   :width: 500
+   :alt: BV-BRC at ASV Banner
+
+Join BV-BRC at the American Society for Virology (ASV) conference! Visit us at Booth 101 to learn about our latest research and developments. 
+Don’t miss our presentations: W5-7, W32-10, W53-12, and check out our poster at P1-18. We look forward to connecting with you!
+
+**Our 12 minute presentations include:**
+Cladinator: Automated viral subspecies classification and detection of novel subspecies
+  Presenting Author: Dr. Christian Zmasek
+  Session: W53: Novel Methodology & Technology II
+  Session Day & Time: June 27, 2024 from 1:30 PM to 5:30 PM
+The BV-BRC a tool for supporting computational virology education and data set generation
+    Presenting Author: Anna Capria
+    Session: W32: Viruses of Other Microbes
+    Session Day & Time: June 26, 2024 from 1:30 PM to 5:30 PM
+
+**Our poster and flash talk presentation include:**
+Sequence Feature Variant Type (SFVT) for High Priority Pathogens in BV-BRC
+  Presenting Author: Roshni Bhattacharya
+  Workshop/Poster Session: W5: Novel Methodology & Technology I, Poster Session I - P1: Monday Flash Talk Posters
+  Workshop/Poster Session Day & Time: June 24, 2024 from 7:00 PM to 8:30 PM, June 24, 2024 from 8:30 PM to 10:00 PM
+  Locations: A214/215, Short North Ballroom
+  Presentation times: 8:18 PM to 8:21 PM, 8:30 PM to 10:00 PM

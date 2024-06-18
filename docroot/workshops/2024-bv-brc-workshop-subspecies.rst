@@ -3,18 +3,9 @@ BV-BRC Viral Sub-species Classification Workshop at NIAID Rockville, MD, April 8
 
 .. raw:: html
 
-    <p class="feed-meta" style="margin-bottom: 0;">Published on <em class="feed-date">2024-02-23 00:00:00</em></p>
-    <p class="feed-meta">Updated on <em class="feed-date">2024-04-10 00:00:00</em></p>
-
-|
-
-.. raw:: html
-
 - `Introduction <#introduction-section>`_
 - `Workshop Highlights <#highlights-section>`_
-- `Workshop Logistics <#logistics-section>`_
-- `Pathogens <#pathogens-section>`_
-- `Workshop Agenda <#agenda-section>`_
+- `Workshop Agenda and Presentations <#agenda-section>`_
 - `Workshop Speakers and Reading List <#speakers-section>`_
 
 .. _introduction-section:
@@ -50,32 +41,16 @@ Session Six, moderated by Indresh Singh, explored analytical and visualization t
 Session Seven, led by Dr. Paul Eder, addressed public health responses. Dr. Brown discussed NIAID's disease prevention efforts, Dr. Beck shared CDC's perspective, Dr. Rosamund Lewis explored viral evolution's impact on pox outbreaks, and Dr. Xiong (Sean) Wang provided insights from the Minnesota Department of Health on virus surveillance.
 
 
-
-.. _pathogens-section:
-
----------
-Pathogens
----------
-
----------------------
-
-The focus of the workshop will be on viral pathogens. The viruses discussed will include those with established classification schemes as well as viruses defined by NIH/NIAID as prototype pathogens with pandemic potential (PMCID: PMC9384504).
-
-
 .. _agenda-section:
 
 ---------------
-Workshop Agenda
+Workshop Agenda with Links to Recordings and Presentations
 ---------------
 
 ---------------------
 
 .. raw:: html
 
-    <style>
-      .workshop-agenda td {padding-left: 5.4pt !important;vertical-align: top !important;}
-      .workshop-agenda ul {margin-bottom: 0 !important;}
-      ul.no-bullets li {list-style-type: none !important;}
     </style>
 
     <p style="margin-bottom:3.0pt;">Agenda, Questions and Discussions at Reddit <a href="https://www.reddit.com/r/BRC_users/" target="_blank">here</a></strong></p>
@@ -118,6 +93,9 @@ Workshop Agenda
                         <li>&nbsp;</li>
                         <li><strong><em>SARS-CoV-2 and HIV variant evolution</em></strong></li>
                         <li>Bette Korber, PhD, Los Alamos National Labs, U.S.</li>
+                        <li>Recording <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">here</a>., Presentation Download <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">here</a>.</li>
+
+
                     </ul>
                     <br>
                     <p><strong>Break</strong> [15 minutes]</p>

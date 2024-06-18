@@ -53,7 +53,6 @@ Workshop Agenda with Links to Recordings and Presentations
 
     </style>
 
-    <p style="margin-bottom:3.0pt;">Agenda, Questions and Discussions at Reddit <a href="https://www.reddit.com/r/BRC_users/" target="_blank">here</a></strong></p>
     <p style="margin-bottom:3.0pt;"><strong>April 8, Day 1: Virus Sub-species Classification: What and Why</strong></p>
     <table class="docutils align-default workshop-agenda">
         <colgroup>
@@ -82,6 +81,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td colspan="3">
                     <p><strong>Session I: Tracking virus evolution through sub-species classification</strong></p>
                     <p style="margin:3.0pt 0;"><em>The evolution of viruses during disease outbreaks and the impact this process has on sub-species classification, especially considering rapid rates of virus evolution.</em></p>
+                    <p> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Recording Here</a> </p>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Elliot Lefkowitz, PhD, University of Alabama at Birmingham</li></ul>
@@ -90,10 +90,11 @@ Workshop Agenda with Links to Recordings and Presentations
                     <ul class="no-bullets">
                         <li><strong><em>Tracking and predicting the spread and evolution of RNA viruses</em></strong></li>
                         <li>Richard Neher, PhD, University of Basel, Switzerland</li>
+                        <li>Presentation Download <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">here</a>.</li>
                         <li>&nbsp;</li>
                         <li><strong><em>SARS-CoV-2 and HIV variant evolution</em></strong></li>
                         <li>Bette Korber, PhD, Los Alamos National Labs, U.S.</li>
-                        <li>Recording <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">here</a>., Presentation Download <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">here</a>.</li>
+                        <li>Presentation Download <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">here</a>.</li>
 
 
                     </ul>
@@ -478,6 +479,7 @@ Workshop Agenda with Links to Recordings and Presentations
         </tbody>
     </table>
 
+Agenda, Questions and Discussions at Reddit https://www.reddit.com/r/BRC_users/
 
 .. _speakers-section:
 ------------------

@@ -6,56 +6,16 @@ BV-BRC Viral Sub-species Classification Workshop at NIAID Rockville, MD, April 8
     <p class="feed-meta" style="margin-bottom: 0;">Published on <em class="feed-date">2024-02-23 00:00:00</em></p>
     <p class="feed-meta">Updated on <em class="feed-date">2024-04-10 00:00:00</em></p>
 
-.. image:: ../images/2024/bv-brc-subspecies-workshop.png
-   :width: 500
-   :align: center
-   :alt: BV-BRC Viral Sub-species Classification Workshop at NIAID Rockville, MD
-
 |
 
 .. raw:: html
 
-    <style>
-      #viral-subspecies-ws-logo-table {margin-bottom: 24px;table-layout: fixed;width: 100%;}
-      #viral-subspecies-ws-logo-table tr td {text-align: center;}
-      .viral-logo-img {height: 60px !important; margin-bottom: 5px;}
-      .viral-logo-text {margin: 0; line-height: normal}
-      .ss-ws-sub-section h3 {font-size: 18px;}
-    </style>
-
-    <div style=" width: 100%; text-align: center; margin-bottom: 36px;">
-      <span style="margin-bottom: 12px;display: block;"><b>Meeting dates:</b> April 8-10, 2024</span>
-      <a href="https://nih.zoomgov.com/meeting/register/vJIsf-ippzguHcTtuKi3fB43SsWf-mIbgrc#/registration"
-        class="btn" title="BV-BRC Viral Sub-species Classification Workshop Link" target="_blank"
-        style="background-color: #018c81;">Registration&nbsp;&nbsp;<span class="fa fa-external-link" aria-hidden="true"></span>
-      </a>
-    </div>
-
-    <table id="viral-subspecies-ws-logo-table">
-      <tbody><tr>
-          <td></td>
-          <td>
-              <img alt="BV-BRC - Bacterial and Viral Bioinformatics Resource Center" src="../../_images/logo-bvbrc.png" style="margin-bottom: 10px;">
-              <p class="viral-logo-text">Bacterial and Viral Bioinformatics Resource Center</p>
-          </td>
-          <td></td>
-      </tr>
-      </tbody>
-    </table>
-
-    <p style="font-size: 10px">Workshop is funded in part by National Institute of Allergy and Infectious Diseases, National Institutes of Health, Department of Health and Human Services, under Contract No. 75N93019C00076, in collaboration with the Centers for Disease Control and Prevention (CDC) and
-          The National Center for Biotechnology Information, National Library of Medicine.</p>
-
-    <p style="margin-bottom: 15px"><strong>Community Forum for follow up discussions and feedback:</strong></p>
-    <p>Please visit the following <a href="https://www.reddit.com/r/BRC_users/comments/1bfqjlg/viral_subspecies_classification_workshop/" target="blank_">reddit thread <i class="fa fa-external-link" aria-hidden="true"></i></a> for follow up discussions on viral sub-species classification and share your suggestions and/or feedback with the workshop committee.</p>
-
-
 - `Introduction <#introduction-section>`_
+- `Workshop Highlights <#highlights-section>`_
 - `Workshop Logistics <#logistics-section>`_
-- `Registration <#registration-section>`_
 - `Pathogens <#pathogens-section>`_
-- `Workshop Speakers <#speakers-section>`_
 - `Workshop Agenda <#agenda-section>`_
+- `Workshop Speakers and Reading List <#speakers-section>`_
 
 .. _introduction-section:
 
@@ -65,49 +25,31 @@ Introduction
 
 ---------------------
 
-A critical aspect of the response to the COVID-19 pandemic was to trace, classify, and understand the evolving virus lineages, their phenotypic differences, and their impact on diagnostics, vaccines, and therapeutics. Classification and tracing of sub-species level variation has also been similarly important in outbreaks of viruses such as influenza, HIV, and monkeypox, and has informed public health risk assessment and communication strategies. To prepare for the next, inevitable outbreak of virus disease, the Bacterial and Viral Bioinformatics Resource Center (BV-BRC) along with the CDC, NCBI, and NIAID, are hosting a hybrid workshop on viral sub-species classification. Workshop objectives include the review of various classification schemes developed for SARS-CoV-2 and other viruses, examination of the methods and tools developed for classification, discussion of the utility and impact of classification schemes on the public health response, and review of lessons learned from past and current outbreaks. The outcome of the workshop will be to define best practices for establishing sub-species classification systems for these and other viruses that will be important in controlling future out breaks and potential pandemics. The valuable insights and best practices from this workshop will be widely disseminated.
+A critical aspect of the response to the COVID-19 pandemic was to trace, classify, and understand the evolving virus lineages, their phenotypic differences, and their impact on diagnostics, vaccines, and therapeutics. Classification and tracing of sub-species level variation has also been similarly important in outbreaks of viruses such as influenza, HIV, and monkeypox, and has informed public health risk assessment and communication strategies. To prepare for the next, inevitable outbreak of virus disease, the Bacterial and Viral Bioinformatics Resource Center (BV-BRC) along with the CDC, NCBI, and NIAID, HOSTED a hybrid workshop on viral sub-species classification. Workshop objectives include the review of various classification schemes developed for SARS-CoV-2 and other viruses, examination of the methods and tools developed for classification, discussion of the utility and impact of classification schemes on the public health response, and review of lessons learned from past and current outbreaks. The outcome of the workshop will be to define best practices for establishing sub-species classification systems for these and other viruses that will be important in controlling future out breaks and potential pandemics. The valuable insights and best practices from this workshop will be widely disseminated.
 
-.. _logistics-section:
+.. _highlights-section:
 
 ------------------
-Workshop Logistics
+Workshop Highlights
 ------------------
 
 --------------------------
 
-.. raw:: html
+Session One, led by Elliot Lefkowitz, tracked virus evolution and its impact on sub-species. Dr. Richard Neher discussed RNA virus spread, followed by Dr. Bette Korber's insights on SARS-CoV-2 and HIV variants.
 
-    <style>
-      #workshop-logistics-date-time {width: 100%}
-      #workshop-logistics-date-time > div {float: left;}
-      #workshop-logistics-date-time li {list-style: none;; padding: 0; margin: 0;}
-    </style>
-    <div id="workshop-logistics-date-time">
-        <div style="width: 25%;"><p>Date &amp; Time</p></div>
-        <div style="width: 75%; float: left;">
-            <ul>
-                <li><p>Apr 8, 2024 | 09:30 AM - 6:00 PM</p></li>
-                <li><p>Apr 9, 2024 | 09:30 AM - 5:30 PM</p></li>
-                <li><p>Apr 10, 2024 | 09:00 AM - 12:00 PM</p></li>
-                <li><br></li>
-                <li><p>Time shows in <b>Eastern Time (US and Canada)</b></li>
-            </ul>
-        </div>
-    </div>
+Session Two, moderated by Dr. Rodney Brister, explored RNA and DNA virus complexity. Dr. Justin Bahl discussed RNA virus evolution, Dr. Tavis Anderson spoke on influenza A virus, and Dr. Jens Kuhn covered Filovirus nomenclature.
 
-.. _registration-section:
+Session Three, moderated by Dr. Conrad Schoch, explored diverse perspectives on virus classification, featuring discussions on Influenza, SARS-CoV-2, and virus classification from Dr. Derek Smith and Dr. Peter Simmonds, respectively.
 
-------------------
-Registration
-------------------
+Session Four, moderated by Dr. Richard Scheuermann, delved into classification schemes, featuring discussions from Dr. Jens H. Kuhn on ICTV taxonomy, Dr. Krista Queen about GISAID classification, Dr. Áine O'Toole, on the Pango system development, and its future beyond the SARS-CoV-2 pandemic from Dr. Rachel Colquhoun.
 
----------------------
+Session Five, moderated by Dr. Eneida Hatcher, focused on tools for viral evolution classification. Dr. Cornelius Roemer discussed Clade and lineage assignment, Dr. Angie Hinrichs presented UShER and autolin, and Dr. Christian Zmasek discussed BV-BRC sub-species classification tools.
 
-.. |registration_link| raw:: html
+Session Six, moderated by Indresh Singh, explored analytical and visualization tools for studying virus evolution during outbreaks. Dr. Eneida Hatcher discussed NCBI Virus and Taxonomy, Dr. Philippe Le Mercier presented Virus sub-species in ViralZone and UniProtKB, and Dr. Andrew Warren discussed virus mutational spectra visualization.
 
-  <a class="reference external" href="https://nih.zoomgov.com/meeting/register/vJIsf-ippzguHcTtuKi3fB43SsWf-mIbgrc#/registration" target="_blank">here <i class="fa fa-external-link" aria-hidden="true"></i></a>
+Session Seven, led by Dr. Paul Eder, addressed public health responses. Dr. Brown discussed NIAID's disease prevention efforts, Dr. Beck shared CDC's perspective, Dr. Rosamund Lewis explored viral evolution's impact on pox outbreaks, and Dr. Xiong (Sean) Wang provided insights from the Minnesota Department of Health on virus surveillance.
 
-Please register for virtual workshop participation |registration_link|. The virtual workshop participants can actively participate by providing feedback and ask questions throughout the event.
+
 
 .. _pathogens-section:
 
@@ -119,66 +61,6 @@ Pathogens
 
 The focus of the workshop will be on viral pathogens. The viruses discussed will include those with established classification schemes as well as viruses defined by NIH/NIAID as prototype pathogens with pandemic potential (PMCID: PMC9384504).
 
-.. _speakers-section:
-
-------------------
-Workshop Speakers
-------------------
-
----------------------
-
-.. list-table::
-   :widths: 30 70
-   :header-rows: 1
-
-   * - Name
-     - Affiliation
-   * - **Anderson, Tavis**
-     - U.S. Department of Agriculture
-   * - **Bahl, Justin**
-     - University of Georgia, U.S.
-   * - **Beck, Andrew**
-     - U.S. Centers for Disease Control and Prevention (CDC)
-   * - **Brown, Liliana**
-     - NIH/NIAID
-   * - **Colquhoun, Rachel**
-     - University of Edinburgh, U.K.
-   * - **Donato, Celeste**
-     - Murdoch Children's Research Institute, Australia
-   * - **Hatcher, Eneida**
-     - National Center for Biotechnology Information (NCBI), U.S.
-   * - **Hinrichs, Angie**
-     - University of California Santa Cruz, U.S.
-   * - **Korber, Bette**
-     - Los Alamos National Labs, U.S.
-   * - **Kuhn, Jens H.**
-     - NIH/NIAID/DCR Integrated Research Facility at Fort Detrick, U.S.
-   * - **Le Mercier, Philippe**
-     - Swiss-Prot group, Swiss Institute of Bioinformatics, Switzerland
-   * - **Lefkowitz, Elliot**
-     - University of Alabama at Birmingham (UAB), U.S.
-   * - **Lewis, Rosamund**
-     - World Health Organization
-   * - **Neher, Richard**
-     - University of Basel, Switzerland
-   * - **O'Toole, Áine**
-     - University of Edinburgh, U.K.
-   * - **Queen, Krista**
-     - LSU Health Shreveport, U.S.
-   * - **Roemer, Cornelius**
-     - University of Basel, Switzerland
-   * - **Seto, Donald**
-     - George Mason University, U.S.
-   * - **Simmonds, Peter**
-     - University of Oxford, U.K.
-   * - **Smith, Derek J**
-     - University of Cambridge, U.K.
-   * - **Wang, Sean**
-     - Minnesota Department of Health, U.S.
-   * - **Warren, Andrew**
-     - University of Virginia, U.S.
-   * - **Zmasek, Christian**
-     - J.Craig Venter Institute, U.S.
 
 .. _agenda-section:
 
@@ -618,8 +500,17 @@ Workshop Agenda
         </tbody>
     </table>
 
-.. image:: ../images/2024/logo-bvbrc.png
-   :height: 0
 
-.. image:: ../images/2024/bv-brc-subspecies-workshop_thumb.png
-   :height: 0
+.. _speakers-section:
+
+---------------------
+.. list-table::
+   :widths:
+   :header-rows: 1
+
+  * - Name
+     - Affiliation
+     - Papers
+   * - General
+     - r
+     - PMID: 33649511

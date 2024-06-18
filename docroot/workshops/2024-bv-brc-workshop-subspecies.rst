@@ -502,15 +502,89 @@ Workshop Agenda
 
 
 .. _speakers-section:
+------------------
+Workshop Speakers amd Reading List
+------------------
 
 ---------------------
+
 .. list-table::
-   :widths:
+   :widths: 20 60 20
    :header-rows: 1
 
-  * - Name
+   * - Name
      - Affiliation
      - Papers
-   * - General
-     - r
-     - PMID: 33649511
+   * - **Anderson, Tavis**
+     - U.S. Department of Agriculture
+     - PMID: 37208300
+   * - **Anderson, Tavis**
+     - U.S. Department of Agriculture
+     - PMID: 37208300
+   * - **Bahl, Justin**
+     - University of Georgia, U.S.
+     - 
+   * - **Beck, Andrew**
+     - U.S. Centers for Disease Control and Prevention (CDC)
+     -
+   * - **Brown, Liliana**
+     - NIH/NIAID
+     -
+   * - **Colquhoun, Rachel**
+     - University of Edinburgh, U.K.
+     - 
+   * - **Donato, Celeste**
+     - Murdoch Children's Research Institute, Australia
+     - 
+   * - **Hatcher, Eneida**
+     - National Center for Biotechnology Information (NCBI), U.S.
+     - 
+   * - **Hinrichs, Angie**
+     - University of California Santa Cruz, U.S.
+     - 
+   * - **Korber, Bette**
+     - Los Alamos National Labs, U.S.
+     - 
+   * - **Kuhn, Jens H.**
+     - NIH/NIAID/DCR Integrated Research Facility at Fort Detrick, U.S.
+     -
+   * - **Le Mercier, Philippe**
+     - Swiss-Prot group, Swiss Institute of Bioinformatics, Switzerland
+     - 
+   * - **Lefkowitz, Elliot**
+     - University of Alabama at Birmingham (UAB), U.S.
+     - 
+   * - **Lewis, Rosamund**
+     - World Health Organization
+     - 
+   * - **Neher, Richard**
+     - University of Basel, Switzerland
+     - 
+   * - **O'Toole, Áine**
+     - University of Edinburgh, U.K.
+     - 
+   * - **Queen, Krista**
+     - LSU Health Shreveport, U.S.
+     - 
+   * - **Roemer, Cornelius**
+     - University of Basel, Switzerland
+     - 
+   * - **Seto, Donald**
+     - George Mason University, U.S.
+     - 
+   * - **Simmonds, Peter**
+     - University of Oxford, U.K.
+     - 
+   * - **Smith, Derek J**
+     - University of Cambridge, U.K.
+     - 
+   * - **Wang, Sean**
+     - Minnesota Department of Health, U.S.
+     - 
+   * - **Warren, Andrew**
+     - University of Virginia, U.S.
+     - 
+   * - **Zmasek, Christian**
+     - J.Craig Venter Institute, U.S.
+     - 
+

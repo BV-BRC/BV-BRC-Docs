@@ -497,16 +497,17 @@ Workshop Speakers amd Reading List
      - Papers
    * - **General**
      - Bioinformatics Bottleneck
-     - PMID: 33649511
+     - `PMID: 33649511 <https://www.nature.com/articles/d41586-021-00525-x>`_
    * - **Anderson, Tavis**
      - U.S. Department of Agriculture
-     - PMID: 37208300
+     - PMID: 37208300 
    * - **Bahl, Justin**
      - University of Georgia, U.S.
      - 
    * - **Beck, Andrew**
      - U.S. Centers for Disease Control and Prevention (CDC)
      - PMID: 37516478
+
    * - **Brown, Liliana**
      - NIH/NIAID
      - 
@@ -568,3 +569,5 @@ Workshop Speakers amd Reading List
      - J.Craig Venter Institute, U.S.
      - PMID: 27981236, PMID: 21034504, PMID: 33972780
 Full details of publications will be added soon. 
+
+

@@ -515,9 +515,9 @@ Workshop Speakers amd Reading List
    * - Name
      - Affiliation
      - Papers
-   * - **Anderson, Tavis**
-     - U.S. Department of Agriculture
-     - PMID: 37208300
+   * - **General**
+     - Bioinformatics Bottleneck
+     - PMID: 33649511
    * - **Anderson, Tavis**
      - U.S. Department of Agriculture
      - PMID: 37208300
@@ -526,65 +526,65 @@ Workshop Speakers amd Reading List
      - 
    * - **Beck, Andrew**
      - U.S. Centers for Disease Control and Prevention (CDC)
-     -
+     - PMID: 37516478
    * - **Brown, Liliana**
      - NIH/NIAID
-     -
+     - 
    * - **Colquhoun, Rachel**
      - University of Edinburgh, U.K.
-     - 
+     - PMID: 32669681
    * - **Donato, Celeste**
      - Murdoch Children's Research Institute, Australia
-     - 
+     - PMID: 37323680
    * - **Hatcher, Eneida**
      - National Center for Biotechnology Information (NCBI), U.S.
      - 
    * - **Hinrichs, Angie**
      - University of California Santa Cruz, U.S.
-     - 
+     -  PMID: 38316930, PMID: 38155331.
    * - **Korber, Bette**
      - Los Alamos National Labs, U.S.
      - 
    * - **Kuhn, Jens H.**
      - NIH/NIAID/DCR Integrated Research Facility at Fort Detrick, U.S.
-     -
+     - PMID: 23001720,  PMID: 37141106
    * - **Le Mercier, Philippe**
      - Swiss-Prot group, Swiss Institute of Bioinformatics, Switzerland
-     - 
+     -  PMID: 37897348
    * - **Lefkowitz, Elliot**
      - University of Alabama at Birmingham (UAB), U.S.
-     - 
+     - PMID: 37710003
    * - **Lewis, Rosamund**
      - World Health Organization
-     - 
+     - PMID: 37349031
    * - **Neher, Richard**
      - University of Basel, Switzerland
      - 
    * - **O'Toole, Áine**
      - University of Edinburgh, U.K.
-     - 
+     - PMID: 35998195
    * - **Queen, Krista**
      - LSU Health Shreveport, U.S.
      - 
    * - **Roemer, Cornelius**
      - University of Basel, Switzerland
-     - 
+     - joss 03773
    * - **Seto, Donald**
      - George Mason University, U.S.
-     - 
+     - PMID: 38275969, PMID: 34618969
    * - **Simmonds, Peter**
      - University of Oxford, U.K.
-     - 
+     - PMID: 36780432
    * - **Smith, Derek J**
      - University of Cambridge, U.K.
-     - 
+     -  PMID: 15218094
    * - **Wang, Sean**
      - Minnesota Department of Health, U.S.
      - 
    * - **Warren, Andrew**
      - University of Virginia, U.S.
-     - 
+     - PMID: 34520557, PMID: 38361813
    * - **Zmasek, Christian**
      - J.Craig Venter Institute, U.S.
-     - 
-
+     - PMID: 27981236, PMID: 21034504, PMID: 33972780
+Full details of publications will be added soon. 

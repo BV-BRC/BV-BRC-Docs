@@ -16,7 +16,7 @@ Introduction
 
 ---------------------
 
-A critical aspect of the response to the COVID-19 pandemic was to trace, classify, and understand the evolving virus lineages, their phenotypic differences, and their impact on diagnostics, vaccines, and therapeutics. Classification and tracing of sub-species level variation has also been similarly important in outbreaks of viruses such as influenza, HIV, and monkeypox, and has informed public health risk assessment and communication strategies. To prepare for the next, inevitable outbreak of virus disease, the Bacterial and Viral Bioinformatics Resource Center (BV-BRC) along with the CDC, NCBI, and NIAID, HOSTED a hybrid workshop on viral sub-species classification. Workshop objectives include the review of various classification schemes developed for SARS-CoV-2 and other viruses, examination of the methods and tools developed for classification, discussion of the utility and impact of classification schemes on the public health response, and review of lessons learned from past and current outbreaks. The outcome of the workshop will be to define best practices for establishing sub-species classification systems for these and other viruses that will be important in controlling future out breaks and potential pandemics. The valuable insights and best practices from this workshop will be widely disseminated.
+A critical aspect of the response to the COVID-19 pandemic was to trace, classify, and understand the evolving virus lineages, their phenotypic differences, and their impact on diagnostics, vaccines, and therapeutics. Classification and tracing of sub-species level variation has also been similarly important in outbreaks of viruses such as influenza, HIV, and monkeypox, and has informed public health risk assessment and communication strategies. To prepare for the next inevitable outbreak of virus disease, the Bacterial and Viral Bioinformatics Resource Center (BV-BRC), along with the CDC, NCBI, and NIAID, HOSTED a hybrid workshop on viral sub-species classification. Workshop objectives include the review of various classification schemes developed for SARS-CoV-2 and other viruses, examination of the methods and tools developed for classification, discussion of the utility and impact of classification schemes on the public health response, and review of lessons learned from past and current outbreaks. The outcome of the workshop will be to define best practices for establishing sub-species classification systems for these and other viruses that will be important in controlling future outbreaks and potential pandemics. The valuable insights and best practices from this workshop will be widely disseminated.
 
 .. _highlights-section:
 
@@ -72,7 +72,7 @@ Workshop Agenda with Links to Recordings and Presentations
         <tbody>
             <tr>
                 <td>9:30 AM - 10:00 AM</td>
-                <td>Welcome and Introduction </p> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a> </td>
+                <td>Welcome and Introduction </p> <a href="https://www.youtube.com/watch?v=JsCw73b1a1U&list=PLWfOyhOW_OasOchpm2zeCvj5AUzo9gFT6" target="_blank">Watch Recording Here</a> </td>
                 <td>Goals, Expectations, and Logistics</td>
                 <td><ul class="no-bullets"><li style="margin-left: 0px;">Elliot Lefkowitz (UAB)</li><li style="margin-left: 0px; line-height: 1.2;">Wiriya Rutvisuttinunt (NIAID) on behalf of the Organizing Committee</li></ul></td>
             </tr>
@@ -81,7 +81,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td colspan="3">
                     <p><strong>Session I: Tracking virus evolution through sub-species classification</strong></p>
                     <p style="margin:3.0pt 0;"><em>The evolution of viruses during disease outbreaks and the impact this process has on sub-species classification, especially considering rapid rates of virus evolution.</em></p>
-                    <p> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a> </p>
+                    <p> <a href="https://youtu.be/H3qIRVg_W-E" target="_blank">Watch Recording Here</a> </p>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Elliot Lefkowitz, PhD, University of Alabama at Birmingham</li></ul>

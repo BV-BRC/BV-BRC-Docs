@@ -314,7 +314,7 @@ Workshop Agenda with Links to Recordings and Presentations
                         <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
-                    <p><strong>Q&A Panel Discussion</strong> [15 Minutes]</p>
+                    <p><strong>Q&A Panel Discussion</strong> </p>
                     <ul>
                         <li>How do different classification systems impact our understanding of virus evolution and disease emergence?</li>
                         <li>Do current classification systems capture sufficient genetic variation and associated phenotypic impact to support prediction of future disease outcomes?</li>
@@ -333,7 +333,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>
                     <p><strong>Session VI: Analytical and visualization tools</strong></p>
                     <p style="margin:3.0pt 0;"><em>User tools and platforms available to study virus evolution during an outbreak.</em></p>
-                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
+                    <a href="https://youtu.be/dPGJ0RHb-d8" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Indresh Singh, J. Craig Venter Institute, BV-BRC</li></ul>
@@ -353,7 +353,7 @@ Workshop Agenda with Links to Recordings and Presentations
                         <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
-                    <p><strong>Q&A Panel Discussion</strong> [15 Minutes]</p>
+                    <p><strong>Q&A Panel Discussion</strong></p>
                     <ul>
                         <li>What role do data repository and analytical platforms provide to support basic research and outbreak response?</li>
                         <li>Are there research and response needs not supported by these platforms?</li>
@@ -466,7 +466,7 @@ Workshop Agenda with Links to Recordings and Presentations
             <tr>
                 <td>10:55 AM - 12:00 PM</td>
                 <td colspan="3">
-                    <p><strong>White Board Brainstorming Session</strong> [65 minutes]</p>
+                    <p><strong>White Board Brainstorming Session</strong></p>
                     <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
                     <br>
                     <ul class="no-bullets">

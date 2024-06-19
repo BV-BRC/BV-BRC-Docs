@@ -86,7 +86,7 @@ Workshop Agenda with Links to Recordings and Presentations
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Elliot Lefkowitz, PhD, University of Alabama at Birmingham</li></ul>
                     <br>
-                    <p><strong>Panel and Session Topics</strong> [30-minute talks]</p>
+                    <p><strong>Panel and Session Topics</strong> </p>
                     <ul class="no-bullets">
                         <li><strong><em>Tracking and predicting the spread and evolution of RNA viruses</em></strong></li>
                         <li>Richard Neher, PhD, University of Basel, Switzerland</li>
@@ -99,9 +99,9 @@ Workshop Agenda with Links to Recordings and Presentations
 
                     </ul>
                     <br>
-                    <p><strong>Break</strong> [15 minutes]</p>
+                    <p><strong>Break</strong> </p>
                     <br>
-                    <p><strong>Q&A Panel Discussions</strong> [45 Minutes]</p>
+                    <p><strong>Q&A Panel Discussions</strong> </p>
                     <ul>
                         <li>How are viruses classified below the level of species?</li>
                         <li>How does virus evolution impact outbreak response?</li>
@@ -126,7 +126,7 @@ Workshop Agenda with Links to Recordings and Presentations
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>James Rodney Brister, PhD, NCBI</li></ul>
                     <br>
-                    <p><strong>Panel and Session Topics</strong> [15-minute talks]</p>
+                    <p><strong>Panel and Session Topics</strong> </p>
                     <ul class="no-bullets">
                         <li><strong><em>Evolution, epidemiology, and RNA virus disease</em></strong></li>
                         <li>Justin Bahl, PhD, University of Georgia</li>
@@ -156,7 +156,7 @@ Workshop Agenda with Links to Recordings and Presentations
                         <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
-                    <p><strong>Q&A Panel Discussions</strong> [20 Minutes]</p>
+                    <p><strong>Q&A Panel Discussions</strong> </p>
                     <ul>
                         <li>How are viruses classified?</li>
                         <li style="list-style-type: none !important;">
@@ -218,7 +218,7 @@ Workshop Agenda with Links to Recordings and Presentations
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Conrad Schoch, PhD, NCBI</li></ul>
                     <br>
-                    <p><strong>Panel and Session Topics</strong> [20-minute talks]</p>
+                    <p><strong>Panel and Session Topics</strong> </p>
                     <ul class="no-bullets">
                         <li><strong><em>Influenza and SARS-CoV-2: Evolution, Immunity, and Surveillance</em></strong></li>
                         <li>Derek Smith, PhD,  University of Cambridge</li>
@@ -229,7 +229,7 @@ Workshop Agenda with Links to Recordings and Presentations
                         <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
-                    <p><strong>Q&A Panel Discussions</strong> [30 Minutes]</p>
+                    <p><strong>Q&A Panel Discussions</strong> </p>
                     <ul>
                         <li>Can virus classification systems be designed to be both clear and adaptable, allowing for consistent communication while effectively tracking virus evolution?</li>
                         <li style="list-style-type: none !important;">
@@ -257,7 +257,7 @@ Workshop Agenda with Links to Recordings and Presentations
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Richard Scheuermann, PhD, National Library of Medicine (NLM)</li></ul>
                     <br>
-                    <p><strong>Panel and Session Topics</strong> [15-minute talks]</p>
+                    <p><strong>Panel and Session Topics</strong> </p>
                     <ul class="no-bullets">
                         <li><strong><em>The ICTV taxonomy: Classification and nomenclature</em></strong></li>
                         <li>Jens H. Kuhn, PhD, NIH/NIAID/DCR Integrated Research Facility at Fort Detrick</li>
@@ -275,7 +275,7 @@ Workshop Agenda with Links to Recordings and Presentations
                         <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
-                    <p><strong>Q&A Panel Discussion</strong> [15 Minutes]</p>
+                    <p><strong>Q&A Panel Discussion</strong> </p>
                     <ul>
                         <li>How do the existing classification schemes impact our ability to track and respond to virus outbreaks?</li>
                         <li>In what ways do these classification schemes influence public health interventions and vaccine development?</li>
@@ -298,7 +298,7 @@ Workshop Agenda with Links to Recordings and Presentations
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Eneida Hatcher, PhD, NCBI</li></ul>
                     <br>
-                    <p><strong>Panel and Session Topics</strong> [20-minute talks]</p>
+                    <p><strong>Panel and Session Topics</strong> </p>
                     <ul class="no-bullets">
                         <li><strong><em>Clade and lineage assignment with Nextclade</em></strong></li>
                         <li>Cornelius Roemer, University of Basel, Switzerland</li>
@@ -337,7 +337,7 @@ Workshop Agenda with Links to Recordings and Presentations
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Indresh Singh, J. Craig Venter Institute, BV-BRC</li></ul>
                     <br>
-                    <p><strong>Panel and Session Topics</strong> [20-minute talks]</p>
+                    <p><strong>Panel and Session Topics</strong> </p>
                     <ul class="no-bullets">
                         <li><strong><em>NCBI Virus / Taxonomy</em></strong></li>
                         <li>Eneida Hatcher, PhD, NCBI</li>
@@ -369,7 +369,7 @@ Workshop Agenda with Links to Recordings and Presentations
             <tr>
                 <td>4:15 PM - 5:15 PM</td>
                 <td colspan="3">
-                    <p><strong>White Board Brainstorming Session</strong> [60 minutes]</p>
+                    <p><strong>White Board Brainstorming Session</strong> </p>
                     <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
                     <br>
                     <ul class="no-bullets">
@@ -430,7 +430,7 @@ Workshop Agenda with Links to Recordings and Presentations
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Paul Eder, PhD, NIAID</li></ul>
                     <br>
-                    <p><strong>Panel and Session Topics</strong> [20-minute talks]</p>
+                    <p><strong>Panel and Session Topics</strong> </p>
                     <ul class="no-bullets">
                         <li><strong><em>NIAID: To better understand, treat, and ultimately prevent infectious diseases</em></strong></li>
                         <li>Liliana Brown, Ph.D. NIAID</li>
@@ -448,7 +448,7 @@ Workshop Agenda with Links to Recordings and Presentations
                         <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
-                    <p><strong>Q&A Panel Discussions</strong> [15 Minutes]</p>
+                    <p><strong>Q&A Panel Discussions</strong> </p>
                     <ul>
                         <li>How does an  understanding of virus evolution during outbreaks improve and/or complicate outbreak preparedness and response?</li>
                         <li>How can we improve our understanding of virus evolution to inform the development of more effective vaccines and treatments?</li>

@@ -500,74 +500,75 @@ Workshop Speakers amd Reading List
      - `PMID: 33649511 <https://www.nature.com/articles/d41586-021-00525-x>`_
    * - **Anderson, Tavis**
      - U.S. Department of Agriculture
-     - PMID: 37208300
+     - `PMID: 37208300 <https://pubmed.ncbi.nlm.nih.gov/37208300>`_
    * - **Bahl, Justin**
      - University of Georgia, U.S.
      - 
    * - **Beck, Andrew**
      - U.S. Centers for Disease Control and Prevention (CDC)
-     - PMID: 37516478
+     - `PMID: 37516478 <https://pubmed.ncbi.nlm.nih.gov/37516478>`_
 
    * - **Brown, Liliana**
      - NIH/NIAID
      - 
    * - **Colquhoun, Rachel**
      - University of Edinburgh, U.K.
-     - PMID: 32669681
+     - `PMID: 32669681 <https://pubmed.ncbi.nlm.nih.gov/32669681>`_
    * - **Donato, Celeste**
      - Murdoch Children's Research Institute, Australia
-     - PMID: 37323680
+     - `PMID: 37323680 <https://pubmed.ncbi.nlm.nih.gov/37323680>`_
    * - **Hatcher, Eneida**
      - National Center for Biotechnology Information (NCBI), U.S.
      - 
    * - **Hinrichs, Angie**
      - University of California Santa Cruz, U.S.
-     -  PMID: 38316930, PMID: 38155331.
+     - `PMID: 38316930 <https://pubmed.ncbi.nlm.nih.gov/38316930>`_, `PMID: 38155331 <https://pubmed.ncbi.nlm.nih.gov/38155331>`_
    * - **Korber, Bette**
      - Los Alamos National Labs, U.S.
      - 
    * - **Kuhn, Jens H.**
      - NIH/NIAID/DCR Integrated Research Facility at Fort Detrick, U.S.
-     - PMID: 23001720,  PMID: 37141106
+     - `PMID: 23001720 <https://pubmed.ncbi.nlm.nih.gov/23001720>`_, `PMID: 37141106 <https://pubmed.ncbi.nlm.nih.gov/37141106>`_
    * - **Le Mercier, Philippe**
      - Swiss-Prot group, Swiss Institute of Bioinformatics, Switzerland
-     -  PMID: 37897348
+     - `PMID: 37897348 <https://pubmed.ncbi.nlm.nih.gov/37897348>`_
    * - **Lefkowitz, Elliot**
      - University of Alabama at Birmingham (UAB), U.S.
-     - PMID: 37710003
+     - `PMID: 37710003 <https://pubmed.ncbi.nlm.nih.gov/37710003>`_
    * - **Lewis, Rosamund**
      - World Health Organization
-     - PMID: 37349031
+     - `PMID: 37710003 <https://pubmed.ncbi.nlm.nih.gov/37710003>`_
    * - **Neher, Richard**
      - University of Basel, Switzerland
      - 
    * - **O'Toole, Áine**
      - University of Edinburgh, U.K.
-     - PMID: 35998195
+     - `PMID: 35998195 <https://pubmed.ncbi.nlm.nih.gov/35998195>`_
    * - **Queen, Krista**
      - LSU Health Shreveport, U.S.
      - 
    * - **Roemer, Cornelius**
      - University of Basel, Switzerland
-     - joss 03773
+     - `JOSS 03773 <https://joss.theoj.org/papers/10.21105/joss.03773>`_
    * - **Seto, Donald**
      - George Mason University, U.S.
-     - PMID: 38275969, PMID: 34618969
+     - `PMID: 38275969 <https://pubmed.ncbi.nlm.nih.gov/38275969>`_, `PMID: 34618969 <https://pubmed.ncbi.nlm.nih.gov/34618969>`_
    * - **Simmonds, Peter**
      - University of Oxford, U.K.
-     - PMID: 36780432
+     - `PMID: 36780432 <https://pubmed.ncbi.nlm.nih.gov/36780432>`_
    * - **Smith, Derek J**
      - University of Cambridge, U.K.
-     -  PMID: 15218094
+     - `PMID: 36780432 <https://pubmed.ncbi.nlm.nih.gov/36780432>`_
    * - **Wang, Sean**
      - Minnesota Department of Health, U.S.
      - 
    * - **Warren, Andrew**
      - University of Virginia, U.S.
-     - PMID: 34520557, PMID: 38361813
+     - `PMID: 34520557 <https://pubmed.ncbi.nlm.nih.gov/34520557>`_, `PMID: 38361813 <https://pubmed.ncbi.nlm.nih.gov/38361813>`_
    * - **Zmasek, Christian**
      - J.Craig Venter Institute, U.S.
-     - PMID: 27981236, PMID: 21034504, PMID: 33972780
+     - `PMID: 27981236 <https://pubmed.ncbi.nlm.nih.gov/27981236>`_, `PMID: 21034504 <https://pubmed.ncbi.nlm.nih.gov/21034504>`_, `PMID: 33972780 <https://pubmed.ncbi.nlm.nih.gov/33972780>`_
+
 
 Full details of publications will be added soon. 
 

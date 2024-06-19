@@ -90,11 +90,11 @@ Workshop Agenda with Links to Recordings and Presentations
                     <ul class="no-bullets">
                         <li><strong><em>Tracking and predicting the spread and evolution of RNA viruses</em></strong></li>
                         <li>Richard Neher, PhD, University of Basel, Switzerland</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040824-S1.1-Neher.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</li>
                         <li><strong><em>SARS-CoV-2 and HIV variant evolution</em></strong></li>
                         <li>Bette Korber, PhD, Los Alamos National Labs, U.S.</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040824-S1.2-Korber.pdf" target="_blank">Download Presentation Here</a></li>
 
 
                     </ul>
@@ -130,18 +130,18 @@ Workshop Agenda with Links to Recordings and Presentations
                     <ul class="no-bullets">
                         <li><strong><em>Evolution, epidemiology, and RNA virus disease</em></strong></li>
                         <li>Justin Bahl, PhD, University of Georgia</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040824-S2.1-Bahl.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</li>
                         <li><strong><em>The evolution of influenza A virus at the human-animal interface</em></strong></li>
                         <li>Tavis Anderson, PhD, U.S. Department of Agriculture</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040824-S2.2-Anderson.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</li>
                         <li><strong><em>Filovirus sub-species nomenclature</em></strong></li>
                         <li>Jens H. Kuhn, PhD, NIH/NIAID/DCR Integrated Research Facility at Fort Detrick</li>
                         <li>&nbsp;</p>
                         <li><strong><em>Rotavirus diversity, evolution, and lineage classification</em></strong></li>
                         <li>Celeste Donato, PhD, Murdoch Children's Research Institute</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040824-S2.4-Donato.pdf" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
                     <p><strong>Break</strong></p>
@@ -149,11 +149,11 @@ Workshop Agenda with Links to Recordings and Presentations
                     <ul class="no-bullets">
                         <li><strong><em>Update on Human Adenoviruses</em></strong></li>
                         <li>Donald Seto, PhD, George Mason University</p>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040824-S2.5-Seto.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</p>
                         <li><strong><em>Monkeypox virus sub-species evolution</em></strong></li>
                         <li>Elliot Lefkowitz, PhD, University of Alabama at Birmingham</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040824-S2.6-Lefkowitz.pdf" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
                     <p><strong>Q&A Panel Discussions</strong> </p>
@@ -223,11 +223,11 @@ Workshop Agenda with Links to Recordings and Presentations
                     <ul class="no-bullets">
                         <li><strong><em>Influenza and SARS-CoV-2: Evolution, Immunity, and Surveillance</em></strong></li>
                         <li>Derek Smith, PhD,  University of Cambridge</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040924-S3.1-Smith.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</li>
                         <li><strong><em>Virus classification and support for different stakeholders</em></strong></li>
                         <li>Peter Simmonds, PhD, University of Oxford</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040924-S3.2-Simmonds.pdf" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
                     <p><strong>Q&A Panel Discussions</strong> </p>
@@ -265,15 +265,15 @@ Workshop Agenda with Links to Recordings and Presentations
                         <li>&nbsp;</li>
                         <li><strong><em>GISAID classification</em></strong></li>
                         <li>Krista Queen, PhD, LSU Health Shreveport (remote)</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040924-S4.2-Queen.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</li>
                         <li><strong><em>Perspectives on the development of the Pango system and software</em></strong></li>
                         <li>Áine O'Toole, PhD, The University of Edinburgh</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040924-S4.3-OToole.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</p>
                         <li><strong><em>Pango beyond the SARS-CoV-2 pandemic</em></strong></li>
                         <li>Rachel Colquhoun, PhD, The University of Edinburgh</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040924-S4.4-Colquhoun.pdf" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
                     <p><strong>Q&A Panel Discussion</strong> </p>
@@ -303,15 +303,15 @@ Workshop Agenda with Links to Recordings and Presentations
                     <ul class="no-bullets">
                         <li><strong><em>Clade and lineage assignment with Nextclade</em></strong></li>
                         <li>Cornelius Roemer, University of Basel, Switzerland</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040924-S5.1-Roemer.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</li>
                         <li><strong><em>UShER and autolin: Identifying virus lineages</em></strong></li>
                         <li>Angie Hinrichs, University of California Santa Cruz</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040924-S5.2-Hinrichs.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</li>
                         <li><strong><em>BV-BRC sub-species classification tools</em></strong></li>
                         <li>Christian Zmasek, J. Craig Venter Institute, BV-BRC</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040924-S5.3-Zmasek.pdf" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
                     <p><strong>Q&A Panel Discussion</strong> </p>
@@ -342,15 +342,15 @@ Workshop Agenda with Links to Recordings and Presentations
                     <ul class="no-bullets">
                         <li><strong><em>NCBI Virus / Taxonomy</em></strong></li>
                         <li>Eneida Hatcher, PhD, NCBI</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040924-S6.1-Hatcher.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</li>
                         <li><strong><em>Virus sub-species in ViralZone and UniProtKB</em></strong></li>
                         <li>Philippe Le Mercier, PhD, Swiss-Prot group, Swiss Institute of Bioinformatics, Switzerland</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040924-S6.2-LeMercier.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</li>
                         <li><strong><em>Thinking about virus mutational spectra through visualization</em></strong></li>
                         <li>Andrew Warren, PhD, University of Virginia, BV-BRC</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040924-S6.3-Warren.pdf" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
                     <p><strong>Q&A Panel Discussion</strong></p>
@@ -438,15 +438,15 @@ Workshop Agenda with Links to Recordings and Presentations
                         <li>&nbsp;</li>
                         <li><strong><em>CDC: Public Health Perspective: Federal Level</em></strong></li>
                         <li>Andrew Beck, PhD, U.S. Centers for Disease Control and Prevention</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/041024-S7.2-Beck.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</li>
                         <li><strong><em>WHO Global Program</em></strong> (remote)</li>
                         <li>Rosamund Lewis, PhD, WHO</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/041024-S7.3-Lewis.pdf" target="_blank">Download Presentation Here</a></li>
                         <li>&nbsp;</li>
                         <li><strong><em>Boots on the ground: State public health laboratory’s perspective on virus pathogen surveillance</em></strong></li>
                         <li>Sean Wang, Minnesota Department of Public Health</li>
-                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
+                        <li> <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/041024-S7.4-Wang.pdf" target="_blank">Download Presentation Here</a></li>
                     </ul>
                     <br>
                     <p><strong>Q&A Panel Discussions</strong> </p>

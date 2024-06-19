@@ -73,7 +73,7 @@ Workshop Agenda with Links to Recordings and Presentations
             <tr>
                 <td>9:30 AM - 10:00 AM</td>
                 <td>Welcome and Introduction </p> <a href="https://www.youtube.com/watch?v=JsCw73b1a1U&list=PLWfOyhOW_OasOchpm2zeCvj5AUzo9gFT6" target="_blank">Watch Recording Here</a> </td>
-                <td>Goals, Expectations, and Logistics</td>
+                <td>Goals, Expectations, and Logistics <a href="https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/040824-Intro-Lefkowitz.pdf" target="_blank">Download Presentation Here</a></li> </td>
                 <td><ul class="no-bullets"><li style="margin-left: 0px;">Elliot Lefkowitz (UAB)</li><li style="margin-left: 0px; line-height: 1.2;">Wiriya Rutvisuttinunt (NIAID) on behalf of the Organizing Committee</li></ul></td>
             </tr>
             <tr>

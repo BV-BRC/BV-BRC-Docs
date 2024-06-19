@@ -213,7 +213,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>
                     <p><strong>Session III: Diverse Viewpoints: Exploring Classification from Different Perspectives</strong></p>
                     <p style="margin:3.0pt 0;"><em>Exploring and understanding different virus classification systems and how they impact our responses to disease outbreaks.</em></p>
-                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
+                    <a href="https://youtu.be/EOGkUgAbWiI" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Conrad Schoch, PhD, NCBI</li></ul>

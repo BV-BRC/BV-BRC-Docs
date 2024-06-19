@@ -181,12 +181,12 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>3:45 PM - 5:00 PM</td>
                 <td colspan="3">
                     <p><strong>White Board Brainstorming Session</strong></p>
+                    <a href="https://youtu.be/g0seEVkLd2Y" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderators:</strong></p>
                     <ul class="no-bullets">
                         <li>Elodie Ghedin, PhD, NIAID</p>
                         <li>Session Moderators</li>
-                        <a href="https://youtu." target="_blank">Watch Recording Here</a>
                     </ul>
                     <br>
                     <p><strong>Questions:</strong></p>
@@ -371,7 +371,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>4:15 PM - 5:15 PM</td>
                 <td colspan="3">
                     <p><strong>White Board Brainstorming Session</strong> </p>
-                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
+                    <a href="https://youtu.be/Deod0Sxcw00" target="_blank">Watch Recording Here</a>
                     <br>
                     <ul class="no-bullets">
                         <li><strong>Moderators:</strong></li>

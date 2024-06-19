@@ -294,7 +294,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>
                     <p><strong>Session V: Virus classification tools</strong></p>
                     <p style="margin:3.0pt 0;"><em>Tools to explore virus evolution and their classification.</em></p>
-                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
+                    <a href="https://youtu.be/Kzi-0uVcpmE" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Eneida Hatcher, PhD, NCBI</li></ul>
@@ -598,6 +598,6 @@ Workshop Speakers amd Reading List
      - `PMID: 27981236 <https://pubmed.ncbi.nlm.nih.gov/27981236>`_, `PMID: 21034504 <https://pubmed.ncbi.nlm.nih.gov/21034504>`_, `PMID: 33972780 <https://pubmed.ncbi.nlm.nih.gov/33972780>`_
 
 
-Full details of publications will be added soon. 
+Full details of publications from pre-reading list `can be found here <https://www.bv-brc.org/docs/downloads/subspecies-classification-workshop/Reading-List.pdf>`_.
 
 

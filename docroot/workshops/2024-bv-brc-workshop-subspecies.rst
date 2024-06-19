@@ -186,6 +186,7 @@ Workshop Agenda with Links to Recordings and Presentations
                     <ul class="no-bullets">
                         <li>Elodie Ghedin, PhD, NIAID</p>
                         <li>Session Moderators</li>
+                        <a href="https://youtu." target="_blank">Watch Recording Here</a>
                     </ul>
                     <br>
                     <p><strong>Questions:</strong></p>
@@ -252,7 +253,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>
                     <p><strong>Session IV: Virus classification schemes</strong></p>
                     <p style="margin:3.0pt 0;"><em>Species and sub-species: Different approaches and schemes for the classification of viruses.</em></p>
-                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
+                    <a href="https://youtu.be/FMSfVl0nMoM" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Richard Scheuermann, PhD, National Library of Medicine (NLM)</li></ul>

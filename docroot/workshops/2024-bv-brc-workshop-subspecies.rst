@@ -467,7 +467,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>10:55 AM - 12:00 PM</td>
                 <td colspan="3">
                     <p><strong>White Board Brainstorming Session</strong></p>
-                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
+                    <a href="https://youtu.be/ChAWzKSK0_o" target="_blank">Watch Recording Here</a>
                     <br>
                     <ul class="no-bullets">
                         <li><strong>Moderator:</strong></li>

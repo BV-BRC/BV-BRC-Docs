@@ -90,11 +90,11 @@ Workshop Agenda with Links to Recordings and Presentations
                     <ul class="no-bullets">
                         <li><strong><em>Tracking and predicting the spread and evolution of RNA viruses</em></strong></li>
                         <li>Richard Neher, PhD, University of Basel, Switzerland</li>
-                        <li>Presentation Download <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">here</a>.</li>
+                        <li>Download Presentation <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">here</a>.</li>
                         <li>&nbsp;</li>
                         <li><strong><em>SARS-CoV-2 and HIV variant evolution</em></strong></li>
                         <li>Bette Korber, PhD, Los Alamos National Labs, U.S.</li>
-                        <li>Presentation Download <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">here</a>.</li>
+                        <li>Download Presentation <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">here</a>.</li>
 
 
                     </ul>
@@ -500,7 +500,7 @@ Workshop Speakers amd Reading List
      - `PMID: 33649511 <https://www.nature.com/articles/d41586-021-00525-x>`_
    * - **Anderson, Tavis**
      - U.S. Department of Agriculture
-     - PMID: 37208300 
+     - PMID: 37208300
    * - **Bahl, Justin**
      - University of Georgia, U.S.
      - 
@@ -568,6 +568,7 @@ Workshop Speakers amd Reading List
    * - **Zmasek, Christian**
      - J.Craig Venter Institute, U.S.
      - PMID: 27981236, PMID: 21034504, PMID: 33972780
+
 Full details of publications will be added soon. 
 
 

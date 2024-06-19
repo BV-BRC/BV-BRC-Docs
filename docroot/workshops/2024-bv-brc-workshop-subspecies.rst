@@ -426,7 +426,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>
                     <p><strong>Session VII: The Public Health Impact, Challenges and the Path Forward</strong></p>
                     <p style="margin:3.0pt 0;"><em>The role of virus classification to support the  public health response to disease and how that classifications helps us identify new threats, track outbreaks, and develop targeted interventions.</em></p>
-                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
+                    <a href="https://youtu.be/g-uhdm_Ptcs" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Paul Eder, PhD, NIAID</li></ul>

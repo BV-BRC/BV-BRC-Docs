@@ -72,7 +72,7 @@ Workshop Agenda with Links to Recordings and Presentations
         <tbody>
             <tr>
                 <td>9:30 AM - 10:00 AM</td>
-                <td>Welcome and Introduction</td>
+                <td>Welcome and Introduction </p> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a> </td>
                 <td>Goals, Expectations, and Logistics</td>
                 <td><ul class="no-bullets"><li style="margin-left: 0px;">Elliot Lefkowitz (UAB)</li><li style="margin-left: 0px; line-height: 1.2;">Wiriya Rutvisuttinunt (NIAID) on behalf of the Organizing Committee</li></ul></td>
             </tr>
@@ -81,7 +81,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td colspan="3">
                     <p><strong>Session I: Tracking virus evolution through sub-species classification</strong></p>
                     <p style="margin:3.0pt 0;"><em>The evolution of viruses during disease outbreaks and the impact this process has on sub-species classification, especially considering rapid rates of virus evolution.</em></p>
-                    <p> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Recording Here</a> </p>
+                    <p> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a> </p>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Elliot Lefkowitz, PhD, University of Alabama at Birmingham</li></ul>
@@ -94,7 +94,7 @@ Workshop Agenda with Links to Recordings and Presentations
                         <li>&nbsp;</li>
                         <li><strong><em>SARS-CoV-2 and HIV variant evolution</em></strong></li>
                         <li>Bette Korber, PhD, Los Alamos National Labs, U.S.</li>
-                        <li>Download Presentation <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">here</a>.</li>
+                        <li> <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Download Presentation Here</a></li>
 
 
                     </ul>
@@ -121,6 +121,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td colspan="3">
                     <p><strong>Session II: Unraveling the complexities of RNA and DNA viruses</strong></p>
                     <p style="margin:3.0pt 0;"><em>Examples of the evolution of virus disease, the impact of lineage evolution on pathogenicity, and the consequences for classifying and responding to particular virus threats.</em></p>
+                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>James Rodney Brister, PhD, NCBI</li></ul>
@@ -207,6 +208,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>
                     <p><strong>Session III: Diverse Viewpoints: Exploring Classification from Different Perspectives</strong></p>
                     <p style="margin:3.0pt 0;"><em>Exploring and understanding different virus classification systems and how they impact our responses to disease outbreaks.</em></p>
+                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Conrad Schoch, PhD, NCBI</li></ul>
@@ -243,6 +245,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>
                     <p><strong>Session IV: Virus classification schemes</strong></p>
                     <p style="margin:3.0pt 0;"><em>Species and sub-species: Different approaches and schemes for the classification of viruses.</em></p>
+                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Richard Scheuermann, PhD, National Library of Medicine (NLM)</li></ul>
@@ -280,6 +283,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>
                     <p><strong>Session V: Virus classification tools</strong></p>
                     <p style="margin:3.0pt 0;"><em>Tools to explore virus evolution and their classification.</em></p>
+                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Eneida Hatcher, PhD, NCBI</li></ul>
@@ -315,6 +319,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>
                     <p><strong>Session VI: Analytical and visualization tools</strong></p>
                     <p style="margin:3.0pt 0;"><em>User tools and platforms available to study virus evolution during an outbreak.</em></p>
+                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Indresh Singh, J. Craig Venter Institute, BV-BRC</li></ul>
@@ -349,6 +354,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>4:15 PM - 5:15 PM</td>
                 <td colspan="3">
                     <p><strong>White Board Brainstorming Session</strong> [60 minutes]</p>
+                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
                     <br>
                     <ul class="no-bullets">
                         <li><strong>Moderators:</strong></li>
@@ -403,6 +409,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>
                     <p><strong>Session VII: The Public Health Impact, Challenges and the Path Forward</strong></p>
                     <p style="margin:3.0pt 0;"><em>The role of virus classification to support the  public health response to disease and how that classifications helps us identify new threats, track outbreaks, and develop targeted interventions.</em></p>
+                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>Paul Eder, PhD, NIAID</li></ul>
@@ -440,6 +447,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td>10:55 AM - 12:00 PM</td>
                 <td colspan="3">
                     <p><strong>White Board Brainstorming Session</strong> [65 minutes]</p>
+                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
                     <br>
                     <ul class="no-bullets">
                         <li><strong>Moderator:</strong></li>
@@ -489,7 +497,7 @@ Workshop Speakers amd Reading List
 ---------------------
 
 .. list-table::
-   :widths: 20 60 20
+   :widths: 25 60 15
    :header-rows: 1
 
    * - Name

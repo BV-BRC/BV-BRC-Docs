@@ -121,7 +121,7 @@ Workshop Agenda with Links to Recordings and Presentations
                 <td colspan="3">
                     <p><strong>Session II: Unraveling the complexities of RNA and DNA viruses</strong></p>
                     <p style="margin:3.0pt 0;"><em>Examples of the evolution of virus disease, the impact of lineage evolution on pathogenicity, and the consequences for classifying and responding to particular virus threats.</em></p>
-                    <a href="https://www.reddit.com/r/BRC_users/comments/1bu52gn/feedback_requested_session_i_tracking_virus" target="_blank">Watch Recording Here</a>
+                    <a href="https://youtu.be/JlcmgzIq3qQ" target="_blank">Watch Recording Here</a>
                     <br>
                     <p><strong>Moderator</strong></p>
                     <ul class="no-bullets"><li>James Rodney Brister, PhD, NCBI</li></ul>

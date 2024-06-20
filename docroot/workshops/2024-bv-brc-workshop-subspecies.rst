@@ -18,6 +18,9 @@ Introduction
 
 A critical aspect of the response to the COVID-19 pandemic was to trace, classify, and understand the evolving virus lineages, their phenotypic differences, and their impact on diagnostics, vaccines, and therapeutics. Classification and tracing of sub-species level variation has also been similarly important in outbreaks of viruses such as influenza, HIV, and monkeypox, and has informed public health risk assessment and communication strategies. To prepare for the next inevitable outbreak of virus disease, the Bacterial and Viral Bioinformatics Resource Center (BV-BRC), along with the CDC, NCBI, and NIAID, HOSTED a hybrid workshop on viral sub-species classification. Workshop objectives include the review of various classification schemes developed for SARS-CoV-2 and other viruses, examination of the methods and tools developed for classification, discussion of the utility and impact of classification schemes on the public health response, and review of lessons learned from past and current outbreaks. The outcome of the workshop will be to define best practices for establishing sub-species classification systems for these and other viruses that will be important in controlling future outbreaks and potential pandemics. The valuable insights and best practices from this workshop will be widely disseminated.
 
+All video recordings of the workshop `can be found here <https://www.youtube.com/playlist?list=PLWfOyhOW_OasOchpm2zeCvj5AUzo9gFT6>`_, in the YouTube Playlist BV-BRC Viral Sub-species Classification Workshop at NIAID Rockville, MD, April 8-10, 2024.
+
+
 .. _highlights-section:
 
 ------------------

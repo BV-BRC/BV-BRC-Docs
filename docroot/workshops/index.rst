@@ -6,7 +6,7 @@ BV-BRC typically hosts four open workshops annually: two at Argonne National Lab
 
 In April of 2024 the BV-BRC had the opportunity to host a BV-BRC workshop bringing together experts to understand how we classify viruses below the species level currently and methods for the future. The meeting was an unqualified success, but this is of course, only the first step. Our goal is to compile a sensible, usable plan to track and name the evolution of viral pathogens in real-time during a disease outbreak. This will then inform and empower the many stakeholders interested in using the information on these evolving lineages, serving as the basis for their response. More information about this workshop can be found here. 
 
-`NEED CORRECT LINK BV-BRC Viral Sub-species Classification Workshop at NIAID Rockville, MD, April 8-10, 2024 <./docs/news/2024/2024-04-08-bv-brc-workshop-subspecies.html>`_
+`BV-BRC Viral Sub-species Classification Workshop at NIAID Rockville, MD, April 8-10, 2024 <./2024-bv-brc-workshop-subspecies.html>`_
 
 
 Workshop Schedule

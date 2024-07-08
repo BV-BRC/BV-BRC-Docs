@@ -8,6 +8,12 @@ In March 2024, several cases of highly pathogenic avian influenza A (HPAI) H5N1 
 This report provides statistics on the public availability of HPAI H5N1 genomic sequences historically, especially from isolates collected in North America since 2024.
 
 ## Report Downloads 
+**07/03/24**
+- Download [PDF](https://www.bv-brc.org/docs/downloads/h5n1-outbreak-reports/pdf/H5N1_Outbreak_Report_20240703.pdf) file
+
+**06/26/24**
+- Download [PDF](https://www.bv-brc.org/docs/downloads/h5n1-outbreak-reports/pdf/H5N1_Outbreak_Report_20240626.pdf) file
+
 **06/19/24**
 - Download [PDF](https://www.bv-brc.org/docs/downloads/h5n1-outbreak-reports/pdf/H5N1_Outbreak_Report_20240619.pdf) file
 

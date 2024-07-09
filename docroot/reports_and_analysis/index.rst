@@ -8,3 +8,4 @@ The BV-BRC team produces regular and ad hoc reports of relevance to selected vir
 
    sars_cov_2_analysis_reports
    sars_cov_2_emerging_variants_reports
+   H5N1_Weekly_Report

@@ -12,13 +12,13 @@ Genomes
 
 Source: Primary
 
-Description: The central data type in BV-BRC is genomes. Most of the data and information within BV-BRC is linked back to sequenced, assembled, and annotated genomes stored in the BV-BRC database. Genomes are incorporated from RefSeq, GenBank, and other sources, and are annotated using a standard annotation protocol, RASTtk, to enable comparative analyses and linking of data across the website. In addition, PATRIC searches literature for large published AMR studies and assembles corresponding genomes using the reads available in the SRA database. As of July 2024, PATRIC contains 1,041,313 bacterial, 24,998 archaeal, 11,783,665 viral, and 11 eukaryotic host genomes.
+Description: The central data type in BV-BRC is genomes. Most of the data and information within BV-BRC is linked back to sequenced, assembled, and annotated genomes stored in the BV-BRC database. Genomes are incorporated from RefSeq, GenBank, and other sources, and are annotated using a standard annotation protocol, RASTtk, to enable comparative analyses and linking of data across the website. In addition, PATRIC searches literature for large published AMR studies and assembles corresponding genomes using the reads available in the SRA database. As of June 2019, PATRIC contains 227,577 bacterial, 3,021 archaeal, 4,719 bacteriophage and 10 eukaryotic host genomes.
 
 Quick Reference Guide: https://www.bv-brc.org/docs/quick_references/organisms_taxon/genome_table.html
 
 Source Code: 
 
-- Retrieve new microbial genomes from GenBank/Refseq: https://github.com/BV-BRC/bvbrc_data/blob/master/getGenomesGenbank.pl
+- Retrieve new microbial genomes from GenBank/Refseq: https://github.com/PATRIC3/p3_data/blob/master/getGenomesGenbank.pl
 - Annotate genomes using BV-BRC's annotation service
 
 
@@ -49,9 +49,9 @@ Quick Reference Guide: https://www.bv-brc.org/docs/quick_references/organisms_ta
 
 Source Code: 
 
-- Process curated genome metadata spreadsheet: https://github.com/BV-BRC/bvbrc_data/blob/master/parseMetadataFile.pl
-- Process curated AMR metadata / antibiogram spreadsheet: https://github.com/BV-BRC/bvbrc_data/blob/master/parseAMRMetadata.pl
-- Process genome metadata and antibiogram data from BioSample records: https://github.com/BV-BRC/bvbrc_data/blob/master/parseBiosampleAMR.pl
+- Process curated genome metadata spreadsheet: https://github.com/PATRIC3/p3_data/blob/master/parseMetadataFile.pl
+- Process curated AMR metadata / antibiogram spreadsheet: https://github.com/PATRIC3/p3_data/blob/master/parseAMRMetadata.pl
+- Process genome metadata and antibiogram data from BioSample records: https://github.com/PATRIC3/p3_data/blob/master/parseBiosampleAMR.pl
 
 
 Antimicrobial Resistance Data and Metadata
@@ -79,8 +79,8 @@ Quick Reference Guide: https://www.bv-brc.org/docs/quick_references/organisms_ta
 
 Source Code:
 
-- Process curated AMR metadata / antibiogram spreadsheet: https://github.com/BV-BRC/bvbrc_data/blob/master/parseAMRMetadata.pl
-- Process genome metadata and antibiogram data from BioSample records: https://github.com/BV-BRC/bvbrc_data/blob/master/parseBiosampleAMR.pl
+- Process curated AMR metadata / antibiogram spreadsheet: https://github.com/PATRIC3/p3_data/blob/master/parseAMRMetadata.pl
+- Process genome metadata and antibiogram data from BioSample records: https://github.com/PATRIC3/p3_data/blob/master/parseBiosampleAMR.pl
 
 
 Other Clinical Metadata 
@@ -102,7 +102,7 @@ Quick Reference Guide: https://www.bv-brc.org/docs/quick_references/organisms_ta
 
 Source Code: 
 
-- Processing genomic features and related information from GenBank files and RAST genome objects: https://github.com/BV-BRC/bvbrc_data/blob/master/rast2solr.pl
+- Processing genomic features and related information from GenBank files and RAST genome objects: https://github.com/PATRIC3/p3_data/blob/master/rast2solr.pl
 
 
 Specialty Genes 
@@ -146,8 +146,8 @@ Quick Reference Guide: https://www.bv-brc.org/docs/quick_references/organisms_ta
 
 Source Code:
 
-- Specialty gene search using BLAST or BLAT: https://github.com/BV-BRC/bvbrc_data/blob/master/specialtyGenes.pl
-- Process and upload specialty genes: https://github.com/BV-BRC/bvbrc_data/blob/master/uploadSpecialtyGenes.pl
+- Specialty gene search using BLAST or BLAT: https://github.com/PATRIC3/p3_data/blob/master/specialtyGenes.pl
+- Process and upload specialty genes: https://github.com/PATRIC3/p3_data/blob/master/uploadSpecialtyGenes.pl
 
 
 Other Annotations 
@@ -203,7 +203,7 @@ Quick Reference Guide: https://www.bv-brc.org/docs/quick_references/organisms_ta
 Source Code: 
 
 - Build phylogenetic trees with progressive refinement: https://github.com/PATRIC3/pepr
-- Build phylogenetic tree using codon tree service: https://github.com/BV-BRC/codon_trees
+- Build phylogenetic tree using codon tree service: https://github.com/PATRIC3/codon_trees
 - Display precomputed trees on the website: https://github.com/PATRIC3/p3_trees
 
 
@@ -219,9 +219,9 @@ Quick Reference Guide: https://www.bv-brc.org/docs/quick_references/organisms_ge
 
 Source code: 
 
-- Process new RNA-seq datasets using RNA-seq service: https://github.com/BV-BRC/bvbrc_rnaseq/blob/master/service-scripts/App-RNASeq.pl
-- Process new differential expression datasets: https://github.com/BV-BRC/app_service/blob/master/scripts/App-DifferentialExpression.pl
-- Process and upload differential expression data into Solr: https://github.com/BV-BRC/bvbrc_data/blob/master/expression2solr.pl
+- Process new RNA-seq datasets using RNA-seq service: https://github.com/PATRIC3/app_service/blob/master/scripts/App-RNASeq.pl
+- Process new differential expression datasets: https://github.com/PATRIC3/app_service/blob/master/scripts/App-DifferentialExpression.pl
+- Process and upload differential expression data into Solr: https://github.com/PATRIC3/p3_data/blob/master/expression2solr.pl
 
 Protein-Protein Interactions 
 -----------------------------
@@ -234,7 +234,7 @@ Quick Reference Guide: https://www.bv-brc.org/docs/quick_references/organisms_ta
 
 Source Code: 
 
-- Process and upload PPI data: https://github.com/BV-BRC/bvbrc_data/blob/master/uploadPPI.pl
+- Process and upload PPI data: https://github.com/PATRIC3/p3_data/blob/master/uploadPPI.pl
 
 
 Protein Structures

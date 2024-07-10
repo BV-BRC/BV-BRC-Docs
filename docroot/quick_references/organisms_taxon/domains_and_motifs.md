@@ -7,8 +7,8 @@ The Domains and Motifs Tab provides a table of all the annotated protein domains
   * [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
   * [Genome Page Overview](/quick_references/organisms_gene/overview)
 
-## Accessing the Features Table
-Clicking the Features Tab in a Taxon View displays the Features Table (shown below), listing all the annotated genomics features corresponding to the set of genomes in the selected taxon level.
+## Accessing the Domains and Motifs Table
+Clicking the Domains and Motifs Tab in a Taxon View displays the Domains and Motif Table (shown below), listing all the predicted domains and motifs  corresponding to the set of genomes in the selected taxon level.
 
 ![Domains and Motif Table](../images/domain_motif_tab.png)
 

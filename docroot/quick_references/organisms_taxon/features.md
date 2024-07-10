@@ -13,7 +13,7 @@ Clicking the Features Tab in a Taxon View displays the Features Table (shown bel
 
 ![Features Table](../images/proteins_tab.png)
 
-The list in the Features table includes annotations created by the BV-BRC annotation service, which includes protein-coding genes and other genomic features, as well as the original annotations (typically from RefSeq), if availalble. 
+The list in the Features table includes annotations created by the BV-BRC annotation service, which includes protein-coding genes and other genomic features, as well as the original annotations (typically from RefSeq), if available. 
 
 ### Features Table Tools
 Within this table you may do the following:
@@ -40,9 +40,9 @@ After selecting one or more of the features by clicking the checkbox beside the 
 * **Feature:** Loads the Feature Page for the selected feature. *Available only if a single feature is selected.*
 * **Features:** Loads the Features Table for the selected features. *Available only if multiple features are selected.*
 * **Genome:** Loads the Genome View Overview page corresponding to the selected feature.  *Available only if a single feature is selected.*
-* **Genomes:** Loads the Genomes Table, listing the genomes that correspond to the selected featuress. *Available only if multiple featuress are selected.*
+* **Genomes:** Loads the Genomes Table, listing the genomes that correspond to the selected features. *Available only if multiple features are selected.*
 * **FASTA:** Provides the FASTA DNA or protein sequence for the selected feature(s).
-* **ID Map:** Provides the option to map the selected feature(s) to multiple other idenfiers, such as RefSeq and UniProt.
+* **ID Map:** Provides the option to map the selected feature(s) to multiple other identifiers, such as RefSeq and UniProt.
 * **MSA:** Launches the Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
 * **Pathway:** Loads the Pathway Summary Table containing a list of all the pathways in which the selected features are found.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.

@@ -83,4 +83,22 @@ After selecting one or more of the nodes by clicking it (ctrl-clicking to select
 * **MSA:** Launches the Multiple Sequence Alignment (MSA) tool and aligns the selected features by DNA or protein sequence in an interactive viewer.
 * **Group:** Opens a pop-up window to enable adding the selected sequences to an existing or new group in the private workspace.
 
+### Sources for data
+The protein-protein interaction data comes from these 15 sources. 
+* [agbase](https://agbase.arizona.edu/)
+* [bind](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC29820/)
+* [biocyc](https://biocyc.org/)
+* [biogrid](http://thebiogrid.org/)
+* [dip](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC102387/)
+* [FLUTE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7408180/)
+* [mpidb](https://ngdc.cncb.ac.cn/databasecommons/database/id/3724)
+* [gene ontology](http://geneontology.org/)
+* [hpidb](https://hpidb.igbb.msstate.edu/)
+* [intact](https://www.ebi.ac.uk/intact/home)
+* [kegg pathways](https://www.genome.jp/kegg/pathway.html)
+* [mint](https://mint.bio.uniroma2.it/)
+* [String](https://string-db.org/)
+* [rcsb pdb](https://www.rcsb.org/)
+* [uniprot](https://www.uniprot.org/)
+
 More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.

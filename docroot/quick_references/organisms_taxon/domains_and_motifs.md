@@ -6,7 +6,6 @@ The Domains and Motifs Tab provides a table of all the annotated protein domains
 ## See also
   * [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
   * [Genome Page Overview](/quick_references/organisms_gene/overview)
-  * [Multiple Sequence Alignment Viewer](/quick_references/other/msa_viewer)
 
 ## Accessing the Features Table
 Clicking the Features Tab in a Taxon View displays the Features Table (shown below), listing all the annotated genomics features corresponding to the set of genomes in the selected taxon level.

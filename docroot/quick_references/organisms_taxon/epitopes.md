@@ -9,7 +9,7 @@ The Epitope Tab provides a comprehensive table of all annotated epitopes (linear
   * [Multiple Sequence Alignment Viewer](/quick_references/other/msa_viewer)
 
 ## Accessing the Epitope Table
-Clicking the Epitopes Tab in a Taxon View displays the Features Table (shown below), listing all the annotated genomics features corresponding to the set of genomes in the selected taxon level.
+Clicking the Epitopes Tab in a Taxon View displays the Epitopes Table (shown below), listing all the epitope data corresponding to the set of genomes in the selected taxon level.
 
 ![Epitope Table](../images/epitope_tab.png)
 
@@ -24,7 +24,7 @@ Within this table you may do the following:
 
 ### Filter Tool
 
-As with all tables, the Filters tool is available to narrow the display of the items in the table, show below:
+As with all tables, the Filters tool is available to narrow the display of the items in the table, shown below:
   
 ![Filter Panel](../images/epitope_filter_panel.png)
 

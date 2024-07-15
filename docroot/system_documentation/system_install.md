@@ -69,3 +69,24 @@ Several of the BV-BRC services uses a MongoDB database as backing store:
 ### MySQL
 
 The Application Service uses a MySQL database as backing store. In addition, the standard deployment of the Slurm scheduler uses a MySQL database as the backing store for its job accounting system.
+
+# Detailed Installation Notes
+
+Since the BV-BRC system includes a number of services each running on its own host and port and possibly having associated authentication information, it is useful to keep a spreadsheet with this information at hand while configuring the hosts and while configuring the services that utilize them. 
+
+## MySQL
+
+The current production BV-BRC installation uses the [Percona](https://www.percona.com/mysql/software) build of MySQL. It is best to consult with a MySQL expert to configure the system for optimal memory and disk configuration. Our installation is version 8.0.35 on a 768GB system with SSD drives. 
+
+Best practice is to configure password-protected grants for the databases configured for the services. We will discuss the particular databases in the appropriate sections (application service and Slurm scheduler).
+
+## MongoDB
+
+Due to issues with the Perl authentication support for MongoDB, we are currently required to run two different versions of the MongoDB server.
+
+The Shock system is using Percona Mongo version 5.0.17.
+
+The Workspace and User Management services use Mongo version 3.4.23.
+
+We run each of these databases with a 3-host replicated server, and daily backups using Linux LVM snapshots.
+

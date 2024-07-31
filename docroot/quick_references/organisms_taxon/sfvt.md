@@ -1,0 +1,59 @@
+# Sequence Feature Variant Types
+
+## Overview
+The Sequence Feature Variant Types Tab provides a comprehensive understanding of a pathogen is essential for analyzing genotype-phenotype associations. Understanding how changes in a pathogen’s genomic sequence may be reflected in its functional characteristics is crucial for understanding pathogenesis. Traditionally, the relationship between genotype and phenotype is assessed by phylogenetic analysis of whole genome sequences or statistical tests of association between single residue variations and specific phenotypic characteristics. However, these approaches have limitations, such as not providing direct information about the specific region contributing to the phenotypic effect.
+The Sequence Feature Variant Types (SFVT) approach addresses these limitations. SFVT defines distinct sequence features (SFs) of constellations of nucleotide or amino acid positions based on functional and structural characteristics. SFVTs capture the extent of sequence variations observed within these combinations and are used for statistically analyzing genotype-phenotype associations.
+
+## Sequence Feature Description
+A Sequence Feature (SF) is a specific region of a protein with some characteristic of interest, such as:
+Structural properties (e.g., alpha helix, beta sheet)
+Functional properties (e.g., nuclear localization signal, enzyme active sites)
+Positions where sequence alterations have functional effects (e.g., changes in virulence)
+Immune epitopes
+SFs can be continuous or discontinuous stretches of amino acids and can overlap. They are annotated with additional information, including a descriptive name, the protein in which it occurs, start and end positions, total length, category (structural, functional, sequence alteration, or immune epitope), virus strain, known associated phenotypes, evidence codes, and the publication or resource where it was described.
+
+##Workflow for Defining a Sequence Feature
+
+Identify reference sequence
+Develop coordinate system
+Map positions
+Obtain metadata including:
+Virus Information (type, subtype, strain, segment-protein)
+SF Information (name, strain-specific position, sequence in the source strain, category, comments)
+Reference (public domain databases like PubMed, UniProt, PDB)
+
+## See also
+  * [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
+  * [Genome Page Overview](/quick_references/organisms_gene/overview)
+  * [Multiple Sequence Alignment Viewer](/quick_references/other/msa_viewer)
+
+## Accessing the SFVT Table
+Clicking the Sequence Feature Variant Types (SFVT) Tab in a Taxon View displays the SFVT Table (shown below), listing all the SFVT data corresponding to the set of genomes in the selected taxon level.
+
+![Epitope Table](../images/epitope_tab.png)
+
+The list in the Features table includes annotations created by the BV-BRC annotation service, which includes protein-coding genes and other genomic features, as well as the original annotations (typically from RefSeq), if available. 
+
+### Sequence Feature Variant Types (SFVT) Table Tools
+Within this table you may do the following:
+
+* **Download** the entire contents of the table in text, CSV, or Excel format by clicking the Download button above the table on the left side.
+
+* **Rearrange and narrow** the list of sequences in the table via sorting (using column headers), keywords (using the Keyword box), and filtering (using the Filters tool).
+
+### Filter Tool
+
+As with all tables, the Filters tool is available to narrow the display of the items in the table, shown below:
+  
+![Filter Panel](../images/epitope_filter_panel.png)
+
+Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurrence.  Clicking on the filter values narrows the list displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel. More details are available in the [Filter Tool](../other/filter_tool.html) Quick Reference Guide.
+
+### Action buttons
+
+After selecting one or more of the features by clicking the checkbox beside the Genome Name in the table, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include
+
+* **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
+* **Download:**  Downloads the selected items (rows).
+* **Copy:** Copies the selected items to the clipboard.
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.

@@ -27,42 +27,55 @@ The service accepts both single and paired reads.  Paired read libraries are usu
 
 Reads must first be uploaded to the BV-BRC workspace, and once there, they can be selected in several ways.
 1.	Navigate to the workspace by clicking on the Folder icon at the end of the text box.  This will open a pop-up window.  Located the row that has the correct reads, and then click on that.  This will highlight the row.  Click on OK at the bottom of the pop-up box to select the reads.
+![Figure Selecting_reads](./images/Selecting_reads.png "Figure Selecting_reads")
+
 2.	Clicking on the down arrow at the end of the text box will open a drop-down box that shows the reads that have been selected most recently (top of list) to less frequently (down).  Clicking on the row that has the correct read will select those reads.
 3.	Beginning to type the name of the read in the text box will open a drop-down box that shows reads matching that text.  Clicking on the row that has the correct read will select those reads.
-4.	Multiple read pairs or single reads can be analyzed, but they must first be moved to the **Selected Libraries** box. Click on the **arrow** to the right of the selected reads.  This will move the file into the **Selected Libraries** box. 
+4.	Multiple read pairs or single reads can be analyzed, but they must first be moved to the **Selected Libraries** box. Click on the **arrow** to the right of the selected reads.  This will move the file into the **Selected Libraries** box.
+![Figure Selected_libraries](./images/Move_to_selected_libraries_box.png "Figure Selected_libraries")
+
 5.	Clicking on the information icon (**i**) will open a pop-up window that shows the reads selected, as well as where they are located in the workspace.
+![Figure Information](./images/Information_icon.png "Figure Information")
+
 6.	6.	Note that there is an **S** or **P** preceding the reads designates if they are single or paired.  Reads can be removed by clicking on the **X** at the end of the row where they are listed.
+![Figure Remove_reads](./images/Remove_reads.png "Figure Remove_read")
+
 
 ### Submitting reads from the Sequence Read Archive (SRA)
 BV-BRC also supports analysis of existing datasets from SRA. If users submit SRA values, the BV-BRC will input the corresponding FASTQ files to the service. 
 1.	To submit this type of data, locate the Run Accession number and copy it.
+![Figure SRA](./images/SRA_page.png "Figure SRA")
+
 2.	Paste the copied accession number in the text box underneath SRA Run Accession, then click on the icon of an **arrow within a circle**. This will generate a dialog box above the text box that indicates that the service is validating the run number with SRA.  Once the verification is complete, the number will appear in the **Selected Libraries** box.
+![Figure SRA_selected](./images/SRR_to_selected_libraries.png "Figure SRA_selected")
 
 
 ## Setting Parameters 
 1.	A reference genome needs to be selected.  This genome must be in BV-BRC.  Enter the unique genome ID into the text box underneath **Target Genome**. This opens a drop-down box underneath the text box.  Click on the name.  This will autofill the text box with the name of the genome.
+![Figure Target_genome](./images/Select_target_genome.png "Figure Target_genome")
 
-2. BV-BRC offers several types of **aligners** that can be used in the service. BWA-mem is set as the default aligner, but there are several options. 
+
+3. BV-BRC offers several types of **aligners** that can be used in the service. BWA-mem is set as the default aligner, but there are several options. 
     * **BWA-mem**[1,2] is an alignment algorithm for aligning sequence reads or long query sequences against a large reference genome such as human. It automatically chooses between local and end-to-end alignments, supports paired end reads and performs chimeric alignment. The algorithm is robust to sequencing errors and applicable to a wide range of sequence lengths from 70bp to a few megabases. BWA-MEM is implemented as a component of BWA, which is available at https://github.com/lh3/bwa.
     * **BWA-mem-strict** is BWA-mem with the default parameters plus “-B9 -O16” to increase the gap extension and clipping penalty. These strict mapping parameters are recommended for cases where contigs and references are known to be very close to each other.
     * **Bowtie2**[3] improves on the previous Bowtie method in terms of speed and fraction of reads aligned and is substantially faster than non–full-text minute index–based approaches while aligning a comparable fraction of reads. Bowtie 2 performs sensitive gapped alignment without incurring serious computational penalties. The code for Bowtie2 is available at https://github.com/BenLangmead/bowtie.
     * **Minimap2**[4] is widely used for mapping long sequence reads and assembly contigs.  The new version can more accurately map long reads to highly repetitive regions and align through insertions or deletions up to 100 kb by default.  Minimap2 is available at https://github.com/lh3/minimap2?tab=readme-ov-file.
     * **LAST**[5] is a long read sequence aligner. It can align billions of DNA reads to a genome and will indicate reliability of each aligned column. In addition, it can compare DNA to proteins, with frameshifts, compare PSSMs to sequences, calculates the likelihood of chance similarities between random sequences, does split and spliced alignment, and can be trained for unusual kinds of sequences (like nanopore).  The code for Last is available at https://gitlab.com/mcfrith/last.
 
-3. To see the other choices of aligners that can be used, click on the down arrow at the end of the Aligner text box. This will open a drop-down box that shows all the available programs. Clicking on the desired aligner will autofill the text box with that selection. 
-![Figure 3](./images/Picture3.png "Figure 3")
+4. To see the other choices of aligners that can be used, click on the down arrow at the end of the **Aligner** text box. This will open a drop-down box that shows all the available programs. Clicking on the desired aligner will autofill the text box with that selection. 
+![Figure Aligner](./images/Aligner_selection.png "Figure Aligner")
 
-4. BV-BRC also offers a choice of **SNP callers**. The default selection is for FreeBayes, but SAMtools is another option.
+5. BV-BRC also offers a choice of **SNP callers**. The default selection is for FreeBayes, but SAMtools is another option.
    * **FreeBayes**[6] is an accurate method for sequence organization that includes fragment clustering, paralogue identification and multiple alignment. It calculates the probability that a given site is polymorphic and has an automated evaluation of the full length of all sequences, without limitations on alignment depth. The code for FreeBayes is available at https://github.com/freebayes/freebayes.
    * **The Sequence Alignment/Map (SAM)** format is a generic alignment format for storing read alignments against reference sequences. SAMtools[7] implements various utilities for post-processing alignments in the SAM format, such as indexing, variant caller and alignment viewer, and thus provides universal tools for processing read alignments. The SAMtools option invokes the BCFtools’ SNP calling algorithm on top of SAMtools’ mpileup result. . It has been restructured into the BCFtools subpackage[8].  The SAMtools option invokes the BCFtools’ SNP calling algorithm on top of SAMtools’ mpileup result. The code for SAMtools is available at http://www.htslib.org/.
 
-5. To see the other available choices, click on the down arrow that follows the SNP Caller text box. This will open a drop-down box that shows all the available programs. Either SNP caller is run with the default parameters. The raw SNPs are then filtered by SNP quality (QUAL>10) and read depth (DP>5) to keep only the high-quality SNPs. Clicking on the desired aligner will autofill the text box with that selection. 
-![Figure 4](./images/Picture4.png "Figure 4")
+6. To see the available choices, click on the down arrow that follows the **SNP Caller** text box. This will open a drop-down box that shows all the available programs. Either SNP caller is run with the default parameters. The raw SNPs are then filtered by SNP quality (QUAL>10) and read depth (DP>5) to keep only the high-quality SNPs. Clicking on the desired aligner will autofill the text box with that selection. 
+![Figure Select_snp_caller](./images/Select_snp_caller.png "Figure Select_snp_caller")
 
-6. The variation job must be placed in an **Output Folder**, and it needs an Output Name. After selecting a folder and assigning a name, the Submit button will turn blue.  Click on it to submit the job.
-![Figure 8](./images/Picture8.png "Figure 8")
+7. The variation job must be placed in an **Output Folder**, and it needs an **Output Name**. After selecting a folder and assigning a name, the **Submit** button will turn blue.  Click on it to submit the job.
+![Figure Output_Folder_name](./images/Output_folder_and_name.png "Figure Output_Folder_name")
 
-7.	If the job was submitted successfully, a message will appear that indicates that the job has entered the queue. To check the status of the variation job, click on the Jobs indicator at the bottom of the BV-BRC page. 
+8.	If the job was submitted successfully, a message will appear that indicates that the job has entered the queue. To check the status of the variation job, click on the Jobs indicator at the bottom of the BV-BRC page. 
 ![Figure 13](./images/Picture13.png "Figure 13")
 
 ## Monitoring progress on the Jobs page
@@ -80,7 +93,7 @@ BV-BRC also supports analysis of existing datasets from SRA. If users submit SRA
 
 
 2. This will rewrite the page to show the information about the variation job, and all of the files that are produced when the pipeline runs.  
-![Figure 17](./images/Picture17.png "Figure 17")
+![Figure Job_result](./images/Job_result_page.png "Figure Job_result")
 
 
 3. The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the **Parameters** row. 
@@ -136,7 +149,7 @@ BV-BRC also supports analysis of existing datasets from SRA. If users submit SRA
 
 
 11.	The impact of individual snps are defined in the snpEff_impact assignment, and are as defined by Cingolani[10].
-
+![Figure snpEFF_impact](./images/Variant_impact.png "Figure snpEff_impact")
 
 12.	The **var.vcf** files. These files show the location of the snp on the genome. The BV-BRC variant analysis service provides a var.vcf file for each of the read libraries that were loaded, an example of which is shown below. It can be downloaded by selecting the row that contains for file and then clicking on the Download icon in the vertical green bar. 
 ![Figure 25](./images/Picture25.png "Figure 25")
@@ -151,29 +164,30 @@ BV-BRC also supports analysis of existing datasets from SRA. If users submit SRA
 
 
 15.	The service also generates a number of text files that show the different snp calls, which can be viewed in the circular viewer for the reference genome.  These can be viewed by clicking on the **Text_Files_Circular_Viewer** folder.  This will open a page that shows all the individual text files.  These should be downloaded and then submitted to the circular view.
+![Figure CircularViewer](./images/Text_filer_circular_viewer_folder.png "Figure CircularViewer")
 
 
-16.	The **.html** file. The HyperText Markup Language (HTML) file will open a webpage that shows the same data available in the .tsv file.  This file can be viewed in this window by clicking on the View icon or downloaded and viewed in your browser. 
+17.	The **.html** file. The HyperText Markup Language (HTML) file will open a webpage that shows the same data available in the .tsv file.  This file can be viewed in this window by clicking on the View icon or downloaded and viewed in your browser. 
 ![Figure 28](./images/Picture28.png "Figure 28")
 
 
-17.	After clicking on the View icon, the page will reload to how the tsv table that is described above.  A description of each of the columns is provided above in the **Tab Separated Value (tsv)** section above. 
+18.	After clicking on the View icon, the page will reload to how the tsv table that is described above.  A description of each of the columns is provided above in the **Tab Separated Value (tsv)** section above. 
 ![Figure 29](./images/Picture29.png "Figure 29")
 
 
-18. **Tab Separated Values (tsv)**. The BV-BRC variant analysis service provides a .tsv file for each of the read libraries that were loaded. It summaries the locations of the variants, shows the nucleotide change, and identifies if it was a synonymous or nonsynonymous substitution, or an indel. It also identifies the gene, or intergenic region, where the variation occurred. It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar.  
+19. **Tab Separated Values (tsv)**. The BV-BRC variant analysis service provides a .tsv file for each of the read libraries that were loaded. It summaries the locations of the variants, shows the nucleotide change, and identifies if it was a synonymous or nonsynonymous substitution, or an indel. It also identifies the gene, or intergenic region, where the variation occurred. It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar.  
 ![Figure 30](./images/Picture30.png "Figure 30")
 
 
-19.	Clicking on the View icon will reload the page to show the **tsv** file.  A description of each of the columns is provided above in the **Tab Separated Value (tsv)** section above.
+20.	Clicking on the View icon will reload the page to show the **tsv** file.  A description of each of the columns is provided above in the **Tab Separated Value (tsv)** section above.
 ![Figure 31](./images/Picture31.png "Figure 31")
  
 
-20.	The **libs.txt** file. This is a text file that describes the libraries used in the comparison.  It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar. 
+21.	The **libs.txt** file. This is a text file that describes the libraries used in the comparison.  It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar. 
 ![Figure 32](./images/Picture32.png "Figure 32")
 
 
-21.	The **summary.txt** files. This file provides a summary of the analysis. For each library it shows the number of reads, those that mapped to the reference, the number of bases in the reference, the median base coverage, bases with zero coverage, bases with less than (or equal to) 10 reads coverage, the raw variants that are detected by the variation calling tool, and those variants that have a high quality score. It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar. 
+22.	The **summary.txt** files. This file provides a summary of the analysis. For each library it shows the number of reads, those that mapped to the reference, the number of bases in the reference, the median base coverage, bases with zero coverage, bases with less than (or equal to) 10 reads coverage, the raw variants that are detected by the variation calling tool, and those variants that have a high quality score. It can be viewed by selecting the row that contains for file and then clicking on the **View** icon in the vertical green bar. 
 ![Figure 33](./images/Picture33.png "Figure 33")
 
 ## Viewing SNPs on the genome browser

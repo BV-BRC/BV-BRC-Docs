@@ -13,7 +13,7 @@ Nucleotide substitutions during DNA replication of bacteria, with mutation rates
 
 ## Locating the Variation Analysis Service
 
-1.	Click on the Services tab at the top of the page, and then click on Variation. 
+1.	Click on the Services tab at the top of the page and then click on Variation. 
 ![Figure 1](./images/Picture1.png "Figure 1")
 
 2.	This will open the landing page for the service. 

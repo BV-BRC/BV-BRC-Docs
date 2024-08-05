@@ -8,7 +8,7 @@ When a researcher has a new genome sequence, one of the first things they want t
 ![Figure Service_tab](./images/Service_tab_SGF.png "Figure Service_tab") 
 
 2.	This will open up the Similar Genome Finder landing page.
-![Figure 2](./images/Picture2.png "Figure 2") 
+![Figure Landing_page](./images/Landing_page.png "Figure Landing_page") 
 
 3.	**Filter to Locate Genomes of Interest.**  Click on the **Filter** icon that is at the left side of the text box under **Search By Genome Name Or Genome ID**.  This will open a box that allows a researcher to search across all of the **Public Genomes** available in BV-BRC or across the **Private Genomes** that they have annotated and are stored in their private workspace. The search can be further refined to search to a **Genome Type** which includes **Bacteria**, **Viruses** or **Eukaryotes**. To select private genomes, click on the checkbox in front of **My Genomes** underneath **Private Genomes**. 
 ![Figure Select_Genome](./images/Select_Genome.png "Figure Select_Genome") 
@@ -65,7 +65,7 @@ When a researcher has a new genome sequence, one of the first things they want t
 ## Submitting the job
 
 1\.	Once the parameters of interest have been selected, click the **Search** button at the bottom of the page.
-![Figure 19](./images/Picture19.png "Figure 19") 
+![Figure Submit](./images/Submit.png "Figure Submit") 
 
 ## Job Results
 

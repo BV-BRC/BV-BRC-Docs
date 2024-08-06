@@ -1,10 +1,10 @@
 # Small-molecule Docking Service
 
-*Revised: April 26, 2024*
+*Revised: August 6, 2024*
 
 ## Overview
 The small-molecule docking service uses the DiffDock method of molecular docking to compute a set of predicted
-poses for a given protein structure and a set of small-molecule ligands.
+poses for a given protein structure and a set of small-molecule ligands.  This service utilizes a diffusion model, [DiffDock](https://arxiv.org/abs/2210.01776) to comput a set of poses for a target protein sructure and a set of small-molecule ligands.  The aim is to simulate and analyze potential binding scenarios “in silico”. Offering a crucial advantage by predicting the success of protein ligand combinations ahead of costly and time-consuming in vivo experiments.
 
 ## See also
 * [Docking Application](https://bv-brc.org/app/Docking)
@@ -17,7 +17,7 @@ The **Docking** submenu option under the **"SERVICES"** main menu (Protein Tools
 
 Below is a screenshot of the Docking Service landing page, as well as a summary of customizable parameters.
 
-![Figure 1](../images/docking_Picture1.png "Figure 1")
+![User Interface](../images/docking/user_interface.png "User Interface")
 
 ## PDB Selection
 
@@ -42,6 +42,7 @@ For example:
 file of SMILES strings from the workspace, or upload a new file from your computer. The format
 is the same as the format used in the SMILES text box described above.
 
+* By using the **Predefined Ligand Libraries** option. We offer two ligand libraries. The approved compound are a library of compounds approved by at least one of various governing bodies for human use.  There are around two thousand compounds in this library. The experimental drug compound library is more robust, with nearly ten thousand compounds. The results from the ligand library will link out to [DrugBank Online](https://go.drugbank.com/).
 ## Parameters
 
 **Output Folder:** The workspace folder where results will be placed.
@@ -56,9 +57,10 @@ is the same as the format used in the SMILES text box described above.
 
 ## Output Results
 
-![Figure 6](../images/docking_Picture6.png "Figure 6")
+![Select output folder](../images/docking/select_output_folder_output_name.png "Select output folder")
 
-The Docking Service generates several files that are deposited in the Private Workspace in the designated Output Folder. T
+The Docking Service generates several files that are deposited in the Private Workspace in the designated Output Folder. 
+
 The top level folder includes a file named **DockingRreport.html**.
 This contains a report summarizing the results of the docking against each ligand
 including scores for each match and a link to the structure viewer with the protein structure
@@ -76,7 +78,7 @@ for the docking of the protein with the given ligand:
   * **comb_pdb** The name of a PDB file containing the ligand and PDB structure composed together
   * **CNNscore** The CNN score of the pose as determined by GNINA
   * **CNNAffinity** The CNN affinity of the pose as determined by GNINA
-  * **CNNscVinardoore** The Vinardo score of the pose as determined by GNINA
+  * **Vinardo** The Vinardo score of the pose as determined by GNINA
 
 * **<PDB_ID>_rank\<N>_confidence-\<CONF>.pdb** - The composed PDB file for rank N with confidence CONF
 * **rank\<N>.sdf** - A SDF file containing the top-ranked ligand pose

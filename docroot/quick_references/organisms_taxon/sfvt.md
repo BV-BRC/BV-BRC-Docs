@@ -63,11 +63,11 @@ After selecting one or more of the features by clicking the checkbox beside the 
 * **Variant Types** takes you to the variant type when you click on one specific row.
 
 ### Accessing the Variant Type Table
-From the Sequence Feature Variant Type Tab, you can click on a specific variant type to view the amino acid changes for that specific sequence feature. You can see where to click in the below image.
+From the Sequence Feature Variant Type Tab, you can click on a specific variant type to view the amino acid changes for that specific sequence feature. You can see where to click in the below image. Any single variant type tab can be viewed and further analyzed.
 
 ![Variant Type Direct](../images/variant_type.png)
 
-This leads to the variant type table, which shows the amino acid changes within each variant type, as seen below. This table shows all of the variant types in descending order and is unique for each variant type. The specific amino acids are shown, including differences for each row. The number of specific amino acid shifts from the most common variant are listed in the last column. 
+This leads to the variant type table, which shows the amino acid changes within each variant type, as seen below. This table shows all of the variant types in descending order and is unique for each variant type. The specific amino acids are shown, including differences for each row. The number of specific amino acid shifts from the most common variant are listed in the last column- labeled total variation. Clicking on the value in the protein count table will take you to the feature group, which includes all of the sequences with that specific variant.
 ![Variant Type Table](../images/variant_type_table.png)
   
 More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.

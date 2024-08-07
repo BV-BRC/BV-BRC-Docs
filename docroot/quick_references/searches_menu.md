@@ -17,6 +17,7 @@ BV-BRC provides Advanced Searches for each major data type in the database, to e
 * Subsystems
 * Surveillance
 * Serology
+* Sequence Feature Variant Types
 
 ## Accessing Advanced Searches
 

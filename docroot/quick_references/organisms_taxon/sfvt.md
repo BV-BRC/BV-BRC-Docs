@@ -30,7 +30,7 @@ Reference (public domain databases like PubMed, UniProt, PDB)
 ## Accessing the SFVT Table
 Clicking the Sequence Feature Variant Types (SFVT) Tab in a Taxon View displays the SFVT Table (shown below), listing all the SFVT data corresponding to the set of genomes in the selected taxon level.
 
-![Epitope Table](../images/epitope_tab.png)
+![Sequence Feature Variant Type Table](../images/sfvt_tab.png)
 
 The list in the Features table includes annotations created by the BV-BRC annotation service, which includes protein-coding genes and other genomic features, as well as the original annotations (typically from RefSeq), if available. 
 
@@ -41,11 +41,13 @@ Within this table you may do the following:
 
 * **Rearrange and narrow** the list of sequences in the table via sorting (using column headers), keywords (using the Keyword box), and filtering (using the Filters tool).
 
+* **Variant Types** to 
+
 ### Filter Tool
 
 As with all tables, the Filters tool is available to narrow the display of the items in the table, shown below:
   
-![Filter Panel](../images/epitope_filter_panel.png)
+![Filter Panel](../images/sfvt_filter_panel.png)
 
 Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurrence.  Clicking on the filter values narrows the list displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel. More details are available in the [Filter Tool](../other/filter_tool.html) Quick Reference Guide.
 
@@ -56,4 +58,14 @@ After selecting one or more of the features by clicking the checkbox beside the 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
 * **Download:**  Downloads the selected items (rows).
 * **Copy:** Copies the selected items to the clipboard.
+* **Variant Types** takes you to the single variant type when you click on that
+
+### Accessing the Variant Type Table
+From the Sequence Feature Variant Type Tab, you can click on a specific variant type to view the amino acid changes for that specific sequence feature. You can see where to click in the below image.
+
+![Variant Type Direct](../images/variant_type.png)
+
+This leads to the variant type table which shows the amino acid changes within that variant type seen below. 
+![Variant Type Table](../images/variant_type_table.png)
+  
 More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.

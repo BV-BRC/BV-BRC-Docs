@@ -33,7 +33,6 @@ Clicking the Sequence Feature Variant Types (SFVT) Tab in a Taxon View displays 
 
 ![Sequence Feature Variant Type Table](../images/sfvt_tab.png)
 
-The list in the Features table includes annotations created by the BV-BRC annotation service, which includes protein-coding genes and other genomic features, as well as the original annotations (typically from RefSeq), if available. 
 
 ### Sequence Feature Variant Types (SFVT) Table Tools
 Within this table you may do the following:

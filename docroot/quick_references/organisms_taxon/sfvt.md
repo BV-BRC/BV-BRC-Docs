@@ -2,7 +2,7 @@
 
 ## Overview
 The Sequence Feature Variant Types Tab provides a comprehensive understanding of a pathogen is essential for analyzing genotype-phenotype associations. Understanding how changes in a pathogen’s genomic sequence may be reflected in its functional characteristics is crucial for understanding pathogenesis. Traditionally, the relationship between genotype and phenotype is assessed by phylogenetic analysis of whole genome sequences or statistical tests of association between single residue variations and specific phenotypic characteristics. However, these approaches have limitations, such as not providing direct information about the specific region contributing to the phenotypic effect.
-The Sequence Feature Variant Types (SFVT) approach addresses these limitations. SFVT defines distinct sequence features (SFs) of constellations of nucleotide or amino acid positions based on functional and structural characteristics. SFVTs capture the extent of sequence variations observed within these combinations and are used for statistically analyzing genotype-phenotype associations.
+The Sequence Feature Variant Types (SFVT) approach addresses these limitations. SFVT defines distinct sequence features (SFs) of constellations of amino acid positions based on functional and structural characteristics. SFVTs capture the extent of sequence variations observed within these combinations and are used for statistically analyzing genotype-phenotype associations.
 
 ## Sequence Feature Description
 A Sequence Feature (SF) is a specific region of a protein with some characteristic of interest, such as:

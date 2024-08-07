@@ -27,6 +27,7 @@ SFs can be continuous or discontinuous stretches of amino acids and can overlap.
   * [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
   * [Genome Page Overview](/quick_references/organisms_gene/overview)
   * [Multiple Sequence Alignment Viewer](/quick_references/other/msa_viewer)
+  * [Advanced Searches](/quick_references/searches_meu)
 
 ## Accessing the SFVT Table
 Clicking the Sequence Feature Variant Types (SFVT) Tab in a Taxon View displays the SFVT Table (shown below), listing all the SFVT data corresponding to the set of genomes in the selected taxon level.

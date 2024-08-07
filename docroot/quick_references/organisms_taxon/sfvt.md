@@ -67,7 +67,7 @@ From the Sequence Feature Variant Type Tab, you can click on a specific variant 
 
 ![Variant Type Direct](../images/variant_type.png)
 
-This leads to the variant type table, which shows the amino acid changes within each variant type, as seen below. This table shows all of the variant types in descending order and is unique for each variant type. The specific amino acids are shown, including differences for each row. 
+This leads to the variant type table, which shows the amino acid changes within each variant type, as seen below. This table shows all of the variant types in descending order and is unique for each variant type. The specific amino acids are shown, including differences for each row. The number of specific amino acid shifts from the most common variant are listed in the last column. 
 ![Variant Type Table](../images/variant_type_table.png)
   
 More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.

@@ -27,7 +27,7 @@ SFs can be continuous or discontinuous stretches of amino acids and can overlap.
   * [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
   * [Genome Page Overview](/quick_references/organisms_gene/overview)
   * [Multiple Sequence Alignment Viewer](/quick_references/other/msa_viewer)
-  * [Advanced Searches](/quick_references/searches_meu)
+  * [Advanced Searches](/quick_references/searches_menu)
 
 ## Accessing the SFVT Table
 Clicking the Sequence Feature Variant Types (SFVT) Tab in a Taxon View displays the SFVT Table (shown below), listing all the SFVT data corresponding to the set of genomes in the selected taxon level.
@@ -70,4 +70,6 @@ From the Sequence Feature Variant Type Tab, you can click on a specific variant 
 This leads to the variant type table, which shows the amino acid changes within each variant type, as seen below. This table shows all of the variant types in descending order and is unique for each variant type. The specific amino acids are shown, including differences for each row. The number of specific amino acid shifts from the most common variant are listed in the last column- labeled total variation. Clicking on the value in the protein count table will take you to the feature group, which includes all of the sequences with that specific variant.
 ![Variant Type Table](../images/variant_type_table.png)
   
+### Additional Information 
+Sequence Feature Variant Types can be accessed and searched for using the [Advanced Searches](/quick_references/searches_menu). One of the advanced searches is [Sequence Feature Variant Types Advanced Search](www.bv-brc.org/searches/SFVTSearch) which you can utilize to find sequence features or sequence feature variant types based on amino acids, and their variant expression.  
 More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.

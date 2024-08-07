@@ -31,6 +31,7 @@ Taxon-Level Data
    organisms_taxon/interactions
    organisms_taxon/surveillance_data
    organisms_taxon/serology_data
+   organisms_taxon/sfvt
 
 
 Genome/Strain-Level Data

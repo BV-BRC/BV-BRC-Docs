@@ -6,21 +6,22 @@ The Sequence Feature Variant Types (SFVT) approach addresses these limitations. 
 
 ## Sequence Feature Description
 A Sequence Feature (SF) is a specific region of a protein with some characteristic of interest, such as:
-Structural properties (e.g., alpha helix, beta sheet)
-Functional properties (e.g., nuclear localization signal, enzyme active sites)
-Positions where sequence alterations have functional effects (e.g., changes in virulence)
-Immune epitopes
+* Structural properties (e.g., alpha helix, beta sheet)
+* Functional properties (e.g., nuclear localization signal, enzyme active sites)
+* Positions where sequence alterations have functional effects (e.g., changes in virulence)
+* Immune epitopes
+
 SFs can be continuous or discontinuous stretches of amino acids and can overlap. They are annotated with additional information, including a descriptive name, the protein in which it occurs, start and end positions, total length, category (structural, functional, sequence alteration, or immune epitope), virus strain, known associated phenotypes, evidence codes, and the publication or resource where it was described.
 
-##Workflow for Defining a Sequence Feature
+## Workflow for Defining a Sequence Feature
 
-Identify reference sequence
-Develop coordinate system
-Map positions
-Obtain metadata including:
-Virus Information (type, subtype, strain, segment-protein)
-SF Information (name, strain-specific position, sequence in the source strain, category, comments)
-Reference (public domain databases like PubMed, UniProt, PDB)
+* Identify reference sequence
+* Develop coordinate system
+* Map positions
+* Obtain metadata including:
+* Virus Information (type, subtype, strain, segment-protein)
+* SF Information (name, strain-specific position, sequence in the source strain, category, comments)
+* Reference (public domain databases like PubMed, UniProt, PDB)
 
 ## See also
   * [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
@@ -41,8 +42,6 @@ Within this table you may do the following:
 
 * **Rearrange and narrow** the list of sequences in the table via sorting (using column headers), keywords (using the Keyword box), and filtering (using the Filters tool).
 
-* **Variant Types** to 
-
 ### Filter Tool
 
 As with all tables, the Filters tool is available to narrow the display of the items in the table, shown below:
@@ -51,21 +50,24 @@ As with all tables, the Filters tool is available to narrow the display of the i
 
 Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurrence.  Clicking on the filter values narrows the list displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel. More details are available in the [Filter Tool](../other/filter_tool.html) Quick Reference Guide.
 
+One filter specific to the Sequence Feature Variant Types is the evidence code. The options for evidence code include EXP for experimental evidence, IEA for inferred electronic annotation and ISS for inferred from sequence or structural similarity.
+
 ### Action buttons
 
 After selecting one or more of the features by clicking the checkbox beside the Genome Name in the table, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
 * **Download:**  Downloads the selected items (rows).
+* **Guide:**  The way to come back to this guide.
 * **Copy:** Copies the selected items to the clipboard.
-* **Variant Types** takes you to the single variant type when you click on that
+* **Variant Types** takes you to the variant type when you click on one specific row.
 
 ### Accessing the Variant Type Table
 From the Sequence Feature Variant Type Tab, you can click on a specific variant type to view the amino acid changes for that specific sequence feature. You can see where to click in the below image.
 
 ![Variant Type Direct](../images/variant_type.png)
 
-This leads to the variant type table which shows the amino acid changes within that variant type seen below. 
+This leads to the variant type table, which shows the amino acid changes within each variant type, as seen below. This table shows all of the variant types in descending order and is unique for each variant type. The specific amino acids are shown, including differences for each row. 
 ![Variant Type Table](../images/variant_type_table.png)
   
 More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.

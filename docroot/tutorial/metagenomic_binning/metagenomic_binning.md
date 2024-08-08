@@ -1,6 +1,6 @@
 # Metagenomic Binning Service
 
-*Revised: 2/24/2022*
+*Revised: 08 August 2024*
 
 The BV-BRC metagenomic binning service utilizes the BV-BRC database to furnish a large, diverse set of reference genomes. This is a service for supervised extraction and annotation of high-quality, near-complete genomes from reads or metagenomically-derived contigs [1]. Reads are assembled using either MetaSPAdes [2] or MEGAHIT [3].  Each set of binned contigs represents a draft genome that will be annotated by RASTtk [4] for bacteria, or with VIGOR4 [5,6] or  Mat_Peptide [7] for viruses. A structured-language binning report is provided containing quality measurements and taxonomic information about the contig bins. The BV-BRC metagenome binning service emphasizes extraction of high-quality genomes for downstream analysis using other BV-BRC tools and services.
 
@@ -14,99 +14,55 @@ The code for the binning script is located at:
 The code for the RASTtk pipeline is located at:
 [https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl](https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl)
 
-## Creating a folder to hold the metagenomic binning job and related data
-
-1. It is always good practice to create a folder to keep the results from a particular experiment or project in order. To create a new folder, go to the Workspaces tab and click on home.  
-![Figure 2](./images/Picture2.png "Figure 2")
-
-2. This will open the home directory on your workspace. To create a new folder, click on the Add Folder icon at the top right of the table.  
-![Figure 3](./images/Picture3.png "Figure 3")
-
-3. This will open a pop-up window. Note that the Create Folder button is greyed out.  Type the desired name in the text box.  
-![Figure 4](./images/Picture4.png "Figure 4")
-
-4. Once the name is entered, the Create Folder icon will turn blue. To create the folder, click on that button.  
-![Figure 5](./images/Picture5.png "Figure 5")
-
-5. The pop-up window will disappear. At the button left of the page you will see a temporal message indicating that the folder was successfully created.  
-![Figure 6](./images/Picture6.png "Figure 6")
-
 ## Locating the Metagenomic Binning Service App  
 
-1.	At the top of any BV-BRC page, find the Services tab  
-![Figure 7](./images/Picture7.png "Figure 7")
-
-2.	In the drop-down box, under Metagenomics, click on Metagenomic Binning.  
-![Figure 8](./images/Picture8.png "Figure 8")
+1.	1.	At the top of any BV-BRC page, click on the **Tools & Services** tab.  Click on **Metagenomic Binning** in the drop-down box, underneath **Metagenomics**.
+![Figure Service_tab_MB](./images/Service_tab_MB.png "Figure Service_tab_MB")
 
 3.	This will open up the Metagenomic Binning Service landing page.  The default page shows starting with a read file.  
-![Figure 9](./images/Picture9.png "Figure 9")
+![Figure MB_landing](./images/MB_landing.png "Figure MB_landing")
 
-## Selecting a read file for metagenomic binning  
+## Starting with reads or contigs  
 
-### Uploading paired end reads  
+1.	Researchers can assemble and annotate a genome, or they can submit contigs to just do an annotation.  The default setting has **Read File** selected in the **Start With** box.
+![Figure Read_Contig](./images/Read_Contig.png "Figure Read_Contig")
 
-1.	To upload a fastq file that contains paired reads, locate the box called “Paired read library.”  
-![Figure 10](./images/Picture10.png "Figure 10")
+##  Submitting sequencing reads (single or paired)
+The service accepts both single and paired reads.  Paired read libraries are usually given as file pairs, with each file containing the forward or reverse half of each read pair. Paired read files are expected to be sorted in such a way that each read in a pair occurs in the same Nth position as its mate in their respective files. These files are specified as READ FILE 1 and READ FILE 2. For a given file pair, the selection of which file is READ 1 or READ 2 does not matter.
 
-2.	The reads must be located in the workspace. To initiate the upload, first click on the folder icon.  
-![Figure 11](./images/Picture11.png "Figure 11")
+Reads must first be uploaded to the BV-BRC workspace, and once there, they can be selected in several ways.
+1.	Navigate to the workspace by clicking on the Folder icon at the end of the text box.  This will open a pop-up window.  Located the row that has the correct reads, and then click on that.  This will highlight the row.  Click on OK at the bottom of the pop-up box to select the reads. 
+![Figure Selecting_reads](./images/Selecting_reads.png "Figure Selecting_reads")
 
-3.	This opens up a window where the files for upload can be selected. If you want to upload data directly to your home directory, click on the icon with the arrow pointing up.  
-![Figure 12](./images/Picture12.png "Figure 12")
+2.	Clicking on the **down arrow** at the end of the text box will open a drop-down box that shows the reads that have been selected most recently (top of list) to less frequently (down).  Clicking on the row that has the correct read will select those reads.
+ 
+3.	Beginning to type the name of the read in the text box will open a drop-down box that shows reads matching that text.  Clicking on the row that has the correct read will select those reads.
 
-4.	You can also navigate to a desired folder. Use the scroll bar at the left of the pop-up window to see all the data in your directory.  When the desired folder is found, click on it. This will open that directory in the window, where you can use the upload icon to upload data directly to the selected folder.  
-![Figure 13](./images/Picture13.png "Figure 13")
+4.	Multiple read pairs or single reads can be analyzed, but they must first be moved to the **Selected Libraries** box. Click on the **arrow** to the right of the selected reads.  This will move the file into the **Selected Libraries** box. 
+![Figure Move_selected_libraries](./images/Move_selected_libraries.png "Figure Move_selected_libraries")
 
-5.	This opens a new window where the file you want to upload can be selected. Note that as you entered through a specific service and file format (Metagenomic Binning, selecting read files), the upload type is set to Reads.  Not only will it look for read files in your computer interface, but it will also tag the uploaded files that way.  This is important for BV-BRC services, as any service that uses reads can “see” these files.  Click on the “Select File” in the blue bar.  
-![Figure 14](./images/Picture14.png "Figure 14")
+5.	Clicking on the information icon (**i**) will open a pop-up window that shows the reads selected, as well as where they are located in the workspace.
+![Figure Information_icon](./images/Information_icon.png "Figure Information_icon")
 
-6.	This will open a window that allows you to choose files that are stored on your computer. Select the file where you stored the fastq file on your computer and click “Open”.  
-![Figure 15](./images/Picture15.png "Figure 15")
-
-7.	Once selected, it will autofill the name of the file. Click on the Start Upload button.  
-![Figure 16](./images/Picture16.png "Figure 16")
-
-8.	This will auto-fill the name of the document into the text box.  
-![Figure 17](./images/Picture17.png "Figure 17")
-
-9.	Pay attention to the upload monitor in the lower right corner of the BV-BRC page. It will show the progress of the upload. Do not submit the job until the upload is 100% complete.  
-![Figure 18](./images/Picture18.png "Figure 18")
-
-10.	Repeat to upload the second pair of reads.  
-![Figure 19](./images/Picture19.png "Figure 19")
-
-11.	To finish the upload, click on the icon of an arrow within a circle. This will move your file into the Selected libraries box.  
-![Figure 20](./images/Picture20.png "Figure 20")
-
-### Uploading single reads
-
-1.	To upload a fastq file that contains single reads, locate the text box called “Single read library.” If the reads have previously been uploaded, click the down arrow next to the text box below Read File.  
-![Figure 21](./images/Picture21.png "Figure 21")
-
-2.	This opens up a drop-down box that shows the all the reads that have been previously uploaded into the user account. Click on the name of the reads of interest.  
-![Figure 22](./images/Picture22.png "Figure 22")
-
-3.	This will auto-fill the name of the file into the text box.  
-![Figure 23](./images/Picture23.png "Figure 23")
-
-4.	To finish the upload, click on the icon of an arrow within a circle. This will move the file into the Selected libraries box.  
-![Figure 24](./images/Picture24.png "Figure 24")
+6.	Note that there is an **S** or **P** preceding the reads designates if they are single or paired.  Reads can be removed by clicking on the **X** at the end of the row where they are listed.
+![Figure Remove_reads](./images/Remove_reads.png "Figure Remove_reads")
 
 ### Submitting reads that are present at the Sequence Read Archive (SRA)  
 
-1.	BV-BRC also supports analysis of existing datasets from SRA. To submit this type of data, locate the Run Accession number that you will find at SRA and copy it.  
-![Figure 25](./images/Picture25.png "Figure 25")
+BV-BRC also supports analysis of existing datasets from SRA. If users submit SRA values, the BV-BRC will input the corresponding FASTQ files to the service. 
 
-2.	Paste the copied accession number in the text box underneath SRA Run Accession, then click on the icon of an arrow within a circle.  This will move the file into the Selected libraries box.  
-![Figure 26](./images/Picture26.png "Figure 26")
+1.	To submit data from the SRA, locate the Run Accession number and copy it.  
+![Figure SRA_page](./images/SRA_page.png "Figure SRA_page")
 
-### Submitting contigs  
+2.	2.	Paste the copied accession number in the text box underneath SRA Run Accession, then click on the icon of an **arrow within a circle**. This will generate a dialog box above the text box that indicates that the service is validating the run number with SRA.  Once the verification is complete, the number will appear in the **Selected Libraries** box.
+![Figure SRR_selected_libraries](./images/SRR_selected_libraries.png "Figure SRR_selected_libraries_service")
+
+### Starting with contigs  
 
 1.	BV-BRC also supports analysis of contigs that have been assembled in or outside of the resource.  To submit contigs, you need to click on the Assembled Contigs button.  
-![Figure 27](./images/Picture27.png "Figure 27")
+![Figure Start_contigs](./images/Start_contigs.png "Figure Start_contigs")
 
-2.	This will reload the page to show contigs only as the Input file.  Uploading files are similar to what has been described for the read files above.  
+2.	This will reload the page to show contigs only as the **Input file**.  Selecting contig files are similar to what has been described for the read files above.  
 ![Figure 28](./images/Picture28.png "Figure 28")
 
 ## Setting Parameters when reads are the input  

@@ -71,26 +71,28 @@ is the same as the format used in the SMILES text box described above.
 
 7. To zoom in on your ligand click  on either the next row which has a circle 'focus' or under "components" click between "Polymer" and "Ligand". Both are highlighted in the image below.
 
-![Focus Viewer](.images/ligand_viewer_focus.png "Focus Viewer")
+![Focus Viewer](./images/ligand_viewer_focus.png "Focus Viewer")
 
 8. Quick styles gives the option to style your protein in different views. You can go into more detailed view settings if you click on the individual components either "Polymer" or "Ligand".
-![Quick Styles](.images/ligand_viewer_quick_style_options.png "Quick Styles")
+![Quick Styles](./images/ligand_viewer_quick_style_options.png "Quick Styles")
 
 9. General Settings:  The general settings are a panel floating inside of the protein viewer.
-* The first icon, a circle with one arrow resets the viewer to the default settings
-* The second icon, a circle with two arrows, will rotate the protein and ligand until you click on the same icon again to stop the rotation.
-* The shutter icon takes a .PNG image. When clicked, the window will popup next to the icon with options to crop, auto crop, copy, download, and change resolution.
-* The third icon, a wrench,  will hide the Structure Tools panel on along the right-hand side.
-* The fourth icon will bring the viewer into full screen. If you are using the protein ligand viewer on the BV-BRC website, the viewer can only be the size of your internet browser window.
-* The fifth icon, lines with slider toggles on them will give settings and control options for animation. More animation options are also available by clicking on the icon that is multiple rectangles with a triangle *play* button in the upper left-hand corner.
-* The sixth icon, an arrow, will display options to color specific elements of the protein including bond and structure properties, amino acid or nucleic base, and elements of the polymer.
-![General Settings](.images/ligand_viewer_tools.png "General Settings")
+
+| Icon Image                  | Description                                                                                                                                                                                                                       |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Icon 1](./images/icon_1.png) | The first icon, a circle with one arrow, resets the viewer to the default settings.                                                                                                                                            |
+| ![Icon 2](./images/icon_2.png) | The second icon, a circle with two arrows, will rotate the protein and ligand until you click on the same icon again to stop the rotation.                                                                                      |
+| ![Icon 3](./images/icon_3.png) | The shutter icon takes a .PNG image. When clicked, a window will pop up next to the icon with options to crop, auto crop, copy, download, and change resolution.                                                                |
+| ![Icon 4](./images/icon_4.png) | The third icon, a wrench, will hide the Structure Tools panel on the right-hand side.                                                                                                                                          |
+| ![Icon 5](./images/icon_5.png) | The fourth icon will bring the viewer into full screen. If you are using the protein ligand viewer on the BV-BRC website, the viewer can only be the size of your internet browser window.                                      |
+| ![Icon 6](./images/icon_6.png) | The fifth icon, lines with slider toggles on them, will give settings and control options for animation. More animation options are also available by clicking on the icon that is multiple rectangles with a triangle *play* button in the upper left-hand corner. |
+| ![Icon 7](./images/icon_7.png) | The sixth icon, an arrow, will display options to color specific elements of the protein, including bond and structure properties, amino acid or nucleic base, and elements of the polymer.                                     |
 
 10. The image below describes highlights even more features of the viewer.
     a. This shows the protein amino acid sequence. By clicking on a specific element of the sequence it will highlight that element in the structure and vice versa.
     b. This shows the protein and ligand's current position in space.
     c. Click here to see the export options and details.
-![Overview](.images/ligand_viewer_abc.png "Overview")
+![Overview](./images/ligand_viewer_abc.png "Overview")
 11. We encourage you take your time reviewing the features of the protein viewer.
 12. Jumping back to the report tab. Below the top ligand table in the "Per-ligand Details" there is one subtable for each successful protein ligand combination.
 13. Click on the hyperlinked ligand ID will open a new tab taking you directly to the subligand directory on the workspace for that ligand. Each ligand subdirectory has the following:

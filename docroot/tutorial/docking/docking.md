@@ -1,6 +1,6 @@
 # Small Molecule Ligand Docking Service
 
-*Revision: 08/6/2024*
+*Revision: 08/8/2024*
 The small molecule docking service uses the DiffDock method of molecular docking to compute a set of predicted
 poses for a given protein structure and a set of small-molecule ligands.  This service utilizes a diffusion model, [DiffDock](https://arxiv.org/abs/2210.01776) to compute a set of poses for a target protein structure and a set of small-molecule ligands.  The aim is to simulate and analyze potential binding scenarios “in silico”. Offering a crucial advantage by predicting the success of protein ligand combinations ahead of costly and time-consuming in vivo experiments.
 

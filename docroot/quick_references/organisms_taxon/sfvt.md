@@ -32,7 +32,7 @@ SFs can be continuous or discontinuous stretches of amino acids and can overlap.
 ## Accessing the SFVT Table
 Clicking the Sequence Feature Variant Types (SFVT) Tab in a Taxon View displays the SFVT Table (shown below), listing all the SFVT data corresponding to the set of genomes in the selected taxon level.
 
-![Sequence Feature Variant Type Table](../images/sfvt_tab.png)
+![Sequence Feature Variant Type Table](../images/seqfeatvartype_tab.png)
 
 
 ### Sequence Feature Variant Types (SFVT) Table Tools
@@ -46,7 +46,7 @@ Within this table you may do the following:
 
 As with all tables, the Filters tool is available to narrow the display of the items in the table, shown below:
   
-![Filter Panel](../images/sfvt_filter_panel.png)
+![Filter Panel](../images/seqfeatvartype_filter_panel.png)
 
 Clicking on the Filters button at the top right of the table opens the Filter Panel above the table, displaying column names from the table and values for those columns with counts of occurrence.  Clicking on the filter values narrows the list displayed in the table to those matching the chosen filter values.  Clicking the Hide button closes the Filter Panel. More details are available in the [Filter Tool](../other/filter_tool.html) Quick Reference Guide.
 
@@ -71,5 +71,5 @@ This leads to the variant type table, which shows the amino acid changes within 
 ![Variant Type Table](../images/variant_type_table.png)
   
 ### Additional Information 
-Sequence Feature Variant Types can be accessed and searched for using the [Advanced Searches](/quick_references/searches_menu). One of the advanced searches is [Sequence Feature Variant Types Advanced Search](www.bv-brc.org/searches/SFVTSearch) which you can utilize to find sequence features or sequence feature variant types based on amino acids, and their variant expression.  
-More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.
+Sequence Feature Variant Types can be accessed and searched for using the [Advanced Searches](/quick_references/searches_menu). One of the advanced searches is [Sequence Feature Variant Types Advanced Search](www.bv-brc.org/searches/SFVTSearch) which you can utilize to find sequence features or sequence feature variant types based on amino acids, and their variant expression.  The Advanced Search is the best way to search for specific variants. 
+More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide. 

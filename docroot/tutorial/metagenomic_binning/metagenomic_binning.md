@@ -54,69 +54,68 @@ BV-BRC also supports analysis of existing datasets from SRA. If users submit SRA
 1.	To submit data from the SRA, locate the Run Accession number and copy it.  
 ![Figure SRA_page](./images/SRA_page.png "Figure SRA_page")
 
-2.	2.	Paste the copied accession number in the text box underneath SRA Run Accession, then click on the icon of an **arrow within a circle**. This will generate a dialog box above the text box that indicates that the service is validating the run number with SRA.  Once the verification is complete, the number will appear in the **Selected Libraries** box.
+2.	Paste the copied accession number in the text box underneath SRA Run Accession, then click on the icon of an **arrow within a circle**. This will generate a dialog box above the text box that indicates that the service is validating the run number with SRA.  Once the verification is complete, the number will appear in the **Selected Libraries** box.
 ![Figure SRR_selected_libraries](./images/SRR_selected_libraries.png "Figure SRR_selected_libraries_service")
 
 ### Starting with contigs  
 
-1.	BV-BRC also supports analysis of contigs that have been assembled in or outside of the resource.  To submit contigs, you need to click on the Assembled Contigs button.  
+1. BV-BRC also supports analysis of contigs that have been assembled in or outside of the resource.  To submit contigs, you need to click on the Assembled Contigs button.  
 ![Figure Start_contigs](./images/Start_contigs.png "Figure Start_contigs")
 
 2.	This will reload the page to show contigs only as the **Input file**.  Selecting contig files are similar to what has been described for the read files above.  
-![Figure 28](./images/Picture28.png "Figure 28")
+![Figure Contig_landing](./images/Contig_landing.png "Figure Contig_landing")
 
 ## Setting Parameters when reads are the input  
 
-Parameters must be selected prior to the submission of the Metagenomic Binning job in BV-BRC.  
-![Figure 29](./images/Picture29.png "Figure 29")
+Parameters must be selected prior to the submission of the Metagenomic Binning job in BV-BRC.  The **Parameters** box changes slightly if one began with reads, or with contigs.
+![Figure Reads_Contigs](./images/Reads_Contigs.png "Figure Reads_Contigs")
 
 ### Assembly Strategy  
 
+1.	**Assembly Strategy**.  If reads had been selected in the **Start With** box, an assembly strategy must be selected.  Clicking on the down arrow that follows the text box under Assembly Strategy will open a drop-down box that shows all the strategies that BV-BRC offers.  A description of each strategy is listed below. 
+ 
+    * The **MetaSPAdes**[2] software is part of the SPAdes toolkit, and requires paired reads. The latest version of the SPAdes toolkit that includes metaSPAdes is available here (http://cab.spbu.ru/software/spades/).
+    * **MEGAHIT**[3] is a *de novo* assembler that can assemble either paired or single reads. The MEGAHIT software is available here: https://github.com/voutcn/megahit).  
+    * If **Auto** is selected, MetaSPAdes will run if paired reads are submitted, and MEGAHIT  will run if single reads have been submitted. 
+
 ![Figure 30](./images/Picture30.png "Figure 30")
 
-1.	The assembly strategy for the reads must be selected.  Clicking on the down arrow that follows the text box under Assembly Strategy will open a drop-down box that shows all the strategies that BV-BRC offers.  A description of each strategy is listed below.  
-    * The metaSPAdes [2] software is part of the SPAdes toolkit, developed to address the various challenges of metagenomic assembly.  The latest version of the SPAdes toolkit that includes metaSPAdes is available here (http://cab.spbu.ru/software/spades/).
+2.	**Organisms of Interest** must be selected.  Clicking on **Bacteria/Archaea** will only show those results, clicking on **Viruses** will only show those, and clicking on **Both** will show all of those results.  
+    * If **Bacteria/Archaea** are selected, the RASTtk[4] annotation pipeline will be used. The code for the RASTtk pipeline is located at https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl
 
-    * MEGAHIT is a de novo assembler for assembling large and complex metagenomics data [3]. The MegaHit software is available here: https://github.com/voutcn/megahit.  MEGAHIT assembles the data as a whole (i.e., no preprocessing like partitioning and normalization).
+    * Selection of **Viruses** will use one of two annotation pipelines. The first pipeline is VIGOR4[5,6].  (The software for the VIGOR pipeline is located at: https://github.com/JCVenterInstitute/VIGOR4). If VIGOR4 does not find a virus match, the MatPeptide[7] pipeline is used.
 
-### Organisms of Interest  
+    * When selecting **Both** the bacterial/archaeal and viral pipelines will both be run.  The workflow for this strategy is available at the top of this tutorial.
 
 ![Figure 31](./images/Picture31.png "Figure 31")
 
-1.	Organisms of interest must be selected.  Clicking on Bacteria/Archaea will only show those results,  clicking on Viruses will only show those, and clicking on Both will show all of those results.  
-    * If **Bacteria/Archaea** are selected, the RASTtk [4] annotation pipeline will be used. The code for the RASTtk pipeline is located at https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl
-
-    * Selecting **Viruses** will use one of two annotation pipelines. Other viruses are first run through the VIGOR4 [5,6] pipeline.  (The software for the VIGOR pipeline is located at: https://github.com/JCVenterInstitute/VIGOR4). If that does not find a virus match, the Mat Peptide [7] pipeline is used.
-
-    * When selecting **Both** the bacterial/archaeal and viral pipelines will be run.  The workflow for this strategy is available at the top of this tutorial.
-
-### Output Folder
-
-![Figure 32](./images/Picture32.png "Figure 32")
-
-1.	An output folder must be selected for the metagenomic binning job.  Typing the name of the folder in the text box underneath the words Output Folder will show a drop-down box that shows close hits to the name.  
+3.	**Output Folder**. An output folder must be selected for the metagenomic binning job.  Typing the name of the folder in the text box underneath the words **Output Folder** will show a drop-down box that shows close hits to the name.  
 ![Figure 33](./images/Picture33.png "Figure 33")
 
-2.	Clicking on the arrow at the end of the box will open a drop-down box that shows the most recently created folders.  
+4.	Clicking on the arrow at the end of the box will open a drop-down box that shows the most recently created folders.  
 ![Figure 34](./images/Picture34.png "Figure 34")
 
-3.	To find a previously created folder, or to create a new one, click on the folder icon at the end of the text box.  This will open a pop-up window that shows all the previously created folder.  
+5.	To find a previously created folder, or to create a new one, click on the folder icon at the end of the text box.  This will open a pop-up window that shows all the previously created folder.  
 ![Figure 35](./images/Picture35.png "Figure 35")
 
-4.	Click on the folder of interest, and then click the OK button in the lower right corner of the window.  
+6.	Click on the folder of interest, and then click the **OK** button in the lower right corner of the window.  
 ![Figure 36](./images/Picture36.png "Figure 36")
 
-### Output Name  
-
+7.	**Output Name**. A name for the job must be included prior to submitting the job.  Enter the name in the text box underneath the words Output Name.  
 ![Figure 37](./images/Picture37.png "Figure 37")
 
-1.	A name for the job must be included prior to submitting the job.  Enter the name in the text box underneath the words Output Name.  
-
-### Genome Group Name  
-
+8. **Genome Group Name**.	The metagenome binning service currently creates a series of single-bin annotations and a genome group which supports some rudimentary multi-genome functionality, e.g. protein family heatmaps.  A name for the genome group that will be generated must be included prior to submitting the job.  Enter the name in the text box underneath the words **Genome Group Name**.  
 ![Figure 38](./images/Picture38.png "Figure 38")
 
-1.	The metagenome binning service currently creates a series of single-bin annotations and a genome group which supports some rudimentary multi-genome functionality, e.g. protein family heatmaps.  A name for the genome group that will be generated must be included prior to submitting the job.  Enter the name in the text box underneath the words Genome Group Name.  
+9. **ADVANCED**.  Clicking on the down arrow following **ADVANCED** will extend the **Parameters** box.
+![Figure Advanced](./images/PictureAdvanced_Parameters.png "Figure Advanced")
+![Figure Advanced_Parameters](./images/PictureAdvanced_Parameters.png "Figure Advanced_Parameters")
+
+11.  A checkbox in front of **Disable search for dangling contigs (Decreases memory use)**.  This deserves some explanation.  After contigs are binned using kmers, there is a second step that looks for large DNA segments (generally 50 or more base pairs) that the contigs have in common; in particular, sequences near the end of one contig that are also found in another contig (hence the “dangling” reference).  It generally finds a small number of contigs, and it is very memory intensive.  If the sample causes an out-of-memory error during binning (as opposed to the normal case in assembly), you can uncheck that box and will generally get a successful run.
+![Figure Dangling](./images/Dangling.png "Figure Dangling")
+
+12. **Min Contig Length** and **Min Contig Coverage** can be adjusted by clicking on the up and down arrows at the end of the text boxes.
+![Figure Length_and_coverage](./images/PictureLength_and_coverage.png "Figure Length_and_coverage")
 
 ## Submitting the Metagenomic binning job  
 1.	Once the input data and the parameters have been selected, the Submit button at the bottom of the page will turn blue.  The metagenomic binning job will be submitted once this button is clicked. Once submitted, the job will enter the queue.  You can check the status of your job by clicking on the Jobs monitor at the lower right.  
@@ -124,11 +123,17 @@ Parameters must be selected prior to the submission of the Metagenomic Binning j
 
 ## Finding the completed Metagenomic binning job  
 
-1.	There are two places to access a completed job in BV-BRC or PATRIC.  Clicking on the Jobs icon at the bottom right of any page will open the list of jobs that have been submitted.  
-![Figure 40](./images/Picture40.png "Figure 40")
+1.	There are two places to access a completed job in BV-BRC.  Clicking on the **Workspaces** tab, and then on **My Jobs** in the drop-down box.  Researchers can also click on the **Jobs** icon at the bottom right of any page.  Either of those actions will open the list of jobs that have been submitted.
+![Figure Finding_jobs](./images/PictureFinding_jobs.png "Figure Finding_jobs")
 
-2.	A complete list of all completed jobs will appear from most recent to first job.  Clicking on any of the column heads will resort the page to sow the results in that order.  
-![Figure 41](./images/Picture41.png "Figure 41")
+2.	Once located, the job can be viewed by first clicking on the row that has the name, and then clicking on the **View** icon in the green action bar.  
+![Figure View_icon](./images/PictureView_icon.png "Figure View_icon")
+
+
+## Metagenomic binning job results 
+The Metagenomic Binning service returns a number of files when the job is completed.  Every job returns one or two **Binning Reports**, depending upon the selection of **Bacteria/Archaea**, **Viruses** or **Bot**h in the **Organisms of Interest**.  If the job was able to assemble or annotate genomes, a **bin** (demarked by a checkered flag) will be present, and these have additional files within them.  There will also be **.fa** files for each genome, bacterial or viral, that are returned.  These are the contig files.  Finally, there are other files returned (**bins.json**, **bins.stats.txt**,**coverage.stat.txt** and others).  Details on each of those files are described below.
+![Figure Job_results_page](./images/PictureJob_results_page.png "Figure Job_results_page")
+
 
 3.	Clicking on an individual job or row will show possible downstream functions, which appear as icons, in the vertical green bar to the right of the list.  Clicking on the View icon will rewrite the page to show the results of the selected job.  
 ![Figure 42](./images/Picture42.png "Figure 42")

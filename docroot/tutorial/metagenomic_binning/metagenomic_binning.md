@@ -31,7 +31,7 @@ The code for the RASTtk pipeline is located at:
 The service accepts both single and paired reads.  Paired read libraries are usually given as file pairs, with each file containing the forward or reverse half of each read pair. Paired read files are expected to be sorted in such a way that each read in a pair occurs in the same Nth position as its mate in their respective files. These files are specified as READ FILE 1 and READ FILE 2. For a given file pair, the selection of which file is READ 1 or READ 2 does not matter.
 
 Reads must first be uploaded to the BV-BRC workspace, and once there, they can be selected in several ways.
-1.	Navigate to the workspace by clicking on the Folder icon at the end of the text box.  This will open a pop-up window.  Located the row that has the correct reads, and then click on that.  This will highlight the row.  Click on OK at the bottom of the pop-up box to select the reads. 
+1.	Navigate to the workspace by clicking on the **Folder** icon at the end of the text box.  This will open a pop-up window.  Located the row that has the correct reads, and then click on that.  This will highlight the row.  Click on **OK** at the bottom of the pop-up box to select the reads. 
 ![Figure Selecting_reads](./images/Selecting_reads.png "Figure Selecting_reads")
 
 2.	Clicking on the **down arrow** at the end of the text box will open a drop-down box that shows the reads that have been selected most recently (top of list) to less frequently (down).  Clicking on the row that has the correct read will select those reads.
@@ -59,7 +59,7 @@ BV-BRC also supports analysis of existing datasets from SRA. If users submit SRA
 
 ### Starting with contigs  
 
-1. BV-BRC also supports analysis of contigs that have been assembled in or outside of the resource.  To submit contigs, you need to click on the Assembled Contigs button.  
+1. BV-BRC also supports analysis of contigs that have been assembled in or outside of the resource.  To submit contigs, you need to click on the **Assembled Contigs** button.  
 ![Figure Start_contigs](./images/Start_contigs.png "Figure Start_contigs")
 
 2.	This will reload the page to show contigs only as the **Input file**.  Selecting contig files are similar to what has been described for the read files above.  
@@ -82,9 +82,7 @@ Parameters must be selected prior to the submission of the Metagenomic Binning j
 
 2.	**Organisms of Interest** must be selected.  Clicking on **Bacteria/Archaea** will only show those results, clicking on **Viruses** will only show those, and clicking on **Both** will show all of those results.  
     * If **Bacteria/Archaea** are selected, the RASTtk[4] annotation pipeline will be used. The code for the RASTtk pipeline is located at https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl
-
     * Selection of **Viruses** will use one of two annotation pipelines. The first pipeline is VIGOR4[5,6].  (The software for the VIGOR pipeline is located at: https://github.com/JCVenterInstitute/VIGOR4). If VIGOR4 does not find a virus match, the MatPeptide[7] pipeline is used.
-
     * When selecting **Both** the bacterial/archaeal and viral pipelines will both be run.  The workflow for this strategy is available at the top of this tutorial.
 
 ![Figure 31](./images/Picture31.png "Figure 31")
@@ -110,11 +108,10 @@ Parameters must be selected prior to the submission of the Metagenomic Binning j
 9. **ADVANCED**.  Clicking on the down arrow following **ADVANCED** will extend the **Parameters** box.
 ![Figure Advanced](./images/Advanced_Parameters.png "Figure Advanced")
 
-
-11.  A checkbox in front of **Disable search for dangling contigs (Decreases memory use)**.  This deserves some explanation.  After contigs are binned using kmers, there is a second step that looks for large DNA segments (generally 50 or more base pairs) that the contigs have in common; in particular, sequences near the end of one contig that are also found in another contig (hence the “dangling” reference).  It generally finds a small number of contigs, and it is very memory intensive.  If the sample causes an out-of-memory error during binning (as opposed to the normal case in assembly), you can uncheck that box and will generally get a successful run.
+10.  A checkbox in front of **Disable search for dangling contigs (Decreases memory use)**.  This deserves some explanation.  After contigs are binned using kmers, there is a second step that looks for large DNA segments (generally 50 or more base pairs) that the contigs have in common; in particular, sequences near the end of one contig that are also found in another contig (hence the “dangling” reference).  It generally finds a small number of contigs, and it is very memory intensive.  If the sample causes an out-of-memory error during binning (as opposed to the normal case in assembly), you can uncheck that box and will generally get a successful run.
 ![Figure Dangling](./images/Dangling.png "Figure Dangling")
 
-12. **Min Contig Length** and **Min Contig Coverage** can be adjusted by clicking on the up and down arrows at the end of the text boxes.
+11. **Min Contig Length** and **Min Contig Coverage** can be adjusted by clicking on the up and down arrows at the end of the text boxes.
 ![Figure Length_and_coverage](./images/Length_and_coverage.png "Figure Length_and_coverage")
 
 ## Submitting the Metagenomic binning job  
@@ -134,7 +131,7 @@ The Metagenomic Binning service returns a number of files when the job is comple
 ![Figure Job_results_page](./images/Job_results_page.png "Figure Job_results_page")
 
 *Binning Reports*
-1.	If **Both** was selected under Organisms of interest, there will be two binning reports of slightly different formats.
+1.	If **Both** was selected under **Organisms of interest**, there will be two binning reports of slightly different formats.
 ![Figure Comparison](./images/Binning_report_comparison.png "Figure Comparison")
 
 3.	To view the Viral Binning report, click on the row that contains **ViralBinningReport.html**  and then on the **View** icon in the green action bar.  This will rewrite the page to show the binning report. The top part of the page shows the input data, and the lower part shows information on the generated bins.  Each of the columns contains specific information:
@@ -182,7 +179,7 @@ The Metagenomic Binning service returns a number of files when the job is comple
 ![Figure Bin_analysis](./images/Bin_analysis.png "Figure Bin_analysis")
 
 2.	The details in both bacterial and viral binning jobs can be accessed by double clicking on the row that has the checkered flag. Details on the files returned by the annotation jobs that produce these bins can be found in the Annotation Tutorial (https://www.bv-brc.org/docs/tutorial/genome_annotation/genome_annotation.html#).
-![Figure Problem](./images/Problem.png "Figure Problem")
+![Figure Flag](./images/Flag.png "Figure Flag")
 
 3.	The pipeline produces additional contig files.  One of these is the data that cannot be mapped to the selected organisms.  The file that contains these contigs is called **unbinned.fasta**.
 ![Figure Unbinned](./images/Unbinned.png "Figure Unbinned")

@@ -108,14 +108,14 @@ Parameters must be selected prior to the submission of the Metagenomic Binning j
 ![Figure 38](./images/Picture38.png "Figure 38")
 
 9. **ADVANCED**.  Clicking on the down arrow following **ADVANCED** will extend the **Parameters** box.
-![Figure Advanced](./images/PictureAdvanced_Parameters.png "Figure Advanced")
-![Figure Advanced_Parameters](./images/PictureAdvanced_Parameters.png "Figure Advanced_Parameters")
+![Figure Advanced](./images/Advanced_Parameters.png "Figure Advanced")
+
 
 11.  A checkbox in front of **Disable search for dangling contigs (Decreases memory use)**.  This deserves some explanation.  After contigs are binned using kmers, there is a second step that looks for large DNA segments (generally 50 or more base pairs) that the contigs have in common; in particular, sequences near the end of one contig that are also found in another contig (hence the “dangling” reference).  It generally finds a small number of contigs, and it is very memory intensive.  If the sample causes an out-of-memory error during binning (as opposed to the normal case in assembly), you can uncheck that box and will generally get a successful run.
 ![Figure Dangling](./images/Dangling.png "Figure Dangling")
 
 12. **Min Contig Length** and **Min Contig Coverage** can be adjusted by clicking on the up and down arrows at the end of the text boxes.
-![Figure Length_and_coverage](./images/PictureLength_and_coverage.png "Figure Length_and_coverage")
+![Figure Length_and_coverage](./images/Length_and_coverage.png "Figure Length_and_coverage")
 
 ## Submitting the Metagenomic binning job  
 1.	Once the input data and the parameters have been selected, the Submit button at the bottom of the page will turn blue.  The metagenomic binning job will be submitted once this button is clicked. Once submitted, the job will enter the queue.  You can check the status of your job by clicking on the Jobs monitor at the lower right.  

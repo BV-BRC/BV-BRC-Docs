@@ -101,9 +101,9 @@ is the same as the format used in the SMILES text box described above.
     * Results.CSV which has the same data displayed in the report.
 14. Back in the report. The next section will show any ligands that the service was unable to bind with the input protein. These sections only populate if there are ligands that fall into either category below.
     * RDKit Non-compliant Ligands: Ligands that appear in this table did not pass SMILE string validation preformed by [RDKit](https://rdkit.org/). This is a collection of cheminformatics and machine-learning software. RDKit validates SMILE strings according to parsing and sanitization.  For parsing, RDKit uses grammar defined in the [Smile Parse](https://github.com/rdkit/rdkit/tree/master/Code/GraphMol/SmilesParse) module. Which closely follows guidelines established in [OpenSmiles](http://opensmiles.org/opensmiles.html). A detailed explanation of sanitization is available [RDKit Book](https://www.rdkit.org/docs/RDKit_Book.html) under the Molecular Sanitization header. These ligands are also listed in the file "invalid_smile_strings.txt" in the landing directory for your job.
-    * DiffDock Incompatible Ligands: These are ligands that our current model and specification of DiffDock were unable to dock. This might be due to computational limitations rather than solely physical or chemical limitations. These ligands are also described in the file "bad-ligands.txt" in the landing directory for your job.
-
-If you have questions about failed ligands, we encourage you to reach out to a team member by either reporting the job or contacting us by clicking "About" in our header then the dropdown option, "Contact Us".
+    * DiffDock Incompatible Ligands: Ligands in this table not dock to the protein. This coud be because they are incompatible with the protein or the current version of DiffDock.  Another reason could be the available memory during your job. To test this, please submit a new job with each ligand invidiaully or in smaller groups. These ligands are also described in the file "bad-ligands.txt" in the landing directory for your job.
+    
+    If you have questions about failed ligands, we encourage you to reach out to a team member by either reporting the job or contacting us by clicking "About" in our header then the dropdown option, "Contact Us".
 
 ## References
 * Olson RD, Assaf R, Brettin T, Conrad N, Cucinell C, Davis JJ, Dempsey DM, Dickerman A, Dietrich EM, Kenyon RW, Kuscuoglu

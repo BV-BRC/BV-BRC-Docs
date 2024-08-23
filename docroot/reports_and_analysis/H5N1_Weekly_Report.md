@@ -9,6 +9,9 @@ This report provides statistics on the public availability of HPAI H5N1 genomic 
 
 ## Report Downloads 
 **08/16/24**
+- Download [PDF](https://www.bv-brc.org/docs/downloads/h5n1-outbreak-reports/pdf/H5N1_Outbreak_Report_20240822.pdf) file
+
+**08/16/24**
 - Download [PDF](https://www.bv-brc.org/docs/downloads/h5n1-outbreak-reports/pdf/H5N1_Outbreak_Report_20240816.pdf) file
 
 **08/08/24**

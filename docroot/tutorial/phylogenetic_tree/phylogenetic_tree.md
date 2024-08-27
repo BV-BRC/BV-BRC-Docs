@@ -15,52 +15,33 @@ Source code for algorithms
 1.	1.	At the top of any BV-BRC page, click on the **Tools & Services**.  In the drop-down box, click on **Bacterial Genome Tree** underneath **Phylogenomics**.
 ![Figure Tree_App](./images/Tree_App.png "Figure Tree_App")
 
-2.	This will open up that service 
+2.	This will open up the landing page for that service. 
 ![Figure Landing_page](./images/Landing_page.png "Figure Landing_page")
 
-## Selecting genomes 
+## Selecting Genomes 
+The service will generate trees from between 4-100 bacterial genomes.  These can be selected individually, or in genome groups.
 
-**Individual genomes**
+1.	Genome groups can be selected by beginning to enter the name of the group in the text box underneath Select Genome Group and selecting the correct group in the drop-down box or clicking on the arrow at the end to open that box, or by clicking on the folder icon to navigate to the group in the workspace.
 
-1.	Public or private genomes that are in the BV-BRC database can be used to build a phylogenetic tree. Up to 100 genomes can be used in this service. To add a private genome, click on the Filter icon at the beginning of the text box underneath **Select Genome**. 
-![Figure 3](./images/Picture3.png "Figure 3")
+![Figure Genome_group](./images/Genome_group.png "Figure Genome_group ")
 
-2.	This will open a drop-down box with a list of the types of genomes that can be filtered on. Click off the check box in front of Reference, Representative and All Other Public Genomes to enable filtering on private genomes that are in the researcher’s workspace. 
-![Figure 4](./images/Picture4.png "Figure 4")
+3.	Clicking on the group of interest will autofill the text box  with the group.  Click on the ***+ Add** button at the end of the text box, and this will add the group to the **Selected Input Genomes** box.
+![Figure Input_genome_group](./images/Input_genome_group.png "Figure Input_genome_group")
 
-3.	Clicking on the drop-down box at the end of the text box under Select Genome will show the private genomes in the workspace that have most recently been annotated. 
-![Figure 5](./images/Picture5.png "Figure 5")
+4.	Public or private genomes that are in the BV-BRC database can be used to build a phylogenetic tree. Up to 100 genomes can be used in this service. To add a private genome, click on the **Filter** icon at the beginning of the text box underneath **Select Genome**. This will open a drop-down box with a list of the types of genomes that can be filtered on. Click on **My Genomes**, which is underneath **Private Genomes**.
+![Figure Private_genomes](./images/Private_genomes.png "Figure Private_genomes ")
 
-4.	The list can also be filtered by beginning to type a name in the text box under Select Genome. 
-![Figure 6](./images/Picture6.png "Figure 6")
+5.	The genome of interest can be found either by starting to enter text into the box underneath **And/Or Select Genome** or clicking on the down arrow at the end of the box.  This will open a drop-down box where the genome can be selected. 
+![Figure Select_private_genome](./images/Select_private_genome.png "Figure Select_private_genome ")
 
-5.	A genome of interest can be selected by clicking on it. This will auto-fill the name of the genome into the text box. 
-![Figure 7](./images/Picture7.png "Figure 7")
+6.	Once selected, the genome needs to be added into the **Selected Input Genome** table. Click the **+ Add** button at the end of the text box, and the genome will appear in the table.
+![Figure Add_private_genome](./images/Add_private_genome.png "Figure Add_private_genome ")
 
-6.	The genome needs to be added into the Selected Input Genome Table. Click the **+ Add** button at the end of the text box, and the genome will appear in the table. 
-![Figure 8](./images/Picture8.png "Figure 8")
+7.	Clicking on the Information icon (**i**) following the name will show the **Genome ID**s of the genomes within a selected group.
+![Figure Information_icon](./images/Information_icon.png "Figure Information_icon")
 
-7.	To add a different type of genome (Reference, Representative, or All Other Public Genomes), click on the filter icon and click the check boxes to the desired category.  The selected genomes will be moved to the Selected Genome Input Table by clicking on the name and then the Add button.
-
-**Genome Groups**
-
-1.	Genome groups can also be added to the Input Genome Table. Clicking on the down arrow that follows the text box underneath **And/Or Select Genome Group** will show the genome groups that have most recently been created by the researcher. 
-![Figure 9](./images/Picture9.png "Figure 9")
-
-2.	The list can be filtered by beginning to type a name in the text box under Select Genome. 
-![Figure 10](./images/Picture10.png "Figure 10")
-
-3.	A genome group of interest can be selected by clicking on it. This will auto-fill the name of the genome into the text box. 
-![Figure 11](./images/Picture11.png "Figure 11")
-
-4.	The selected genomes will be moved to the Selected Genome Input Table by clicking on the name and then the **+ Add** button.  This will move the selection to the top of the **Selected Input Genome Table**. 
-![Figure 12](./images/Picture12.png "Figure 12")
-
-5.	Clicking on the Information icon following the name will show the Genome IDs of the genomes within a selected group. 
-![Figure 13](./images/Picture13.png "Figure 13")
-
-6.	Clicking on the **X** icon that follows the name of a genome or genome group in the Selected Input Genome Table will remove it from the selection. 
-![Figure 14](./images/Picture14.png "Figure 14")
+8.	Clicking on the **X** icon that follows the name of a genome or genome group in the Selected Input Genome Table will remove it Remove")
+![Figure Remove](./images/Remove.png "Figure Remove")
 
 ## Setting parameters
 

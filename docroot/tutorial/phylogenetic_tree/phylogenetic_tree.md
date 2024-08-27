@@ -21,7 +21,7 @@ Source code for algorithms
 ## Selecting Genomes 
 The service will generate trees from between 4-100 bacterial genomes.  These can be selected individually, or in genome groups.
 
-1.	Genome groups can be selected by beginning to enter the name of the group in the text box underneath Select Genome Group and selecting the correct group in the drop-down box or clicking on the arrow at the end to open that box, or by clicking on the folder icon to navigate to the group in the workspace.
+1.	Genome groups can be selected by beginning to enter the name of the group in the text box underneath **Select Genome Group** and selecting the correct group in the drop-down box or clicking on the arrow at the end to open that box, or by clicking on the folder icon to navigate to the group in the workspace.
 
 ![Figure Genome_group](./images/Genome_group.png "Figure Genome_group ")
 
@@ -40,36 +40,47 @@ The service will generate trees from between 4-100 bacterial genomes.  These can
 7.	Clicking on the Information icon (**i**) following the name will show the **Genome ID**s of the genomes within a selected group.
 ![Figure Information_icon](./images/Information_icon.png "Figure Information_icon")
 
-8.	Clicking on the **X** icon that follows the name of a genome or genome group in the Selected Input Genome Table will remove it Remove")
+8.	Clicking on the **X** icon that follows the name of a genome or genome group in the **Selected Input Genome** table will remove it.
 ![Figure Remove](./images/Remove.png "Figure Remove")
 
-## Setting parameters
+## Setting Parameters
 
-1.	Several parameters must be addressed before the codon tree job can be submitted, and the Submit button will turn blue when the job is ready.
-![Figure 15](./images/Picture15.png "Figure 15")
-
-2.	The phylogenetic tree job must be placed in an **Output Folder**.  Clicking on the down arrow that follows the text box underneath Output Folder will show the folders that have most recently been created by the researcher. 
-![Figure 16](./images/Picture16.png "Figure 16")
-
-3.	Clicking on a folder name will add it to the text box.  Links to instructions on creating a new folder are available at the top of this tutorial. 
-![Figure 17](./images/Picture17.png "Figure 17")
-
- 4.	The phylogenetic tree job needs a name, which can be entered in the text box under **Output Name**.
-![Figure 18](./images/Picture18.png "Figure 18")
-
-5.	The number of single-copy PGFams set as the default is 100. This will include 100 amino acid and nucleotide sequences for the alignment and the tree but will depend on the number of single copy genes found in all of the genomes selected. For example, if one genome has only 10 single copy genes, then the tree will be built on the protein and gene sequences for those 10 genes, even if all the other genomes have 100 single copy genes. This can be adjusted (see below for Max Allowed Deletions and Duplications). A different number can be selected by clicking on the down arrow at the end of the text box underneath **Number of Genes**, and the range is 10 to 1000 genes. Genomes that are in widely different taxa might be resolved with as few as 10 genes, but closely related genomes (same species or even strain) might require up to 1000 genes selected to separate them on a phylogenetic tree. **The more genes selected, the longer the tree job will run**. Clicking on the desired number will fill the text box. 
+1.	Several parameters must be addressed before the bacterial phylogenetic tree job can be submitted.  The number of genes that will provide the nucleotide and amino acid sequences must first be selected.  The number of single-copy PGFams is set as the default is 100. This will include 100 amino acid and nucleotide sequences for the alignment and the tree but will depend on the number of single copy genes found in all of the genomes selected. For example, if one genome has only 10 single copy genes, then the tree will be built on the protein and gene sequences for those 10 genes, even if all the other genomes have 100 single copy genes. This can be adjusted (see below for Max Allowed Deletions and Duplications). A different number can be selected by clicking on the down arrow at the end of the text box underneath **Number of Genes**, and the range is 10 to 1000 genes. Genomes that are in widely different taxa might be resolved with as few as 10 genes, but closely related genomes (same species or even strain) might require up to 1000 genes selected to separate them on a phylogenetic tree. **The more genes selected, the longer the tree job will run**. Clicking on the desired number will fill the text box.
 ![Figure 19](./images/Picture19.png "Figure 19")
 
-6.	The selection of “single-copy” genes can be made more lenient by allowing one or more instances of genomes missing a member of a particular homology group (**Max Allowed Deletions**). If the number is set at 1, 9 genomes would have a gene in a particular PGFam, and the 10th would be missing it. Likewise, if the number is set at 2, 8 genomes would have the PGFam and the last 2 would be missing it. This would only be used if there are not enough PGFams meet the single copy criterion. The number of deletions allowed can be set between 0 and 10 in the text box underneath Max Allowed Deletions (0-10). 
+2.	The selection of “single-copy” genes can be made more lenient by allowing one or more instances of genomes missing a member of a particular homology group (**Max Allowed Deletions**). If the number is set at 1, 9 genomes would have a gene in a particular PGFam, and the 10th would be missing it. Likewise, if the number is set at 2, 8 genomes would have the PGFam and the last 2 would be missing it. **This would only be used if there are not enough PGFams meet the single copy criterion**. The number of deletions allowed can be set between 0 and 10 in the text box underneath Max Allowed Deletions (0-10). 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
-7.	The selection of “single-copy” genes can also be made more lenient by allowing for PGFams that might have more than one copy of a single gene within a single genome. If the number is set at 1, then. Nine genomes have one gene in a particular PGFam, and the 10th has two. If the number is set at 2, 8 genomes will have one gene in a particular PGFam and the other two have 2. When there are two copies of a gene, the algorithm will pick the gene that is the most similar to the other genes found in the other selected genomes. This would only be used if there are not enough PGFams meet the single copy criterion. This number of can be set between 0 and 10 in the text box underneath **Max Allowed Duplications** (0-10). 
+3.	The selection of “single-copy” genes can also be made more lenient by allowing for PGFams that might have more than one copy of a single gene within a single genome. If the number is set at 1, then. Nine genomes have one gene in a particular PGFam, and the 10th has two. If the number is set at 2, 8 genomes will have one gene in a particular PGFam and the other two have 2. When there are two copies of a gene, the algorithm will pick the gene that is the most similar to the other genes found in the other selected genomes. **This would only be used if there are not enough PGFams meet the single copy criterion**. This number of can be set between 0 and 10 in the text box underneath **Max Allowed Duplications** (0-10). 
 ![Figure 21](./images/Picture21.png "Figure 21")
 
-8.	When all the parameters are entered, the codon tree job is ready to submit. Submit the job by clicking on the blue Submit button. 
-![Figure 22](./images/Picture22.png "Figure 22")
+4.	An **Output Folder** must also be designated, wither by clicking on the drop-down box, clicking on the folder to navigate to the folder in the workspace, or typing the name of the folder and clicking on it in the drop-down box.
+![Figure Output_folder](./images/Output_folder.png "Figure Output_folder")
 
-9.	A message will appear above the submit button, indicating that the submission was successful. 
+5.	A name for the job must also be assigned and entered in the text box underneath **Output Name**.
+![Figure Output_name](./images/Output_name.png "Figure Output_name")
+
+*Metadata Options*
+Once the genomes and the parameters have been selected, researchers can select metadata that can be used to color the resulting tree.
+1.	Click on the down arrow that follows **Metadata Options**.  This will open the **Metadata Options** box that includes a **Metadata Table**.
+![Figure Metadata_open](./images/Metadata_open.png "Figure Metadata_open")
+
+2.	Researchers can remove metadata facets that they don’t want to see on the tree by clicking on the X In the **Metadata Table** on the right side.  This will remove that data.
+![Figure Remove_metadata](./images/Remove_metadata.png "Figure Remove_metadata")
+
+3.	To add additional metadata, click on the down arrow at the end of the text box underneath **Metadata Fields**. This will open a box that shows some of the additional metadata that can be added, and then viewed on the resulting tree.
+![Figure Metadata_fields](./images/Metadata_fields.png "Figure Metadata_fields")
+
+4.	To select one of the additional facets, click on it.  This will fill the text box with it, and then click on the **Arrow** icon at the end of the text box.  This will add the new faced to the **Metadata Table**.
+![Figure Adding_metadata](./images/Adding_metadata.png "Figure Adding_metadata")
+
+5.	But wait!  There is a lot more metadata facets that can be selected. There are a total 87 different metadata attributes that can be selected.  To view the entire list, click on **More Options** at the bottom of the box.  This will expand the box to show all of the available facets.  Note that not all facets have the selected metadata available for all genomes.  
+![Figure More_metadata_options](./images/More_metadata_options.png "Figure More_metadata_options")
+
+6.	Once the genomes have been selected, the parameters have been defined, and the metadata selected, click on the **Submit** button at the bottom of the page.
+![Figure Submit](./images/Submit.png "Figure Submit")
+
+7.	A message will appear above the submit button, indicating that the submission was successful. 
 ![Figure 23](./images/Picture23.png "Figure 23")
 
 ## Monitoring progress on the Jobs page

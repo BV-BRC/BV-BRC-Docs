@@ -91,22 +91,13 @@ Once the genomes and the parameters have been selected, researchers can select m
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed. 
 ![Figure 25](./images/Picture25.png "Figure 25")
 
-## Viewing the Phylogenetic tree job results
+## Viewing the Bacterial Phylogenetic tree job results
 
-1.	To view a particular job, click on a row to select it. Once selected, the downstream processes available for the selection appear in the vertical green bar.  Clicking on the View icon will open the phylogenetic tree job summary. 
-![Figure 26](./images/Picture26.png "Figure 26")
+1.	To view a particular job, click on a row to select it. Once selected, the downstream processes available for the selection appear in the vertical green bar.  Clicking on the **View** icon will open the phylogenetic tree job summary.
+![Figure Job_page](./images/Job_page.png "Figure Job_page")
 
-2.	This will rewrite the page to show the information about the phylogenetic tree job, and all of the files that are produced when the pipeline runs.  
-![Figure 27](./images/Picture27.png "Figure 27")
-
-The resulting tree can be viewed in the BV-BRC interactive Archaeopteryx.js Tree Viewer. To launch the viewer, click the **VIEW** icon at the top right of the page, to the left of the green bar.
-
-![Figure 27a](./images/Picture27a.png "Figure 27a")
-
-(Example Archaeopteryx.js image)
-![Figure 27b](./images/Picture27b.png "Figure 27b")
-
-The [Archaeopteryx.js Tree Viewer Quick Reference Guide](/quick_references/services/archaeopteryx) provides detailed information about its features and options. 
+2.	This will rewrite the page to show the information about the phylogenetic tree job, and all of the files that are produced when the pipeline runs.  The **VIEW** icon at the top right of the page (to the left of the green bar) and the **report.html** file will be discussed in separate sections below.
+![Figure Job_landing](./images/Job_landing.png "Figure Job_landing")
 
 3.	The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the Parameters row. 
 ![Figure 28](./images/Picture28.png "Figure 28")
@@ -114,29 +105,26 @@ The [Archaeopteryx.js Tree Viewer Quick Reference Guide](/quick_references/servi
 4.	This will show the information on what was selected when the job was originally submitted. 
 ![Figure 29](./images/Picture29.png "Figure 29")
 
-5.	The Codon Trees pipeline generates several different formats of images of the phylogenetic tree.  The **.pdf** file contains the portable document format showing a midpoint rooted phylogenetic tree. 
-![Figure 30](./images/Picture30.png "Figure 30")
+5.	The "**afa.reduced**" files are versions of the alignment files omitting entries (genomes) that have exactly the same aligned sequence. These are likely not useful for the researcher but can be downloaded by clicking on the **Download **icon in the green action bar.
+![Figure afa_reduced](./images/afa_reduced.png "Figure afa_reduced")
 
-6.	The Codon Trees pipeline also produces a portable graphic format (**.png**).
-![Figure 31](./images/Picture31.png "Figure 31")
+6.	An important step in tree inference is estimating the optimal protein substitution model. This is done by analyzing a subset of the data containing 10% of the aligned amino acids from each protein family using the PROTCATAUTO function of RAxML. This can be found in the **proteins.afa.reduced** file, which probably will not be that useful for the researcher but is available for download by clicking on the **Download** icon in the green action bar.
+![Figure protein_afa](./images/protein_afa.png "Figure protein_afa")
 
-7.	A Scalable Vector Graphics (**.svg**) file, an XML-based two-dimensional graphic file format, is also produced. It is a publication quality image that is best downloaded.
-![Figure 32](./images/Picture32.png "Figure 32")
+7.	A newick tree format is a way of representing graph-theoretical trees with edge lengths using parentheses and commas. These  are the instructions for drawing the tree, and they can be downloaded and used in other tree viewing software.  The **tree.nwk** file can also be viewed by selecting the row, and then clicking on the **View** icon in the green action bar.   This will open the Archaeopteryx vewer, showing the genome IDs instead of the names.
+![Figure tree_newick](./images/tree_newick.png "Figure tree_newick")
 
-8.	The **proteins.phy** file shows the aligned, trimmed, and concatenated sequences suitable to submission to RaxML. 
-![Figure 33](./images/Picture33.png "Figure 33")
+8.	The RAxML pipeline produces a number of different newick files, all of which are provided.  These different iterations may  not be valuable for researchers but are provided for those interested.
+![Figure RAxML_newick](./images/RAxML_newick.png "Figure RAxML_newick")
 
-9.	The **report.html** file provides a detailed report on the phylogenetic tree.  This will be discussed below.
-![Figure 34](./images/Picture34.png "Figure 34")
+9.	PhyloXML is an XML language designed to describe phylogenetic trees (or networks) and associated data.  This pipeline includes a **tree.phyloxml** file that can be downloaded.  It can also be viewed by clicking on the **View** icon in the green action bar.
+![Figure tree_phyloxml](./images/tree_phyloxml.png "Figure tree_phyloxml")
 
-10.	The **treeWithGenomeIds.nwk** file contains the newick file.  Newick files are the instructions for building the phylogenetic tree. These files should be downloaded, and opened in viewer that can interpret them, where they can be adjusted to create the best possible image. Two viewers that we recommend are FigTree[6] and the Interactive Tree of Life (ITOL)[7]. The Codon Trees pipeline provide two different versions of **newick (.nwk)** for download. The **codontree_treeWithGenomeIDs.nwk** shows the IDs for all the genomes in the tree, which will be visible as the leaves. 
-![Figure 35](./images/Picture35.png "Figure 35")
+10.	If one didn’t think there were enough files, there are more in the **Details** folder.  This can be accessed by clicking on that row.  This will rewrite the page to show all the additional files produced by this pipeline.
+![Figure Details](./images/Details.png "Figure Details")
 
-11.	The **Detail_files folder** contains additional files associated with the Codon Trees job.  Double click on the row that contains the folder.  
-![Figure 36](./images/Picture36.png "Figure 36")
-
-12.	This will rewrite the page to show the contents of the folder. 
-![Figure 37](./images/Picture37.png "Figure 37")
+11.	Within the **Details** folder, the **treeWithGenomeNames.nwk** file is perhaps the best one to download and use in other viewers as it has the names of the genomes. This can be viewed in the Archaeopteryx viewer by clicking on the row, and then on the **View** icon in the green action bar.
+![Figure Nwk_genome_name](./images/Nwk_genome_name.png "Figure Nwk_genome_name ")
 
 13.	The **analysisStats** file gives the statistics for the Codon Tree job, including the number of genomes, protein alignments, aligned amino acids, gene (CGS) alignments, aligned nucleotides and a list of the protein families used.  This information is also available in the html file and can be downloaded. 
 ![Figure 38](./images/Picture38.png "Figure 38")
@@ -156,26 +144,8 @@ The [Archaeopteryx.js Tree Viewer Quick Reference Guide](/quick_references/servi
 18.	The **partitions** file tells RaxML which alignment columns are first, second or third codon position nucleotides, or amino acids. It can be downloaded by clicking the **Download** icon. 
 ![Figure 43](./images/Picture43.png "Figure 43")
 
-19. The **phy** file is the concatenated alignment in PHYLIP format.  This is a very large file and can be downloaded by clicking the Download icon. 
-![Figure 44](./images/Picture44.png "Figure 44")
-
-20.	The **raxmlcommand.sh** provides the command script to run the pipeline for the tree that was generated.  It can be run on your personal computer, can be downloaded by clicking the **Download** icon. 
+19.	The **raxmlcommand.sh** provides the command script to run the pipeline for the tree that was generated.  It can be run on your personal computer, can be downloaded by clicking the **Download** icon. 
 ![Figure 45](./images/Picture45.png "Figure 45")
-
-21.	The **tipsAligned.pdf** file shows the midpoint rooted phylogenetic tree with the names of genomes aligned. It can be downloaded by clicking the **Download** icon. 
-![Figure 46](./images/Picture46.png "Figure 46")
-
-22. The **tipsAligned.png** shows the same tree as above, but in a portable graphic format.  It can viewed by clicking on the **View** icon or downloaded. A scaled vector graph (**SVG**) of the same tree is also available. 
-![Figure 47](./images/Picture47.png "Figure 47")
-
-23.	The **treewithGenomeNames.nwk** is a newick file that has genome names as the leaves of the tree.  It can be downloaded or viewed by clicking the appropriate icons. 
-![Figure 48](./images/Picture48.png "Figure 48")
-
-24.	The **RaxML_info** file has details on the RaxML run. 
-![Figure 49](./images/Picture49.png "Figure 49")
-
-25.	The **tree.log** file has the output of the steps that the Codon Tree pipeline took when generating the tree. 
-![Figure 50](./images/Picture50.png "Figure 50")
 
 ## Phylogenetic Tree Report
 

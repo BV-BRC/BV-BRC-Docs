@@ -1,4 +1,4 @@
-*Revised: 27 August 2024*
+*Revised: 29 August 2024*
 
 # Bacterial Phylogenetic Tree Service 
 A phylogenetic tree or evolutionary tree is a branching diagram or “tree” showing the evolutionary relationships among various biological species or other entities. The Bacterial Phylogenetic Tree service in BV-BRC[1] allows researchers to build trees that contain private and public genomes, adjusting for the number of genes that will be used to generate the tree. 

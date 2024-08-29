@@ -3,15 +3,14 @@
 # Bacterial Phylogenetic Tree Service 
 A phylogenetic tree or evolutionary tree is a branching diagram or “tree” showing the evolutionary relationships among various biological species or other entities. The Bacterial Phylogenetic Tree service in BV-BRC[1] allows researchers to build trees that contain private and public genomes, adjusting for the number of genes that will be used to generate the tree. 
 
-The Codon Tree pipeline generates the bacterial phylogenetic trees for BV-BRC. It uses the amino acid and nucleotide sequences from a defined number of the BV-BRC Global Protein Families (PGFams)[2], which are picked randomly, to build an alignment, and then generate a tree based on the differences within those selected sequences. Both the protein (amino acid) and gene (nucleotide) sequences are used for each of the selected genes from the PGFams. Protein sequences are aligned using MUSCLE[3], and the nucleotide coding gene sequences are aligned using the Codon_align function of BioPython[4]. A concatenated alignment of all proteins and nucleotides were written to a PHYLIP formatted file, and then a partitions file for RaxML[5] is generated, describing the alignment in terms of the proteins and then the first, second and third codon positions. Support values are generated using 100 rounds of the “Rapid” bootstrapping option[6] of RaxML. The resulting newick file can be viewed in BV-BRC using the Archaeopteryx viewer (https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html).
+The Codon Tree pipeline generates the bacterial phylogenetic trees for BV-BRC. It uses the amino acid and nucleotide sequences from a defined number of the BV-BRC Global Protein Families (PGFams)[2], which are picked randomly, to build an alignment, and then generate a tree based on the differences within those selected sequences. Both the protein (amino acid) and gene (nucleotide) sequences are used for each of the selected genes from the PGFams. Protein sequences are aligned using MUSCLE[3], and the nucleotide coding gene sequences are aligned using the Codon_align function of BioPython[4]. A concatenated alignment of all proteins and nucleotides were written to a PHYLIP formatted file, and then a partitions file for RAxML[5] is generated, describing the alignment in terms of the proteins and then the first, second and third codon positions. Support values are generated using 100 rounds of the “Rapid” bootstrapping option[6] of RAxML. The resulting newick file can be viewed in BV-BRC using the Archaeopteryx viewer (https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html).
 
 Source code for algorithms
-* The source code for RaxML can be found at: https://github.com/stamatak/standard-RAxML
+* The source code for RAxML can be found at: https://github.com/stamatak/standard-RAxML
 * The source code for MUSCLE can be found at: https://www.drive5.com/muscle/downloads.htm
 * The source code for BioPython can be found at: https://github.com/biopython/biopython
 
 ## Locating the Bacterial Phylogenetic Tree App
-
 1.	1.	At the top of any BV-BRC page, click on the **Tools & Services**.  In the drop-down box, click on **Bacterial Genome Tree** underneath **Phylogenomics**.
 ![Figure Tree_App](./images/Tree_App.png "Figure Tree_App")
 
@@ -22,29 +21,27 @@ Source code for algorithms
 The service will generate trees from between 4-100 bacterial genomes.  These can be selected individually, or in genome groups.
 
 1.	Genome groups can be selected by beginning to enter the name of the group in the text box underneath **Select Genome Group** and selecting the correct group in the drop-down box or clicking on the arrow at the end to open that box, or by clicking on the folder icon to navigate to the group in the workspace.
-
 ![Figure Genome_group](./images/Genome_group.png "Figure Genome_group ")
 
-3.	Clicking on the group of interest will autofill the text box  with the group.  Click on the ***+ Add** button at the end of the text box, and this will add the group to the **Selected Input Genomes** box.
+2.	Clicking on the group of interest will autofill the text box  with the group.  Click on the ***+ Add** button at the end of the text box, and this will add the group to the **Selected Input Genomes** box.
 ![Figure Input_genome_group](./images/Input_genome_group.png "Figure Input_genome_group")
 
-4.	Public or private genomes that are in the BV-BRC database can be used to build a phylogenetic tree. Up to 100 genomes can be used in this service. To add a private genome, click on the **Filter** icon at the beginning of the text box underneath **Select Genome**. This will open a drop-down box with a list of the types of genomes that can be filtered on. Click on **My Genomes**, which is underneath **Private Genomes**.
+3.	Public or private genomes that are in the BV-BRC database can be used to build a phylogenetic tree. Up to 100 genomes can be used in this service. To add a private genome, click on the **Filter** icon at the beginning of the text box underneath **Select Genome**. This will open a drop-down box with a list of the types of genomes that can be filtered on. Click on **My Genomes**, which is underneath **Private Genomes**.
 ![Figure Private_genomes](./images/Private_genomes.png "Figure Private_genomes ")
 
-5.	The genome of interest can be found either by starting to enter text into the box underneath **And/Or Select Genome** or clicking on the down arrow at the end of the box.  This will open a drop-down box where the genome can be selected. 
+4.	The genome of interest can be found either by starting to enter text into the box underneath **And/Or Select Genome** or clicking on the down arrow at the end of the box.  This will open a drop-down box where the genome can be selected. 
 ![Figure Select_private_genome](./images/Select_private_genome.png "Figure Select_private_genome ")
 
-6.	Once selected, the genome needs to be added into the **Selected Input Genome** table. Click the **+ Add** button at the end of the text box, and the genome will appear in the table.
+5.	Once selected, the genome needs to be added into the **Selected Input Genome** table. Click the **+ Add** button at the end of the text box, and the genome will appear in the table.
 ![Figure Add_private_genome](./images/Add_private_genome.png "Figure Add_private_genome ")
 
-7.	Clicking on the Information icon (**i**) following the name will show the **Genome ID**s of the genomes within a selected group.
+6.	Clicking on the Information icon (**i**) following the name will show the **Genome ID**s of the genomes within a selected group.
 ![Figure Information_icon](./images/Information_icon.png "Figure Information_icon")
 
-8.	Clicking on the **X** icon that follows the name of a genome or genome group in the **Selected Input Genome** table will remove it.
+7.	Clicking on the **X** icon that follows the name of a genome or genome group in the **Selected Input Genome** table will remove it.
 ![Figure Remove](./images/Remove.png "Figure Remove")
 
 ## Setting Parameters
-
 1.	Several parameters must be addressed before the bacterial phylogenetic tree job can be submitted.  The number of genes that will provide the nucleotide and amino acid sequences must first be selected.  The number of single-copy PGFams is set as the default is 100. This will include 100 amino acid and nucleotide sequences for the alignment and the tree but will depend on the number of single copy genes found in all of the genomes selected. For example, if one genome has only 10 single copy genes, then the tree will be built on the protein and gene sequences for those 10 genes, even if all the other genomes have 100 single copy genes. This can be adjusted (see below for Max Allowed Deletions and Duplications). A different number can be selected by clicking on the down arrow at the end of the text box underneath **Number of Genes**, and the range is 10 to 1000 genes. Genomes that are in widely different taxa might be resolved with as few as 10 genes, but closely related genomes (same species or even strain) might require up to 1000 genes selected to separate them on a phylogenetic tree. **The more genes selected, the longer the tree job will run**. Clicking on the desired number will fill the text box.
 ![Figure 19](./images/Picture19.png "Figure 19")
 
@@ -61,11 +58,12 @@ The service will generate trees from between 4-100 bacterial genomes.  These can
 ![Figure Output_name](./images/Output_name.png "Figure Output_name")
 
 *Metadata Options*
+
 Once the genomes and the parameters have been selected, researchers can select metadata that can be used to color the resulting tree.
 1.	Click on the down arrow that follows **Metadata Options**.  This will open the **Metadata Options** box that includes a **Metadata Table**.
 ![Figure Metadata_open](./images/Metadata_open.png "Figure Metadata_open")
 
-2.	Researchers can remove metadata facets that they don’t want to see on the tree by clicking on the X In the **Metadata Table** on the right side.  This will remove that data.
+2.	Researchers can remove metadata facets that they don’t want to see on the tree by clicking on the **X** In the **Metadata Table** on the right side.  This will remove that data.
 ![Figure Remove_metadata](./images/Remove_metadata.png "Figure Remove_metadata")
 
 3.	To add additional metadata, click on the down arrow at the end of the text box underneath **Metadata Fields**. This will open a box that shows some of the additional metadata that can be added, and then viewed on the resulting tree.
@@ -84,7 +82,6 @@ Once the genomes and the parameters have been selected, researchers can select m
 ![Figure 23](./images/Picture23.png "Figure 23")
 
 ## Monitoring progress on the Jobs page
-
 1.	Click on the Jobs box at the bottom right of any BV-BRC page. 
 ![Figure 24](./images/Picture24.png "Figure 24")
 
@@ -92,8 +89,7 @@ Once the genomes and the parameters have been selected, researchers can select m
 ![Figure 25](./images/Picture25.png "Figure 25")
 
 ## Viewing the Bacterial Phylogenetic tree job results
-
-1.	To view a particular job, click on a row to select it. Once selected, the downstream processes available for the selection appear in the vertical green bar.  Clicking on the **View** icon will open the phylogenetic tree job summary.
+1.	To view a particular job, click on a row to select it. Once selected, the downstream processes available for the selection appear in the vertical green bar.  Clicking on the **VIEW** icon will open the phylogenetic tree job summary.
 ![Figure Job_page](./images/Job_page.png "Figure Job_page")
 
 2.	This will rewrite the page to show the information about the phylogenetic tree job, and all of the files that are produced when the pipeline runs.  The **VIEW** icon at the top right of the page (to the left of the green bar) and the **report.html** file will be discussed in separate sections below.
@@ -105,31 +101,31 @@ Once the genomes and the parameters have been selected, researchers can select m
 4.	This will show the information on what was selected when the job was originally submitted. 
 ![Figure 29](./images/Picture29.png "Figure 29")
 
-5.	The "**afa.reduced**" files are versions of the alignment files omitting entries (genomes) that have exactly the same aligned sequence. These are likely not useful for the researcher but can be downloaded by clicking on the **Download **icon in the green action bar.
+5.	The "**afa.reduced**" files are versions of the alignment files omitting entries (genomes) that have exactly the same aligned sequence. These are likely not useful for the researcher but can be downloaded by clicking on the **Download** icon in the green action bar.
 ![Figure afa_reduced](./images/afa_reduced.png "Figure afa_reduced")
 
 6.	An important step in tree inference is estimating the optimal protein substitution model. This is done by analyzing a subset of the data containing 10% of the aligned amino acids from each protein family using the PROTCATAUTO function of RAxML. This can be found in the **proteins.afa.reduced** file, which probably will not be that useful for the researcher but is available for download by clicking on the **Download** icon in the green action bar.
 ![Figure protein_afa](./images/protein_afa.png "Figure protein_afa")
 
-7.	A newick tree format is a way of representing graph-theoretical trees with edge lengths using parentheses and commas. These  are the instructions for drawing the tree, and they can be downloaded and used in other tree viewing software.  The **tree.nwk** file can also be viewed by selecting the row, and then clicking on the **View** icon in the green action bar.   This will open the Archaeopteryx vewer, showing the genome IDs instead of the names.
+7.	A newick tree format is a way of representing graph-theoretical trees with edge lengths using parentheses and commas. These  are the instructions for drawing the tree, and they can be downloaded and used in other tree viewing software.  The **tree.nwk** file can also be viewed by selecting the row, and then clicking on the **Tree View** icon in the green action bar.   This will open the Archaeopteryx vewer, showing the genome IDs instead of the names.
 ![Figure tree_newick](./images/tree_newick.png "Figure tree_newick")
 
 8.	The RAxML pipeline produces a number of different newick files, all of which are provided.  These different iterations may  not be valuable for researchers but are provided for those interested.
 ![Figure RAxML_newick](./images/RAxML_newick.png "Figure RAxML_newick")
 
-9.	PhyloXML is an XML language designed to describe phylogenetic trees (or networks) and associated data.  This pipeline includes a **tree.phyloxml** file that can be downloaded.  It can also be viewed by clicking on the **View** icon in the green action bar.
+9.	PhyloXML is an XML language designed to describe phylogenetic trees (or networks) and associated data.  This pipeline includes a **tree.phyloxml** file that can be downloaded.  It can also be viewed by clicking on the **Tree View** icon in the green action bar.
 ![Figure tree_phyloxml](./images/tree_phyloxml.png "Figure tree_phyloxml")
 
 10.	If one didn’t think there were enough files, there are more in the **Details** folder.  This can be accessed by clicking on that row.  This will rewrite the page to show all the additional files produced by this pipeline.
 ![Figure Details](./images/Details.png "Figure Details")
 
-11.	Within the **Details** folder, the **treeWithGenomeNames.nwk** file is perhaps the best one to download and use in other viewers as it has the names of the genomes. This can be viewed in the Archaeopteryx viewer by clicking on the row, and then on the **View** icon in the green action bar.
+11.	Within the **Details** folder, the **treeWithGenomeNames.nwk** file is perhaps the best one to download and use in other viewers as it has the names of the genomes. This can be viewed in the Archaeopteryx viewer by clicking on the row, and then on the **Tree View** icon in the green action bar.
 ![Figure Nwk_genome_name](./images/Nwk_genome_name.png "Figure Nwk_genome_name ")
 
 13.	The **analysisStats** file gives the statistics for the Codon Tree job, including the number of genomes, protein alignments, aligned amino acids, gene (CGS) alignments, aligned nucleotides and a list of the protein families used.  This information is also available in the html file and can be downloaded. 
 ![Figure 38](./images/Picture38.png "Figure 38")
 
-14.	The **genesPerGenome.txt** file shows the Genome IDs, the number of genes in that genome, the number of those genes that were single copy, and the number of genes viewed.  The file can be downloaded or viewed by clicking the **View** icon. This information is also available in the html file. 
+14.	The **genesPerGenome.txt** file shows the Genome IDs, the number of genes in that genome, the number of those genes that were single copy, and the number of genes viewed.  The file can be downloaded or viewed by clicking the **VIEW** icon. This information is also available in the html file. 
 ![Figure 39](./images/Picture39.png "Figure 39")
 
 15.	The **homologAlignmentStats.txt** file shows the statistics for each of the protein families used in the Codon Tree job.  The information includes the protein family ID, the number of gaps, the mean squared frequency (This calculates the frequency of each letter per column and then sum the square for each column, which would be 1.0 if all had the same letter), the number of positions in the alignment for that family, the number of sequency from all the genomes, the proportion of the alignment that consists of gap characters, the sum squared frequency (The sum of all the mean squared frequencies in the alignment, which is used to select the best alignment.) and the an indication if the protein family was used in the analysis.  The file can be downloaded or viewed in the page by clicking the **View** icon. 
@@ -141,24 +137,23 @@ Once the genomes and the parameters have been selected, researchers can select m
 17.	The **nex** file is used to generate the graphics in a program like FigTree.  It contains parameters that tells the graphics file how to draw it.  It can be downloaded by clicking the **Download** icon. 
 ![Figure 42](./images/Picture42.png "Figure 42")
 
-18.	The **partitions** file tells RaxML which alignment columns are first, second or third codon position nucleotides, or amino acids. It can be downloaded by clicking the **Download** icon. 
+18.	The **partitions** file tells RAxML which alignment columns are first, second or third codon position nucleotides, or amino acids. It can be downloaded by clicking the **Download** icon. 
 ![Figure 43](./images/Picture43.png "Figure 43")
 
 19.	The **raxmlcommand.sh** provides the command script to run the pipeline for the tree that was generated.  It can be run on your personal computer, can be downloaded by clicking the **Download** icon. 
 ![Figure 45](./images/Picture45.png "Figure 45")
 
 ## Phylogenetic Tree Report (report.html)
-
 1.	The **report.html** file provides a detailed report on the phylogenetic tree.  The report brings together many of the files available in the details folder.  To view the report, click on the row that has the **report.html** file, and then click on the View icon in the vertical green bar. 
 ![Figure 51](./images/Picture51.png "Figure 51")
 
-2.	This will rewrite the page to show the report, the top of which contains the midpoint rooted phylogenetic tree. **Files with more details at the bottom** of the page is hyperlink to the **Details** folder (discussed above).
+2.	This will rewrite the page to show the report, the top of which contains the midpoint rooted phylogenetic tree. **Files with more details** at the bottom of the page is hyperlink to the **Details** folder (discussed above).
 ![Figure rendered_tree](./images/rendered_tree.png "Figure rendered_tree")
 
 3.	Scrolling down the report will show the will show the statistics associated with the tree. 
 ![Figure 54](./images/Picture54.png "Figure 54")
 
-4.	Scrolling further down the report will show the RaxML command line that was run to generate the tree. 
+4.	Scrolling further down the report will show the RAxML command line that was run to generate the tree. 
 ![Figure 55](./images/Picture55.png "Figure 55")
 
 5.	Scrolling down further will show the partitions information, and the genome statistics. 
@@ -171,7 +166,6 @@ Once the genomes and the parameters have been selected, researchers can select m
 ![Figure 58](./images/Picture58.png "Figure 58")
 
 ## Viewing the Phylogenetic tree
-
 1.	BV-BRC also allows researchers to view the tree in the workspace, and link to other parts of the resource from the tree.  Click on the **VIEW** icon in the upper right corner. 
 ![Figure VIEW](./images/VIEW.png "Figure VIEW")
 
@@ -182,7 +176,6 @@ Once the genomes and the parameters have been selected, researchers can select m
 ![Figure Change_archaeopteryx](./images/Change_archaeopteryx.png "Figure Change_archaeopteryx")
 
 ## References
-
 1.  Olson, R.D., et al., *Introducing the Bacterial and Viral Bioinformatics Resource Center (BV-BRC): a resource combining PATRIC, IRD and ViPR*. Nucleic acids research, 2023. 51(D1): p. D678-D689.
 2.	Davis, J.J., et al., *PATtyFams: Protein families for the microbial genomes in the PATRIC database*. 2016. 7: p. 118.
 3.	Edgar, R.C.J.N.a.r., *MUSCLE: multiple sequence alignment with high accuracy and high throughput*. 2004. 32(5): p. 1792-1797.

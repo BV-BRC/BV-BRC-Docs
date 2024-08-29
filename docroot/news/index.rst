@@ -15,9 +15,10 @@ News and Announcements
    2023/2023-01-02-bv-brc-workshop-uva.rst
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: News Articles Archives:
 
+   2024/index
    2023/index
    2022/index
    2021/index

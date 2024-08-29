@@ -1,8 +1,8 @@
 .. toctree::
    :maxdepth: 1
 
-   2023-10-16-viral-data-webinar-series.rst
-   bacterial-bioinformatics-mooc-course.rst
-   2023-03-02-bv-brc-workshop-anl.rst
-   2023-01-02-bv-brc-workshop-uva.rst
-
+   2024/2024-08-23-bv-brc-renewal.rst
+   2024/2024-06-06-ASV.rst
+   2024/2024-05-22-h5n1-webinar.rst
+   2024/2024-04-08-bv-brc-workshop-subspecies.rst
+   2024/2024-03-21-ictv-webinar.rst

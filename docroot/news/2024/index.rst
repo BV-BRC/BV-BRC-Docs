@@ -2,6 +2,7 @@
    :maxdepth: 1
 
    2024-08-23-bv-brc-renewal.rst
+   2024-09-03-outbreak-webinars.rst
    2024-06-06-ASV.rst
    2024-05-22-h5n1-webinar.rst
    2024-04-08-bv-brc-workshop-subspecies.rst

@@ -6,10 +6,16 @@
         "link": "https://bv-brc.org/docs/news/2024/2024-08-23-bv-brc-renewal.html"
     },
     {
-        "title": "BV-BRC H5N1 Webinar",
-        "desc": "Watch the Recording now to see BV-BRC updates in response to H5N1 Outbreak.",
-        "img": "https://bv-brc.org/docs/_images/h5n1-2024-webinar-logo.png",
-        "link": "https://bv-brc.org/docs/news/2024/2024-05-22-h5n1-webinar.html"
+        "title": "BV-BRC Outbreak Webinars",
+        "desc": "Register for our fall outbreak webinars focused on MPXV and H5N1.",
+        "img": "https://bv-brc.org/docs/_images/fall_outbreak_webinars.png",
+        "link": "https://bv-brc.org/docs/news/2024/2024-09-03-outbreak-webinars.html"
+    },
+    {
+        "title": "BV-BRC Newsletters",
+        "desc": "Stay ahead in your research with the latest updates from the BV-BRC! Our newsletters bring you insights, tools, and resources to accelerate your work in bioinformatics and infectious disease research.",
+        "img": "https://www.bv-brc.org/docs/_images/2024-newsletters.png.png",
+        "link": "https://bv-brc.org/docs/news/2024/2024-08-27-newsletters.html"
     },
     {
         "title": "BV-BRC Quick Start Guides",

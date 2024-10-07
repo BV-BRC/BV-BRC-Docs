@@ -1,4 +1,4 @@
-# Small-molecule Docking Service
+# Small-Molecule Docking Service
 
 *Revised: August 8, 2024*
 
@@ -81,14 +81,14 @@ In this folder is a set of additional folders, one per ligand. In these folders 
 for the docking of the protein with the given ligand:
 
 * **result.csv** contains a table summarizing the results. The columns are as follows:
-  * **ident** Ligand identifier
-  * **rank** Rank of the pose as determined by DiffDock
-  * **score** Confidence score of the pose as determined by DiffDock
-  * **lig_sdf** The name of a SDF file containing the posed ligand
+  * **Ident** Ligand Identifier
+  * **Rank** Rank of the pose as determined by DiffDock
+  * **Score** The DiffDock output confidence score is assigned by DiffDock. This is referred to as the DiffDock Confidence score in the report. A lower confidence score indicates more confidence in the ligand protein docking successfully. This score, C, pertains to the pose of the molecule and ligand. If C is greater than 0 the pose is considered high confidence. If C is between -1.5 and 0 the pose is considered moderate confidence If C is below -1.5 the pose is considered low confidence. The above confidence guidelines pertain to protein ligand combinations of medium-sized proteins with small, drug-like molecules. This is what DiffDock had it the training set. For large ligands, large protein complexes, or unbound conformations, adjust these intervals downward.
+  * **lig_sdf** The name of A SDF file containing the posed ligand
   * **comb_pdb** The name of a PDB file containing the ligand and PDB structure composed together
-  * **CNNscore** The CNN score of the pose as determined by GNINA
-  * **CNNAffinity** The CNN affinity of the pose as determined by GNINA
-  * **Vinardo** The Vinardo score of the pose as determined by GNINA
+  * **CNN Score** CNN refers to a type of artificial intelligence called convolutional neural network (CNNs). The CNN Score gives a numerical value that represents how plausible is the binding pose is within the pocket based on the CNN model's evaluation. The evaluation is based on key features of protein-ligand interactions. The CNN score is a value between 0 and 1 that is used to rank the poses of the ligand, where a score of 1 denotes a perfect ligand pose.
+  * **CNN Affinity** CNN affinity is a hypothetical measurement of the strength of the binding interaction between the molecule and the target protein when docked as calculated by the central neural network described above. A higher affinity value indicates a greater chance of successful ligand docking at that pose.
+  * **Vinardo** The Vinardo score is an empirical score function that evaluate the binding pose with terms from Gaussian steric attractions, quadratic steric repulsions, Lennard-Jones potentials, electrostatic interactions, hydrophobic interactions, non-hydrophobic interactions, and non-directional hydrogen bonds. A lower Vinardo score indicates a better chance of ligand binding.
 
 * **<PDB_ID>_rank\<N>_confidence-\<CONF>.pdb** - The composed PDB file for rank N with confidence CONF
 * **rank\<N>.sdf** - A SDF file containing the top-ranked ligand pose

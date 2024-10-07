@@ -23,13 +23,21 @@ This service takes one protein and offers three options to provide small molecul
    
 ![Predefined Ligand Libraries](./images/ligand_library_selection_select_ligand_library.png "Predefined Ligand Libraries")
 
-* By using the **Predefined Ligand Libraries** option. We offer two ligand libraries. The approved compound library are compounds approved by at least one of various governing bodies for human use.  There are around two thousand compounds in this library. The experimental drug compound library is more robust, with nearly ten thousand compounds. The results from the ligand library will link out to [DrugBank Online](https://go.drugbank.com/).
+* By using the **Predefined Ligand Libraries** option. We offer three ligand libraries. The exemplar drug database is intended to be used in demonstrations. This is a small set of ligands that we will walk through in this tutorial. The approved compound library are compounds approved by at least one of various governing bodies for human use.  There are around two thousand compounds in this library. The experimental drug compound library is more robust, with nearly ten thousand compounds. The results from the ligand libraries will link out to [DrugBank Online](https://go.drugbank.com/).
 
 ![Select File of SMILES Strings](./images/ligand_library_selection_select_file_of_smiles.png "Select File of SMILES Strings")
 
- *  By using the **Select File of SMILES Strings** option. Here you may choose an existing
-file of SMILES strings from the workspace or upload a new file from your computer. The format
-is the same as the format used in the SMILES text box described above.
+ *  By using the **Select a workspace File of SMILES Strings** option. Here you may choose an existing workspace file of SMILES strings from the workspace or upload a new file from your computer. This file can be fromatted in two ways. The file can contain the ID, name and SMILE string seperated by tabs.
+   ```
+   DB00135   Tyrosine    N[C@@H](CC1=CC=C(O)C=C1)C(O)=O
+   DB00515   Cisplatin    [H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H]
+```
+Or, the file can contain solely the ID and the SMILE seperated by tabs.
+For example:
+```
+    Tyrosine    N[C@@H](CC1=CC=C(O)C=C1)C(O)=O
+    Cisplatin    [H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H]
+```
 
 ![Enter SMILES Strings](./images/ligand_library_selection_enter_smile_strings.png "Enter SMILES Strings")
 
@@ -37,8 +45,8 @@ is the same as the format used in the SMILES text box described above.
 box, one per line. If you wish to specify identifiers for the SMILES strings these may be provided before the SMILES string.
 For example:
 ```
-    coffee CN1C=NC2=C1C(=O)N(C(=O)N2C)C
-    sugar  C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O
+    Tyrosine    N[C@@H](CC1=CC=C(O)C=C1)C(O)=O
+    Cisplatin    [H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H]
 ```
 
 ## Parameters

@@ -7,7 +7,7 @@ poses for a given protein structure and a set of small-molecule ligands.  This s
 ## Locating the Small Molecule Ligand Docking Service
 The **Docking** submenu option under the **"SERVICES"** main menu (Protein Tools category) opens the Docking Service input form. *Note: You must be logged into BV-BRC to use this service.*
 
-![Docking menu option](./images/bv_services_menu.png "Docking menu option")
+![Docking menu option](./images/updated_services_menu.png "Docking menu option")
 
 Below is a screenshot of the Docking Service landing page, as well as a summary of customizable parameters.
 

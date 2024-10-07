@@ -1,6 +1,6 @@
 # Small Molecule Ligand Docking Service
 
-*Revision: 10/7/2024*
+*Revision: 10/07/2024*
 The small molecule docking service uses the DiffDock method of molecular docking to compute a set of predicted
 poses for a given protein structure and a set of small-molecule ligands.  This service utilizes a diffusion model, [DiffDock](https://arxiv.org/abs/2210.01776) to compute a set of poses for a target protein structure and a set of small-molecule ligands.  The aim is to simulate and analyze potential binding scenarios “in silico”. Offering a crucial advantage by predicting the success of protein ligand combinations ahead of costly and time-consuming in vivo experiments.
 
@@ -27,12 +27,12 @@ This service takes one protein and offers three options to provide small molecul
 
 ![Select File of SMILES Strings](./images/ligand_library_selection_select_file_of_smiles.png "Select File of SMILES Strings")
 
- *  By using the **Select a workspace File of SMILES Strings** option. Here you may choose an existing workspace file of SMILES strings from the workspace or upload a new file from your computer. This file can be fromatted in two ways. The file can contain the ID, name and SMILE string seperated by tabs.
+ *  By using the **Select a workspace File of SMILES Strings** option. Here you may choose an existing workspace file of SMILES strings from the workspace or upload a new file from your computer. This file can be formatted in two ways. The file can contain the ID, name and SMILE string separated by tabs.
    ```
    DB00135   Tyrosine    N[C@@H](CC1=CC=C(O)C=C1)C(O)=O
    DB00515   Cisplatin    [H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H]
 ```
-Or, the file can contain solely the ID and the SMILE seperated by tabs.
+Or the file can contain solely the ID, and the SMILE separated by tabs.
 For example:
 ```
     Tyrosine    N[C@@H](CC1=CC=C(O)C=C1)C(O)=O
@@ -58,9 +58,9 @@ For example:
 
 2. The report begins with a brief description of the service, analysis workflow and the top results table.
 
-3. The top results table displays all of the small molecules that DiffDock successfully bound to the structure. A score below negative eight (-8) is considred a benchmark where binding is likely significant. This table is sorted by Vinardo score which is one of the leading score consideration.
+3. The top results table displays all of the small molecules that DiffDock successfully bound to the structure. A score below negative eight (-8) is considered a benchmark where binding is likely significant. This table is sorted by Vinardo score which is one of the leading score considerations.
 
-4. There are hyperlinks embedded in the table. This means that you can click on the link and it will take you to more relevant information.
+4. There are hyperlinks embedded in the table. This means that you can click on the link, and it will take you to more relevant information.
 
 5. Clicking the ligand ID should jump you down to that specific ligand result.
 
@@ -73,7 +73,7 @@ For example:
 9. The SMILES column displays the raw SMILE string. SMILE stands for the “Simplified Molecular Input Line Entry System,” which is used to translate a chemical's three-dimensional structure into a string of symbols that is easily understood by computer software.
 
 ### Interacting with the Structure Viewer 
-The **protein ligand viewer** is based on Mol* (/'mol-star/) which  There are many features in the  viewer. This document will cover a few key features but explore all the features available. The Structure Tools panel is open on the right hand side. The first line is the .PDB protein ligand file. The naming convention is protein name followed by ranking and confidence level according to diff dock.
+The **protein ligand viewer** is based on Mol* (/'mol-star/) which  There are many features in the  viewer. This document will cover a few key features but explore all the features available. The Structure Tools panel is open on the right-hand side. The first line is the .PDB protein ligand file. The naming convention is protein name followed by ranking and confidence level according to diff dock.
 
 1. At any table in the report click the "Structure" hyperlink to open a new tab and show the protein ligand docking configuration in our protein viewer.
 
@@ -107,7 +107,7 @@ The **protein ligand viewer** is based on Mol* (/'mol-star/) which  There are ma
 6. We encourage you take your time reviewing the features of the protein viewer.
 
 ### Interpreting the Report Values 
-Jumping back to the report tab. Below the top ligand table in the "Per-ligand Details" there is one subtable for each successful protein ligand combination. The values in the table are interpreted the same way in both the top ligand table and the sub ligand tables.  It can be difficult to compare the different complexes and protein confirmation but here is a rough guide. 
+Jumping back to the report tab. Below the top ligand table in the "Per-ligand Details" there is one table for each successful protein ligand combination. The values in the table are interpreted the same way in both the top ligand table and the sub ligand tables.  It can be difficult to compare the different complexes and protein confirmation but here is a rough guide. 
 
 * **Vinardo**: An empirical score function that evaluate the binding pose with terms from Gaussian steric attractions, quadratic steric repulsions, Lennard-Jones potentials, electrostatic interactions, hydrophobic interactions, non-hydrophobic interactions, and non-directional hydrogen bonds. A lower Vinardo score indicates a better chance of ligand binding.
   
@@ -117,7 +117,7 @@ Jumping back to the report tab. Below the top ligand table in the "Per-ligand De
     If C is below -1.5 the pose is considered **low** confidence. 
 The above confidence guidelines pertain to protein ligand combinations of medium-sized proteins with small, drug-like molecules. This is what DiffDock had it the training set. For large ligands, large protein complexes, or unbound conformations, adjust these intervals downward.
   
-* **CNN Score**: CNN refers to a type of artificial intelligence called convolutional neural network (CNNs). The CNN Score gives a numerical value that represents how plausible is the binding pose is within the pocket based on the CNN model's evaluation. The evalulation is based on key features of protein-ligand interactions. The CNN score is a value between 0 and 1 that is used to rank the poses of the ligand, where a score of 1 denotes a perfect ligand pose.
+* **CNN Score**: CNN refers to a type of artificial intelligence called convolutional neural network (CNNs). The CNN Score gives a numerical value that represents how plausible is the binding pose is within the pocket based on the CNN model's evaluation. The evaluation is based on key features of protein-ligand interactions. The CNN score is a value between 0 and 1 that is used to rank the poses of the ligand, where a score of 1 denotes a perfect ligand pose.
 
 * **CNN Affinity**: CNN affinity is a hypothetical measurement of the strength of the binding interaction between the molecule and the target protein when docked as calculated by the central neural network described above. A higher affinity value indicates a greater chance of successful ligand docking at that pose.
 
@@ -126,7 +126,7 @@ The above confidence guidelines pertain to protein ligand combinations of medium
     * rank1.SDF file for the top ranked ligand.
     * Results.CSV which has the same data displayed in the report.
 14. Back in the report. The next section will show any ligands that the service was unable to bind with the input protein. These sections only populate if there are ligands that fall into either category below.
-    * RDKit Non-compliant Ligands: Ligands that appear in this table did not pass SMILE string validation preformed by [RDKit](https://rdkit.org/). This is a collection of cheminformatics and machine-learning software. RDKit validates SMILE strings according to parsing and sanitization.  For parsing, RDKit uses grammar defined in the [Smile Parse](https://github.com/rdkit/rdkit/tree/master/Code/GraphMol/SmilesParse) module. Which closely follows guidelines established in [OpenSmiles](http://opensmiles.org/opensmiles.html). A detailed explanation of sanitization is available [RDKit Book](https://www.rdkit.org/docs/RDKit_Book.html) under the Molecular Sanitization header. These ligands are also listed in the file "invalid_smile_strings.txt" in the landing directory for your job.
+    * RDKit Non-compliant Ligands: Ligands that appear in this table did not pass SMILE string validation by [RDKit](https://rdkit.org/). This is a collection of cheminformatics and machine-learning software. RDKit validates SMILE strings according to parsing and sanitization.  For parsing, RDKit uses grammar defined in the [Smile Parse](https://github.com/rdkit/rdkit/tree/master/Code/GraphMol/SmilesParse) module. Which closely follows guidelines established in [OpenSmiles](http://opensmiles.org/opensmiles.html). A detailed explanation of sanitization is available [RDKit Book](https://www.rdkit.org/docs/RDKit_Book.html) under the Molecular Sanitization header. These ligands are also listed in the file "invalid_smile_strings.txt" in the landing directory for your job.
     * DiffDock Incompatible Ligands: Ligands in this table did not dock to the protein. This could be because they are incompatible with the protein or the current version of DiffDock.  Another reason could be the available memory during your job. To test this, please submit a new job with each ligand individually or in smaller groups. These ligands are also described in the file "bad-ligands.txt" in the protein subdirectory for your job.
     
 If you have questions about failed ligands, we encourage you to reach out to a team member by either reporting the job or contacting us by clicking "About" in our header then the dropdown option, "Contact Us".

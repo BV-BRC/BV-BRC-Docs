@@ -19,7 +19,17 @@ This service takes one protein and offers three options to provide small molecul
 ![Select PDB](./images/pdb_selection.png "Select PDB")
 1. Select a protein using the PDB identifier from the drop down or start typing a PBD identifier and the dropdown options will populate according to your text entry.
 2. You have the option to click "Preview PBD" button to view the protein structure ahead of submitting the job.
-3. We offer three options for providing ligand libraries. Ligand libraries are used to describe the options to enter 
+3. We offer three options for providing ligand libraries. Ligand libraries are used to describe the options to enter
+   
+![Predefined Ligand Libraries](./images/ligand_library_selection_select_ligand_library.png "Predefined Ligand Libraries")
+
+* By using the **Predefined Ligand Libraries** option. We offer two ligand libraries. The approved compound library are compounds approved by at least one of various governing bodies for human use.  There are around two thousand compounds in this library. The experimental drug compound library is more robust, with nearly ten thousand compounds. The results from the ligand library will link out to [DrugBank Online](https://go.drugbank.com/).
+
+![Select File of SMILES Strings](./images/ligand_library_selection_select_file_of_smiles.png "Select File of SMILES Strings")
+
+ *  By using the **Select File of SMILES Strings** option. Here you may choose an existing
+file of SMILES strings from the workspace or upload a new file from your computer. The format
+is the same as the format used in the SMILES text box described above.
 
 ![Enter SMILES Strings](./images/ligand_library_selection_enter_smile_strings.png "Enter SMILES Strings")
 
@@ -30,16 +40,6 @@ For example:
     coffee CN1C=NC2=C1C(=O)N(C(=O)N2C)C
     sugar  C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O
 ```
-
-![Select File of SMILES Strings](./images/ligand_library_selection_select_file_of_smiles.png "Select File of SMILES Strings")
-
- *  By using the **Select File of SMILES Strings** option. Here you may choose an existing
-file of SMILES strings from the workspace or upload a new file from your computer. The format
-is the same as the format used in the SMILES text box described above.
-
-![Predefined Ligand Libraries](./images/ligand_library_selection_select_ligand_library.png "Predefined Ligand Libraries")
-
-* By using the **Predefined Ligand Libraries** option. We offer two ligand libraries. The approved compound library are compounds approved by at least one of various governing bodies for human use.  There are around two thousand compounds in this library. The experimental drug compound library is more robust, with nearly ten thousand compounds. The results from the ligand library will link out to [DrugBank Online](https://go.drugbank.com/).
 
 ## Parameters
 1. As you would with our other services, please select an output folder and unique output name where the job results will populate.

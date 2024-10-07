@@ -50,7 +50,7 @@ For example:
 ```
 
 ## Parameters
-1. As you would with our other services, please select an output folder and unique output name where the job results will populate.
+As you would with our other services, please select an output folder and unique output name where the job results will populate.
 
 ## Results Review 
 ### Interacting with the Report 
@@ -121,11 +121,11 @@ The above confidence guidelines pertain to protein ligand combinations of medium
 
 * **CNN Affinity**: CNN affinity is a hypothetical measurement of the strength of the binding interaction between the molecule and the target protein when docked as calculated by the central neural network described above. A higher affinity value indicates a greater chance of successful ligand docking at that pose.
 
-13. Click on the hyperlinked ligand ID will open a new tab taking you directly to the specific directory for that ligand in your workspace. Each ligand specific directory has the following:
+7. Click on the hyperlinked ligand ID will open a new tab taking you directly to the specific directory for that ligand in your workspace. Each ligand specific directory has the following:
     * PDB files for each ligand protein combination rank 1-10.
     * rank1.SDF file for the top ranked ligand.
     * Results.CSV which has the same data displayed in the report.
-14. Back in the report. The next section will show any ligands that the service was unable to bind with the input protein. These sections only populate if there are ligands that fall into either category below.
+8. Back in the report. The next section will show any ligands that the service was unable to bind with the input protein. These sections only populate if there are ligands that fall into either category below.
     * RDKit Non-compliant Ligands: Ligands that appear in this table did not pass SMILE string validation by [RDKit](https://rdkit.org/). This is a collection of cheminformatics and machine-learning software. RDKit validates SMILE strings according to parsing and sanitization.  For parsing, RDKit uses grammar defined in the [Smile Parse](https://github.com/rdkit/rdkit/tree/master/Code/GraphMol/SmilesParse) module. Which closely follows guidelines established in [OpenSmiles](http://opensmiles.org/opensmiles.html). A detailed explanation of sanitization is available [RDKit Book](https://www.rdkit.org/docs/RDKit_Book.html) under the Molecular Sanitization header. These ligands are also listed in the file "invalid_smile_strings.txt" in the landing directory for your job.
     * DiffDock Incompatible Ligands: Ligands in this table did not dock to the protein. This could be because they are incompatible with the protein or the current version of DiffDock.  Another reason could be the available memory during your job. To test this, please submit a new job with each ligand individually or in smaller groups. These ligands are also described in the file "bad-ligands.txt" in the protein subdirectory for your job.
     

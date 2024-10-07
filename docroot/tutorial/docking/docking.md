@@ -25,7 +25,7 @@ This service takes one protein and offers three options to provide small molecul
 
 * By using the **Predefined Ligand Libraries** option. We offer two ligand libraries. The approved compound library are compounds approved by at least one of various governing bodies for human use.  There are around two thousand compounds in this library. The experimental drug compound library is more robust, with nearly ten thousand compounds. The results from the ligand library will link out to [DrugBank Online](https://go.drugbank.com/).
 
-![Select File of SMILES Strings](./images/ligand_library_selection_enter_smile_strings.png "Select File of SMILES Strings")
+![Select File of SMILES Strings](./images/ligand_library_selection_select_file_of_smiles.png "Select File of SMILES Strings")
 
  *  By using the **Select File of SMILES Strings** option. Here you may choose an existing
 file of SMILES strings from the workspace or upload a new file from your computer. The format

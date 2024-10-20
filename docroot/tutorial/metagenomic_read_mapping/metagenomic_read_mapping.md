@@ -11,10 +11,10 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 ## Locating the Metagenomic Read Mapping App
 
 1.	Click on the Services tab at the top of the page, and then click on Metagenomic Read Mapping. 
-![Figure 1](./images/Picture1.png "Figure 1")
+![Figure 1](./images/Figure_1_Service-tab-MRM.png "Figure 1")
 
 2.	This will open the landing page for the service. 
-![Figure 2](./images/Picture2.png "Figure 2")
+![Figure 2](./images/Figure_2_MRM-landing-page.png "Figure 2")
 
 ## Input File
 
@@ -28,22 +28,22 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly/assembly) for instructions on submitting reads from the Sequence Read Archive. 
 
 1.	Once read files have been uploaded or located, the files must be transferred prior to the job beginning.  Click on the icon of an arrow within a circle. This will move your file into the **Selected libraries** box. 
-![Figure 3](./images/Picture3.png "Figure 3")
+![Figure 3](./images/Figure_3-Move-to-Selected.png "Figure 3")
 
 ## Parameters
 
-1.	1.	The default radio dial position is **Predefined List**.  New improvements include the ability to compare to a **Fasta File** or a **Feature Group**, which can be selected by clicking on the radial button in front of the type.
-![Figure 4](./images/CHANGE.png "Figure 4")
+1.	The default radio dial position is **Predefined List**.  New improvements include the ability to compare to a **Fasta File** or a **Feature Group**, which can be selected by clicking on the radial button in front of the type.
+![Figure 4](./images/Figure_4-Gene_Set_Type.png "Figure 4")
 
 
 2.	If **Predefined List** is selected, clicking on the down arrow at the end of the text box underneath **Predefined Gene Set Name** allows a selection of  antimicrobial resistance genes or virulence factors.  The Comprehensive Antibiotic Resistance Database (**CARD**)[2] is the current gold standard for antimicrobial resistance genes. It is a manually curated resource containing high quality reference data on the molecular basis of antimicrobial resistance (AMR) that emphasizes genes, proteins and mutations that are involved in AMR. The Virulence Factor Database (**VFDB**)[3] is the current gold standard reference source for virulence factors, providing up-to-date knowledge of virulence factors from various bacterial pathogens. Select either CARD or VFDB as the gene set. If **Fasta File** or **Feature Group** was selected, one can navigate to the workspace and make a selection or type the name of the file or group in the text box to find the preferred dataset.
-![Figure 23](./images/CHANGE.png "Figure 23")
+![Figure 23](./images/Figure_5-Gene_Set-4.png "Figure 23")
 
 3.	Next, an **Output Folder **must be selected, either by navigating to it in the workspace, or starting to type the name to see  all the folders that have matching text. Clicking on the desired folder will populate the text box with its name.
 ![Figure 23](./images/CHANGE.png "Figure 23")
   
 4.	A name for the job must be entered in the text box under **Output Name**. 
-![Figure 23](./images/CHANGE.png "Figure 23")
+![Figure 23](./images/Figure_7-Job_name.png "Figure 23")
 
 By selecting the radio dial button: Feature Group, reads can be mapped to a previously created groups of features (genes or proteins). There are several ways to navigate to the feature group. Clicking on the drop-down box will show the feature groups, with the most recently created groups shown first. Clicking on the desired group will fill the box with that name.
 
@@ -60,8 +60,8 @@ image_fasta_file_radiobutton
 
 ## Submitting the Metagenomic Read Mapping job
 
-1.	After the reads and parameters have been selected, the Submit button turns blue and the job will be submitted once clicked. 
-![Figure 7](./images/CHANGE.png "Figure 7")
+1.	After the reads and parameters have been selected, the **Submit** button turns blue and the job will be submitted once clicked. 
+![Figure 7](./images/Figure_8-Submit.png "Figure 7")
 
 2.	A successful submission will generate a message indicating that the job has been queued. 
 ![Figure 8](./images/Picture8.png "Figure 8")

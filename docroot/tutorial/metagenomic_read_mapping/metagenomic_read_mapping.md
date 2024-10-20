@@ -39,24 +39,11 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 2.	If **Predefined List** is selected, clicking on the down arrow at the end of the text box underneath **Predefined Gene Set Name** allows a selection of  antimicrobial resistance genes or virulence factors.  The Comprehensive Antibiotic Resistance Database (**CARD**)[2] is the current gold standard for antimicrobial resistance genes. It is a manually curated resource containing high quality reference data on the molecular basis of antimicrobial resistance (AMR) that emphasizes genes, proteins and mutations that are involved in AMR. The Virulence Factor Database (**VFDB**)[3] is the current gold standard reference source for virulence factors, providing up-to-date knowledge of virulence factors from various bacterial pathogens. Select either CARD or VFDB as the gene set. If **Fasta File** or **Feature Group** was selected, one can navigate to the workspace and make a selection or type the name of the file or group in the text box to find the preferred dataset.
 ![Figure 23](./images/Figure_5-Gene_Set-4.png "Figure 23")
 
-3.	Next, an **Output Folder **must be selected, either by navigating to it in the workspace, or starting to type the name to see  all the folders that have matching text. Clicking on the desired folder will populate the text box with its name.
-![Figure 23](./images/CHANGE.png "Figure 23")
+3.	Next, an **Output Folder** must be selected, either by navigating to it in the workspace, or starting to type the name to see  all the folders that have matching text. Clicking on the desired folder will populate the text box with its name.
+![Figure 5](./images/Picture5.png "Figure 5")
   
 4.	A name for the job must be entered in the text box under **Output Name**. 
 ![Figure 23](./images/Figure_7-Job_name.png "Figure 23")
-
-By selecting the radio dial button: Feature Group, reads can be mapped to a previously created groups of features (genes or proteins). There are several ways to navigate to the feature group. Clicking on the drop-down box will show the feature groups, with the most recently created groups shown first. Clicking on the desired group will fill the box with that name.
-
-
-By selecting the radio dial button: Fasta File, reads can be mapped to a fasta file describing an dna sequence. The file must be present in BV-BRC, which would be located by entering the name in the text box, clicking on the drop-down box, or navigating within the workspace. Inorder to select a file for this service the file type must be specified as one of our fasta types (aligned_dna_fasta, or feature_dna_fasta).
-image_fasta_file_radiobutton
-![Figure 22](./images/image_fasta_file_radiobutton.png "Figure 22")
-
-2.	A folder must be selected for the Metagenomic Read Mapping job. Begin typing a name in the text box underneath **Output Folder** will show all folders that match that text, or click on the down arrow to show recent folders, or clicking on the folder icon at the end of the text box will open a pop-up window where all folders can be viewed.  Clicking on the desired folder will populate the text box with its name. 
-![Figure 5](./images/Picture5.png "Figure 5")
-
-3.	A name for the job must be entered in the text box under **Output Name**.  
-![Figure 6](./images/Picture6.png "Figure 6")
 
 ## Submitting the Metagenomic Read Mapping job
 

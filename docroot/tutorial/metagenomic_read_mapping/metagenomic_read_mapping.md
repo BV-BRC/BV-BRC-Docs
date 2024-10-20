@@ -1,6 +1,6 @@
 # Metagenomic Read Mapping
 
-*Revised: 2/24/2023*
+*Revised: 20 October 2024*
 
 The Metagenomic Read Mapping Service uses KMA (k-mer alignment[1]), to align reads against antibiotic resistance genes or virulence factors. KMA maps raw reads directly against these databases and uses k-mer seeding to speed up mapping and the Needleman-Wunsch algorithm to accurately align extensions from k-mer seeds. Software for KMA was downloaded at the following location: https://bitbucket.org/genomicepidemiology/kma.
 
@@ -32,11 +32,21 @@ Please refer to the [Genome Assembly Service tutorial](/tutorial/genome_assembly
 
 ## Parameters
 
-1.	The default radio dial button position is Predefined Gene Set.  Select between the two available predefined gene sets, click on the down arrow at the end of the text box under Predefined Gene Set Name to see the possible selections. The Metagenomic Mapping Read service has two gene sets to choose from. The Comprehensive Antibiotic Resistance Database (**CARD**)[2] is the current gold standard for antimicrobial resistance genes. It is a manually curated resource containing high quality reference data on the molecular basis of antimicrobial resistance (AMR) that emphasizes genes, proteins and mutations that are involved in AMR. The Virulence Factor Database (**VFDB**)[3] is the current gold standard reference source for virulence factors, providing up-to-date knowledge of virulence factors from various bacterial pathogens. Select either CARD or VFDB as the gene set. 
-![Figure 4](./images/picture4_radiodials.png "Figure 4")
+1.	1.	The default radio dial position is **Predefined List**.  New improvements include the ability to compare to a **Fasta File** or a **Feature Group**, which can be selected by clicking on the radial button in front of the type.
+![Figure 4](./images/CHANGE.png "Figure 4")
+
+
+2.	If **Predefined List** is selected, clicking on the down arrow at the end of the text box underneath **Predefined Gene Set Name** allows a selection of  antimicrobial resistance genes or virulence factors.  The Comprehensive Antibiotic Resistance Database (**CARD**)[2] is the current gold standard for antimicrobial resistance genes. It is a manually curated resource containing high quality reference data on the molecular basis of antimicrobial resistance (AMR) that emphasizes genes, proteins and mutations that are involved in AMR. The Virulence Factor Database (**VFDB**)[3] is the current gold standard reference source for virulence factors, providing up-to-date knowledge of virulence factors from various bacterial pathogens. Select either CARD or VFDB as the gene set. If **Fasta File** or **Feature Group** was selected, one can navigate to the workspace and make a selection or type the name of the file or group in the text box to find the preferred dataset.
+![Figure 23](./images/CHANGE.png "Figure 23")
+
+3.	Next, an **Output Folder **must be selected, either by navigating to it in the workspace, or starting to type the name to see  all the folders that have matching text. Clicking on the desired folder will populate the text box with its name.
+![Figure 23](./images/CHANGE.png "Figure 23")
+  
+4.	A name for the job must be entered in the text box under **Output Name**. 
+![Figure 23](./images/CHANGE.png "Figure 23")
 
 By selecting the radio dial button: Feature Group, reads can be mapped to a previously created groups of features (genes or proteins). There are several ways to navigate to the feature group. Clicking on the drop-down box will show the feature groups, with the most recently created groups shown first. Clicking on the desired group will fill the box with that name.
-![Figure 23](./images/image_feature_group_radiobutton.png "Figure 23")
+
 
 By selecting the radio dial button: Fasta File, reads can be mapped to a fasta file describing an dna sequence. The file must be present in BV-BRC, which would be located by entering the name in the text box, clicking on the drop-down box, or navigating within the workspace. Inorder to select a file for this service the file type must be specified as one of our fasta types (aligned_dna_fasta, or feature_dna_fasta).
 image_fasta_file_radiobutton
@@ -51,7 +61,7 @@ image_fasta_file_radiobutton
 ## Submitting the Metagenomic Read Mapping job
 
 1.	After the reads and parameters have been selected, the Submit button turns blue and the job will be submitted once clicked. 
-![Figure 7](./images/Picture7.png "Figure 7")
+![Figure 7](./images/CHANGE.png "Figure 7")
 
 2.	A successful submission will generate a message indicating that the job has been queued. 
 ![Figure 8](./images/Picture8.png "Figure 8")
@@ -80,15 +90,15 @@ image_fasta_file_radiobutton
 
 5.	This page shows KMA’s standard sample report format. The fields of the output, from left-to-right, are as follows:
    * **Template**: Identifier of the template (reference gene) sequence that match the query reads
-   * **Function**: Template gene function
-   * **Genome**: Genome that contains template gene
-   * **Score**: Global alignment score of the template
-   * **Expected**: Expected alignment score if all mapping reads were smeared over all templates in the database
-   * **Template_length**: Template gene length in nucleotides
-   * **Template_Identity**: Percent identity between the query and template sequence, over the length of the matching template sequence
-   * **Template_Coverage**: Percent of the template that is covered by the query
-   * **Query_Identity**: Percent identity between the query and template sequence, over the length of the matching query sequence
-   * **Query_Coverage**: Length of the matching query sequence divided by the template length
+   * **Function**: Template gene function that is assigned by either the CARD or VFDB databases, or in the Feature Group or Fasta file submitted.
+   * **Genome**: The genome that contains template gene.  The name is a hyperlink, and clicking on it will open its Genome Landing page in BV-BRC.
+   * **Score**: Global alignment score of the template.  This is the ConClave score (accumulated alignment score)[1], from all reads that were accepted to match this template.
+   * **Expected**: Expected alignment score if all mapping reads were were normally distributed over the entire database.
+   * **Template_length**: Template gene length in nucleotides.
+   * **Template_Identity**: The number of bases in the consensus sequence that are identical to the template sequence divided by the template length.
+   * **Template_Coverage**: The percentage of bases in the template that is covered by the consensus sequence. A template coverage above 100% indicates the presence of more insertions than deletions.
+   * **Query_Identity**: Percent identity between the query and template sequence, over the length of the matching query sequence. .  It is the number of bases in the template sequence that are identical to the consensus sequence divided by the length of the consensus.
+   * **Query_Coverage**: Length of the matching query sequence divided by the template length. A query coverage above 100% indicates the presence of more deletions than insertions.
    * **Depth**: Number of times the template has been covered by the query.
    * **q_value**: Quantile from McNemars test, to test whether the current template is a significant hit.
    * **p_value**: p-value corresponding to the obtained q_value 
@@ -103,13 +113,13 @@ image_fasta_file_radiobutton
 8.	To see an alignment details, click on the **kma.aln** row and then on the **View** icon.  This will open a text file that shows the alignment between the template and the submitted query sequence. 
 ![Figure 18](./images/Picture18.png "Figure 18")
 
-9.	The **kma.frag.gz** file should be downloaded. It has mapping information on each mapped read, and the columns found in the download are as follows: read, number of equally well mapping templates, mapping score, start position, end position (w.r.t. template), the chosen template. 
+9.	The **kma.frag.gz** file should be downloaded. It has mapping information on each mapped read, and the columns found in the download are as follows: read, number of equally well mapping templates, mapping score, start position, end position (with respect to the template), the chosen template. 
 ![Figure 19](./images/Picture19.png "Figure 19")
 
-10.	The **kma.fsa** can be viewed in the workspace. Select the row and click on the **View** icon.  It shows the consensus sequence drawn from the alignment. 
+10.	The KMA consensus fasta file (**kma.fsa**) can be viewed in the workspace. Select the row and click on the **View** icon.  It shows the consensus sequence drawn from the alignment. 
 ![Figure 20](./images/Picture20.png "Figure 20")
 
-11.	The **kma.res** file can be downloaded or viewed in the workspace. Click on the row and click on the **View** icon.  This is the text file that matches the **MetagenomicReadMapping.html** file. 
+11.	The KMA results (**kma.res**) file can be downloaded or viewed in the workspace. Click on the row and click on the **View** icon.  This is the text file that matches the **MetagenomicReadMapping.html** file. 
 ![Figure 21](./images/Picture21.png "Figure 21")
 
 ## References 

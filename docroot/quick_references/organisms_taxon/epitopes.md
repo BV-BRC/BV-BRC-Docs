@@ -1,7 +1,7 @@
 # Epitopes
 
 ## Overview
-The Epitope Tab provides a comprehensive table of all annotated epitopes (linear, discontinuous, multi-chain, etc.) across selected proteins or user-defined protein groups. From this page, epitopes can be sorted, filtered, grouped, and downloaded for further analysis.
+The Epitope Tab provides a comprehensive list of all annotated epitopes (linear, discontinuous, multi-chain, etc.) for given genome or taxa. The experimentally characterized epitopes are gathered from the Immune Epitope Database (<a href="https://www.iedb.org/" target="_blank">IEDB</a>), mapped to corresponding proteins in BV-BRC using <a href="https://www.uniprot.org/help/id_mapping" target="_blank">UniProt ID Mapping</a> and exact sequence matching. The epitopes are presented as an interactive table and can be sorted, filtered, grouped, and downloaded for further analysis.
 
 ## See also
   * [Genome Annotations](/quick_references/organisms_taxon/genome_annotations)
@@ -38,3 +38,8 @@ After selecting one or more of the features by clicking the checkbox beside the 
 * **Download:**  Downloads the selected items (rows).
 * **Copy:** Copies the selected items to the clipboard.
 More details are available in the [Action Buttons](/quick_references/action_bar) Quick Reference Guide.
+
+## References
+1. The Immune Epitope Database (IEDB): <a href="https://www.iedb.org/" target="_blank">https://www.iedb.org/</a>
+2. Vita R, Mahajan S, Overton JA, Dhanda SK, Martini S, Cantrell JR, Wheeler DK, Sette A, Peters B. The Immune Epitope Database (IEDB): 2018 update. Nucleic Acids Res. 2018 Oct 24. doi: 10.1093/nar/gky1006. PMID: 30357391; PMCID: PMC6324067
+

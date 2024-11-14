@@ -1,12 +1,12 @@
 # Metagenomic Binning Service
 
-*Revised: 09 August 2024*
+*Revised: 14 November 2024*
 
 The BV-BRC metagenomic binning service utilizes the BV-BRC database to furnish a large, diverse set of reference genomes. This is a service for supervised extraction and annotation of high-quality, near-complete genomes from reads or metagenomically-derived contigs [1]. Reads are assembled using either MetaSPAdes [2] or MEGAHIT [3].  Each set of binned contigs represents a draft genome that will be annotated by RASTtk [4] for bacteria, or with VIGOR4 [5,6] or  Mat_Peptide [7] for viruses. A structured-language binning report is provided containing quality measurements and taxonomic information about the contig bins. The BV-BRC metagenome binning service emphasizes extraction of high-quality genomes for downstream analysis using other BV-BRC tools and services.
 
 ![Figure 1](./images/Picture1.png "Figure 1")
 
-Metagenomic binning jobs that include assembly that, on average, take an hour to complete.  However, the BV-BRC assembly service is quite popular, and there is often a long queue resulting in jobs taking 24 hours to complete.  If the size of the read file is large (Gb) or the queue is long, results could take several days.  
+Metagenomic binning jobs that include assembly take, on average, take an hour to complete.  However, the BV-BRC assembly service is quite popular, and there is often a long queue resulting in jobs taking 24 hours to complete.  If the size of the read file is large (Gb) or the queue is long, results could take several days.  
 
 The code for the binning script is located at:
 [https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-checkv.pl](https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-checkv.pl)
@@ -16,7 +16,7 @@ The code for the RASTtk pipeline is located at:
 
 ## Locating the Metagenomic Binning Service App  
 
-1.	1.	At the top of any BV-BRC page, click on the **Tools & Services** tab.  Click on **Metagenomic Binning** in the drop-down box, underneath **Metagenomics**.
+1.	At the top of any BV-BRC page, clicking on the **Tools & Services** tab.  Click on **Metagenomic Binning** in the drop-down box, underneath **Metagenomics**.
 ![Figure Service_tab_MB](./images/Service_tab_MB.png "Figure Service_tab_MB")
 
 3.	This will open up the Metagenomic Binning Service landing page.  The default page shows starting with a read file.  
@@ -36,13 +36,13 @@ Reads must first be uploaded to the BV-BRC workspace, and once there, they can b
 
 2.	Clicking on the **down arrow** at the end of the text box will open a drop-down box that shows the reads that have been selected most recently (top of list) to less frequently (down).  Clicking on the row that has the correct read will select those reads.
  
-3.	Beginning to type the name of the read in the text box will open a drop-down box that shows reads matching that text.  Clicking on the row that has the correct read will select those reads.
+3.	Beginning to type the name of the read in the text box will open a drop-down box that shows reads ching that text.  Clicking on the row that has the correct read will select those reads.
 
 4.	Multiple read pairs or single reads can be analyzed, but they must first be moved to the **Selected Libraries** box. Click on the **arrow** to the right of the selected reads.  This will move the file into the **Selected Libraries** box. 
 ![Figure Move_selected_libraries](./images/Move_selected_libraries.png "Figure Move_selected_libraries")
 
-5.	Clicking on the information icon (**i**) will open a pop-up window that shows the reads selected, as well as where they are located in the workspace.
-![Figure Information_icon](./images/Information_icon.png "Figure Information_icon")
+5.	Clicking on the inforion icon (**i**) will open a pop-up window that shows the reads selected, as well as where they are located in the workspace.
+![Figure Inforion_icon](./images/Information_icon.png "Figure Information_icon")
 
 6.	Note that there is an **S** or **P** preceding the reads designates if they are single or paired.  Reads can be removed by clicking on the **X** at the end of the row where they are listed.
 ![Figure Remove_reads](./images/Remove_reads.png "Figure Remove_reads")
@@ -82,7 +82,8 @@ Parameters must be selected prior to the submission of the Metagenomic Binning j
 
 2.	**Organisms of Interest** must be selected.  Clicking on **Bacteria/Archaea** will only show those results, clicking on **Viruses** will only show those, and clicking on **Both** will show all of those results.  
     * If **Bacteria/Archaea** are selected, the RASTtk[4] annotation pipeline will be used. The code for the RASTtk pipeline is located at https://github.com/SEEDtk/p3_code/blob/master/scripts/p3x-process-bins_generate.pl
-    * Selection of **Viruses** will use one of two annotation pipelines. The first pipeline is VIGOR4[5,6].  (The software for the VIGOR pipeline is located at: https://github.com/JCVenterInstitute/VIGOR4). If VIGOR4 does not find a virus match, the MatPeptide[7] pipeline is used.
+    * Selection of **Viruses** will use one of two annotation pipelines. The first pipeline is VIGOR4[5,6].  (The software for the VIGOR pipeline is located at: https://github.com/JCVenterInstitute/VIGOR4). If VIGOR4 does not find a virus match, the MatPeptide[7] pipeline is used. (The software for the Mat_peptide pipeline is available at:  https://github.com/VirusBRC/vipr_mat_peptide)
+
     * When selecting **Both** the bacterial/archaeal and viral pipelines will both be run.  The workflow for this strategy is available at the top of this tutorial.
 
 ![Figure 31](./images/Picture31.png "Figure 31")
@@ -127,7 +128,7 @@ Parameters must be selected prior to the submission of the Metagenomic Binning j
 ![Figure View_icon](./images/View_icon.png "Figure View_icon")
 
 ## Metagenomic binning job results 
-The Metagenomic Binning service returns a number of files when the job is completed.  Every job returns one or two **Binning Reports**, depending upon the selection of **Bacteria/Archaea**, **Viruses** or **Bot**h in the **Organisms of Interest**.  If the job was able to assemble or annotate genomes, a **bin** (demarked by a checkered flag) will be present, and these have additional files within them.  There will also be **.fa** files for each genome, bacterial or viral, that are returned.  These are the contig files.  Finally, there are other files returned (**bins.json**, **bins.stats.txt**,**coverage.stat.txt** and others).  Details on each of those files are described below.
+The Metagenomic Binning service returns a number of files when the job is completed.  Every job returns one or two **Binning Reports**, depending upon the selection of **Bacteria/Archaea**, **Viruses** or **Both** in the **Organisms of Interest**.  If the job was able to assemble or annotate genomes, a **bin** (demarked by a checkered flag) will be present, and these have additional files within them.  There will also be **.fa** files for each genome, bacterial or viral, that are returned.  These are the contig files.  Finally, there are other files returned (**bins.json**, **bins.stats.txt**,**coverage.stat.txt** and others).  Details on each of those files are described below.
 ![Figure Job_results_page](./images/Job_results_page.png "Figure Job_results_page")
 
 *Binning Reports*
@@ -175,10 +176,10 @@ The Metagenomic Binning service returns a number of files when the job is comple
 
 
 *Bins and contig files*
-1.	The metagenomic binning job will return a bin for each genome that has been annotated by the pipeline.  The bacterial bins start with **bin** and have a checkered flag in before the name, and the viral bins that can be annotated by BV-BRC begins with **vBin**.  Viruses that cannot be annotated at this time do not have a binning job with a checkered flag.  Bacterial contigs are found end the rows that being with **bin** and end with **.fa**.  and the viral contigs begin with **vBin** and also end with **.fa**. 
+1.	The metagenomic binning job will return a bin for each genome that has been annotated by the pipeline.  The bacterial bins start with **bin** and have a checkered flag before the name, and the viral bins that can be annotated by BV-BRC begins with **vBin**.  Viruses that cannot be annotated at this time do not have a binning job with a checkered flag.  Bacterial contigs are found in the rows that being with **bin** and end with **.fa**.  The viral contigs begin with **vBin** and also end with **.fa**. 
 ![Figure Bin_analysis](./images/Bin_analysis.png "Figure Bin_analysis")
 
-2.	The details in both bacterial and viral binning jobs can be accessed by double clicking on the row that has the checkered flag. Details on the files returned by the annotation jobs that produce these bins can be found in the Annotation Tutorial (https://www.bv-brc.org/docs/tutorial/genome_annotation/genome_annotation.html#).
+2.	The details in both bacterial and viral binning jobs can be accessed by double clicking on the row that has the checkered flag. Details on the files returned by the annotation jobs that produce these bins can be found in the Annotation Tutorial (https://www.bv-brc.org/docs/tutorial/genome_annotation/genome_annotation.html).
 ![Figure Flag](./images/Flag.png "Figure Flag")
 
 3.	The pipeline produces additional contig files.  One of these is the data that cannot be mapped to the selected organisms.  The file that contains these contigs is called **unbinned.fasta**.
@@ -188,13 +189,14 @@ The Metagenomic Binning service returns a number of files when the job is comple
 ![Figure Unplaced](./images/Unplaced.png "Figure Unplaced")
 
 *Other Job Result Files*
-1.	The pipeline also produces a json file.  A JSON file is a file that stores simple data structures and objects in JavaScript Object Notation (JSON) format, which is a standard data interchange format. It is primarily used for transmitting data between a web application and a server.  If you want to see what it looks like, you can select the row that contains the **bins.json**, and then click the **View** icon in the vertical green bar to the right. This will open a view of the json file.
+1.	The pipeline also produces a json file.  A JSON file which stores simple data structures and objects in JavaScript Object Notation (JSON) format. It is primarily used for transmitting data between a web application and a server.  If you want to see what it looks like, you can select the row that contains the **bins.json**, and then click the **View** icon in the vertical green bar to the right. This will open a view of the json file.
 ![Figure bins_json](./images/bins_json.png "Figure bins_json")
 
 2.	The pipeline also produces a file on the statistics of the bacterial bins found in the **bins.stats.txt**file.  As mentioned above, selecting the row that contains this file will highlight the vertical green bar to the right with possible downstream functions.  To view it, click on the **View** icon. The file will appear in the view.  It shows the data associated with the bins.
 ![Figure vins_stats](./images/bins_stats.png "Figure bins_stats")
 
-3.	The pipeline also produces a file on the coverage statistics of the bacterial bins.  To view that, click on the row that contains the **coverage.stats.txt** file and then on the **View** icon. This will open the file, which shows the assembly statistics associated with the bacterial bins.
+3.	The pipeline also produces a file on the coverage statistics of the bacterial bins.  To view that, click on the row that contains the **coverage.stats.txt** file and then on the **View** icon. This will open the file, which shows the assembly statistics associated with the bacterial bins.  **contigLen**  shows the number of contigs that the pipeline produced that match that particular size in base pairs (> 1000 bp = 0000K).  **contigOut**  shows the number of contigs called by the assembly pipeline and written to the output.  **contigFound** shows the number of contigs read in from the FASTA file. Coverage statistics are also provided. The **coverageOut**  shows the contigs that have coverage data, and the **cov** rows show the number of contigs with that particular coverage (.1% =0X).  If the contig is too short or its coverage is too low, it won’t be written out. The **dataLineFound** is an input fasta line that contains sequence data rather than an ID and comment. **letters** is the total number of DNA letters. **fastaLineIn** is any input line from a FASTA file.
+
 ![Figure coverage](./images/coverage_stats.png "Figure coverage")
 
 4.	The **megahit.log** file is generated if MEGAHIT was used to assemble the contigs.  The log file shows the steps that that the assembler took to generate the contigs.

@@ -16,7 +16,7 @@ Below is a screenshot of the Docking Service landing page, as well as a summary 
 ## Submitting a Protein and Small Molecule Ligands to the Service 
 This service takes one protein and offers three options to provide small molecules for docking. We support the [RCSB Protein Data Bank](https://www.rcsb.org/)(PDB).  The ligands are provided in the form of SMILE string. The OpenSmiles group maintains a detailed specification for SMILES. For a detailed explanation of SMILE strings please visit [OpenSmiles](http://opensmiles.org/opensmiles.html).
 
-![Protein Options](./images/user_interface.png "Protein Options")
+![Protein Options](./images/protein_options.png "Protein Options")
 1. **Define your protein input** via precomputed structures and or by uploading your own file. Make your selection by clicking on the radio button before either **Precomputed Stuctures** or **Upload a PDB File**.
 
 ![Select PDB](./images/pdb_selection.png "Select PDB")

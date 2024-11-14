@@ -209,7 +209,7 @@ The Metagenomic Binning service returns a number of files when the job is comple
 ![Figure spades](./images/spades_log.png "Figure spades")
 
 7.	The **params.txt** file is generated if MetaSPAdes was the used to assemble the contigs.  It shows the assembler SPAdes options, including the default values that were not explicitly selected.
-![Figure Parameters](./images/Parameters.png "Figure Parameters")
+![Figure params_txt](./images/params_txt.png "Figure params_txt")
 
 ## References  
 1. Parrello, B., Butler, R., Chlenski, P., Pusch, G. D. & Overbeek, R. Supervised extraction of near-complete genomes from metagenomic samples: A new service in PATRIC. Plos one 16, e0250092 (2021).

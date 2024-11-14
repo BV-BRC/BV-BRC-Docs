@@ -1,6 +1,6 @@
 # Small Molecule Ligand Docking Service
 
-*Revision: 10/07/2024*
+*Revision: 11/14/2024*
 The small molecule docking service uses the DiffDock method of molecular docking to compute a set of predicted
 poses for a given protein structure and a set of small-molecule ligands.  This service utilizes a diffusion model, [DiffDock](https://arxiv.org/abs/2210.01776) to compute a set of poses for a target protein structure and a set of small-molecule ligands.  The aim is to simulate and analyze potential binding scenarios “in silico”. Offering a crucial advantage by predicting the success of protein ligand combinations ahead of costly and time-consuming in vivo experiments.
 
@@ -16,10 +16,16 @@ Below is a screenshot of the Docking Service landing page, as well as a summary 
 ## Submitting a Protein and Small Molecule Ligands to the Service 
 This service takes one protein and offers three options to provide small molecules for docking. We support the [RCSB Protein Data Bank](https://www.rcsb.org/)(PDB).  The ligands are provided in the form of SMILE string. The OpenSmiles group maintains a detailed specification for SMILES. For a detailed explanation of SMILE strings please visit [OpenSmiles](http://opensmiles.org/opensmiles.html).
 
+![Protein Options](./images/protein_options.png "Protein Options")
+1. **Define your protein input** via precomputed structures and or by uploading your own file. Make your selection by clicking on the radio button before either **Precomputed Stuctures** or **Upload a PDB File**.
+
 ![Select PDB](./images/pdb_selection.png "Select PDB")
-1. Select a protein using the PDB identifier from the drop down or start typing a PBD identifier and the dropdown options will populate according to your text entry.
-2. You have the option to click "Preview PBD" button to view the protein structure ahead of submitting the job.
-3. We offer three options for providing ligand libraries. Ligand libraries are used to describe the options to enter
+2. To select a protein using the PDB identifier from the drop down or start typing a PBD identifier and the dropdown options will populate according to your text entry.
+
+To upload your own PDB file select the upload PDB File radio button. Then, click the folder icon to navigate to your PDB file. Note: if you do not see your PDB file you might have to change the "type" of the file to PDB. To change the type navigate to the file on the workspace (outside of the submission form). The click the file. The right-hand side of the screen should populate with a gray box to the right of the green action bar. Then click the dropdown arrow next to "type" and select "pdb".
+
+3. You have the option to click "Preview PBD" button to view the protein structure ahead of submitting the job.
+4. We offer three options for providing ligand libraries. Ligand libraries are used to describe the options to enter
    
 ![Predefined Ligand Libraries](./images/ligand_library_selection_select_ligand_library.png "Predefined Ligand Libraries")
 

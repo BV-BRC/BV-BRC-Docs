@@ -127,7 +127,7 @@ What follows below is a tutorial showing how to submit reads of various types fo
 
 ## Setting Parameters
 
-1.	The assembly strategy for the reads must be selected.  Clicking on the down arrow that follows the text box under Assembly Strategy will open a drop-down box that shows all the strategies that BV-BRC offers.  A description of each strategy is listed below. Clicking on one of the strategies will autofill the text box with that selection: 
+1.	The assembly strategy for the reads must be selected.  Clicking on the down arrow that follows the text box under **Assembly Strategy** will open a drop-down box that shows all the strategies that BV-BRC offers.  A description of each strategy is listed below. Clicking on one of the strategies will autofill the text box with that selection: 
 
 * **Unicycler** [1] is an assembly pipeline that can assemble Illumina-only read sets where it functions as a SPAdes-optimizer. It can also be used to assembly long read sets (PacBio or Nanopore), as long as short reads are included.  This is a hybrid assembly.  Unicycler builds an initial assembly graph from short reads using the *de novo* assembler and then uses a novel semi-global aligner to align long reads to it. The latest version of Unicycler is available here (https://github.com/rrwick/Unicycler).
 
@@ -158,7 +158,7 @@ The latest version of the SPAdes toolkit that includes plasmidSPAdes is availabl
 
 5.	The BV-BRC assembly service also has options to trim the reads using TrimGalore[7]. The assembly pipeline also has an option for nomalizing the reads.  It uses BBNorm to normalize coverage by down-sampling reads over high-depth areas of a genome, to result in a flat coverage distribution (http://sourceforge.net/projects/bbmap/). Assembly errors can be improved (or “polished) using Racon[8] and/or Pilon[9].  The servicealso provides the ability to change the minimum contig length and coverage.  Adjusting these parameters can be accomplished by clicking on the down arrow next to the word **Advanced** in the **Parameters** box.
 
-Polishing requires some explanation.  If there is a position in an assembly where the reads disagree, it indicates that the assembly is wrong.  Pilon and Racon will look at the locations of the discrepancies, and, if the majority and quality indicate, they will correct the call of the base pair. Polishing the long reads reuires Minimap2[10] to map the reads to the assembly, and then Racon is used to correct the assembly.  Polishing short reads first uses Bowtie2[11],which generates a SAM file.  SAMtools [12] creates a BAM file from the SAM file, as this is a requirement of Pilon prior to read correction.
+Polishing requires some explanation.  If there is a position in an assembly where the reads disagree, it indicates that the assembly is wrong.  Pilon and Racon will look at the locations of the discrepancies, and, if the majority and quality indicate, they will correct the call of the base pair. Polishing the long reads reuires Minimap2[10] to map the reads to the assembly, and then Racon is used to correct the assembly.  Polishing short reads first uses Bowtie 2[11], which generates a SAM file.  SAMtools [12] creates a BAM file from the SAM file, as this is a requirement of Pilon prior to read correction.
 
 Once the assembly has been corrected (polished) with the reads, it is still possible to do another iteration to further improve the assembly, but each one takes time. BV-BRC allows for 0 to 4 racon or pilon iterations, with the default being 2 iterations.
 
@@ -166,27 +166,27 @@ Once the assembly has been corrected (polished) with the reads, it is still poss
 
 ## Submitting the Assembly Job
 
-1.	Once reads are in the Selected libraries and all the parameters have been selected, the Assemble button at the bottom of the page will turn blue.  The assembly will be submitted once this button is clicked.
+1.	Once reads are in the Selected libraries and all the parameters have been selected, the **Assemble** button at the bottom of the page will turn blue.  The assembly will be submitted once this button is clicked.
 ![Figure 32](./images/Picture32.png)
 
 2.	A message will appear at the bottom of the page, indicating that the submitted job has entered the BV-BRC queue.
 ![Figure 33](./images/Picture33.png)
 
 ### Monitoring progress on the Jobs page
-1.	Clicking on the Jobs box at the bottom right of any BV-BRC page/
+1.	Clicking on the **Jobs** box at the bottom right of any BV-BRC page/
 ![Figure 34](./images/Picture34.png)
 
 2.	This will open the Jobs Landing page where the status of submitted jobs is displayed.
 ![Figure 35](./images/Picture35.png)
 
 ## Viewing and Interpreting the Assembly Job Results
-1.	On the jobs page, click on the row that has the assembly of interest. This will populate the vertical green bar on the right with possible downstream steps, which include viewing the results of the job, or reporting an issue that was experienced (like a job failure).  Click on the View icon.
+1.	On the jobs page, click on the row that has the assembly of interest. This will populate the vertical green bar on the right with possible downstream steps, which include viewing the results of the job, or reporting an issue that was experienced (like a job failure).  Click on the **View** icon.
 ![Figure 36](./images/Picture36.png)
 
 2.	This will rewrite the page to show the information about the assembly job, and all of the files that are produced when the pipeline runs.  
 ![Figure 37](./images/Picture37.png)
 
-3.	The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the Parameters row.
+3.	The information about the job submission can be seen in the table at the top of the results page.  To see all the parameters that were selected when the job was submitted, click on the **Parameters** row.
 ![Figure 38](./images/Picture38.png)
 
 4.	This will show the information on what was selected when the job was originally submitted.
@@ -194,7 +194,7 @@ Once the assembly has been corrected (polished) with the reads, it is still poss
 
 ### Genome Assembly Report
 
-1.	The Genome Assembly report contains valuable information about the assembly, including the number of contigs. Clicking on the row that contains the number of contigs, depth and coverage.  **AssemblyReport.html** will highlight it in blue and populate the action bar with possible downstream steps.  Click on the View icon.
+1.	The Genome Assembly report contains valuable information about the assembly, including the number of contigs. Clicking on the row that contains the number of contigs, depth and coverage.  **AssemblyReport.html** will highlight it in blue and populate the action bar with possible downstream steps.  Click on the **View** icon.
 ![Figure 40](./images/Picture40.png)
 
 2.	This will open the report, which opens with a graph of the assembly called a Bioinformatics Application for Navigating De novo Assembly Graphs Easily, or **Bandage plot**[13], a tool for visualizing assembly graphs with connections.  
@@ -234,7 +234,7 @@ Once the assembly has been corrected (polished) with the reads, it is still poss
 4.	The assembly also generates a standard output file that the pipeline produces while running.  Clicking on the row that ends in **stdout.txt** and then the view icon will open this file.
 ![Figure 51](./images/Picture51.png)
 
-5.	While the Quast[14] report is included in the Genome Assembly report, a separate, downloadable format is provided as an html.  When the **quast_report.html** is downloaded and opened, details on the assembly including the Cumulative length per contig is provided. The cumulative length plot shows the number of bases in the first x contigs, as x varies from zero to the number of contigs.
+5.	While the Quast[14] report is included in the Genome Assembly report, a separate, downloadable format is provided as an html.  When the **quast_report.html** is downloaded and opened, details on the assembly including the **Cumulative length** per contig is provided. The cumulative length plot shows the number of bases in the first x contigs, as x varies from zero to the number of contigs.
 ![Figure 52](./images/Picture52.png)
 
 6.	Clicking on **Nx** shows the percentage of bases on each of the contigs.
@@ -264,7 +264,7 @@ Once the assembly has been corrected (polished) with the reads, it is still poss
 8.	Vaser, R., et al., Fast and accurate de novo genome assembly from long uncorrected reads. Genome research, 2017. 27(5): p. 737-746.
 9.	Walker, B.J., et al., Pilon: an integrated tool for comprehensive microbial variant detection and genome assembly improvement. PloS one, 2014. 9(11): p. e112963.
 10.	Li, H.,  Minimap2: pairwise alignment for nucleotide sequences. Bioinformatics, 2018 34(18): 3094-3100
-11.	 Langmead, B. and Salzberg, SL. Fast gapped-read alignment with Bowtie 2. Nat Methods, 2012 9(4):357-359.
-12.	 12.	Danecek P., et al. Twelve years of SAMtools and BCFtools. Gigascience, 2021 10(2):giab008. doi: 10.1093/gigascience/giab008.
+11.	Langmead, B. and Salzberg, SL. Fast gapped-read alignment with Bowtie 2. Nat Methods, 2012 9(4):357-359.
+12.	Danecek P., et al. Twelve years of SAMtools and BCFtools. Gigascience, 2021 10(2):giab008. doi: 10.1093/gigascience/giab008.
 13.	Wick, R.R., et al., Bandage: interactive visualization of de novo genome assemblies. Bioinformatics, 2015. 31(20): p. 3350-3352.
 14.	Gurevich, A., et al., QUAST: quality assessment tool for genome assemblies. Bioinformatics, 2013. 29(8): p. 1072-1075.

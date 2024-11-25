@@ -1,7 +1,7 @@
 BV-BRC Workshop at Argonne National Laboratory, February 24-28, 2025
 =====================================================================
 
-.. image:: ../images/2023/bv-brc-jun-workshop-anl.jpg
+.. image:: ../images/2024/workshop.jpg
    :width: 500
    :alt: BV-BRC February Workshop at Argonne National Laboratory
 

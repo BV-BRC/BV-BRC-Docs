@@ -1,6 +1,6 @@
 # Small Molecule Ligand Docking Service
 
-*Revision: 11/14/2024*
+*Revision: 11/26/2024*
 The small molecule docking service uses the DiffDock method of molecular docking to compute a set of predicted
 poses for a given protein structure and a set of small-molecule ligands.  This service utilizes a diffusion model, [DiffDock](https://arxiv.org/abs/2210.01776) to compute a set of poses for a target protein structure and a set of small-molecule ligands.  The aim is to simulate and analyze potential binding scenarios “in silico”. Offering a crucial advantage by predicting the success of protein ligand combinations ahead of costly and time-consuming in vivo experiments.
 
@@ -8,6 +8,10 @@ poses for a given protein structure and a set of small-molecule ligands.  This s
 The **Docking** submenu option under the **"SERVICES"** main menu (Protein Tools category) opens the Docking Service input form. *Note: You must be logged into BV-BRC to use this service.*
 
 ![Docking menu option](./images/updated_services_menu.png "Docking menu option")
+![image](https://github.com/user-attachments/assets/faaf90ee-31c8-412b-b715-a318981f107e)
+![image](https://github.com/user-attachments/assets/e24378ee-35e0-47ec-84ad-298debe62d7a)
+![image](https://github.com/user-attachments/assets/60f93bdb-7c58-4c9f-a355-3c18ac62fece)
+![image](https://github.com/user-attachments/assets/0ab953f4-5380-457a-a51a-a4e1a6fc2d9d)
 
 Below is a screenshot of the Docking Service landing page, as well as a summary of customizable parameters.
 
@@ -17,12 +21,12 @@ Below is a screenshot of the Docking Service landing page, as well as a summary 
 This service takes one protein and offers three options to provide small molecules for docking. We support the [RCSB Protein Data Bank](https://www.rcsb.org/)(PDB).  The ligands are provided in the form of SMILE string. The OpenSmiles group maintains a detailed specification for SMILES. For a detailed explanation of SMILE strings please visit [OpenSmiles](http://opensmiles.org/opensmiles.html).
 
 ![Protein Options](./images/protein_options.png "Protein Options")
-1. **Define your protein input** via precomputed structures and or by uploading your own file. Make your selection by clicking on the radio button before either **Precomputed Stuctures** or **Upload a PDB File**.
+1. **Define your protein input** via precomputed structures and or by uploading your own file. Make your selection by clicking on the radio button before either **Precomputed Structures** or **Upload a PDB File**.
 
 ![Select PDB](./images/pdb_selection.png "Select PDB")
 2. To select a protein using the PDB identifier from the drop down or start typing a PBD identifier and the dropdown options will populate according to your text entry.
 
-To upload your own PDB file select the upload PDB File radio button. Then, click the folder icon to navigate to your PDB file. Note: if you do not see your PDB file you might have to change the "type" of the file to PDB. To change the type navigate to the file on the workspace (outside of the submission form). The click the file. The right-hand side of the screen should populate with a gray box to the right of the green action bar. Then click the dropdown arrow next to "type" and select "pdb".
+To upload your own PDB file select the upload PDB File radio button. Then, click the folder icon to navigate to your PDB file. Note: if you do not see your PDB file you might have to change the "type" of the file to PDB. To change the type, navigate to the file on the workspace (outside of the submission form). The click the file. The right-hand side of the screen should populate with a gray box to the right of the green action bar. Then click the dropdown arrow next to "type" and select "pdb".
 
 3. You have the option to click "Preview PBD" button to view the protein structure ahead of submitting the job.
 4. We offer three options for providing ligand libraries. Ligand libraries are used to describe the options to enter
@@ -74,7 +78,7 @@ As you would with our other services, please select an output folder and unique 
 
 7. Clicking the structure link in the viewer column will open a new tab with the BVBRC protein structure viewer showing that specific protein ligand interaction. This is detailed in the "Interacting with the Structure Viewer section".
 
-8. The values in the Vinardo, Diffdock Confidence CNN Score, and CNN Affinity are detailed in the Interpreting the Report Values section.
+8. The values in the Vinardo, DiffDock Confidence CNN Score, and CNN Affinity are detailed in the Interpreting the Report Values section.
 
 9. The SMILES column displays the raw SMILE string. SMILE stands for the “Simplified Molecular Input Line Entry System,” which is used to translate a chemical's three-dimensional structure into a string of symbols that is easily understood by computer software.
 
@@ -133,9 +137,10 @@ The above confidence guidelines pertain to protein ligand combinations of medium
     * Results.CSV which has the same data displayed in the report.
 8. Back in the report. The next section will show any ligands that the service was unable to bind with the input protein. These sections only populate if there are ligands that fall into either category below.
     * RDKit Non-compliant Ligands: Ligands that appear in this table did not pass SMILE string validation by [RDKit](https://rdkit.org/). This is a collection of cheminformatics and machine-learning software. RDKit validates SMILE strings according to parsing and sanitization.  For parsing, RDKit uses grammar defined in the [Smile Parse](https://github.com/rdkit/rdkit/tree/master/Code/GraphMol/SmilesParse) module. Which closely follows guidelines established in [OpenSmiles](http://opensmiles.org/opensmiles.html). A detailed explanation of sanitization is available [RDKit Book](https://www.rdkit.org/docs/RDKit_Book.html) under the Molecular Sanitization header. These ligands are also listed in the file "invalid_smile_strings.txt" in the landing directory for your job.
-    * DiffDock Incompatible Ligands: Ligands in this table did not dock to the protein. This could be because they are incompatible with the protein or the current version of DiffDock.  Another reason could be the available memory during your job. To test this, please submit a new job with each ligand individually or in smaller groups. These ligands are also described in the file "bad-ligands.txt" in the protein subdirectory for your job.
-    
-If you have questions about failed ligands, we encourage you to reach out to a team member by either reporting the job or contacting us by clicking "About" in our header then the dropdown option, "Contact Us".
+    * DiffDock Incompatible Ligands: Ligands in this table did not dock to the protein. This could be because they are incompatible with the protein or the current version of DiffDock.  Another reason could be the available memory during your job. To test this, please submit a new job with each ligand individually or in smaller groups. These ligands are also described in the file "bad-ligands.txt" in the protein subdirectory for your job. 
+
+### Interacting with the Docking Results Explorer
+This is an interactive view of the complete set of your docking results. To sort the columns, click the up and down arrows next to the column title. To filter the column, enter values in the text boxes below the column headings. The results will auto sort accordingly. Add values to another column and the results will stay sorted according to both columns. Numeric values will display values equal to and greater than the values entered. You can change the number of results on your page by clicking on the Show "#" entries dropdown. Search for specific values or sequences in the search bar. Click on "Previous" and "Next" to view more results.
 
 ## References
 * Olson RD, Assaf R, Brettin T, Conrad N, Cucinell C, Davis JJ, Dempsey DM, Dickerman A, Dietrich EM, Kenyon RW, Kuscuoglu

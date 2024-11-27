@@ -19,7 +19,7 @@ The viral component begins on the afternoon of Day 3 (February 26), concentratin
 
 **REGISTRATION**
 
-To register for the workshop, register here https://apps.anl.gov/registration/visitors and use lhundley@anl.gov as the sponsor email, in turn, she will receive your information and process your registration. Registration is limited to 100 people, and will be accepted based on the order the emails are received. **Be sure to indicate whether you plan to attend the bacterial or viral session, or both.**  If you have any questions or issues, you can also reach us at help@bv-brc.org. BV-BRC workshops tend to fill up very quickly, so please register soon if you would like to attend.
+To register for the workshop, register here https://apps.anl.gov/registration/visitors and use lhundley@anl.gov as the sponsor email. Once you compete the registration please email lhundley@anl.gov and let her know that you are planning on attending and have completed your registration, in turn, she will receive your information and process your registration. Registration is limited to 100 people, and will be accepted based on the order the emails are received. **Be sure to indicate whether you plan to attend the bacterial or viral session, or both.**  If you have any questions or issues, you can also reach us at help@bv-brc.org. BV-BRC workshops tend to fill up very quickly, so please register soon if you would like to attend.
 
 The workshop is free to attend, but participants must arrange and pay for their own travel, meals, and lodging. Light refreshments will be available. There is also a cafe and grill in a nearby building. There are outdoor seating areas with gazebos, which can be used during breaks and lunch time.
 

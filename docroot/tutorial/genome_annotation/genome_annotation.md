@@ -35,21 +35,18 @@ The Viral Genome ORF Reader, known as VIGOR4[2,3], is a Java application to pred
 The source code for VIGOR4 is available on GitHub (https://github.com/JCVenterInstitute/VIGOR4).
 
 ## Mat_peptide Annotation of Viruses
-
 ![Figure Mat_peptide_overview](./images/Mat_peptide_overview.png "Figure Mat_peptide_overview")
 
 The Mat_peptide[4] pipeline is used to annotate 121 different species that are part of eight viral families (Arenaviridae, Caliciviridae, Coronaviridae, Flaviviridae, Hantaviridae, Phenuiviridae, Picornaviridae, Togaviridae) using pairwise alignment with reference sequences.  Mat_peptide calculates and transfers curated mature protein annotation positions from a reference to a target sequence,  This pipeline is deployed when an appropriate viral taxon that cannot be annotated by Vigor4 is submitted to the BV-BRC Annotation service.
 The source code for Mat_peptide is available on GitHub (software at https://github.com/VirusBRC/vipr_mat_peptide).
 
 ## PHANOTATE Annotation of Bacteriophages
-
 ![Figure 1b](./images/Picture1b.png "Figure 1b")
 
 PHANOTATE is a bacteriophage genome annotation pipeline [5,6] that identifies open-reading frames and then performs sequence similarity searches to annotate proteins.
 The source code for PHANOTATE is available on GitHub (https://github.com/deprekate/PHANOTATE).
 
 ## Locating the Annotation Service App
-
 1.	At the top of any BV-BRC page, find the **Services** tab. 
 ![Figure Services_tab](./images/Services_tab.png "Figure Services_tab")
 
@@ -61,7 +58,6 @@ The source code for PHANOTATE is available on GitHub (https://github.com/depreka
 
 
 ## Selecting a contig file for annotation
-
 The starting point for any annotation is an assembly, which produces contigs.  A contig (from the word "contiguous") is a series of overlapping DNA sequences used to make a physical map that reconstructs the original DNA sequence of a chromosome or a region of a chromosome. It is a stretch of DNA sequence encoded as A, G, C, T or N, typically ending in fasta of fa.  The first line of a contig file beings with “ >", followed by information on the contig.  The second and subsequent line(s) contain the sequences. 
 ![Figure 10](./images/Picture10.png "Figure 10")
 
@@ -101,7 +97,6 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 ![Figure 20](./images/Picture20.png "Figure 20")
 
 ## Annotation Parameters
-
 1.	Annotation parameters must be selected next. BV-BRC provides annotation for Bacteria, Archaea and Bacteriophages. Bacteria and Archaea are annotated using the RASTtk pipeline. Bacteriophage genomes are annotated using the PHANOTATE pipeline. Viruses are annotated with VIGOR4 or Mat_peptide.   To select a particular annotation strategy from one of those taxa, click on the check box preceding the correct strategy.
 
 ![Figure 21](./images/Picture21a.png "Figure 21")
@@ -125,7 +120,6 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 ![Figure 27](./images/Picture27a.png "Figure 27")
 
 ## Finding the completed Annotation job 
-
 1. There are two places to access a completed job in BV-BRC.  Clicking on the **Jobs** icon at the bottom right of any page will open the list of jobs that have been submitted. 
 ![Figure 28](./images/Picture28.png "Figure 28")
 
@@ -158,8 +152,7 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 ![Figure Annotation_result_files](./images/Annotation_result_files.png "Figure Annotation_result_files")
 
 ## Annotation job results
-
-1. Any annotationjob run in the BV-BRC contains a number of files, as well as information about the submitted job.  To view the input parameters that were selected when the job was submitted, click on the arrow that precedes the word **Parameters**.
+1. Any annotation job run in the BV-BRC contains a number of files, as well as information about the submitted job.  To view the input parameters that were selected when the job was submitted, click on the arrow that precedes the word **Parameters**.
 ![Figure 38](./images/Picture38.png "Figure 38")
 
 2. This will open a drop-down box that shows the parameters.  This box can be closed by clicking on the same arrow. 
@@ -202,7 +195,7 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 14.	The **.xls** is an excel file that shows the nucleotide and protein sequence of all the annotated genes. 
 ![Figure 51](./images/Picture51.png "Figure 51")
 
-15.	The **genome_quality_details.txt ** file is only produced when the **Bacteria/Archaea** recipe was selected.  It shows some of the quality scores seen in the **GenomeReport.html**, and a list of the genes in both the newly annotated and reference genomes, and the number of copies of this gene in each. 
+15.	The **genome_quality_details.txt** file is only produced when the **Bacteria/Archaea** recipe was selected.  It shows some of the quality scores seen in the **GenomeReport.html**, and a list of the genes in both the newly annotated and reference genomes, and the number of copies of this gene in each. 
 
 ![Figure 52](./images/Picture52.png "Figure 52")
 
@@ -217,7 +210,6 @@ Contigs  must be submitted to the annotation service. **Submitting a read file w
 
 
 ## Genome Report
-
 Genome quality analysis is automatically performed when using the Genome Annotation (Metagenomic Binning Service ) for bacterial and archaeal genomes. The genome quality tools look at the functional roles (or genes) present in an annotated genome to determine if the genome looks correct. Two separate mechanisms are used to predict the number of times each gene should be found in the genome. A role is good if it occurs the predicted number of times; otherwise it is problematic.
 
 The first quality tool (EvalG) checks the completeness and contamination of the genome using a re-implementation of the CheckM [30] algorithm. EvalG identifies universal genes that are expected to occur exactly once in all genomes of a particular taxonomic grouping. Missing genes indicate the genome is less complete; extra genes indicate the genome may be contaminated.
@@ -254,11 +246,9 @@ The four numbers –completeness, contamination, coarse consistency, and fine co
 ![Figure 62](./images/Picture62.png "Figure 62")
 
 ## Viewing the Annotated Genome
-
 Private genomes that have been annotated in BV-BRC can be viewed directly from the annotation job, or through the workspace, or by using the Global Search function.
 
 ### Viewing the genome from the job report
-
 1. At the top right of the annotation job there are three icons that provide a direct link to information about the genome.  Clicking on the **View** icon will open a new tab that contains the Genome landing page, with all the information about the newly annotated genome. 
 ![Figure 63](./images/Picture63.png "Figure 63")
 
@@ -270,7 +260,6 @@ Private genomes that have been annotated in BV-BRC can be viewed directly from t
 ![Figure 65](./images/Picture65.png "Figure 65")
 
 ### Finding the genome using the workspace
-
 1. Private genomes can be located through the workspace.  Click on the **Workspaces** tab at the top of any page.  This will open a drop-down box.  Click on **My Genomes** at the upper right of this box. 
 ![Figure 66](./images/Picture66.png "Figure 66")
 
@@ -281,7 +270,6 @@ Private genomes that have been annotated in BV-BRC can be viewed directly from t
 ![Figure 68](./images/Picture68.png "Figure 68")
 
 ### Finding the genome using Global Search
-
 1. The Global Search can be used to locate public and private data.  The name of the genome can be entered into the box, which can be found on the home page, and also at the top right of any other page. 
 ![Figure 69](./images/Picture69.png "Figure 69")
 
@@ -292,7 +280,6 @@ Private genomes that have been annotated in BV-BRC can be viewed directly from t
 ![Figure 71](./images/Picture71.png "Figure 71")
 
 ## References
-
 1.	Brettin, T. et al. RASTtk: A modular and extensible implementation of the RAST algorithm for building custom annotation pipelines and annotating batches of genomes. Sci Rep 5: 8365 (2015).
 2.	Wang, A. et al. VIGOR, an annotation program for small viral genomes. BMC Bioinformatics 11:451 (2010).
 3.	Wang, A. et al. VIGOR extended to annotate genomes for additional 12 different viruses. Nucleic Acids Res 40:W186-92 (2012).

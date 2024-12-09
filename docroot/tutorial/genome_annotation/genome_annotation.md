@@ -37,8 +37,25 @@ The source code for VIGOR4 is available on GitHub (https://github.com/JCVenterIn
 ## Mat_peptide Annotation of Viruses
 ![Figure Mat_peptide_overview](./images/Mat_peptide_overview.png "Figure Mat_peptide_overview")
 
-The Mat_peptide[4] pipeline is used to annotate 121 different species that are part of eight viral families (Arenaviridae, Caliciviridae, Coronaviridae, Flaviviridae, Hantaviridae, Phenuiviridae, Picornaviridae, Togaviridae) using pairwise alignment with reference sequences.  Mat_peptide calculates and transfers curated mature protein annotation positions from a reference to a target sequence,  This pipeline is deployed when an appropriate viral taxon that cannot be annotated by Vigor4 is submitted to the BV-BRC Annotation service.
+The Mat_peptide[4] pipeline is used to annotate 165 different species that are part of sixteen viral families:
+* Arenaviridae
+* Caliciviridae
+* Flaviviridae
+* Hantaviridae
+* Nairoviridae
+* Orthomyxoviridae
+* Peribunyaviridae
+* Phasmaviridae
+* Phenuiviridae
+* Picornaviridae
+* Pneumoviridae
+* Poxviridae
+* Sedoreoviridae
+* Togaviridae
+
+Mat_peptides uses pairwise alignment with reference sequences. Mat_peptide calculates and transfers curated mature protein annotation positions from a reference to a target sequence.  This pipeline is deployed when an appropriate viral taxon that cannot be annotated by Vigor4 is submitted to the BV-BRC Annotation service.
 The source code for Mat_peptide is available on GitHub (software at https://github.com/VirusBRC/vipr_mat_peptide).
+
 
 ## PHANOTATE Annotation of Bacteriophages
 ![Figure 1b](./images/Picture1b.png "Figure 1b")

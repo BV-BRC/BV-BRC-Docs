@@ -1,11 +1,14 @@
 # Pathways
 
 ## Overview
-The Pathways Tab provides access to the Comparative Pathway Tool, which facilitates identification of sets of pathways based on taxonomy, EC number, pathway ID, pathway name and/or specific annotation type. The Comparative Pathway Tool displays a table of unique pathways that match the search criteria. From there, specific pathways of interest can be selected and viewed in a heatmap or KEGG map.
+The Pathways Tab displays the pathways associated with the selected set of genomes. which displays table that includes the Genome Name, RefSeq Locus Tag, BRC ID, Gene, Product, EC Description, Pathway ID, and Pathway Name. From this table, you can access additional information such as other genomes that contain the pathway and the KEGG map associated with the pathway.
 
 ## See also
-  * Comparing Pathways Across Genomes Tutorial
-  * [Comparative Pathway Tool](/tutorial/comparative_pathways/comparative_pathways)
+  * [Comparative Systems Service](https://www.bv-brc.org/app/ComparativeSystems)
+  * [Comparative Systems Service Tutorial](/tutorial/comparative_systems/comparative_systems)
+  * [Pathway Comparison Tool Quick Reference Guide](/quick_references/other/pathway_comparison_tool)
+
+
 
 ## Accessing the Comparative Pathway Tool
 The Comparative Pathway Tool can be accessed from either 

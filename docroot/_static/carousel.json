@@ -1,15 +1,15 @@
 [
     {
-        "title": "BV-BRC Renewal",
-        "desc": "The BV-BRC will continue to be supported by NIAID under Award Number U24Al183849. We will continue to support all of the current datasets and tools along with existing (and new) user workspaces. Additional enhancements to our data and tools will also be coming in future updates.",
+        "title": "BV-BRC Workshop at ANL",
+        "desc": "Register now for our upcoming workshop outside of Chicago from February 24-28th focused on bacterial and viral usecases for the BV-BRC.",
         "img": "",
-        "link": "https://bv-brc.org/docs/news/2024/2024-08-23-bv-brc-renewal.html"
+        "link": "https://bv-brc.org/docs/news/2024/2024-11-25-anl-workshop.html"
     },
     {
-        "title": "BV-BRC H5N1 Webinar",
-        "desc": "Watch the Recording now to see BV-BRC updates in response to H5N1 Outbreak.",
-        "img": "https://bv-brc.org/docs/_images/h5n1-2024-webinar-logo.png",
-        "link": "https://bv-brc.org/docs/news/2024/2024-05-22-h5n1-webinar.html"
+        "title": "BV-BRC Newsletters",
+        "desc": "Stay ahead in your research with the latest updates from the BV-BRC! Our newsletters bring you insights, tools, and resources to accelerate your work in bioinformatics and infectious disease research.",
+        "img": "",
+        "link": "https://bv-brc.org/docs/news/2024/2024-08-27-newsletters.html"
     },
     {
         "title": "BV-BRC Quick Start Guides",
@@ -22,5 +22,12 @@
         "desc": "The BV-BRC offers an online Bacterial Bioinformatics course, freely available through Coursera. This course provides demonstrations and exercises for performing common genomics-based analysis tasks of bacterial sequence data.",
         "img": "https://www.bv-brc.org/docs/_images/MOOC_Logo_3.png",
         "link": "https://www.bv-brc.org/docs/news/2023/bacterial-bioinformatics-mooc-course.html"
+    },
+    {
+        "title": "BV-BRC Renewal",
+        "desc": "The BV-BRC will continue to be supported by NIAID under Award Number U24Al183849. We will continue to support all of the current datasets and tools along with existing (and new) user workspaces. Additional enhancements to our data and tools will also be coming in future updates.",
+        "img": "",
+        "link": "https://bv-brc.org/docs/news/2024/2024-08-23-bv-brc-renewal.html"
     }
 ]
+

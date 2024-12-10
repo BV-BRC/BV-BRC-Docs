@@ -42,6 +42,7 @@ Protein Tools
    metacats/metacats.md
    proteome_comparison/proteome_comparison.md
    comparative_systems/comparative_systems.md
+   docking/docking.md
 
 
 Metagenomics

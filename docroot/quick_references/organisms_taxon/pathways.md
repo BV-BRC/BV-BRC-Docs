@@ -10,7 +10,7 @@ The Pathways Tab displays the pathways associated with the selected set of genom
 
 ## Pathway Table
 Clicking on the Pathways Tab displays the Pathway table, shown below.
-![Pathway Table](../images/pathway/pathway_table.png)
+![Pathway Table](../images/pathways/pathway_table.png)
 
 Pathways come from the Kyoto Encyclopedia of Genes and Genomes, commonly known as [KEGG](http://www.genome.jp/kegg/). The data in this table provides summary information regarding the pathways:
 

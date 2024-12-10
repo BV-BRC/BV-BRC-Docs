@@ -8,18 +8,9 @@ The Pathways Tab displays the pathways associated with the selected set of genom
   * [Comparative Systems Service Tutorial](/tutorial/comparative_systems/comparative_systems)
   * [Pathway Comparison Tool Quick Reference Guide](/quick_references/other/pathway_comparison_tool)
 
-
-
-## Accessing the Comparative Pathway Tool
-The Comparative Pathway Tool can be accessed from either 
-
-* **Clicking the Pathways Tab in a Taxon View:** Displays a list of all of the pathways that have any genes assigned to them from the genomes in that taxon level.
-
-* **Launching the Comparative Pathway Service:** Displays a list of all of the pathways that have any genes assigned to them from the selected genomes.
-
-### Pathway Table
-Results will be shown in a Pathway table, shown below.
-![Pathway Table](../images/pathway_list.png)
+## Pathway Table
+Clicking on the Pathways Tab displays the Pathway table, shown below.
+![Pathway Table](../images/pathway/pathway_table.png)
 
 Pathways come from the Kyoto Encyclopedia of Genes and Genomes, commonly known as [KEGG](http://www.genome.jp/kegg/). The data in this table provides summary information regarding the pathways:
 

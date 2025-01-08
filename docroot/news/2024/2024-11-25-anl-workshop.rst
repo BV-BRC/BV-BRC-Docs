@@ -34,6 +34,7 @@ Starting Wednesday, May 3, 2023, Argonne National Laboratory visitors who are 18
 | Argonne National Laboratory
 | 9700 Cass Avenue
 | Lemont, IL 60439
+| Update! Day Five (Friday) Will be held in Room 1501
 
 
 
@@ -264,6 +265,7 @@ Day Four - Thursday, 27 February (Viral)
 
 Day Five - Friday, 28 February (Viral)
 ---------------------------------------
+** Update! Day Five will be held in Room 1501**
 
 **9:00 am** Review of Day Four
 

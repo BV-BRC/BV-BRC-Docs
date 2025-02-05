@@ -192,14 +192,13 @@ What follows below is a tutorial showing how to submit reads of various types fo
 ![Figure 41](./images/Picture41.png)
 
 3.	Scrolling down will reveal a **Quast report** [14], which is also included in the Genome Assembly report. Quast is a quality assessment tool for evaluating and comparing genome assemblies, and shows statistics of the contigs generated in the assembly.  
-![Figure 42](../genome_assembly/images/Picture42.png)
 
-### Reads file
+### Contig file
 
-1.	The whole point of the assembly service is the assembly from the submitted reads.  The reads file can be used in downstream services.  Note that the file, which can be clicked on from the Jobs page, has the type matched as “reads” in the information panel beyond the green bar.  The contig file can be used as is in BV-BRC or downloaded for use in other resources or pipelines.
-![Figure 45](./images/Picture45.png)
+1.	The whole point of the assembly service is the assembly of a contig file from the submitted reads.  The contig file can be used in downstream services.  Note that the file, which can be clicked on from the Jobs page, has the type matched as “contigs” in the information panel beyond the green bar.  The contig file can be used as is in BV-BRC or downloaded for use in other resources or pipelines.
+![Figure 44](./images/Picture44.png)
 
-2.	Once the reads file is downloaded, it can be opened for viewing in a text file on the computer.
+2.	Once the contig file is downloaded, it can be opened for viewing in a text file on the computer.
 ![Figure 46](./images/Picture46.png)
 
 
@@ -207,7 +206,7 @@ What follows below is a tutorial showing how to submit reads of various types fo
 
 1.	While the Quast report is included in the Genome Assembly report, a separate, downloadable format is provided as an html.  When the **quast_report.html** is downloaded and opened, details on the assembly including the **Cumulative length** per contig is provided. 
 
-2.	The Quast Folder has lots of good data to be further analyzed.
+2.	The Quast Folder has data to be further analyzed and has the outputs from QUAST.
 3.	The IRMA Folder includes the logs and files generated via IRMA.
 
 
@@ -219,7 +218,7 @@ The Viral Assembly Service generates several files that are deposited in the Pri
 * **.fasta** - All of the associated fasta files for the assembly, including by segment and cummulative.
 
 ### Action buttons
-After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include
+After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table.  These include:
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
 * **Guide:** Link to the corresponding Quick Reference Guide.

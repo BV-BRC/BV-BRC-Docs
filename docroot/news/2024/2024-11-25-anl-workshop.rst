@@ -19,12 +19,7 @@ The viral component begins on the afternoon of Day 3 (February 26), concentratin
 
 **REGISTRATION**
 
-To register for the workshop, register here https://apps.anl.gov/registration/visitors and use lhundley@anl.gov as the sponsor email. Once you compete the registration please email lhundley@anl.gov and let her know that you are planning on attending and have completed your registration, in turn, she will receive your information and process your registration. Registration is limited to 100 people, and will be accepted based on the order the emails are received. **Be sure to indicate whether you plan to attend the bacterial or viral session, or both.**  If you have any questions or issues, you can also reach us at help@bv-brc.org. BV-BRC workshops tend to fill up very quickly, so please register soon if you would like to attend.
-
-The workshop is free to attend, but participants must arrange and pay for their own travel, meals, and lodging. Light refreshments will be available. There is also a cafe and grill in a nearby building. There are outdoor seating areas with gazebos, which can be used during breaks and lunch time.
-
-**REAL ID REQUIREMENT**
-Starting Wednesday, May 3, 2023, Argonne National Laboratory visitors who are 18 years old or older **MUST have a form of identification compliant with the REAL ID Act** to enter the site. This updated identification policy puts the Lab in compliance with the REAL ID Act, passed by the United States Congress in 2005, which establishes minimum security standards for people accessing federal facilities. Acceptable forms of ID can be found here: https://www.anl.gov/site-entry-requirements
+Registration is now closed for this workshop. If you are interested in attending a future BV-BRC workshop- check back in soon to hear about upcoming workshops. 
 
 
  
@@ -35,8 +30,6 @@ Starting Wednesday, May 3, 2023, Argonne National Laboratory visitors who are 18
 | 9700 Cass Avenue
 | Lemont, IL 60439
 | Update! Day Five (Friday) Will be held in Room 1501
-
-
 
 
 **AGENDA**
@@ -242,16 +235,10 @@ Day Four - Thursday, 27 February (Viral)
   - Viewing and interpreting results
   - Preparing Genbank submission
 
-**2:45 pm** Subspecies classification
+**3:15 pm** Subspecies classification
   - Overview of placer and reference trees and viruses covered
   - Classification of user sequences
   - Search by subspecies
-
-**3:15 pm** Immune epitope exploration
-  - Description of SNP callers and aligners
-  - Uploading reads
-  - Discussion and selection of target genomes
-  - Viewing and interpreting the results
 
 **3:45 pm** 3D protein structures
   - Experimentally-determined protein structures
@@ -273,12 +260,12 @@ Day Five - Friday, 28 February (Viral)
   - Selecting surveillance records
   - GoogleMap view
   - SFVT Search
+  - Epitope Data
 
-**10:00 am** Other data - host response omics data
-  - Overview of host response experiments
-  - Host factor biosets
-  - Enrichment analysis
-  - Heatmap and clustering
+**10:00 am** Waste Water Analysis
+  - Overview of service
+  - SARS-CoV-2 Wastewater Analysis Service Parameter Selection
+  - Viewing and interpreting the results
 
 **10:30 am** Break
 

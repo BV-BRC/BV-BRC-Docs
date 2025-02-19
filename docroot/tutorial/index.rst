@@ -87,6 +87,7 @@ Viral Services
    sequence_submission/sequence_submission.md
    ha_numbering/ha_numbering.md
    subspecies_classification/subspecies_classification.md
+   viral_assembly/assembly.md
    
 
 Data Visualizations

@@ -1,5 +1,11 @@
 [
     {
+        "title": "ICVT Webinar",
+        "desc": "Register now for ICTV's upcoming webinar to learn about their tools and resources",
+        "img": "https://www.bv-brc.org/docs/image/2024/ICTV-Logo-Large.png",
+        "link": "https://bv-brc.org/docs/news/2024/2024-12-12-ictv-webinar2.html"
+    },
+    {
         "title": "BV-BRC Workshop at ANL",
         "desc": "Register now for our upcoming workshop outside of Chicago from February 24-28th focused on bacterial and viral usecases for the BV-BRC.",
         "img": "",

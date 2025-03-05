@@ -5,7 +5,7 @@ BV-BRC Workshop at J. Craig Venter Institute, May 5-8, 2025
    :width: 500
    :alt: BV-BRC May Workshop
 
-The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a **Bioinformatics Workshop on May 5-8, 2025, at J. Craig Venter Institute** in the suburbs of Chicago, IL. The workshop will show researchers how to analyze and explore **bacterial and viral pathogen data** using the BV-BRC website, focusing on bacterial, and viral examples and workflows.
+The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team will be offering a **Bioinformatics Workshop on May 5-8, 2025, at J. Craig Venter Institute** in La Jolla, California- San Diego County. The workshop will show researchers how to analyze and explore **bacterial and viral pathogen data** using the BV-BRC website, focusing on bacterial, and viral examples and workflows.
 
 This workshop will have two separate components, and researchers can register for one or both. The bacterial component, concentrating on analyzing antimicrobial resistance data, will take place on Monday, May 5th to mid-day on Tuesday, May 6th. The viral component will begin Tuesday, May 6th and concludes on Wednesday, May 7th. Thursday morning will include a command line activity and an activity to tie together BV-BRC analysis.
 

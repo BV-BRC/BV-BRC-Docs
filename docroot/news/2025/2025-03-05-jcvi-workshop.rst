@@ -23,6 +23,16 @@ Registration is now open for this workshop.
 `Please fill out this form to register. <https://forms.office.com/r/HtHpa7JYCU>`_  
 Registration will be confirmed by receiving an email of acceptance.  
 
+**FAQ**
+1) Is there a fee for registraion? No, registration is free!
+2) Do I need prior bioinformatic experience? No prior experience is necessary.
+3) Will I need to bring my own computer? Yes you will need to bring your own computer. 
+4) Are there room blocks for the workshop? We are currently working on room blocks with local hotels- more information to come soon. This page will be updated with hotel information.
+5) Do I need to bring my own data? No, the examples will all use publically available data. However if you have a question about your data, please ask and we are happy to help you use the BV-BRC for it. 
+6) Do you offer any scholarships for attendance? Unfortunately we do not offer scholarships for attendance but recommend seeking out opportunities on your own. Here are a few options outside of the BV-BRC that might be worth considering, this list is not exhaustive nor supported by us.
+https://www.biologists.com/grants/dmm-conference-travel-grants/
+https://www.sebiology.org/grants/apply-for-funding.html
+Graduate student travel funds from universities
 
  
 **LOCATION**

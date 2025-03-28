@@ -30,7 +30,7 @@ Below is a screenshot of the Meta-CATS landing page, as well as a summary of cus
 
 ## Input Options
 
-**Auto Grouping:** Allows users to group sequences by available metadata such as: host, country, year, virus type, host age, host gender, etc. The appropriate metadata field may be selected from the “METADATA” drop-down menu. 
+**Auto Grouping:** Allows users to group sequences by available metadata such as: host, country, year, virus type, host age, etc. The appropriate metadata field may be selected from the “METADATA” drop-down menu. 
 
 **And/or Select Feature Group:** Users may input a nucleic acid or protein FASTA file containing a previously selected “Feature Group” (eg. CDS, tRNA etc.) from their workspace here, either in addition to the FASTA text input, or as an alternative.
 

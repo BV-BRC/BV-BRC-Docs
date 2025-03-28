@@ -28,7 +28,7 @@ Genome metadata can be accessed in multiple ways:
 
 * **Isolate Attributes:** Isolation Source, Isolation Comments, Collection Date, Collection Year, Season, Isolation Country, Geographic Group, Geographic Location, Latitude, Longitude, Altitude, Depth, and Other Environmental.
 
-* **Host Attributes:** Host Name, Host Common Name, Host Gender, Host Age, Host Health, Host Group, Lab Host, Passage, Body Sample Site, Body Sample Subsite, and Other Clinical.
+* **Host Attributes:** Host Name, Host Common Name, Host Sex, Host Age, Host Health, Host Group, Lab Host, Passage, Body Sample Site, Body Sample Subsite, and Other Clinical.
 
 * **Sequence Attributes:** Sequencing Center, Sequencing Status, Sequencing Platform, Sequencing Depth, Assembly Method, Chromosome, Plasmids, Contigs, Size, GC Content, Contig L50, Contig N50, TRNA, RRNA, Mat Peptide, CDS, Coarse Consistency, Fine Consistency, CheckM Completeness, CheckM Contamination, Genome and Quality Flags.
 

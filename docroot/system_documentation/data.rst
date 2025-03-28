@@ -33,7 +33,7 @@ Description: Genome metadata in BV-BRC consists of more than 70 different metada
 
 - **Isolate Info** - Isolation Site, Isolation Source, Isolation Comments, Collection Date, Isolation Country, Geographic Location, Latitude, Longitude, Altitude, Depth, and Other Environmental
 
-- **Host Info** - Host Name, Host Gender, Host Age, Host Health, Body Sample Site, Body Sample Subsite, and Other Clinical
+- **Host Info** - Host Name, Host Sex, Host Age, Host Health, Body Sample Site, Body Sample Subsite, and Other Clinical
 
 - **Sequence Info** - Sequencing Status, Sequencing Platform, Sequencing Depth, Assembly Method, Chromosomes, Plasmids, Contigs, Sequences, Genome Length, CG Content, PATRIC CDS, and RefSeq CDS
 

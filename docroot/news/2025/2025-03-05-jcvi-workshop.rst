@@ -19,9 +19,8 @@ Day 4 (May 8) will focus on using the BV-BRC command-line interface for programm
 
 **REGISTRATION**
 
-Registration is now open for this workshop. 
-`Please fill out this form to register. <https://forms.office.com/r/HtHpa7JYCU>`_  
-Registration will be confirmed by receiving an email of acceptance.  
+Registration is now closed for this workshop. We hope to see you at a future BV-BRC Workshop.
+ 
 
 **FAQ**
 1) Is there a fee for registraion? No, registration is free!

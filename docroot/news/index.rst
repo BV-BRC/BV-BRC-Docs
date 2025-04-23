@@ -9,8 +9,7 @@ News and Announcements
    :description: BV-BRC News RSS feed
    :link: https://www.bv-brc.org/docs/
 
-   2024/2024-05-22-h5n1-webinar.rst
-   2024/2024-04-08-bv-brc-workshop-subspecies.rst
+   2025/2025-04-17-education-workshop.rst
 
 
 .. toctree::

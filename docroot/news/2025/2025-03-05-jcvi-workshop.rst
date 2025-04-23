@@ -44,8 +44,7 @@ Graduate student travel funds from universities
 
 **AGENDA**
 
-Day One - Monday, 5 May (Bacterial)
-====================================
+| Day One - Monday, 5 May (Bacterial)
 
 **9:00 am** Bacteria - Information, registration, and overview
 - Welcome and registration
@@ -98,8 +97,7 @@ Day One - Monday, 5 May (Bacterial)
 **5:00 pm** Day 1 Adjourn
 
 
-Day Two - Tuesday, 6 May (Bacterial and Viral)
-===============================================
+| Day Two - Tuesday, 6 May (Bacterial and Viral)
 
 **9:00 am** Comparative Services (Protein Families)
 - Description of protein families and job submission
@@ -154,8 +152,7 @@ Day Two - Tuesday, 6 May (Bacterial and Viral)
 **5:00 pm** Adjourn
 
 
-Day Three - Wednesday, 7 May (Viral)
-====================================
+| Day Three - Wednesday, 7 May (Viral)
 
 **9:00 am** Statistical Sequence Comparison
 - Protein sequence
@@ -218,8 +215,7 @@ Day Three - Wednesday, 7 May (Viral)
 **5:00 pm** Adjourn
 
 
-Day Four - Thursday, 8 May (Activity and Command Line)
-======================================================
+| Day Four - Thursday, 8 May (Activity and Command Line)
 
 **9:00 am** Command Line Interface
 - Logging in

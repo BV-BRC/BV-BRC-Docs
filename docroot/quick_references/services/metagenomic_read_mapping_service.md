@@ -13,7 +13,7 @@ The **Metagenomic Read Mapping** submenu option under the **Services** main menu
 ![Metagenomic Read Mapping Service Menu](../images/bv_services_menu.png)
 
 ## Options
-![Metagenomic Read Mapping Service Input Form](../images/metagenomic_read_mapping_input_form_v2.png)
+![Metagenomic Read Mapping Service Input Form](../images/metagenomic_read_mapping_input_form_v3.png)
 
 ## Input File
 

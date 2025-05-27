@@ -14,7 +14,7 @@ The Tn-Seq Analysis Service facilitates determination of essential and condition
 ## Using the Tn-Seq Service
 The **Tn-Seq Analysis** submenu option under the **Services** main menu (Genomics category) opens the Tn-Seq Analysis input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
 
-![Tn-Seq Analysis Menu](../images/BV_services_menu.png)
+![Tn-Seq Analysis Menu](../images/bv_services_menu.png)
 
 ## Options
 ![Tn-Seq Analysis Input Form](../images/tn-seq_analysis_input_form.png) 

@@ -22,7 +22,7 @@ BV-BRC <-> RefSeq/GenBank <-> UniProtKB Accession <-> Other External Databases
 ## Using the ID Mapper Tool
 The **ID Mapper** submenu option under the **Services** main menu (Data category) opens the ID Mapper input form (*shown below*). *Note: You must be logged into BV-BRC to use this tool.*
 
-![ID Mapper Menu](../images/services_menu.png)
+![ID Mapper Menu](../images/bv_services_menu.png)
 
 ## Options
 ![ID Mapper Input Form](../images/id_mapper_input_form.png) 

@@ -13,6 +13,7 @@ July 2024 - March 2025, unless otherwise noted
 | Avg. pages / visit                              | 7.8      |
 | Avg. visits / visitor                           | 2.00     |
 | Avg. visit duration (seconds)                   | 432      |
+| Citations to BV-BRC resources (cumulative)      | 25,194   |
 
 
 [Detailed BV-BRC Website Statistics](https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?month=05&year=2025&output=main&config=bv-brc.org&framename=index)  

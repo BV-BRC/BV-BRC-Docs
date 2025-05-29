@@ -2,7 +2,7 @@
 July 2024 - March 2025
 
 | Metric                                          | Value   |
-| ----------------------------------------------- | ------- |
+| :----------------------------------------------- | -------: |
 | Total registered users                          | 64,422  |
 | Total analysis jobs submitted by users          |	187,898 |
 | Registered users that run a service (avg/month) | 1,698   |

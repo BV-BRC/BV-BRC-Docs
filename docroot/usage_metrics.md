@@ -15,6 +15,7 @@ July 2024 - March 2025, unless otherwise noted
 | Avg. visit duration (seconds)                   | 432      |
 
 
+[Detailed BV-BRC Website Statistics](https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?month=05&year=2025&output=main&config=bv-brc.org&framename=index)  
 
-[BV-BRC Website Statistics](https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?month=05&year=2025&output=main&config=bv-brc.org&framename=index)  
+![Submitted Jobs](./images/jobs_jul_2024_mar_2025.png "Submitted jobs")
 

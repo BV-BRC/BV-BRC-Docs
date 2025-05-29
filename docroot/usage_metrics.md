@@ -15,8 +15,11 @@ July 2024 - March 2025, unless otherwise noted
 | Avg. visit duration (seconds)                   | 432      |
 | Citations to BV-BRC resources (cumulative)      | 25,194   |
 
+<br>
 
 [Detailed BV-BRC Website Statistics](https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?month=05&year=2025&output=main&config=bv-brc.org&framename=index)  
+
+<br>
 
 **Analysis jobs submitted by users, by type**
 ![Submitted Jobs](./images/jobs_jul_2024_mar_2025.png "Submitted jobs")

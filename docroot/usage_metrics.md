@@ -23,5 +23,5 @@ July 2024 - March 2025
 
 
 
-[BV-BRC Website Statistics](https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?config=all_bvbrc)  
+[BV-BRC Website Statistics]([https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?month=05&year=2025&output=main&config=bv-brc.org&framename=index])  
 

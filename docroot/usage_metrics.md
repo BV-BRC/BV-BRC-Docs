@@ -16,9 +16,11 @@ July 2024 - March 2025, unless otherwise noted
 | Citations to BV-BRC resources (cumulative)      | 25,194   |
 
 <br>
+<br>
 
-[Detailed BV-BRC Website Statistics](https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?month=05&year=2025&output=main&config=bv-brc.org&framename=index)  
+[Detailed BV-BRC Website Statistics](https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?month=05&year=2025&output=main&config=bv-brc.org&framename=index) 
 
+<br>
 <br>
 
 **Analysis jobs submitted by users, by type**

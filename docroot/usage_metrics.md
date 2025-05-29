@@ -17,5 +17,6 @@ July 2024 - March 2025, unless otherwise noted
 
 [Detailed BV-BRC Website Statistics](https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?month=05&year=2025&output=main&config=bv-brc.org&framename=index)  
 
+**Analysis jobs submitted by users, by type**
 ![Submitted Jobs](./images/jobs_jul_2024_mar_2025.png "Submitted jobs")
 

@@ -1,7 +1,8 @@
 # Usage Metrics
 July 2024 - March 2025
 
-*Total registered users:* 64,422
+**Total registered users:** 64,422
+
 Total analysis jobs submitted by users:	187,898
 Registered users that run a service (avg/month): 1,698
 Total storage used for user data (TB): 667

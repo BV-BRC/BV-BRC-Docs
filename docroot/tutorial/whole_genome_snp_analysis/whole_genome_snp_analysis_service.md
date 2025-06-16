@@ -44,7 +44,6 @@ For more information about creating a genome group please visit our [documentati
 ## Parameters
 
 1.	The **Majority SNP Threshold** defines the portion of genomes that must contain the SNP in order to be included in the Majority SNP category. (see All SNPs, Core SNPs and Majority SNPs above).
-![Figure 1](./images/Figure_1_Service_tab_to_Variation.png "Figure 1")
 
 2.	An **Output Folder** must be designated to hold the job results.
 
@@ -52,57 +51,51 @@ For more information about creating a genome group please visit our [documentati
 
 4.	After clicking the submit button, your job will be launched. A successful submission will generate a message indicating that the job has been queued.
 
-5.	The bottom of each BV-BRC page has an indicator that shows the number of jobs that are queued, running or completed. Clicking on the word Jobs will rewrite the page to show the Job status. Researchers can monitor the Jobs Status page to see the status of their job, which is indicated in the first column (Queued, Running, Complete, Failed).
-
-## Monitoring progress on the Jobs page
-
-1. Click on the Jobs box at the bottom right of any BV-BRC page. 
-
-
-2. This will open the Jobs Landing page where the status of submitted jobs is displayed. 
-
+5.	The bottom of each BV-BRC page has an indicator that shows the number of jobs that are queued, running or completed. Clicking on the word Jobs will rewrite the page to show the Job status. Researchers can monitor the Jobs Status page to see the status of their job, which is indicated in the first column (Queued, Running, Complete, Failed). 
 
 ## Locating the Whole Genome SNP Analysis Job Results
 
 1.	The Whole Genome SNP Analysis job can be located from three places on any BV-BRC page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and from the Jobs monitor located at the lower right of any BV-BRC page. Either way, this will open your Jobs page.
 
-2.	Clicking on the row that contains the job of interest will open two icons in the vertical green bar. To view the job, click on the View icon.
+![an image of the jobs page shortcuts](images/image_my_jobs.png "an image of the jobs page shortcuts").
 
-3.	This will open a page for the selected job. The results are divided into several sections, All SNPs, Core SNPs, Majority SNPs, Intermediate Files, and VCFs. There is also a comprehensive report.
+3.	Clicking on the row that contains the job of interest will open two icons in the vertical green bar. To view the job, click on the View icon.
 
-4.	Information about the job, including the job ID, the running time, and the information of the data submitted can be viewed in the uppermost box. Clicking on Parameters will open a drop-down box that contains information about the samples submitted.
+4.	This will open a page for the selected job. The results are divided into several sections, All SNPs, Core SNPs, Majority SNPs, Intermediate Files, and VCFs. There is also a comprehensive report.
 
-5.	Each job submitted to the Whole Genome SNP Analysis service will return a report that summarizes the results. To view this report, click on the row that contains the words “WholeGenomeSNP_Report.html”
+5.	Information about the job, including the job ID, the running time, and the information of the data submitted can be viewed in the uppermost box. Clicking on Parameters will open a drop-down box that contains information about the samples submitted.
 
-6.	This report begins with a detailed description of the service and analysis workflow.
+6.	Each job submitted to the Whole Genome SNP Analysis service will return a report that summarizes the results. To view this report, click on the row that contains the words “WholeGenomeSNP_Report.html”
 
-7.	Getting to Know the Input Data provides an overview of the input genomes and their associated metadata. A table provides summary statistics about the genomes. A bar plot displays each input genome’s length. There is an interactive metadata table that you can search, filter by column and sort. View more entries by selecting a greater value from the “Show entries” drop down above the table or by clicking on the page numbers below.
+7.	This report begins with a detailed description of the service and analysis workflow.
 
-8.	The next section, Reviewing Identified SNPs provides the results in three subcategories, Total SNPs, Core SNPs, and Majority SNPs.
+8.	Getting to Know the Input Data provides an overview of the input genomes and their associated metadata. A table provides summary statistics about the genomes. A bar plot displays each input genome’s length. There is an interactive metadata table that you can search, filter by column and sort. View more entries by selecting a greater value from the “Show entries” drop down above the table or by clicking on the page numbers below.
 
-9.	A bar plot shows the number of SNPs in each subcategory. 
+9.	The next section, Reviewing Identified SNPs provides the results in three subcategories, Total SNPs, Core SNPs, and Majority SNPs.
 
-10.	Phylogenetic trees are a great way to view the relationship of the genomes. This service uses estimate phylogenetic trees based on 3 methods: parsimony, neighbor joining (NJ), and maximum likelihood (ML).
+10.	A bar plot shows the number of SNPs in each subcategory. 
+
+11.	Phylogenetic trees are a great way to view the relationship of the genomes. This service uses estimate phylogenetic trees based on 3 methods: parsimony, neighbor joining (NJ), and maximum likelihood (ML).
     * Parsimony the parsimony tree method is a good fit for small datasets with close relatives and low divergency. It estimated by creating a consensus of up to 100 equally parsimonious trees. It seeks a tree topology that explains the observed sequence data with the smallest possible number of evolutionary changes.
    	* Maximum Likelihood  (ML) the maximum likelihood tree is a good fit for datasets with substantial divergency and complex substitution patterns. It is constructed by finding the tree topology that has the highest likelihood of producing the observed sequence data.
    	* Neighbor Joining (NJ) this tree method is a good fit for exploratory analysis, especially with very large datasets. This is a distance-based method that constructs a tree by iteratively finding pairs of taxa (neighbors) that minimuze the total branch length at each step.  It uses distance matrix (pairwise genetic distances between sequences).
     Homoplastic SNPs are SNPs that occur in unrelated places on the same tree. They may differ according to the tree method.
 
     Please visit the kSNP4 documentation for more information about the many trees created by this service.
-11.	The aim of the SNP Distance Heatmap and Metadata view is to show relationships between the genomes and hopefully identify patterns or clusters. The plot shows the number of SNPs that differ between the genomes. This is calculated by kSNP4’s companion program, kSNPdist. The x and y axsis are populated with the BV-BRC genome ID. This id is searchable across the website – however, replace the “_” with a “.”.
-12.	There are a few ways to interact with this plot:
+12.	The aim of the SNP Distance Heatmap and Metadata view is to show relationships between the genomes and hopefully identify patterns or clusters. The plot shows the number of SNPs that differ between the genomes. This is calculated by kSNP4’s companion program, kSNPdist. The x and y axsis are populated with the BV-BRC genome ID. This id is searchable across the website – however, replace the “_” with a “.”.
+13.	There are a few ways to interact with this plot:
 a.	Hovering over the plot all metadata is displayed (this is the same data as within the interactive table). The final item is the SNP distance value. In other words, the number of SNPs that differ between two genomes.
 b.	The legend on the right side of the plot color the plot according to linkage thresholds. This allows the user to define the number of SNPs defining  strong linkages, mid linkage and weak linkages. In other words, how closely related  two genomes are based on how many SNPs differ between them. 
 c.	Dynamically set linkage thresholds by changing the values in Weak Linkage 
 d.	Choose SNP matrix allows user to toggle between the three subtypes.
 e.	Reorder by Metadata Field allows the user to reorder the plot according to the metadata. The aim of this feature is revealing potential patterns associated to the metadata.
 f.	Note: Depending on the number of genomes in your genome group there may not be enough space to render every item on the x and y axis. Ensure you are looking the correct genome ID by viewing the hover data.
-13.	The Phylogenetic Trees section of the report includes nine static images of the phylogenetic trees generated by kSNP4. Choosing the subset and tree method will flip through the tree images.
-14.	For an interactive view of the tree, navigate to the job results. Then select the directory named with the SNP subtype you are interested in. For example, All_SNPs. All_SNPs, Core_SPS, and Majority_SNPs have the same file types and organizational structure.
-15.	 Click the directory “Trees” to view the trees ending with the extension “.phyloxml”.
-16.	 Each filename starts with Tree, then any special annotation, the SNP subtype and the tree method used to generate the tree. Click a tree to view, for example tree.SNPs_all.ML.tree.phyloxml.
-17.	Then click the ‘view’ button to open our tree viewer.
-18.	This tool outputs many trees where nodes are annotated with data from the analysis. Tree files ending in "phyloxml" can map metadat to the tree. The newick files are the same trees in their on directory. These files can also be uploaded to extrenal tree viewers. For a detailed tutorial about the website's internal tree viewer visit this [tutorial](https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html).
+14.	The Phylogenetic Trees section of the report includes nine static images of the phylogenetic trees generated by kSNP4. Choosing the subset and tree method will flip through the tree images.
+15.	For an interactive view of the tree, navigate to the job results. Then select the directory named with the SNP subtype you are interested in. For example, All_SNPs. All_SNPs, Core_SPS, and Majority_SNPs have the same file types and organizational structure.
+16.	 Click the directory “Trees” to view the trees ending with the extension “.phyloxml”.
+17.	 Each filename starts with Tree, then any special annotation, the SNP subtype and the tree method used to generate the tree. Click a tree to view, for example tree.SNPs_all.ML.tree.phyloxml.
+18.	Then click the ‘view’ button to open our tree viewer.
+19.	This tool outputs many trees where nodes are annotated with data from the analysis. Tree files ending in "phyloxml" can map metadat to the tree. The newick files are the same trees in their on directory. These files can also be uploaded to extrenal tree viewers. For a detailed tutorial about the website's internal tree viewer visit this [tutorial](https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html).
 
 It is possible to be missing a tree. This happens when a given tree method is unable to make a sensible tree 
 19.	The directory Cluster Information lists each locus with a list for which a tree node or homoplastic group of sequences the locus is present in. Note: the Group numbers in these files correspond to the groups listed in the Homoplasy_groups files.

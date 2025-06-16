@@ -59,6 +59,8 @@ For more information about creating a genome group please visit our [documentati
 
 ![an image of the jobs page shortcuts](images/image_my_jobs.png "an image of the jobs page shortcuts").
 
+2. Navigate to your job results.
+
 3.	Clicking on the row that contains the job of interest will open two icons in the vertical green bar. To view the job, click on the View icon.
 
 4.	This will open a page for the selected job. The results are divided into several sections, All SNPs, Core SNPs, Majority SNPs, Intermediate Files, and VCFs. There is also a comprehensive report.

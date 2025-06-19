@@ -63,11 +63,19 @@ For more information about creating a genome group please visit our [documentati
 
 3.	Clicking on the row that contains the job of interest will open two icons in the vertical green bar. To view the job, click on the View icon.
 
+![an image of how to view job results](images/WG_SNP_Step3.png "an image of how to view job results").
+
 4.	This will open a page for the selected job. The results are divided into several sections, All SNPs, Core SNPs, Majority SNPs, Intermediate Files, and VCFs. There is also a comprehensive report.
+
+![an image of job results](images/WG_SNP_Step4.png "an image of job results").
 
 5.	Information about the job, including the job ID, the running time, and the information of the data submitted can be viewed in the uppermost box. Clicking on Parameters will open a drop-down box that contains information about the samples submitted.
 
+![an image of jod ID and parameter icon](images/WG_SNP_Step5.png "an image of jod ID and parameter icon").
+
 6.	Each job submitted to the Whole Genome SNP Analysis service will return a report that summarizes the results. To view this report, click on the row that contains the words “WholeGenomeSNP_Report.html”
+
+![an image of WholeGenomeSNP_Report.html](images/WG_SNP_Step6.png "an image of WholeGenomeSNP_Report.html").
 
 7.	This report begins with a detailed description of the service and analysis workflow.
 

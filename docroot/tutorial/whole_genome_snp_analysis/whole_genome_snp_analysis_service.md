@@ -63,6 +63,8 @@ For more information about creating a genome group please visit our [documentati
 
 3.	Clicking on the row that contains the job of interest will open two icons in the vertical green bar. To view the job, click on the View icon.
 
+![an image of how to view job results](images/WG_SNP_Step3.png "an image of how to view job results").
+
 4.	This will open a page for the selected job. The results are divided into several sections, All SNPs, Core SNPs, Majority SNPs, Intermediate Files, and VCFs. There is also a comprehensive report.
 
 5.	Information about the job, including the job ID, the running time, and the information of the data submitted can be viewed in the uppermost box. Clicking on Parameters will open a drop-down box that contains information about the samples submitted.

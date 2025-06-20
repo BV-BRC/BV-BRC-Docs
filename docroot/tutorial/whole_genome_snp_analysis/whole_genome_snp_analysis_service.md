@@ -151,6 +151,8 @@ For more information about creating a genome group please visit our [documentati
 
 19.	This tool outputs many trees where nodes are annotated with data from the analysis. Tree files ending in "phyloxml" can map metadat to the tree. The newick files are the same trees in their on directory. These files can also be uploaded to extrenal tree viewers. For a detailed tutorial about the website's internal tree viewer visit this [tutorial](https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html).
 
+![an image of phylogenetic tree viewer](images/WG_SNP_Step19.png "an image of phylogenetic tree viewer").
+
 It is possible to be missing a tree. This happens when a given tree method is unable to make a sensible tree 
 19.	The directory Cluster Information lists each locus with a list for which a tree node or homoplastic group of sequences the locus is present in. Note: the Group numbers in these files correspond to the groups listed in the Homoplasy_groups files.
 20.	The directory Homoplasy files give the number of SNPs in each homoplastic group of genomes. These files are similar to. The Node_SNP_counts files, except for the groups of genomes that share SNPs but that do not correspond nodes of the tree. They give a group identifier (e.g. “Group.25” which corresponds to the info reported in the ClusterInfo files), and the number of target sequences that make up this group and the number of SNP alleles that are shared by this group of genomes, followed by the genome identities that make up the group.

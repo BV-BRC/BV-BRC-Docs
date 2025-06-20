@@ -108,7 +108,13 @@ For more information about creating a genome group please visit our [documentati
 
 13.	There are a few ways to interact with this plot:
  *	Hovering over the plot all metadata is displayed (this is the same data as within the interactive table). The final item is the SNP distance value. In other words, the number of SNPs that differ between two genomes.
+
+![an image of SNP heatmap metadata](images/WG_SNP_Step13a.png "an image of SNP heatmap").
+ 
  * The legend on the right side of the plot color the plot according to linkage thresholds. This allows the user to define the number of SNPs defining  strong linkages, mid linkage and weak linkages. In other words, how closely related  two genomes are based on how many SNPs differ between them. 
+
+![an image of SNP heatmap legend](images/WG_SNP_Step13b.png "an image of SNP legend").
+
  *	Dynamically set linkage thresholds by changing the values in Weak Linkage. The plot title will update to include this information.
  *	Choose SNP matrix allows user to toggle between the three subtypes.
  *	Reorder by Metadata Field allows the user to reorder the plot according to the metadata. The aim of this feature is revealing potential patterns associated to the metadata. The plot title will update.

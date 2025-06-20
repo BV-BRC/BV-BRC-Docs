@@ -125,7 +125,7 @@ For more information about creating a genome group please visit our [documentati
 
  *	Reorder by Metadata Field allows the user to reorder the plot according to the metadata. The aim of this feature is revealing potential patterns associated to the metadata. The plot title will update.
 
-![an image of SNP heatmap "reorder by metadata field" option](images/WG_SNP_Step13e.png "an image of SNP heatmap "reorder by metadata field" option").
+![an image of SNP heatmap reordering by metadata field](images/WG_SNP_Step13e.png "an image of SNP heatmap reordering by metadata field").
 
  **	**Note**: Depending on the number of genomes in your genome group there may not be enough space to render every item on the x and y axis. Ensure you are looking the correct genome ID by viewing the hover data.
    

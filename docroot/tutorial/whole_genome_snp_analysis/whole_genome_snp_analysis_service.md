@@ -79,6 +79,8 @@ For more information about creating a genome group please visit our [documentati
 
 7.	This report begins with a detailed description of the service and analysis workflow.
 
+![an image of the service description](images/WG_SNP_Step7.png "an image of the service description").
+
 8.	Getting to Know the Input Data provides an overview of the input genomes and their associated metadata. A table provides summary statistics about the genomes. A bar plot displays each input genome’s length. There is an interactive metadata table that you can search, filter by column and sort. View more entries by selecting a greater value from the “Show entries” drop down above the table or by clicking on the page numbers below.
 
 9.	The next section, Reviewing Identified SNPs provides the results in three subcategories, Total SNPs, Core SNPs, and Majority SNPs.

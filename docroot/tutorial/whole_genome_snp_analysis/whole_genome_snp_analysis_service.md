@@ -103,6 +103,9 @@ For more information about creating a genome group please visit our [documentati
 
     Please visit the kSNP4 documentation for more information about the many trees created by this service.
 12.	The aim of the SNP Distance Heatmap and Metadata view is to show relationships between the genomes and hopefully identify patterns or clusters. The plot shows the number of SNPs that differ between the genomes. This is calculated by kSNP4’s companion program, kSNPdist. The x and y axsis are populated with the BV-BRC genome ID. This id is searchable across the website – however, replace the “_” with a “.”.
+
+![an image of SNP heatmap](images/WG_SNP_Step12.png "an image of SNP heatmap").
+
 13.	There are a few ways to interact with this plot:
  *	Hovering over the plot all metadata is displayed (this is the same data as within the interactive table). The final item is the SNP distance value. In other words, the number of SNPs that differ between two genomes.
  * The legend on the right side of the plot color the plot according to linkage thresholds. This allows the user to define the number of SNPs defining  strong linkages, mid linkage and weak linkages. In other words, how closely related  two genomes are based on how many SNPs differ between them. 

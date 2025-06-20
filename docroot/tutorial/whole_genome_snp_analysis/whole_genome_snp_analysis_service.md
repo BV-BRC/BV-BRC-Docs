@@ -134,9 +134,21 @@ For more information about creating a genome group please visit our [documentati
 ![an image of SNP phylogenetic tree options](images/WG_SNP_Step14.png "an image of SNP phylogenetic tree options").
 
 15.	For an interactive view of the tree, navigate to the job results. Then select the directory named with the SNP subtype you are interested in. For example, All_SNPs. All_SNPs, Core_SPS, and Majority_SNPs have the same file types and organizational structure.
+
+![an image of job results and All_SNPs directory](images/WG_SNP_Step15.png "an image of job results and All_SNPs directory").
+
 16.	 Click the directory “Trees” to view the trees ending with the extension “.phyloxml”.
+
+![an image of trees directory selection](images/WG_SNP_Step16.png "an image of trees directory selection").
+
 17.	 Each filename starts with Tree, then any special annotation, the SNP subtype and the tree method used to generate the tree. Click a tree to view, for example tree.SNPs_all.ML.tree.phyloxml.
+
+![an image of trees directory](images/WG_SNP_Step17.png "an image of trees directory").
+
 18.	Then click the ‘view’ button to open our tree viewer.
+
+![an image of tree viewer button](images/WG_SNP_Step18.png "an image of tree viewer button").
+
 19.	This tool outputs many trees where nodes are annotated with data from the analysis. Tree files ending in "phyloxml" can map metadat to the tree. The newick files are the same trees in their on directory. These files can also be uploaded to extrenal tree viewers. For a detailed tutorial about the website's internal tree viewer visit this [tutorial](https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html).
 
 It is possible to be missing a tree. This happens when a given tree method is unable to make a sensible tree 

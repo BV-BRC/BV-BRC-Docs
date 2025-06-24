@@ -1,9 +1,7 @@
 The Core Genome Multi-Locus Sequence Typing (MLST) pipeline allows you to characterize bacterial and viruses based on the presence and absence of specific loci. These loci are defined in a schema.  This service defines a schema as a list of locus names and collection of allele sequences.  There are 32 schemas for priority pathogen species curated by species experts at [Ridom]( https://www.ridom.de/seqsphere/cgmlst/). 
 Typical MLST schemas used 5-7 genes that are conserved and essential for basic cellular functions and are expected to be present in all strains of a species even as they evolve.  This service uses schemas with predefined sets of species-specific loci including both core and accessory genes.  This allows for finger resolution of bacterial strain differences and consistent tracking across labs.
 
-<triangle image>
-![image](https://github.com/user-attachments/assets/85528f84-913b-4336-9073-b1f39a67db47)
-
+![an image of the outbreak tracking triangle](images/outbreak_tracking_triangle.png "an image of the outbreak tracking triangle").
 
 This service used Chewbbaca 3.3.10.  Elements of this tutorial are based on their documentation. The full documentation is available [here]( https://chewbbaca.readthedocs.io/en/latest/index.html). The pipeline begins with the alle call step which finds alleles in the genomes that are also listed in the schema. Thus identifying known and novel alleles in the input genomes. An allele is a specific sequence variant that occurs at a given locus.  The initial allele call can be considered as cgMLST including all alleles. Later, we will rerun this step to identify the core genome. The allele call uses the following tools:
   * Pyrodigal predicts the coding sequences (CDSs) and generates predicted protein-coding genes which are used for allele matches.
@@ -14,26 +12,28 @@ Then the service runs chewBBACA’s remove genes command to remove paralogous lo
 * Core Loci Selection: Determines which loci are “core” based on how often they appear across the genomes – providing results for default thresholds 95%, 99% and 100%. 
 This service uses 95% as the threshold. A second allele call is performed with the allelic profiles meeting the 95% threshold. Followed by the allele call evaluator. This generates an interactive report <PLACEHOLDER> that provides summary statistics to evaluate results per sample and per loci. The report includes a presence-absence matrix heatmap, a distance matrix based on the allelic differences and a Neighbor-Joining (NJ) tree based on the multiple sequence alignment (MSA) of the core genome loci.
 
-<image of service page>
-  
+![an image of the service_page](images/cgMLST_service_page.png "an image of the service_page").
+
 ## Select a Genome Group
 This service accepts assembled genomes that are collected into one Genome Group. For more information about creating a genome group please visit our [documentation](https://www.bv-brc.org/docs/quick_references/workspaces/groups.html) or our [video tutorial](https://www.youtube.com/watch?v=BDCUyhX9brA&t=36s).
 
 ## Select Reference Schema
 The schemas are species-specific.  Selecting a schema built from a different species will not allow the service to correctly match your loci to the target genome. This could lead to inaccurate allele calls. 
+
 ## Parameters
 In the parameters section you will select an output folder and output name.
 
   ## Finding the Core Genome MLST Results
 1.	The job can be located from three places on any BV-BRC page. Clicking on the Workspace tab will reveal two of the places where the workspace or jobs folder can be located, and also from the Jobs monitor located at the lower right of any BV-BRC page.
-<or image>
+
+![an image showing where to find the job results](images/finding_job_results.png "an image showing where to find the job results").
 
 2.	The landing page shows all the files produced by the job that was submitted. Note: the top portion gives details such as the run time and input parameters.
 3.	Each job will return a report summarizing the results. To view the report click, allelecall_report.html. Note: this file must be in the same directory as its supporting actor, “report_bundle.js” or else it will not work.
 4.	The report has sections that you can display or hide. Click the down arrow on the right-hand side of the heading to show or hide.
 5.	The first section gives a report description to guide the reader through the report.
 6.	The Results Summary Data provides a brief overview of the table.
-7.	Next, click on the heading “Counts Per Sample” and “Counts per Locus” to view the classification counts. These are defined in <PLACE HOLDER>.
+7.	Next, click on the heading “Counts Per Sample” and “Counts per Locus” to view the classification counts. The character codes along the y axis represent the percent idenity match. A better match gives more confidence. The codes are defined (with examples) below in the section "Reading The Allele Call Classification Counts".
 8.	Toggle between Sample stats (genome level) and Loci Stats (gene level). Note: the upper right-hand corner offers many ways to interact with this table including search, download as .CSV, view (and hide) columns, and filter. 
 9.	Toggle between the results per sample and per locus to view panels with tables with detailed statistics.
 
@@ -59,7 +59,7 @@ The dropdown menu below the tables allows the selection of a single column to ge
 11.	The seventh component displays a heatmap representing the symmetric distance matrix. The distances are computed by determining the number of allelic differences from the set of core loci (shared by 100% of the samples) between each pair of samples. The **Select Sample** dropdown menu enables the selection of a single sample to display its heatmap on top of the main heatmap. The menu after the heatmap enables the selection of a single sample and of a distance threshold to display a table with the list of samples at a distance equal or smaller than the specified distance value.
 12.	The last component displays a tree drawn with Phylocanvas.gl based on the Neighbor-Joining (NJ) tree computed by FastTree (with the options -fastest, -nosupport and -noml). The tree is computed based on the MSA for the set of loci that constitute the core-genome (The MSA for each core locus is determined with MAFFT, with the options --retree 1 and --maxiterate 0. The MSAs for all the core loci are concatenated to create the full MSA).
 
-## Reading the Allele Call Classification Counts
+## Reading The Allele Call Classification Counts
 Consider this like quality control. These codes represent the quality of the DNA identity match. A high number of PLOT3/PLOT5, LOTSC, NIPH/NIPHEM, PAMA, and ASM/ALM classifications assigned to a genome usually indicates that the genome is of poor quality (e.g. highly fragmented or contaminated).
 * **EXC** - EXaCt match (100% DNA identity) with previously identified alleles.
 * **INF** - INFerred new alleles that had no exact match in the schema but are highly similar to loci in the schema. In the allelic profiles (included in the results_alleles.tsv output file), the INF- prefix in the allele identifier indicates that the allele was newly inferred and the number following the prefix is the allele identifier attributed to the allele. Inferred alleles are added to the FASTA file of the locus they share high similarity with (unless the --no-inferred parameter is used).

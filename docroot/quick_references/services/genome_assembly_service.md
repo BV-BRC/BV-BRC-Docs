@@ -48,17 +48,37 @@ Allows direct upload of read files from the [NCBI Sequence Read Archive](https:/
 
 **Output Name:** User-provided name used to uniquely identify results.
 
-**Benchmark Contigs:** This optional parameter can be used to specify a FASTA contigs file to evaluate the assembly against.
 
-### Advanced
+### Advanced Parameters
 
-**Trim reads before assembly:** Trim reads using TrimGalore (True/False)
+### Read Processing
 
-**Racon iternations** and **Pilon iterations:** Correct assembly errors (or “polish") using racon and/or Pilon. Both racon and Pilon take the contigs and the reads mapped to those contigs, and look for discrepancies between the assembly and the majority of the reads.  Where there is a discrepancy, racon or pilon will correct the assembly if the majority of the reads call for that.  Racon is for long reads (PacBio or Nanopore) and Pilon is for shorter reads (Illumina or Ion Torrent).  Once the assembly has been corrected with the reads, it is still possible to do another iteration to further improve the assembly, but each one takes time. 
+## Normalize Illumina Reads
+Apply BBNorm to reduce depth variation along genome, down-sampling peaks of dense coverage to approximately the target coverage parameter.
 
-**Minimal output contig length:**  Filter out short contigs in final assembly
+## Trim Short Reads
+Trim reads using TrimGalore to remove any recognized Illumina adapters and low-quality 5’ ends.
 
-**Minimal output contig coverage:** Filter out contigs with low read depth in final assembly
+## Filter Long Reads
+Use FiltLong to down-sample Nanopore or PacBio reads to the target size (= target genome coverage * estimated genome size).
+
+### Genome Parameters
+
+## Estimated Genome Size
+
+## Target Genome Coverage
+
+## Racon Iterations
+Correct assembly errors (or “polish”) using racon and/or Pilon. Both racon and Pilon take the contigs and the reads mapped to those contigs, and look for discrepancies between the assembly and the majority of the reads. Where there is a discrepancy, racon or pilon will correct the assembly if the majority of the reads call for that. Racon is for long reads (PacBio or Nanopore) and Pilon is for Illumina reads. Once the assembly has been polished, it is still possible to do another iteration to further improve the assembly, but with less improvement each round. Two rounds tend to approach saturation.
+
+## Pilon Iterations
+See Racon iterations. Pilon is for Illumina reads.
+
+## Minimum Contig Length
+Filter out contigs shorter than this value from the final assembly
+
+## Minimum Contig Coverage
+Filter out contigs with read depth lower than this value in final assembly.
 
 ## Selected Libraries
 Read files placed here will contribute to a single analysis.

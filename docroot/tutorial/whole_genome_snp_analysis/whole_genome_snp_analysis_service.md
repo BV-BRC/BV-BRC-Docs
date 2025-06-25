@@ -153,7 +153,7 @@ For more information about creating a genome group please visit our [documentati
 
 ![an image of phylogenetic tree viewer](images/WG_SNP_Step19.png "an image of phylogenetic tree viewer")
 
-It is possible to be missing a tree. This happens when a given tree method is unable to make a sensible tree 
+> *	**Note**: It is possible to be missing a tree. This happens when a given tree method is unable to make a sensible tree 
 
 20.	The directory Cluster Information lists each locus with a list for which a tree node or homoplastic group of sequences the locus is present in. Note: the Group numbers in these files correspond to the groups listed in the Homoplasy_groups files.
 

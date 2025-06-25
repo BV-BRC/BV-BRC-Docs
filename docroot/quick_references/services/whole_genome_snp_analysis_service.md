@@ -30,7 +30,6 @@ For more information about creating a genome group please visit our [documentati
 ## Parameters
 
 The **Majority SNP Threshold** defines the portion of genomes that must contain the SNP in order to be included in the Majority SNP category. (see All SNPs, Core SNPs and Majority SNPs above).
-![Figure 1](./images/Figure_1_Service_tab_to_Variation.png "Figure 1")
 
 ### Output Folder
 The workspace folder where results will be placed.

@@ -46,10 +46,13 @@ Name used to uniquely identify results.
 ## Output Results
 ![Whole Genome SNP Analysis Service Results Page](../../tutorial/whole_genome_snp_analysis/images/WG_SNP_Step4.png "Output results")
 
-The Whole Genome SNP Analysis Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include 
+The Whole Genome SNP Analysis Service generates several files that are deposited in the designated Output Folder. These include:
 1. The results are divided into sub directories, All SNPs, Core SNPs, Majority SNPs. Each  sub directory follows the same structure.
-2. Intermediate Files are parsed and included in the report and other output files. VCFs contains a variant call formate file for compatibility with other tools using the reference genome indicated in the file name.
-3. A comprehensive report in the file "WholeGenomeSNP_Report.html" described in detail in the sservice tutorial.
+2. Intermediate Files are parsed and included in the report and other output files.
+3. The VCFs directory contains a variant call format file for compatibility with other tools using the reference genome indicated in the file name.
+4. A comprehensive report located within the "WholeGenomeSNP_Report.html" file, described in detail in the service tutorial.
+
+![Whole Genome SNP Analysis Service Input Form](../../tutorial/whole_genome_snp_analysis/images/Quick_Ref_WG_SNP_SubCat.png "Sub-Category Files")
 
 Each subgroup contains the following files where SNPs_all would represent the subcategory:
 * Cluster_Information - Files in this directory list each locus with a list for which a tree node or homoplastic group of sequences the locus is present in. Note: the Group numbers in these files correspond to the groups listed in the Homoplasy_groups files.

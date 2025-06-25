@@ -22,7 +22,7 @@ The **Whole Genome SNP Analysis** submenu option under the **Services** main men
 ![Whole Genome SNP Analysis Menu](../images/bv_services_menu.png)
 
 ## Options
-![Whole Genome SNP Analysis Service Input Form](../../tutorial/whole_genome_snp_analysis/)
+![Whole Genome SNP Analysis Service Input Form](../../tutorial/whole_genome_snp_analysis/images/Quick_Ref_WG_SNP_Options.png)
 
 ## Select a Genome Group 
 For more information about creating a genome group please visit our [documentation](https://www.bv-brc.org/docs/quick_references/workspaces/groups.html) or our [video tutorial](https://www.youtube.com/watch?v=BDCUyhX9brA&t=36s).

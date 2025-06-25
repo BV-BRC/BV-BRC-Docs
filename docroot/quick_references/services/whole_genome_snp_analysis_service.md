@@ -22,7 +22,7 @@ The **Whole Genome SNP Analysis** submenu option under the **Services** main men
 ![Whole Genome SNP Analysis Menu](../images/bv_services_menu.png)
 
 ## Options
-![Whole Genome SNP Analysis Service Input Form](../../tutorial/whole_genome_snp_analysis/images/Quick_Ref_WG_SNP_Options.png)
+![Whole Genome SNP Analysis Service Input Form](../../tutorial/whole_genome_snp_analysis/images/Quick_Ref_WG_SNP_Options.png "Service Input Form")
 
 ## Select a Genome Group 
 For more information about creating a genome group please visit our [documentation](https://www.bv-brc.org/docs/quick_references/workspaces/groups.html) or our [video tutorial](https://www.youtube.com/watch?v=BDCUyhX9brA&t=36s).
@@ -44,7 +44,7 @@ Name used to uniquely identify results.
 **Submit:** Launches the Whole Genome SNP Analysis job
 
 ## Output Results
-![Whole Genome SNP Analysis Service Results Page](../images/Whole Genome SNP Analysis_service_results_page.png)
+![Whole Genome SNP Analysis Service Results Page](../../tutorial/whole_genome_snp_analysis/images/WG_SNP_Step4.png "Output results")
 
 The Whole Genome SNP Analysis Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include 
 1. The results are divided into sub directories, All SNPs, Core SNPs, Majority SNPs. Each  sub directory follows the same structure.

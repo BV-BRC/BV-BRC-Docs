@@ -66,11 +66,7 @@ It is possible to be missing a tree. This happens when a given tree method is un
 
 ### Action buttons
 
-<center><div style="max-width:250px">
- 
 ![Action Bar](../../tutorial/whole_genome_snp_analysis/images/Quick_Ref_WG_SNP_ActionBar.png "Action Bar")
-
-</div></center>
 
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table, listed below. To find out more about the different options for using these output files, see the [Whole Genome SNP Analysis Service Tutorial](https://bv-brc.org/docs/tutorial/whole_genome_snp_analysis/whole_genome_snp_analysis_service.html).
 

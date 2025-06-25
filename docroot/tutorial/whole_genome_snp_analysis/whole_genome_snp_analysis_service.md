@@ -153,17 +153,27 @@ For more information about creating a genome group please visit our [documentati
 
 ![an image of phylogenetic tree viewer](images/WG_SNP_Step19.png "an image of phylogenetic tree viewer")
 
-It is possible to be missing a tree. This happens when a given tree method is unable to make a sensible tree 
+> *	**Note**: It is possible to be missing a tree. This happens when a given tree method is unable to make a sensible tree 
 
 20.	The directory Cluster Information lists each locus with a list for which a tree node or homoplastic group of sequences the locus is present in. Note: the Group numbers in these files correspond to the groups listed in the Homoplasy_groups files.
 
+![an image of the Cluster Information Directory](images/WG_SNP_Step20.png "an image of the Cluster Information Directory")
+
 21.	The directory Homoplasy files give the number of SNPs in each homoplastic group of genomes. These files are similar to. The Node_SNP_counts files, except for the groups of genomes that share SNPs but that do not correspond nodes of the tree. They give a group identifier (e.g. “Group.25” which corresponds to the info reported in the ClusterInfo files), and the number of target sequences that make up this group and the number of SNP alleles that are shared by this group of genomes, followed by the genome identities that make up the group.
 
-22.	SNPs_all.tsv this file can be very large and may take a moment to load. It is tab separated will populate our TSV view and can also be opened with Excell.  This file shows the each alternative SNP, the SNP allele with the central base indicated by a dot. 
+![an image of the Homoplasy Directory](images/WG_SNP_Step21.png "an image of the Homoplasy Directory")
 
-23.	SNPs_all_matrix.fasta this fasta file is formatted with the relaxed PHYLIP format of SNP alleles. The genome name followed by the SNP allele string. The SNP alleles for each genome are concatenated into a string whose length is the number of SNPs. Loci are concatenated in the same order as listed in the SNPs_all file. Missing SNPs are indicated by a dash.
+22.	SNPs_all.tsv - this file can be very large and may take a moment to load. It is tab separated will populate our TSV view and can also be opened with Excell.  This file shows the each alternative SNP, the SNP allele with the central base indicated by a dot. 
 
-24.	SNPs_all_matrix.txt this fasta file contains the same information as the SNPs_all_matrix.fasta. N indicates that the SNP is absent in that strain.
+![an image of the SNPs_all.tsv file](images/WG_SNP_Step22.png "an image of the SNPs_all.tsv file")
+
+23.	SNPs_all_matrix.fasta - this fasta file is formatted with the relaxed PHYLIP format of SNP alleles. The genome name followed by the SNP allele string. The SNP alleles for each genome are concatenated into a string whose length is the number of SNPs. Loci are concatenated in the same order as listed in the SNPs_all file. Missing SNPs are indicated by a dash.
+
+![an image of the SNPs_all_matrix.fasta file](images/WG_SNP_Step23.png "an image of the SNPs_all_matrix.fasta file")
+
+24.	SNPs_all_matrix.txt - this fasta file contains the same information as the SNPs_all_matrix.fasta. N indicates that the SNP is absent in that strain.
+
+![an image of the SNPs_all_matrix.txt file](images/WG_SNP_Step24.png "an image of the SNPs_all_matrix.txt file")
 
 ## References
 1. Olson RD, Assaf R, Brettin T, Conrad N, Cucinell C, Davis JJ, Dempsey DM, Dickerman A, Dietrich EM, Kenyon RW, Kuscuoglu M, Lefkowitz EJ, Lu J, Machi D, Macken C, Mao C, Niewiadomska A, Nguyen M, Olsen GJ, Overbeek JC, Parrello B, Parrello V, Porter JS, Pusch GD, Shukla M, Singh I, Stewart L, Tan G, Thomas C, VanOeffelen M, Vonstein V, Wallace ZS, Warren AS, Wattam AR, Xia F, Yoo H, Zhang Y, Zmasek CM, Scheuermann RH, Stevens RL.

@@ -28,4 +28,4 @@ The schemas are species-specific.  Selecting a schema built from a different spe
 ## Parameters
 In the parameters section you will select an output folder and output name.
 
-See the tutorial for a detailed guide to reviewing the job results.
+See the core genome MLST tutorial for a detailed guide to reviewing the job results.

@@ -22,7 +22,7 @@ The **Whole Genome SNP Analysis** submenu option under the **Services** main men
 ![Whole Genome SNP Analysis Menu](../images/bv_services_menu.png)
 
 ## Options
-![Whole Genome SNP Analysis Service Input Form](../../tutorial/whole_genome_snp_analysis/)
+![Whole Genome SNP Analysis Service Input Form](../../tutorial/whole_genome_snp_analysis/images/Quick_Ref_WG_SNP_Options.png "Service Input Form")
 
 ## Select a Genome Group 
 For more information about creating a genome group please visit our [documentation](https://www.bv-brc.org/docs/quick_references/workspaces/groups.html) or our [video tutorial](https://www.youtube.com/watch?v=BDCUyhX9brA&t=36s).
@@ -30,7 +30,6 @@ For more information about creating a genome group please visit our [documentati
 ## Parameters
 
 The **Majority SNP Threshold** defines the portion of genomes that must contain the SNP in order to be included in the Majority SNP category. (see All SNPs, Core SNPs and Majority SNPs above).
-![Figure 1](./images/Figure_1_Service_tab_to_Variation.png "Figure 1")
 
 ### Output Folder
 The workspace folder where results will be placed.
@@ -45,12 +44,15 @@ Name used to uniquely identify results.
 **Submit:** Launches the Whole Genome SNP Analysis job
 
 ## Output Results
-![Whole Genome SNP Analysis Service Results Page](../images/Whole Genome SNP Analysis_service_results_page.png)
+![Whole Genome SNP Analysis Service Results Page](../../tutorial/whole_genome_snp_analysis/images/WG_SNP_Step4.png "Output results")
 
-The Whole Genome SNP Analysis Service generates several files that are deposited in the Private Workspace in the designated Output Folder. These include 
+The Whole Genome SNP Analysis Service generates several files that are deposited in the designated Output Folder. These include:
 1. The results are divided into sub directories, All SNPs, Core SNPs, Majority SNPs. Each  sub directory follows the same structure.
-2. Intermediate Files are parsed and included in the report and other output files. VCFs contains a variant call formate file for compatibility with other tools using the reference genome indicated in the file name.
-3. A comprehensive report in the file "WholeGenomeSNP_Report.html" described in detail in the sservice tutorial.
+2. Intermediate Files are parsed and included in the report and other output files.
+3. The VCFs directory contains a variant call format file for compatibility with other tools using the reference genome indicated in the file name.
+4. A comprehensive report located within the "WholeGenomeSNP_Report.html" file, described in detail in the service tutorial.
+
+![Whole Genome SNP Analysis Service Input Form](../../tutorial/whole_genome_snp_analysis/images/Quick_Ref_WG_SNP_SubCat.png "Sub-Category Files")
 
 Each subgroup contains the following files where SNPs_all would represent the subcategory:
 * Cluster_Information - Files in this directory list each locus with a list for which a tree node or homoplastic group of sequences the locus is present in. Note: the Group numbers in these files correspond to the groups listed in the Homoplasy_groups files.
@@ -63,6 +65,9 @@ Each subgroup contains the following files where SNPs_all would represent the su
 It is possible to be missing a tree. This happens when a given tree method is unable to make a sensible tree
 
 ### Action buttons
+
+![Action Bar](../../tutorial/whole_genome_snp_analysis/images/Quick_Ref_WG_SNP_ActionBar.png "Action Bar")
+
 After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table, listed below. To find out more about the different options for using these output files, see the [Whole Genome SNP Analysis Service Tutorial](https://bv-brc.org/docs/tutorial/whole_genome_snp_analysis/whole_genome_snp_analysis_service.html).
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.

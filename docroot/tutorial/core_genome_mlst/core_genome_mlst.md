@@ -37,9 +37,14 @@ In the parameters section you will select an output folder and output name.
 
 ![Output files and job details](images/CG_MLST_Step02.png "Output files and job details")
 
-3.	Each job will return a report summarizing the results. To view the report click, allelecall_report.html. Note: this file must be in the same directory as its supporting actor, “report_bundle.js” or else it will not work.
+3.	Each job will return a report summarizing the results. To view the report click, allelecall_report.html. 
+> **Note:** this file must be in the same directory as its supporting actor, “report_bundle.js” or else it will not work.
+
+![allelecall_report.html](images/CG_MLST_Step03.png "allelecall_report.html")
 
 4.	The report has sections that you can display or hide. Click the down arrow on the right-hand side of the heading to show or hide.
+
+![Show/Hide report sections](images/CG_MLST_Step04.png "Show/Hide report sections")
 
 5.	The first section gives a report description to guide the reader through the report.
 

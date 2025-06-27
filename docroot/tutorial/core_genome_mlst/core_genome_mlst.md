@@ -101,6 +101,9 @@ The **Loci Stats** table includes the following columns:
 
 11.	The seventh component displays a heatmap representing the symmetric distance matrix. The distances are computed by determining the number of allelic differences from the set of core loci (shared by 100% of the samples) between each pair of samples. The **Select Sample** dropdown menu enables the selection of a single sample to display its heatmap on top of the main heatmap. The menu after the heatmap enables the selection of a single sample and of a distance threshold to display a table with the list of samples at a distance equal or smaller than the specified distance value.
 
+![Allelic Distance heatmap](images/CG_MLST_Step11A.png "Allelic Distance heatmap")
+![Allelic Distance heatmap](images/CG_MLST_Step11B.png "Allelic Distance heatmap")
+
 12.	The last component displays a tree drawn with Phylocanvas.gl based on the Neighbor-Joining (NJ) tree computed by FastTree (with the options -fastest, -nosupport and -noml) The tree is computed based on the MSA for the set of loci that constitute the core-genome (The MSA for each core locus is determined with MAFFT, with the options --retree 1 and --maxiterate 0. The MSAs for all the core loci are concatenated to create the full MSA)
 
  13.	Click one directory level up on the path at the top of the page to view the rest of your job results.

@@ -82,7 +82,7 @@ The **Sample Stats** table includes the following columns:
 
 *	**Invalid Classifications**: Total number of invalid classifications (PLOT3, PLOT5, LOTSC, NIPH, NIPHEM, ALM, ASM and PAMA)
 
-The Loci Stats table includes the following columns:
+The **Loci Stats** table includes the following columns:
 
 *	**Locus**: The locus unique identifier.
 

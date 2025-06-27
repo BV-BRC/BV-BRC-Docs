@@ -62,9 +62,6 @@ In the parameters section you will select an output folder and output name.
 ![Sample stats table](images/CG_MLST_Step08A.png "Sample stats table")
 ![Loci stats table](images/CG_MLST_Step08B.png "Loci stats table")
 
-
-9.	Toggle between the results per sample and per locus to view panels with tables with detailed statistics.
-
 The **Sample Stats** table includes the following columns:
 *	**Sample**: The sample unique identifier.
 
@@ -94,9 +91,13 @@ The **Loci Stats** table includes the following columns:
 
 *	**Proportion Samples**: The proportion of samples the locus was identified in.
 
-The dropdown menu below the tables allows the selection of a single column to generate a histogram for the values in the selected column.
+9. 	The dropdown menu below the tables allows the selection of a single column to generate a histogram for the values in the selected column.
 
-10.	the loci presence-absence heatmap representing the loci presence-absence matrix for all samples in the dataset. Blue cells (z=1) correspond to loci presence and grey cells (z=0) to loci absence. The **Select Sample** dropdown menu enables the selection of a single sample to display its heatmap on top of the main heatmap. The Select Locus dropdown menu enables the selection of a single locus to display its heatmap on the right of the main heatmap.
+![Histogram menu](images/CG_MLST_Step09.png "Histogram menu")
+
+10.	the loci presence-absence heatmap representing the loci presence-absence matrix for all samples in the dataset. Blue cells (z=1) correspond to loci presence and grey cells (z=0) to loci absence. The **Select Sample** dropdown menu enables the selection of a single sample to display its heatmap on top of the main heatmap. The **Select Locus** dropdown menu enables the selection of a single locus to display its heatmap on the right of the main heatmap.
+
+![Heatmap menu](images/CG_MLST_Step10.png "Heatmap menu")
 
 11.	The seventh component displays a heatmap representing the symmetric distance matrix. The distances are computed by determining the number of allelic differences from the set of core loci (shared by 100% of the samples) between each pair of samples. The **Select Sample** dropdown menu enables the selection of a single sample to display its heatmap on top of the main heatmap. The menu after the heatmap enables the selection of a single sample and of a distance threshold to display a table with the list of samples at a distance equal or smaller than the specified distance value.
 

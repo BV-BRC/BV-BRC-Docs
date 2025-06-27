@@ -6,85 +6,115 @@ The idea behind TreeSort is the observation that *if there is no reassortment, t
 
 TreeSort has demonstrated very high accuracy in reassortment inference in simulations (manuscript in preparation). TreeSort can process datasets with tens of thousands of virus strains in just a few minutes and can scale to very large datasets with hundreds of thousands of strains. (This overview is from [https://github.com/flu-crew/TreeSort/blob/main/README.md](https://github.com/flu-crew/TreeSort/blob/main/README.md))
 
+#### **NOTE** 
+The current version of TreeSort is meant to be used for Influenza viruses ONLY. We hope to provide an updated version in the near future that can be used with common segmented viruses.
+
 ## See Also
   * [TreeSort Service](https://www.bv-brc.org/app/TreeSort)
   * TreeSort Service Tutorial (TODO)
 
-## Using the Subspecies Classification Service
-  The **“TreeSort”** submenu (red arrow) under the **“SERVICES”** main menu (Viral Services category) opens the input form.
+## Using the TreeSort Service
+  The **“TreeSort”** submenu under the **“TOOLS & SERVICES”** main menu (Viral Tools category) opens the input form.
 
   * *Note: You must be logged into BV-BRC to use this service.*
 
+![TreeSort Menu](../images/treesort_menu.png)
+
 ## Parameters
-TODO
+![TreeSort Parameters](../images/treesort_parameters.png)
 
+### **FASTA file (input data)**
+Select a FASTA file from your workspace. Note that the FASTA headers/deflines have very strict formatting requirements:
+  - The segment name and sample date must be formatted like the following example: >A/swine/Iowa/A02635822/2021|1A.3.3.3|classicalSwine|TTPPPT|HA|2021-05-12 (see "|HA|2021-05-12" at the end).
+  - Only the following Influenza segment names are recognized: PB2, PB1, PA, HA, NP, NA, MP, and NS.
 
+### **Output folder**
+The directory in your workspace where a directory will be created for the TreeSort results.
 
-## Input data
-**Input file** Select a FASTA file from your workspace.
+### **Output name** 
+The name of the directory that will be created under "Output folder". This name will also be used for the primary results filename (*output name*.tre).
 
-## Output data
+### **Reference segment** 
+Reassortment events are acquisitions of 1 or more novel segments relative to this (fixed) reference segment.
 
-**Output path** The directory in your workspace where a directory will be created for the TreeSort results.
+### **Segments** 
+Select at least 2 segments to include in the analysis.
 
-**Output name** The name of the directory created under "Output path"
+## Advanced options
+![TreeSort Advanced Options](../images/treesort_advanced_options.png)
 
+### **Match type**
+   * **Strain**: Match the names (deflines in FASTAs) across the segments based on the strain name. E.g., "A/Texas/32/2021" or "A/swine/A0229832/Iowa/2021". Works for flu A, B, C, and D, and no pre-processing is needed to standardize the names before the analysis.
+   * **EPI_ISL_XXX**: Segments are matched based on the "EPI_ISL_XXX" field (if present in deflines).
+   * **RegEx**: Provide your own custom regular expression to match the segments across the alignments.
 
-## TreeSort parameters
+### **Inference method** 
+   * **local**: (default)
+   * **mincut**: The mincut method:
+     - Always determines the most parsimonious reassortment placement, even in ambiguous circumstances. 
+     - Uses the reassortment test to cut the reference phylogeny into the optimum (smallest) number of non-reassorting parts with theoretical guarantees on optimality.
+     - Is more robust than the current "local" method in many instances, and does not result in "uncertain" reassortment inferences with the '?' annotation.
 
-- **Reference segment** The segment to use as the reference.
+### **Reference tree inference method** 
+The tool that will be used to infer the reference tree: 
 
-- **Segments** Select at least 2 segments to include in the analysis.
+* **FastTree**: (default) 
+  - Infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences. 
+  - Can handle alignments with up to a million of sequences in a reasonable amount of time and memory. 
+  - [https://morgannprice.github.io/fasttree/](https://morgannprice.github.io/fasttree/)
 
-- **Match type**
-   * **Strain** Match the names (deflines in FASTAs) across the segments based on the strain name. E.g., "A/Texas/32/2021" or "A/swine/A0229832/Iowa/2021". Works for flu A, B, C, and D, and no pre-processing is needed to standardize the names before the analysis.
-   * **EPI_ISL_XXX** Segments are matched based on the "EPI_ISL_XXX" field (if present in deflines).
-   * **RegEx** Provide your own custom regular expression to match the segments across the alignments.
+* **IQ-Tree** (recommended for better accuracy) 
+  - A fast search algorithm ([Nguyen et al., 2015](https://academic.oup.com/mbe/article/32/1/268/2925592)) to infer phylogenetic trees by maximum likelihood.
+  - [https://iqtree.github.io/](https://iqtree.github.io/)
 
-- **Inference method** Methods are "local" (default) or "mincut". The mincut method always determines the most parsimonious reassortment placement even in ambiguous circumstances.
+### **Allowed deviation** 
+Maximum deviation from the estimated substitution rate within each segment. The default is 2: The substitution rate on a particular tree branch is allowed to be twice as high or twice as low as the estimated rate. The default value was estimated from the empirical influenza A data.
 
-- **Reference tree inference method** Select the tool that will be used to infer the reference tree: FastTree (default) or IQ-Tree (recommended for better accuracy)
+### **P-value threshold** 
+The cutoff p-value for the reassortment tests: the default is 0.001 (0.1 percent). You may want to decrease or increase this parameter depending on how stringent you want the analysis to be.
 
-- **Allowed deviation** Maximum deviation from the estimated substitution rate within each segment. The default is 2: The substitution rate on a particular tree branch is allowed to be twice as high or twice as low as the estimated rate. The default value was estimated from the empirical influenza A data.
+### **Clades filename** 
+The path to an output file where clades with evidence of reassortment will be saved.
 
-- **P-value threshold** The cutoff p-value for the reassortment tests: the default is 0.001 (0.1 percent). You may want to decrease or increase this parameter depending on how stringent you want the analysis to be.
+### **Estimate molecular clock rates for different segments** 
+Estimate molecular clock rates for different segments, assuming equal rates.
 
-- **Clades filename** The path to an output file where clades with evidence of reassortment will be saved.
+### **Time-scale the reference tree** 
+Indicates that the reference tree should be time-scaled (e.g., through TreeTime).
 
-- **Estimate molecular clock rates for different segments** Estimate molecular clock rates for different segments: assume equal rates.
-
-- **Time-scale the reference tree** Indicates that the reference tree is time-scaled (e.g., through TreeTime).
-
-- **Collapse near-zero length branches into multifurcations** Collapse near-zero length branches into multifurcations (by default, TreeSort collapses all branches shorter than 10^-7^ (1e-7) and then optimizes the multifurcations).
+### **Collapse near-zero length branches into multifurcations** 
+Collapse near-zero length branches into multifurcations (by default, TreeSort collapses all branches shorter than 10^-7^ (1e-7) and then optimizes the multifurcations).
 
 
 ## Buttons
 
-**Reset:** Resets the input form to default values
+![Buttons](../images/treesort_buttons.png)
 
-**Submit:** Launches the classification job. A message will appear below the box to indicate that the job is now in the queue. 
+- **Reset:** Resets the input form to default values
+- **Submit:** Launches the classification job. A message will appear below the box to indicate that the job is now in the queue. 
 
+![Job Submission Message](../images/treesort_successful_submission.png)
 
 ## Output Results
-Clicking on the Jobs indicator at the bottom of the BV-BRC page open the Jobs Status page that displays all current and previous service jobs and their status.
 
-**Job Status Bar** TODO: create an image and add a link
+![Job Status Bar](../images/treesort_job_status.png)
 
-Once the job has completed, select the job by double-clicking on it, or clicking the “View” button on the green vertical Action Bar on the right-hand side of the page (red box). This displays the results files.
+Clicking the Jobs indicator at the bottom of the BV-BRC page opens the Jobs Status page, which displays all current and previous service jobs and their statuses.
 
-**Job Status Page** TODO: create an image and add a link
+![Job List](../images/treesort_job_list.png)
 
-The results page will consist of a header describing the job and a list of output files, as shown below.
+Once the job has completed, you can view the results by double-clicking the job or clicking the "View" button on the green vertical Action Bar on the right-hand side of the page.
 
-**Job Status Results Page** TODO: create an image and add a link
+![Job Results](../images/treesort_results.png)
 
-The TreeSort Service generates several files that are deposited in the private Workspace in the previously designated Output Folder. 
+The results page consists of a header describing the job and a list of output files, which are generated by the TreeSort service and saved in your Workspace.
 
 ### The primary output file 
 
-* ***output name*.tre** An annotated tree file in Nexus format.
+* *output name*.tre: An annotated tree file in Nexus format where *output name* is the text entered in the **Output name** field.
 
 ### Segment-specific files
+These files are generated for every virus segment included in the analysis, where *segment name* is PB2, PB1, PA, HA, NP, NA, MP, or NS.
 * <*segment name*>-input.fasta.aln
 * <*segment name*>-input.fasta.aln.dates.csv
 * <*segment name*>-input.fasta.aln.rooted.tre

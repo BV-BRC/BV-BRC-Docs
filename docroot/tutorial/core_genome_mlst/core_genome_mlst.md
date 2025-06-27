@@ -35,6 +35,8 @@ In the parameters section you will select an output folder and output name.
 
 2.	The landing page shows all the files produced by the job that was submitted. Note: the top portion gives details such as the run time and input parameters.
 
+![Output files and job details](images/CG_MLST_Step02.png "Output files and job details")
+
 3.	Each job will return a report summarizing the results. To view the report click, allelecall_report.html. Note: this file must be in the same directory as its supporting actor, “report_bundle.js” or else it will not work.
 
 4.	The report has sections that you can display or hide. Click the down arrow on the right-hand side of the heading to show or hide.

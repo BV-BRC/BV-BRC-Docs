@@ -50,7 +50,12 @@ In the parameters section you will select an output folder and output name.
 
 6.	The Results Summary Data provides a brief overview of the table.
 
+![Results Summary Data](images/CG_MLST_Step06.png "Results Summary Data")
+
 7.	Next, click on the heading “Counts Per Sample” and “Counts per Locus” to view the classification counts. The character codes along the y axis represent the percent idenity match. A better match gives more confidence. The codes are defined (with examples) below in the section "Reading The Allele Call Classification Counts".
+
+![Counts Per Sample figure](images/CG_MLST_Step07A.png "Counts Per Sample figure")
+![Counts per Locus figure](images/CG_MLST_Step07B.png "Counts per Locus figure")
 
 8.	Toggle between Sample stats (genome level) and Loci Stats (gene level) Note: the upper right-hand corner offers many ways to interact with this table including search, download as .CSV, view (and hide) columns, and filter. 
 

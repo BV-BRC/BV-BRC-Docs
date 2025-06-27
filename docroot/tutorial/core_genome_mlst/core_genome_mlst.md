@@ -59,6 +59,10 @@ In the parameters section you will select an output folder and output name.
 
 8.	Toggle between Sample stats (genome level) and Loci Stats (gene level) Note: the upper right-hand corner offers many ways to interact with this table including search, download as .CSV, view (and hide) columns, and filter. 
 
+![Sample stats table](images/CG_MLST_Step08A.png "Sample stats table")
+![Loci stats table](images/CG_MLST_Step08B.png "Loci stats table")
+
+
 9.	Toggle between the results per sample and per locus to view panels with tables with detailed statistics.
 
 The **Sample Stats** table includes the following columns:

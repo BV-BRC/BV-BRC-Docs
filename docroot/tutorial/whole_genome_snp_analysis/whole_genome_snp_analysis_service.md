@@ -34,11 +34,13 @@ The kSNP4.1 pipeline processes genomes through four
 
 
 ## Locating the Whole Genome SNP Service
+
 1.	At the top of any BV-BRC page, find the Services tab.
 2.	Click on Whole Genome SNP Analysis, which is under the Phylogenomics heading.
 3.	This will open the Whole Genome SNP Analysis landing page where researchers can submit a genome group containing assembled genomes for SNP analysis.
 
-## Select a Genome Group 
+## Select a Genome Group
+
 For more information about creating a genome group please visit our [documentation](https://www.bv-brc.org/docs/quick_references/workspaces/groups.html) or our [video tutorial](https://www.youtube.com/watch?v=BDCUyhX9brA&t=36s)
 
 ## Parameters
@@ -172,8 +174,6 @@ For more information about creating a genome group please visit our [documentati
 ![an image of the SNPs_all_matrix.fasta file](images/WG_SNP_Step23.png "an image of the SNPs_all_matrix.fasta file")
 
 24.	SNPs_all_matrix.txt - this fasta file contains the same information as the SNPs_all_matrix.fasta. N indicates that the SNP is absent in that strain.
-
-![an image of the SNPs_all_matrix.txt file](images/WG_SNP_Step24.png "an image of the SNPs_all_matrix.txt file")
 
 ## References
 1. Olson RD, Assaf R, Brettin T, Conrad N, Cucinell C, Davis JJ, Dempsey DM, Dickerman A, Dietrich EM, Kenyon RW, Kuscuoglu M, Lefkowitz EJ, Lu J, Machi D, Macken C, Mao C, Niewiadomska A, Nguyen M, Olsen GJ, Overbeek JC, Parrello B, Parrello V, Porter JS, Pusch GD, Shukla M, Singh I, Stewart L, Tan G, Thomas C, VanOeffelen M, Vonstein V, Wallace ZS, Warren AS, Wattam AR, Xia F, Yoo H, Zhang Y, Zmasek CM, Scheuermann RH, Stevens RL.

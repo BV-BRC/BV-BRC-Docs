@@ -110,6 +110,8 @@ The **Loci Stats** table includes the following columns:
 
  14.	The directory “extract_cg_mlst” houses the files determining the loci that constitute the core genome based on loci presence thresholds.  A cgMLST Schema is defined as the set of loci found in all or at least 95% of genomes analyzed.  The schemas this service uses offer a diverse and representative set of strains.  The number of strains differ depending on the species population structure (highly diverse, recombinogenic species may require more schemas). Any loci that are not found in at least 95% of the genomes analyzed are considered accessory genome (genes that are variably present in isolates from that population.
 
+![extract_cg_mlst directory and files](images/CG_MLST_Step14.png "extract_cg_mlst directory and files")
+
 * cgMLST.html details the number of loci present at 100%, 99% and 95%.
 
 * cgMLST100.tsv, cgMLST95.tsv, cgMLST99.tsv contains a matrix of allelic profiles for the cgMLST for each threshold.

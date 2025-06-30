@@ -49,36 +49,41 @@ Allows direct upload of read files from the [NCBI Sequence Read Archive](https:/
 **Output Name:** User-provided name used to uniquely identify results.
 
 
-### Advanced Parameters
+# Advanced Parameters
 
-### Read Processing
+## Read Processing
 
-## Normalize Illumina Reads
+### Normalize Illumina Reads
 Apply BBNorm to reduce depth variation along genome, down-sampling peaks of dense coverage to approximately the target coverage parameter.
 
-## Trim Short Reads
+### Trim Short Reads
 Trim reads using TrimGalore to remove any recognized Illumina adapters and low-quality 5’ ends.
 
-## Filter Long Reads
+### Filter Long Reads
 Use FiltLong to down-sample Nanopore or PacBio reads to the target size (= target genome coverage * estimated genome size).
 
-### Genome Parameters
+## Genome Parameters
 
-## Estimated Genome Size
+### Estimated Genome Size
+Your estimate of how large the genome will be once assembled in either megabases (M) or kilobases (K). It is used to down-sample (BBNorm or FilterLong) to the desired target genome coverage. It is also used as a parameter to Flye or Canu if either is selected as the assembler. It is ignored for metagenome methods.
 
-## Target Genome Coverage
+### Target Genome Coverage
+This is the target depth of reads mapped to the genome. 200X coverage is usually very good for assembling individual genomes. It is ignored for metagenome analyses.
 
-## Racon Iterations
+## Assembly Polishing 
+### Racon and Pilon Iterations
 Correct assembly errors (or “polish”) using racon and/or Pilon. Both racon and Pilon take the contigs and the reads mapped to those contigs, and look for discrepancies between the assembly and the majority of the reads. Where there is a discrepancy, racon or pilon will correct the assembly if the majority of the reads call for that. Racon is for long reads (PacBio or Nanopore) and Pilon is for Illumina reads. Once the assembly has been polished, it is still possible to do another iteration to further improve the assembly, but with less improvement each round. Two rounds tend to approach saturation.
 
-## Pilon Iterations
-See Racon iterations. Pilon is for Illumina reads.
+## Assembly Thresholds
 
-## Minimum Contig Length
+### Minimum Contig Length
 Filter out contigs shorter than this value from the final assembly
 
-## Minimum Contig Coverage
+### Minimum Contig Coverage
 Filter out contigs with read depth lower than this value in final assembly.
+**Minimal output contig length:**  Filter out short contigs in final assembly
+
+**Minimal output contig coverage:** Filter out contigs with low read depth in final assembly
 
 ## Selected Libraries
 Read files placed here will contribute to a single analysis.

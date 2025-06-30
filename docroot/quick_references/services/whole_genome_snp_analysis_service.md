@@ -24,11 +24,10 @@ The **Whole Genome SNP Analysis** submenu option under the **Services** main men
 ## Options
 ![Whole Genome SNP Analysis Service Input Form](../../tutorial/whole_genome_snp_analysis/images/Quick_Ref_WG_SNP_Options.png "Service Input Form")
 
-## Select a Genome Group 
+## Select a Genome Group
 For more information about creating a genome group please visit our [documentation](https://www.bv-brc.org/docs/quick_references/workspaces/groups.html) or our [video tutorial](https://www.youtube.com/watch?v=BDCUyhX9brA&t=36s).
 
 ## Parameters
-
 The **Majority SNP Threshold** defines the portion of genomes that must contain the SNP in order to be included in the Majority SNP category. (see All SNPs, Core SNPs and Majority SNPs above).
 
 ### Output Folder

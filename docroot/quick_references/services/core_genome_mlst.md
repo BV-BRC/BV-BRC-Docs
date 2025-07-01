@@ -19,11 +19,11 @@ Then the service runs chewBBACA’s remove genes command to remove paralogous lo
 This service uses 95% as the threshold. A second allele call is performed with the allelic profiles meeting the 95% threshold. Followed by the allele call evaluator. This generates an interactive report, called "allelecall_report.html" that provides summary statistics to evaluate results per sample and per loci. This is available in your job results. The report includes a presence-absence matrix heatmap, a distance matrix based on the allelic differences and a Neighbor-Joining (NJ) tree based on the multiple sequence alignment (MSA) of the core genome loci.
 
 ## See also
-* [Whole Genome SNP Analysis Service](https://bv-brc.org/app/CoreGenomeMLST)
-* [Whole Genome SNP Analysis Service Tutorial](../../tutorial/core_genome_mlst/core_genome_mlst.html)
+* [Core Genome MLST Analysis Service](https://bv-brc.org/app/CoreGenomeMLST)
+* [Core Genome MLST Analysis Service Tutorial](../../tutorial/core_genome_mlst/core_genome_mlst.html)
 
-## Using the Whole Genome SNP Analysis Service
-The **Whole Genome SNP Analysis** submenu option under the **Services** main menu (Genomics category) opens the Whole Genome SNP Analysis Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
+## Using the Core Genome MLST Analysis Service
+The **Core Genome MLST Analysis** submenu option under the **Services** main menu (Genomics category) opens the Core Genome MLST Analysis Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
 
 ![tools and services menu](../../tutorial/core_genome_mlst/images/cgmlst_tools_and_service_menu.png "tools and services menu")
 
@@ -52,7 +52,7 @@ Name used to uniquely identify results.
 
 **Reset:** Resets the input form to default values
 
-**Submit:** Launches the Whole Genome SNP Analysis job
+**Submit:** Launches the Core Genome MLST Analysis job
 
 ## Output Results
 ![output results](../../tutorial/core_genome_mlst/images/CG_MLST_Step02.png "output results")
@@ -107,7 +107,7 @@ Note: The “filtered_schema_allele_call” and “full_schema_allele_call” co
 ### Action buttons
 ![Action Bar](../../tutorial/whole_genome_snp_analysis/images/Quick_Ref_WG_SNP_ActionBar.png "Action Bar")
 
-After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table, listed below. To find out more about the different options for using these output files, see the [Whole Genome SNP Analysis Service Tutorial](https://bv-brc.org/docs/tutorial/whole_genome_snp_analysis/whole_genome_snp_analysis_service.html).
+After selecting one of the output files by clicking it, a set of options becomes available in the vertical green Action Bar on the right side of the table, listed below. To find out more about the different options for using these output files, see the [Core Genome MLST Analysis Service Tutorial](https://bv-brc.org/docs/tutorial/core_genome_mlst/core_genome_mlst.html).
 
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
 * **Guide:** Link to the corresponding Quick Reference Guide

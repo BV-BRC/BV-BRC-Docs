@@ -17,9 +17,10 @@
 * [Whole Genome SNP Analysis Service Tutorial](../../tutorial/whole_genome_snp_analysis/whole_genome_snp_analysis_service.html)
 
 ## Using the Whole Genome SNP Analysis Service
-The **Whole Genome SNP Analysis** submenu option under the **Services** main menu (Genomics category) opens the Whole Genome SNP Analysis Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
+The **Whole Genome SNP Analysis** submenu o option under the **Services** main menu under the **Phylogenomics** subheading opens the Whole Genome SNP Analysis Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
 
-![Whole Genome SNP Analysis Menu](../images/bv_services_menu.png)
+![an image of the service page](../../tutorial/whole_genome_snp_analysis/images/wgsnp_tools_and_service_menu.png "an image of the service page")
+
 
 ## Options
 ![Whole Genome SNP Analysis Service Input Form](../../tutorial/whole_genome_snp_analysis/images/Quick_Ref_WG_SNP_Options.png "Service Input Form")

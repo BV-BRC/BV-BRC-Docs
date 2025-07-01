@@ -1,6 +1,6 @@
 # Whole Genome SNP Analysis Service
 
-*Revised: 16 June 2025*
+*Revised: 1 July 2025*
 
  Whole Genome Sequencing (WGS) is used in bacterial and viral  genomics to determine the order of all, or most, of the nucleotides in a genome. This approach provides valuable insights for applicants such as epidemiological typing, drugresistance profiling and phylogeneticf analysis. 
 
@@ -38,6 +38,12 @@ The kSNP4.1 pipeline processes genomes through four
 1.	At the top of any BV-BRC page, find the Services tab.
 2.	Click on Whole Genome SNP Analysis, which is under the Phylogenomics heading.
 3.	This will open the Whole Genome SNP Analysis landing page where researchers can submit a genome group containing assembled genomes for SNP analysis.
+   
+
+![an image of the service page](images/wgsnp_tools_and_service_menu.png "an image of the service page")
+
+## Service Submission Page
+![an image of the submission page](images/wg_service_menu.png "an image of the submission page")
 
 ## Select a Genome Group
 

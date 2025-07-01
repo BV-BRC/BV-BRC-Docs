@@ -6,7 +6,7 @@ The idea behind TreeSort is the observation that *if there is no reassortment, t
 
 TreeSort has demonstrated very high accuracy in reassortment inference in simulations (manuscript in preparation). TreeSort can process datasets with tens of thousands of virus strains in just a few minutes and can scale to very large datasets with hundreds of thousands of strains. (This overview is from [https://github.com/flu-crew/TreeSort/blob/main/README.md](https://github.com/flu-crew/TreeSort/blob/main/README.md))
 
-#### **NOTE** 
+#### **NOTE**
 The current version of TreeSort is meant to be used for Influenza viruses ONLY. We hope to provide an updated version in the near future that can be used with common segmented viruses.
 
 ## See Also
@@ -23,7 +23,7 @@ The current version of TreeSort is meant to be used for Influenza viruses ONLY. 
 ## Parameters
 ![TreeSort Parameters](../images/treesort_parameters.png)
 
-### **FASTA file (input data)**
+### **Input file**
 Select a FASTA file from your workspace. Note that the FASTA headers/deflines have very strict formatting requirements:
   - The segment name and sample date must be formatted like the following example: >A/swine/Iowa/A02635822/2021|1A.3.3.3|classicalSwine|TTPPPT|HA|2021-05-12 (see "|HA|2021-05-12" at the end).
   - Only the following Influenza segment names are recognized: PB2, PB1, PA, HA, NP, NA, MP, and NS.
@@ -31,13 +31,13 @@ Select a FASTA file from your workspace. Note that the FASTA headers/deflines ha
 ### **Output folder**
 The directory in your workspace where a directory will be created for the TreeSort results.
 
-### **Output name** 
+### **Output name**
 The name of the directory that will be created under "Output folder". This name will also be used for the primary results filename (*output name*.tre).
 
-### **Reference segment** 
+### **Reference segment**
 Reassortment events are acquisitions of 1 or more novel segments relative to this (fixed) reference segment.
 
-### **Segments** 
+### **Segments**
 Select at least 2 segments to include in the analysis.
 
 ## Advanced options
@@ -48,41 +48,41 @@ Select at least 2 segments to include in the analysis.
    * **EPI_ISL_XXX**: Segments are matched based on the "EPI_ISL_XXX" field (if present in deflines).
    * **RegEx**: Provide your own custom regular expression to match the segments across the alignments.
 
-### **Inference method** 
+### **Match RegEx**
+   When a match type of **RegEx** is selected, your custom regular expression will be entered in this field.
+
+### **Inference method**
    * **local**: (default)
    * **mincut**: The mincut method:
-     - Always determines the most parsimonious reassortment placement, even in ambiguous circumstances. 
+     - Always determines the most parsimonious reassortment placement, even in ambiguous circumstances.
      - Uses the reassortment test to cut the reference phylogeny into the optimum (smallest) number of non-reassorting parts with theoretical guarantees on optimality.
      - Is more robust than the current "local" method in many instances, and does not result in "uncertain" reassortment inferences with the '?' annotation.
 
-### **Reference tree inference method** 
-The tool that will be used to infer the reference tree: 
+### **Reference tree inference method**
+The tool that will be used to infer the reference tree:
 
-* **FastTree**: (default) 
-  - Infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences. 
-  - Can handle alignments with up to a million of sequences in a reasonable amount of time and memory. 
+* **FastTree**: (default)
+  - Infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences.
+  - Can handle alignments with up to a million of sequences in a reasonable amount of time and memory.
   - [https://morgannprice.github.io/fasttree/](https://morgannprice.github.io/fasttree/)
 
-* **IQ-Tree** (recommended for better accuracy) 
+* **IQ-Tree** (recommended for better accuracy)
   - A fast search algorithm ([Nguyen et al., 2015](https://academic.oup.com/mbe/article/32/1/268/2925592)) to infer phylogenetic trees by maximum likelihood.
   - [https://iqtree.github.io/](https://iqtree.github.io/)
 
-### **Allowed deviation** 
+### **Allowed deviation**
 Maximum deviation from the estimated substitution rate within each segment. The default is 2: The substitution rate on a particular tree branch is allowed to be twice as high or twice as low as the estimated rate. The default value was estimated from the empirical influenza A data.
 
-### **P-value threshold** 
+### **P-value threshold**
 The cutoff p-value for the reassortment tests: the default is 0.001 (0.1 percent). You may want to decrease or increase this parameter depending on how stringent you want the analysis to be.
 
-### **Clades filename** 
+### **Clades filename**
 The path to an output file where clades with evidence of reassortment will be saved.
 
-### **Estimate molecular clock rates for different segments** 
+### **Estimate molecular clock rates for different segments**
 Estimate molecular clock rates for different segments, assuming equal rates.
 
-### **Time-scale the reference tree** 
-Indicates that the reference tree should be time-scaled (e.g., through TreeTime).
-
-### **Collapse near-zero length branches into multifurcations** 
+### **Collapse near-zero length branches into multifurcations**
 Collapse near-zero length branches into multifurcations (by default, TreeSort collapses all branches shorter than 10^-7^ (1e-7) and then optimizes the multifurcations).
 
 
@@ -91,7 +91,7 @@ Collapse near-zero length branches into multifurcations (by default, TreeSort co
 ![Buttons](../images/treesort_buttons.png)
 
 - **Reset:** Resets the input form to default values
-- **Submit:** Launches the classification job. A message will appear below the box to indicate that the job is now in the queue. 
+- **Submit:** Launches the classification job. A message will appear below the box to indicate that the job is now in the queue.
 
 ![Job Submission Message](../images/treesort_successful_submission.png)
 
@@ -109,7 +109,7 @@ Once the job has completed, you can view the results by double-clicking the job 
 
 The results page consists of a header describing the job and a list of output files, which are generated by the TreeSort service and saved in your Workspace.
 
-### The primary output file 
+### The primary output file
 
 * *output name*.tre: An annotated tree file in Nexus format where *output name* is the text entered in the **Output name** field.
 
@@ -119,7 +119,7 @@ These files are generated for every virus segment included in the analysis, wher
 * <*segment name*>-input.fasta.aln.dates.csv
 * <*segment name*>-input.fasta.aln.rooted.tre
 * <*segment name*>-input.fasta.tre
- 
+
 * <*segment name*>-input.fasta.aln.treetime
    * outliers.tsv
    * root_to_tip_regression.pdf

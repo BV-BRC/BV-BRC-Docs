@@ -23,7 +23,7 @@ This service uses 95% as the threshold. A second allele call is performed with t
 * [Core Genome MLST Analysis Service Tutorial](../../tutorial/core_genome_mlst/core_genome_mlst.html)
 
 ## Using the Core Genome MLST Analysis Service
-The **Core Genome MLST Analysis** submenu option under the **Services** main menu (Genomics category) opens the Core Genome MLST Analysis Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
+The **Core Genome MLST Analysis** option under the **Services** main menu under the **Phylogenomics** subheading, opens the Core Genome MLST Analysis Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
 
 ![tools and services menu](../../tutorial/core_genome_mlst/images/cgmlst_tools_and_service_menu.png "tools and services menu")
 

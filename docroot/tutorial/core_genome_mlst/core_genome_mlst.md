@@ -17,6 +17,12 @@ Then the service runs chewBBACA’s remove genes command to remove paralogous lo
   * Core Loci Selection: Determines which loci are “core” based on how often they appear across the genomes – providing results for default thresholds 95%, 99% and 100%. 
 This service uses 95% as the threshold. A second allele call is performed with the allelic profiles meeting the 95% threshold. Followed by the allele call evaluator. This generates an interactive report, called "allelecall_report.html" that provides summary statistics to evaluate results per sample and per loci. This is available in your job results. The report includes a presence-absence matrix heatmap, a distance matrix based on the allelic differences and a Neighbor-Joining (NJ) tree based on the multiple sequence alignment (MSA) of the core genome loci.
 
+## Using the Core Genome MLST Analysis Service
+The **Core Genome MLST Analysis** submenu option under the **Services** main menu (Genomics category) opens the Core Genome MLST Analysis Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
+
+![tools and services menu](images/cgmlst_tools_and_service_menu.png "tools and services menu")
+
+## Service Menu
 ![an image of the service_page](images/cgMLST_service_page.png "an image of the service_page")
 
 ## Select a Genome Group

@@ -25,10 +25,12 @@ This service uses 95% as the threshold. A second allele call is performed with t
 ## Using the Whole Genome SNP Analysis Service
 The **Whole Genome SNP Analysis** submenu option under the **Services** main menu (Genomics category) opens the Whole Genome SNP Analysis Service input form (*shown below*). *Note: You must be logged into BV-BRC to use this service.*
 
-## Select a Genome Group
+## Genome Input
+
+### Select a Genome Group
 This service accepts assembled genomes that are collected into one Genome Group. For more information about creating a genome group please visit our [documentation](https://www.bv-brc.org/docs/quick_references/workspaces/groups.html) or our [video tutorial](https://www.youtube.com/watch?v=BDCUyhX9brA&t=36s)
 
-## Select Reference Schema
+### Select Reference Schema
 The schemas are species-specific.  Selecting a schema built from a different species will not allow the service to correctly match your loci to the target genome. This could lead to inaccurate allele calls. 
 
 ## Parameters

@@ -35,19 +35,32 @@ In the parameters section you will select an output folder and output name.
 
 2.	The landing page shows all the files produced by the job that was submitted. Note: the top portion gives details such as the run time and input parameters.
 
-3.	Each job will return a report summarizing the results. To view the report click, allelecall_report.html. Note: this file must be in the same directory as its supporting actor, “report_bundle.js” or else it will not work.
+![Output files and job details](images/CG_MLST_Step02.png "Output files and job details")
+
+3.	Each job will return a report summarizing the results. To view the report click, allelecall_report.html. 
+> **Note:** this file must be in the same directory as its supporting actor, “report_bundle.js” or else it will not work.
+
+![allelecall_report.html](images/CG_MLST_Step03.png "allelecall_report.html")
 
 4.	The report has sections that you can display or hide. Click the down arrow on the right-hand side of the heading to show or hide.
+
+![Show/Hide report sections](images/CG_MLST_Step04.png "Show/Hide report sections")
 
 5.	The first section gives a report description to guide the reader through the report.
 
 6.	The Results Summary Data provides a brief overview of the table.
 
+![Results Summary Data](images/CG_MLST_Step06.png "Results Summary Data")
+
 7.	Next, click on the heading “Counts Per Sample” and “Counts per Locus” to view the classification counts. The character codes along the y axis represent the percent idenity match. A better match gives more confidence. The codes are defined (with examples) below in the section "Reading The Allele Call Classification Counts".
+
+![Counts Per Sample figure](images/CG_MLST_Step07A.png "Counts Per Sample figure")
+![Counts per Locus figure](images/CG_MLST_Step07B.png "Counts per Locus figure")
 
 8.	Toggle between Sample stats (genome level) and Loci Stats (gene level) Note: the upper right-hand corner offers many ways to interact with this table including search, download as .CSV, view (and hide) columns, and filter. 
 
-9.	Toggle between the results per sample and per locus to view panels with tables with detailed statistics.
+![Sample stats table](images/CG_MLST_Step08A.png "Sample stats table")
+![Loci stats table](images/CG_MLST_Step08B.png "Loci stats table")
 
 The **Sample Stats** table includes the following columns:
 *	**Sample**: The sample unique identifier.
@@ -66,7 +79,7 @@ The **Sample Stats** table includes the following columns:
 
 *	**Invalid Classifications**: Total number of invalid classifications (PLOT3, PLOT5, LOTSC, NIPH, NIPHEM, ALM, ASM and PAMA)
 
-The Loci Stats table includes the following columns:
+The **Loci Stats** table includes the following columns:
 
 *	**Locus**: The locus unique identifier.
 
@@ -78,17 +91,26 @@ The Loci Stats table includes the following columns:
 
 *	**Proportion Samples**: The proportion of samples the locus was identified in.
 
-The dropdown menu below the tables allows the selection of a single column to generate a histogram for the values in the selected column.
+9. 	The dropdown menu below the tables allows the selection of a single column to generate a histogram for the values in the selected column.
 
-10.	the loci presence-absence heatmap representing the loci presence-absence matrix for all samples in the dataset. Blue cells (z=1) correspond to loci presence and grey cells (z=0) to loci absence. The **Select Sample** dropdown menu enables the selection of a single sample to display its heatmap on top of the main heatmap. The Select Locus dropdown menu enables the selection of a single locus to display its heatmap on the right of the main heatmap.
+![Histogram menu](images/CG_MLST_Step09.png "Histogram menu")
+
+10.	the loci presence-absence heatmap representing the loci presence-absence matrix for all samples in the dataset. Blue cells (z=1) correspond to loci presence and grey cells (z=0) to loci absence. The **Select Sample** dropdown menu enables the selection of a single sample to display its heatmap on top of the main heatmap. The **Select Locus** dropdown menu enables the selection of a single locus to display its heatmap on the right of the main heatmap.
+
+![Heatmap menu](images/CG_MLST_Step10.png "Heatmap menu")
 
 11.	The seventh component displays a heatmap representing the symmetric distance matrix. The distances are computed by determining the number of allelic differences from the set of core loci (shared by 100% of the samples) between each pair of samples. The **Select Sample** dropdown menu enables the selection of a single sample to display its heatmap on top of the main heatmap. The menu after the heatmap enables the selection of a single sample and of a distance threshold to display a table with the list of samples at a distance equal or smaller than the specified distance value.
+
+![Allelic Distance heatmap](images/CG_MLST_Step11A.png "Allelic Distance heatmap")
+![Allelic Distance heatmap](images/CG_MLST_Step11B.png "Allelic Distance heatmap")
 
 12.	The last component displays a tree drawn with Phylocanvas.gl based on the Neighbor-Joining (NJ) tree computed by FastTree (with the options -fastest, -nosupport and -noml) The tree is computed based on the MSA for the set of loci that constitute the core-genome (The MSA for each core locus is determined with MAFFT, with the options --retree 1 and --maxiterate 0. The MSAs for all the core loci are concatenated to create the full MSA)
 
  13.	Click one directory level up on the path at the top of the page to view the rest of your job results.
 
  14.	The directory “extract_cg_mlst” houses the files determining the loci that constitute the core genome based on loci presence thresholds.  A cgMLST Schema is defined as the set of loci found in all or at least 95% of genomes analyzed.  The schemas this service uses offer a diverse and representative set of strains.  The number of strains differ depending on the species population structure (highly diverse, recombinogenic species may require more schemas). Any loci that are not found in at least 95% of the genomes analyzed are considered accessory genome (genes that are variably present in isolates from that population.
+
+![extract_cg_mlst directory and files](images/CG_MLST_Step14.png "extract_cg_mlst directory and files")
 
 * cgMLST.html details the number of loci present at 100%, 99% and 95%.
 
@@ -97,6 +119,9 @@ The dropdown menu below the tables allows the selection of a single column to ge
 * cgMLSTschema100.txt,  cgMLSTschema95.txt,  cgMLSTschema99.txt,  contains the list of loci that constitute the cgMLST schema. The filtered schema allele call uses the cgMLSTschema95.txt file to define the loci list to perform allele calling on. Compared to full schema allele call which uses all the loci listed in the schema. For more information please visit the [Chewbbaca documentation]( https://chewbbaca.readthedocs.io/en/latest/user/modules/ExtractCgMLST.html).
 
  15. The “filtered_schema_allele_call” and “full_schema_allele_call” contain the same contents and only differ on if the allele call used loci present in 95% of the genomes passed or the full schema of genes available (regardless of how many genomes they are present in). 
+
+![filtered_schema_allele_call directory and files](images/CG_MLST_Step15.png "filtered_schema_allele_call directory and files")
+
 * allele_call_evaulator directory 
 
   * allelecall_report.html and report_bundle.js – The allelecall_report.html  is detailed above. The report_bundle.js must be kept in  the same directory as allelecall_report.html. 
@@ -149,9 +174,13 @@ Consider this like quality control. These codes represent the quality of the DNA
 * **PLOT3/PLOT5** - Possible Locus On the Tip of a contig (see image below) A CDS is classified as PLOT5 or PLOT3 if it is close to the contig 5’- or 3’-end and if the unaligned portion of the matched representative allele exceeds the contig end. This could be an artifact caused by genome fragmentation resulting in the prediction of a shorter CDS. To avoid locus misclassification, loci in such situations are classified as PLOT.
  
 * **LOTSC** - A CDS is classified as LOTSC if the matched representative allele is bigger than the contig containing the CDS.
+ ![an image of the LOTSC match](images/lotsc.png "an image of the LOTSC match")
 
 * **NIPH/NIPHEM** - The NIPH and NIPHEM classifications are assigned when multiple CDSs from the same genome match the same schema locus. NIPH (Non-Informative Paralogous Hit) is assigned when multiple CDSs from the same genome match a single locus. NIPHEM (Non-Informative Paralogous Hit Exact Match) is assigned when multiple CDSs from the same genome are exact matches to alleles of a single locus. These classifications suggest that a locus can have paralogous (or orthologous) loci in the query genome and should be removed from the analysis due to the potential uncertainty in allele assignment (for example, due to the presence of multiple copies of the same mobile genetic element (MGE) or as a consequence of gene duplication followed by pseudogenization) A high number of these classifications may also indicate a poorly assembled genome due to a high number of smaller contigs which result in partial CDS predictions.
+ ![an image of the NIPH and NIPHEM match](images/niph.png "an image of the NIPH and NIPHEM match")
 
 * **PAMA** - PAralogous MAtch. Attributed to CDSs that are highly similar to more than one locus. This type of classification allows the identification of groups of similar loci in the schema that are classified as paralogous loci and listed in the paralogous_counts.tsv and paralogous_loci.tsv output files.
- 
+ ![an image of the PAMA match](images/pama.png "an image of the PAMA match")
+
 * **ASM/ALM** - The ASM (Allele Smaller than Mode) and ALM (Allele Larger than Mode) classifications are assigned when the size of a CDS that matches a schema locus is below or above the locus size variation interval, respectively. The default behavior is to assign these classifications to alleles that are 20% shorter or longer than the locus allele size mode. It is important to remember that, although infrequently, the mode may change as more alleles for a given locus are called and added to a schema. The ALM and ASM classifications impose a limit on allele size variation since for the majority of loci the allele lengths are quite conserved. However, some loci can have larger variation in allele length and those should be manually curated.
+ ![an image of the ASM and ALM match](images/asm.png "an image of the ASM and ALM match")

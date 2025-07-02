@@ -1,23 +1,23 @@
-# Phylogenetic Tree Service
+# Bacterial Genome Tree Service
 
 ## Overview
-The bacterial Phylogenetic Tree Service enables construction of custom phylogenetic trees built from user-selected genomes. The **Codon Tree** method selects single-copy BV-BRC PGFams and analyzes aligned proteins and coding DNA from single-copy genes using the program RAxML. The service returns a Scaled Vector Graphics (SVG) image of the final tree, as well as a Newick file which can be rendered in the interactive Phylogenetic Tree Viewer in BV-BRC or downloaded and viewed in FigTree or other software.
+The Bacterial Genome Tree Service enables construction of custom phylogenetic trees built from user-selected genomes. The **Codon Tree** method selects single-copy BV-BRC PGFams and analyzes aligned proteins and coding DNA from single-copy genes using the program RAxML. The service returns a Scaled Vector Graphics (SVG) image of the final tree, as well as a Newick file which can be rendered in the interactive Phylogenetic Tree Viewer in BV-BRC or downloaded and viewed in FigTree or other software.
 
 ## See also
-* [Phylogenetic Tree Service](https://bv-brc.org/app/PhylogeneticTree)
-* [Phylogenetic Tree Service Tutorial](/tutorial/phylogenetic_tree/phylogenetic_tree)
+* [Bacterial Genome Tree Service](https://bv-brc.org/app/PhylogeneticTree)
+* [Bacterial Genome Tree Service Tutorial](/tutorial/phylogenetic_tree/phylogenetic_tree)
 * [Phylogeny Tab Quick Reference Guide](/quick_references/organisms_taxon/phylogeny)
 
-## Using the Phylogenetic Tree Building Service
-The **Phylogenetic Tree** submenu option under the **Services** main menu (Genomics category) opens the Phylogenetic Tree input form (shown below). *Note: You must be logged in to use this service.*
+## Using the Bacterial Genome Tree Building Service
+The **Bacterial Genome Tree** submenu option under the **Services** main menu (Genomics category) opens the Phylogenetic Tree input form (shown below). *Note: You must be logged in to use this service.*
 
-![Phylogenetic Tree Menu](../images/services_menu.png)
+![BV-BRC Services Menu](../images/services_menu.png)
 
 ## Method: Codon Tree
 
 The **Codon Tree** method utilizes BV-BRC [PGFams](/quick_references/organisms_taxon/protein_families) as homology groups and analyzes aligned proteins and coding DNA from single-copy genes using the program [RAxML](https://academic.oup.com/bioinformatics/article/22/21/2688/251208). Up to 100 genomes can be analyzed.
 
-![Phylogenetic Tree Input Form - Codon Tree](../images/phylogenetic_tree_input_form_codon_v3.png)
+![Bacterial Genome Tree Input Form - Codon Tree](../images/phylogenetic_tree_input_form_codon_v3.png)
 
 ## Input Genomes
 Genomes for inclusion in the tree. Type or select a genome name from the genome list. Alternatively, entire genome groups can be added to the set of genomes to be analyzed. At least 4 and up to 100 genomes can be specified. Use the plus (+) icon to add to the Selected Input Genome Table.

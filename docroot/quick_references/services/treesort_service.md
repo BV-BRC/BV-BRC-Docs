@@ -25,8 +25,9 @@ The current version of TreeSort is meant to be used for Influenza viruses ONLY. 
 
 ### **Input file**
 Select a FASTA file from your workspace. Note that the FASTA headers/deflines have very strict formatting requirements:
-  - The segment name and sample date must be formatted like the following example: >A/swine/Iowa/A02635822/2021|1A.3.3.3|classicalSwine|TTPPPT|HA|2021-05-12 (see "|HA|2021-05-12" at the end).
-  - Only the following Influenza segment names are recognized: PB2, PB1, PA, HA, NP, NA, MP, and NS.
+  1. The segment name and sample date must be formatted like the following example ("|segment|sample date" are in yellow):
+  ![TreeSort FASTA Example](../images/treesort_fasta_example.png)
+  2. Only the following Influenza segment names are recognized: PB2, PB1, PA, HA, NP, NA, MP, and NS.
 
 ### **Output folder**
 The directory in your workspace where a directory will be created for the TreeSort results.

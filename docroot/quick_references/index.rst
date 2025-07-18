@@ -16,6 +16,7 @@ The BV-BRC website resource provides an entry point to integrated data and tools
    views_tables_action-bar
    system_requirements
    ftp
+   copilot
 
 ..
    data_submission_to_patric

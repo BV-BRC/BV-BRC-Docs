@@ -27,8 +27,8 @@ Copilot is available to anyone who is logged in with a valid BV-BRC account.
 
 | Use case                  | Ask Copilot to…                                                                  | Typical examples                                                                           |
 | ------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| **Virtual Helpdesk**      | Explain any BV‑BRC page, <br>data, tool, service, or job.                            | • “How to I analyze my bacteriual genome?”<br> • "How do I use genome annotation service?"<br> • “Explain the table and filters on current page."<br> • "why did my job fail? |
-| **Virtual Knowledge Hub** | Summarize biology or bioinformatics concepts <br>using its built‑in model knowledge. | • "Describe this organism and its relevance to public health."<br> •  “What is an N50?”<br> • “How does average nucleotide identity work?”                          |
+| **Virtual Helpdesk**      | Explain any BV‑BRC page, <br>data, tool, service, or job.                            | • How to I analyze my bacteriual genome?<br> • How do I use genome annotation service?<br> • Explain the table and filters on current page.<br> • why did my job fail? |
+| **Virtual Knowledge Hub** | Summarize biology or bioinformatics concepts <br>using its built‑in model knowledge. | • Describe this organism and its relevance to public health.<br> •  What is an N50?<br> • How does average nucleotide identity work?                          |
 
 Copilot **does not** run analyses, change your data, or modify jobs — its role is to explain *how*.
 
@@ -79,7 +79,7 @@ If Copilot fails to answer or behaves oddly:
 | Phase               | Capability                                        | What it will do                                                                                                                       | Key Features                                                                                                                                                                |
 | ------------------- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Now (Beta v0.9)** | **Virtual Helpdesk**                              | Interactive helpdesk and real‑time virtual assistance <br>for any BV‑BRC page, tool, or analysis job.                     | • Page‑aware answers<br>• Troubleshooting failed jobs<br>• Context‑linked documentation snippets                                                                                      |
-| **v1.x**     | **Virtual Knowledge Integration <br>& Summarization** | • On‑demand concept summaries using built-in knowledge<br> Future version will include <br>• Aggregated answers based on external sources.<br>                                                                  |
+| **v1.x**     | **Virtual Knowledge Integration <br>& Summarization** | • On‑demand concept summaries using built-in knowledge<br> • Retrieve information from external sources and presents concise, context‑aware knowledge. | • Aggregated answers based on external sources.<br>                                                                  |
 | **v2.x**    | **Task & Workflow Automation**                    | On-demand end‑to‑end task automation and analyses.                                                             | • Automated website navigation<br>• Smart search & data retrieval<br>• One‑click custom analysis/visualizations<br>• Full workflow generation and execution |
 
 

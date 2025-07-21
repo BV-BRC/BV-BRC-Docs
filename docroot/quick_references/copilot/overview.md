@@ -1,4 +1,3 @@
-The BV-BRC Copilot is an AI-powered, context-aware chatbot embedded directly in the BV-BRC website. 
-It delivers on-demand guidance for navigating pages, understanding tools and data types, and interpreting results—right from your browser. 
-Copilot can optionally receive a live screenshot of the page you’re viewing, letting it answer page-specific questions with greater accuracy. 
-This feature is currently in beta, and your feedback will help us refine Copilot’s capabilities and expand what it can do.
+BV‑BRC Copilot is an AI‑powered chat assistant embedded throughout the BV‑BRC website and accessible via the speech‑bubble icon in the bottom‑right corner. It is designed to serve both as a virtual helpdesk — guiding users through data, tools, analysis services, and job results in real-time — and as a knowledge hub that can explain broader biology and bioinformatics concepts without leaving the site. Copilot can optionally use a live screenshot of the page you are viewing to answer page‑specific questions with greater accuracy.
+
+The BV‑BRC Copilot is currently in beta. Your feedback will help us continually refine and enhance its capabilities.

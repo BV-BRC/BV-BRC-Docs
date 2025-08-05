@@ -50,6 +50,11 @@ After selecting the desired files, users can add them to the “Selected Groups 
 
 ![Figure 8](./images/Picture8.png "Figure 8")
 
+   * **NOTE:** The MSA file is a FASTA file containing a selection of previously aligned nucleotide sequences. These files use standard FASTA formatting, with each new sequence marked by a ">" followed by the sequence identifier and then the sequence data lines. For reference, please see the example alignment file image below.
+
+![Alignment File](./images/Alignment_File_Example.png "Alignment File")
+
+
 4\.	When the user has completed parameter and input file selection, the “Submit” button will become available.  
 ![Figure 9](./images/Picture9.png "Figure 9")
 

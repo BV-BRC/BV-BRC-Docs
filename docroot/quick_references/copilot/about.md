@@ -1,12 +1,14 @@
-# BV-BRC Copilot Documentation
+# BV-BRC Copilot
 
-*Last updated 15 July 2025*
+*Last updated 21 July 2025*
 
 ---
 
 ## 1  What is BV-BRC Copilot?
 
-BV-BRC Copilot is an AI-powered, context-aware chatbot built into the BV-BRC website. It answers questions about **how to use BV-BRC** and **what each tool, data type, or result means**—all without leaving your browser tab.
+BV‑BRC Copilot is an AI‑powered chat assistant embedded throughout the BV‑BRC website. It is designed to serve both as a virtual helpdesk—guiding users through data, tools, analysis services, and job results in real time—and as a knowledge hub that can explain broader biology and bioinformatics concepts without leaving the site. Copilot can optionally use a live screenshot of the page you are viewing to answer page‑specific questions with greater accuracy.
+
+The BV‑BRC Copilot is currently in beta. Your feedback will help us continually refine and enhance its capabilities.
 
 ---
 
@@ -23,15 +25,12 @@ Copilot is available to anyone who is logged in with a valid BV-BRC account.
 
 ## 3  What Copilot Can Help You With *Today*
 
-| Topic                  | Example questions you can ask                  |
-| ---------------------- | ---------------------------------------------- |
-| Finding features       | “Where do I upload FASTQ files?”               |
-| Explaining services    | “What does the Genome Assembly Service do?”    |
-| Interpreting results   | “What does ‘N50’ mean in my assembly report?”  |
-| Job Manager basics     | “How do I view the log for a completed job?”   |
-| Page-specific guidance | “What do the columns in this table represent?” |
+| Use case                  | Ask Copilot to…                                                                  | Typical examples                                                                           |
+| ------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **Virtual Helpdesk**      | Explain any BV‑BRC page, <br>data, tool, service, or job.                            | • How to I analyze my bacteriual genome?<br> • How do I use genome annotation service?<br> • Explain the table and filters on current page.<br> • why did my job fail? |
+| **Virtual Knowledge Hub** | Summarize biology or bioinformatics concepts <br>using its built‑in model knowledge. | • Describe this organism and its relevance to public health.<br> •  What is an N50?<br> • How does average nucleotide identity work?                          |
 
-Copilot **does not** run analyses, change your data, or modify jobs—its role is to explain *how*.
+Copilot **does not** run analyses, change your data, or modify jobs — its role is to explain *how*.
 
 ---
 
@@ -69,19 +68,20 @@ If Copilot fails to answer or behaves oddly:
 
 ## 7  Known Limitations
 
-* Copilot cannot launch, cancel, or clone jobs (yet).
+* Copilot cannot launch, cancel, or rerun failed jobs (yet).
 * Very long or highly technical prompts may exceed context limits—try shorter questions.
 * Private workspace data is *not* read directly; rely on screenshots for file-content questions.
 
 ---
 
-## 8  Roadmap (All items — status TBD)
+## 8  BV-BRC Copilot Roadmap
 
-| Planned feature                      | What it will do                             |
-| ------------------------------------ | ------------------------------------------- |
-| In-chat job submission               | Launch analyses directly from Copilot       |
-| Workspace file summaries             | Let Copilot describe your private files     |
-| Personalized “next-step” suggestions | Recommend analyses based on recent activity |
+| Phase               | Capability                                        | What it will do                                                                                                                       | Key Features                                                                                                                                                                |
+| ------------------- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Now (Beta v0.9)** | **Virtual Helpdesk**                              | Interactive helpdesk and real‑time virtual assistance <br>for any BV‑BRC page, tool, or analysis job.                     | • Page‑aware answers<br>• Troubleshooting failed jobs<br>• Context‑linked documentation snippets                                                                                      |
+| **v1.x**     | **Virtual Knowledge Integration <br>& Summarization** | • On‑demand concept summaries using built-in knowledge<br> • Retrieve information from external sources and presents concise, context‑aware knowledge. | • Aggregated answers based on external sources.<br>                                                                  |
+| **v2.x**    | **Task & Workflow Automation**                    | On-demand end‑to‑end task automation and analyses.                                                             | • Automated website navigation<br>• Smart search & data retrieval<br>• One‑click custom analysis/visualizations<br>• Full workflow generation and execution |
+
 
 Your feedback via **Report Issue** directly shapes this roadmap.
 
@@ -93,4 +93,4 @@ If Copilot can’t answer, contact the BV-BRC team via **Help → Contact Us** o
 
 ---
 
-**Thank you for using BV-BRC Copilot—your built-in guide to the BV-BRC ecosystem.**
+**Thank you for using BV-BRC Copilot—your virtual assitant for the BV-BRC Resource.**

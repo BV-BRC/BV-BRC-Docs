@@ -1,13 +1,17 @@
 BV-BRC August 2025 Website Release
-=====================================================================
+==================================
 
 .. image:: ../images/2025/copilot.jpg
    :width: 661
    :alt: BV-BRC Copilot
 
-AI Co-Pilot
-The BV-BRC team is pleased introduce our new AI Copilot - an AI‑powered chat assistant embedded throughout the BV‑BRC website. It is designed to serve as a virtual helpdesk, guiding users through data, tools, analysis services, and job results in real-time. It also acts as a virtual knowledge hub, answering questions related to biology and bioinformatics concepts without leaving the site. The BV‑BRC Copilot is currently in beta, we seek your feedback to help us improve its capabilities. You can access the Co-Pilot through the small chat icon at the bottom right corner of the website. 
+AI Copilot
+-----------
+
+The BV-BRC team is pleased introduce our new AI Copilot - an AI‑powered chat assistant embedded throughout the BV‑BRC website. It is designed to serve as a virtual helpdesk, guiding users through data, tools, analysis services, and job results in real-time. It also acts as a virtual knowledge hub, answering questions related to biology and bioinformatics concepts without leaving the site. The BV‑BRC Copilot is currently in beta, we seek your feedback to help us improve its capabilities. You can access the Copilot through the small chat icon at the bottom right corner of the website. 
+
 Enhanced Bacterial Annotations
+------------------------------
 The following enhancements have been made to the bacterial genome annotation service and applied to all public bacterial genomes in BV-BRC. 
 •	Enhanced AMR phenotype prediction using expanded collection of machine learning classifiers, which now includes 191 SIR and 165 MIC prediction models.
 •	Enhanced AMR gene prediction using AMRFinderPlus and RGI-CARD to enhance detection accuracy using HMM profiles and point mutations and will replace similarity-based AMR gene prediction using BLAT.

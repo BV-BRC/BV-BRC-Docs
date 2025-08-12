@@ -21,7 +21,11 @@ The following enhancements have been made to the bacterial genome annotation ser
 
 Outbreak Phylogenetic Trees
 ---------------------------
-Recent updates include a new N gene tree for measles 2025, expanded data for Mpox 2024, segment-based and concatenated trees for Influenza H5N1, and a new clustered tree for SARS-CoV-2.
+Recent updates include a new `N gene tree for measles 2025 <https://www.bv-brc.org/outbreaks/Measles/#view_tab=phylogenetics>`_ , `expanded data for Mpox 2024 <https://www.bv-brc.org/outbreaks/Mpox/#view_tab=phylogenetics>`_ , `segment-based and concatenated trees for Influenza H5N1 <https://www.bv-brc.org/outbreaks/H5N1/#view_tab=phylogenetics>`_ , and a new `clustered tree for SARS-CoV-2 <https://www.bv-brc.org/outbreaks/SARSCoV2/#view_tab=clusteredPhylogeny>`_.
+
+Here is `a link <http://www.example.com>`_ to somewhere.
+
+
 
 New Analysis Services
 ---------------------

@@ -12,7 +12,8 @@ The BV-BRC team is pleased introduce our new AI Copilot - an AI‑powered chat a
 
 Enhanced Bacterial Annotations
 ------------------------------
-The following enhancements have been made to the bacterial genome annotation service and applied to all public bacterial genomes in BV-BRC. 
+The following enhancements have been made to the bacterial genome annotation service and applied to all public bacterial genomes in BV-BRC.
+
   * Enhanced AMR phenotype prediction using expanded collection of machine learning classifiers, which now includes 191 SIR and 165 MIC prediction models.
   * Enhanced AMR gene prediction using AMRFinderPlus and RGI-CARD to enhance detection accuracy using HMM profiles and point mutations and will replace similarity-based AMR gene prediction using BLAT.
   * Enhanced specialty gene prediction using latest reference gene catalogs from Virulence Factor Database (VFDB), Therapeutic Target Database (TTD), and Transporter Classification Database (TCDB).

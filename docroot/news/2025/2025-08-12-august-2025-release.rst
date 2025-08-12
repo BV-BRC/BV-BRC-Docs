@@ -13,15 +13,21 @@ The BV-BRC team is pleased introduce our new AI Copilot - an AI‑powered chat a
 Enhanced Bacterial Annotations
 ------------------------------
 The following enhancements have been made to the bacterial genome annotation service and applied to all public bacterial genomes in BV-BRC. 
-•	Enhanced AMR phenotype prediction using expanded collection of machine learning classifiers, which now includes 191 SIR and 165 MIC prediction models.
-•	Enhanced AMR gene prediction using AMRFinderPlus and RGI-CARD to enhance detection accuracy using HMM profiles and point mutations and will replace similarity-based AMR gene prediction using BLAT.
-•	Enhanced specialty gene prediction using latest reference gene catalogs from Virulence Factor Database (VFDB), Therapeutic Target Database (TTD), and Transporter Classification Database (TCDB).
-•	New metal-resistant gene prediction using BacMet in the BV-BRC specialty gene prediction module to support the annotation of antimicrobial biocide and metal resistance genes.
+* Enhanced AMR phenotype prediction using expanded collection of machine learning classifiers, which now includes 191 SIR and 165 MIC prediction models.
+* Enhanced AMR gene prediction using AMRFinderPlus and RGI-CARD to enhance detection accuracy using HMM profiles and point mutations and will replace similarity-based AMR gene prediction using BLAT.
+* Enhanced specialty gene prediction using latest reference gene catalogs from Virulence Factor Database (VFDB), Therapeutic Target Database (TTD), and Transporter Classification Database (TCDB).
+* New metal-resistant gene prediction using BacMet in the BV-BRC specialty gene prediction module to support the annotation of antimicrobial biocide and metal resistance genes.
+
 Outbreak Phylogenetic Trees
+---------------------------
 Recent updates include a new N gene tree for measles 2025, expanded data for Mpox 2024, segment-based and concatenated trees for Influenza H5N1, and a new clustered tree for SARS-CoV-2.
+
 New Analysis Services
-Core Genome MLST: Performs core-genome multi-locus sequence typing (cgMLST) analysis using chewBBACA to identify allelic differences across a defined set of conserved genes shared among a group of bacterial genomes. The output includes an allele matrix, phylogenetic tree, and minimum spanning tee, which help infer population structure and genetic relatedness. This service is suitable for comparing closely related strains from the same or different outbreaks. Core Genome MLST Service
-Whole Genome SNP Analysis: Performs whole-genome SNP analysis, without requiring a reference genome, using kSNP4 to identify core and unique SNPs for a set of input genomes. The output includes SNP distance matrices, heatmaps, and phylogenetic trees. This service is useful for comparing nearly identical isolates from clinical outbreaks. Whole Genome SNP Analysis Service
+---------------------
+**Core Genome MLST:** Performs core-genome multi-locus sequence typing (cgMLST) analysis using chewBBACA to identify allelic differences across a defined set of conserved genes shared among a group of bacterial genomes. The output includes an allele matrix, phylogenetic tree, and minimum spanning tee, which help infer population structure and genetic relatedness. This service is suitable for comparing closely related strains from the same or different outbreaks. Core Genome MLST Service
+
+**Whole Genome SNP Analysis:** Performs whole-genome SNP analysis, without requiring a reference genome, using kSNP4 to identify core and unique SNPs for a set of input genomes. The output includes SNP distance matrices, heatmaps, and phylogenetic trees. This service is useful for comparing nearly identical isolates from clinical outbreaks. Whole Genome SNP Analysis Service
 
 New Tutorials
+-------------
 New tutorial videos are now available on the BV-BRC YouTube channel, including Genome Annotation Service, Genome Assembly Service, Similar Genome Finder, Bacterial Genome Tree Service, Metagenomic Read Mapping Service, and Metagenomic Binning Service, and more. These walkthroughs highlight how to explore and analyze data efficiently. 

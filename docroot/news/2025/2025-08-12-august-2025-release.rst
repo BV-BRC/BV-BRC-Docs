@@ -21,17 +21,13 @@ The following enhancements have been made to the bacterial genome annotation ser
 
 Outbreak Phylogenetic Trees
 ---------------------------
-Recent updates include a new `N gene tree for measles 2025 <https://www.bv-brc.org/outbreaks/Measles/#view_tab=phylogenetics>`_ , `expanded data for Mpox 2024 <https://www.bv-brc.org/outbreaks/Mpox/#view_tab=phylogenetics>`_ , `segment-based and concatenated trees for Influenza H5N1 <https://www.bv-brc.org/outbreaks/H5N1/#view_tab=phylogenetics>`_ , and a new `clustered tree for SARS-CoV-2 <https://www.bv-brc.org/outbreaks/SARSCoV2/#view_tab=clusteredPhylogeny>`_.
-
-Here is `a link <http://www.example.com>`_ to somewhere.
-
-
+Recent updates include a new `N gene tree for measles 2025 <https://www.bv-brc.org/outbreaks/Measles/#view_tab=phylogenetics>`_, `expanded data for Mpox 2024 <https://www.bv-brc.org/outbreaks/Mpox/#view_tab=phylogenetics>`_, `segment-based and concatenated trees for Influenza H5N1 <https://www.bv-brc.org/outbreaks/H5N1/#view_tab=phylogenetics>`_, and a new `clustered tree for SARS-CoV-2 <https://www.bv-brc.org/outbreaks/SARSCoV2/#view_tab=clusteredPhylogeny>`_.
 
 New Analysis Services
 ---------------------
-**Core Genome MLST:** Performs core-genome multi-locus sequence typing (cgMLST) analysis using chewBBACA to identify allelic differences across a defined set of conserved genes shared among a group of bacterial genomes. The output includes an allele matrix, phylogenetic tree, and minimum spanning tee, which help infer population structure and genetic relatedness. This service is suitable for comparing closely related strains from the same or different outbreaks. Core Genome MLST Service
+**Core Genome MLST:** Performs core-genome multi-locus sequence typing (cgMLST) analysis using chewBBACA to identify allelic differences across a defined set of conserved genes shared among a group of bacterial genomes. The output includes an allele matrix, phylogenetic tree, and minimum spanning tee, which help infer population structure and genetic relatedness. This service is suitable for comparing closely related strains from the same or different outbreaks. `Core Genome MLST Service <https://www.bv-brc.org/app/CoreGenomeMLST>`_
 
-**Whole Genome SNP Analysis:** Performs whole-genome SNP analysis, without requiring a reference genome, using kSNP4 to identify core and unique SNPs for a set of input genomes. The output includes SNP distance matrices, heatmaps, and phylogenetic trees. This service is useful for comparing nearly identical isolates from clinical outbreaks. Whole Genome SNP Analysis Service
+**Whole Genome SNP Analysis:** Performs whole-genome SNP analysis, without requiring a reference genome, using kSNP4 to identify core and unique SNPs for a set of input genomes. The output includes SNP distance matrices, heatmaps, and phylogenetic trees. This service is useful for comparing nearly identical isolates from clinical outbreaks. `Whole Genome SNP Analysis Service <https://www.bv-brc.org/app/WholeGenomeSNPAnalysis>`_
 
 New Tutorials
 -------------

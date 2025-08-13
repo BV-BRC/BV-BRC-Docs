@@ -9,8 +9,9 @@ News and Announcements
    :description: BV-BRC News RSS feed
    :link: https://www.bv-brc.org/docs/
 
+   2025/2025-08-12-august-2025-release.rst
    2025/2025-04-17-education-workshop.rst
-
+   2025-03-05-jcvi-workshop.rst
 
 .. toctree::
    :maxdepth: 1

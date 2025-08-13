@@ -13,7 +13,7 @@ News and Announcements
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: News Articles Archives:
 
    2025/index

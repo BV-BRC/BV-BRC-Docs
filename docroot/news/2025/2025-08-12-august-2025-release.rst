@@ -14,10 +14,10 @@ Enhanced Bacterial Annotations
 ------------------------------
 The following enhancements have been made to the bacterial genome annotation service and applied to all public bacterial genomes in BV-BRC.
 
-* Enhanced AMR phenotype prediction using expanded collection of machine learning classifiers, which now includes 191 SIR and 165 MIC prediction models.
-* Enhanced AMR gene prediction using AMRFinderPlus and RGI-CARD to enhance detection accuracy using HMM profiles and point mutations and will replace similarity-based AMR gene prediction using BLAT.
-* Enhanced specialty gene prediction using latest reference gene catalogs from Virulence Factor Database (VFDB), Therapeutic Target Database (TTD), and Transporter Classification Database (TCDB).
-* New metal-resistant gene prediction using BacMet in the BV-BRC specialty gene prediction module to support the annotation of antimicrobial biocide and metal resistance genes.
+* **Enhanced AMR phenotype prediction** using expanded collection of machine learning classifiers, which now includes 191 SIR and 165 MIC prediction models.
+* **Enhanced AMR gene prediction** using AMRFinderPlus and RGI-CARD to enhance detection accuracy using HMM profiles and point mutations and will replace similarity-based AMR gene prediction using BLAT.
+* **Enhanced specialty gene prediction** using latest reference gene catalogs from Virulence Factor Database (VFDB), Therapeutic Target Database (TTD), and Transporter Classification Database (TCDB).
+* **New metal-resistant gene prediction** using BacMet in the BV-BRC specialty gene prediction module to support the annotation of antimicrobial biocide and metal resistance genes.
 
 Outbreak Phylogenetic Trees
 ---------------------------
@@ -31,4 +31,4 @@ New Analysis Services
 
 New Tutorials
 -------------
-New tutorial videos are now available on the `BV-BRC YouTube channel <https://www.youtube.com/c/BVBRC>`_, including `Genome Annotation Service <https://www.youtube.com/playlist?list=PLWfOyhOW_Oav3zsNKRx_4EMJQjvY7q_U3>`_, `Genome Assembly Service <https://www.youtube.com/playlist?list=PLWfOyhOW_Oat3lYK7hXorV9jPZxgwBw32>`_, `Similar Genome Finder <https://www.youtube.com/playlist?list=PLWfOyhOW_OashHfld0w1DUkO7rQz6s8SA>`_, `Bacterial Genome Tree Service <https://www.youtube.com/playlist?list=PLWfOyhOW_Oavr0PDosswbQ6tfHBLCMBXZ>`_, `Metagenomic Read Mapping Service <https://www.youtube.com/playlist?list=PLWfOyhOW_Oaurdhs675JawVb4LIcAncKc>`_, and `Metagenomic Binning Service <https://www.youtube.com/playlist?list=PLWfOyhOW_OasTc7mmLSXZvQYrO_R5se47>`_, and more. These walkthroughs highlight how to explore and analyze data efficiently. 
+**New tutorial videos** are now available on the `BV-BRC YouTube channel <https://www.youtube.com/c/BVBRC>`_, including `Genome Annotation Service <https://www.youtube.com/playlist?list=PLWfOyhOW_Oav3zsNKRx_4EMJQjvY7q_U3>`_, `Genome Assembly Service <https://www.youtube.com/playlist?list=PLWfOyhOW_Oat3lYK7hXorV9jPZxgwBw32>`_, `Similar Genome Finder <https://www.youtube.com/playlist?list=PLWfOyhOW_OashHfld0w1DUkO7rQz6s8SA>`_, `Bacterial Genome Tree Service <https://www.youtube.com/playlist?list=PLWfOyhOW_Oavr0PDosswbQ6tfHBLCMBXZ>`_, `Metagenomic Read Mapping Service <https://www.youtube.com/playlist?list=PLWfOyhOW_Oaurdhs675JawVb4LIcAncKc>`_, and `Metagenomic Binning Service <https://www.youtube.com/playlist?list=PLWfOyhOW_OasTc7mmLSXZvQYrO_R5se47>`_, and more. These walkthroughs highlight how to explore and analyze data efficiently. 

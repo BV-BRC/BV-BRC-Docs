@@ -15,7 +15,7 @@ BRC-NIAID AI Codeathon
 
 `Codeathon Goals`_
 
-`Logistics and Registration`_
+`Logistics and Application`_
 
 Accelerating FAIR Data and Tools with AI
 ----------------------------------------
@@ -69,8 +69,8 @@ At the conclusion of the event, teams will
 * Share code and documentation publicly.
 * Contribute prototypes for potential integration into BRC resources.
 
-Logistics and Registration
---------------------------
+Logistics and Application
+-------------------------
 
 Who Should Apply?
 

@@ -6,17 +6,15 @@
 BRC-NIAID AI Codeathon
 ======================
 
-*When: November 12-14, 2025*
+**When: November 12-14, 2025**
 
-*Where: Argonne National Laboratory, 9700 S Cass Ave, Lemont, IL (outside of Chicago)*
+**Where: Argonne National Laboratory, 9700 S Cass Ave, Lemont, IL (outside of Chicago)**
 
-*Register Here*
+**Register Here**
 
-*Goals and Topics*
-----------------
+*Goals and Topics**
 
-*Logistics and Registration Application*
---------------------------------------
+**Logistics and Registration Application**
 
 Accelerating FAIR Data and Tools with AI
 ----------------------------------------

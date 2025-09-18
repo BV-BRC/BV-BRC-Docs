@@ -13,9 +13,9 @@ BRC-NIAID AI Codeathon
 `Apply Here <https://forms.gle/qQ8usRPUkpGyuLD19>`_
 ---------------------------------------------------
 
-Goals and Topics `Codeathon Goals`_
+**`Codeathon Goals`_**
 
-**Logistics and Registration Application**
+**`Logistics and Registration`_**
 
 Accelerating FAIR Data and Tools with AI
 ----------------------------------------

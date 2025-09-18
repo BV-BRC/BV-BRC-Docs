@@ -88,7 +88,7 @@ Who Should Apply?
 Application and Registration
 ----------------------------
 
-*Participation is free but space is limited.* **Apply by October 12, 2025**
+*Participation is free but space is limited.* **Apply by October 15, 2025**
 
 `Apply Here <https://forms.gle/qQ8usRPUkpGyuLD19>`_
 ---------------------------------------------------

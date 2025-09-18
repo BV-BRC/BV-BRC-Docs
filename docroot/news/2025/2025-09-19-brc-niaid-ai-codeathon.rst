@@ -22,7 +22,9 @@ The NIAID Bioinformatics Resource Centers (BRCs) invite researchers, data scient
 This event will bring together participants from diverse backgrounds to build prototypes that lower the learning barrier for new users, streamline data integration, and accelerate infectious disease science.
 
 Codeathon Goals
-●	Apply AI and LLMs to improve accessibility and usability of BRC data and tools.
+---------------
+
+Apply AI and LLMs to improve accessibility and usability of BRC data and tools.
 ●	Enhance interoperability and reuse of BRC resources.
 ●	Foster collaboration between infectious disease researchers, AI developers, and bioinformaticians.
 ●	Deliver openly available prototypes that can serve as seeds for long-term community solutions.
@@ -51,6 +53,10 @@ Who Should Apply?
 ●	Bioinformaticians and computational biologists
 ●	AI/ML researchers and engineers
 ●	Students and trainees interested in data science
+
+***NOTE: This is not an AI training session for those that want to learn AI. It is a hands-on codeathon where participants are expected to work in groups to generate working prototype code and tools that employ AI technologies to advance FAIR-ness and utility of BRC tools and data.***  
+
+
 Dates: November 12-14, 2025
 Format: In-person at Argonne National Laboratory, Lemont, Illinois, USA. 
 Duration: 3 days comprised of intensive group discussions, coding, prototyping, testing, and presentations

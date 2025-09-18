@@ -10,7 +10,7 @@ BRC-NIAID AI Codeathon
 
 **Where: Argonne National Laboratory, 9700 S Cass Ave, Lemont, IL (outside of Chicago)**
 
-`**Apply Here** <https://forms.gle/qQ8usRPUkpGyuLD19>`_
+**`Apply Here** <https://forms.gle/qQ8usRPUkpGyuLD19>`_**
 
 **Goals and Topics**
 
@@ -89,4 +89,4 @@ Application and Registration
 
 *Participation is free but space is limited.* **Apply by October 12, 2025**
 
-`Apply Here <https://forms.gle/qQ8usRPUkpGyuLD19>`_
+**`Apply Here** <https://forms.gle/qQ8usRPUkpGyuLD19>`_**

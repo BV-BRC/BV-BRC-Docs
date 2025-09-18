@@ -13,7 +13,7 @@ BRC-NIAID AI Codeathon
 `Apply Here <https://forms.gle/qQ8usRPUkpGyuLD19>`_
 ---------------------------------------------------
 
-**Goals and Topics**
+Goals and Topics `Codeathon Goals`_
 
 **Logistics and Registration Application**
 

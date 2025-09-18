@@ -16,7 +16,6 @@ BRC-NIAID AI Codeathon
 `Codeathon Goals`_
 
 `Logistics and Registration`_
------------------------------
 
 Accelerating FAIR Data and Tools with AI
 ----------------------------------------

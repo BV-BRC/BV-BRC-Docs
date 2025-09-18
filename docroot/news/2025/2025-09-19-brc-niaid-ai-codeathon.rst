@@ -29,6 +29,8 @@ Codeathon Goals
 * Foster collaboration between infectious disease researchers, AI developers, and bioinformaticians.
 * Deliver openly available prototypes that can serve as seeds for long-term community solutions.
 
+*NOTE: This is not an AI training session with tutorials and instruction for those that want to learn AI. Rather, it is a hands-on codeathon where participants are expected to work in groups to generate working prototype code and tools that employ AI technologies to advance FAIR-ness and utility of BRC tools and data.*  
+
 Potential Project Topics
 ------------------------
 
@@ -75,8 +77,6 @@ Who Should Apply?
 * Bioinformaticians and computational biologists
 * AI/ML researchers and engineers
 * Students and trainees interested in data science
-
-**NOTE: This is not an AI training session with tutorials and instruction for those that want to learn AI. Rather, it is a hands-on codeathon where participants are expected to work in groups to generate working prototype code and tools that employ AI technologies to advance FAIR-ness and utility of BRC tools and data.**  
 
 **Dates: November 12-14, 2025**
 

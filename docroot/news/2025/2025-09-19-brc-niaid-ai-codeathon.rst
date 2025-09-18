@@ -35,6 +35,7 @@ Potential Project Topics
 Participants will form teams and select from proposed themes or pitch new ideas:
 
 * **Virtual BRC Helpdesk**
+  
   Navigating the many organisms, datasets, and tools within the BRCs can be challenging. This project will build an AI-powered helpdesk to guide users in real time, helping them discover and use resources more effectively. By lowering the learning barrier, the outcome will be a user-friendly virtual assistant integrated across BRC platforms.
 
 * **Automated Workflow Generation and Execution**

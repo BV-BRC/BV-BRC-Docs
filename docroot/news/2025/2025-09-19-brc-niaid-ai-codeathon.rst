@@ -1,8 +1,8 @@
 BRC-NIAID AI Codeathon
 ======================
 
-.. image:: ../images/2025/copilot.png
-   :width: 661
+.. image:: ../images/2025/codeathon_webpage_splash.png
+   :width: 100%
    :alt: BV-BRC Copilot
 
 When: November 12-14, 2025

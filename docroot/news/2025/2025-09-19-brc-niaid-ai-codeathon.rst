@@ -90,4 +90,5 @@ Application and Registration
 
 *Participation is free but space is limited.* **Apply by October 12, 2025**
 
-**`Apply Here <https://forms.gle/qQ8usRPUkpGyuLD19>`_**
+`Apply Here <https://forms.gle/qQ8usRPUkpGyuLD19>`_
+---------------------------------------------------

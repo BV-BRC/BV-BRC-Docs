@@ -35,7 +35,7 @@ Potential Project Topics
 Participants will form teams and select from proposed themes or pitch new ideas:
 
 * **Virtual BRC Helpdesk**
-Navigating the many organisms, datasets, and tools within the BRCs can be challenging. This project will build an AI-powered helpdesk to guide users in real time, helping them discover and use resources more effectively. By lowering the learning barrier, the outcome will be a user-friendly virtual assistant integrated across BRC platforms.
+  Navigating the many organisms, datasets, and tools within the BRCs can be challenging. This project will build an AI-powered helpdesk to guide users in real time, helping them discover and use resources more effectively. By lowering the learning barrier, the outcome will be a user-friendly virtual assistant integrated across BRC platforms.
 
 * **Automated Workflow Generation and Execution**
 Researchers often face difficulties turning biological questions into executable workflows. This project will develop AI tools that generate and run workflows from user descriptions or data, connecting BRC and external resources. The outcome will be a prototype that enables fast, reproducible, end-to-end analysis.
@@ -68,7 +68,7 @@ Who Should Apply?
 * AI/ML researchers and engineers
 * Students and trainees interested in data science
 
-***NOTE: This is not an AI training session for those that want to learn AI. It is a hands-on codeathon where participants are expected to work in groups to generate working prototype code and tools that employ AI technologies to advance FAIR-ness and utility of BRC tools and data.***  
+***NOTE: This is not an AI training session with tutorials and instruction for those that want to learn AI. Rather, it is a hands-on codeathon where participants are expected to work in groups to generate working prototype code and tools that employ AI technologies to advance FAIR-ness and utility of BRC tools and data.***  
 
 
 Dates: November 12-14, 2025

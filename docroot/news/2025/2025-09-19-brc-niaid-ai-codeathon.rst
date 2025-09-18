@@ -76,17 +76,18 @@ Who Should Apply?
 * AI/ML researchers and engineers
 * Students and trainees interested in data science
 
-**\*NOTE: This is not an AI training session with tutorials and instruction for those that want to learn AI. Rather, it is a hands-on codeathon where participants are expected to work in groups to generate working prototype code and tools that employ AI technologies to advance FAIR-ness and utility of BRC tools and data.\***  
+**NOTE: This is not an AI training session with tutorials and instruction for those that want to learn AI. Rather, it is a hands-on codeathon where participants are expected to work in groups to generate working prototype code and tools that employ AI technologies to advance FAIR-ness and utility of BRC tools and data.**  
 
-Dates: November 12-14, 2025
+**Dates: November 12-14, 2025**
 
-Format: In-person at Argonne National Laboratory, Lemont, Illinois, USA. 
+**Format: In-person at Argonne National Laboratory, Lemont, Illinois, USA.** 
 
-Duration: 3 days comprised of intensive group discussions, coding, prototyping, testing, and presentations
+**Duration: 3 days comprised of intensive group discussions, coding, prototyping, testing, and presentations**
 
 Application and Registration
+----------------------------
 
-Participation is free but space is limited. Apply by [Insert Date].
+Participation is free but space is limited. Apply by [Insert Date]
 
 Register Here
 

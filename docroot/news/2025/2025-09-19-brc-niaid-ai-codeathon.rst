@@ -12,7 +12,7 @@ BRC-NIAID AI Codeathon
 
 **Register Here**
 
-*Goals and Topics**
+**Goals and Topics**
 
 **Logistics and Registration Application**
 

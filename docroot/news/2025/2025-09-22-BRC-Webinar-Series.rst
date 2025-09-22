@@ -1,4 +1,4 @@
-image:: ../images/2025/codeathon_webpage_splash.png
+image:: ../images/2025/tools_for_tomorrow_registration.png
    :width: 100%
    :alt: Tools for Tomorrow Webinar Flyer
 

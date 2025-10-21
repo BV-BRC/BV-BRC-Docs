@@ -1,19 +1,19 @@
 # Usage Metrics
-July 2024 - March 2025, unless otherwise noted
+For September 2025, unless otherwise noted
 
-| Metric                                          | Value    |
-| :---------------------------------------------  | :------: |
-| Total registered users                          | 64,422   |
-| Total analysis jobs submitted by users          |	187,898  |
-| Registered users that run a service (avg/month) | 1,698    |
-| Total storage used for user data (TB)           | 667      |
-| Total site visits                               | 698,549  |
-| Total unique visitors (avg/month)               | 39,702   |
-| Total pageviews                                 | 576,270  |                      
-| Avg. pages / visit                              | 7.8      |
-| Avg. visits / visitor                           | 2.00     |
-| Avg. visit duration (seconds)                   | 432      |
-| Citations to BV-BRC resources (cumulative)      | 25,194   |
+| Metric                                          | Value     |
+| :---------------------------------------------  | :-------: |
+| Total registered users                          |   70,731  |
+| Analysis jobs submitted by users                |	  19,064  |
+| Registered users that run a service             |    1,386  |
+| Total storage used for user data (TB)           |      721  |
+| Total site visits                               |  130,654  |
+| Total unique visitors (avg/month)               |   89,262  |
+| Total pageviews                                 | 1,698,384 |                      
+| Avg. pages / visit                              |     12.99 |
+| Avg. visits / visitor                           |      1.46 |
+| Avg. visit duration (seconds)                   |       311 | 
+| Citations to BV-BRC publications (cumulative)   |    27,120 |
 
 <br>
 <br>

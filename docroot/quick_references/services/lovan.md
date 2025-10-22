@@ -21,33 +21,33 @@ Taxa currently covered by LowVan include:
 
 ***Orthomyxoviridae***
 *	*Alphainfluenzavirus*
-  *	Influenza A virus
+    *	Influenza A virus
 *	*Betainfluenzavirus*
-  *	Influenza B virus
+    *	Influenza B virus
 *	*Deltainfluenzavirus*
-  * Influenza D virus
+    * Influenza D virus
 *	Gammainfluenzavirus*
-  *	Influenza C virus
+    *	Influenza C virus
 *	*Isavirus*
 
-**Paramyxoviridae**
-* Aquaparamyxovirus
-*	Ferlavirus
-*	Henipavirus
-*	Jeilongvirus
-*	Metaavulavirus
-*	Morbillivirus
-*	Narmovirus
-*	Orthoavulavirus
-*	Orthorubulavirus
-*	Paraavulavirus
-*	Pararubulavirus
-*	Respirovirus
+***Paramyxoviridae**
+* *Aquaparamyxovirus*
+*	*Ferlavirus*
+*	*Henipavirus*
+*	*Jeilongvirus*
+*	*Metaavulavirus*
+*	*Morbillivirus*
+*	*Narmovirus*
+*	*Orthoavulavirus*
+*	*Orthorubulavirus*
+*	*Paraavulavirus*
+*	*Pararubulavirus*
+*	*Respirovirus*
 
-**Pneumoviridae**
-*	Metapneumovirus
-*	Orthopneumovirus
-*	Orthopneumovirus muris*
+***Pneumoviridae***
+*	*Metapneumovirus*
+*	*Orthopneumovirus*
+*	*Orthopneumovirus muris*
 
 ## Some important details on the design of LowVan
 

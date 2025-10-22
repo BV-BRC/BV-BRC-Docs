@@ -84,3 +84,27 @@ The final step of the LowVan workflow is to assess genome quality.  Each genome 
 
  
 *Figure 2 Flu A proteins covered by LowVan.  Gene symbols are shown.  Segment lengths are approximate.*
+
+When should I use LowVan?
+•	LowVan will provide accurate and consistent annotations for the taxa described at the beginning of this document, so any annotation job that involves those taxa would be an appropriate use case. 
+•	LowVan will attempt to run when a specific NCBI taxonomy ID is unknown.  It simply won’t work if your contigs don’t match the references, so in essence, there is no harm in trying.  We advise selecting a taxonomy ID that is as close as possible to your submitted genomes. 
+•	LowVan attempts to annotate all of the minor proteins for a taxon.  If you are interested in those, it may be advantageous to use this tool. 
+•	When you want genome, segment, and feature-level quality estimates for the supported taxa described above.
+
+
+## What is the relationship between VIGOR4 and LowVan?
+
+There are a handful of taxa that are covered by both LowVan and VIGOR4.  LowVan is a newer effort aimed at increasing the coverage of supported viral taxa and improving annotation consistency within the BV-BRC.  The LowVan and VIGOR4 systems are based on slightly different tech and are designed with different objectives in mind.  That being said, VIGOR4 is still fully supported within BV-BRC and is not going away.  If you like VIGOR4, then you should continue to use it.  If you are unsure which tool would be best for your needs, try using both.  The style of the annotation strings will be the most noticeable difference.  VIGOR4’s annotation strings have been tuned to the needs of specific communities of viral researchers over the last ten years, whereas LowVan’s are designed for automated projection.  
+
+## How to cite LowVan
+
+LowVan is currently unpublished, but we are getting close to completing the manuscript.  For now, please cite our most current NAR database issue for BV-BRC: 
+
+Olson, R.D., Assaf, R., Brettin, T., Conrad, N., Cucinell, C., Davis, J.J., Dempsey, D.M., Dickerman, A., Dietrich, E.M., Kenyon, R.W., et al. (2023) Introducing the bacterial and viral bioinformatics resource center (BV-BRC): a resource combining PATRIC, IRD and ViPR. Nucleic acids research, 51, D678-D689
+
+## Availability
+
+The main development repo for LowVan, which contains the bleeding edge changes is here:
+https://github.com/jimdavis1/Viral_Annotation.  The readme on the repo contains more program-specific details.  It also contains the PSSMs and alignments from which they were generated.   
+
+

@@ -19,5 +19,5 @@ For September 2025, unless otherwise noted
 <br>
 
 **Analysis jobs submitted by users, by type**
-![Submitted Jobs](./images/jobs_jul_2024_mar_2025.png "Submitted jobs")
+![Submitted Jobs](./images/jobs_jan_2025_sep_2025.png "Submitted jobs")
 

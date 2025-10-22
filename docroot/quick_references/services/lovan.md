@@ -63,7 +63,7 @@ In order to keep LoVan simple, it is designed as a series of modules (Figure 1).
 
 The first step of the LowVan workflow is to determine if a genome can be annotated.  This is currently done by performing a BLASTn search using the incoming genome as the query and a set of maintained reference genomes corresponding to the curated taxa listed above as the subjects.  If the incoming genome matches with a high enough bit score, the genome proceeds to the next step, otherwise the analysis ends. 
 
-![LowVan Workflow](../images/lovan1.png)
+![Figure 1](../images/lovan1.png)
 
 *Figure 1.  The LowVan workflow*
 
@@ -87,7 +87,7 @@ The final step of the LowVan workflow is to assess genome quality.  Each genome 
 * “Partial” features are called, but their status is described in the feature quality file that is output by the program and in the genome type object, not in the annotation string.
 * All segments with conserved proteins are required for a “Good” quality designation.  LowVan will still annotate single segments greater than 300 nucleotides in length, but it will dutifully list these as being poor quality. 
 
-![Annotation Menu](../images/bv_services_menu.png)
+![Figure 2](../images/lovan2.png)
 
 *Figure 2 Flu A proteins covered by LowVan.  Gene symbols are shown.  Segment lengths are approximate.*
 

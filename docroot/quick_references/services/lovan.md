@@ -14,9 +14,11 @@ Taxa currently covered by LowVan include:
 *	Phasmaviridae
 *	Phenuiviridae
 *	Tospoviridae
+
 **Filoviridae**
 *	Orthoebolavirus
 *	Orthomarburgvirus
+
 **Orthomyxoviridae**
 *	Alphainfluenzavirus
 *	Influenza A virus
@@ -27,6 +29,7 @@ Taxa currently covered by LowVan include:
 *	Gammainfluenzavirus
 *	Influenza C virus
 *	Isavirus
+
 **Paramyxoviridae**
 * Aquaparamyxovirus
 *	Ferlavirus
@@ -40,6 +43,7 @@ Taxa currently covered by LowVan include:
 *	Paraavulavirus
 *	Pararubulavirus
 *	Respirovirus
+
 **Pneumoviridae**
 *	Metapneumovirus
 *	Orthopneumovirus

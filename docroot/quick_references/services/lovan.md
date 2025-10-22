@@ -1,4 +1,4 @@
-# LoVan Viral Annotation Module
+# LowVan Viral Annotation Module
 
 ## Overview
 In the summer of 2025, the BV-BVRC team released a new module into the genome annotation system called LowVan (short for Low-Tech Viral Annotation).  LowVan was developed within our group for the purpose of having a system that can cover a large number of viruses with consistent annotations with very low input and overhead maintenance cost.  The project was also conceived as a means of cleaning up inconsistencies in viral annotation with an eye toward training future AI-based systems.  
@@ -59,11 +59,12 @@ LowVan is a tool for identifying features—mostly protein encoding genes and ma
 
 ## How LowVan Works
 
-In order to keep LowVan simple, it is designed as a series of modules (Figure 1).  In its present state, it has only one primary external dependency, which is BLAST.
+In order to keep LoVan simple, it is designed as a series of modules (Figure 1).  In its present state, it has only one primary external dependency, which is BLAST.
 
 The first step of the LowVan workflow is to determine if a genome can be annotated.  This is currently done by performing a BLASTn search using the incoming genome as the query and a set of maintained reference genomes corresponding to the curated taxa listed above as the subjects.  If the incoming genome matches with a high enough bit score, the genome proceeds to the next step, otherwise the analysis ends. 
 
-![Annotation Menu](../images/bv_services_menu.png)
+![Annotation Menu](../images/lovan1.png)
+
 *Figure 1.  The LowVan workflow*
 
 In the second step, we maintain a set of clean and well-curated position specific scoring matricies (PSSMS) for every protein and mature peptide for a curated taxon.  These PSSMs were generated from curated alignments for each protein.  It is often necessary to build PSSMS from subalignments in order to accurately capture the diversity, particularly with respect to variation in the N- and C-terminal regions.  For each protein, all of the PSSMs are queried against the genome in a tBLASTn search, and the match with the best bit score is used to call the protein.  By default, the program will search upstream to find a Met start if one was not found, and downstream to find a stop codon.  This functionality is turned off when there is a non-Met start or when searching for mature peptides that start or end at a cleavage site. 
@@ -87,6 +88,7 @@ The final step of the LowVan workflow is to assess genome quality.  Each genome 
 * All segments with conserved proteins are required for a “Good” quality designation.  LowVan will still annotate single segments greater than 300 nucleotides in length, but it will dutifully list these as being poor quality. 
 
 ![Annotation Menu](../images/bv_services_menu.png)
+
 *Figure 2 Flu A proteins covered by LowVan.  Gene symbols are shown.  Segment lengths are approximate.*
 
 When should I use LowVan?

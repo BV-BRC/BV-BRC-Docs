@@ -5,7 +5,7 @@ In the summer of 2025, the BV-BVRC team released a new module into the genome an
 
 Taxa currently covered by LowVan include:
 
-*	Bunyaviricetes
+**Bunyaviricetes**
 * Arenaviridae
 *	Fimoviridae
 *	Hantaviridae
@@ -14,10 +14,10 @@ Taxa currently covered by LowVan include:
 *	Phasmaviridae
 *	Phenuiviridae
 *	Tospoviridae
-*	Filoviridae
+**Filoviridae**
 *	Orthoebolavirus
 *	Orthomarburgvirus
-*	Orthomyxoviridae
+**Orthomyxoviridae**
 *	Alphainfluenzavirus
 *	Influenza A virus
 *	Betainfluenzavirus
@@ -27,7 +27,7 @@ Taxa currently covered by LowVan include:
 *	Gammainfluenzavirus
 *	Influenza C virus
 *	Isavirus
-Paramyxoviridae
+**Paramyxoviridae**
 * Aquaparamyxovirus
 *	Ferlavirus
 *	Henipavirus
@@ -40,13 +40,12 @@ Paramyxoviridae
 *	Paraavulavirus
 *	Pararubulavirus
 *	Respirovirus
-*	Pneumoviridae:
+**Pneumoviridae**
 *	Metapneumovirus
 *	Orthopneumovirus
 *	Orthopneumovirus muris
 
-
-Some important details on the design of LowVan
+## Some important details on the design of LowVan
 
 LowVan is a tool for identifying features—mostly protein encoding genes and mature peptides—in viral genomes.  It is based on well supported ORF calls and mature peptides that were pre-existing in BV-BRC and GenBank, as well as ORFs that were missed by these resources, but are supported by the literature.  LowVan does not currently call RNA features such as stem loops, promotors, slippage sites, editing sites, etc.  It also does not currently call protein motifs and cleavage sites.  While we recognize the importance of these features, the current focus of the project is getting protein annotation support for a large swath of the viruses.   
 

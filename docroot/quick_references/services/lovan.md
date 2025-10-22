@@ -5,7 +5,7 @@ In the summer of 2025, the BV-BVRC team released a new module into the genome an
 
 Taxa currently covered by LowVan include:
 
-* **Bunyaviricetes**
+**Bunyaviricetes**
 * Arenaviridae
 *	Fimoviridae
 *	Hantaviridae
@@ -47,7 +47,7 @@ Taxa currently covered by LowVan include:
 **Pneumoviridae**
 *	Metapneumovirus
 *	Orthopneumovirus
-*	Orthopneumovirus muris *
+*	Orthopneumovirus muris*
 
 ## Some important details on the design of LowVan
 

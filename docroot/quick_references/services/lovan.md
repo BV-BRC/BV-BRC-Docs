@@ -6,29 +6,29 @@ In the summer of 2025, the BV-BVRC team released a new module into the genome an
 Taxa currently covered by LowVan include:
 
 ***Bunyaviricetes***
-* Arenaviridae
-*	Fimoviridae
-*	Hantaviridae
-*	Nairoviridae
-*	Peribunyaviridae
-*	Phasmaviridae
-*	Phenuiviridae
-*	Tospoviridae
+* *Arenaviridae*
+*	*Fimoviridae*
+*	*Hantaviridae*
+*	*Nairoviridae*
+*	*Peribunyaviridae*
+*	*Phasmaviridae*
+*	*Phenuiviridae*
+*	*Tospoviridae*
 
-**Filoviridae**
-*	Orthoebolavirus
-*	Orthomarburgvirus
+***Filoviridae***
+*	*Orthoebolavirus*
+*	*Orthomarburgvirus*
 
-**Orthomyxoviridae**
-*	Alphainfluenzavirus
-*	Influenza A virus
-*	Betainfluenzavirus
-*	Influenza B virus
-*	Deltainfluenzavirus
-*	Influenza D virus
-*	Gammainfluenzavirus
-*	Influenza C virus
-*	Isavirus
+***Orthomyxoviridae***
+*	*Alphainfluenzavirus*
+  *	Influenza A virus
+*	*Betainfluenzavirus*
+  *	Influenza B virus
+*	*Deltainfluenzavirus*
+  * Influenza D virus
+*	Gammainfluenzavirus*
+  *	Influenza C virus
+*	*Isavirus*
 
 **Paramyxoviridae**
 * Aquaparamyxovirus

@@ -7,43 +7,43 @@ Taxa currently covered by LowVan include:
 
 *	Bunyaviricetes
 * Arenaviridae
-o	Fimoviridae
-o	Hantaviridae
-o	Nairoviridae
-o	Peribunyaviridae
-o	Phasmaviridae
-o	Phenuiviridae
-o	Tospoviridae
-•	Filoviridae
-o	Orthoebolavirus
-o	Orthomarburgvirus
-•	Orthomyxoviridae
-o	Alphainfluenzavirus
-	Influenza A virus
-o	Betainfluenzavirus
-	Influenza B virus
-o	Deltainfluenzavirus
-	Influenza D virus
-o	Gammainfluenzavirus
-	Influenza C virus
-o	Isavirus
+*	Fimoviridae
+*	Hantaviridae
+*	Nairoviridae
+*	Peribunyaviridae
+*	Phasmaviridae
+*	Phenuiviridae
+*	Tospoviridae
+*	Filoviridae
+*	Orthoebolavirus
+*	Orthomarburgvirus
+*	Orthomyxoviridae
+*	Alphainfluenzavirus
+*	Influenza A virus
+*	Betainfluenzavirus
+*	Influenza B virus
+*	Deltainfluenzavirus
+*	Influenza D virus
+*	Gammainfluenzavirus
+*	Influenza C virus
+*	Isavirus
 Paramyxoviridae
-o	Aquaparamyxovirus
-o	Ferlavirus
-o	Henipavirus
-o	Jeilongvirus
-o	Metaavulavirus
-o	Morbillivirus
-o	Narmovirus
-o	Orthoavulavirus
-o	Orthorubulavirus
-o	Paraavulavirus
-o	Pararubulavirus
-o	Respirovirus
-•	Pneumoviridae:
-o	Metapneumovirus
-o	Orthopneumovirus
-o	Orthopneumovirus muris
+* Aquaparamyxovirus
+*	Ferlavirus
+*	Henipavirus
+*	Jeilongvirus
+*	Metaavulavirus
+*	Morbillivirus
+*	Narmovirus
+*	Orthoavulavirus
+*	Orthorubulavirus
+*	Paraavulavirus
+*	Pararubulavirus
+*	Respirovirus
+*	Pneumoviridae:
+*	Metapneumovirus
+*	Orthopneumovirus
+*	Orthopneumovirus muris
 
 
 Some important details on the design of LowVan

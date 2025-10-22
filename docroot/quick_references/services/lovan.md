@@ -53,15 +53,14 @@ Taxa currently covered by LowVan include:
 
 LowVan is a tool for identifying features—mostly protein encoding genes and mature peptides—in viral genomes.  It is based on well supported ORF calls and mature peptides that were pre-existing in BV-BRC and GenBank, as well as ORFs that were missed by these resources, but are supported by the literature.  LowVan does not currently call RNA features such as stem loops, promotors, slippage sites, editing sites, etc.  It also does not currently call protein motifs and cleavage sites.  While we recognize the importance of these features, the current focus of the project is getting protein annotation support for a large swath of the viruses.   
 
-
-How LowVan Works
+## How LowVan Works
 
 In order to keep LowVan simple, it is designed as a series of modules (Figure 1).  In its present state, it has only one primary external dependency, which is BLAST.
 
 The first step of the LowVan workflow is to determine if a genome can be annotated.  This is currently done by performing a BLASTn search using the incoming genome as the query and a set of maintained reference genomes corresponding to the curated taxa listed above as the subjects.  If the incoming genome matches with a high enough bit score, the genome proceeds to the next step, otherwise the analysis ends. 
 
  
-Figure 1.  The LowVan workflow
+*Figure 1.  The LowVan workflow*
 
 In the second step, we maintain a set of clean and well-curated position specific scoring matricies (PSSMS) for every protein and mature peptide for a curated taxon.  These PSSMs were generated from curated alignments for each protein.  It is often necessary to build PSSMS from subalignments in order to accurately capture the diversity, particularly with respect to variation in the N- and C-terminal regions.  For each protein, all of the PSSMs are queried against the genome in a tBLASTn search, and the match with the best bit score is used to call the protein.  By default, the program will search upstream to find a Met start if one was not found, and downstream to find a stop codon.  This functionality is turned off when there is a non-Met start or when searching for mature peptides that start or end at a cleavage site. 
 
@@ -71,20 +70,17 @@ The second module identifies splice variants.  In the set of supported taxa, spl
 
 The final step of the LowVan workflow is to assess genome quality.  Each genome is analyzed to determine if it has the correct number of segments, acceptable segment lengths, an acceptable number of ambiguous bases (the default is < 1%), the correct set of proteins, the correct copy number of each protein, and an acceptable length for each protein.  When the presence of a protein is variable throughout a taxon, its presence and copy number are used for segment identification, but it is not used in the overall assessment of quality.  
 
-Remarks on LowVan annotations
-
-•	The annotation string for each protein is intended (when possible) to emulate SEED rules, which describe the protein’s function. 
-•	When appropriate, annotation strings are intended to cover a broad phylogenetic distance, so they are often general.
-•	Annotation strings do not contain gene names unless the evidence for the function is unknown, unknown to be the same across the curated taxon, or difficult to understand in its absence.
-o	This should be viewed as a work in progress. 
-•	The viral community relies on the shorthand of gene/protein names.  These are carried forward in the “Gene Symbol” field in the database, not the annotation string.  For example, the annotation string for the polymerase protein would be “RNA-dependent RNA polymerase” and its gene symbol would be “L.”  
-•	When there are multiple numbered segments, and numbering is inconsistent (as with FluA-D), the segments are named after their primary protein.
-•	There is considerable inconsistency in mature peptide naming, with the mature peptides being named in N-terminal to C-terminal order, or in order of their discovery, or in order of size.  Glycoproteins are particularly rife with this problem.  All GPC mature peptides are named as either N- or C-terminal, rather than GP1 and GP2. 
-•	LowVan attempts to cover the proteins that are supported by the literature.  This includes minor proteins when possible (Figure 2).  
-•	“Partial” features are called, but their status is described in the feature quality file that is output by the program and in the genome type object, not in the annotation string.
-•	All segments with conserved proteins are required for a “Good” quality designation.  LowVan will still annotate single segments greater than 300 nucleotides in length, but it will dutifully list these as being poor quality. 
-
+## Remarks on LowVan annotations
+* The annotation string for each protein is intended (when possible) to emulate SEED rules, which describe the protein’s function.
+* When appropriate, annotation strings are intended to cover a broad phylogenetic distance, so they are often general.
+* Annotation strings do not contain gene names unless the evidence for the function is unknown, unknown to be the same across the curated taxon, or difficult to understand in its absence.
+* This should be viewed as a work in progress.
+* The viral community relies on the shorthand of gene/protein names.  These are carried forward in the “Gene Symbol” field in the database, not the annotation string.  For example, the annotation string for the polymerase protein would be “RNA-dependent RNA polymerase” and its gene symbol would be “L.”
+* When there are multiple numbered segments, and numbering is inconsistent (as with FluA-D), the segments are named after their primary protein.
+* There is considerable inconsistency in mature peptide naming, with the mature peptides being named in N-terminal to C-terminal order, or in order of their discovery, or in order of size.  Glycoproteins are particularly rife with this problem.  All GPC mature peptides are named as either N- or C-terminal, rather than GP1 and GP2.
+* LowVan attempts to cover the proteins that are supported by the literature.  This includes minor proteins when possible (Figure 2).
+* “Partial” features are called, but their status is described in the feature quality file that is output by the program and in the genome type object, not in the annotation string.
+* All segments with conserved proteins are required for a “Good” quality designation.  LowVan will still annotate single segments greater than 300 nucleotides in length, but it will dutifully list these as being poor quality. 
 
  
-Figure 2 Flu A proteins covered by LowVan.  Gene symbols are shown.  Segment lengths are approximate.
-<img width="468" height="636" alt="image" src="https://github.com/user-attachments/assets/c07ecf6a-26cc-466b-89f7-e6e8c27786b0" />
+*Figure 2 Flu A proteins covered by LowVan.  Gene symbols are shown.  Segment lengths are approximate.*

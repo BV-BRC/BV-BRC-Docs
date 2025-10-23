@@ -113,4 +113,3 @@ Olson, R.D., Assaf, R., Brettin, T., Conrad, N., Cucinell, C., Davis, J.J., Demp
 The main development repo for LowVan, which contains the bleeding edge changes is here:
 https://github.com/jimdavis1/Viral_Annotation.  The readme on the repo contains more program-specific details.  It also contains the PSSMs and alignments from which they were generated.   
 
-

@@ -1,20 +1,20 @@
-# TreeSort Service
+# Influenza Reassortment Analysis Service
 
 ## Overview
 
-The idea behind TreeSort is the observation that *if there is no reassortment, then the evolutionary histories of different segments should be identical*. TreeSort then uses a phylogenetic tree for one segment (e.g., the HA influenza A virus segment) as an evolutionary hypothesis for another segment (e.g., the NA segment). We will refer to the first segment as the *reference* and the second segment as the *challenge*. By trying to fit the sequence alignment of the challenge segment to the reference tree, TreeSort identifies points on that tree, where this evolutionary hypothesis breaks. The "breaking" manifests in the mismatch between the divergence time on the reference tree (e.g., 1 year divergence between sister clades) and an unlikely high number of substitutions in the challenge segment that are required to explain the reference tree topology under the null hypothesis of no reassortment.
+The idea behind the Influenza reassortment analysis tool "TreeSort" is the observation that *if there is no reassortment, then the evolutionary histories of different segments should be identical*. TreeSort then uses a phylogenetic tree for one segment (e.g., the HA influenza A virus segment) as an evolutionary hypothesis for another segment (e.g., the NA segment). We will refer to the first segment as the *reference* and the second segment as the *challenge*. By trying to fit the sequence alignment of the challenge segment to the reference tree, TreeSort identifies points on that tree, where this evolutionary hypothesis breaks. The "breaking" manifests in the mismatch between the divergence time on the reference tree (e.g., 1 year divergence between sister clades) and an unlikely high number of substitutions in the challenge segment that are required to explain the reference tree topology under the null hypothesis of no reassortment.
 
 TreeSort has demonstrated very high accuracy in reassortment inference in simulations (manuscript in preparation). TreeSort can process datasets with tens of thousands of virus strains in just a few minutes and can scale to very large datasets with hundreds of thousands of strains. (This overview is from [https://github.com/flu-crew/TreeSort/blob/main/README.md](https://github.com/flu-crew/TreeSort/blob/main/README.md))
 
 #### **NOTE**
-The current version of TreeSort is meant to be used for Influenza viruses ONLY. We hope to provide an updated version in the near future that can be used with common segmented viruses.
+The current version of TreeSort can ONLY be used with nucleotide sequences of an Influenza virus. We hope to provide an updated version in the near future that can be used with common segmented viruses.
 
 ## See Also
   * [TreeSort Service](https://www.bv-brc.org/app/TreeSort)
   * TreeSort Service Tutorial (TODO)
 
 ## Using the TreeSort Service
-In the main menu, **TreeSort** is located under **TOOLS & SERVICES** and **Viral Tools**.
+In the main menu, **Influenza Reassortment Analysis** is located under **TOOLS & SERVICES** and **Viral Tools**.
 
   * *Note: You must be logged into BV-BRC to use this service.*
 
@@ -137,7 +137,7 @@ After selecting one of the output files by clicking it, a set of options becomes
 * **Hide/Show:** Toggles (hides) the right-hand side Details Pane.
 * **Guide** Link to the corresponding User Guide
 * **Download:** Downloads the selected item.
-* **View** Displays the content of the file, typically as plain text or rendered html, depending on filetype.
+* **View** Displays the contents of the file. Depending on the file type, the contents might be displayed as rendered HTML, plain text, a table (CSV and TSV files), or in a tree viewer.
 * **Delete** Deletes the file.
 * **Rename** Allows renaming of the file.
 * **Copy:** Copies the selected items to the clipboard.

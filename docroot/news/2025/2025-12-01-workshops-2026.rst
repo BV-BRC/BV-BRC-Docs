@@ -1,5 +1,8 @@
-BV-BRC Bioinformatics Workshops – 2025
+BV-BRC Bioinformatics Workshops – 2026
 ======================================
+.. image:: ../images/2024/workshop.jpg
+   :width: 500
+   :alt: BV-BRC May Workshop
 
 The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team is excited to announce two upcoming Bioinformatics Workshops in 2025. Each workshop will show researchers how to analyze and explore bacterial and viral pathogen data using the BV-BRC website and command-line tools, with hands-on examples across bacterial and viral workflows.
 
@@ -12,9 +15,9 @@ Workshop 1: J. Craig Venter Institute (JCVI)
 ============================================
 
 **Register Here:**  
-`BV-BRC Workshop at JCVI 2026 Registration – Fill out form <https://>`_
+`BV-BRC Workshop at JCVI 2026 Registration <https://forms.office.com/Pages/ResponsePage.aspx?id=8WfZJNg-SES6plYOxXKss8gM98-9jH9MgRdwq7CpaB5UQVVERVZPTDBYTEtDSlVOOVk2WFJXWU1GNi4u>`_
 
-**Dates:** March 2–6, 2025  
+**Dates:** March 2–6, 2026  
 **Location:** La Jolla, California (San Diego County)
 
 Workshop Structure
@@ -68,7 +71,7 @@ Workshop 2: Chicago / Argonne National Laboratory
 `Argonne Visitor Registration <https://apps.anl.gov/registration/visitors>`_  
 Use **lhundley@anl.gov** as the sponsor email; she will receive your information and process your registration.
 
-**Dates:** June 1–5, 2025  
+**Dates:** June 1–5, 2026  
 **Location:** Lemont, Illinois (Chicago area)
 
 Workshop Structure
@@ -77,12 +80,11 @@ Workshop Structure
 **Bacterial Component**  
 *June 1 (Monday) – June 2 (Tuesday)*  
 Focus:
-
 - Antimicrobial resistance exploration  
 - Genomic and comparative genomics  
 - Metagenomic and transcriptomic workflows  
 
-**Command-Line Session**  
+**Command-Line and AI Copilot Session**  
 *June 3 (Wednesday)*  
 Focus:
 
@@ -117,7 +119,7 @@ REGISTRATION
 ============
 
 - **JCVI Workshop:**  
-  `BV-BRC Workshop at JCVI 2026 Registration – Fill out form <https://>`_
+ `BV-BRC Workshop at JCVI 2026 <https://forms.office.com/Pages/ResponsePage.aspx?id=8WfZJNg-SES6plYOxXKss8gM98-9jH9MgRdwq7CpaB5UQVVERVZPTDBYTEtDSlVOOVk2WFJXWU1GNi4u>`_
 
 - **Chicago Workshop:**  
   `Argonne Visitor Registration <https://apps.anl.gov/registration/visitors>`_  

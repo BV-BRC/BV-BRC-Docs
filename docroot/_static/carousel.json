@@ -1,5 +1,11 @@
 [
     {
+        "title": "Workshops 2026",
+        "desc": "Register now for BV-BRC 2026 workshops in March or June.",
+        "img": "https://www.bv-brc.org/docs/_images/workshop.jpg",
+        "link": "https://www.bv-brc.org/docs/news/2025/2025-12-01-workshops-2026.html"
+    },
+    {
         "title": "Tools for Tomorrow Infectious Disease Webinar Series",
         "desc": "Sign up now for our monthly cross BRC Webinar Series to hear updates from each BRC.",
         "img": "https://www.bv-brc.org/docs/_images/tools_for_tomorrow_registration.png",
@@ -10,12 +16,6 @@
         "desc": "Join us for a three-day hands-on AI Codeathon uniting experts to tackle critical challenges in infectious disease research using artificial intelligence (AI) and large language models (LLMs).",
         "img": "https://www.bv-brc.org/patric/images/bv-brc/brc-niaid-ai-codeathon.png",
         "link": "https://www.bv-brc.org/brc-niaid-ai-codeathon-2025"
-    },
-    {
-        "title": "BV-BRC August 2025 Updates",
-        "desc": "Check out the recent updates from the BV-BRC team. Read more about our AI Copilot and new services here.",
-        "img": "https://www.bv-brc.org/docs/_images/logo-bvbrc.png",
-        "link": "https://www.bv-brc.org/docs/news/2025/2025-08-12-august-2025-release.html"
     },
     {
         "title": "BV-BRC Quick Start Guides",
@@ -29,11 +29,5 @@
         "img": "https://www.bv-brc.org/docs/_images/MOOC_Logo_3.png",
         "link": "https://www.bv-brc.org/docs/news/2023/bacterial-bioinformatics-mooc-course.html"
     },
-    {
-        "title": "BV-BRC Renewal",
-        "desc": "The BV-BRC will continue to be supported by NIAID under Award Number U24Al183849. We will continue to support all of the current datasets and tools along with existing (and new) user workspaces. Additional enhancements to our data and tools will also be coming in future updates.",
-        "img": "",
-        "link": "https://bv-brc.org/docs/news/2024/2024-08-23-bv-brc-renewal.html"
-    }
 ]
 

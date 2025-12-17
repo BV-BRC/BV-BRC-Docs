@@ -10,11 +10,13 @@ BV-BRC FTP Site: Transition from Unencrypted FTP to Encrypted FTP (FTPS) [Webpag
 The BV-BRC FTP site has long been a primary mechanism for distributing large-scale genomic and related datasets. To strengthen security and align with modern best practices, BV-BRC has transitioned from unencrypted FTP (ftp://ftp.bv-brc.org) to encrypted FTP (FTPS). This change ensures that data transfers between BV-BRC and its users are protected from interception or tampering.
 
 Why the Change Was Necessary
+
 * Security: Traditional FTP transmits usernames, passwords, and data in plain text, making it vulnerable to eavesdropping and unauthorized access.
 * Compliance: Many institutions (including the one hosting BV-BRC) and funding agencies now require encrypted transfer protocols for research data to meet cybersecurity and data protection standards.
 * Reliability: Modern clients and firewalls are increasingly dropping support for plain FTP, while encrypted FTPS remains widely supported and more robust.
 
 **What This Means for BV-BRC Users**
+
 * The BV-BRC FTP server is still available at the same host: ftp.bv-brc.org,
 but connections must now use explicit FTPS (FTP over TLS/SSL).
 * Plain FTP connections (e.g., ftp://ftp.bv-brc.org) are no longer supported.
@@ -30,10 +32,12 @@ set ftp:ssl-protect-data true
 set ssl:verify-certificate no
  
 **Graphical FTP Clients**
+
 * **FileZilla:** Set protocol to FTP – File Transfer Protocol, and encryption to Require explicit FTP over TLS. 
 * **WinSCP / Cyberduck / Transmit:** Choose FTP with explicit TLS/SSL (FTPS).
 
-**Programmatic Access**
+Programmatic Access
+-------------------
 If you are using scripts or pipelines (e.g., wget or curl), you may need to switch to a client that supports FTPS or use lftp/curl --ftp-ssl options. Example:
 * curl --ssl-reqd --user anonymous:guest ftp://ftp.bv-brc.org/<path-to-file>
 * wget ftps://ftp.bv-brc.org/<path-to-file> or 

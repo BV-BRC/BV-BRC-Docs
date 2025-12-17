@@ -105,17 +105,10 @@ file type, say .PATRIC.faa or .PATRIC.features.tab, simply replace .fna with tha
    for i in `cat genome_list`; do wget -qN "ftp://ftp.bvbrc.org/genomes/$i/$i.fna";
    done
   
-
 Uploading/Downloading Data From Your Private Workspace using FTP Client
 -----------------------------------------------------------------------
 
 | You can use a FTP client to batch upload/download data to your private workspace.
-
-| Suggested clients:
-| `FileZilla <https://filezilla-project.org/>`_ (Windows, MacOS, & Linux)
-| `WinSCP <https://winscp.net/eng/index.php>`_ (Windows)
-| `Cyberduck <https://cyberduck.io/>`_ (MacOS & Windows)
-| `LFTP <https://lftp.yar.ru/>`_ (Linux)
 
   ::
   

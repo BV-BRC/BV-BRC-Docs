@@ -39,11 +39,13 @@ set ssl:verify-certificate no
 Programmatic Access
 -------------------
 If you are using scripts or pipelines (e.g., wget or curl), you may need to switch to a client that supports FTPS or use lftp/curl --ftp-ssl options. Example:
+
 * curl --ssl-reqd --user anonymous:guest ftp://ftp.bv-brc.org/<path-to-file>
 * wget ftps://ftp.bv-brc.org/<path-to-file> or 
 * wget --ftp-user=anonymous --ftp-password=guest --secure-protocol=auto ftps://ftp.bv-brc.org/<path-to-file> [Recommended]
 
 **Impact on Existing Workflows**
+
 * Old scripts using ftp:// without encryption will fail and must be updated to use FTPS.
 * Users behind institutional firewalls may need to ensure that outbound FTPS traffic is allowed.
 * The directory structure, file organization, and content remain unchanged -- only the connection method is different.

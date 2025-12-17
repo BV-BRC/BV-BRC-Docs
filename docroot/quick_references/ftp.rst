@@ -17,8 +17,7 @@ Why the Change Was Necessary
 
 **What This Means for BV-BRC Users**
 
-* The BV-BRC FTP server is still available at the same host: ftp.bv-brc.org,
-but connections must now use explicit FTPS (FTP over TLS/SSL).
+* The BV-BRC FTP server is still available at the same host: ftp.bv-brc.org, but connections must now use explicit FTPS (FTP over TLS/SSL).
 * Plain FTP connections (e.g., ftp://ftp.bv-brc.org) are no longer supported.
 
 **How to Access the BV-BRC FTP Site**

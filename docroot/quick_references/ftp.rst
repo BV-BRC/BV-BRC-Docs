@@ -115,6 +115,9 @@ Uploading/Downloading Data From Your Private Workspace using FTP Client
     User name: your BV-BRC user name
     Password: your BV-BRC password
   
+**Support**
+
+If you experience issues updating your workflows or clients to support FTPS, please consult the BV-BRC help documentation or contact help@bv-brc.org for assistance.
 
   
   

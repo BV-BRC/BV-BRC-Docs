@@ -2,13 +2,13 @@
 #### [Made by Anna Capria with Scribe](https://scribehow.com/shared/Analyzing_Viral_Genome_Assembly_Using_BV-BRC_Tools_Tutorial__A-fXajgCQi-bD-Wzs4rmXw)
 
 
-#### Viral Genome Assembly Service
+## Viral Genome Assembly Service
 
 
 Alert: Beta Version: 13 February 2025
 
 
-#### Overview
+### Overview
 
 
 1\. The Viral Genome Assembly Service allows users to assemble viral genomes utilzing IRMA(1)(currently the BV-BRC tool supports Influenza). Once the assembly process has started by clicking the Assemble button, the genome is queued as a "job" for the Assembly Service to process, and will increment the count in the Jobs information box on the bottom right of the page. Once the assembly job has successfully completed, the output file will appear in the workspace.\
@@ -19,8 +19,54 @@ De novo sequence assemblers are a type of program that assembles short nucleotid
 
 What follows is a tutorial showing how to submit reads for assembly and selecting parameters for the assembly algorithm.
 
+#### IRMA Modules in the Viral Assembly Service
+
 The BV-BRC Viral Genome Assembly service uses an open source, third-part bioinformatics program- IRMA developed by the CDC. IRMA provides a robust next-generation sequencing assembly solution that is adapted to the needs and characteristics of viral genomes. More information about IRMA (<https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3030-6>) can be found here IRMA  and <https://wonder.cdc.gov/amd/flu/irma/irma.html> pages.
 
+The Viral Assembly Service provides access to a set of pre-configured IRMA (Iterative Refinement Meta-Assembler) modules designed to support accurate viral genome assembly across a range of pathogens, sequencing platforms, and data qualities.
+
+Each module represents a tuned workflow with optimized parameters for specific use cases, including:
+
+Different viruses (e.g., influenza, coronaviruses, RSV, filoviruses)
+Sequencing technologies (e.g., Illumina, Oxford Nanopore, PacBio)
+Data conditions (e.g., low-quality reads, low coverage, minority variant detection)
+
+IRMA uses a reference-guided, iterative approach, repeatedly refining read alignments and consensus sequences to improve assembly accuracy and variant resolution.
+
+Rather than requiring users to configure parameters manually, these modules allow you to:
+
+Select the appropriate workflow for your dataset
+Generate high-quality consensus genomes
+Capture genomic variation, including low-frequency variants when needed
+
+Overall, IRMA modules enable reproducible, flexible viral genome assembly while simplifying analysis for users at all experience levels.
+
+IRMA module overview
+| **Option**             | **Covers**              | **Description**                                                           |
+| ---------------------- | ----------------------- | ------------------------------------------------------------------------- |
+| **FLU**                | Influenza A & B         | Standard influenza assembly workflow (default)                            |
+| **FLU AD**             | Influenza A, B, C, & D  | Broad influenza workflow supporting all types                             |
+| **FLU Alt**            | Influenza (alt config)  | Alternative parameters for difficult or atypical datasets                 |
+| **FLU Avian**          | Avian Influenza A       | Optimized for avian influenza strains                                     |
+| **FLU Avian Residual** | Avian residual reads    | Captures low-abundance or leftover avian influenza reads                  |
+| **FLU Fast**           | Influenza (fast mode)   | Faster runtime for high-quality datasets                                  |
+| **FLU Low QC**         | Influenza (low quality) | Designed for lower-quality or noisy sequencing data                       |
+| **FLU ONT**            | Oxford Nanopore data    | Optimized for ONT long-read sequencing                                    |
+| **FLU PacBio**         | PacBio data             | Optimized for PacBio long-read sequencing                                 |
+| **FLU PGM**            | Ion Torrent PGM         | Optimized for Ion Torrent sequencing data                                 |
+| **FLU Roche**          | Roche/454 data          | Legacy support for Roche/454 sequencing                                   |
+| **FLU Secondary**      | Post-assembly           | Secondary refinement after initial assembly                               |
+| **FLU Sensitive**      | Low-frequency variants  | Increased sensitivity for minor variant detection                         |
+| **FLU UTR**            | UTR recovery            | Improved recovery of 5′ and 3′ untranslated regions                       |
+| **CoV**                | SARS-CoV-2 & MERS-CoV   | Coronavirus assembly workflows                                            |
+| **RSV**                | RSV (A & B groups)      | Respiratory Syncytial Virus assembly                                      |
+| **Ebola**              | Filoviruses             | Zaire, Sudan, Bundibugyo, Reston, Taï Forest, Lloviu, and Marburg viruses |
+
+
+#### Reference Guided Viral Assembly
+
+Reference-Guided Assembly aligns sequencing reads to a known reference genome to reconstruct a consensus sequence. This approach is fast and effective for well-characterized viruses, enabling accurate genome recovery and variant detection when a suitable reference is available.
+Maps reads to a reference genome to reconstruct consensus sequences and call variants, providing efficient and accurate assembly for viruses with close reference sequences.
 
 Tip: See Also: [Viral Genome Assembly Service](https://bv-brc.org/app/ViralAssembly)
 

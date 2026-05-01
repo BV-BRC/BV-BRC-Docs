@@ -24,14 +24,17 @@ Agenda
 
 Rotating Schedule Across BRCs:
 
+* **June 12th 2026**
+BV-BRC: Viral Family Reference Trees. 
+
 * **May 8th 2026**
 PDN: Viralzone Presentation 
 
 * **April 10th 2026**
-Differential Gene Expression with BRC Analytics
+Differential Gene Expression with BRC Analytics `Recording <https://youtu.be/AS4odt66cSM>
 
 * **March 13th 2026**
- NCBI: Genbank and SRA Data Submission  - Special hour long session
+ NCBI: Genbank and SRA Data Submission  - Special hour long session `Recording <https://youtu.be/IFYQTkw7N9o?si=eyYqUEGtssQRdPSr>
 
 * **February 13th 2026**
 

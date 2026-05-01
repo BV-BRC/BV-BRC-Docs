@@ -8,7 +8,7 @@ The BV-BRC (Bacterial and Viral Bioinformatics Resource Center) team is excited 
 
 Both workshops include two separate components—a bacterial track and a viral track—and participants may register for one or both. Each event also includes time for command-line training and opportunities to try out our AI Copilot.
 
-Registration fills up quickly—register now to attend one of these workshops!
+Registration is closed for both workshops.
 
 
 Workshop 1: J. Craig Venter Institute (JCVI)
@@ -68,8 +68,7 @@ Workshop 2: Chicago / Argonne National Laboratory
 =================================================
 
 **Register Here:**  
-`Argonne Visitor Registration <https://apps.anl.gov/registration/visitors>`_  
-Use **lhundley@anl.gov** as the sponsor email; she will receive your information and process your registration.
+Registration is now closed.
 
 **Dates:** June 1–5, 2026  
 **Location:** Lemont, Illinois (Chicago area)
@@ -113,17 +112,6 @@ Building 240 Conference Center – Room 1416
 Argonne National Laboratory  
 9700 Cass Avenue  
 Lemont, IL 60439
-
-
-REGISTRATION
-============
-
-- **JCVI Workshop:**  
- `BV-BRC Workshop at JCVI 2026 <https://forms.office.com/Pages/ResponsePage.aspx?id=8WfZJNg-SES6plYOxXKss8gM98-9jH9MgRdwq7CpaB5UQVVERVZPTDBYTEtDSlVOOVk2WFJXWU1GNi4u>`_
-
-- **Chicago Workshop:**  
-  `Argonne Visitor Registration <https://apps.anl.gov/registration/visitors>`_  
-  Use **lhundley@anl.gov** as the sponsor email.
 
 
 FAQ

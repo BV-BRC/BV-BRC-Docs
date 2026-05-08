@@ -2,16 +2,16 @@ BV-BRC Quick Reference Guide
 
 # Mobile Element Detection Service 
 
-*Revised: April 9, 2026*
+*Revised: May 8, 2026*
 
 ## Overview
 The Mobile Element Detection service allows you to identify viruses and plasmids in nucleic acid datasets. The use cases for this pipeline are broad – from detecting novel viruses in complex wastewater samples, to identifying plasmids in isolate genomes. The core of the Mobile Element Detection service is [geNomad](https://portal.nersc.gov/genomad/index.html) which detects viruses and plasmids in assembled contigs. This pipeline can accept short reads or assembled contigs. If raw reads are provided, assembly can be carried out using any of the assembly methods in the [Genome Assembly Service](https://www.bv-brc.org/docs/tutorial/genome_assembly/assembly.html). The output of this pipeline is an assembled contigs file (if short reads are provided) and a tailored geNomad output which links identified viral and plasmid resources to BV-BRC databases. 
 
-A detailed description of the geNomad workflow is provided in the [Mobile Element Detection Service Tutorial](../../../tutorial/mobile_element/mobile_element.html).
+A detailed description of the geNomad workflow is provided in the [Mobile Element Detection Service Tutorial](https://www.bv-brc.org/docs/tutorial/mobile_element/mobile_element.html).
 
 ## See also
 * [Mobile Element Detection Service](https://www.bv-brc.org/app/MobileElementDetection)
-* [Mobile Element Detection Service Tutorial](../../../tutorial/mobile_element/mobile_element.html)
+* [Mobile Element Detection Service Tutorial](https://www.bv-brc.org/docs/tutorial/mobile_element/mobile_element.html)
 
 ## Using the Mobile Element Detection Service
 The **Mobile Element Detection** submenu option under the **Services** main menu (Metagenomics category) opens the service input form (*shown below*). *Note: You must be logged into BV-BRC to use this tool.*

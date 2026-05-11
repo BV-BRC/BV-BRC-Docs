@@ -55,7 +55,7 @@ Metagenomics Services
    services/taxonomic_classification_service.md
    services/metagenomic_binning_service.md
    services/metagenomic_read_mapping_service.md
-   services/mobile_element/mobile_element_services.md
+   services/mobile_element/mobile_element_service.md
 
 
 Transcriptomics Services

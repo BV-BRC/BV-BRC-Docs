@@ -27,6 +27,9 @@ Rotating Schedule Across BRCs:
 * **June 12th 2026**
 BV-BRC: Viral Family Reference Trees. 
 
+* **May 22nd 2026**
+SPECIAL Cross BRC Joint Hantavirus Outbreak Response Webinar
+
 * **May 8th 2026**
 PDN: Viralzone Presentation 
 

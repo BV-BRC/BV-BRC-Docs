@@ -1,6 +1,6 @@
 Hantavirus Outbreak 2026- Phylogenetic Analysis
 ======================================
-.. image:: ../images/2026/Hantavirus 2026 Outbreak.png
+.. image:: ../images/2026/Hantavirus_2026_Outbreak.png
    :width: 500
    :alt: BV-BRC Hanatvirus Outbreak News
 
@@ -32,21 +32,21 @@ Results
 -------
 Our results show that, based on phylogenetic analysis of complete segment sequences at the nucleotide level for Orthohantavirus andesense, the ANDV/Switzerland/Hu-3337/2026 isolate is most closely related to isolates NRC-3/18_06/01/1997 and NRC-4/18_06/01/2018, both originating from Argentina, and is unlikely to be the result of reassortment, since the phylogenetic placement of all three segments is essentially the same. All intermediate and final data is available at BV-BRC workspace `Hantavirus Outbreak 2026- Phylogenetic Analysis <https://www.bv-brc.org/workspace/acapria@bvbrc/Hantavirus%20Outbreak%202026-%20Phylogenetic%20Analysis>`_ These trees and their associated metadata can be reviewed in further detail, downloaded and analyzed as needed. Archeyoptryx, the BV-BRC tree viewing software, has many capabilities including coloring by metadata and changing the display. Users can review the features of Archeyoptryx in more detail `here <https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html>`_
 
-.. image:: ../images/2026/Hantavirdae Report 1.png
+.. image:: ../images/2026/Hantavirdae_Report_1.png
   :width: 500
   :alt: Maximum likelihood phylogeny for Orthohantavirus andesense large (L) segment.
 
-.. image:: ../images/2026/Hantavirdae Report 2.png
+.. image:: ../images/2026/Hantavirdae_Report_2.png
   :width: 500
   :alt: Maximum likelihood phylogeny for Orthohantavirus andesense large (L) segment zoomed.
 
 Maximum likelihood phylogeny for Orthohantavirus andesense large (L) segment. The entire phylogeny as well as the section bracketing ANDV/Switzerland/Hu-3337/2026 (in blue) is shown. Reference sequence NC_003468 is shown in pink.
 
-.. image:: ../images/2026/Hantavirdae Report 3.png
+.. image:: ../images/2026/Hantavirdae_Report_3.png
   :width: 500
   :alt: Maximum likelihood phylogeny for Orthohantavirus andesense medium (M) zoomed.
 
-.. image:: ../images/2026/Hantavirdae Report 4.png
+.. image:: ../images/2026/Hantavirdae_Report_4.png
   :width: 500
   :alt: Maximum likelihood phylogeny for Orthohantavirus andesense small (S) segment zoomed.
 Maximum likelihood phylogeny for Orthohantavirus andesense medium (M) and small (S) segments. Only the section bracketing ANDV/Switzerland/Hu-3337/2026 (in blue) is shown.

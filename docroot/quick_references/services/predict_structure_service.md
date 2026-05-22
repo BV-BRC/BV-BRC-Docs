@@ -70,17 +70,22 @@ RNA sequence(s) in FASTA format. Same engine support as DNA.
 
 Optional small-molecule ligands to co-fold with the proteins. Supported by Boltz-2, OpenFold 3, and Chai-1.
 
-### CCD codes
+The form provides one ligand input with a **Notation** selector — pick **CCD codes** or **SMILES strings** and enter one ligand per line. Each notation is validated as you type; the first invalid line is reported inline. Submit can only carry one notation at a time, so if you need both standard cofactors and a novel small molecule, pick the notation that matches your less-trivial entries (typically SMILES for the novel ones).
 
-A list of three-letter Chemical Component Dictionary codes, one per line — e.g. `ATP`, `NAD`, `HEM`. Glycans use their CCD codes here too (`NAG`, `MAN`, `BMA`); there is no separate glycan input. Validated in the form: each entry must be 1–3 alphanumeric characters.
-
-### SMILES Strings
-
-A list of SMILES strings for arbitrary small molecules not in the CCD (e.g. `CCO` for ethanol), one per line. The form runs live syntactic validation and surfaces the first invalid line.
+- **CCD codes** — three-letter Chemical Component Dictionary codes, e.g. `ATP`, `NAD`, `HEM`. Glycans use their CCD codes here too (`NAG`, `MAN`, `BMA`); there is no separate glycan input. Each entry must be 1–3 alphanumeric characters.
+- **SMILES strings** — arbitrary small molecules expressed as SMILES (e.g. `CCO` for ethanol). Live syntactic validation surfaces the first invalid line.
 
 ## Multiple Sequence Alignment
 
-A pre-computed MSA file. The three accepted formats are auto-converted to each tool's native format:
+The **MSA Source** selector controls how the multiple sequence alignment is supplied:
+
+| Source | What happens | When to use |
+|---|---|---|
+| **None** | No MSA is supplied. | Default. Works with Auto (which will pick ESMFold for single-protein, no-MSA inputs), ESMFold, and AlphaFold 2 (which generates its own MSA from BV-BRC's local databases). |
+| **Precomputed MSA from Workspace** | A workspace file selector appears; pick a pre-computed `.a3m`, `.sto`, or `.pqt` file. The service uses it as-is. | Required for Boltz-2, OpenFold 3, and Chai-1. Generate the MSA elsewhere (ColabFold's MMseqs2 server, JackHMMER, or the AlphaFold preprocessing pipeline) and upload the result to your workspace. |
+| **Use MSA Server or Service** | Reserved for a future BV-BRC MSA service. Not yet wired up. | Selecting this today displays a notice; switch back to *Precomputed MSA from Workspace* and upload a file. |
+
+Accepted formats for uploaded MSAs:
 
 | Extension | Format | Used by |
 |---|---|---|
@@ -88,9 +93,7 @@ A pre-computed MSA file. The three accepted formats are auto-converted to each t
 | `.sto` | Stockholm | Boltz, OpenFold, Chai (after conversion) |
 | `.pqt`, `.aligned.pqt` | Parquet (Chai-native) | Chai (no conversion) |
 
-**Required** for Boltz-2, OpenFold 3, and Chai-1 because BV-BRC policy disables outbound calls to external MSA servers. **Ignored** by ESMFold (single-sequence) and AlphaFold 2 (which builds its own MSA from BV-BRC's local databases).
-
-To generate an MSA outside BV-BRC, use ColabFold's MMseqs2 server, JackHMMER against UniRef, or the standard AlphaFold preprocessing pipeline.
+ESMFold ignores any MSA. AlphaFold 2 ignores uploaded MSAs and always builds its own from BV-BRC's local databases.
 
 ## Output
 
@@ -106,7 +109,7 @@ The workspace folder where the job will be created. Must already exist, or creat
 
 ### Job Name
 
-Identifier for this run. Used as the workspace object name. Pick something short and descriptive (e.g. `crambin-esmfold`).
+Identifier for this run. Used as the workspace object name. Pre-filled with `PredictStructure-<YYMMDD>-<HHMMSS>` so a fresh form always has a unique default; replace it with something descriptive (e.g. `crambin-esmfold`) when it helps.
 
 ## Output Results
 

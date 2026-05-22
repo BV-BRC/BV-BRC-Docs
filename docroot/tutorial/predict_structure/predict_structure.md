@@ -82,7 +82,7 @@ The fields are documented in detail in the [Quick Reference](/quick_references/s
 | **SMILES** | leave empty |
 | **MSA File** | leave empty |
 | **Output Folder** | click the folder selector, choose `tutorial-crambin` |
-| **Job Name** | `crambin-auto` |
+| **Job Name** | type `crambin-auto` (the field is pre-filled with `PredictStructure-<timestamp>` — overwrite it) |
 
 A submission creates a **job** with the name you enter. The job appears in your workspace as an object at `<Output Folder>/<Job Name>` — for this tutorial, `tutorial-crambin/crambin-auto`. That object holds all job-related info: parameters, status, logs, and the prediction results.
 

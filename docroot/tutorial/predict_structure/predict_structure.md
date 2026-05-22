@@ -35,7 +35,7 @@ For a deeper introduction to what the prediction is actually doing, see the Prot
 
 Open <https://alpha.bv-brc.org> in your browser. Click **Sign In** in the top-right corner.
 
-*(screenshot placeholder: BV-BRC landing page with Sign In highlighted)*
+![BV-BRC landing page with Sign In highlighted](./images/01_signin.png "BV-BRC landing page with Sign In highlighted")
 
 Sign in with your BV-BRC credentials.
 
@@ -57,7 +57,7 @@ In BV-BRC:
 
 The file appears in the folder once upload completes.
 
-*(screenshot placeholder: workspace folder with crambin.fasta uploaded)*
+![Workspace folder showing crambin.fasta uploaded](./images/02_workspace_upload.png "Workspace folder showing crambin.fasta uploaded")
 
 ## Step 3 — Open the Protein Structure Prediction service
 
@@ -67,7 +67,7 @@ Or go directly to: <https://alpha.bv-brc.org/app/PredictStructure>
 
 You should see the input form:
 
-*(screenshot placeholder: PredictStructure form, empty)*
+![Empty Protein Structure Prediction form](./images/03_form_empty.png "Empty Protein Structure Prediction form")
 
 The fields are documented in detail in the [Quick Reference](/quick_references/services/predict_structure_service). For this tutorial we'll fill in only the basics.
 
@@ -94,7 +94,7 @@ The *Result location* bar directly below the Job Name field previews this path a
 
 Click **Submit** at the bottom of the form. A confirmation toast appears in the lower-left and the new job shows up in **My Jobs** (top-right user menu).
 
-*(screenshot placeholder: job submission confirmation toast)*
+![Job submission confirmation toast](./images/04_submit_toast.png "Job submission confirmation toast")
 
 ## Step 6 — Wait
 
@@ -133,7 +133,7 @@ crambin-auto/
 
 Click `report.html` and choose **View** from the Action Bar. A 3D viewer opens (3Dmol.js) showing crambin folded into its characteristic small α/β fold, with three disulfide bridges visible if you toggle the **sticks** representation for cysteines.
 
-*(screenshot placeholder: 3Dmol.js view of crambin from report.html)*
+![3Dmol.js view of crambin from report.html with three disulfides visible](./images/05_crambin_3d.png "3Dmol.js view of crambin from report.html with three disulfides visible")
 
 ### Read the confidence
 
@@ -195,4 +195,5 @@ GPU partitions are shared. ESMFold jobs have low resource requests and usually s
 ## See also
 
 - [Quick Reference](/quick_references/services/predict_structure_service) — every form field documented
+- [Recipes](/tutorial/predict_structure/predict_structure_recipes) — patterns for multi-chain complexes, ligands, MSAs, reruns
 - [Protein Structure Prediction Service](https://bv-brc.org/app/PredictStructure) — open the form

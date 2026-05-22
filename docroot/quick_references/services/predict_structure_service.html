@@ -55,17 +55,18 @@
 <div id="sequence-input">
   <h3>Biomolecular Inputs</h3>
   <p>
-    Supply at least one of <b>Protein FASTA</b>, <b>DNA FASTA</b>, or
-    <b>RNA FASTA</b>. Files come from your workspace.
+    Supply at least one FASTA file with <b>Protein</b>, <b>DNA</b> or
+    <b>RNA</b> sequences. One file for sequence type, e.g. Protein.
+    Files come from your workspace.
   </p>
   <ul>
-    <li><b>Protein FASTA</b> &mdash; protein sequences. Multi-chain complexes:
+    <li><b>Protein</b> &mdash; protein sequences. Multi-chain complexes:
       include multiple records in one file (max 26 sequences and 10,000 total
       residues per job). Boltz also accepts a YAML manifest for full feature
       support.</li>
-    <li><b>DNA FASTA</b> &mdash; DNA sequences. Used as co-folding partners
+    <li><b>DNA</b> &mdash; DNA sequences. Used as co-folding partners
       with proteins. Supported by Boltz-2, OpenFold&nbsp;3, and Chai-1.</li>
-    <li><b>RNA FASTA</b> &mdash; RNA sequences. Same engine support as DNA.</li>
+    <li><b>RNA</b> &mdash; RNA sequences. Same engine support as DNA.</li>
   </ul>
   <p>
     ESMFold and AlphaFold&nbsp;2 ignore DNA/RNA inputs.

@@ -33,8 +33,8 @@ Choose the structure prediction engine. Leaving this at **Auto** lets the servic
 
 | `tool` value | Engine | Entity support | MSA handling |
 |---|---|---|---|
-| `auto` | (auto-select) | — | — |
-| `boltz` | Boltz-2 | protein, DNA, RNA, CCD ligand, SMILES | Upload required (BV-BRC policy) |
+| `auto` | (auto-select) | all | yes |
+| `boltz` | Boltz-2 | protein, DNA, RNA, CCD ligand, SMILES | Upload required |
 | `openfold` | OpenFold 3 | protein, DNA, RNA, CCD ligand, SMILES | Upload required |
 | `chai` | Chai-1 | protein, DNA, RNA, CCD ligand | Upload required |
 | `alphafold` | AlphaFold 2 | protein only | Built from BV-BRC's local databases |

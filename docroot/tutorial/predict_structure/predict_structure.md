@@ -182,7 +182,7 @@ CCD codes are 1–3 alphanumeric characters. Use `ATP`, not `ATPase`.
 
 ### `Boltz / OpenFold / Chai require an MSA`
 
-Production BV-BRC has external MSA servers disabled. Upload a pre-computed MSA (`.a3m`, `.sto`, or `.pqt`) or switch to **Auto** / **ESMFold**, which don't need one.
+Set **MSA Source** to *Precomputed MSA from Workspace* and upload an `.a3m`, `.sto`, or `.pqt` file, or set it to *Use MSA Server or Service* to have BV-BRC compute the MSA with ColabFold. **Auto** and **ESMFold** don't need an MSA at all.
 
 ### Job is queued for a long time
 

@@ -83,7 +83,7 @@ The **MSA Source** selector controls how the multiple sequence alignment is supp
 |---|---|---|
 | **None** | No MSA is supplied. | Default. Works with Auto (which will pick ESMFold for single-protein, no-MSA inputs), ESMFold, and AlphaFold 2 (which generates its own MSA from BV-BRC's local databases). |
 | **Precomputed MSA from Workspace** | A workspace file selector appears; pick a pre-computed `.a3m`, `.sto`, or `.pqt` file. The service uses it as-is. | Required for Boltz-2, OpenFold 3, and Chai-1. Generate the MSA elsewhere (ColabFold's MMseqs2 server, JackHMMER, or the AlphaFold preprocessing pipeline) and upload the result to your workspace. |
-| **Use MSA Server or Service** | Reserved for a future BV-BRC MSA service. Not yet wired up. | Selecting this today displays a notice; switch back to *Precomputed MSA from Workspace* and upload a file. |
+| **Use MSA Server or Service** | BV-BRC computes the MSA with ColabFold (MMseqs2 against UniRef + ColabFoldDB) and feeds it to the selected engine. | When you don't have a pre-computed MSA on hand and the selected tool needs one (Boltz, OpenFold, Chai). Adds 30 s – 3 min to the job. |
 
 Accepted formats for uploaded MSAs:
 

@@ -1,0 +1,140 @@
+<!--
+  Help fragments for the Protein Structure Prediction form (PredictStructure.html).
+  Loaded by p3/widget/app/AppBase.js#gethelp — each <div id="..."> matches an
+  infobutton's name="..." in the form template. Top-level only (the loader
+  iterates direct children of the parsed fragment).
+
+  This file is also a working draft of the section text destined for the
+  Sphinx-built page at docroot/quick_references/services/predict_structure_service.md.
+  Keep the two in sync until we collapse to a single source.
+-->
+
+<div id="overview">
+  <h3>Protein Structure Prediction</h3>
+  <p>
+    Predicts 3D biomolecular structures (proteins, complexes,
+    protein&ndash;DNA/RNA, protein&ndash;ligand) using
+    <b>Boltz-2</b>, <b>OpenFold&nbsp;3</b>, <b>Chai-1</b>,
+    <b>AlphaFold&nbsp;2</b>, or <b>ESMFold</b>.
+  </p>
+  <p>
+    The service unifies all five engines behind a single form. Choose <b>Auto</b>
+    if you don't have a strong preference &mdash; the back end picks the tool
+    that fits your inputs (e.g. <b>ESMFold</b> for a single protein with no MSA).
+  </p>
+  <p>
+    Confidence metrics (pLDDT, pTM, ipTM) and a normalized output layout are
+    produced regardless of the engine, so results stay comparable.
+  </p>
+</div>
+
+<div id="prediction-tool">
+  <h3>Prediction Tool</h3>
+  <p>The structure-prediction engine to run.</p>
+  <ul>
+    <li><b>Auto</b> &mdash; pick the engine that fits your inputs. Single
+      protein, no MSA &rarr; ESMFold. Multi-chain or with ligands &rarr; Boltz-2
+      (requires MSA).</li>
+    <li><b>Boltz-2</b> &mdash; co-folds proteins with DNA/RNA/ligands.
+      Requires an uploaded MSA.</li>
+    <li><b>OpenFold&nbsp;3</b> &mdash; open re-implementation of AlphaFold&nbsp;3
+      capabilities. Requires an MSA.</li>
+    <li><b>Chai-1</b> &mdash; another co-folding model with multimer and
+      ligand support. Requires an MSA.</li>
+    <li><b>AlphaFold&nbsp;2</b> &mdash; the classic monomer / multimer model.
+      Builds its own MSA from local databases.</li>
+    <li><b>ESMFold</b> &mdash; single-sequence protein prediction, no MSA.
+      Fast; lower accuracy on rare folds.</li>
+  </ul>
+  <p>
+    Tool comparison and a decision tree: see <i>Folding Tools Comparison</i>
+    in the project docs.
+  </p>
+</div>
+
+<div id="sequence-input">
+  <h3>Biomolecular Inputs</h3>
+  <p>
+    Supply at least one of <b>Protein FASTA</b>, <b>DNA FASTA</b>, or
+    <b>RNA FASTA</b>. Files come from your workspace.
+  </p>
+  <ul>
+    <li><b>Protein FASTA</b> &mdash; protein sequences. Multi-chain complexes:
+      include multiple records in one file (max 26 sequences and 10,000 total
+      residues per job). Boltz also accepts a YAML manifest for full feature
+      support.</li>
+    <li><b>DNA FASTA</b> &mdash; DNA sequences. Used as co-folding partners
+      with proteins. Supported by Boltz-2, OpenFold&nbsp;3, and Chai-1.</li>
+    <li><b>RNA FASTA</b> &mdash; RNA sequences. Same engine support as DNA.</li>
+  </ul>
+  <p>
+    ESMFold and AlphaFold&nbsp;2 ignore DNA/RNA inputs.
+  </p>
+</div>
+
+<div id="ligands">
+  <h3>Ligands</h3>
+  <p>
+    Optional small-molecule ligands to co-fold with the proteins. Supported by
+    Boltz-2 and Chai-1.
+  </p>
+  <ul>
+    <li><b>Ligands (CCD codes)</b> &mdash; one or more PDB Chemical Component
+      Dictionary codes (1&ndash;3 alphanumeric characters). One per line.
+      Examples: <code>ATP</code>, <code>NAD</code>, <code>NAG</code>.</li>
+    <li><b>SMILES Strings</b> &mdash; arbitrary small molecules expressed as
+      SMILES. One per line. The form does live syntactic validation and
+      surfaces the first invalid line.</li>
+  </ul>
+  <p>
+    Use CCD codes for standard cofactors and SMILES for novel compounds.
+    Engines that don't support ligands ignore them.
+  </p>
+</div>
+
+<div id="msa-options">
+  <h3>Multiple Sequence Alignment</h3>
+  <p>
+    A pre-computed MSA file (.a3m, .sto, .pqt) used as input by some engines.
+  </p>
+  <ul>
+    <li><b>Required</b> for Boltz-2, OpenFold&nbsp;3, and Chai-1 &mdash;
+      production BV-BRC does not run external MSA servers, so you must
+      upload one.</li>
+    <li><b>Optional</b> for Auto and ESMFold (ignored) and for AlphaFold&nbsp;2
+      (which builds its own MSA from local databases).</li>
+  </ul>
+  <p>
+    To generate an MSA outside BV-BRC, use ColabFold's MMseqs2 server, JackHMMER
+    against UniRef, or the standard AlphaFold preprocessing pipeline.
+  </p>
+</div>
+
+<div id="output">
+  <h3>Output</h3>
+  <p>
+    Every submission creates a <b>job</b> with the name you give it. A
+    workspace object named after the job is created inside the
+    <b>Output Folder</b> and holds all job-related information &mdash;
+    parameters, status, logs, and the prediction results themselves.
+  </p>
+  <p>
+    The full workspace path of the job object is shown in the
+    <i>Result location</i> bar below the two fields:
+  </p>
+  <pre style="background:#f5f5f5; padding:6px; border-left:3px solid #6e8baf; font-size:12px;">&lt;Output Folder&gt;/&lt;Job Name&gt;</pre>
+  <p>
+    <b>Output Folder</b> &mdash; an existing workspace folder. Defaults to your
+    current workspace location.
+  </p>
+  <p>
+    <b>Job Name</b> &mdash; identifier for this run. Used as the workspace
+    object name. Pick something short and descriptive
+    (e.g. <code>crambin-esmfold</code>).
+  </p>
+  <p>
+    After the job finishes, open the workspace object to inspect the predicted
+    structure, the confidence report, and the raw outputs. See the
+    <i>Output Results</i> section of the Quick Reference for the full layout.
+  </p>
+</div>

@@ -88,6 +88,8 @@ A submission creates a **job** with the name you enter. The job appears in your 
 
 The *Result location* bar directly below the Job Name field previews this path as you type. The form runs live validation; the **Submit** button enables once you have an Output Folder, a Job Name, at least one biomolecular input, and — for Boltz / OpenFold / Chai — an MSA file.
 
+![Form filled with example values showing the Result location preview](./images/03b_form_filled.png "Form filled with example values showing the Result location preview")
+
 > **Why `Auto`?** With only a protein and no MSA, the auto-selector picks **ESMFold** — it's the only engine that runs without an MSA on a single sequence (see the [tool selector decision tree](/quick_references/services/predict_structure_service#prediction-tool)). If you pick `boltz` or `chai` without uploading an MSA, the submission will fail with a policy error.
 
 ## Step 5 — Submit

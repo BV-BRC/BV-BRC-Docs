@@ -45,6 +45,7 @@ Protein Tools Services
    services/metacats.md
    services/proteome_comparison_service.md
    services/comparative_systems.md
+   services/predict_structure_service.md
 
 
 Metagenomics Services

@@ -192,7 +192,13 @@ GPU partitions are shared. ESMFold jobs have low resource requests and usually s
 
 ### Result viewer doesn't render
 
-`report.html` uses inline 3Dmol.js. If you have an ad-blocker or strict CSP browser extension, it may block the embedded script. Try a private window or disable extensions for `bv-brc.org`.
+`report.html` loads 3Dmol.js from `https://3dmol.org/build/3Dmol-min.js` (a CDN, not an embedded script). If the viewer appears blank:
+
+- **Network can't reach 3dmol.org** — check connectivity, corporate proxy / firewall rules, or a captive portal.
+- **Ad-blocker or content-script extension** is blocking the CDN — try a private/incognito window or disable extensions for the workspace domain.
+- **Strict Content-Security-Policy** in the browser is rejecting the script — open the developer console (Cmd-Opt-J / Ctrl-Shift-J) and look for `Refused to load the script` or `Blocked by CSP` errors.
+
+The underlying structure file (`predictions/rank_1.pdb`) still downloads and opens in PyMOL, ChimeraX, or any local viewer if you'd rather skip the embedded viewer entirely.
 
 ## See also
 

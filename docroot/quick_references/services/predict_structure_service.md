@@ -31,8 +31,9 @@ The form is organized as **Prediction Tool**, **Biomolecular Inputs**, **Ligands
 
 Choose the structure prediction engine. Leaving this at **Auto** lets the service pick the best available tool given your inputs.
 
-| `tool` value | Engine | Entity support | MSA handling |
-|---|---|---|---|
+
+| **Tool**  | **Model/Version** | **Entity support** | **MSA handling** |
+|:---|:---|---|---|
 | `auto` | (auto-select) | all | yes |
 | `boltz` | Boltz-2 | protein, DNA, RNA, CCD ligand, SMILES | Upload required |
 | `openfold` | OpenFold 3 | protein, DNA, RNA, CCD ligand, SMILES | Upload required |

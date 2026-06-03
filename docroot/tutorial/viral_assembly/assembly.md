@@ -5,7 +5,7 @@
 ## Viral Genome Assembly Service
 
 
-Alert: Beta Version: 13 February 2025
+Alert: Beta Version: Updated on 3 June 2026
 
 
 ### Overview
@@ -67,6 +67,8 @@ IRMA module overview
 
 Reference-Guided Assembly aligns sequencing reads to a known reference genome to reconstruct a consensus sequence. This approach is fast and effective for well-characterized viruses, enabling accurate genome recovery and variant detection when a suitable reference is available.
 Maps reads to a reference genome to reconstruct consensus sequences and call variants, providing efficient and accurate assembly for viruses with close reference sequences.
+
+The service whern using the FLU module and failing will automatically run the Low QC module in an effort to try to assemble your genome. 
 
 Tip: See Also: [Viral Genome Assembly Service](https://bv-brc.org/app/ViralAssembly)
 

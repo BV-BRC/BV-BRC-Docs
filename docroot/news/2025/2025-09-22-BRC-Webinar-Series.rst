@@ -23,21 +23,23 @@ Agenda
 ------------------------
 
 Rotating Schedule Across BRCs:
+* **July 10th 2026**
+BV-BRC Viral Family Level Phylogenetic
 
 * **June 12th 2026**
-BV-BRC: Viral Family Reference Trees. 
+Cross BRC Ebola Virus Update
 
 * **May 22nd 2026**
-SPECIAL Cross BRC Joint Hantavirus Outbreak Response Webinar
+SPECIAL Cross BRC Joint Hantavirus Outbreak Response Webinar `Recording <https://youtu.be/hOy9leoVu08>`_
 
 * **May 8th 2026**
 PDN: Viralzone Presentation 
 
 * **April 10th 2026**
-Differential Gene Expression with BRC Analytics `Recording <https://youtu.be/AS4odt66cSM>
+Differential Gene Expression with BRC Analytics `Recording <https://youtu.be/AS4odt66cSM>`_
 
 * **March 13th 2026**
- NCBI: Genbank and SRA Data Submission  - Special hour long session `Recording <https://youtu.be/IFYQTkw7N9o?si=eyYqUEGtssQRdPSr>
+ NCBI: Genbank and SRA Data Submission  - Special hour long session `Recording <https://youtu.be/IFYQTkw7N9o?si=eyYqUEGtssQRdPSr>`_
 
 * **February 13th 2026**
 

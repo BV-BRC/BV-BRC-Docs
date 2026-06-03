@@ -5,7 +5,7 @@
 ## Viral Genome Assembly Service
 
 
-Alert: Beta Version: 13 February 2025
+Alert: Beta Version: Updated on 3 June 2026
 
 
 ### Overview

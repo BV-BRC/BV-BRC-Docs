@@ -9,7 +9,7 @@ News and Announcements
    :description: BV-BRC News RSS feed
    :link: https://www.bv-brc.org/docs/
 
-   2026/2026-05-27-Ebola-Outbreak.rst
+   2026/2026-05-27-Ebola_Outbreak.rst
    2026/2026-05-15-Hantavirus-Outbreak.rst 
    2025/2025-12-01-workshops-2026.rst
    2025/2025-09-22-BRC-Webinar-Series.rst

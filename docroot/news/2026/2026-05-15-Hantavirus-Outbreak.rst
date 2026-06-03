@@ -28,6 +28,8 @@ Data
 -----
 Public 2026 Hantaviridae strains are available at `BV-BRC <https://www.bv-brc.org/view/Taxonomy/1980413#view_tab=genomes&filter=eq(collection_year,%222026%22)>`_
 
+The phylogeny data can be viewed on the phylogeny tab for `Hantaviridae <https://www.bv-brc.org/view/Taxonomy/1980413#view_tab=phylogenyVirus>`_
+
 Results
 -------
 Our results show that, based on phylogenetic analysis of complete segment sequences at the nucleotide level for Orthohantavirus andesense, the ANDV/Switzerland/Hu-3337/2026 isolate is most closely related to isolates NRC-3/18_06/01/1997 and NRC-4/18_06/01/2018, both originating from Argentina, and is unlikely to be the result of reassortment, since the phylogenetic placement of all three segments is essentially the same. All intermediate and final data is available at BV-BRC workspace `Hantavirus Outbreak 2026- Phylogenetic Analysis <https://www.bv-brc.org/workspace/acapria@bvbrc/Hantavirus%20Outbreak%202026-%20Phylogenetic%20Analysis>`_ These trees and their associated metadata can be reviewed in further detail, downloaded and analyzed as needed. Archeyoptryx, the BV-BRC tree viewing software, has many capabilities including coloring by metadata and changing the display. Users can review the features of Archeyoptryx in more detail `here <https://www.bv-brc.org/docs/quick_references/services/archaeopteryx.html>`_

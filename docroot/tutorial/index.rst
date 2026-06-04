@@ -43,6 +43,8 @@ Protein Tools
    proteome_comparison/proteome_comparison.md
    comparative_systems/comparative_systems.md
    docking/docking.md
+   predict_structure/predict_structure.md
+   predict_structure/predict_structure_recipes.md
 
 
 Metagenomics

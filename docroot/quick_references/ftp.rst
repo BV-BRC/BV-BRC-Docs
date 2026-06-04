@@ -25,10 +25,12 @@ You can connect using most modern FTP clients with FTPS support. Here are few ex
 
 **Command-Line Access using lftp**
 lftp -u anonymous,guest ftp.bv-brc.org              
+
 Within lftp, ensure that FTPS is enabled:
-set ftp:ssl-force true
-set ftp:ssl-protect-data true
-set ssl:verify-certificate no
+
+* set ftp:ssl-force true
+* set ftp:ssl-protect-data true
+* set ssl:verify-certificate no
  
 **Graphical FTP Clients**
 

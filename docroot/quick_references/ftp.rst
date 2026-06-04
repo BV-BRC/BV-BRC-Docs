@@ -115,7 +115,7 @@ file type, say .PATRIC.faa or .PATRIC.features.tab, simply replace .fna with tha
 
   ::
 
-   for i in `cat genome_list`; do wget -qN "ftps://ftp.bvbrc.org/genomes/$i/$i.fna"; done
+   for i in `cat genome_list`; do wget -qN "ftps://ftp.bv-brc.org/genomes/$i/$i.fna"; done
   
 Uploading/Downloading Data From Your Private Workspace using FTP Client
 -----------------------------------------------------------------------
@@ -124,7 +124,7 @@ Uploading/Downloading Data From Your Private Workspace using FTP Client
 
   ::
   
-    Host: workspace.patricbrc.org
+    Host: workspace.bv-brc.org
     User name: your BV-BRC user name
     Password: your BV-BRC password
   

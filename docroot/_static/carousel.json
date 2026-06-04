@@ -1,5 +1,17 @@
 [
     {
+        "title": "Ebola 2026- Phylogenetic Analysis",
+        "desc": "Review data and phylogenetic trees generated.",
+        "img": "https://www.bv-brc.org/api/content/images/news_announcements/ebola_2026_outbreak.png",
+        "link": "https://www.bv-brc.org/docs/news/2026/2026-05-27-Ebola_Outbreak.html"
+    },
+    {
+        "title": "Hantavirus 2026- Phylogenetic Analysis",
+        "desc": "Review data and phylogenetic trees generated.",
+        "img": "https://www.bv-brc.org/docs/_images/Hantavirus_2026_Outbreak.png",
+        "link": "https://www.bv-brc.org/docs/news/2026/2026-05-15-Hantavirus-Outbreak.html"
+    },
+    {
         "title": "Tools for Tomorrow Infectious Disease Webinar Series",
         "desc": "Sign up now for our monthly cross BRC Webinar Series to hear updates from each BRC.",
         "img": "https://www.bv-brc.org/docs/_images/tools_for_tomorrow_registration.png",
@@ -7,7 +19,7 @@
     },
     {
         "title": "AI Codeathon for Infectious Diseases",
-        "desc": "Join us for a three-day hands-on AI Codeathon uniting experts to tackle critical challenges in infectious disease research using artificial intelligence (AI) and large language models (LLMs).",
+        "desc": "Read about our past AI Codeathon",
         "img": "https://www.bv-brc.org/patric/images/bv-brc/brc-niaid-ai-codeathon.png",
         "link": "https://www.bv-brc.org/brc-niaid-ai-codeathon-2025"
     },

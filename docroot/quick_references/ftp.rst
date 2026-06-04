@@ -28,11 +28,9 @@ lftp -u anonymous,guest ftp.bv-brc.org
 
 Within lftp, ensure that FTPS is enabled:
 
-set ftp:ssl-force true
-
-set ftp:ssl-protect-data true
-
-set ssl:verify-certificate no
+* set ftp:ssl-force true
+* set ftp:ssl-protect-data true
+* set ssl:verify-certificate no
  
 **Graphical FTP Clients**
 

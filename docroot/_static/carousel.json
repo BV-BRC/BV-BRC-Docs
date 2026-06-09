@@ -1,5 +1,11 @@
 [
     {
+        "title": "NIAID-BRCs AI Codeathon 2.0",
+        "desc": "Register and learn more about our upcoming codeathon in September.",
+        "img": "https://www.bv-brc.org/docs/_images/ai_codeathon.png",
+        "link": "https://niaid-brc-codeathons.github.io/"
+    },
+    {
         "title": "Ebola 2026- Phylogenetic Analysis",
         "desc": "Review data and phylogenetic trees generated.",
         "img": "https://www.bv-brc.org/api/content/images/news_announcements/ebola_2026_outbreak.png",

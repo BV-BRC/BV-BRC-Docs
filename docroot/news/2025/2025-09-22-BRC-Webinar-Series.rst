@@ -23,12 +23,20 @@ Agenda
 ------------------------
 
 Rotating Schedule Across BRCs:
+* **September 11th 2026**
+CDC Pathogen Genomics Centers of Excellence: Special hour long session: to present their analytics tools
+
+* **September 11th 2026**
+PDN Presentation 
+
+* **August 14th 2026**
+BRC Analytics Cyclospora-related resources
 
 * **July 10th 2026**
-BV-BRC Viral Family Level Phylogenetic
+BV-BRC Viral Family Level Phylogenetic Trees `Recording <https://youtu.be/aUSZN2XJcy8>`_
 
 * **June 12th 2026**
-Cross BRC Ebola Virus Update
+Cross BRC Ebola Virus Update `Recording <https://youtu.be/69VnHLDoAMk>`_
 
 * **May 22nd 2026**
 SPECIAL Cross BRC Joint Hantavirus Outbreak Response Webinar `Recording <https://youtu.be/hOy9leoVu08>`_

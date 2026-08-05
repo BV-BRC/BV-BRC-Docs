@@ -154,6 +154,10 @@ The green action bar on the far right controls the active selection in the graph
 
 ## Graph Properties: Nodes
 
+* **`cnv_cluster_id`** *(Integer)*
+  * **Description:** An ID linking all nodes that belong to the same underlying paralogous gene family if they are present in an identical neighborhood (k-mer).
+  * **How it is created:** When gene families happen more than once in a genome in an identical neighborhood the algorithm separates them into multiple distinct nodes, it assigns them all the same ID to remember their shared biological signature. This can happen at a distance or in palindromic, contiguous gene families greater than size k.
+  
 * **`repeat_ambiguity`**
   * **Description:** True if a local Copy Number Variant (CNV) caused feature assignment ambiguity.
   * **How it is created:** When the algorithm detects a tandem duplication (a gene family repeating within a very short distance), for genomes with fewer copies there is ambiguity as to which instance of a gene should be assigned to which node depending on which alignment signal (anchor) is used. To preserve the full path of the genome with the most copies, the algorithm builds all of the side-by-side nodes for the repeated gene and applies this flag, noting that for the genomes with fewer CNVs there is an order-dependent assignment to the nodes.
@@ -167,7 +171,7 @@ The green action bar on the far right controls the active selection in the graph
   * **How it is created:** When the algorithm traces the sequence paths from stable genomic anchors, two different continuous paths from the same genome may attempt to force a feature into a single node in a way that violates logical sequence order. The algorithm detects this impossible routing collision and flags the node as the exact epicenter where the synteny broke.
 
 * **`assembly_repeat_break`**
-  * **Description:** True if contig ends from the same genome collapsed together here at a shared repeat.
+  * **Description:** True if contig ends from the same genome collapsed together at a shared repeat.
   * **How it is created:** Similar to a synteny breakpoint, but this triggers specifically when the conflicting paths both sit at the absolute terminal ends of broken contigs. Because the assembler shattered the DNA sequence and failed to provide flanking anchors to separate the copies, the algorithm is forced to collapse the ragged ends into a single node.
 
 * **`alternative_path`**
@@ -189,10 +193,6 @@ The green action bar on the far right controls the active selection in the graph
 * **`length`**
   * **Description:** The average/median nucleotide length of the features on the node.
   * **How it is created:** Calculated by taking the sum of the physical nucleotide lengths of all individual gene sequences assigned to the node, divided by the total number of features.
-
-* **`cnv_cluster_id`** *(Integer)*
-  * **Description:** An ID linking all nodes that belong to the same underlying paralogous gene family.
-  * **How it is created:** When repeats or ambiguities force the algorithm to split a single gene family across multiple distinct topological nodes, it assigns them all the same ID to remember their shared biological origin.
 
 * **`diversity`** *(Float)*
   * **Description:** A metric of the taxonomic diversity of the genomes present in this node.

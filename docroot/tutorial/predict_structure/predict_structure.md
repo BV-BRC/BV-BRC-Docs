@@ -17,8 +17,6 @@ This tutorial walks you through predicting the 3D structure of a small protein f
 
 You do **not** need a GPU, an MSA, or any local software. Everything happens on the BV-BRC servers.
 
-> **Running locally?** If you're running a local copy of the BV-BRC web UI, open `http://localhost:3000/app/PredictStructure` instead of the production URL below. The form, the workspace, and the result viewer behave identically — the job runs on the real BV-BRC backend either way.
-
 ## Background — what we're predicting
 
 Crambin is a hydrophobic 46-residue protein from the *Crambe abyssinica* seed. Its experimental structure (PDB ID `1CRN`) has been solved at near-atomic resolution, which means we have ground truth to compare against. The sequence:
@@ -33,7 +31,7 @@ For a deeper introduction to what the prediction is actually doing, see the Prot
 
 ## Step 1 — Sign in
 
-Open <https://alpha.bv-brc.org> in your browser. Click **Sign In** in the top-right corner.
+Open <https://www.bv-brc.org> in your browser. Click **Sign In** in the top-right corner.
 
 ![BV-BRC landing page with Sign In highlighted](./images/01_signin.png "BV-BRC landing page with Sign In highlighted")
 
@@ -63,7 +61,7 @@ The file appears in the folder once upload completes.
 
 From the main menu, choose **Services** → **Protein Tools** → **Protein Structure Prediction**.
 
-Or go directly to: <https://alpha.bv-brc.org/app/PredictStructure>
+Or go directly to: <https://www.bv-brc.org/app/PredictStructure>
 
 You should see the input form:
 

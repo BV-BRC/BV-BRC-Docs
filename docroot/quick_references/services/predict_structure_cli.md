@@ -1,6 +1,6 @@
 # PredictStructure CLI Reference
 
-The `predict-structure` command-line tool is the workhorse beneath the BV-BRC Protein Structure Prediction Service. It exposes the same five engines (Boltz-2, OpenFold 3, Chai-1, AlphaFold 2, ESMFold) through a single Click-based interface with shared global options and per-tool subcommands.
+The `predict-structure` command-line tool is the workhorse beneath the BV-BRC Protein Structure Prediction Service. It exposes six engines (Boltz-2, OpenFold 3, Chai-1, ESMFold, ESMFold2, and — explicit-only — AlphaFold 2) through a single Click-based interface with shared global options and per-tool subcommands.
 
 You can run it three ways:
 
@@ -52,7 +52,7 @@ predict-structure [GLOBAL_FLAGS] <TOOL> [TOOL_FLAGS] --protein <FASTA> -o <DIR>
 predict-structure --job jobs.yaml -o <DIR>
 ```
 
-Where `<TOOL>` is one of `auto`, `boltz`, `openfold`, `chai`, `alphafold`, or `esmfold`. The CLI uses `click.group()`, so `predict-structure <tool> --help` shows the per-tool flag set.
+Where `<TOOL>` is one of `auto`, `boltz`, `openfold`, `chai`, `esmfold`, `esmfold2`, or `alphafold` (never chosen by `auto`; see below). The CLI uses `click.group()`, so `predict-structure <tool> --help` shows the per-tool flag set.
 
 ## Entity flags (inputs)
 
@@ -161,6 +161,18 @@ predict-structure esmfold --protein input.fasta -o output/ --fp16 --device cpu
 | `--chunk-size` | int | (none) | Chunk size for long sequences |
 | `--max-tokens-per-batch` | int | (none) | Max tokens per batch |
 
+### `esmfold2` — ESMFold2
+
+```bash
+predict-structure esmfold2 --protein input.fasta -o output/ --msa alignment.a3m
+```
+
+| Flag | Type | Default | Description |
+|---|---|---|---|
+| `--msa` | path | (none) | Optional uploaded `.a3m`; improves accuracy on hard targets. The MSA **server** is not available for ESMFold2. |
+
+ESMFold2 accepts protein, DNA, RNA, CCD ligands, and SMILES in one complex. Subprocess backend only. GPU (H200) required.
+
 ## Auto subcommand
 
 `predict-structure auto --protein input.fasta -o output/` runs the auto-selector. The selection algorithm:
@@ -168,17 +180,15 @@ predict-structure esmfold --protein input.fasta -o output/ --fp16 --device cpu
 ```
 if device == cpu and only protein:
     → ESMFold
-for tool in [boltz, openfold, chai, esmfold, alphafold]:
-    if tool in {alphafold, esmfold} and any non-protein entity:
-        skip
-    if tool in {boltz, openfold, chai} and protein and no MSA:
-        skip   # diffusion tools need real MSA; dummy single-sequence MSA produces unusable output
-    if tool == alphafold and AF database dir missing:
-        skip
+for tool in [boltz, openfold, chai, esmfold]:      # AlphaFold 2 is retired from auto (#90)
     if tool not installed:
         skip
+    if tool does not support the requested entity types:
+        skip
+    if tool in {boltz, openfold, chai} and protein and no MSA:
+        skip   # diffusion tools need a real MSA; a dummy single-sequence MSA produces unusable output
     return tool
-raise: no prediction tool found
+raise: no suitable tool  # names the reason: missing MSA vs unsupported inputs vs nothing installed
 ```
 
 ## Batch jobs (`--job`)
@@ -225,14 +235,14 @@ Each job lands in `output/job_000/`, `output/job_001/`, … Job manifest schema:
 
 The unified flags are mapped to each tool's native option name internally:
 
-| Shared flag | Boltz-2 | OpenFold 3 | Chai-1 | AlphaFold 2 | ESMFold |
-|---|---|---|---|---|---|
-| `--output-dir` | `--out_dir` | `--output_dir` | positional | `--output_dir` | `-o` |
-| `--num-samples` | `--diffusion_samples` | `--num_diffusion_samples` | `--num-diffn-samples` | (N/A) | (N/A) |
-| `--num-recycles` | `--recycling_steps` | `--num_recycles` | `--num-trunk-recycles` | implicit | `--num-recycles` |
-| `--seed` | (N/A) | `--seed` | `--seed` | `--random_seed` | (N/A) |
-| `--device` | `--accelerator` | `--device` | `--device` | implicit | `--cpu-only` |
-| `--msa` | injected into Boltz YAML `msa:` | JSON `main_msa_file_paths` | A3M → Parquet converted | (uses local DBs) | ignored |
+| Shared flag | Boltz-2 | OpenFold 3 | Chai-1 | AlphaFold 2 (explicit-only) | ESMFold | ESMFold2 |
+|---|---|---|---|---|---|---|
+| `--output-dir` | `--out_dir` | `--output_dir` | positional | `--output_dir` | `-o` | `--output-dir` |
+| `--num-samples` | `--diffusion_samples` | `--num_diffusion_samples` | `--num-diffn-samples` | (N/A) | (N/A) | `--num-diffusion-samples` |
+| `--num-recycles` | `--recycling_steps` | `--num_recycles` | `--num-trunk-recycles` | implicit | `--num-recycles` | `--num-loops` |
+| `--seed` | (N/A) | `--seed` | `--seed` | `--random_seed` | (N/A) | `--seed` |
+| `--device` | `--accelerator` | `--device` | `--device` | implicit | `--cpu-only` | `--cpu-only` |
+| `--msa` | injected into Boltz YAML `msa:` | JSON `main_msa_file_paths` | A3M → Parquet converted | (uses local DBs) | ignored | `.a3m` attached per chain |
 
 ## Examples
 

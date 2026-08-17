@@ -235,14 +235,14 @@ Each job lands in `output/job_000/`, `output/job_001/`, … Job manifest schema:
 
 The unified flags are mapped to each tool's native option name internally:
 
-| Shared flag | Boltz-2 | OpenFold 3 | Chai-1 | AlphaFold 2 (explicit-only) | ESMFold |
-|---|---|---|---|---|---|
-| `--output-dir` | `--out_dir` | `--output_dir` | positional | `--output_dir` | `-o` |
-| `--num-samples` | `--diffusion_samples` | `--num_diffusion_samples` | `--num-diffn-samples` | (N/A) | (N/A) |
-| `--num-recycles` | `--recycling_steps` | `--num_recycles` | `--num-trunk-recycles` | implicit | `--num-recycles` |
-| `--seed` | (N/A) | `--seed` | `--seed` | `--random_seed` | (N/A) |
-| `--device` | `--accelerator` | `--device` | `--device` | implicit | `--cpu-only` |
-| `--msa` | injected into Boltz YAML `msa:` | JSON `main_msa_file_paths` | A3M → Parquet converted | (uses local DBs) | ignored |
+| Shared flag | Boltz-2 | OpenFold 3 | Chai-1 | AlphaFold 2 (explicit-only) | ESMFold | ESMFold2 |
+|---|---|---|---|---|---|---|
+| `--output-dir` | `--out_dir` | `--output_dir` | positional | `--output_dir` | `-o` | `--output-dir` |
+| `--num-samples` | `--diffusion_samples` | `--num_diffusion_samples` | `--num-diffn-samples` | (N/A) | (N/A) | `--num-diffusion-samples` |
+| `--num-recycles` | `--recycling_steps` | `--num_recycles` | `--num-trunk-recycles` | implicit | `--num-recycles` | `--num-loops` |
+| `--seed` | (N/A) | `--seed` | `--seed` | `--random_seed` | (N/A) | `--seed` |
+| `--device` | `--accelerator` | `--device` | `--device` | implicit | `--cpu-only` | `--cpu-only` |
+| `--msa` | injected into Boltz YAML `msa:` | JSON `main_msa_file_paths` | A3M → Parquet converted | (uses local DBs) | ignored | `.a3m` attached per chain |
 
 ## Examples
 

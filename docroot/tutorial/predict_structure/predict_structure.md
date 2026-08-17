@@ -88,7 +88,7 @@ The *Result location* bar directly below the Job Name field previews this path a
 
 ![Form filled with example values showing the Result location preview](./images/03b_form_filled.png "Form filled with example values showing the Result location preview")
 
-> **Why `Auto`?** With only a protein and no MSA, the auto-selector picks **ESMFold** — it's the only engine that runs without an MSA on a single sequence (see the [tool selector decision tree](/quick_references/services/predict_structure_service#prediction-tool)). If you pick `boltz` or `chai` without uploading an MSA, the submission will fail with a policy error.
+> **Why `Auto`?** With only a protein and no uploaded MSA, the service automatically computes one with ColabFold and the auto-selector picks **Boltz** (see the [tool selector decision tree](/quick_references/services/predict_structure_service#prediction-tool)). Picking `boltz`, `openfold`, or `chai` without an uploaded MSA works the same way — the MSA is computed for you, adding roughly 30 s – 3 min. For the fastest single-protein result, pick `esmfold` or `esmfold2` directly.
 
 ## Step 5 — Submit
 

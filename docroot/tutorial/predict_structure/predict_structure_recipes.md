@@ -22,7 +22,7 @@ For the full reference of every form field see the [Quick Reference Guide](/quic
 
 **Inputs:** one FASTA file with multiple `>` records — each record becomes one chain. Soft limit: 26 chains and 10,000 total residues per job.
 
-**This applies to DNA and RNA too, not just protein.** The form's separate **Protein**, **DNA**, and **RNA** inputs all follow the same rule: a multi-record FASTA in any of them contributes one chain per record, and the chains from all three inputs are folded together as one complex. So a protein–DNA assembly is simply a protein FASTA in the Protein field plus a (possibly multi-record) DNA FASTA in the DNA field — for example, a transcription factor with a double-stranded binding site is one protein record plus two DNA records (one per strand). The 26-chain / 10,000-residue limits count all chains from all three inputs combined. DNA/RNA chains are supported by Boltz, OpenFold 3, and Chai-1 (not ESMFold or AlphaFold 2).
+**This applies to DNA and RNA too, not just protein.** The form's separate **Protein**, **DNA**, and **RNA** inputs all follow the same rule: a multi-record FASTA in any of them contributes one chain per record, and the chains from all three inputs are folded together as one complex. So a protein–DNA assembly is simply a protein FASTA in the Protein field plus a (possibly multi-record) DNA FASTA in the DNA field — for example, a transcription factor with a double-stranded binding site is one protein record plus two DNA records (one per strand). The 26-chain / 10,000-residue limits count all chains from all three inputs combined. DNA/RNA chains are supported by Boltz, OpenFold 3, Chai-1, and ESMFold2 (not ESMFold or AlphaFold 2).
 
 ```
 >heavy_chain
@@ -41,7 +41,7 @@ DIQMTQSPSSLSASVGDRVTITCRASQDIS...
 | Other inputs | leave empty |
 | Job Name | something descriptive — e.g. `antibody-fv-boltz` |
 
-**Why Boltz for complexes?** Boltz, OpenFold 3, and Chai-1 are all AF3-class diffusion models with strong multimer performance. Boltz is the auto-selector's first choice when an MSA is available; OpenFold and Chai are reasonable swaps if you want to compare. ESMFold2 also folds complexes (protein, DNA, RNA, ligands) and is the fastest option — typically about a minute — at some accuracy cost on hard targets unless you supply an MSA.
+**Why Boltz for complexes?** Boltz, OpenFold 3, and Chai-1 are all AF3-class diffusion models with strong multimer performance. Boltz is the auto-selector's first choice when an MSA is available; OpenFold and Chai are reasonable swaps if you want to compare. ESMFold2 also folds complexes (protein, DNA, RNA, ligands) and is the fastest option — typically a few minutes — at some accuracy cost on hard targets unless you supply an MSA.
 
 ## Recipe 2 — Protein with a cofactor (CCD code)
 
@@ -109,7 +109,7 @@ The service runs MMseqs2 against UniRef + ColabFoldDB and feeds the result to th
 
 | Field | Value |
 |---|---|
-| Prediction Tool | `Boltz` (default), or `OpenFold` / `Chai` to compare |
+| Prediction Tool | `Boltz` (default), `OpenFold` / `Chai` to compare, or `ESMFold2` (accepts `.a3m` uploads only) |
 | Protein | the query FASTA matching the MSA's first sequence |
 | MSA Source | **Precomputed MSA from Workspace** |
 | MSA File | the uploaded `.a3m` / `.sto` / `.pqt` file |

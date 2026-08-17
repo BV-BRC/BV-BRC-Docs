@@ -122,12 +122,12 @@ The `values` object mirrors the basic app spec in [`app_specs/PredictStructure.j
 |---|---|---|---|
 | `tool` | enum | yes | `auto` \| `boltz` \| `openfold` \| `chai` \| `esmfold` \| `esmfold2` \| `alphafold` (explicit-only; never auto-selected) |
 | `input_file` | wsfile (`ws://...`) | conditional | Protein FASTA. Required unless DNA / RNA / ligand / SMILES / `text_input` is given |
-| `dna_file` | wsfile | no | DNA FASTA (Boltz / OpenFold / Chai only) |
-| `rna_file` | wsfile | no | RNA FASTA (Boltz / OpenFold / Chai only) |
-| `ligand` | array of string | no | CCD codes, each 1–3 alphanumeric chars (e.g. `["ATP", "NAG"]`) |
+| `dna_file` | wsfile | no | DNA FASTA (Boltz / OpenFold / Chai / ESMFold2) |
+| `rna_file` | wsfile | no | RNA FASTA (Boltz / OpenFold / Chai / ESMFold2) |
+| `ligand` | array of string | no | CCD codes, each 1–3 or 5 alphanumeric chars (e.g. `["ATP", "NAG", "A1H1F"]`). Rejected by Chai — use `smiles` there |
 | `smiles` | array of string | no | SMILES strings |
-| `text_input` | array of object | no | Inline sequences: `{ "sequence": "...", "type": "auto|protein|dna|rna" }`. Lets clients submit without a workspace file |
-| `msa_file` | wsfile | conditional | Pre-computed MSA (`.a3m`, `.sto`, `.pqt`). Required for Boltz / OpenFold / Chai unless `use_msa_server` is set; in that case BV-BRC computes the MSA with ColabFold |
+| `text_input` | array of object | no | Inline sequences: `{ "sequence": "...", "type": "auto\|protein\|dna\|rna" }`. Lets clients submit without a workspace file |
+| `msa_file` | wsfile | no | Pre-computed MSA (`.a3m`, `.sto`, `.pqt`; ESMFold2 accepts `.a3m` only). If omitted, BV-BRC automatically computes one with ColabFold for Boltz / OpenFold / Chai; ESMFold and ESMFold2 then fold single-sequence |
 | `debug` | boolean | no | Verbose service-side logging (sets `P3_DEBUG=1`) |
 | `output_path` | folder (`ws://...`) | yes | Workspace folder where the job result directory will be created |
 | `output_file` | string | yes | Job result name; results land at `${output_path}/.${output_file}/` |
@@ -157,7 +157,7 @@ Even though the schema accepts any combination, the Perl preflight will reject c
 |---|:-:|:-:|:-:|:-:|:-:|
 | `boltz` | ✓ | ✓ | ✓ | ✓ | ✓ |
 | `openfold` | ✓ | ✓ | ✓ | ✓ | ✓ |
-| `chai` | ✓ | ✓ | ✓ | — | ✓ |
+| `chai` | ✓ | ✓ | — | ✓ | ✓ |
 | `esmfold2` | ✓ | ✓ | ✓ | ✓ | optional `.a3m` upload (no MSA server) |
 | `alphafold` (explicit-only) | — | — | — | — | (built locally) |
 | `esmfold` | — | — | — | — | — |
@@ -166,7 +166,7 @@ Even though the schema accepts any combination, the Perl preflight will reject c
 Submitting `{ "tool": "alphafold", "dna_file": "ws://..." }` returns:
 
 ```
-error: AlphaFold 2 does not support dna input (it supports protein only). Use Boltz-2, Chai-1, ESMFold2, or OpenFold 3, which support dna.
+error: AlphaFold 2 does not support dna input (it supports protein only). Use Boltz-2, Chai-1, ESMFold2, and OpenFold 3, which support dna. Otherwise remove the dna input to run AlphaFold 2.
 ```
 
 ## Start parameters

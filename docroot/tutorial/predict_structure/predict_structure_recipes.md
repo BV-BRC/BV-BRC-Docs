@@ -22,6 +22,8 @@ For the full reference of every form field see the [Quick Reference Guide](/quic
 
 **Inputs:** one FASTA file with multiple `>` records — each record becomes one chain. Soft limit: 26 chains and 10,000 total residues per job.
 
+**This applies to DNA and RNA too, not just protein.** The form's separate **Protein**, **DNA**, and **RNA** inputs all follow the same rule: a multi-record FASTA in any of them contributes one chain per record, and the chains from all three inputs are folded together as one complex. So a protein–DNA assembly is simply a protein FASTA in the Protein field plus a (possibly multi-record) DNA FASTA in the DNA field — for example, a transcription factor with a double-stranded binding site is one protein record plus two DNA records (one per strand). The 26-chain / 10,000-residue limits count all chains from all three inputs combined. DNA/RNA chains are supported by Boltz, OpenFold 3, and Chai-1 (not ESMFold or AlphaFold 2).
+
 ```
 >heavy_chain
 QVQLVQSGAEVKKPGASVKVSCKASGYTFT...

@@ -11,6 +11,7 @@ The Protein Structure Prediction Service predicts the 3D atomic structure of pro
 | **Chai-1** | Diffusion (AF3-class) | Multi-chain protein complexes, ligands by CCD code |
 | **AlphaFold 2** | Co-evolutionary (MSA + Evoformer) | High-accuracy monomer / multimer when MSA is rich |
 | **ESMFold** | Single-sequence (protein language model) | Fast, CPU-capable monomers; orphan / designed sequences |
+| **ESMFold2** | Diffusion (protein-LM encoder, all-atom) | Protein / nucleic-acid / ligand complexes; fast; optional MSA for hard targets |
 
 The service picks the best available engine automatically when `Prediction Tool` is left at **Auto**, or you can pin a specific one. Parameter mapping, format conversion (FASTA → YAML / JSON, mmCIF → PDB, A3M → Parquet), and confidence normalization are handled for you. The output is a ranked set of structures plus a unified confidence report.
 
@@ -37,17 +38,18 @@ Choose the structure prediction engine. Leaving this at **Auto** lets the servic
 | `auto` | (auto-select) | all | yes |
 | `boltz` | Boltz-2 | protein, DNA, RNA, CCD ligand, SMILES | Upload required |
 | `openfold` | OpenFold 3 | protein, DNA, RNA, CCD ligand, SMILES | Upload required |
-| `chai` | Chai-1 | protein, DNA, RNA, CCD ligand | Upload required |
-| `alphafold` | AlphaFold 2 | protein only | Built from BV-BRC's local databases |
+| `chai` | Chai-1 | protein, DNA, RNA, SMILES ligand (CCD codes rejected — use SMILES, or Boltz/OpenFold) | Upload required |
+| `alphafold` | AlphaFold 2 (API/CLI only — not offered in the submission form; never auto-selected) | protein only | Built from BV-BRC's local databases |
 | `esmfold` | ESMFold | protein only | None (single-sequence) |
+| `esmfold2` | ESMFold2 | protein, DNA, RNA, CCD ligand, SMILES | Optional `.a3m` upload; MSA server not available |
 
-**Auto-select priority** (when `tool = auto`): Boltz → OpenFold → Chai → ESMFold → AlphaFold. The selector inspects your other inputs and falls back as follows:
+**Auto-select priority** (when `tool = auto`): Boltz → OpenFold → Chai → ESMFold. AlphaFold 2 is retired from automatic selection and runs only when named explicitly (API/CLI). The selector inspects your other inputs and falls back as follows:
 
 | Protein | DNA / RNA / ligand / SMILES | MSA File | → Auto picks |
 |:-:|:-:|:-:|---|
-| ✓ | — | — | ESMFold (fast single-sequence); AlphaFold if ESMFold is unavailable |
-| ✓ | — | ✓ | Boltz → OpenFold → Chai → ESMFold → AlphaFold |
-| ✓ | ✓ | — | **ERROR** — diffusion tools need MSA; AF / ESMFold cannot use DNA / RNA / ligand |
+| ✓ | — | — | ESMFold (fast single-sequence) |
+| ✓ | — | ✓ | Boltz → OpenFold → Chai → ESMFold |
+| ✓ | ✓ | — | **ERROR** — diffusion tools need an MSA; ESMFold cannot use DNA / RNA / ligand |
 | ✓ | ✓ | ✓ | Boltz → OpenFold → Chai |
 | — | DNA / RNA only | any | Boltz → OpenFold → Chai |
 
@@ -82,8 +84,8 @@ The **MSA Source** selector controls how the multiple sequence alignment is supp
 
 | Source | What happens | When to use |
 |---|---|---|
-| **None** | No MSA is supplied. | Default. Works with Auto (which will pick ESMFold for single-protein, no-MSA inputs), ESMFold, and AlphaFold 2 (which generates its own MSA from BV-BRC's local databases). |
-| **Precomputed MSA from Workspace** | A workspace file selector appears; pick a pre-computed `.a3m`, `.sto`, or `.pqt` file. The service uses it as-is. | Required for Boltz-2, OpenFold 3, and Chai-1. Generate the MSA elsewhere (ColabFold's MMseqs2 server, JackHMMER, or the AlphaFold preprocessing pipeline) and upload the result to your workspace. |
+| **None** | No MSA is supplied. | Default. Works with Auto (which picks ESMFold for single-protein, no-MSA inputs), ESMFold, and ESMFold2. |
+| **Precomputed MSA from Workspace** | A workspace file selector appears; pick a pre-computed `.a3m`, `.sto`, or `.pqt` file. The service uses it as-is. | Required for Boltz-2, OpenFold 3, and Chai-1. Optional for ESMFold2 (`.a3m` only; improves accuracy on hard targets). Generate the MSA elsewhere (e.g. ColabFold's MMseqs2 server or JackHMMER) and upload the result to your workspace. |
 | **Use MSA Server or Service** | BV-BRC computes the MSA with ColabFold (MMseqs2 against UniRef + ColabFoldDB) and feeds it to the selected engine. | When you don't have a pre-computed MSA on hand and the selected tool needs one (Boltz, OpenFold, Chai). Adds 30 s – 3 min to the job. |
 
 Accepted formats for uploaded MSAs:
@@ -94,7 +96,7 @@ Accepted formats for uploaded MSAs:
 | `.sto` | Stockholm | Boltz, OpenFold, Chai (after conversion) |
 | `.pqt`, `.aligned.pqt` | Parquet (Chai-native) | Chai (no conversion) |
 
-ESMFold ignores any MSA. AlphaFold 2 ignores uploaded MSAs and always builds its own from BV-BRC's local databases.
+ESMFold ignores any MSA. ESMFold2 accepts an uploaded `.a3m` but cannot use the MSA server — with *Use MSA Server* selected it folds single-sequence.
 
 ## Output
 

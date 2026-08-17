@@ -41,7 +41,7 @@ DIQMTQSPSSLSASVGDRVTITCRASQDIS...
 | Other inputs | leave empty |
 | Job Name | something descriptive — e.g. `antibody-fv-boltz` |
 
-**Why Boltz for complexes?** Boltz, OpenFold 3, and Chai-1 are all AF3-class diffusion models with strong multimer performance. Boltz is the auto-selector's first choice when an MSA is available; OpenFold and Chai are reasonable swaps if you want to compare.
+**Why Boltz for complexes?** Boltz, OpenFold 3, and Chai-1 are all AF3-class diffusion models with strong multimer performance. Boltz is the auto-selector's first choice when an MSA is available; OpenFold and Chai are reasonable swaps if you want to compare. ESMFold2 also folds complexes (protein, DNA, RNA, ligands) and is the fastest option — typically about a minute — at some accuracy cost on hard targets unless you supply an MSA.
 
 ## Recipe 2 — Protein with a cofactor (CCD code)
 
@@ -99,7 +99,7 @@ The service runs MMseqs2 against UniRef + ColabFoldDB and feeds the result to th
 
 **When *not* to use this:** if you already have an MSA from your own pipeline (JackHMMER, ColabFold local, etc.), upload it instead — your MSA is likely deeper / better filtered than the server's defaults.
 
-## Recipe 5 — Uploaded MSA with Boltz, OpenFold, or Chai
+## Recipe 5 — Uploaded MSA with Boltz, OpenFold, Chai, or ESMFold2
 
 **Goal:** highest-quality fold, with an MSA you've curated.
 
@@ -136,7 +136,7 @@ This is the cleanest way to A/B-test engines without rebuilding the form from sc
 These advanced knobs are *not* surfaced on the web form. Reach them via the CLI or JSON-RPC API:
 
 - `num_samples` — how many independent predictions to generate (default 5; useful for assessing ensemble disagreement)
-- `num_recycles` — recycling iterations (engine-specific defaults; AlphaFold defaults to 3)
+- `num_recycles` — recycling iterations (engine-specific defaults, typically 3)
 - `seed` — random seed for reproducibility (engine-specific)
 - `output_format` — restrict output to a subset (`pdb`, `cif`, `report`, `confidence`, …)
 - Per-engine flags — see each engine's adapter in `PredictStructureApp/adapters/`

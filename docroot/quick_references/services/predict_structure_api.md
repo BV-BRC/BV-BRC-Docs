@@ -120,7 +120,7 @@ The `values` object mirrors the basic app spec in [`app_specs/PredictStructure.j
 
 | Field | Type | Required | Description |
 |---|---|---|---|
-| `tool` | enum | yes | `auto` \| `boltz` \| `openfold` \| `chai` \| `alphafold` \| `esmfold` |
+| `tool` | enum | yes | `auto` \| `boltz` \| `openfold` \| `chai` \| `esmfold` \| `esmfold2` \| `alphafold` (explicit-only; never auto-selected) |
 | `input_file` | wsfile (`ws://...`) | conditional | Protein FASTA. Required unless DNA / RNA / ligand / SMILES / `text_input` is given |
 | `dna_file` | wsfile | no | DNA FASTA (Boltz / OpenFold / Chai only) |
 | `rna_file` | wsfile | no | RNA FASTA (Boltz / OpenFold / Chai only) |
@@ -158,14 +158,15 @@ Even though the schema accepts any combination, the Perl preflight will reject c
 | `boltz` | ✓ | ✓ | ✓ | ✓ | ✓ |
 | `openfold` | ✓ | ✓ | ✓ | ✓ | ✓ |
 | `chai` | ✓ | ✓ | ✓ | — | ✓ |
-| `alphafold` | — | — | — | — | (built locally) |
+| `esmfold2` | ✓ | ✓ | ✓ | ✓ | optional `.a3m` upload (no MSA server) |
+| `alphafold` (explicit-only) | — | — | — | — | (built locally) |
 | `esmfold` | — | — | — | — | — |
 | `auto` | (forwarded; selector decides) | | | | conditional |
 
 Submitting `{ "tool": "alphafold", "dna_file": "ws://..." }` returns:
 
 ```
-error: AlphaFold 2 supports protein only; remove dna_file or change tool to boltz/openfold/chai.
+error: AlphaFold 2 does not support dna input (it supports protein only). Use Boltz-2, Chai-1, ESMFold2, or OpenFold 3, which support dna.
 ```
 
 ## Start parameters

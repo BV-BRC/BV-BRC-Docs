@@ -186,7 +186,7 @@ Set **MSA Source** to *Precomputed MSA from Workspace* and upload an `.a3m`, `.s
 
 ### Job is queued for a long time
 
-GPU partitions are shared. ESMFold jobs have low resource requests and usually start within minutes; Boltz / OpenFold / Chai may wait longer. AlphaFold 2 jobs can wait significantly longer because they hold a GPU for an hour or more.
+GPU partitions are shared. ESMFold and ESMFold2 jobs have low resource requests and usually start within minutes; Boltz / OpenFold / Chai may wait longer.
 
 ### Result viewer doesn't render
 

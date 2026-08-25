@@ -48,6 +48,8 @@ Protein Tools Services
    services/predict_structure_service.md
    services/predict_structure_cli.md
    services/predict_structure_api.md
+   services/stabilinnator_service.md
+   services/stabilinnator_api.md
 
 
 Metagenomics Services

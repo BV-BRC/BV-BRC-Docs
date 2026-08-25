@@ -8,7 +8,7 @@ Two complementary analyses are available, and they can be run together in one jo
 
 | Analysis | Question it answers | Scored residues |
 |---|---|---|
-| **proliNNator** | Which positions would tolerate, or benefit from, substitution to proline? | All standard amino acids |
+| **proliNNator** | Which positions would tolerate, or benefit from, substitution to proline? | All residues except cysteines |
 | **disulfiNNate** | Which cysteine positions are likely to form a stabilizing disulfide bond? | Cysteines (CYS / CYX) |
 
 Both models are Graph Attention Networks that treat the structure as a graph of residues and their spatial neighbors. Each returns a probability between 0 and 1 per residue, written into the **B-factor column** of an annotated PDB so that any structure viewer can color by it directly.
@@ -28,7 +28,9 @@ If you do not already have a structure, run the [Protein Structure Prediction Se
 
 ## Options
 
-### Input Structure File
+The form has three sections — **Input Structure**, **Analysis**, and **Output** — described below in the order they appear.
+
+## Input Structure
 
 A protein structure in **PDB** or **mmCIF** format, selected from your workspace. The structure must contain standard amino acids with CA atoms — the graph is built from residue positions, so a backbone trace at minimum is required.
 
@@ -37,7 +39,7 @@ Two input characteristics are handled automatically:
 - **NMR / multi-model ensembles.** Only the first model is scored. Without this, a 38-model ensemble of a 20-residue peptide would be read as 760 concatenated residues and the scores would be meaningless.
 - **Multiple chains.** All chains present are scored; results identify each residue by chain, position, and insertion code.
 
-### Analysis Type
+## Analysis
 
 Which analysis to run.
 
@@ -48,6 +50,14 @@ Which analysis to run.
 | `disulfide` | disulfiNNate only | Disulfide outputs only |
 
 `both` is the common case; the two analyses are independent and together take only a few seconds longer than either alone.
+
+## Output
+
+Every submission creates a **job** with the name you give it. A workspace object named after the job is created inside the Output Folder and holds all job-related information — parameters, status, logs, and the results themselves.
+
+```
+<Output Folder>/<Job Name>
+```
 
 ### Report Theme
 
@@ -60,24 +70,6 @@ Visual styling for the generated HTML report.
 
 This affects presentation only — the underlying results are identical.
 
-### Advanced options
-
-These rarely need changing.
-
-| Field | Default | Description |
-|---|---|---|
-| **Compute Device** | `cpu` | `cpu` or `gpu`. CPU is recommended and is normally *faster*: the models are small (14–22 KB), so CUDA initialization overhead exceeds any compute savings. |
-| **Hidden Dimension** | `32` | Network hidden dimension. Both shipped models were trained with 32; change only when supplying custom-trained models. |
-| **Dry Run** | off | Validates workspace access and input parsing, then stops without running predictions. |
-
-## Output
-
-Every submission creates a **job** with the name you give it. A workspace object named after the job is created inside the Output Folder and holds all job-related information — parameters, status, logs, and the results themselves.
-
-```
-<Output Folder>/<Job Name>
-```
-
 ### Output Folder
 
 The workspace folder where the job will be created. Must already exist, or create one from the folder selector.
@@ -85,6 +77,18 @@ The workspace folder where the job will be created. Must already exist, or creat
 ### Job Name
 
 Identifier for this run, used as the workspace object name. Results are written to `<Output Folder>/.<Job Name>/`. Give each run its own name; two jobs sharing a name write into the same folder.
+
+## Parameters not on the form
+
+Three parameters are accepted by the service but deliberately not exposed in the
+submission form. They are available through the
+[API](/quick_references/services/stabilinnator_api).
+
+| Parameter | Default | Description |
+|---|---|---|
+| `accelerator` | `cpu` | `cpu` or `gpu`. CPU is recommended and is normally *faster*: the models are small (14–22 KB), so CUDA initialization overhead exceeds any compute savings. |
+| `hidden_dim` | `32` | Network hidden dimension. Both shipped models were trained with 32; change only when supplying custom-trained models. |
+| `dry_run` | `false` | Validates workspace access and input parsing, then stops without running predictions. |
 
 ## Output Results
 

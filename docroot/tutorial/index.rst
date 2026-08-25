@@ -45,6 +45,7 @@ Protein Tools
    docking/docking.md
    predict_structure/predict_structure.md
    predict_structure/predict_structure_recipes.md
+   stabilinnator/stabilinnator.md
 
 
 Metagenomics

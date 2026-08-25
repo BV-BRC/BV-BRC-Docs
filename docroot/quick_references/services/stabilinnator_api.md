@@ -53,7 +53,7 @@ The `values` object mirrors the app spec in [`app_specs/StabiliNNator.json`](htt
 | `output_path` | folder (`ws://...`) | yes | — | Workspace folder where the job result directory will be created |
 | `output_file` | string | yes | — | Job result name; results land at `${output_path}/.${output_file}/` |
 | `theme` | enum | no | `bvbrc` | Report styling: `bvbrc` \| `editorial`. Presentation only |
-| `accelerator` | enum | no | `cpu` | `cpu` \| `gpu`. CPU is recommended and normally faster — see [Choosing a device](#choosing-a-device) |
+| `accelerator` | enum | no | `cpu` | `cpu` \| `gpu`. CPU is recommended and normally faster — see *Choosing a device* below |
 | `hidden_dim` | int | no | `32` | Network hidden dimension. Both shipped models were trained with 32; change only for custom-trained models |
 | `dry_run` | boolean | no | `false` | Validate inputs and workspace access, then stop without predicting |
 

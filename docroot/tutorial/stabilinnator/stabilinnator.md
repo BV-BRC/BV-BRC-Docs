@@ -60,7 +60,7 @@ If your file is an NMR ensemble with multiple models, only the first model is sc
 
 ### Analysis
 
-Leave **Analysis Type** on **Both**. The two analyses are independent and together take only a few seconds longer than either alone. The helper text under the selector changes to describe whichever option you pick.
+Leave **Analysis Type** on **Both (proliNNator + disulfiNNate)**. The two analyses are independent and together take only a few seconds longer than either alone. The helper text under the selector changes to describe whichever option you pick.
 
 ### Output
 
@@ -131,11 +131,16 @@ That illustrates what a high disulfide score means. It says "this cysteine sits 
 
 ## Visualizing scores on the structure
 
-Because the probabilities live in the B-factor column, any structure viewer can color by them. Download `<input>_proline.pdb` and color by B-factor — in PyMOL, `spectrum b`. The highest-scoring positions light up directly on the fold, which is often the fastest way to see whether a candidate sits somewhere structurally sensible, like a loop rather than mid-helix.
+The two annotated structures, `<input>_proline.pdb` and `<input>_disulfide.pdb`, are copies of your input with each residue's predicted probability written into the **B-factor column** — columns 61-66 of a PDB `ATOM` record, normally a crystallographic temperature factor. Nothing else about the structure changes (your input file is untouched), so any viewer can color by it with no extra tooling. Download `<input>_proline.pdb` and color by B-factor — in PyMOL, `spectrum b`. The highest-scoring positions light up directly on the fold, which is often the fastest way to see whether a candidate sits somewhere structurally sensible, like a loop rather than mid-helix.
+
+## Running it again
+
+Run the same structure a second time and you will get the same numbers. The models have fixed weights and no sampling step; three repeat jobs of this crambin example produced byte-identical summaries. So a difference between two of your jobs means a different input — a re-folded model of the same sequence is a different structure — or a new service version, both of which the report header records.
 
 ## What to try next
 
 - Run the same structure with **Analysis Type = Proline sites** or **Disulfide sites** if you only care about one.
+- Score an mmCIF structure. It is converted to PDB for you; only structures that PDB format cannot hold — chain identifiers longer than one character, or more than 99,999 atoms — are rejected, and then with a message telling you which.
 - Fold a sequence with the [Protein Structure Prediction Service](/quick_references/services/predict_structure_service) and score the result here.
 - Pull `<input>_summary.json` into a script — it carries the top 25 sites per analysis with chain, position, residue and probability.
 

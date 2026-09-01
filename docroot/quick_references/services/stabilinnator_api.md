@@ -68,13 +68,15 @@ Workspace files use the `ws://<user>@BVBRC/<path>` URI scheme.
 3. `input_file` is absent.
 4. The input parses as neither PDB (an `ATOM`/`HETATM` record) nor mmCIF (a `data_`/`loop_` block with `_atom_site.` records).
 
+An mmCIF input is converted to PDB before the models run — both read PDB only — and the job also stops if that conversion cannot be done faithfully: multi-character chain identifiers and structures over 99,999 atoms exceed what PDB format can represent, and are reported rather than truncated. Multi-model entries are reduced to the first model, for mmCIF and PDB alike.
+
 `analysis_type` is validated against its enum by the framework before the service script runs.
 
 ### Choosing a device
 
 `accelerator` defaults to `cpu`, and that is the recommended setting. The two models are 14–22 KB; CUDA initialization costs several seconds, which exceeds the compute it saves. Setting `gpu` requests a GPU and, if CUDA is unavailable at runtime, the job fails rather than silently falling back.
 
-Note that jobs are *scheduled* on a GPU partition regardless of this setting. That is a placement constraint — the shared container image is staged on those nodes — and not a statement about how inference runs.
+The partition a job is scheduled on is a placement constraint about where the shared container image is staged, not a statement about how inference runs; it is set by preflight and is not client-controllable.
 
 ## Start parameters
 
@@ -90,7 +92,7 @@ The AppService calls preflight internally before scheduling; clients do not call
   "memory": "1G",
   "runtime": 600,
   "storage": "1G",
-  "policy_data": { "gpu_count": 0, "partition": "gpu2" }
+  "policy_data": { "gpu_count": 0, "partition": "compute" }
 }
 ```
 

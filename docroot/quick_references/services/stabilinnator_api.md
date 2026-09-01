@@ -179,6 +179,10 @@ Sites carry `"note": "already PRO"` where a high-scoring proline position is alr
 
 Chaining the two services this way — predict a structure, then score it for stabilizing mutations — is the common workflow.
 
+## Citation
+
+- Olson RD et al. **Introducing the Bacterial and Viral Bioinformatics Resource Center (BV-BRC): a resource combining PATRIC, IRD and ViPR.** *Nucleic Acids Research* 51(D1), D678–D689 (2023). [doi:10.1093/nar/gkac1003](https://doi.org/10.1093/nar/gkac1003)
+
 ## See also
 
 - [Quick Reference](/quick_references/services/stabilinnator_service)

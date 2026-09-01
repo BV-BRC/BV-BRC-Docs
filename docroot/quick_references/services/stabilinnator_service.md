@@ -183,5 +183,11 @@ There is no run-to-run variation to average over. If two of your jobs disagree, 
 
 ## References
 
+If you use results from this service in a publication, please cite BV-BRC:
+
+- Olson RD et al. **Introducing the Bacterial and Viral Bioinformatics Resource Center (BV-BRC): a resource combining PATRIC, IRD and ViPR.** *Nucleic Acids Research* 51(D1), D678–D689 (2023). [doi:10.1093/nar/gkac1003](https://doi.org/10.1093/nar/gkac1003)
+
+Methods and source:
+
 - stabiliNNator source: [github.com/schoederlab/stabiliNNator](https://github.com/schoederlab/stabiliNNator)
 - Veličković P et al. **Graph Attention Networks.** *ICLR* (2018). [arXiv:1710.10903](https://arxiv.org/abs/1710.10903)

@@ -137,6 +137,14 @@ The two annotated structures, `<input>_proline.pdb` and `<input>_disulfide.pdb`,
 
 Run the same structure a second time and you will get the same numbers. The models have fixed weights and no sampling step; three repeat jobs of this crambin example produced byte-identical summaries. So a difference between two of your jobs means a different input — a re-folded model of the same sequence is a different structure — or a new service version, both of which the report header records.
 
+## Citing this work
+
+If a result from this service ends up in a publication, please cite BV-BRC:
+
+- Olson RD et al. **Introducing the Bacterial and Viral Bioinformatics Resource Center (BV-BRC): a resource combining PATRIC, IRD and ViPR.** *Nucleic Acids Research* 51(D1), D678–D689 (2023). [doi:10.1093/nar/gkac1003](https://doi.org/10.1093/nar/gkac1003)
+
+The report footer carries the same reference, so it travels with a downloaded report.
+
 ## What to try next
 
 - Run the same structure with **Analysis Type = Proline sites** or **Disulfide sites** if you only care about one.

@@ -43,5 +43,5 @@ Users may at any time review, update, correct or delete the personal information
 
 [About BV-BRC](https://www.bv-brc.org/about) 
 
-[Contact Us](https://www.bv-brc.org/contact) 
+Contact Us: use **Contact Us** in the **About** menu at the top of any BV-BRC page, or email help@bv-brc.org.
 

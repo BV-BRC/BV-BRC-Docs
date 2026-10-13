@@ -1,20 +1,21 @@
 # About Us
 
-PATRIC is the ***Bacterial Bioinformatics Resource Center***, an information system designed to support the biomedical research community’s work on bacterial infectious diseases via integration of vital pathogen information with rich data and analysis tools. PATRIC sharpens and hones the scope of available bacterial phylogenomic data from numerous sources specifically for the bacterial research community, in order to save biologists time and effort when conducting comparative analyses. The freely available PATRIC platform provides an interface for biologists to discover data and information and conduct comprehensive comparative genomics and other analyses in a one-stop shop. PATRIC is a NIH/NIAID-funded project of the University of Chicago with subcontract to the Biocomplexity Institute and Initiative of the University of Virginia.
+BV-BRC is the ***Bacterial and Viral Bioinformatics Resource Center***, an information system designed to support the biomedical research community’s work on bacterial and viral infectious diseases via integration of vital pathogen information with rich data and analysis tools. BV-BRC brings together bacterial and viral genomic data from numerous sources, in order to save biologists time and effort when conducting comparative analyses. The freely available BV-BRC platform provides an interface for biologists to discover data and information and conduct comprehensive comparative genomics and other analyses in a one-stop shop. BV-BRC is a NIH/NIAID-funded project of the University of Chicago with subcontract to the Biocomplexity Institute and Initiative of the University of Virginia. The BV-BRC Principal Investigator is Rick Stevens.
 
-## What PATRIC Offers
+BV-BRC combines and continues the PATRIC (bacterial) and IRD/ViPR (viral) resource centers.
 
-* [**Comprehensive Collection of Consistently Annotated Genomes**](/quick_references/organisms_taxon/genome_annotations) across all sequenced bacterial species from GenBank and other sources via RASTtk, a highly cited automated prokaryotic annotation system.
+## What BV-BRC Offers
+
+* [**Comprehensive Collection of Consistently Annotated Genomes**](/quick_references/organisms_taxon/genome_annotations) across sequenced bacterial and viral species from GenBank and other sources.
 * [**Rich Genome Metadata**](/quick_references/organisms_taxon/genome_metadata) parsed from a variety of sources in over 60 fields such as, isolation source, geographic location, year of isolation, host and/or environment, antimicrobial resistance (AMR) phenotype, among others.
 * [**Data Integration Across Sources, Data Types, Molecular Entities, and Organisms**](/quick_references/organisms_tab). Data types include genomics, transcriptomics, protein-protein interactions, 3D protein structures, sequence typing data, and metadata, and are summarized and organized at various taxon, genome, and gene levels.
 * [**Suite of High-Throughput Computational Analysis Services**](/quick_references/services_tab) including Comprehensive Genome Analysis, Genome Assembly, Genome Annotation, Similar Genome Finder, Proteome Comparison, Protein Family Sorter, Pathway Comparison, Metabolic Model Reconstruction, Phylogenetic Tree Construction, Variation/SNP Analysis, RNA-Seq Analysis, Differential Expression Analysis, TN-Seq Analysis, Metagenomic Binning, and others.
-* [**Command-Line Interface**](./cli_tutorial/) for programmatic access to PATRIC data and analysis services.
-* [**Personal Private Workspace**](/quick_references/workspace_groups_upload) to permanently save groups of genomic data, gene associations, and uploaded private data. Both private and public data can be analyzed together using PATRIC analysis tools. Data can be shared with other registered PATRIC users.
+* [**Command-Line Interface**](./cli_tutorial/) for programmatic access to BV-BRC data and analysis services.
+* [**Personal Private Workspace**](/quick_references/workspace_groups_upload) to permanently save groups of genomic data, gene associations, and uploaded private data. Both private and public data can be analyzed together using BV-BRC analysis tools. Data can be shared with other registered BV-BRC users.
 
-## PATRIC Brochure
-![PATRIC Brochure thumbnail](_static/images/patric-flyer-2018.png)
+## Contact Us
 
-[Click here to download the brochure PDF](_static/files/patric-flyer-2018.pdf)
+Use **Contact Us** in the **About** menu at the top of any BV-BRC page, or email help@bv-brc.org.
 
 ## About the University of Chicago Department of Computer Science
 The <a href="https://www.cs.uchicago.edu/" target="_blank">University of Chicago Department of Computer Science</a> (CS) is at the core of the university’s computing and data science activities. Founded in 1983, UChicago CS established itself as one of the world’s leading departments for theoretical computer science research, and has built upon that foundation in the 21st century by expanding into computer systems, cybersecurity, machine learning and artificial intelligence, human-computer interaction, and other areas at the frontier of computation and technology. UChicago CS provides a growing set of options for undergraduate, masters, and PhD students, and benefits from the University of Chicago’s excellence across the spectrum of sciences, policy, business, and medicine to form innovative and unique collaborations. In Fall 2018, UChicago CS moved into a new, state-of-the-art research and teaching facility in the John Crerar Library building.

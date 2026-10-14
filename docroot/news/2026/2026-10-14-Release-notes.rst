@@ -1,7 +1,7 @@
 BV-BRC Web Update: New Influenza Search Features, Expanded Viral Analysis, and Improved Workflows
 =================================================================================================
 
-**October 2026 | BV-BRC Web Version 3.59.7**
+**October 2026 | BV-BRC Web Version 3.59.14**
 
 The Bacterial and Viral Bioinformatics Resource Center (BV-BRC) has introduced several updates to improve how researchers search, analyze, and visualize pathogen genomic data. The latest web release includes new influenza search capabilities, expanded Sequence Feature Variant Type (SFVT) analysis, improvements to protein structure prediction workflows, and updates to outbreak and surveillance maps.
 
@@ -14,7 +14,7 @@ A dedicated **Influenza Search** interface provides researchers with additional 
 
 The updated interface also includes improved options for customizing search results. Using the **Select Columns** button above the results table, researchers can choose which data fields are displayed, allowing them to focus on information most relevant to their analysis. Selected search options can also appear as default columns in the results.
 
-Additional interface improvements provide better support for different screen sizes and web browsers.
+Additional interface improvements provide better support for different screen sizes and web browsers. A full step by step tutorial is below please check it out and give us any feedback as needed. 
 
 Expanded Sequence Feature Variant Type (SFVT) Analysis
 -------------------------------------------------------

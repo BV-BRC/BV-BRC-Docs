@@ -45,6 +45,11 @@ BV-BRC has updated its outbreak and surveillance maps by transitioning from Goog
 
 The transition includes refreshed map styling, improved legend organization, and updates to the underlying mapping components. These changes support a more consistent experience when exploring geographic and surveillance information associated with pathogen outbreaks.
 
+.. image:: ../images/2026/new_map.png
+   :width: 500
+   :alt: Updated BV-BRC outbreak and surveillance map using Leaflet
+   :align: center
+
 
 Additional Updates and Improvements
 -----------------------------------
@@ -59,6 +64,12 @@ This release also includes several other enhancements across BV-BRC:
   `Influenza Vaccine Strain page <https://www.bv-brc.org/view/VaccineStrain>`_
   provides access to influenza vaccine strain information and
   feature highlights.
+
+.. image:: ../images/2026/vaccine_strain.png
+   :width: 500
+   :alt: BV-BRC Influenza Vaccine Strain page
+   :align: center
+
 
 * **Workspace Improvements:** Fixes to workspace selection, output
   folder navigation, and favorites management. Users can access

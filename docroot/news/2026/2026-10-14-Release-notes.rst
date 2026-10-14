@@ -19,7 +19,7 @@ Additional interface improvements provide better support for different screen si
 Expanded Sequence Feature Variant Type (SFVT) Analysis
 -------------------------------------------------------
 
-BV-BRC has expanded its **Sequence Feature Variant Type (SFVT)** functionality to include data for **Ebola virus and Influenza B**.
+BV-BRC has expanded its **Sequence Feature Variant Type (SFVT)** functionality to include data for **Ebola virus**.
 
 SFVT analysis helps researchers examine combinations of amino acid variations within defined sequence features. The expanded coverage provides additional opportunities to investigate viral sequence variation and compare biologically relevant features across sequences.
 
@@ -45,17 +45,38 @@ BV-BRC has updated its outbreak and surveillance maps by transitioning from Goog
 
 The transition includes refreshed map styling, improved legend organization, and updates to the underlying mapping components. These changes support a more consistent experience when exploring geographic and surveillance information associated with pathogen outbreaks.
 
+
 Additional Updates and Improvements
-------------------------------------
+-----------------------------------
 
 This release also includes several other enhancements across BV-BRC:
 
-* **Influenza B Subspecies Classification:** Additional Influenza B options are now available in the Subspecies Classification service.
-* **Influenza Vaccine Strain Information:** A new vaccine strain page provides access to influenza-related information and feature highlights.
-* **Workspace Improvements:** Fixes to workspace selection, output folder navigation, and favorites management.
-* **Homology and BLAST:** Improvements to metadata retrieval, large result handling, and workspace navigation.
-* **Search and Filtering:** Corrections to Collection Year filtering, results display, and data retrieval.
-* **Platform Reliability:** Security updates, dependency upgrades, and infrastructure improvements to support a more stable user experience.
+* **Influenza B Subspecies Classification:** Additional Influenza B
+  options are now available in the
+  `Subspecies Classification Service <https://www.bv-brc.org/app/SubspeciesClassification>`_.
+
+* **Influenza Vaccine Strain Information:** A new
+  `Influenza Vaccine Strain page <https://www.bv-brc.org/view/VaccineStrain>`_
+  provides access to influenza vaccine strain information and
+  feature highlights.
+
+* **Workspace Improvements:** Fixes to workspace selection, output
+  folder navigation, and favorites management. Users can access
+  their files through the
+  `BV-BRC Workspace <https://www.bv-brc.org/workspace>`_.
+
+* **Homology and BLAST:** Improvements to metadata retrieval, large
+  result handling, and workspace navigation. Explore the
+  `BLAST Search <https://www.bv-brc.org/app/BLAST>`_
+  tool for sequence similarity analysis.
+
+* **Search and Filtering:** Corrections to Collection Year filtering,
+  results display, and data retrieval.
+
+* **Platform Reliability:** Security updates, dependency upgrades,
+  and infrastructure improvements to support a more stable user
+  experience.
+
 
 Explore the Latest Updates
 --------------------------

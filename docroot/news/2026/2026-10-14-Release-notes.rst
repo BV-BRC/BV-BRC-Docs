@@ -21,11 +21,39 @@ Expanded Sequence Feature Variant Type (SFVT) Analysis
 
 BV-BRC has expanded its **Sequence Feature Variant Type (SFVT)** functionality to include data for **Ebola virus**.
 
-SFVT analysis helps researchers examine combinations of amino acid variations within defined sequence features. The expanded coverage provides additional opportunities to investigate viral sequence variation and compare biologically relevant features across sequences.
 
-Researchers can explore the expanded functionality through the `BV-BRC SFVT Search <https://www.bv-brc.org/searches/SFVTSearch>`_, which provides access to sequence feature variation data across supported viruses.
+.. image:: https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-14/218ded48-dd73-43cd-b580-88d03522a90b/action-92c1018840684e04914015b90b9fcccc_94f410e631d048249467b348d58832f0_text_export.jpeg
+   :width: 600
+   :alt: BV-BRC Sequence Feature Variant Types interface
+   :align: center
 
-The newly available Ebola virus data can be explored directly through the `Ebola SFVT page <https://www.bv-brc.org/view/Taxonomy/3044781?#view_tab=sfvt>`_, where users can investigate sequence feature variation within the available Ebola virus datasets.
+
+SFVT analysis helps researchers examine combinations of amino acid
+variations within defined sequence features. The expanded coverage
+provides additional opportunities to investigate viral sequence
+variation and compare biologically relevant features across sequences.
+
+Researchers can explore the expanded functionality through the
+`BV-BRC SFVT Search <https://www.bv-brc.org/searches/SFVTSearch>`_,
+which provides access to sequence feature variation data across
+supported viruses.
+
+.. image:: https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-14/cdd7178d-fd69-48fe-b81b-df70f0911d97/action-5395b461f59347b8b101c34b4cd3ccd2_f082aa7696a244b0bbec8f7514f85b85_text_export.jpeg
+   :width: 600
+   :alt: Ebola virus overview in BV-BRC
+   :align: center
+
+The newly available Ebola virus data can be explored directly
+through the `Ebola SFVT page
+<https://www.bv-brc.org/view/Taxonomy/3044781?#view_tab=sfvt>`_,
+where users can investigate sequence feature variation within
+the available Ebola virus datasets.
+
+
+.. image:: https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-14/4baef87e-833a-40eb-b405-125b60941aaa/action-beaa2030a2f844f2a4758e085666e9b2_06bfd1326b5f437eb2f9caddbbae5d37_text_export.jpeg
+   :width: 600
+   :alt: Ebola virus Sequence Feature Variant Types data
+   :align: center
 
 The SFVT interface has also received improvements to gene-product selection, data loading, and overall responsiveness, making it easier to navigate available data.
 
@@ -48,6 +76,21 @@ The transition includes refreshed map styling, improved legend organization, and
 .. image:: ../images/2026/new_map.png
    :width: 500
    :alt: Updated BV-BRC outbreak and surveillance map using Leaflet
+   :align: center
+
+
+New Sequence Selection and Results Customization
+------------------------------------------------
+
+The updated Influenza Search interface introduces new options for
+selecting sequences and customizing search results. The **Select
+Columns** feature allows users to choose which metadata fields
+are displayed in the results table, making it easier to focus
+on relevant genomic and epidemiological information.
+
+.. image:: https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-14/2d45a217-db3f-4231-bf13-bc8228841017/action-17b6fd7165e540919bc09b9c47cb1020_072113bec27c42d4b97f2f0468946f84_text_export.jpeg
+   :width: 600
+   :alt: BV-BRC Influenza Search sequence selection and results customization
    :align: center
 
 
@@ -150,23 +193,3 @@ Configure Search Filters
       :alt: Run the influenza search
       :width: 650px
 
-Review and Download Results
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-8. Review the search results and select the records to export using the checkbox in the results table.
-
-   .. image:: https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-14/bd0dd631-dccb-4917-b4af-a6abaee17957/action-6bda08f6defd48b5bf1c62267f9bd856_f0ce76aabb414a37b02f41797e7924ef_text_export.jpeg
-      :alt: Select a record in the results table
-      :width: 650px
-
-9. Open the export or download menu for the selected records.
-
-   .. image:: https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-14/14522604-fdbe-490c-b57a-0fce4601d3c6/action-39ebec04a8934eaa97489d90b3a51d78_0d8d6882fe374c7ea01baac4cf2f49b7_text_export.jpeg
-      :alt: Open the sequence export options
-      :width: 650px
-
-10. Choose **DNA FASTA** to export the selected nucleotide sequences.
-
-    .. image:: https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-14/60cb6205-305e-4d93-92ba-6d0dde070563/action-42f2ccadf3284cc1b242ddc9c2a1e585_3b96ce550b474ab89dfa152ab192876c_text_export.jpeg
-       :alt: Choose DNA FASTA as the export format
-       :width: 650px

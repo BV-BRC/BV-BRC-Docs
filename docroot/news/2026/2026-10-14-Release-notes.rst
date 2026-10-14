@@ -159,5 +159,3 @@ Review and Download Results
     .. image:: https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-14/60cb6205-305e-4d93-92ba-6d0dde070563/action-42f2ccadf3284cc1b242ddc9c2a1e585_3b96ce550b474ab89dfa152ab192876c_text_export.jpeg
        :alt: Choose DNA FASTA as the export format
        :width: 650px
-
-For the complete walkthrough, see `Searching and Exporting Avian Influenza Data on BV-BRC <https://scribehow.com/o/B2SvvvDxRYevUXP7yx12ig/viewer/Searching_and_Exporting_Avian_Influenza_Data_on_BV-BRC__9jHW4v4KRbS4tdbS4Bn_tg>`_.

@@ -17,8 +17,6 @@ News and Announcements
    2026/2026-05-15-Hantavirus-Outbreak.rst
    2025/2025-12-01-workshops-2026.rst
    2025/2025-09-22-BRC-Webinar-Series.rst
-   2025/2025-09-19-brc-niaid-ai-codeathon.rst
-   2025/2025-08-12-august-2025-release.rst
 
 
 .. toctree::

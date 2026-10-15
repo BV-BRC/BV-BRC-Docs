@@ -1,96 +1,42 @@
 # BV-BRC Copilot
 
-*Last updated 21 July 2025*
+*Last updated 15 October 2026*
 
----
+BV-BRC Copilot is a chat assistant built into the BV-BRC website. You describe what you want in plain language, and Copilot works with BV-BRC on your behalf: it answers questions about BV-BRC and its documentation, searches BV-BRC data, looks through the files in your workspace, prepares and submits analysis jobs, builds genome and feature groups, and helps you read the results of finished jobs.
 
-## 1  What is BV-BRC Copilot?
+**Copilot is in beta.** It can misunderstand a request or get a detail wrong. Anything that changes your account, such as submitting a job or creating a group, is shown to you first and only runs after you answer **Yes**, so check what it prepared before you agree. Your feedback (the thumbs on each answer, or **Report Issue** on a chat) helps us improve it.
 
-BV‑BRC Copilot is an AI‑powered chat assistant embedded throughout the BV‑BRC website. It is designed to serve both as a virtual helpdesk—guiding users through data, tools, analysis services, and job results in real time—and as a knowledge hub that can explain broader biology and bioinformatics concepts without leaving the site. Copilot can optionally use a live screenshot of the page you are viewing to answer page‑specific questions with greater accuracy.
+You need a BV-BRC account and must be logged in to use Copilot.
 
-The BV‑BRC Copilot is currently in beta. Your feedback will help us continually refine and enhance its capabilities.
+## Guides
 
----
+| Page | What it covers |
+| --- | --- |
+| [Getting started](getting_started.md) | Opening Copilot, asking your first questions, what to expect from an answer |
+| [The chat window](interface.md) | Every button: the chat list, the cog menu on each chat, settings, message buttons, the input bar |
+| [Plan and Execute modes](plan_and_execute.md) | When Copilot asks before acting, and the Yes / No / Other question |
+| [Running jobs and plans](jobs_and_plans.md) | Single jobs, several services, batches of samples, reruns, multi-step plans, finding your results |
+| [Data, files and limits](data_files_limits.md) | Data questions, groups, attaching files and screenshots, limits and tips |
 
-## 2  Opening Copilot
+## What Copilot can do
 
-| Where you are                 | How to open                                           |
-| ----------------------------- | ----------------------------------------------------- |
-| Any BV-BRC page               | Click the **Chat** icon in the lower-right corner     |
-| Data grids or the Job Manager | Click the green **Chat** bar directly above the table |
+| You want to… | Ask, for example |
+| --- | --- |
+| Learn how BV-BRC works | "How do I compare the proteins of two genomes?" · "What does the Variation service do?" |
+| Find data | "How many *Salmonella enterica* genomes from 2023 have antimicrobial resistance data?" |
+| Work with your files | "What's in my folder RNAseq_run2?" · "Summarize the results table from my last job" |
+| Run an analysis | "Assemble the reads in my folder Isolates_May" · "Run Taxonomic Classification on ERR7916233" |
+| Repeat earlier work | "Rerun the jobs in my folder Workshop_2026" |
+| Combine steps | "Find the protein family of this gene, make a group of 50 members, and align them" |
+| Read the literature | "Find recent papers on carbapenem resistance in *Klebsiella pneumoniae*" |
 
-Copilot is available to anyone who is logged in with a valid BV-BRC account.
+## Your data
 
----
+- Your chats are saved to your BV-BRC account and only you can open them. Delete a chat from its cog menu (see [The chat window](interface.md)).
+- Files you attach and the results of jobs Copilot submits are saved in your workspace, in a folder for that chat: `home/chats/<chat id>/`. **Open Folder** in the chat's cog menu takes you there.
+- Jobs Copilot submits run under your account, exactly like jobs you submit from the service forms, and appear in your Jobs list.
+- The language models that power Copilot are hosted at Argonne National Laboratory.
 
-## 3  What Copilot Can Help You With *Today*
+## Need more help?
 
-| Use case                  | Ask Copilot to…                                                                  | Typical examples                                                                           |
-| ------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| **Virtual Helpdesk**      | Explain any BV‑BRC page, <br>data, tool, service, or job.                            | • How to I analyze my bacteriual genome?<br> • How do I use genome annotation service?<br> • Explain the table and filters on current page.<br> • why did my job fail? |
-| **Virtual Knowledge Hub** | Summarize biology or bioinformatics concepts <br>using its built‑in model knowledge. | • Describe this organism and its relevance to public health.<br> •  What is an N50?<br> • How does average nucleotide identity work?                          |
-
-Copilot **does not** run analyses, change your data, or modify jobs — its role is to explain *how*.
-
----
-
-## 4  Using the **Include Screenshot** Button
-
-Inside the chat window you’ll see **Include Screenshot** (camera icon). When enabled, Copilot automatically attaches a snapshot of the page *behind* the chat window (the chat itself is hidden). This lets Copilot “see” the table, form, or report you’re asking about—especially handy for:
-
-* Troubleshooting column options in large data grids
-* Asking “What does this error panel mean?”
-* Getting help interpreting a result file that is open in the browser viewer
-
-> **Privacy note:** Copilot still cannot read private workspace files directly; it only sees what’s visible in the screenshot.
-
----
-
-## 5  Best Practices for Great Answers
-
-1. **Be specific** – mention the page or tool you’re viewing.
-2. **Use complete sentences** – full questions give the best context.
-3. **One task at a time** – break complex requests into separate chats.
-4. **Attach a screenshot** – turn on **Include Screenshot** when visual context matters.
-5. **Check citations** – Copilot cites the docs it used so you can verify the info.
-
----
-
-## 6  Troubleshooting & Issue Reporting
-
-If Copilot fails to answer or behaves oddly:
-
-1. Click **Report Issue** (top of the chat window).
-2. Describe what happened; screenshots are optional but helpful.
-3. Submit—our team reviews reports daily to improve Copilot’s responses.
-
----
-
-## 7  Known Limitations
-
-* Copilot cannot launch, cancel, or rerun failed jobs (yet).
-* Very long or highly technical prompts may exceed context limits—try shorter questions.
-* Private workspace data is *not* read directly; rely on screenshots for file-content questions.
-
----
-
-## 8  BV-BRC Copilot Roadmap
-
-| Phase               | Capability                                        | What it will do                                                                                                                       | Key Features                                                                                                                                                                |
-| ------------------- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Now (Beta v0.9)** | **Virtual Helpdesk**                              | Interactive helpdesk and real‑time virtual assistance <br>for any BV‑BRC page, tool, or analysis job.                     | • Page‑aware answers<br>• Troubleshooting failed jobs<br>• Context‑linked documentation snippets                                                                                      |
-| **v1.x**     | **Virtual Knowledge Integration <br>& Summarization** | • On‑demand concept summaries using built-in knowledge<br> • Retrieve information from external sources and presents concise, context‑aware knowledge. | • Aggregated answers based on external sources.<br>                                                                  |
-| **v2.x**    | **Task & Workflow Automation**                    | On-demand end‑to‑end task automation and analyses.                                                             | • Automated website navigation<br>• Smart search & data retrieval<br>• One‑click custom analysis/visualizations<br>• Full workflow generation and execution |
-
-
-Your feedback via **Report Issue** directly shapes this roadmap.
-
----
-
-## 9  Need More Help?
-
-If Copilot can’t answer, contact the BV-BRC team via **Help → Contact Us** on the main menu. We’re here to keep your research moving.
-
----
-
-**Thank you for using BV-BRC Copilot—your virtual assitant for the BV-BRC Resource.**
+Use **Report Issue** in a chat's cog menu to send that chat to the BV-BRC team, or contact the help desk from the **Help** menu on the BV-BRC website.

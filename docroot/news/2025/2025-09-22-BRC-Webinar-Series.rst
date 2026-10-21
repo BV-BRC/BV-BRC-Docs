@@ -24,14 +24,17 @@ Agenda
 
 Rotating Schedule Across BRCs:
 
+* **November 13th 2026**
+PDN Pathogen Policy Perspectives
+
 * **October 9th 2026**
-CDC Pathogen Genomics Centers of Excellence: Special hour long session: to present their analytics tools
+CDC Pathogen Genomics Centers of Excellence: Special hour long session: to present their analytics tools `Recording <https://youtu.be/1D5g_c4o4rc>`_
 
 * **September 11th 2026**
-PDN Presentation 
+BV-BRC Protein Structure Prediction `Recording <https://youtu.be/XPbadiVh7pU>`_
 
 * **August 14th 2026**
-BRC Analytics Cyclospora-related resources
+BRC Analytics Cyclospora-related resources `Recording <https://youtu.be/1PAiZ6su1uM>`_
 
 * **July 10th 2026**
 BV-BRC Viral Family Level Phylogenetic Trees `Recording <https://youtu.be/aUSZN2XJcy8>`_

@@ -19,5 +19,5 @@ For October 2026, unless otherwise noted
 <br>
 
 **Analysis jobs submitted by users, by type**
-![Submitted Jobs](./images/jobs_sep_2025_feb_2026.png "Submitted jobs")
+![Submitted Jobs](./images/jobs_jan_sep_2026.png "Submitted jobs")
 

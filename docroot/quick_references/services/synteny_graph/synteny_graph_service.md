@@ -10,7 +10,7 @@ The Synteny Graph Service accepts annotated genomes or contigs and constructs a 
 ## Using the Synteny Graph Service
 The **Synteny Graph** submenu option under the **Services** main menu (Genomics category) opens the Synteny Graph input form. *Note: You must be logged into BV-BRC to use this service.*
 
-![Synteny Graph Menu](./images/bv_services_menu.png)
+![Synteny Graph Menu](../../images/bv_services_menu.png)
 
 ## Options
 ![Synteny Graph Input Form](./images/synteny_input_form.png)
@@ -73,10 +73,10 @@ The resulting topological phenomena are detailed below.
 
 The algorithm calculates "momentum" along the heaviest paths in the graph to identify the **Core Backbone**. Nodes and edges that form a continuous, uninterrupted consensus across the majority of genomes are grouped into specific Blocks (e.g., `Block_1`, `Block_2`). Regions that fall below a minimum density threshold are isolated as `Fragment`. 
 
-### Superbubbles (Variation Hotspots)
+### Bounded Variable Loci (Superbubbles & Accessory Insertions)
 ![Superbubbles](./images/superbubbles.png)
 
-A superbubble is a topologically bounded region where the graph diverges from a single "Entry" core gene into multiple different structural paths, before cleanly reconverging at a single "Exit" core gene. It isolates regions of high localized diversity bounded by strict synteny. 
+A bounded variable locus (superbubble) is a topologically bounded region where the graph diverges from a single conserved "Entry" (`IN`) core anchor gene into multiple structural paths—capturing allelic replacements, metabolic cassettes, genomic islands, prophages, or local indels (`is_superbubble` and `alternative_path`)—before cleanly reconverging at a single "Exit" (`OUT`) core anchor gene on the same replicon.
 
 ### Paralogs & Repeats (CNVs)
 ![Paralogs and Repeats](./images/paralogs_repeats.png)
@@ -86,11 +86,6 @@ This encompasses any gene family that exists in multiple copies within a single 
 *   **Dispersed / Multi-Contig CNV (`repeat_ambiguity_fragmentation`):** When copies of a paralogous gene family are scattered across different contigs or replicons (e.g., an antimicrobial resistance gene present on both the main chromosome and a mobile plasmid within the same strain), with drop-out junctions flagged as `repeat_fragmentation_junction`.
 *   **Remote Identical-Context CNV (`cnv_cluster_id`):** Multi-copy gene families occurring at separated loci that share an identical flanking $k$-mer gene neighborhood (such as conserved insertion sequences or transposon cassettes).
 *   **Graph Attributes:** Paralog clusters share a `cnv_cluster_id` (cross-referenced in `*_mobilized_gene_families.tsv`), while edges crossing a copy-number transition record `has_context_cnv = True` along with `cnv_Gain` and `cnv_Loss` genome lists.
-
-### Alternative Paths (Accessory Insertions)
-![Alternative Paths](./images/alternative_paths.png)
-
-An alternative path is a contiguous sequence of genes that bypasses the consensus backbone outside of a superbubble (e.g., a prophage, integrative conjugative element, or genomic island present in a subset of the population). 
 
 ### Structural Rearrangements (Synteny Breakpoints)
 ![Structural Rearrangements](./images/structural_rearrangements.png)

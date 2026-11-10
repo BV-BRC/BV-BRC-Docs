@@ -157,7 +157,7 @@ The green action bar on the far right controls the active selection in the graph
 * **`cnv_cluster_id`** *(Integer)*
   * **Description:** An ID linking all nodes that belong to the same underlying paralogous gene family if they are present in an identical neighborhood (k-mer).
   * **How it is created:** When gene families happen more than once in a genome in an identical neighborhood the algorithm separates them into multiple distinct nodes, it assigns them all the same ID to remember their shared biological signature. This can happen at a distance or in palindromic, contiguous gene families greater than size k.
-  
+
 * **`repeat_ambiguity`**
   * **Description:** True if a local Copy Number Variant (CNV) caused feature assignment ambiguity.
   * **How it is created:** When the algorithm detects a tandem duplication (a gene family repeating within a very short distance), for genomes with fewer copies there is ambiguity as to which instance of a gene should be assigned to which node depending on which alignment signal (anchor) is used. To preserve the full path of the genome with the most copies, the algorithm builds all of the side-by-side nodes for the repeated gene and applies this flag, noting that for the genomes with fewer CNVs there is an order-dependent assignment to the nodes.
@@ -168,15 +168,11 @@ The green action bar on the far right controls the active selection in the graph
 
 * **`synteny_breakpoint`**
   * **Description:** True if the anchors (seed alignments) contradict each other here, indicating a major structural rearrangement or a chimeric misassembly.
-  * **How it is created:** When the algorithm traces the sequence paths from stable genomic anchors, two different continuous paths from the same genome may attempt to force a feature into a single node in a way that violates logical sequence order. The algorithm detects this impossible routing collision and flags the node as the exact epicenter where the synteny broke.
+  * **How it is created:** When the algorithm traces the sequence paths from stable genomic anchors, two different continuous paths from the same genome may attempt to force a feature into a single node in a way that violates the alignment context. The algorithm detects this impossible routing collision and flags the node as the exact epicenter where the synteny alignment could not be reconciled.
 
 * **`assembly_repeat_break`**
   * **Description:** True if contig ends from the same genome collapsed together at a shared repeat.
   * **How it is created:** Similar to a synteny breakpoint, but this triggers specifically when the conflicting paths both sit at the absolute terminal ends of broken contigs. Because the assembler shattered the DNA sequence and failed to provide flanking anchors to separate the copies, the algorithm is forced to collapse the ragged ends into a single node.
-
-* **`alternative_path`**
-  * **Description:** True if this is an internal node of an accessory insertion or secondary structural route.
-  * **How it is created:** The algorithm traces all paths between two conserved anchor points and identifies the "consensus" highway used by the majority of the population. It then identifies paths taken by a minority of genomes. The internal nodes of these minority paths (representing genomic islands, prophages, or indels) receive this flag.
 
 * **`is_scaffold_path`**
   * **Description:** True if this continuous gene bridges an assembly gap for another genome.
@@ -185,6 +181,10 @@ The green action bar on the far right controls the active selection in the graph
 * **`is_superbubble`**
   * **Description:** True if this node sits inside a superbubble (a highly variable evolutionary hotspot).
   * **How it is created:** The algorithm identifies regions where the graph diverges from a single "Entry" core gene into multiple different structural paths, and cleanly reconverges at a single "Exit" core gene. The internal nodes trapped within this bounded, multi-path region receive this flag.
+
+* **`alternative_path`**
+  * **Description:** True if this is an internal node of an accessory insertion or secondary structural route.
+  * **How it is created:** The algorithm traces all paths between two conserved anchor points and identifies the "consensus" highway used by the majority of the population. It then identifies paths outside of superbubbles, taken by a minority of genomes. The internal nodes of these minority paths (representing genomic islands, prophages, or indels) receive this flag.
 
 * **`block`**
   * **Description:** Documents which synteny block the node belongs to (generally corresponding to a composite replicon or core chromosomal backbone).

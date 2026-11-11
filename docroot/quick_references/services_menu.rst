@@ -22,6 +22,7 @@ Genomics Services
    services/primer_design_service.md
    services/similar_genome_finder_service.md
    services/genome_alignment_service.md
+   services/synteny_graph/synteny_graph_service.md
    services/variation_analysis_service.md
    services/tn_seq_analysis_service.md
 
